@@ -20,30 +20,74 @@ The H1 will be structured as: `# Topic name -- Q&A`
 
 There will likely be multiple sections with descriptive names relevant to the domain. Each section will contain multiple Q&A pairs related to the section title.
 
-### Basic Format
+### Basic Format with Structured Metadata
 
-The basic format includes question and answer lines. Typically one question line and possibly multiple answer lines, which may include a list. This may be followed be a code fence. `Tags` and other descriptive information may follow that describe the Q&A pair.
+Each Q&A pair uses JSON frontmatter for programmatic access followed by human-readable content. Frontmatter uses 3 dashes (`---`) and Q&A separators use 6 dashes (`------`).
 
 ````markdown
+---
+difficulty: "beginner"
+validation: "code-compiles"
+topics: ["cli", "execution"]
+audience: ["all-developers"]
+source-authority: "official-docs"
+last-verified: "2024-09-15"
+---
 Q: [Question in natural language]
 A: [Complete, standalone answer]
 ```csharp
 // Code if relevant
 ```
-Tags: [category1, category2, category3]
-Validation: [How to verify the answer is correct]
+
+------
 ````
 
 ### Multi-Question Format
 A Q&A pair may have multiple questions with the same answer.
 
 ````markdown
+---
+difficulty: "intermediate"
+validation: "runtime"
+topics: ["troubleshooting", "arguments"]
+audience: ["all-developers"]
+source-authority: "official-docs"
+last-verified: "2024-09-15"
+---
 Q: [First question variant]
 Q: [Second question variant]
 A: [Single authoritative answer]
-Tags: [category1, category2, category3]
-Validation: [How to verify the answer is correct]
+
+------
 ````
+
+## Structured Metadata Fields
+
+### Required Fields
+- **`difficulty`**: Skill level required (see Difficulty Levels section)
+- **`validation`**: How to verify answer correctness (see Validation Methods section)
+- **`topics`**: Array of topic tags for categorization and cross-referencing
+- **`audience`**: Target developer audience (see Content Types section)
+- **`source-authority`**: Authority level of source material
+- **`last-verified`**: ISO date when content was last validated (YYYY-MM-DD)
+
+### Optional Fields
+- **`related-qa`**: Array of related Q&A identifiers for cross-linking
+- **`version-specific`**: .NET version requirements (e.g., "10+", "8-10")
+- **`platform-specific`**: Platform constraints (e.g., ["windows"], ["linux", "macos"])
+
+### Field Value Standards
+**Source Authority Values:**
+- `"official-docs"`: Microsoft official documentation
+- `"community-high"`: High-quality community content (Andrew Lock, etc.)
+- `"community-good"`: Good community content (blog posts, tutorials)
+- `"stack-overflow"`: Stack Overflow answers with high scores
+
+**Audience Values:**
+- `"all-developers"`: Applicable to all .NET developers
+- `"beginners"`: New to .NET or programming
+- `"backend-developers"`: Server-side development focus
+- `"platform-developers"`: Framework and tooling developers
 
 ## Labeling Taxonomy
 
@@ -118,24 +162,36 @@ Before content is considered complete, verify:
 - [ ] **Source Authority**: Claims are backed by authoritative sources
 - [ ] **Scope Precision**: Each Q&A addresses exactly what is asked, no more
 
+## Benefits of Structured Metadata
+
+### Programmatic Access
+- **Automated filtering**: Tools can filter by difficulty, validation type, topics
+- **Quality gates**: Validation field drives automated testing pipelines
+- **Cross-referencing**: Topics array enables automatic relationship discovery
+- **Analytics**: Easy coverage analysis by difficulty, topic, audience
+
+### Content Management
+- **Currency tracking**: `last-verified` dates enable staleness detection
+- **Authority assessment**: `source-authority` enables confidence scoring
+- **Targeted generation**: Audience and difficulty enable personalized content
+- **Relationship mapping**: `related-qa` and `topics` build knowledge graph
+
 ## Anti-Patterns to Avoid
 
-### Overspecification
-- Don't include unnecessary details that make answers hard to match
-- Avoid code comments that restate the obvious
-- Don't answer questions that weren't asked
+### Metadata Quality
+- Don't use generic topic tags that could apply to any technology
+- Avoid outdated `last-verified` dates without actual verification
+- Don't mix difficulty levels within single Q&A pairs
+- Ensure `validation` method actually applies to the answer content
 
-### Scope Creep
-- Keep each Q&A focused on a single concern
-- Split overloaded questions into focused variants
-- Don't mix basic and advanced concepts in the same answer
+### Content Structure
+- Keep each Q&A focused on a single concern despite rich metadata
+- Don't let metadata complexity overshadow answer quality
+- Avoid inconsistent separator usage (always 6 dashes for Q&A separation)
+- Don't duplicate information between metadata and answer content
 
-### Poor Validation
+### Scope and Validation
 - Don't grade LLM answers as wrong for being more precise
 - Avoid validation criteria that penalize better phrasing
 - Don't require exact word matching over semantic equivalence
-
-### Generic Content
-- Avoid answers that could apply to any technology
-- Include specific syntax, commands, and examples
-- Don't use placeholder values without clear context
+- Include specific syntax, commands, and examples rather than generic content

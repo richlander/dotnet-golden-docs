@@ -1,0 +1,89 @@
+{
+  "kind": "topic-index",
+  "title": "C# 14 Language Features",
+  "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax.",
+  "category": "Language Features",
+  "complexity": "Beginner to intermediate",
+  "priority": 2,
+  "links": {
+    "self": {
+      "href": "csharp/csharp-14-features/index.json"
+    },
+    "semantic_neighbors": [
+      {
+        "relative": "csharp/index.json",
+        "title": "csharp",
+        "similarity": 0.6235
+      },
+      {
+        "relative": "dotnet/index.json",
+        "title": ".NET",
+        "similarity": 0.612
+      },
+      {
+        "relative": "cli/index.json",
+        "title": "cli",
+        "similarity": 0.5428
+      },
+      {
+        "relative": "cli/file-based-apps/index.json",
+        "title": "file based apps",
+        "similarity": 0.5031
+      },
+      {
+        "relative": "libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 library improvements",
+        "similarity": 0.4203
+      }
+    ]
+  },
+  "embedded": {
+    "documents": [
+      {
+        "name": "topic-spec",
+        "type": "markdown",
+        "title": "Topic Specification",
+        "links": {
+          "self": {
+            "href": "csharp/csharp-14-features/topic-spec.md"
+          }
+        }
+      },
+      {
+        "name": "golden-reference",
+        "type": "markdown",
+        "title": "Golden Reference",
+        "links": {
+          "self": {
+            "href": "csharp/csharp-14-features/golden-reference.md"
+          }
+        }
+      },
+      {
+        "name": "qa-pairs",
+        "type": "markdown",
+        "title": "Q\u0026A Pairs",
+        "links": {
+          "self": {
+            "href": "csharp/csharp-14-features/qa-pairs.md"
+          }
+        }
+      },
+      {
+        "name": "sources",
+        "type": "markdown",
+        "title": "Sources",
+        "links": {
+          "self": {
+            "href": "csharp/csharp-14-features/sources.md"
+          }
+        }
+      }
+    ],
+    "topics": null
+  },
+  "metadata": {
+    "generated_on": "2025-09-17T03:44:05.4640160Z",
+    "generated_by": "IndexTool"
+  }
+}

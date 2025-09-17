@@ -1,0 +1,78 @@
+{
+  "kind": "topic-index",
+  "title": "cli",
+  "description": "",
+  "category": "topic",
+  "complexity": "",
+  "priority": 10,
+  "links": {
+    "self": {
+      "href": "cli/index.json"
+    },
+    "semantic_neighbors": [
+      {
+        "relative": "cli/file-based-apps/index.json",
+        "title": "file based apps",
+        "similarity": 0.7109
+      },
+      {
+        "relative": "dotnet/index.json",
+        "title": ".NET",
+        "similarity": 0.6971
+      },
+      {
+        "relative": "csharp/index.json",
+        "title": "csharp",
+        "similarity": 0.6869
+      },
+      {
+        "relative": "csharp/csharp-14-features/index.json",
+        "title": "csharp 14 features",
+        "similarity": 0.5428
+      },
+      {
+        "relative": "libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 library improvements",
+        "similarity": 0.4541
+      }
+    ]
+  },
+  "embedded": {
+    "documents": null,
+    "topics": [
+      {
+        "name": "file-based-apps",
+        "title": "File-based Apps",
+        "category": "CLI",
+        "complexity": "beginner to intermediate",
+        "priority": 2,
+        "links": {
+          "self": {
+            "href": "cli/file-based-apps/index.json"
+          },
+          "semantic_neighbors": [
+            {
+              "relative": "dotnet/index.json",
+              "title": ".NET",
+              "similarity": 0.7638
+            },
+            {
+              "relative": "csharp/index.json",
+              "title": "csharp",
+              "similarity": 0.7492
+            },
+            {
+              "relative": "cli/index.json",
+              "title": "cli",
+              "similarity": 0.7109
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "generated_on": "2025-09-17T03:44:05.4694380Z",
+    "generated_by": "IndexTool"
+  }
+}

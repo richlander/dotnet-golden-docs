@@ -1,0 +1,104 @@
+{
+  "kind": "topic-index",
+  "title": "File-based Apps",
+  "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.",
+  "category": "CLI",
+  "complexity": "beginner to intermediate",
+  "priority": 2,
+  "links": {
+    "self": {
+      "href": "cli/file-based-apps/index.json"
+    },
+    "semantic_neighbors": [
+      {
+        "relative": "cli/index.json",
+        "title": "Cli",
+        "similarity": 0.8047
+      },
+      {
+        "relative": "dotnet/index.json",
+        "title": "Dotnet",
+        "similarity": 0.7638
+      },
+      {
+        "relative": "csharp/index.json",
+        "title": "Csharp",
+        "similarity": 0.7492
+      },
+      {
+        "relative": "cli/native-aot/index.json",
+        "title": "Native Aot",
+        "similarity": 0.6089
+      },
+      {
+        "relative": "cli/build-and-compilation/index.json",
+        "title": "Build And Compilation",
+        "similarity": 0.6015
+      },
+      {
+        "relative": "cli/publishing-and-deployment/index.json",
+        "title": "Publishing And Deployment",
+        "similarity": 0.5814
+      }
+    ]
+  },
+  "embedded": {
+    "documents": [
+      {
+        "name": "topic-spec",
+        "type": "markdown",
+        "title": "Topic Specification",
+        "links": {
+          "self": {
+            "href": "cli/file-based-apps/topic-spec.md"
+          }
+        }
+      },
+      {
+        "name": "golden-reference",
+        "type": "markdown",
+        "title": "Golden Reference",
+        "links": {
+          "self": {
+            "href": "cli/file-based-apps/golden-reference.md"
+          }
+        }
+      },
+      {
+        "name": "qa-pairs",
+        "type": "markdown",
+        "title": "Q\u0026A Pairs",
+        "links": {
+          "self": {
+            "href": "cli/file-based-apps/qa-pairs.md"
+          }
+        }
+      },
+      {
+        "name": "sources",
+        "type": "markdown",
+        "title": "Sources",
+        "links": {
+          "self": {
+            "href": "cli/file-based-apps/sources.md"
+          }
+        }
+      },
+      {
+        "name": "validation",
+        "type": "markdown",
+        "title": "Validation",
+        "links": {
+          "self": {
+            "href": "cli/file-based-apps/validation.md"
+          }
+        }
+      }
+    ],
+    "topics": null
+  },
+  "metadata": {
+    "generated_on": "2025-09-17T22:55:54.2727970Z",
+    "generated_by": "IndexTool"
+  }
+}
