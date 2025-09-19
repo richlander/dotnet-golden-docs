@@ -14,6 +14,7 @@ Synergistic with: ASP.NET Core APIs, Source generators, HttpClient extensions
 Name: System.Text.Json
 ID: system-text-json
 Category: Libraries
+Description: System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0+ that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON).
 Complexity: Beginner | Intermediate | Advanced
 Audience: All developers | Web developers | API developers
 Priority: 1 (Critical)

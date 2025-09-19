@@ -7,6 +7,7 @@ Collection topic covering key .NET 10 library improvements including numeric str
 Name: .NET 10 Libraries Features
 ID: dotnet-10-library-improvements
 Category: Libraries
+Description: Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations.
 Complexity: Beginner to intermediate
 Audience: All developers
 Priority: 2 (Common usage - multiple widely-requested features)

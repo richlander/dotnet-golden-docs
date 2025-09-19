@@ -1,5 +1,5 @@
 {
-  "kind": "root-index",
+  "id": "",
   "title": ".NET Knowledge Graph",
   "description": "Root index of .NET documentation topics and categories",
   "category": "Root",
@@ -7,117 +7,75 @@
   "priority": 1,
   "links": {
     "self": {
-      "href": "index.json"
-    },
-    "semantic_neighbors": null
+      "name": "self",
+      "href": "/",
+      "description": "Root knowledge graph"
+    }
   },
   "embedded": {
-    "documents": null,
+    "similar_categories": null,
+    "similar_documents": null,
     "topics": [
       {
         "name": "cli",
-        "title": "cli",
-        "category": "category",
-        "complexity": "",
-        "priority": 10,
+        "title": "CLI",
+        "category": "CLI",
+        "complexity": "beginner to advanced",
+        "priority": 1,
         "links": {
           "self": {
-            "href": "cli/index.json"
-          },
-          "semantic_neighbors": [
-            {
-              "relative": "cli/file-based-apps/index.json",
-              "title": "file based apps",
-              "similarity": 0.7109
-            },
-            {
-              "relative": "dotnet/index.json",
-              "title": ".NET",
-              "similarity": 0.6971
-            },
-            {
-              "relative": "csharp/index.json",
-              "title": "csharp",
-              "similarity": 0.6869
-            }
-          ]
+            "name": "self",
+            "href": "/cli",
+            "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle."
+          }
         }
       },
       {
         "name": "csharp",
-        "title": "c#",
-        "category": "category",
-        "complexity": "",
-        "priority": 10,
+        "title": "C# Language",
+        "category": "C# Language",
+        "complexity": "beginner to advanced",
+        "priority": 1,
         "links": {
           "self": {
-            "href": "csharp/index.json"
-          },
-          "semantic_neighbors": [
-            {
-              "relative": "dotnet/index.json",
-              "title": ".NET",
-              "similarity": 0.872
-            },
-            {
-              "relative": "cli/file-based-apps/index.json",
-              "title": "file based apps",
-              "similarity": 0.7492
-            },
-            {
-              "relative": "cli/index.json",
-              "title": "cli",
-              "similarity": 0.6869
-            }
-          ]
+            "name": "self",
+            "href": "/csharp",
+            "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment."
+          }
         }
       },
       {
         "name": "dotnet",
-        "title": ".net",
-        "category": "category",
-        "complexity": "",
-        "priority": 10,
+        "title": ".NET Platform",
+        "category": ".NET Platform",
+        "complexity": "beginner to advanced",
+        "priority": 1,
         "links": {
           "self": {
-            "href": "dotnet/index.json"
-          },
-          "semantic_neighbors": [
-            {
-              "relative": "csharp/index.json",
-              "title": "csharp",
-              "similarity": 0.872
-            },
-            {
-              "relative": "cli/file-based-apps/index.json",
-              "title": "file based apps",
-              "similarity": 0.7638
-            },
-            {
-              "relative": "cli/index.json",
-              "title": "cli",
-              "similarity": 0.6971
-            }
-          ]
+            "name": "self",
+            "href": "/dotnet",
+            "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps."
+          }
         }
       },
       {
         "name": "libraries",
-        "title": "libraries",
-        "category": "category",
-        "complexity": "",
-        "priority": 10,
+        "title": ".NET Libraries",
+        "category": ".NET Libraries",
+        "complexity": "beginner to advanced",
+        "priority": 1,
         "links": {
           "self": {
-            "href": "libraries/index.json"
-          },
-          "semantic_neighbors": null
+            "name": "self",
+            "href": "/libraries",
+            "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages."
+          }
         }
       }
     ]
   },
   "metadata": {
-    "generated_on": "2025-09-17T03:44:05.4760460Z",
-    "generated_by": "IndexTool"
+    "generated": "2025-09-18T14:28:04.5183100Z",
+    "generator": "IndexTool/1.0"
   }
 }

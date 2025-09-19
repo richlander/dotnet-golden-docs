@@ -1,5 +1,5 @@
 {
-  "kind": "topic-index",
+  "id": "libraries/dotnet-10-library-improvements",
   "title": ".NET 10 Libraries Features",
   "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios.",
   "category": "Libraries",
@@ -7,93 +7,138 @@
   "priority": 2,
   "links": {
     "self": {
-      "href": "libraries/dotnet-10-library-improvements/index.json"
+      "name": "self",
+      "href": "/libraries/dotnet-10-library-improvements",
+      "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios."
     },
-    "semantic_neighbors": [
-      {
-        "relative": "dotnet/index.json",
-        "title": ".NET",
-        "similarity": 0.5038
-      },
-      {
-        "relative": "cli/index.json",
-        "title": "cli",
-        "similarity": 0.4541
-      },
-      {
-        "relative": "csharp/index.json",
-        "title": "csharp",
-        "similarity": 0.4461
-      },
-      {
-        "relative": "csharp/csharp-14-features/index.json",
-        "title": "csharp 14 features",
-        "similarity": 0.4203
-      },
-      {
-        "relative": "cli/file-based-apps/index.json",
-        "title": "file based apps",
-        "similarity": 0.4157
-      }
-    ]
+    "parent": {
+      "name": "parent",
+      "href": "/libraries",
+      "description": "Libraries category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/dotnet-10-library-improvements/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/dotnet-10-library-improvements/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/libraries/dotnet-10-library-improvements/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "sources": {
+      "name": "Authoritative Sources",
+      "href": "/libraries/dotnet-10-library-improvements/sources.md",
+      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
+    },
+    "validation": {
+      "name": "Validation Requirements",
+      "href": "/libraries/dotnet-10-library-improvements/validation.md",
+      "description": "Testing requirements and validation rules for content accuracy and code example verification"
+    }
   },
   "embedded": {
-    "documents": [
+    "similar_categories": [
       {
-        "name": "topic-spec",
-        "type": "markdown",
-        "title": "Topic Specification",
-        "links": {
-          "self": {
-            "href": "libraries/dotnet-10-library-improvements/topic-spec.md"
+        "category": "cli",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "cli/native-aot",
+            "title": "Native AOT",
+            "similarity": 0.5803
+          },
+          {
+            "id": "cli/publishing-and-deployment",
+            "title": "Publishing and Deployment",
+            "similarity": 0.4786
+          },
+          {
+            "id": "cli",
+            "title": "CLI",
+            "similarity": 0.426
+          },
+          {
+            "id": "cli/file-based-apps",
+            "title": "File-based apps",
+            "similarity": 0.4157
           }
-        }
+        ]
       },
       {
-        "name": "golden-reference",
-        "type": "markdown",
-        "title": "Golden Reference",
-        "links": {
-          "self": {
-            "href": "libraries/dotnet-10-library-improvements/golden-reference.md"
+        "category": "dotnet",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.5038
           }
-        }
+        ]
       },
       {
-        "name": "qa-pairs",
-        "type": "markdown",
-        "title": "Q\u0026A Pairs",
-        "links": {
-          "self": {
-            "href": "libraries/dotnet-10-library-improvements/qa-pairs.md"
+        "category": "csharp",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.4461
+          },
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.4203
           }
-        }
+        ]
       },
       {
-        "name": "sources",
-        "type": "markdown",
-        "title": "Sources",
-        "links": {
-          "self": {
-            "href": "libraries/dotnet-10-library-improvements/sources.md"
+        "category": "libraries",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries/system-text-json",
+            "title": "System.Text.Json",
+            "similarity": 0.4019
+          },
+          {
+            "id": "libraries",
+            "title": ".NET Libraries",
+            "similarity": 0.3558
           }
-        }
-      },
-      {
-        "name": "validation",
-        "type": "markdown",
-        "title": "Validation",
-        "links": {
-          "self": {
-            "href": "libraries/dotnet-10-library-improvements/validation.md"
-          }
-        }
+        ]
       }
     ],
+    "similar_documents": {
+      "baseline": "golden-reference.md",
+      "documents": [
+        {
+          "name": "topic-spec.md",
+          "similarity": 0.5875
+        },
+        {
+          "name": "sources.md",
+          "similarity": 0.5197
+        },
+        {
+          "name": "validation.md",
+          "similarity": 0.4752
+        },
+        {
+          "name": "qa-pairs.md",
+          "similarity": 0.3875
+        }
+      ]
+    },
     "topics": null
   },
   "metadata": {
-    "generated_on": "2025-09-17T03:44:05.4670350Z",
-    "generated_by": "IndexTool"
+    "generated": "2025-09-18T14:28:04.4812610Z",
+    "generator": "IndexTool/1.0"
   }
 }

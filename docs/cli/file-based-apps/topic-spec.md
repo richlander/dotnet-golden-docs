@@ -1,12 +1,13 @@
-# File-based Apps - Topic Specification
+# File-based apps - Topic Specification
 
 ## Feature Description
 File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.
 
 ## Hierarchy
-Name: File-based Apps
+Name: File-based apps
 ID: file-based-apps
 Category: CLI
+Description: File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure.
 Complexity: beginner to intermediate
 Audience: all developers, especially those focused on scripting and automation
 Priority: 2 (Common usage - recent high-interest feature)

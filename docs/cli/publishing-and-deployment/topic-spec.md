@@ -14,6 +14,8 @@ Synergistic with: Build and compilation, Assembly trimming, Native AOT, Containe
 Name: Publishing and Deployment
 ID: publishing-and-deployment
 Category: CLI
+Description: Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies.
+Category: CLI
 Complexity: Beginner | Intermediate | Advanced
 Audience: All .NET developers | DevOps engineers | System administrators
 Priority: 1 (Critical)

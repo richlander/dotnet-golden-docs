@@ -1,78 +1,87 @@
 {
-  "kind": "topic-index",
-  "title": "c#",
-  "description": "",
-  "category": "topic",
-  "complexity": "",
-  "priority": 10,
+  "id": "csharp",
+  "title": "C# Language",
+  "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment.",
+  "category": "C# Language",
+  "complexity": "beginner to advanced",
+  "priority": 1,
   "links": {
     "self": {
-      "href": "csharp/index.json"
+      "name": "self",
+      "href": "/csharp",
+      "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment."
     },
-    "semantic_neighbors": [
-      {
-        "relative": "dotnet/index.json",
-        "title": ".NET",
-        "similarity": 0.872
-      },
-      {
-        "relative": "cli/file-based-apps/index.json",
-        "title": "file based apps",
-        "similarity": 0.7492
-      },
-      {
-        "relative": "cli/index.json",
-        "title": "cli",
-        "similarity": 0.6869
-      },
-      {
-        "relative": "csharp/csharp-14-features/index.json",
-        "title": "csharp 14 features",
-        "similarity": 0.6235
-      },
-      {
-        "relative": "libraries/dotnet-10-library-improvements/index.json",
-        "title": ".NET 10 library improvements",
-        "similarity": 0.4461
-      }
-    ]
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/csharp/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/csharp/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    }
   },
   "embedded": {
-    "documents": null,
+    "similar_categories": [
+      {
+        "category": "cli",
+        "threshold": 0.559713075697453,
+        "topics": [
+          {
+            "id": "cli/file-based-apps",
+            "title": "File-based apps",
+            "similarity": 0.7492
+          },
+          {
+            "id": "cli",
+            "title": "CLI",
+            "similarity": 0.6651
+          },
+          {
+            "id": "cli/native-aot",
+            "title": "Native AOT",
+            "similarity": 0.5874
+          }
+        ]
+      },
+      {
+        "category": "libraries",
+        "threshold": 0.6019532206889058,
+        "topics": [
+          {
+            "id": "libraries",
+            "title": ".NET Libraries",
+            "similarity": 0.662
+          },
+          {
+            "id": "libraries/system-text-json",
+            "title": "System.Text.Json",
+            "similarity": 0.602
+          }
+        ]
+      }
+    ],
+    "similar_documents": null,
     "topics": [
       {
         "name": "csharp-14-features",
         "title": "C# 14 Language Features",
-        "category": "Language Features",
+        "category": "C# Language",
         "complexity": "Beginner to intermediate",
         "priority": 2,
         "links": {
           "self": {
-            "href": "csharp/csharp-14-features/index.json"
-          },
-          "semantic_neighbors": [
-            {
-              "relative": "csharp/index.json",
-              "title": "csharp",
-              "similarity": 0.6235
-            },
-            {
-              "relative": "dotnet/index.json",
-              "title": ".NET",
-              "similarity": 0.612
-            },
-            {
-              "relative": "cli/index.json",
-              "title": "cli",
-              "similarity": 0.5428
-            }
-          ]
+            "name": "self",
+            "href": "/csharp/csharp-14-features",
+            "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax."
+          }
         }
       }
     ]
   },
   "metadata": {
-    "generated_on": "2025-09-17T03:44:05.4723240Z",
-    "generated_by": "IndexTool"
+    "generated": "2025-09-18T14:28:04.5057200Z",
+    "generator": "IndexTool/1.0"
   }
 }

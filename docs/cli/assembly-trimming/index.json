@@ -1,0 +1,130 @@
+{
+  "id": "cli/assembly-trimming",
+  "title": "Assembly Trimming",
+  "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. The trimmer performs build-time analysis to identify and eliminate code that is not statically reachable, significantly reducing deployment size while maintaining application functionality.",
+  "category": "CLI",
+  "complexity": "Intermediate | Advanced",
+  "priority": 2,
+  "links": {
+    "self": {
+      "name": "self",
+      "href": "/cli/assembly-trimming",
+      "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. The trimmer performs build-time analysis to identify and eliminate code that is not statically reachable, significantly reducing deployment size while maintaining application functionality."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/cli",
+      "description": "Cli category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/cli/assembly-trimming/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/cli/assembly-trimming/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/cli/assembly-trimming/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "sources": {
+      "name": "Authoritative Sources",
+      "href": "/cli/assembly-trimming/sources.md",
+      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
+    }
+  },
+  "embedded": {
+    "similar_categories": [
+      {
+        "category": "csharp",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.6717
+          },
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.5597
+          }
+        ]
+      },
+      {
+        "category": "libraries",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries",
+            "title": ".NET Libraries",
+            "similarity": 0.6319
+          },
+          {
+            "id": "libraries/system-text-json",
+            "title": "System.Text.Json",
+            "similarity": 0.586
+          }
+        ]
+      },
+      {
+        "category": "cli",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "cli/native-aot",
+            "title": "Native AOT",
+            "similarity": 0.6235
+          },
+          {
+            "id": "cli",
+            "title": "CLI",
+            "similarity": 0.5355
+          },
+          {
+            "id": "cli/file-based-apps",
+            "title": "File-based apps",
+            "similarity": 0.5142
+          }
+        ]
+      },
+      {
+        "category": "dotnet",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.556
+          }
+        ]
+      }
+    ],
+    "similar_documents": {
+      "baseline": "golden-reference.md",
+      "documents": [
+        {
+          "name": "qa-pairs.md",
+          "similarity": 0.6704
+        },
+        {
+          "name": "sources.md",
+          "similarity": 0.5646
+        },
+        {
+          "name": "topic-spec.md",
+          "similarity": 0.4757
+        }
+      ]
+    },
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-18T14:28:04.4234450Z",
+    "generator": "IndexTool/1.0"
+  }
+}

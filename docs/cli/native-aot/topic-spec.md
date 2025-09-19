@@ -14,6 +14,8 @@ Synergistic with: Source generators, Trimming, Single-file deployment, Container
 Name: Native AOT
 ID: native-aot
 Category: CLI
+Description: Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime.
+Category: CLI
 Complexity: Intermediate | Advanced
 Audience: Performance-focused developers | Cloud developers | Desktop app developers
 Priority: 2 (Common)

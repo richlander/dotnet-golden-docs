@@ -14,6 +14,8 @@ Synergistic with: Package management, Testing frameworks, Publishing workflows, 
 Name: Build and Compilation
 ID: build-and-compilation
 Category: CLI
+Description: Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment.
+Category: CLI
 Complexity: Beginner | Intermediate | Advanced
 Audience: All .NET developers | DevOps engineers | Build engineers
 Priority: 1 (Critical)

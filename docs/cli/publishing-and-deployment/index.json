@@ -1,0 +1,130 @@
+{
+  "id": "cli/publishing-and-deployment",
+  "title": "Publishing and Deployment",
+  "description": "Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. This covers all publishing modes from framework-dependent to self-contained, single-file, Native AOT, and container deployment, along with the decision matrix for choosing appropriate deployment strategies.",
+  "category": "CLI",
+  "complexity": "Beginner | Intermediate | Advanced",
+  "priority": 1,
+  "links": {
+    "self": {
+      "name": "self",
+      "href": "/cli/publishing-and-deployment",
+      "description": "Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. This covers all publishing modes from framework-dependent to self-contained, single-file, Native AOT, and container deployment, along with the decision matrix for choosing appropriate deployment strategies."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/cli",
+      "description": "Cli category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/cli/publishing-and-deployment/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/cli/publishing-and-deployment/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/cli/publishing-and-deployment/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "sources": {
+      "name": "Authoritative Sources",
+      "href": "/cli/publishing-and-deployment/sources.md",
+      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
+    }
+  },
+  "embedded": {
+    "similar_categories": [
+      {
+        "category": "cli",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "cli/build-and-compilation",
+            "title": "Build and Compilation",
+            "similarity": 0.7391
+          },
+          {
+            "id": "cli",
+            "title": "CLI",
+            "similarity": 0.6894
+          },
+          {
+            "id": "cli/native-aot",
+            "title": "Native AOT",
+            "similarity": 0.5856
+          }
+        ]
+      },
+      {
+        "category": "dotnet",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.5598
+          }
+        ]
+      },
+      {
+        "category": "libraries",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries",
+            "title": ".NET Libraries",
+            "similarity": 0.5425
+          },
+          {
+            "id": "libraries/system-text-json",
+            "title": "System.Text.Json",
+            "similarity": 0.5049
+          }
+        ]
+      },
+      {
+        "category": "csharp",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.5232
+          },
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.4887
+          }
+        ]
+      }
+    ],
+    "similar_documents": {
+      "baseline": "golden-reference.md",
+      "documents": [
+        {
+          "name": "sources.md",
+          "similarity": 0.6687
+        },
+        {
+          "name": "qa-pairs.md",
+          "similarity": 0.6307
+        },
+        {
+          "name": "topic-spec.md",
+          "similarity": 0.5585
+        }
+      ]
+    },
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-18T14:28:04.4620590Z",
+    "generator": "IndexTool/1.0"
+  }
+}

@@ -14,6 +14,8 @@ Synergistic with: Native AOT compilation, Single-file deployment, Source generat
 Name: Assembly Trimming
 ID: assembly-trimming
 Category: CLI
+Description: Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies.
+Category: CLI
 Complexity: Intermediate | Advanced
 Audience: Performance-focused developers | Cloud developers | Library authors
 Priority: 2 (Common)

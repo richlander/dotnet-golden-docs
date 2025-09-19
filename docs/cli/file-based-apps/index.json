@@ -1,104 +1,139 @@
 {
-  "kind": "topic-index",
-  "title": "File-based Apps",
+  "id": "cli/file-based-apps",
+  "title": "File-based apps",
   "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.",
   "category": "CLI",
   "complexity": "beginner to intermediate",
   "priority": 2,
-  "links": {
+  "_links": {
     "self": {
-      "href": "cli/file-based-apps/index.json"
+      "name": "self",
+      "href": "/cli/file-based-apps",
+      "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities."
     },
-    "semantic_neighbors": [
-      {
-        "relative": "cli/index.json",
-        "title": "Cli",
-        "similarity": 0.8047
-      },
-      {
-        "relative": "dotnet/index.json",
-        "title": "Dotnet",
-        "similarity": 0.7638
-      },
-      {
-        "relative": "csharp/index.json",
-        "title": "Csharp",
-        "similarity": 0.7492
-      },
-      {
-        "relative": "cli/native-aot/index.json",
-        "title": "Native Aot",
-        "similarity": 0.6089
-      },
-      {
-        "relative": "cli/build-and-compilation/index.json",
-        "title": "Build And Compilation",
-        "similarity": 0.6015
-      },
-      {
-        "relative": "cli/publishing-and-deployment/index.json",
-        "title": "Publishing And Deployment",
-        "similarity": 0.5814
-      }
-    ]
+    "parent": {
+      "name": "parent",
+      "href": "/cli",
+      "description": "Cli category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/cli/file-based-apps/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/cli/file-based-apps/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/cli/file-based-apps/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "sources": {
+      "name": "Authoritative Sources",
+      "href": "/cli/file-based-apps/sources.md",
+      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
+    },
+    "validation": {
+      "name": "Validation Requirements",
+      "href": "/cli/file-based-apps/validation.md",
+      "description": "Testing requirements and validation rules for content accuracy and code example verification"
+    }
   },
-  "embedded": {
-    "documents": [
+  "_embedded": {
+    "similar_categories": [
       {
-        "name": "topic-spec",
-        "type": "markdown",
-        "title": "Topic Specification",
-        "links": {
-          "self": {
-            "href": "cli/file-based-apps/topic-spec.md"
+        "category": "cli",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "cli",
+            "title": "CLI",
+            "similarity": 0.8047
+          },
+          {
+            "id": "cli/native-aot",
+            "title": "Native AOT",
+            "similarity": 0.6089
+          },
+          {
+            "id": "cli/build-and-compilation",
+            "title": "Build and Compilation",
+            "similarity": 0.6015
           }
-        }
+        ]
       },
       {
-        "name": "golden-reference",
-        "type": "markdown",
-        "title": "Golden Reference",
-        "links": {
-          "self": {
-            "href": "cli/file-based-apps/golden-reference.md"
+        "category": "dotnet",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.7638
           }
-        }
+        ]
       },
       {
-        "name": "qa-pairs",
-        "type": "markdown",
-        "title": "Q\u0026A Pairs",
-        "links": {
-          "self": {
-            "href": "cli/file-based-apps/qa-pairs.md"
+        "category": "csharp",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.7492
+          },
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.5031
           }
-        }
+        ]
       },
       {
-        "name": "sources",
-        "type": "markdown",
-        "title": "Sources",
-        "links": {
-          "self": {
-            "href": "cli/file-based-apps/sources.md"
+        "category": "libraries",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries/system-text-json",
+            "title": "System.Text.Json",
+            "similarity": 0.562
+          },
+          {
+            "id": "libraries",
+            "title": ".NET Libraries",
+            "similarity": 0.5142
           }
-        }
-      },
-      {
-        "name": "validation",
-        "type": "markdown",
-        "title": "Validation",
-        "links": {
-          "self": {
-            "href": "cli/file-based-apps/validation.md"
-          }
-        }
+        ]
       }
     ],
+    "similar_documents": {
+      "baseline": "golden-reference.md",
+      "documents": [
+        {
+          "name": "qa-pairs.md",
+          "similarity": 0.6946
+        },
+        {
+          "name": "topic-spec.md",
+          "similarity": 0.6795
+        },
+        {
+          "name": "sources.md",
+          "similarity": 0.6533
+        },
+        {
+          "name": "validation.md",
+          "similarity": 0.6366
+        }
+      ]
+    },
     "topics": null
   },
   "metadata": {
-    "generated_on": "2025-09-17T22:55:54.2727970Z",
-    "generated_by": "IndexTool"
+    "generated": "2025-09-18T15:02:25.1531560Z",
+    "generator": "IndexTool/1.0"
   }
 }

@@ -1,0 +1,130 @@
+{
+  "id": "cli/native-aot",
+  "title": "Native AOT",
+  "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don\u0027t require the .NET runtime to be installed on the target machine.",
+  "category": "CLI",
+  "complexity": "Intermediate | Advanced",
+  "priority": 2,
+  "links": {
+    "self": {
+      "name": "self",
+      "href": "/cli/native-aot",
+      "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don\u0027t require the .NET runtime to be installed on the target machine."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/cli",
+      "description": "Cli category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/cli/native-aot/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/cli/native-aot/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/cli/native-aot/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "sources": {
+      "name": "Authoritative Sources",
+      "href": "/cli/native-aot/sources.md",
+      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
+    }
+  },
+  "embedded": {
+    "similar_categories": [
+      {
+        "category": "cli",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "cli/assembly-trimming",
+            "title": "Assembly Trimming",
+            "similarity": 0.6235
+          },
+          {
+            "id": "cli/file-based-apps",
+            "title": "File-based apps",
+            "similarity": 0.6089
+          },
+          {
+            "id": "cli/publishing-and-deployment",
+            "title": "Publishing and Deployment",
+            "similarity": 0.5856
+          }
+        ]
+      },
+      {
+        "category": "dotnet",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.6188
+          }
+        ]
+      },
+      {
+        "category": "csharp",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.5874
+          },
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.5428
+          }
+        ]
+      },
+      {
+        "category": "libraries",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries/dotnet-10-library-improvements",
+            "title": ".NET 10 Libraries Features",
+            "similarity": 0.5803
+          },
+          {
+            "id": "libraries/system-text-json",
+            "title": "System.Text.Json",
+            "similarity": 0.5485
+          }
+        ]
+      }
+    ],
+    "similar_documents": {
+      "baseline": "golden-reference.md",
+      "documents": [
+        {
+          "name": "qa-pairs.md",
+          "similarity": 0.7232
+        },
+        {
+          "name": "sources.md",
+          "similarity": 0.6555
+        },
+        {
+          "name": "topic-spec.md",
+          "similarity": 0.6036
+        }
+      ]
+    },
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-18T14:28:04.4542370Z",
+    "generator": "IndexTool/1.0"
+  }
+}

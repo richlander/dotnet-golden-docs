@@ -111,24 +111,201 @@ Format depends on analysis level:
 | cli/file-based-apps | csharp/scripting | 0.8700 |
 | cli/native-aot | csharp/compilation | 0.8200 |
 ```
-**Coverage**: Only relationships >= P75 statistical threshold
+**Coverage**:
+
+- **TARGET**: P70 (70th percentile)
+- **SIMILARITY**: Similarity at applied threshold (after threshold algorithm)
+- **Include relationships**: >= applied threshold
+- **Algorithm**: Try P70 first (need ≥6 items), fallback to P60, then P50
+- **Distribution reporting**: 5-value system (P50, P60, P70, P80, P90)
+  - If P70 successful: Show [P70, P80, P90] (conditional on dataset size)
+  - If P60 fallback: Show [P60] only
+  - If P50 fallback: Show [P50] only
+- **Minimum dataset requirements**:
+  - P80: Requires ≥30 items for meaningful reporting
+  - P90: Requires ≥60 items for meaningful reporting
 
 ### Statistical Metadata (metadata.json)
-Category-level statistical analysis:
+Category-level statistical analysis with new distribution schema:
 ```json
 {
-  "generated_on": "2025-09-17T03:44:05Z",
-  "p75_thresholds": {
-    "cli": 0.68,
-    "csharp": 0.75
-  },
-  "statistics": {
+  "generatedOn": "2025-09-18T05:34:37.492482Z",
+  "nodes": {
     "cli": {
-      "total_pairs": 5000,
-      "above_p75": 1250,
-      "above_p90": 500,
-      "above_p95": 250
+      "percentile": 0.7,
+      "similarity": 0.6234,
+      "totalPairs": 100,
+      "distribution": [
+        {"percentile": 0.7, "count": 30},
+        {"percentile": 0.8, "count": 20},
+        {"percentile": 0.9, "count": 10}
+      ]
+    },
+    "csharp": {
+      "percentile": 0.5,
+      "similarity": 0.5226,
+      "totalPairs": 5,
+      "distribution": [
+        {"percentile": 0.5, "count": 3}
+      ]
     }
+  }
+}
+```
+
+## Index Schema
+
+### HAL+JSON Structure
+Each directory with content contains an `index.json` file defining its structure and relationships:
+
+```json
+{
+  "kind": "topic-index",
+  "title": "File-based Apps",
+  "description": "Single .cs file execution without project structure",
+  "category": "CLI",
+  "complexity": "beginner to intermediate",
+  "priority": 2,
+  "links": {
+    "self": { "href": "cli/file-based-apps/index.json" },
+    "similarities": {
+      "within_topic": {
+        "href": "_similarities/self.md",
+        "baseline": "golden-reference.md",
+        "total_files": 5
+      },
+      "cross_category": {
+        "metadata": {
+          "href": "_similarities/metadata.json",
+          "generated_on": "2025-09-18T03:05:08.844564Z"
+        },
+        "relationships": [
+          {
+            "category": "csharp",
+            "href": "_similarities/csharp.md",
+            "percentile": 0.75,
+            "threshold": 0.662,
+            "total_pairs": 20,
+            "above_threshold": 6,
+            "items": [
+              { "topic": "csharp/scripting", "similarity": 0.8700 },
+              { "topic": "csharp/console-apps", "similarity": 0.7500 }
+            ]
+          },
+          {
+            "category": "dotnet",
+            "href": "_similarities/dotnet.md",
+            "percentile": 0.90,
+            "threshold": 0.785,
+            "total_pairs": 11,
+            "above_threshold": 3,
+            "items": [
+              { "topic": "dotnet/publishing", "similarity": 0.8200 }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "embedded": {
+    "documents": [
+      {
+        "name": "topic-spec",
+        "type": "markdown",
+        "title": "Topic Specification",
+        "links": { "self": { "href": "cli/file-based-apps/topic-spec.md" } }
+      },
+      {
+        "name": "golden-reference",
+        "type": "markdown",
+        "title": "Golden Reference",
+        "links": { "self": { "href": "cli/file-based-apps/golden-reference.md" } }
+      }
+    ],
+    "topics": null
+  },
+  "metadata": {
+    "generated_on": "2025-09-18T02:13:03Z",
+    "generated_by": "IndexTool"
+  }
+}
+```
+
+### Schema Elements
+
+**Top-level links**: Files that the topic node contains
+- **`self`**: Reference to this index file
+- **`similarities`**: Related topics with pre-computed vector similarity scores
+
+**Embedded section**: Children of this node
+- **`documents`**: Markdown files within this topic directory
+- **`topics`**: Child topic directories (null for leaf topics, array for categories)
+
+**Key distinction**:
+- **`links.similarities`**: Horizontal relationships to peer topics via vector similarity
+- **`embedded.topics`**: Vertical relationships to child topics
+- **`embedded.documents`**: Files owned by this specific topic
+
+### Category vs Topic Indexes
+
+**Category-level index** (e.g., `cli/index.json`):
+```json
+{
+  "kind": "topic-index",
+  "title": "cli",
+  "embedded": {
+    "documents": [
+      {
+        "name": "golden-reference",
+        "type": "markdown",
+        "title": "CLI Golden Reference",
+        "links": { "self": { "href": "cli/golden-reference.md" } }
+      },
+      {
+        "name": "topic-spec",
+        "type": "markdown",
+        "title": "CLI Topic Specification",
+        "links": { "self": { "href": "cli/topic-spec.md" } }
+      }
+    ],
+    "topics": [
+      {
+        "name": "file-based-apps",
+        "title": "File-based Apps",
+        "category": "CLI",
+        "complexity": "beginner to intermediate",
+        "priority": 2,
+        "links": {
+          "self": { "href": "cli/file-based-apps/index.json" }
+        }
+      },
+      {
+        "name": "native-aot",
+        "title": "Native AOT",
+        "category": "CLI",
+        "complexity": "intermediate to advanced",
+        "priority": 2,
+        "links": {
+          "self": { "href": "cli/native-aot/index.json" }
+        }
+      }
+    ]
+  }
+}
+```
+
+**Topic-level index** (e.g., `cli/file-based-apps/index.json`):
+```json
+{
+  "kind": "topic-index",
+  "title": "File-based Apps",
+  "embedded": {
+    "documents": [
+      { "name": "topic-spec", "type": "markdown" },
+      { "name": "golden-reference", "type": "markdown" },
+      { "name": "qa-pairs", "type": "markdown" }
+    ],
+    "topics": null
   }
 }
 ```

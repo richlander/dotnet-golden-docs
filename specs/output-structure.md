@@ -82,7 +82,7 @@ Progressive example complexity:
 ## Navigation Structure
 
 ### HAL+JSON Indexes
-Transformed from source repository with embellishments for navigation:
+Optimized for consumption tools with content discovery and subgraph planning:
 
 ```json
 {
@@ -94,31 +94,77 @@ Transformed from source repository with embellishments for navigation:
   "priority": 2,
   "links": {
     "self": { "href": "cli/file-based-apps/index.json" },
-    "semantic_neighbors": [
-      {
-        "relative": "dotnet/index.json",
-        "title": ".NET",
-        "similarity": 0.7638
-      }
-    ]
+    "parent": { "href": "cli/index.json", "title": "CLI Tools" }
   },
-  "embedded": {
-    "documents": [
+  "content": {
+    "formats": [
       {
         "name": "overview",
-        "type": "markdown",
-        "title": "Overview",
-        "links": { "self": { "href": "cli/file-based-apps/overview.md" } }
+        "href": "cli/file-based-apps/overview.md",
+        "tokens": 450,
+        "purpose": "conceptual foundation"
+      },
+      {
+        "name": "one-shot-600",
+        "href": "cli/file-based-apps/one-shot-600.md",
+        "tokens": 580,
+        "purpose": "essential knowledge"
+      },
+      {
+        "name": "one-shot-2400",
+        "href": "cli/file-based-apps/one-shot-2400.md",
+        "tokens": 2350,
+        "purpose": "comprehensive coverage"
+      },
+      {
+        "name": "examples-600",
+        "href": "cli/file-based-apps/examples-600.md",
+        "tokens": 590,
+        "purpose": "minimal examples"
+      },
+      {
+        "name": "troubleshooting",
+        "href": "cli/file-based-apps/troubleshooting.md",
+        "tokens": 800,
+        "purpose": "problem-solving"
       }
-    ]
+    ],
+    "keywords": ["dotnet run", "single file", "scripting", "native aot", "publishing"],
+    "scenarios": ["prototyping", "automation", "learning", "cross-platform scripts"]
+  },
+  "relationships": [
+    { "topic": "csharp/scripting", "similarity": 0.8700 },
+    { "topic": "cli/native-aot", "similarity": 0.8200 },
+    { "topic": "cli/publishing", "similarity": 0.7500 },
+    { "topic": "dotnet/overview", "similarity": 0.7200 },
+    { "topic": "cli/dotnet-tools", "similarity": 0.6800 },
+    { "topic": "csharp/console-apps", "similarity": 0.6500 }
+  ],
+  "subgraph_options": {
+    "minimal": { "topics": 1, "estimated_tokens": 1200 },
+    "standard": { "topics": 3, "estimated_tokens": 3500 },
+    "comprehensive": { "topics": 6, "estimated_tokens": 7200 }
   }
 }
 ```
 
-### Relationship Integration
-- **Semantic neighbors**: Pre-computed similarity scores from source analysis
-- **Hierarchical links**: Parent-child relationships in category structure
-- **Cross-references**: Related topics with contextual similarity scores
+### Structure Elements
+
+**Content section**: Available generated formats optimized for consumption
+- **formats**: All generated markdown files with token counts and purposes
+- **keywords**: Terms for lexical matching during environment scanning
+- **scenarios**: Use case categories for contextual discovery
+
+**Relationships section**: Top 6 most similar topics for navigation
+- **Simplified structure**: Just topic and similarity score for quick traversal
+- **Pre-computed**: Derived from source repository similarity analysis
+- **Discovery focused**: Enables semantic expansion during topic search
+
+**Subgraph options**: Pre-calculated download packages
+- **minimal**: Single topic for focused assistance
+- **standard**: 3-topic coherent set for typical needs
+- **comprehensive**: 6-topic extended graph for complex scenarios
+- **Cost transparency**: Estimated token counts for context planning
 
 ## Content Generation Process
 

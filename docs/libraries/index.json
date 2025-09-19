@@ -1,0 +1,123 @@
+{
+  "id": "libraries",
+  "title": ".NET Libraries",
+  "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages.",
+  "category": ".NET Libraries",
+  "complexity": "beginner to advanced",
+  "priority": 1,
+  "links": {
+    "self": {
+      "name": "self",
+      "href": "/libraries",
+      "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages."
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    }
+  },
+  "embedded": {
+    "similar_categories": [
+      {
+        "category": "csharp",
+        "threshold": 0.6620462568958451,
+        "topics": [
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.7265
+          }
+        ]
+      },
+      {
+        "category": "libraries",
+        "threshold": 0.3557732400021135,
+        "topics": [
+          {
+            "id": "libraries/system-text-json",
+            "title": "System.Text.Json",
+            "similarity": 0.6359
+          },
+          {
+            "id": "libraries/dotnet-10-library-improvements",
+            "title": ".NET 10 Libraries Features",
+            "similarity": 0.3558
+          }
+        ]
+      },
+      {
+        "category": "cli",
+        "threshold": 0.5400476366716846,
+        "topics": [
+          {
+            "id": "cli/assembly-trimming",
+            "title": "Assembly Trimming",
+            "similarity": 0.6319
+          },
+          {
+            "id": "cli/build-and-compilation",
+            "title": "Build and Compilation",
+            "similarity": 0.5513
+          },
+          {
+            "id": "cli/publishing-and-deployment",
+            "title": "Publishing and Deployment",
+            "similarity": 0.5425
+          }
+        ]
+      },
+      {
+        "category": "dotnet",
+        "threshold": 0.6288864883823756,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.6289
+          }
+        ]
+      }
+    ],
+    "similar_documents": null,
+    "topics": [
+      {
+        "name": "system-text-json",
+        "title": "System.Text.Json",
+        "category": "Libraries",
+        "complexity": "Beginner | Intermediate | Advanced",
+        "priority": 1,
+        "links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json",
+            "description": "System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0\u002B that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). It emphasizes performance and low memory allocation over extensive features, with built-in UTF-8 support optimized for web and file operations."
+          }
+        }
+      },
+      {
+        "name": "dotnet-10-library-improvements",
+        "title": ".NET 10 Libraries Features",
+        "category": "Libraries",
+        "complexity": "Beginner to intermediate",
+        "priority": 2,
+        "links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/dotnet-10-library-improvements",
+            "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios."
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "generated": "2025-09-18T14:28:04.5142230Z",
+    "generator": "IndexTool/1.0"
+  }
+}

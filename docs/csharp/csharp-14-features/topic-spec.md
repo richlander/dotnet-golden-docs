@@ -6,7 +6,8 @@ Collection topic covering key C# 14 language features including the `field` keyw
 ## Hierarchy
 Name: C# 14 Language Features
 ID: csharp-14-features
-Category: Language Features
+Category: C# Language
+Description: Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements.
 Complexity: Beginner to intermediate
 Audience: C# developers
 Priority: 2 (Common usage - language evolution and productivity improvements)

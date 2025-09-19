@@ -1,0 +1,135 @@
+{
+  "id": "libraries/system-text-json",
+  "title": "System.Text.Json",
+  "description": "System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0\u002B that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). It emphasizes performance and low memory allocation over extensive features, with built-in UTF-8 support optimized for web and file operations.",
+  "category": "Libraries",
+  "complexity": "Beginner | Intermediate | Advanced",
+  "priority": 1,
+  "links": {
+    "self": {
+      "name": "self",
+      "href": "/libraries/system-text-json",
+      "description": "System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0\u002B that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). It emphasizes performance and low memory allocation over extensive features, with built-in UTF-8 support optimized for web and file operations."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/libraries",
+      "description": "Libraries category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/system-text-json/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/system-text-json/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/libraries/system-text-json/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "sources": {
+      "name": "Authoritative Sources",
+      "href": "/libraries/system-text-json/sources.md",
+      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
+    }
+  },
+  "embedded": {
+    "similar_categories": [
+      {
+        "category": "libraries",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries",
+            "title": ".NET Libraries",
+            "similarity": 0.6359
+          },
+          {
+            "id": "libraries/dotnet-10-library-improvements",
+            "title": ".NET 10 Libraries Features",
+            "similarity": 0.4019
+          }
+        ]
+      },
+      {
+        "category": "dotnet",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.6071
+          }
+        ]
+      },
+      {
+        "category": "csharp",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.602
+          },
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.5916
+          }
+        ]
+      },
+      {
+        "category": "cli",
+        "threshold": 0.5,
+        "topics": [
+          {
+            "id": "cli/assembly-trimming",
+            "title": "Assembly Trimming",
+            "similarity": 0.586
+          },
+          {
+            "id": "cli/file-based-apps",
+            "title": "File-based apps",
+            "similarity": 0.562
+          },
+          {
+            "id": "cli/native-aot",
+            "title": "Native AOT",
+            "similarity": 0.5485
+          },
+          {
+            "id": "cli/build-and-compilation",
+            "title": "Build and Compilation",
+            "similarity": 0.524
+          }
+        ]
+      }
+    ],
+    "similar_documents": {
+      "baseline": "golden-reference.md",
+      "documents": [
+        {
+          "name": "qa-pairs.md",
+          "similarity": 0.7778
+        },
+        {
+          "name": "topic-spec.md",
+          "similarity": 0.6661
+        },
+        {
+          "name": "sources.md",
+          "similarity": 0.6314
+        }
+      ]
+    },
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-18T14:28:04.4857930Z",
+    "generator": "IndexTool/1.0"
+  }
+}
