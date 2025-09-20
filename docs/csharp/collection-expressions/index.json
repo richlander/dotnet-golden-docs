@@ -1,0 +1,118 @@
+{
+  "id": "csharp/collection-expressions",
+  "title": "Collection Expressions",
+  "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation. This feature combines collection expressions (introduced in C# 12) and params collection expressions (introduced in C# 13) to offer a unified, simplified approach to collection initialization and manipulation, replacing more verbose traditional syntax.",
+  "category": "C# Language",
+  "complexity": 0.6,
+  "priority": 2,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "12.0",
+    "year": "2023"
+  },
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/csharp/collection-expressions",
+      "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation. This feature combines collection expressions (introduced in C# 12) and params collection expressions (introduced in C# 13) to offer a unified, simplified approach to collection initialization and manipulation, replacing more verbose traditional syntax."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/csharp",
+      "description": "Csharp category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/csharp/collection-expressions/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/csharp/collection-expressions/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    }
+  },
+  "_embedded": {
+    "similar_categories": [
+      {
+        "category": "libraries",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries",
+            "title": ".NET Libraries",
+            "similarity": 0.702
+          },
+          {
+            "id": "libraries/system-text-json",
+            "title": "System.Text.Json",
+            "similarity": 0.517
+          }
+        ]
+      },
+      {
+        "category": "csharp",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.6765
+          },
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.5688
+          }
+        ]
+      },
+      {
+        "category": "cli",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "cli/assembly-trimming",
+            "title": "Assembly Trimming",
+            "similarity": 0.5715
+          },
+          {
+            "id": "cli/native-aot",
+            "title": "Native AOT",
+            "similarity": 0.4967
+          },
+          {
+            "id": "cli",
+            "title": "CLI",
+            "similarity": 0.4921
+          },
+          {
+            "id": "cli/build-and-compilation",
+            "title": "Build and Compilation",
+            "similarity": 0.4887
+          }
+        ]
+      },
+      {
+        "category": "dotnet",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.5464
+          }
+        ]
+      }
+    ],
+    "similar_documents": null,
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-20T20:26:17.3008133Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

@@ -3,7 +3,7 @@
   "title": "Build and Compilation",
   "description": "Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment. This includes the core commands \u0060dotnet build\u0060, \u0060dotnet restore\u0060, \u0060dotnet clean\u0060, along with MSBuild integration, multi-targeting, and build optimization strategies.",
   "category": "CLI",
-  "complexity": 0.5,
+  "complexity": 0.8,
   "priority": 1,
   "depth_below": 0,
   "topic_count": 0,
@@ -57,7 +57,7 @@
           {
             "id": "cli/file-based-apps",
             "title": "File-based apps",
-            "similarity": 0.6055
+            "similarity": 0.6069
           }
         ]
       },
@@ -105,27 +105,11 @@
         ]
       }
     ],
-    "similar_documents": {
-      "baseline": "golden-reference.md",
-      "documents": [
-        {
-          "name": "qa-pairs.md",
-          "similarity": 0.7203
-        },
-        {
-          "name": "sources.md",
-          "similarity": 0.7044
-        },
-        {
-          "name": "topic-spec.md",
-          "similarity": 0.5717
-        }
-      ]
-    },
+    "similar_documents": null,
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-20T01:14:04.0073657Z",
+    "generated": "2025-09-20T20:26:17.2974722Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

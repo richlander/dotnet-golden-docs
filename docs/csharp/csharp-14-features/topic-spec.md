@@ -15,7 +15,7 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Complexity | 0.9 |
 | Audience | C# developers |
 | Priority | 2 (Common usage - language evolution and productivity improvements) |
-| Version | 10.0 |
+| Version | 14.0 |
 | Year | 2025 |
 
 ## Relationships

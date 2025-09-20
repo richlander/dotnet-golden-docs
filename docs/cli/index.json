@@ -3,7 +3,7 @@
   "title": "CLI",
   "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle.",
   "category": "CLI",
-  "complexity": 0.4,
+  "complexity": 0.9,
   "priority": 1,
   "depth_below": 1,
   "topic_count": 5,
@@ -16,11 +16,6 @@
       "name": "self",
       "href": "/cli",
       "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle."
-    },
-    "parent": {
-      "name": "parent",
-      "href": "/",
-      "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -47,7 +42,7 @@
           {
             "id": "cli/file-based-apps",
             "title": "File-based apps",
-            "similarity": 0.7998
+            "similarity": 0.7927
           },
           {
             "id": "cli/build-and-compilation",
@@ -100,21 +95,13 @@
         ]
       }
     ],
-    "similar_documents": {
-      "baseline": "golden-reference.md",
-      "documents": [
-        {
-          "name": "validation.md",
-          "similarity": 0.5778
-        }
-      ]
-    },
+    "similar_documents": null,
     "topics": [
       {
         "name": "build-and-compilation",
         "title": "Build and Compilation",
         "category": "CLI",
-        "complexity": 0.5,
+        "complexity": 0.8,
         "priority": 1,
         "_links": {
           "self": {
@@ -128,7 +115,7 @@
         "name": "publishing-and-deployment",
         "title": "Publishing and Deployment",
         "category": "CLI",
-        "complexity": 0.6,
+        "complexity": 0.9,
         "priority": 1,
         "_links": {
           "self": {
@@ -142,7 +129,7 @@
         "name": "assembly-trimming",
         "title": "Assembly Trimming",
         "category": "CLI",
-        "complexity": 0.7,
+        "complexity": 0.9,
         "priority": 2,
         "_links": {
           "self": {
@@ -156,7 +143,7 @@
         "name": "file-based-apps",
         "title": "File-based apps",
         "category": "CLI",
-        "complexity": 0.5,
+        "complexity": 0.6,
         "priority": 2,
         "_links": {
           "self": {
@@ -170,7 +157,7 @@
         "name": "native-aot",
         "title": "Native AOT",
         "category": "CLI",
-        "complexity": 0.7,
+        "complexity": 0.9,
         "priority": 2,
         "_links": {
           "self": {
@@ -183,7 +170,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-20T01:14:04.0141188Z",
+    "generated": "2025-09-20T20:26:17.3072976Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

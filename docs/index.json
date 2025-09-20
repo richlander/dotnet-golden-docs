@@ -1,16 +1,13 @@
 {
   "id": "",
-  "title": ".NET",
-  "description": ".NET is a comprehensive, free, cross-platform, open-source developer platform for building modern applications. It encompasses the runtime, libraries, tools, languages (primarily C#), CLI tooling, and deployment models that together provide a unified development experience across desktop, web, mobile, cloud, IoT, and gaming scenarios. This platform combines high performance, developer productivity, and enterprise-grade reliability. .NET was previously called \u0022.NET Core\u0022. The predecessor product was \u0022.NET Framework\u0022.",
-  "category": "Platform",
-  "complexity": 0.3,
+  "title": ".NET Knowledge Graph",
+  "description": "Root index of .NET documentation topics and categories",
+  "category": "Root",
+  "complexity": 0.5,
   "priority": 1,
   "depth_below": 2,
   "topic_count": 4,
-  "introduced": {
-    "version": "1.0",
-    "year": "2016"
-  },
+  "introduced": null,
   "_links": {
     "self": {
       "name": "self",
@@ -26,7 +23,7 @@
         "name": "cli",
         "title": "CLI",
         "category": "CLI",
-        "complexity": 0.4,
+        "complexity": 0.9,
         "priority": 1,
         "_links": {
           "self": {
@@ -40,7 +37,7 @@
         "name": "csharp",
         "title": "C# Language",
         "category": "C# Language",
-        "complexity": 0.5,
+        "complexity": 0.9,
         "priority": 1,
         "_links": {
           "self": {
@@ -54,7 +51,7 @@
         "name": "dotnet",
         "title": ".NET Platform",
         "category": ".NET Platform",
-        "complexity": 0.4,
+        "complexity": 0.6,
         "priority": 1,
         "_links": {
           "self": {
@@ -68,7 +65,7 @@
         "name": "libraries",
         "title": ".NET Libraries",
         "category": ".NET Libraries",
-        "complexity": 0.5,
+        "complexity": 0.9,
         "priority": 1,
         "_links": {
           "self": {
@@ -81,7 +78,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-20T01:14:04.0198588Z",
+    "generated": "2025-09-20T20:26:17.3148383Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

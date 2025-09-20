@@ -36,3 +36,15 @@ Example:
 - Path: `docs/csharp/whats-new/csharp-12.md`
 - Rendered: `https://github.com/dotnet/docs/blob/main/docs/csharp/whats-new/csharp-12.md`
 - Raw: `https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-12.md`
+
+## Last Verified Commits
+
+The repositories below have been verified and all referenced files are assumed to be valid as of the listed commit.
+
+| Repository | Last Verified Commit | Verified Date |
+| --- | --- | --- |
+| dotnet/core | 24ff2259 | 2025-09-20 |
+| dotnet/csharplang | 86c78a07 | 2025-09-20 |
+| dotnet/docs | 4a6f5962 | 2025-09-20 |
+| dotnet/roslyn | a01d4a05 | 2025-09-20 |
+| dotnet/runtime | 80fb00f5 | 2025-09-20 |

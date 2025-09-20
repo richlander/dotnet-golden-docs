@@ -8,7 +8,7 @@
   "depth_below": 0,
   "topic_count": 0,
   "introduced": {
-    "version": "10.0",
+    "version": "14.0",
     "year": "2025"
   },
   "_links": {
@@ -57,6 +57,22 @@
         ]
       },
       {
+        "category": "csharp",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp/collection-expressions",
+            "title": "Collection Expressions",
+            "similarity": 0.6765
+          },
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.612
+          }
+        ]
+      },
+      {
         "category": "cli",
         "similarity_threshold": 0.5,
         "topics": [
@@ -76,9 +92,9 @@
             "similarity": 0.5187
           },
           {
-            "id": "cli/build-and-compilation",
-            "title": "Build and Compilation",
-            "similarity": 0.5087
+            "id": "cli/file-based-apps",
+            "title": "File-based apps",
+            "similarity": 0.5098
           }
         ]
       },
@@ -92,40 +108,13 @@
             "similarity": 0.6125
           }
         ]
-      },
-      {
-        "category": "csharp",
-        "similarity_threshold": 0.5,
-        "topics": [
-          {
-            "id": "csharp",
-            "title": "C# Language",
-            "similarity": 0.612
-          }
-        ]
       }
     ],
-    "similar_documents": {
-      "baseline": "golden-reference.md",
-      "documents": [
-        {
-          "name": "qa-pairs.md",
-          "similarity": 0.6547
-        },
-        {
-          "name": "topic-spec.md",
-          "similarity": 0.6233
-        },
-        {
-          "name": "sources.md",
-          "similarity": 0.6132
-        }
-      ]
-    },
+    "similar_documents": null,
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-20T01:14:04.0096742Z",
+    "generated": "2025-09-20T20:26:17.3014542Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

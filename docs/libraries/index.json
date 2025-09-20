@@ -3,7 +3,7 @@
   "title": ".NET Libraries",
   "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages.",
   "category": ".NET Libraries",
-  "complexity": 0.5,
+  "complexity": 0.9,
   "priority": 1,
   "depth_below": 1,
   "topic_count": 2,
@@ -16,11 +16,6 @@
       "name": "self",
       "href": "/libraries",
       "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages."
-    },
-    "parent": {
-      "name": "parent",
-      "href": "/",
-      "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -37,12 +32,17 @@
     "similar_categories": [
       {
         "category": "csharp",
-        "similarity_threshold": 0.6511253229456029,
+        "similarity_threshold": 0.7019681950402343,
         "topics": [
           {
             "id": "csharp/csharp-14-features",
             "title": "C# 14 Language Features",
             "similarity": 0.721
+          },
+          {
+            "id": "csharp/collection-expressions",
+            "title": "Collection Expressions",
+            "similarity": 0.702
           }
         ]
       },
@@ -109,7 +109,7 @@
         "name": "dotnet-10-library-improvements",
         "title": ".NET 10 Libraries Features",
         "category": "Libraries",
-        "complexity": 0.5,
+        "complexity": 0.6,
         "priority": 2,
         "_links": {
           "self": {
@@ -122,7 +122,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-20T01:14:04.0186026Z",
+    "generated": "2025-09-20T20:26:17.3131845Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

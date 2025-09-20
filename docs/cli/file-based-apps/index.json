@@ -3,7 +3,7 @@
   "title": "File-based apps",
   "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.",
   "category": "CLI",
-  "complexity": 0.5,
+  "complexity": 0.6,
   "priority": 2,
   "depth_below": 0,
   "topic_count": 0,
@@ -52,17 +52,17 @@
           {
             "id": "cli",
             "title": "CLI",
-            "similarity": 0.7998
+            "similarity": 0.7927
           },
           {
             "id": "cli/native-aot",
             "title": "Native AOT",
-            "similarity": 0.6089
+            "similarity": 0.6115
           },
           {
             "id": "cli/build-and-compilation",
             "title": "Build and Compilation",
-            "similarity": 0.6055
+            "similarity": 0.6069
           }
         ]
       },
@@ -73,7 +73,7 @@
           {
             "id": "dotnet",
             "title": ".NET Platform",
-            "similarity": 0.7638
+            "similarity": 0.7613
           }
         ]
       },
@@ -84,12 +84,12 @@
           {
             "id": "csharp",
             "title": "C# Language",
-            "similarity": 0.7463
+            "similarity": 0.7459
           },
           {
             "id": "csharp/csharp-14-features",
             "title": "C# 14 Language Features",
-            "similarity": 0.5035
+            "similarity": 0.5098
           }
         ]
       },
@@ -100,41 +100,21 @@
           {
             "id": "libraries/system-text-json",
             "title": "System.Text.Json",
-            "similarity": 0.562
+            "similarity": 0.5642
           },
           {
             "id": "libraries",
             "title": ".NET Libraries",
-            "similarity": 0.5135
+            "similarity": 0.5161
           }
         ]
       }
     ],
-    "similar_documents": {
-      "baseline": "golden-reference.md",
-      "documents": [
-        {
-          "name": "qa-pairs.md",
-          "similarity": 0.6946
-        },
-        {
-          "name": "topic-spec.md",
-          "similarity": 0.6795
-        },
-        {
-          "name": "sources.md",
-          "similarity": 0.6533
-        },
-        {
-          "name": "validation.md",
-          "similarity": 0.6366
-        }
-      ]
-    },
+    "similar_documents": null,
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-20T01:14:04.0080037Z",
+    "generated": "2025-09-20T20:26:17.2988928Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,
