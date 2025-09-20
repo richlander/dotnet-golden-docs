@@ -22,8 +22,8 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/ | rendered | Main official C# documentation | - |
-| https://devblogs.microsoft.com/dotnet/welcome-to-c-sharp/ | rendered | Official C# welcome announcement | - |
+| https://docs.microsoft.com/dotnet/csharp/ | rendered | Main official C# documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/welcome-to-c-sharp/ | rendered | Official C# welcome announcement | 404 |
 
 ## Primary Sources
 
@@ -36,7 +36,7 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/roslyn | rendered | C# compiler implementation | - |
+| https://github.com/dotnet/roslyn | rendered | C# compiler implementation | 2025-09-20 |
 
 ## Source Discovery Workflow
 
@@ -62,7 +62,7 @@ Here's a GitHub issue discovered in "docs/Language Feature Status.md".
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/csharplang/issues/5354 | rendered | GitHub language proposal and discussion | - |
+| https://github.com/dotnet/csharplang/issues/5354 | rendered | GitHub language proposal and discussion | 2025-09-20 |
 
 That issue has links to many documents, such as https://github.com/dotnet/csharplang/blob/main/proposals/collection-expressions.md. This link 404s. The team appears to have moved to versioned links, such as: https://github.com/dotnet/csharplang/blob/main/proposals/csharp-12.0/collection-expressions.md. This link can be translated to a raw link for more efficient consumption: https://raw.githubusercontent.com/dotnet/csharplang/refs/heads/main/proposals/csharp-12.0/collection-expressions.md.
 

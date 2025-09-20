@@ -22,8 +22,8 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/standard/ | rendered | Main .NET standard library documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | - |
+| https://docs.microsoft.com/dotnet/standard/ | rendered | Main .NET standard library documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | 2025-09-20 |
 
 ## Primary Sources
 
@@ -36,4 +36,4 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/runtime | rendered | .NET runtime implementation repository | - |
+| https://github.com/dotnet/runtime | rendered | .NET runtime implementation repository | 2025-09-20 |

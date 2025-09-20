@@ -32,8 +32,8 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/deploying/trimming/trim-self-contained | rendered | Main assembly trimming documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-6/ | rendered | .NET 6 announcement with trimming features | - |
+| https://docs.microsoft.com/dotnet/core/deploying/trimming/trim-self-contained | rendered | Main assembly trimming documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-6/ | rendered | .NET 6 announcement with trimming features | 2025-09-20 |
 
 ## Primary Sources
 
@@ -47,4 +47,4 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/mono/linker | rendered | ILLink linker repository | - |
+| https://github.com/mono/linker | rendered | ILLink linker repository | 2025-09-20 |

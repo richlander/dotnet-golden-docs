@@ -35,28 +35,28 @@
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/ | rendered | Main .NET platform documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Original .NET Core 1.0 announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-1/ | rendered | .NET Core 1.1 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-0/ | rendered | .NET Core 2.0 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-1/ | rendered | .NET Core 2.1 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-2/ | rendered | .NET Core 2.2 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/ | rendered | .NET Core 3.0 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/ | rendered | .NET Core 3.1 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-5-0/ | rendered | .NET 5.0 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-6/ | rendered | .NET 6 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/ | rendered | .NET 7 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/ | rendered | .NET 8 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/ | rendered | .NET 9 release announcement | - |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10-preview-1/ | rendered | .NET 10 preview announcement | - |
-| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-2-1/ | rendered | .NET Core 2.1 performance improvements | - |
-| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-3-0/ | rendered | .NET Core 3.0 performance improvements | - |
-| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-5/ | rendered | .NET 5 performance improvements | - |
-| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/ | rendered | .NET 6 performance improvements | - |
-| https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7/ | rendered | .NET 7 performance improvements | - |
-| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/ | rendered | .NET 8 performance improvements | - |
-| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-9/ | rendered | .NET 9 performance improvements | - |
-| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-10/ | rendered | .NET 10 performance improvements | - |
+| https://docs.microsoft.com/dotnet/ | rendered | Main .NET platform documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Original .NET Core 1.0 announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-1/ | rendered | .NET Core 1.1 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-0/ | rendered | .NET Core 2.0 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-1/ | rendered | .NET Core 2.1 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-2/ | rendered | .NET Core 2.2 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/ | rendered | .NET Core 3.0 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/ | rendered | .NET Core 3.1 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-5-0/ | rendered | .NET 5.0 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-6/ | rendered | .NET 6 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/ | rendered | .NET 7 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/ | rendered | .NET 8 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/ | rendered | .NET 9 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10-preview-1/ | rendered | .NET 10 preview announcement | 404 |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-2-1/ | rendered | .NET Core 2.1 performance improvements | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-3-0/ | rendered | .NET Core 3.0 performance improvements | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-5/ | rendered | .NET 5 performance improvements | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/ | rendered | .NET 6 performance improvements | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7/ | rendered | .NET 7 performance improvements | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/ | rendered | .NET 8 performance improvements | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-9/ | rendered | .NET 9 performance improvements | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-10/ | rendered | .NET 10 performance improvements | 2025-09-20 |
 
 ## Primary Sources
 
@@ -71,9 +71,9 @@
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/core | rendered | .NET Core repository | - |
-| https://github.com/dotnet/announcements | rendered | .NET announcements repository | - |
-| https://github.com/dotnet/runtime | rendered | .NET runtime repository | - |
-| https://github.com/dotnet/roslyn | rendered | Roslyn compiler repository | - |
-| https://github.com/dotnet/sdk | rendered | .NET SDK repository | - |
-| https://github.com/dotnet/aspnetcore | rendered | ASP.NET Core repository | - |
+| https://github.com/dotnet/core | rendered | .NET Core repository | 2025-09-20 |
+| https://github.com/dotnet/announcements | rendered | .NET announcements repository | 2025-09-20 |
+| https://github.com/dotnet/runtime | rendered | .NET runtime repository | 2025-09-20 |
+| https://github.com/dotnet/roslyn | rendered | Roslyn compiler repository | 2025-09-20 |
+| https://github.com/dotnet/sdk | rendered | .NET SDK repository | 2025-09-20 |
+| https://github.com/dotnet/aspnetcore | rendered | ASP.NET Core repository | 2025-09-20 |

@@ -22,8 +22,8 @@
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/ | rendered | Main .NET platform documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | - |
+| https://docs.microsoft.com/dotnet/ | rendered | Main .NET platform documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | 2025-09-20 |
 
 ## Primary Sources
 
@@ -36,4 +36,4 @@
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet | rendered | .NET organization on GitHub | - |
+| https://github.com/dotnet | rendered | .NET organization on GitHub | 2025-09-20 |

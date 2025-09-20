@@ -32,8 +32,9 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/deploying/native-aot/ | rendered | Main Native AOT documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/ | rendered | .NET 7 Preview 3 announcement with Native AOT | - |
+| https://docs.microsoft.com/dotnet/core/deploying/native-aot/ | rendered | Main Native AOT documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/ | rendered | .NET 7 Preview 3 announcement with Native AOT | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/creating-aot-compatible-libraries/ | rendered | How to make libraries compatible with native AOT | - |
 
 ## Primary Sources
 
@@ -47,4 +48,4 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/samples/tree/main/core/nativeaot | rendered | Official Native AOT samples | - |
+| https://github.com/dotnet/samples/tree/main/core/nativeaot | rendered | Official Native AOT samples | 2025-09-20 |

@@ -33,8 +33,8 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/whats-new/dotnet-10/libraries | rendered | Main .NET 10 library improvements documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | Official .NET 10 announcement | - |
+| https://docs.microsoft.com/dotnet/core/whats-new/dotnet-10/libraries | rendered | Main .NET 10 library improvements documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | Official .NET 10 announcement | 404 |
 
 ## Primary Sources
 
@@ -47,7 +47,7 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/runtime/releases/tag/v10.0.0 | rendered | .NET runtime 10.0.0 release information | - |
+| https://github.com/dotnet/runtime/releases/tag/v10.0.0 | rendered | .NET runtime 10.0.0 release information | 404 |
 
 ## Critical limitations
 

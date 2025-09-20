@@ -32,8 +32,7 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/tools/dotnet-publish | rendered | Main dotnet publish command documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | - |
+| https://docs.microsoft.com/dotnet/core/tools/dotnet-publish | rendered | Main dotnet publish command documentation | 2025-09-20 |
 
 ## Primary Sources
 
@@ -47,4 +46,4 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/core/tree/main/release-notes | rendered | .NET Core release notes | - |
+| https://github.com/dotnet/core/tree/main/release-notes | rendered | .NET Core release notes | 2025-09-20 |

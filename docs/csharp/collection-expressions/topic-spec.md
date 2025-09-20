@@ -42,8 +42,8 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/language-reference/operators/collection-expressions | rendered | Main collection expressions documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with collection expressions | - |
+| https://docs.microsoft.com/dotnet/csharp/language-reference/operators/collection-expressions | rendered | Main collection expressions documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with collection expressions | 2025-09-20 |
 
 ## Primary Sources
 
@@ -55,14 +55,14 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/csharplang/issues/5354 | rendered | Collection expressions language proposal | - |
-| https://github.com/dotnet/csharplang/issues/7700 | rendered | Params collections language proposal | - |
+| https://github.com/dotnet/csharplang/issues/5354 | rendered | Collection expressions language proposal | 2025-09-20 |
+| https://github.com/dotnet/csharplang/issues/7700 | rendered | Params collections language proposal | 2025-09-20 |
 
 ## Secondary Sources
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://devblogs.microsoft.com/dotnet/refactor-your-code-with-collection-expressions/ | rendered | Refactoring guide and patterns | - |
-| https://devblogs.microsoft.com/dotnet/csharp13-calling-methods-is-easier-and-faster/ | rendered | C# 13 params collections | - |
-| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with collection expressions | - |
-| https://github.com/dotnet/roslyn | rendered | Compiler implementation | - |
+| https://devblogs.microsoft.com/dotnet/refactor-your-code-with-collection-expressions/ | rendered | Refactoring guide and patterns | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/csharp13-calling-methods-is-easier-and-faster/ | rendered | C# 13 params collections | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with collection expressions | 2025-09-20 |
+| https://github.com/dotnet/roslyn | rendered | Compiler implementation | 2025-09-20 |

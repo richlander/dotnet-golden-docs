@@ -33,8 +33,7 @@ Collection topic covering key C# 14 language features including the `field` keyw
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-14 | rendered | Main C# 14 features documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-csharp-14/ | rendered | Official C# 14 announcement | - |
+| https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-14 | rendered | Main C# 14 features documentation | 2025-09-20 |
 
 ## Primary Sources
 
@@ -47,7 +46,7 @@ Collection topic covering key C# 14 language features including the `field` keyw
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://github.com/dotnet/roslyn/releases | rendered | Roslyn compiler releases | - |
+| https://github.com/dotnet/roslyn/releases | rendered | Roslyn compiler releases | 2025-09-20 |
 
 ## Critical limitations
 

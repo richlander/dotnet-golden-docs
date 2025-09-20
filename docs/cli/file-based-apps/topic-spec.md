@@ -33,8 +33,8 @@ File-based apps allow developers to run and publish single .cs files directly wi
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/tools/dotnet-run | rendered | dotnet run command documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | .NET 10 announcement with file-based apps | - |
+| https://docs.microsoft.com/dotnet/core/tools/dotnet-run | rendered | dotnet run command documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | .NET 10 announcement with file-based apps | 404 |
 
 ## Primary Sources
 
