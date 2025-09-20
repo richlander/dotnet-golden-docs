@@ -17,7 +17,7 @@ This repository contains curated source materials and generation instructions fo
 
 This repository is part of a three-repository system:
 
-```
+```text
 llm-docs-workspace/
 ├── dotnet-golden-llm-docs/     # THIS REPO - Source curation and generation instructions
 ├── dotnet-docs-llm-tools/      # [PLACEHOLDER] - Reusable content generation pipeline
@@ -32,6 +32,27 @@ llm-docs-workspace/
 - Maintains topic specifications and relationships
 - Stores validation rules and quality criteria
 - Never accessed directly by LLMs in production
+
+## For LLMs and AI Agents
+
+This repository is optimized for LLM consumption with structured topic specifications and relationship mapping.
+
+**Quick Start:**
+
+- Read [workflow.md](workflow.md) for complete usage guide
+- Check [file-types.md](file-types.md) for file organization and artifact types
+- See [format.md](format.md) for content formatting standards
+- Browse [docs/repos.md](docs/repos.md) for repository registry
+- Review [topic-spec-format.md](topic-spec-format.md) for topic specification structure
+
+**Key Features:**
+
+- Structured topic specifications with relationship mapping
+- LLM-optimized content with no decorative formatting
+- Centralized repository registry and source tracking
+- Multi-layered organization: global → category → topic
+- Consistent table formats for easy parsing
+- URL type classification: raw/rendered/community
 
 **dotnet-docs-llm-tools** *(planned)*:
 
@@ -104,7 +125,3 @@ See individual format guides in the `docs/` directory for specific authoring sta
 - [Content Generation Plan](docs_llm/CONTENT-GENERATION-PLAN.md): Detailed architecture and implementation plan
 - [Q&A Format Guide](docs/qa-pairs-format.md): Standards for question-answer content
 - [File-Based Apps Pilot](docs/cli/file-based-apps/): Complete example of the content format
-
----
-
-*This repository is designed to transform manual, one-off documentation processes into a systematic pipeline that can scale across the entire .NET knowledge base while maintaining high quality and token efficiency.*
