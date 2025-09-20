@@ -3,13 +3,24 @@
   "title": ".NET Platform",
   "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps.",
   "category": ".NET Platform",
-  "complexity": "beginner to advanced",
+  "complexity": 0.4,
   "priority": 1,
-  "links": {
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "1.0",
+    "year": "2016"
+  },
+  "_links": {
     "self": {
       "name": "self",
       "href": "/dotnet",
       "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/",
+      "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -22,27 +33,22 @@
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     }
   },
-  "embedded": {
+  "_embedded": {
     "similar_categories": [
       {
         "category": "csharp",
-        "threshold": 0.6119506390821072,
+        "similarity_threshold": 0.6125357059240539,
         "topics": [
           {
             "id": "csharp",
             "title": "C# Language",
-            "similarity": 0.872
-          },
-          {
-            "id": "csharp/csharp-14-features",
-            "title": "C# 14 Language Features",
-            "similarity": 0.612
+            "similarity": 0.8678
           }
         ]
       },
       {
         "category": "cli",
-        "threshold": 0.5598019079179652,
+        "similarity_threshold": 0.5638850666398162,
         "topics": [
           {
             "id": "cli/file-based-apps",
@@ -52,23 +58,28 @@
           {
             "id": "cli",
             "title": "CLI",
-            "similarity": 0.6875
+            "similarity": 0.6806
           },
           {
             "id": "cli/native-aot",
             "title": "Native AOT",
             "similarity": 0.6188
+          },
+          {
+            "id": "cli/publishing-and-deployment",
+            "title": "Publishing and Deployment",
+            "similarity": 0.5639
           }
         ]
       },
       {
         "category": "libraries",
-        "threshold": 0.6070886092809086,
+        "similarity_threshold": 0.6070886092809086,
         "topics": [
           {
             "id": "libraries",
             "title": ".NET Libraries",
-            "similarity": 0.6289
+            "similarity": 0.629
           },
           {
             "id": "libraries/system-text-json",
@@ -82,7 +93,10 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-18T14:28:04.5106720Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2461251Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

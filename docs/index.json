@@ -1,18 +1,24 @@
 {
   "id": "",
-  "title": ".NET Knowledge Graph",
-  "description": "Root index of .NET documentation topics and categories",
-  "category": "Root",
-  "complexity": "",
+  "title": ".NET",
+  "description": ".NET is a comprehensive, free, cross-platform, open-source developer platform for building modern applications. It encompasses the runtime, libraries, tools, languages (primarily C#), CLI tooling, and deployment models that together provide a unified development experience across desktop, web, mobile, cloud, IoT, and gaming scenarios. This platform combines high performance, developer productivity, and enterprise-grade reliability. .NET was previously called \u0022.NET Core\u0022. The predecessor product was \u0022.NET Framework\u0022.",
+  "category": "Platform",
+  "complexity": 0.3,
   "priority": 1,
-  "links": {
+  "depth_below": 2,
+  "topic_count": 4,
+  "introduced": {
+    "version": "1.0",
+    "year": "2016"
+  },
+  "_links": {
     "self": {
       "name": "self",
       "href": "/",
       "description": "Root knowledge graph"
     }
   },
-  "embedded": {
+  "_embedded": {
     "similar_categories": null,
     "similar_documents": null,
     "topics": [
@@ -20,9 +26,9 @@
         "name": "cli",
         "title": "CLI",
         "category": "CLI",
-        "complexity": "beginner to advanced",
+        "complexity": 0.4,
         "priority": 1,
-        "links": {
+        "_links": {
           "self": {
             "name": "self",
             "href": "/cli",
@@ -34,9 +40,9 @@
         "name": "csharp",
         "title": "C# Language",
         "category": "C# Language",
-        "complexity": "beginner to advanced",
+        "complexity": 0.5,
         "priority": 1,
-        "links": {
+        "_links": {
           "self": {
             "name": "self",
             "href": "/csharp",
@@ -48,9 +54,9 @@
         "name": "dotnet",
         "title": ".NET Platform",
         "category": ".NET Platform",
-        "complexity": "beginner to advanced",
+        "complexity": 0.4,
         "priority": 1,
-        "links": {
+        "_links": {
           "self": {
             "name": "self",
             "href": "/dotnet",
@@ -62,9 +68,9 @@
         "name": "libraries",
         "title": ".NET Libraries",
         "category": ".NET Libraries",
-        "complexity": "beginner to advanced",
+        "complexity": 0.5,
         "priority": 1,
-        "links": {
+        "_links": {
           "self": {
             "name": "self",
             "href": "/libraries",
@@ -75,7 +81,10 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-18T14:28:04.5183100Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2482145Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

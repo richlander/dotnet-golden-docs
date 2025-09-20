@@ -25,12 +25,12 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Step 3: Analyze similarities and relationships
+# Step 3: Generate similarities and relationships
 echo ""
-echo "🔍 Step 3: Analyzing similarities..."
-./scripts/analyze-similarities.sh
+echo "🔍 Step 3: Generating similarities..."
+./scripts/generate-similarities.sh
 if [ $? -ne 0 ]; then
-    echo "❌ Similarity analysis failed - aborting update"
+    echo "❌ Similarity generation failed - aborting update"
     exit 1
 fi
 

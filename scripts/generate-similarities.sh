@@ -17,6 +17,6 @@ echo "🔍 Analyzing similarities across docs directory..."
 export Embedding__BaseUrl="http://merritt:11434"
 
 # Analyze similarities and generate reports for docs directory only
-"$EMBEDDING_TOOL" analyze --dir docs
+"$EMBEDDING_TOOL" update-similarities --path docs
 
 echo "✅ Similarity analysis completed"

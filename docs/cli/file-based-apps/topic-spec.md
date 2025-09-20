@@ -3,14 +3,16 @@
 ## Feature Description
 File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.
 
-## Hierarchy
+## Metadata
 Name: File-based apps
 ID: file-based-apps
 Category: CLI
 Description: File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure.
-Complexity: beginner to intermediate
+Complexity: 0.5
 Audience: all developers, especially those focused on scripting and automation
 Priority: 2 (Common usage - recent high-interest feature)
+Introduced-Version: 10.0
+Introduced-Year: 2025
 
 ## Relationships
 Enables: scripting, rapid prototyping, LLM-generated tools
@@ -19,6 +21,18 @@ Conflicts with: multi-file projects, complex MSBuild scenarios, team collaborati
 Alternative to: dotnet script, traditional project files, shell scripting, PowerShell
 Synergistic with: Visual Studio Code
 Prerequisite: .NET 10 SDK
+
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/core/tools/dotnet-run
+Announcement: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/
+
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/fundamentals/tutorials/file-based-programs.md
+- https://raw.githubusercontent.com/dotnet/core/main/release-notes/10.0/10.0.0/10.0.0.md
+
+## Secondary Sources
+- Community tutorials and examples
+- Stack Overflow discussions on file-based apps
 
 ## Hints
 Flexible: app files can have any name, like `Program.cs`, `hello-world.cs`, or `app.cs`.

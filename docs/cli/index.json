@@ -3,13 +3,24 @@
   "title": "CLI",
   "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle.",
   "category": "CLI",
-  "complexity": "beginner to advanced",
+  "complexity": 0.4,
   "priority": 1,
+  "depth_below": 1,
+  "topic_count": 5,
+  "introduced": {
+    "version": "1.0",
+    "year": "2016"
+  },
   "_links": {
     "self": {
       "name": "self",
       "href": "/cli",
       "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/",
+      "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -31,49 +42,60 @@
     "similar_categories": [
       {
         "category": "cli",
-        "threshold": 0.6893870726541851,
+        "similarity_threshold": 0.6898816617464825,
         "topics": [
           {
             "id": "cli/file-based-apps",
             "title": "File-based apps",
-            "similarity": 0.8047
+            "similarity": 0.7998
           },
           {
             "id": "cli/build-and-compilation",
             "title": "Build and Compilation",
-            "similarity": 0.7363
+            "similarity": 0.7427
           },
           {
             "id": "cli/publishing-and-deployment",
             "title": "Publishing and Deployment",
-            "similarity": 0.6894
+            "similarity": 0.6899
+          }
+        ]
+      },
+      {
+        "category": "dotnet",
+        "similarity_threshold": 0.6805562678887216,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.6806
           }
         ]
       },
       {
         "category": "csharp",
-        "threshold": 0.5225810861236664,
+        "similarity_threshold": 0.5186713815200625,
         "topics": [
           {
             "id": "csharp",
             "title": "C# Language",
-            "similarity": 0.6651
+            "similarity": 0.6518
           },
           {
             "id": "csharp/csharp-14-features",
             "title": "C# 14 Language Features",
-            "similarity": 0.5226
+            "similarity": 0.5187
           }
         ]
       },
       {
         "category": "libraries",
-        "threshold": 0.5113171280732103,
+        "similarity_threshold": 0.5113271338423592,
         "topics": [
           {
             "id": "libraries",
             "title": ".NET Libraries",
-            "similarity": 0.5188
+            "similarity": 0.515
           }
         ]
       }
@@ -92,7 +114,7 @@
         "name": "build-and-compilation",
         "title": "Build and Compilation",
         "category": "CLI",
-        "complexity": "Beginner | Intermediate | Advanced",
+        "complexity": 0.5,
         "priority": 1,
         "_links": {
           "self": {
@@ -106,7 +128,7 @@
         "name": "publishing-and-deployment",
         "title": "Publishing and Deployment",
         "category": "CLI",
-        "complexity": "Beginner | Intermediate | Advanced",
+        "complexity": 0.6,
         "priority": 1,
         "_links": {
           "self": {
@@ -120,7 +142,7 @@
         "name": "assembly-trimming",
         "title": "Assembly Trimming",
         "category": "CLI",
-        "complexity": "Intermediate | Advanced",
+        "complexity": 0.7,
         "priority": 2,
         "_links": {
           "self": {
@@ -134,7 +156,7 @@
         "name": "file-based-apps",
         "title": "File-based apps",
         "category": "CLI",
-        "complexity": "beginner to intermediate",
+        "complexity": 0.5,
         "priority": 2,
         "_links": {
           "self": {
@@ -148,7 +170,7 @@
         "name": "native-aot",
         "title": "Native AOT",
         "category": "CLI",
-        "complexity": "Intermediate | Advanced",
+        "complexity": 0.7,
         "priority": 2,
         "_links": {
           "self": {
@@ -161,7 +183,10 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-18T15:02:37.6989410Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2416094Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

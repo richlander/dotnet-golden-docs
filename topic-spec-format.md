@@ -29,20 +29,31 @@ Structured relationship mapping using consistent keywords:
 - **Prerequisite**: Required dependencies or foundational knowledge
 - **Synergistic with**: Features that work particularly well together
 
-#### Hierarchy
+#### Metadata
 Structured metadata for categorization and discovery:
 - **Name**: Display name for the feature
 - **ID**: Unique identifier (kebab-case)
 - **Category**: Primary organizational category
-- **Complexity**: Skill level range (Beginner | Intermediate | Advanced | Expert)
+- **Complexity**: Numeric complexity score from 0.0 (beginner) to 1.0 (advanced expert)
 - **Audience**: Target developer groups
 - **Priority**: Importance ranking (1=Critical, 2=Important, 3=Useful, 4=Specialized)
+- **Introduced-Version**: .NET version when the feature was first introduced (e.g., "8.0")
+- **Introduced-Year**: Year when the feature was first introduced (e.g., "2023")
 
-#### Source Authority
-Authority and validation requirements:
-- **Primary Sources (High confidence)**: Official documentation links with verification dates
-- **Secondary Sources (Good quality)**: Community content and additional references
-- **Validation Requirements**: Specific testing and verification criteria
+#### Official Sources
+Primary Microsoft documentation and announcements:
+- **Documentation**: Main official documentation URL (human-facing HTML)
+- **Announcement**: Official announcement or blog post URL (human-facing HTML)
+
+#### Primary Sources
+High-quality sources with preference for raw markdown URLs for LLM readability:
+- List of URLs to authoritative content, preferably raw markdown files from official repositories (use raw.githubusercontent.com URLs when possible)
+- Include last verification dates where applicable
+
+#### Secondary Sources
+Good-quality community and supplementary sources:
+- List of URLs to valuable community content, tutorials, and additional references
+- Include last verification dates where applicable
 
 #### Generation Hints
 Guidance for content generation:
@@ -86,14 +97,19 @@ Before content is considered complete, verify:
 - [ ] **Cross-Reference Completeness**: Bidirectional relationships properly established
 - [ ] **Token Budget Realism**: Budget guidance matches actual content generation capacity
 - [ ] **Validation Testability**: All validation requirements can be automatically verified
-- [ ] **Hierarchy Consistency**: Category and complexity align with broader taxonomy
+- [ ] **Metadata Consistency**: Category and complexity align with broader taxonomy
 
 ## Quality Criteria
 
 ### Precision Requirements
 - Feature descriptions must be technically accurate and current
 - Relationships must be specific to actual feature interactions
-- Complexity ratings must reflect real developer experience levels
+- Complexity ratings must reflect real developer experience levels using the 0.0-1.0 scale:
+  - 0.0-0.2: Beginner level - Basic concepts, simple examples, minimal prerequisites
+  - 0.3-0.4: Beginner to Intermediate - Some complexity, requires basic .NET knowledge
+  - 0.5-0.6: Intermediate - Moderate complexity, requires solid .NET foundation
+  - 0.7-0.8: Intermediate to Advanced - Complex scenarios, deep .NET knowledge needed
+  - 0.9-1.0: Advanced Expert - Expert level, complex integrations, edge cases
 - Priority rankings must consider actual developer usage patterns
 
 ### Completeness Standards
@@ -130,6 +146,20 @@ Before content is considered complete, verify:
 
 ## Examples
 
+### Good Metadata Specification
+```markdown
+## Metadata
+Name: System.Text.Json
+ID: system-text-json
+Category: Libraries
+Description: High-performance JSON serialization library built into .NET Core 3.0+
+Complexity: 0.6
+Audience: All developers | Web developers | API developers
+Priority: 1 (Critical)
+Introduced-Version: 3.0
+Introduced-Year: 2019
+```
+
 ### Good Relationship Specification
 ```markdown
 ## Relationships
@@ -140,17 +170,19 @@ Prerequisite: .NET Core 3.0+ (built-in), .NET Standard 2.0+ (NuGet package)
 Synergistic with: ASP.NET Core APIs, Source generators, HttpClient extensions
 ```
 
-### Good Authority Specification
+### Good Source Specification
 ```markdown
-## Source Authority
-Primary Sources (High confidence):
-- https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/ - Official documentation - Last verified: 2025-01-19
-- https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.Json - Source code - Last verified: 2024-09-12
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/
+Announcement: https://devblogs.microsoft.com/dotnet/try-the-new-system-text-json-apis/
 
-Validation Requirements:
-- [ ] Code examples compile and run across .NET versions
-- [ ] Source generation examples work with Native AOT
-- [ ] Performance benchmarks vs Newtonsoft.Json
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/standard/serialization/system-text-json/overview.md - Last verified: 2025-01-19
+- https://raw.githubusercontent.com/dotnet/runtime/main/src/libraries/System.Text.Json/README.md - Last verified: 2024-09-12
+
+## Secondary Sources
+- https://github.com/dotnet/samples/tree/main/core/json - Official samples - Last verified: 2024-09-12
+- Community migration guides and performance comparisons
 ```
 
 ### Good Generation Guidance

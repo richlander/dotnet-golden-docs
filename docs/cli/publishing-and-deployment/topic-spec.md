@@ -10,31 +10,30 @@ Alternative to: Manual deployment processes, Platform-specific packaging
 Prerequisite: Successful build compilation, Target platform selection
 Synergistic with: Build and compilation, Assembly trimming, Native AOT, Container technologies
 
-## Hierarchy
+## Metadata
 Name: Publishing and Deployment
 ID: publishing-and-deployment
 Category: CLI
 Description: Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies.
-Category: CLI
-Complexity: Beginner | Intermediate | Advanced
+Complexity: 0.6
 Audience: All .NET developers | DevOps engineers | System administrators
 Priority: 1 (Critical)
+Introduced-Version: 1.0
+Introduced-Year: 2016
 
-## Source Authority
-Primary Sources (High confidence):
-- https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish - dotnet publish command reference - Last verified: 2025-01-07
-- https://docs.microsoft.com/en-us/dotnet/core/deploying/index - Application publishing overview - Last verified: 2025-08-11
-- https://docs.microsoft.com/en-us/dotnet/core/rid-catalog - Runtime Identifier catalog - Last verified: 2024-08-25
-- https://docs.microsoft.com/en-us/dotnet/core/deploying/ready-to-run - ReadyToRun compilation - Last verified: 2024-07-15
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/core/tools/dotnet-publish
+Announcement: https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/
 
-Secondary Sources (Good quality):
-- Container deployment guides, Cloud platform documentation, CI/CD best practices
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/dotnet-publish.md
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/deploying/index.md
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/rid-catalog.md
 
-Validation Requirements:
-- [ ] Publishing commands work across all supported platforms
-- [ ] Deployment strategies verified in production-like environments
-- [ ] Performance comparisons between publishing modes
-- [ ] Container and cloud deployment examples functional
+## Secondary Sources
+- https://github.com/dotnet/core/tree/main/release-notes
+- Container deployment guides and cloud platform documentation
+- CI/CD best practices and community tutorials
 
 ## Generation Hints
 Emphasize: Publishing mode comparison, Decision guidance, Platform targeting, Optimization strategies

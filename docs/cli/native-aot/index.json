@@ -3,9 +3,15 @@
   "title": "Native AOT",
   "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don\u0027t require the .NET runtime to be installed on the target machine.",
   "category": "CLI",
-  "complexity": "Intermediate | Advanced",
+  "complexity": 0.7,
   "priority": 2,
-  "links": {
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "7.0",
+    "year": "2022"
+  },
+  "_links": {
     "self": {
       "name": "self",
       "href": "/cli/native-aot",
@@ -30,23 +36,18 @@
       "name": "Question \u0026 Answer Pairs",
       "href": "/cli/native-aot/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
-    },
-    "sources": {
-      "name": "Authoritative Sources",
-      "href": "/cli/native-aot/sources.md",
-      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
     }
   },
-  "embedded": {
+  "_embedded": {
     "similar_categories": [
       {
         "category": "cli",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "cli/assembly-trimming",
             "title": "Assembly Trimming",
-            "similarity": 0.6235
+            "similarity": 0.621
           },
           {
             "id": "cli/file-based-apps",
@@ -56,13 +57,13 @@
           {
             "id": "cli/publishing-and-deployment",
             "title": "Publishing and Deployment",
-            "similarity": 0.5856
+            "similarity": 0.593
           }
         ]
       },
       {
         "category": "dotnet",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "dotnet",
@@ -72,24 +73,8 @@
         ]
       },
       {
-        "category": "csharp",
-        "threshold": 0.5,
-        "topics": [
-          {
-            "id": "csharp",
-            "title": "C# Language",
-            "similarity": 0.5874
-          },
-          {
-            "id": "csharp/csharp-14-features",
-            "title": "C# 14 Language Features",
-            "similarity": 0.5428
-          }
-        ]
-      },
-      {
         "category": "libraries",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "libraries/dotnet-10-library-improvements",
@@ -100,6 +85,22 @@
             "id": "libraries/system-text-json",
             "title": "System.Text.Json",
             "similarity": 0.5485
+          }
+        ]
+      },
+      {
+        "category": "csharp",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp",
+            "title": "C# Language",
+            "similarity": 0.5773
+          },
+          {
+            "id": "csharp/csharp-14-features",
+            "title": "C# 14 Language Features",
+            "similarity": 0.5366
           }
         ]
       }
@@ -124,7 +125,10 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-18T14:28:04.4542370Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2353206Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

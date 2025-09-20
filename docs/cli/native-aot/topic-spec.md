@@ -10,31 +10,30 @@ Alternative to: JIT compilation, Self-contained deployment, ReadyToRun
 Prerequisite: .NET 7+ SDK, Platform-specific toolchain (C++ build tools)
 Synergistic with: Source generators, Trimming, Single-file deployment, Container images
 
-## Hierarchy
+## Metadata
 Name: Native AOT
 ID: native-aot
 Category: CLI
 Description: Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime.
-Category: CLI
-Complexity: Intermediate | Advanced
+Complexity: 0.7
 Audience: Performance-focused developers | Cloud developers | Desktop app developers
 Priority: 2 (Common)
+Introduced-Version: 7.0
+Introduced-Year: 2022
 
-## Source Authority
-Primary Sources (High confidence):
-- https://docs.microsoft.com/en-us/dotnet/core/deploying/native-aot/ - Official Native AOT documentation - Last verified: 2023-06-12
-- https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/sdk - .NET 10 file-based apps with Native AOT - Last verified: 2025-09-09
-- https://docs.microsoft.com/en-us/dotnet/core/deploying/native-aot/cross-compile - Cross-compilation guide - Last verified: 2023-10-10
-- https://github.com/dotnet/samples/tree/main/core/nativeaot - Official samples - Last verified: 2024-09-12
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/core/deploying/native-aot/
+Announcement: https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/
 
-Secondary Sources (Good quality):
-- Platform-specific setup guides, Performance benchmarks, Community migration experiences
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/deploying/native-aot/index.md
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/deploying/native-aot/cross-compile.md
+- https://raw.githubusercontent.com/dotnet/core/main/release-notes/7.0/7.0.0/7.0.0.md
 
-Validation Requirements:
-- [ ] Code examples compile and run across supported platforms
-- [ ] Native AOT publish process completes successfully
-- [ ] Performance benchmarks vs JIT compilation
-- [ ] Cross-platform compatibility testing (Windows/Linux/macOS)
+## Secondary Sources
+- https://github.com/dotnet/samples/tree/main/core/nativeaot
+- Platform-specific setup guides and performance benchmarks
+- Community migration experiences
 
 ## Generation Hints
 Emphasize: Performance benefits, Startup time improvements, Memory efficiency, Deployment simplicity

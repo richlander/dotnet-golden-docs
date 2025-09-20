@@ -3,9 +3,15 @@
   "title": "Publishing and Deployment",
   "description": "Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. This covers all publishing modes from framework-dependent to self-contained, single-file, Native AOT, and container deployment, along with the decision matrix for choosing appropriate deployment strategies.",
   "category": "CLI",
-  "complexity": "Beginner | Intermediate | Advanced",
+  "complexity": 0.6,
   "priority": 1,
-  "links": {
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "1.0",
+    "year": "2016"
+  },
+  "_links": {
     "self": {
       "name": "self",
       "href": "/cli/publishing-and-deployment",
@@ -30,76 +36,71 @@
       "name": "Question \u0026 Answer Pairs",
       "href": "/cli/publishing-and-deployment/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
-    },
-    "sources": {
-      "name": "Authoritative Sources",
-      "href": "/cli/publishing-and-deployment/sources.md",
-      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
     }
   },
-  "embedded": {
+  "_embedded": {
     "similar_categories": [
       {
         "category": "cli",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "cli/build-and-compilation",
             "title": "Build and Compilation",
-            "similarity": 0.7391
+            "similarity": 0.7357
           },
           {
             "id": "cli",
             "title": "CLI",
-            "similarity": 0.6894
+            "similarity": 0.6899
           },
           {
             "id": "cli/native-aot",
             "title": "Native AOT",
-            "similarity": 0.5856
+            "similarity": 0.593
           }
         ]
       },
       {
         "category": "dotnet",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "dotnet",
             "title": ".NET Platform",
-            "similarity": 0.5598
+            "similarity": 0.5639
           }
         ]
       },
       {
         "category": "libraries",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "libraries",
             "title": ".NET Libraries",
-            "similarity": 0.5425
+            "similarity": 0.5495
           },
           {
             "id": "libraries/system-text-json",
             "title": "System.Text.Json",
-            "similarity": 0.5049
+            "similarity": 0.5136
           }
         ]
       },
       {
         "category": "csharp",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "csharp",
             "title": "C# Language",
-            "similarity": 0.5232
+            "similarity": 0.5179
           },
           {
             "id": "csharp/csharp-14-features",
             "title": "C# 14 Language Features",
-            "similarity": 0.4887
+            "similarity": 0.4821
           }
         ]
       }
@@ -124,7 +125,10 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-18T14:28:04.4620590Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2359480Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

@@ -3,9 +3,15 @@
   "title": "Assembly Trimming",
   "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. The trimmer performs build-time analysis to identify and eliminate code that is not statically reachable, significantly reducing deployment size while maintaining application functionality.",
   "category": "CLI",
-  "complexity": "Intermediate | Advanced",
+  "complexity": 0.7,
   "priority": 2,
-  "links": {
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "6.0",
+    "year": "2021"
+  },
+  "_links": {
     "self": {
       "name": "self",
       "href": "/cli/assembly-trimming",
@@ -30,18 +36,13 @@
       "name": "Question \u0026 Answer Pairs",
       "href": "/cli/assembly-trimming/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
-    },
-    "sources": {
-      "name": "Authoritative Sources",
-      "href": "/cli/assembly-trimming/sources.md",
-      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
     }
   },
-  "embedded": {
+  "_embedded": {
     "similar_categories": [
       {
         "category": "csharp",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "csharp/csharp-14-features",
@@ -51,55 +52,55 @@
           {
             "id": "csharp",
             "title": "C# Language",
-            "similarity": 0.5597
+            "similarity": 0.5533
           }
         ]
       },
       {
         "category": "libraries",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "libraries",
             "title": ".NET Libraries",
-            "similarity": 0.6319
+            "similarity": 0.6294
           },
           {
             "id": "libraries/system-text-json",
             "title": "System.Text.Json",
-            "similarity": 0.586
+            "similarity": 0.5852
           }
         ]
       },
       {
         "category": "cli",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "cli/native-aot",
             "title": "Native AOT",
-            "similarity": 0.6235
+            "similarity": 0.621
           },
           {
             "id": "cli",
             "title": "CLI",
-            "similarity": 0.5355
+            "similarity": 0.5352
           },
           {
             "id": "cli/file-based-apps",
             "title": "File-based apps",
-            "similarity": 0.5142
+            "similarity": 0.513
           }
         ]
       },
       {
         "category": "dotnet",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "dotnet",
             "title": ".NET Platform",
-            "similarity": 0.556
+            "similarity": 0.5553
           }
         ]
       }
@@ -124,7 +125,10 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-18T14:28:04.4234450Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2269440Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

@@ -3,8 +3,14 @@
   "title": "File-based apps",
   "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.",
   "category": "CLI",
-  "complexity": "beginner to intermediate",
+  "complexity": 0.5,
   "priority": 2,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "10.0",
+    "year": "2025"
+  },
   "_links": {
     "self": {
       "name": "self",
@@ -31,11 +37,6 @@
       "href": "/cli/file-based-apps/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
-    "sources": {
-      "name": "Authoritative Sources",
-      "href": "/cli/file-based-apps/sources.md",
-      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
-    },
     "validation": {
       "name": "Validation Requirements",
       "href": "/cli/file-based-apps/validation.md",
@@ -46,12 +47,12 @@
     "similar_categories": [
       {
         "category": "cli",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "cli",
             "title": "CLI",
-            "similarity": 0.8047
+            "similarity": 0.7998
           },
           {
             "id": "cli/native-aot",
@@ -61,13 +62,13 @@
           {
             "id": "cli/build-and-compilation",
             "title": "Build and Compilation",
-            "similarity": 0.6015
+            "similarity": 0.6055
           }
         ]
       },
       {
         "category": "dotnet",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "dotnet",
@@ -78,23 +79,23 @@
       },
       {
         "category": "csharp",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "csharp",
             "title": "C# Language",
-            "similarity": 0.7492
+            "similarity": 0.7463
           },
           {
             "id": "csharp/csharp-14-features",
             "title": "C# 14 Language Features",
-            "similarity": 0.5031
+            "similarity": 0.5035
           }
         ]
       },
       {
         "category": "libraries",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "libraries/system-text-json",
@@ -104,7 +105,7 @@
           {
             "id": "libraries",
             "title": ".NET Libraries",
-            "similarity": 0.5142
+            "similarity": 0.5135
           }
         ]
       }
@@ -133,7 +134,10 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-18T15:02:25.1531560Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2345457Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

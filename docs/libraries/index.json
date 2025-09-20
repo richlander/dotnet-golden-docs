@@ -3,13 +3,24 @@
   "title": ".NET Libraries",
   "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages.",
   "category": ".NET Libraries",
-  "complexity": "beginner to advanced",
+  "complexity": 0.5,
   "priority": 1,
-  "links": {
+  "depth_below": 1,
+  "topic_count": 2,
+  "introduced": {
+    "version": "1.0",
+    "year": "2016"
+  },
+  "_links": {
     "self": {
       "name": "self",
       "href": "/libraries",
       "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/",
+      "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -22,64 +33,58 @@
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     }
   },
-  "embedded": {
+  "_embedded": {
     "similar_categories": [
       {
         "category": "csharp",
-        "threshold": 0.6620462568958451,
+        "similarity_threshold": 0.6511253229456029,
         "topics": [
           {
             "id": "csharp/csharp-14-features",
             "title": "C# 14 Language Features",
-            "similarity": 0.7265
+            "similarity": 0.721
           }
         ]
       },
       {
         "category": "libraries",
-        "threshold": 0.3557732400021135,
+        "similarity_threshold": 0.35869849670198767,
         "topics": [
           {
             "id": "libraries/system-text-json",
             "title": "System.Text.Json",
-            "similarity": 0.6359
+            "similarity": 0.6382
           },
           {
             "id": "libraries/dotnet-10-library-improvements",
             "title": ".NET 10 Libraries Features",
-            "similarity": 0.3558
+            "similarity": 0.3587
           }
         ]
       },
       {
         "category": "cli",
-        "threshold": 0.5400476366716846,
+        "similarity_threshold": 0.539350286277762,
         "topics": [
           {
             "id": "cli/assembly-trimming",
             "title": "Assembly Trimming",
-            "similarity": 0.6319
+            "similarity": 0.6294
           },
           {
             "id": "cli/build-and-compilation",
             "title": "Build and Compilation",
-            "similarity": 0.5513
+            "similarity": 0.5499
           },
           {
             "id": "cli/publishing-and-deployment",
             "title": "Publishing and Deployment",
-            "similarity": 0.5425
-          }
-        ]
-      },
-      {
-        "category": "dotnet",
-        "threshold": 0.6288864883823756,
-        "topics": [
+            "similarity": 0.5495
+          },
           {
-            "id": "dotnet",
-            "title": ".NET Platform",
-            "similarity": 0.6289
+            "id": "cli/native-aot",
+            "title": "Native AOT",
+            "similarity": 0.5394
           }
         ]
       }
@@ -90,9 +95,9 @@
         "name": "system-text-json",
         "title": "System.Text.Json",
         "category": "Libraries",
-        "complexity": "Beginner | Intermediate | Advanced",
+        "complexity": 0.6,
         "priority": 1,
-        "links": {
+        "_links": {
           "self": {
             "name": "self",
             "href": "/libraries/system-text-json",
@@ -104,9 +109,9 @@
         "name": "dotnet-10-library-improvements",
         "title": ".NET 10 Libraries Features",
         "category": "Libraries",
-        "complexity": "Beginner to intermediate",
+        "complexity": 0.5,
         "priority": 2,
-        "links": {
+        "_links": {
           "self": {
             "name": "self",
             "href": "/libraries/dotnet-10-library-improvements",
@@ -117,7 +122,10 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-18T14:28:04.5142230Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2468226Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

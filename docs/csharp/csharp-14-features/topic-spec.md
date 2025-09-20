@@ -3,14 +3,16 @@
 ## Feature Description
 Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax.
 
-## Hierarchy
+## Metadata
 Name: C# 14 Language Features
 ID: csharp-14-features
 Category: C# Language
 Description: Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements.
-Complexity: Beginner to intermediate
+Complexity: 0.9
 Audience: C# developers
 Priority: 2 (Common usage - language evolution and productivity improvements)
+Introduced-Version: 10.0
+Introduced-Year: 2025
 
 ## Relationships
 Enables: Simplified property implementations, zero-allocation patterns, type-safe extensions, improved null handling
@@ -19,6 +21,18 @@ Conflicts with: Legacy C# patterns, older language versions
 Alternative to: Manual backing field management, custom extension methods, verbose null checks
 Synergistic with: Performance-oriented development, modern C# patterns, library design
 Prerequisite: C# 14 / .NET 10
+
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-14
+Announcement: https://devblogs.microsoft.com/dotnet/announcing-csharp-14/
+
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-14.md
+- https://raw.githubusercontent.com/dotnet/csharplang/main/proposals/csharp-14.0/README.md
+
+## Secondary Sources
+- https://github.com/dotnet/roslyn/releases
+- Community tutorials and migration guides
 
 ## Hints
 Flexible: Features range from syntax sugar to fundamental language capabilities

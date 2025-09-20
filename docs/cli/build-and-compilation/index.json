@@ -3,9 +3,15 @@
   "title": "Build and Compilation",
   "description": "Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment. This includes the core commands \u0060dotnet build\u0060, \u0060dotnet restore\u0060, \u0060dotnet clean\u0060, along with MSBuild integration, multi-targeting, and build optimization strategies.",
   "category": "CLI",
-  "complexity": "Beginner | Intermediate | Advanced",
+  "complexity": 0.5,
   "priority": 1,
-  "links": {
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "1.0",
+    "year": "2016"
+  },
+  "_links": {
     "self": {
       "name": "self",
       "href": "/cli/build-and-compilation",
@@ -30,76 +36,71 @@
       "name": "Question \u0026 Answer Pairs",
       "href": "/cli/build-and-compilation/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
-    },
-    "sources": {
-      "name": "Authoritative Sources",
-      "href": "/cli/build-and-compilation/sources.md",
-      "description": "Reference list of primary and secondary sources with verification dates and validation requirements"
     }
   },
-  "embedded": {
+  "_embedded": {
     "similar_categories": [
       {
         "category": "cli",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
-          {
-            "id": "cli/publishing-and-deployment",
-            "title": "Publishing and Deployment",
-            "similarity": 0.7391
-          },
           {
             "id": "cli",
             "title": "CLI",
-            "similarity": 0.7363
+            "similarity": 0.7427
+          },
+          {
+            "id": "cli/publishing-and-deployment",
+            "title": "Publishing and Deployment",
+            "similarity": 0.7357
           },
           {
             "id": "cli/file-based-apps",
             "title": "File-based apps",
-            "similarity": 0.6015
+            "similarity": 0.6055
           }
         ]
       },
       {
         "category": "dotnet",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "dotnet",
             "title": ".NET Platform",
-            "similarity": 0.5545
+            "similarity": 0.5594
           }
         ]
       },
       {
         "category": "libraries",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "libraries",
             "title": ".NET Libraries",
-            "similarity": 0.5513
+            "similarity": 0.5499
           },
           {
             "id": "libraries/system-text-json",
             "title": "System.Text.Json",
-            "similarity": 0.524
+            "similarity": 0.5261
           }
         ]
       },
       {
         "category": "csharp",
-        "threshold": 0.5,
+        "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "csharp",
             "title": "C# Language",
-            "similarity": 0.5319
+            "similarity": 0.5288
           },
           {
             "id": "csharp/csharp-14-features",
             "title": "C# 14 Language Features",
-            "similarity": 0.508
+            "similarity": 0.5087
           }
         ]
       }
@@ -124,7 +125,10 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-18T14:28:04.4491740Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2338070Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

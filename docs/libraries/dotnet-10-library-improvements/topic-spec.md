@@ -3,14 +3,16 @@
 ## Feature Description
 Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios.
 
-## Hierarchy
+## Metadata
 Name: .NET 10 Libraries Features
 ID: dotnet-10-library-improvements
 Category: Libraries
 Description: Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations.
-Complexity: Beginner to intermediate
+Complexity: 0.5
 Audience: All developers
 Priority: 2 (Common usage - multiple widely-requested features)
+Introduced-Version: 10.0
+Introduced-Year: 2025
 
 ## Relationships
 Enables: Natural string sorting, JSON security hardening, quantum-resistant cryptography, high-performance text processing
@@ -19,6 +21,19 @@ Conflicts with: Legacy .NET Framework patterns, insecure JSON processing
 Alternative to: Custom string comparers, third-party crypto libraries, manual normalization
 Synergistic with: Performance-critical applications, security-focused development
 Prerequisite: .NET 10 SDK
+
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/core/whats-new/dotnet-10/libraries
+Announcement: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/
+
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/whats-new/dotnet-10/libraries.md
+- https://raw.githubusercontent.com/dotnet/core/main/release-notes/10.0/10.0.0/10.0.0.md
+
+## Secondary Sources
+- https://github.com/dotnet/runtime/releases/tag/v10.0.0
+- Community migration guides and performance benchmarks
+- Stack Overflow discussions on .NET 10 features
 
 ## Hints
 Flexible: Features range from simple API additions to major security enhancements

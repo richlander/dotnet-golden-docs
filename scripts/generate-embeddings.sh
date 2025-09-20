@@ -17,6 +17,6 @@ echo "🔨 Generating embeddings for docs directory..."
 export Embedding__BaseUrl="http://merritt:11434"
 
 # Generate embeddings for docs directory only
-"$EMBEDDING_TOOL" generate --path docs
+"$EMBEDDING_TOOL" update-embeddings --path docs
 
 echo "✅ Embeddings generated successfully"

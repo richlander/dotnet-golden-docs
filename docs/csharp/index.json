@@ -3,13 +3,24 @@
   "title": "C# Language",
   "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment.",
   "category": "C# Language",
-  "complexity": "beginner to advanced",
+  "complexity": 0.5,
   "priority": 1,
-  "links": {
+  "depth_below": 1,
+  "topic_count": 1,
+  "introduced": {
+    "version": "1.0",
+    "year": "2000"
+  },
+  "_links": {
     "self": {
       "name": "self",
       "href": "/csharp",
       "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/",
+      "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -22,42 +33,58 @@
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     }
   },
-  "embedded": {
+  "_embedded": {
     "similar_categories": [
       {
+        "category": "dotnet",
+        "similarity_threshold": 0.8677578339829674,
+        "topics": [
+          {
+            "id": "dotnet",
+            "title": ".NET Platform",
+            "similarity": 0.8678
+          }
+        ]
+      },
+      {
         "category": "cli",
-        "threshold": 0.559713075697453,
+        "similarity_threshold": 0.5532995816757836,
         "topics": [
           {
             "id": "cli/file-based-apps",
             "title": "File-based apps",
-            "similarity": 0.7492
+            "similarity": 0.7463
           },
           {
             "id": "cli",
             "title": "CLI",
-            "similarity": 0.6651
+            "similarity": 0.6518
           },
           {
             "id": "cli/native-aot",
             "title": "Native AOT",
-            "similarity": 0.5874
+            "similarity": 0.5773
+          },
+          {
+            "id": "cli/assembly-trimming",
+            "title": "Assembly Trimming",
+            "similarity": 0.5533
           }
         ]
       },
       {
         "category": "libraries",
-        "threshold": 0.6019532206889058,
+        "similarity_threshold": 0.5988768182223901,
         "topics": [
           {
             "id": "libraries",
             "title": ".NET Libraries",
-            "similarity": 0.662
+            "similarity": 0.6511
           },
           {
             "id": "libraries/system-text-json",
             "title": "System.Text.Json",
-            "similarity": 0.602
+            "similarity": 0.5989
           }
         ]
       }
@@ -68,9 +95,9 @@
         "name": "csharp-14-features",
         "title": "C# 14 Language Features",
         "category": "C# Language",
-        "complexity": "Beginner to intermediate",
+        "complexity": 0.9,
         "priority": 2,
-        "links": {
+        "_links": {
           "self": {
             "name": "self",
             "href": "/csharp/csharp-14-features",
@@ -81,7 +108,10 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-18T14:28:04.5057200Z",
-    "generator": "IndexTool/1.0"
+    "generated": "2025-09-20T01:12:25.2448938Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
   }
 }

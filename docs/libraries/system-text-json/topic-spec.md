@@ -10,29 +10,30 @@ Alternative to: Newtonsoft.Json, DataContractJsonSerializer
 Prerequisite: .NET Core 3.0+ (built-in), .NET Standard 2.0+ (NuGet package)
 Synergistic with: ASP.NET Core APIs, Source generators, HttpClient extensions
 
-## Hierarchy
+## Metadata
 Name: System.Text.Json
 ID: system-text-json
 Category: Libraries
 Description: System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0+ that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON).
-Complexity: Beginner | Intermediate | Advanced
+Complexity: 0.6
 Audience: All developers | Web developers | API developers
 Priority: 1 (Critical)
+Introduced-Version: 3.0
+Introduced-Year: 2019
 
-## Source Authority
-Primary Sources (High confidence):
-- https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/ - Official documentation - Last verified: 2025-01-19
-- https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/libraries#json-serialization - .NET 10 improvements - Last verified: 2025-09-09
-- https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.Json - Source code - Last verified: 2024-09-12
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/
+Announcement: https://devblogs.microsoft.com/dotnet/try-the-new-system-text-json-apis/
 
-Secondary Sources (Good quality):
-- Migration guides from Newtonsoft.Json, Stack Overflow discussions, Community performance comparisons
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/standard/serialization/system-text-json/overview.md
+- https://raw.githubusercontent.com/dotnet/runtime/main/src/libraries/System.Text.Json/README.md
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/whats-new/dotnet-10/libraries.md
 
-Validation Requirements:
-- [ ] Code examples compile and run across .NET versions
-- [ ] Source generation examples work with Native AOT
-- [ ] Performance benchmarks vs Newtonsoft.Json
-- [ ] Security validation for threat model scenarios
+## Secondary Sources
+- https://github.com/dotnet/samples/tree/main/core/json
+- Migration guides from Newtonsoft.Json
+- Community performance comparisons and tutorials
 
 ## Generation Hints
 Emphasize: Performance benefits, Source generation, UTF-8 optimization, Security features

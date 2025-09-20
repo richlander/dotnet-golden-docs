@@ -10,31 +10,30 @@ Alternative to: Manual MSBuild invocation, IDE-specific build systems
 Prerequisite: .NET SDK installation, Project files (*.csproj, *.sln)
 Synergistic with: Package management, Testing frameworks, Publishing workflows, Code analysis tools
 
-## Hierarchy
+## Metadata
 Name: Build and Compilation
 ID: build-and-compilation
 Category: CLI
 Description: Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment.
-Category: CLI
-Complexity: Beginner | Intermediate | Advanced
+Complexity: 0.5
 Audience: All .NET developers | DevOps engineers | Build engineers
 Priority: 1 (Critical)
+Introduced-Version: 1.0
+Introduced-Year: 2016
 
-## Source Authority
-Primary Sources (High confidence):
-- https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build - dotnet build command reference - Last verified: 2023-11-27
-- https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-restore - dotnet restore command reference - Last verified: 2023-07-19
-- https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-clean - dotnet clean command reference - Last verified: 2024-08-15
-- https://docs.microsoft.com/en-us/visualstudio/msbuild/ - MSBuild documentation - Last verified: 2024-09-12
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/core/tools/dotnet-build
+Announcement: https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/
 
-Secondary Sources (Good quality):
-- Build performance optimization guides, CI/CD best practices, Multi-targeting strategies
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/dotnet-build.md
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/dotnet-restore.md
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/dotnet-clean.md
 
-Validation Requirements:
-- [ ] Code examples compile across .NET versions and platforms
-- [ ] Build configuration patterns work in CI/CD environments
-- [ ] Performance optimization techniques provide measurable improvements
-- [ ] Multi-targeting scenarios function correctly
+## Secondary Sources
+- https://github.com/dotnet/msbuild
+- Build performance optimization guides and CI/CD best practices
+- Multi-targeting strategies and community tutorials
 
 ## Generation Hints
 Emphasize: Core workflow commands, Dependency management, Build configurations, Performance optimization

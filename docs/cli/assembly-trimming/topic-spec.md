@@ -10,31 +10,30 @@ Alternative to: Manual dependency reduction, Framework-dependent deployment
 Prerequisite: Self-contained deployment, .NET 6+ (fully supported), Static code analysis compatibility
 Synergistic with: Native AOT compilation, Single-file deployment, Source generators
 
-## Hierarchy
+## Metadata
 Name: Assembly Trimming
 ID: assembly-trimming
 Category: CLI
 Description: Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies.
-Category: CLI
-Complexity: Intermediate | Advanced
+Complexity: 0.7
 Audience: Performance-focused developers | Cloud developers | Library authors
 Priority: 2 (Common)
+Introduced-Version: 6.0
+Introduced-Year: 2021
 
-## Source Authority
-Primary Sources (High confidence):
-- https://docs.microsoft.com/en-us/dotnet/core/deploying/trimming/trim-self-contained - Main trimming guide - Last verified: 2020-04-03
-- https://docs.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options - Trimming configuration options - Last verified: 2025-05-01
-- https://docs.microsoft.com/en-us/dotnet/core/deploying/trimming/incompatibilities - Known incompatibilities - Last verified: 2023-11-08
-- https://docs.microsoft.com/en-us/dotnet/core/deploying/trimming/prepare-libraries-for-trimming - Library preparation guide - Last verified: 2023-06-12
+## Official Sources
+Documentation: https://docs.microsoft.com/dotnet/core/deploying/trimming/trim-self-contained
+Announcement: https://devblogs.microsoft.com/dotnet/announcing-net-6/
 
-Secondary Sources (Good quality):
-- ILLink tool documentation, Community trimming experiences, Platform-specific optimization guides
+## Primary Sources
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/deploying/trimming/trim-self-contained.md
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/deploying/trimming/trimming-options.md
+- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/deploying/trimming/incompatibilities.md
 
-Validation Requirements:
-- [ ] Code examples compile and run with trimming enabled
-- [ ] Library compatibility analysis across major frameworks
-- [ ] Size reduction benchmarks vs untrimmed deployments
-- [ ] Cross-platform trimming behavior verification
+## Secondary Sources
+- https://github.com/mono/linker
+- Community trimming experiences and platform-specific guides
+- ILLink tool documentation
 
 ## Generation Hints
 Emphasize: Size reduction benefits, Build-time analysis, Library compatibility, Warning resolution
