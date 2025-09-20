@@ -21,11 +21,13 @@ A: Native AOT is available starting with .NET 7, with improved support in .NET 8
 
 **Q: How do I enable Native AOT for my project?**
 A: Add `<PublishAot>true</PublishAot>` to your project file's PropertyGroup, then publish with a runtime identifier:
+
 ```xml
 <PropertyGroup>
     <PublishAot>true</PublishAot>
 </PropertyGroup>
 ```
+
 ```bash
 dotnet publish -r win-x64 -c Release
 ```
@@ -35,6 +37,7 @@ A: Windows requires Visual Studio 2022 with "Desktop development with C++" workl
 
 **Q: How do I set up Native AOT on Linux?**
 A: Install the required packages:
+
 ```bash
 # Ubuntu
 sudo apt-get install clang zlib1g-dev
@@ -76,6 +79,7 @@ A: Yes, starting with .NET 8, ASP.NET Core supports Native AOT. Use `WebApplicat
 
 **Q: How do I configure JSON serialization for Native AOT in ASP.NET Core?**
 A: Use source-generated JSON contexts:
+
 ```csharp
 [JsonSerializable(typeof(MyModel))]
 internal partial class AppJsonContext : JsonSerializerContext { }
@@ -99,12 +103,14 @@ A: Native AOT does not support cross-OS compilation (e.g., building for Linux on
 
 **Q: How do I cross-compile for ARM64 on Windows?**
 A: Install the "VS 2022 C++ ARM64/ARM64EC build tools" component in Visual Studio, then publish with:
+
 ```bash
 dotnet publish -r win-arm64 -c Release
 ```
 
 **Q: Can I use Native AOT in Docker containers?**
 A: Yes, Native AOT is excellent for containers. Use runtime-deps base images instead of full runtime images:
+
 ```dockerfile
 FROM mcr.microsoft.com/dotnet/runtime-deps:8.0-alpine
 COPY publish/ /app

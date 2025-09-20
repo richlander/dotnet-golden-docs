@@ -1,27 +1,39 @@
 # .NET Platform - Topic Specification
 
 ## Feature Description
+
 .NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps.
 
 ## Metadata
-Name: .NET Platform
-ID: dotnet
-Category: .NET Platform
-Description: .NET is a free, cross-platform, open-source developer platform for building many kinds of applications.
-Complexity: 0.4
-Audience: all developers, platform architects, system administrators
-Priority: 1 (Critical - foundational platform)
-Introduced-Version: 1.0
-Introduced-Year: 2016
+
+| Property | Value |
+| --- | --- |
+| Name | .NET Platform |
+| ID | dotnet |
+| Category | .NET Platform |
+| Description | .NET is a free, cross-platform, open-source developer platform for building many kinds of applications. |
+| Complexity | 0.6 |
+| Audience | all developers, platform architects, system administrators |
+| Priority | 1 (Critical - foundational platform) |
+| Version | 1.0 |
+| Year | 2016 |
 
 ## Official Sources
-Documentation: https://docs.microsoft.com/dotnet/
-Announcement: https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/ | rendered | Main .NET platform documentation | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | - |
 
 ## Primary Sources
-- https://raw.githubusercontent.com/dotnet/docs/main/docs/index.yml
-- https://raw.githubusercontent.com/dotnet/core/main/README.md
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+| dotnet/docs | docs/index.yml | .NET documentation index | - |
+| dotnet/core | README.md | .NET Core repository overview | - |
 
 ## Secondary Sources
-- https://github.com/dotnet
-- Community guides and platform adoption resources
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://github.com/dotnet | rendered | .NET organization on GitHub | - |

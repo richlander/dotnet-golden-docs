@@ -1,9 +1,11 @@
 # .NET Libraries - Golden Reference
 
 ## Overview
+
 The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages.
 
 Core library categories:
+
 - **Base Class Library (BCL)**: Fundamental types and system functionality (System.*)
 - **Runtime Libraries**: Platform services, I/O, networking, security
 - **Application Frameworks**: ASP.NET Core, MAUI, desktop frameworks
@@ -11,12 +13,14 @@ Core library categories:
 - **Community Packages**: Open-source and third-party components via NuGet
 
 The library ecosystem serves multiple development paradigms:
+
 - **Cross-platform development**: Consistent APIs across Windows, macOS, Linux
 - **Cloud-first architecture**: Built-in support for microservices, containers, serverless
 - **Performance optimization**: High-performance collections, spans, async patterns
 - **Modern development practices**: Dependency injection, configuration, logging, testing
 
 Key architectural principles:
+
 - **Namespace organization**: Hierarchical naming with System.* as foundation
 - **API consistency**: Common patterns across different functional areas
 - **Performance focus**: Memory-efficient, allocation-aware designs
@@ -25,6 +29,7 @@ Key architectural principles:
 ## Fundamental System Libraries
 
 ### Core Data Types and Primitives
+
 ```csharp
 // Fundamental value types
 int number = 42;                          // System.Int32
@@ -40,6 +45,7 @@ ReadOnlySpan<char> span = text.AsSpan();  // System.ReadOnlySpan<T>
 ```
 
 ### I/O and File System Operations
+
 ```csharp
 // File system operations
 using System.IO;
@@ -57,6 +63,7 @@ string extension = Path.GetExtension(fullPath);
 ```
 
 ### Networking and HTTP
+
 ```csharp
 // HTTP client operations
 using System.Net.Http;
@@ -71,6 +78,7 @@ HttpResponseMessage result = await client.SendAsync(request);
 ```
 
 ### Asynchronous Programming
+
 ```csharp
 // Task-based asynchronous patterns
 public async Task<string> ProcessDataAsync()
@@ -96,6 +104,7 @@ await LongRunningOperationAsync(cts.Token);
 ## Application Framework Libraries
 
 ### ASP.NET Core Web Development
+
 ```csharp
 // Minimal API development
 var builder = WebApplication.CreateBuilder(args);
@@ -110,6 +119,7 @@ app.Run();
 ```
 
 ### Configuration and Options
+
 ```csharp
 // Configuration binding and dependency injection
 public class AppSettings
@@ -125,6 +135,7 @@ builder.Services.AddScoped<IBusinessService, BusinessService>();
 ```
 
 ### Logging and Diagnostics
+
 ```csharp
 // Structured logging with Microsoft.Extensions.Logging
 public class BusinessService
@@ -156,6 +167,7 @@ public class BusinessService
 ## Data Access and Serialization Libraries
 
 ### JSON Processing with System.Text.Json
+
 ```csharp
 // High-performance JSON serialization
 public class Product
@@ -175,6 +187,7 @@ Product restored = JsonSerializer.Deserialize(json, ProductContext.Default.Produ
 ```
 
 ### Entity Framework Core (Data Access)
+
 ```csharp
 // Database context and entity configuration
 public class ApplicationDbContext : DbContext
@@ -213,6 +226,7 @@ public class ProductRepository
 ## Performance and Memory Management Libraries
 
 ### High-Performance Collections and Spans
+
 ```csharp
 // Memory-efficient string operations with Span<T>
 public static bool IsValidEmail(ReadOnlySpan<char> email)
@@ -243,6 +257,7 @@ finally
 ```
 
 ### System.Threading and Parallelism
+
 ```csharp
 // Parallel processing with PLINQ
 var results = data
@@ -267,6 +282,7 @@ await foreach (var item in reader.ReadAllAsync(cancellationToken))
 ## Testing and Quality Assurance Libraries
 
 ### Unit Testing with xUnit and MSTest
+
 ```csharp
 // xUnit test patterns
 public class ProductServiceTests
@@ -300,6 +316,7 @@ public class ProductServiceTests
 ```
 
 ### Integration Testing with ASP.NET Core
+
 ```csharp
 // Integration testing with WebApplicationFactory
 public class ProductApiTests : IClassFixture<WebApplicationFactory<Program>>
@@ -328,6 +345,7 @@ public class ProductApiTests : IClassFixture<WebApplicationFactory<Program>>
 ## Cloud and Distributed System Libraries
 
 ### Azure SDK and Cloud Integration
+
 ```csharp
 // Azure Service Bus messaging
 using Azure.Messaging.ServiceBus;
@@ -344,6 +362,7 @@ KeyVaultSecret secret = await client.GetSecretAsync("database-connection");
 ```
 
 ### Distributed Caching and State Management
+
 ```csharp
 // Redis distributed caching
 builder.Services.AddStackExchangeRedisCache(options =>
@@ -376,6 +395,7 @@ public class CacheService
 ## Library Ecosystem and Package Management
 
 ### NuGet Package Discovery and Management
+
 ```xml
 <!-- Modern package management with Central Package Management -->
 <PackageReference Include="Microsoft.Extensions.Hosting" />
@@ -388,6 +408,7 @@ public class CacheService
 ```
 
 ### Popular Third-Party Libraries
+
 ```csharp
 // AutoMapper for object mapping
 var config = new MapperConfiguration(cfg => {
@@ -421,6 +442,7 @@ await retryPolicy.ExecuteAsync(async () =>
 ## Architecture and Design Patterns
 
 ### Dependency Injection and IoC Container
+
 ```csharp
 // Service lifetime management
 builder.Services.AddSingleton<IConfigurationService, ConfigurationService>();
@@ -440,6 +462,7 @@ builder.Services.AddScoped<Func<string, IPaymentProcessor>>(provider => key =>
 ```
 
 ### Repository and Unit of Work Patterns
+
 ```csharp
 // Generic repository pattern
 public interface IRepository<T> where T : class
@@ -461,6 +484,7 @@ public interface IUnitOfWork : IDisposable
 ```
 
 ### CQRS and MediatR Integration
+
 ```csharp
 // Command and Query separation with MediatR
 public record CreateProductCommand(string Name, decimal Price) : IRequest<int>;
@@ -487,6 +511,7 @@ public class CreateProductHandler : IRequestHandler<CreateProductCommand, int>
 ## Performance and Optimization Considerations
 
 ### Memory Management and Allocation Patterns
+
 ```csharp
 // Avoiding allocations with value types and spans
 public readonly struct ProductId : IEquatable<ProductId>
@@ -508,6 +533,7 @@ public static string InternString(string value)
 ```
 
 ### Async Best Practices and Performance
+
 ```csharp
 // ConfigureAwait for library code
 public async Task<string> ProcessDataAsync(string input)
@@ -532,6 +558,7 @@ public ValueTask<string> GetCachedValueAsync(string key)
 ## Security and Cross-Cutting Concerns
 
 ### Authentication and Authorization Libraries
+
 ```csharp
 // JWT authentication with ASP.NET Core
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -561,6 +588,7 @@ builder.Services.AddAuthorization(options =>
 ```
 
 ### Data Protection and Encryption
+
 ```csharp
 // ASP.NET Core Data Protection
 builder.Services.AddDataProtection()
@@ -589,6 +617,7 @@ public class SecureService
 ```
 
 ## See Also
+
 - **System.Text.Json**: High-performance JSON serialization and modern data interchange
 - **Entity Framework Core**: Object-relational mapping and database access patterns
 - **ASP.NET Core**: Web application frameworks and API development

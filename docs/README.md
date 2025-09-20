@@ -40,13 +40,16 @@ docs/
 ## Format Standards
 
 ### Shared Standards
+
 - [Q&A Format Guide](qa-pairs-format.md): Standards for question-answer content
 - [Golden Reference Format](golden-reference-format.md): *(placeholder)*
 - [Topic Specification Format](topic-spec-format.md): *(placeholder)*
 - [Sources Format](sources-format.md): *(placeholder)*
 
 ### Document-Specific Guidelines
+
 Each document type has specific requirements:
+
 - **Focused scope**: Each document addresses exactly one concern
 - **Validation requirements**: All content must be testable and verifiable
 - **Source authority**: All claims backed by authoritative references
@@ -55,6 +58,7 @@ Each document type has specific requirements:
 ## Current Topics
 
 ### CLI Category
+
 - **[file-based-apps](cli/file-based-apps/)**: Complete pilot implementation
   - All document types implemented
   - Format standards established

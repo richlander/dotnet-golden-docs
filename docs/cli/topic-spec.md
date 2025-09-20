@@ -6,24 +6,34 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 
 ## Metadata
 
-Name: CLI
-ID: cli
-Category: CLI
-Description: The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications.
-Complexity: 0.4
-Audience: all developers, DevOps engineers, system administrators
-Priority: 1 (Critical - fundamental .NET tooling)
-Introduced-Version: 1.0
-Introduced-Year: 2016
+| Property | Value |
+| --- | --- |
+| Name | CLI |
+| ID | cli |
+| Category | CLI |
+| Description | The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. |
+| Complexity | 0.9 |
+| Audience | all developers, DevOps engineers, system administrators |
+| Priority | 1 (Critical - fundamental .NET tooling) |
+| Version | 1.0 |
+| Year | 2016 |
 
 ## Official Sources
-Documentation: https://docs.microsoft.com/dotnet/core/tools/
-Announcement: https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/core/tools/ | rendered | Main .NET CLI documentation | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | - |
 
 ## Primary Sources
-- https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/index.md
-- https://raw.githubusercontent.com/dotnet/core/main/release-notes/1.0/1.0.0.md
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+| dotnet/docs | docs/core/tools/index.md | .NET CLI tools documentation | - |
+| dotnet/core | release-notes/1.0/1.0.0.md | .NET Core 1.0.0 release notes | - |
 
 ## Secondary Sources
-- https://github.com/dotnet/cli
-- Community tutorials and CI/CD integration guides
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://github.com/dotnet/cli | rendered | .NET CLI repository | - |

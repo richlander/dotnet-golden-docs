@@ -1,11 +1,13 @@
 # C# 14 Language Features - Golden Reference
 
 ## Overview
+
 C# 14 introduces significant language enhancements that improve developer productivity, type safety, and performance. These features span property syntax improvements, memory management optimizations, enhanced lambda expressions, partial member support, and new extension capabilities. Key themes include reducing boilerplate code, enabling zero-allocation patterns, and extending the type system in safe ways.
 
 ## Essential Features & Examples
 
 ### `field` Keyword in Properties (Preview)
+
 Access the compiler-generated backing field in auto-implemented properties with custom logic.
 
 ```csharp
@@ -30,6 +32,7 @@ Console.WriteLine($"{person.Name}, {person.Age}"); // "John, 0"
 ```
 
 ### First-Class Span Types
+
 Enhanced Span support with natural syntax and zero-allocation patterns.
 
 ```csharp
@@ -49,6 +52,7 @@ Console.WriteLine(extension.ToString()); // "pdf"
 ```
 
 ### Unbound Generic Types in `nameof`
+
 Reference generic type definitions without specifying type arguments.
 
 ```csharp
@@ -65,6 +69,7 @@ MethodInfo addMethod = genericType.GetMethod(nameof(List<>.Add));
 ```
 
 ### Simple Lambda Parameters with Modifiers
+
 Enhanced lambda syntax with parameter modifiers for better type safety.
 
 ```csharp
@@ -82,6 +87,7 @@ var sum = (params int[] numbers) => numbers.Sum();
 ```
 
 ### Partial Events and Constructors
+
 Enable partial declarations for events and constructors in code generation scenarios.
 
 ```csharp
@@ -113,6 +119,7 @@ public partial class MyClass
 ```
 
 ### Extensions
+
 New extension syntax for augmenting types with additional members safely.
 
 ```csharp
@@ -133,6 +140,7 @@ Console.WriteLine(person.IsAdult);  // True
 ```
 
 ### Null-Conditional Assignment
+
 Streamlined null-safe assignment operations.
 
 ```csharp
@@ -154,6 +162,7 @@ config?.Settings["theme"] = "dark";
 ```
 
 ### User-Defined Compound Assignment Operators
+
 Custom types can define compound assignment operators directly.
 
 ```csharp
@@ -176,6 +185,7 @@ velocity *= 1.5f;              // Uses custom *=
 ```
 
 ### Optional and Named Arguments in Expression Trees
+
 LINQ expression trees now support optional parameters and named arguments.
 
 ```csharp
@@ -197,6 +207,7 @@ compiled(); // "[Info] App: Hello"
 ## Common Patterns & Integration
 
 ### Property Validation Patterns
+
 The `field` keyword enables common validation patterns without boilerplate.
 
 ```csharp
@@ -218,6 +229,7 @@ public class ValidationExample
 ```
 
 ### Zero-Allocation String Processing
+
 First-class Span support enables efficient string operations.
 
 ```csharp
@@ -238,6 +250,7 @@ public static class StringUtils
 ```
 
 ### Type-Safe Extension Patterns
+
 Extensions provide safer alternatives to traditional extension methods.
 
 ```csharp
@@ -255,21 +268,25 @@ public extension CollectionExtensions for ICollection<T>
 ## Gotchas & Limitations
 
 ### `field` Keyword Restrictions
+
 - Only available in property accessors
 - Currently preview feature, syntax may change
 - Cannot be used in expression-bodied properties
 
 ### Span Lifetime Management
+
 - First-class Span still subject to ref safety rules
 - Stack-only restrictions apply
 - Careful with async boundaries
 
 ### Extension Safety
+
 - Extensions don't support inheritance
 - Name resolution follows specific rules
 - Type safety enforced at compile time
 
 ### Null-Conditional Assignment Scope
+
 - Limited to assignment contexts
 - Doesn't work with method calls or complex expressions
 - May not short-circuit in all expected scenarios
@@ -277,18 +294,21 @@ public extension CollectionExtensions for ICollection<T>
 ## See Also
 
 ### Related Language Features
+
 - **C# 13 Features**: params collections, ref/unsafe in async, overload resolution priority
 - **Pattern Matching**: Enhanced patterns and switch expressions
 - **Records**: Immutable data structures with value semantics
 - **Nullable Reference Types**: Compile-time null safety
 
 ### Performance Features
+
 - **Span and Memory**: Zero-allocation memory management
 - **ref struct**: Stack-only types for performance
 - **Unsafe Code**: Low-level memory operations
 - **Hardware Intrinsics**: SIMD operations
 
 ### Development Tools
+
 - **Source Generators**: Compile-time code generation
 - **Analyzers**: Custom compile-time diagnostics
 - **Language Version**: Targeting specific C# versions

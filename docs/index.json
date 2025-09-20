@@ -81,7 +81,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-20T01:12:25.2482145Z",
+    "generated": "2025-09-20T01:14:04.0198588Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

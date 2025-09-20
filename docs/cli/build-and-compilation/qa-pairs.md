@@ -30,12 +30,14 @@ A: Use `dotnet build -r win-x64` for Windows 64-bit, `dotnet build -r linux-x64`
 
 **Q: How do I create a custom build configuration?**
 A: Add a new configuration in your project file:
+
 ```xml
 <PropertyGroup Condition="'$(Configuration)' == 'Staging'">
     <Optimize>true</Optimize>
     <DefineConstants>STAGING</DefineConstants>
 </PropertyGroup>
 ```
+
 Then build with `dotnet build -c Staging`.
 
 **Q: How do I set MSBuild properties from the command line?**
@@ -45,11 +47,13 @@ A: Use `-p:PropertyName=Value` syntax, like `dotnet build -p:TreatWarningsAsErro
 
 **Q: How do I build a library that targets multiple .NET versions?**
 A: Set multiple target frameworks in your project file:
+
 ```xml
 <PropertyGroup>
     <TargetFrameworks>net8.0;net6.0;netstandard2.0</TargetFrameworks>
 </PropertyGroup>
 ```
+
 Then `dotnet build` will build for all targets.
 
 **Q: How do I build only one framework from a multi-target project?**
@@ -57,6 +61,7 @@ A: Use `dotnet build -f net8.0` to build only the .NET 8 target, or `dotnet buil
 
 **Q: How do I add framework-specific dependencies?**
 A: Use conditional item groups:
+
 ```xml
 <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
     <PackageReference Include="System.Text.Json" Version="6.0.0" />
@@ -104,6 +109,7 @@ A: Use `dotnet list package --include-transitive` to see all packages, add expli
 
 **Q: What's the optimal build sequence for CI/CD?**
 A: Separate restore and build phases:
+
 ```bash
 dotnet restore --locked-mode
 dotnet build --no-restore --configuration Release
@@ -112,6 +118,7 @@ dotnet test --no-build --configuration Release
 
 **Q: How do I create reproducible builds?**
 A: Enable deterministic builds with:
+
 ```xml
 <PropertyGroup>
     <Deterministic>true</Deterministic>
@@ -149,6 +156,7 @@ A: Try `dotnet clean && dotnet build` to reset, check for custom MSBuild targets
 
 **Q: How do I integrate code analysis into builds?**
 A: Enable analyzers in your project:
+
 ```xml
 <PropertyGroup>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
@@ -158,6 +166,7 @@ A: Enable analyzers in your project:
 
 **Q: How do I generate documentation files during build?**
 A: Enable XML documentation:
+
 ```xml
 <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -166,6 +175,7 @@ A: Enable XML documentation:
 
 **Q: How do I customize build output paths?**
 A: Use MSBuild properties:
+
 ```xml
 <PropertyGroup>
     <OutputPath>custom\bin\path</OutputPath>
@@ -175,6 +185,7 @@ A: Use MSBuild properties:
 
 **Q: How do I conditionally include files based on build configuration?**
 A: Use MSBuild conditions:
+
 ```xml
 <ItemGroup Condition="'$(Configuration)' == 'Debug'">
     <Content Include="DebugConfig.json" />

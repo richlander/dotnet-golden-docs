@@ -1,19 +1,23 @@
 # Publishing and Deployment - Golden Reference
 
 ## Overview
+
 Publishing and deployment is the distribution-time workflow that transforms build artifacts into production-ready applications. The .NET CLI provides multiple publishing modes optimized for different deployment scenarios, from simple framework-dependent deployments to highly optimized Native AOT executables.
 
 Publishing fundamentally differs from building:
+
 - **Build**: Development-time compilation for testing and debugging
 - **Publish**: Distribution-time packaging for production deployment
 
 Core publishing principles:
+
 - **Deployment target awareness**: Framework-dependent vs self-contained strategies
 - **Performance optimization**: ReadyToRun, trimming, Native AOT compilation
 - **Distribution optimization**: Single-file packaging, container deployment
 - **Platform targeting**: Runtime identifier (RID) specification for cross-platform deployment
 
 The publishing system serves multiple deployment scenarios:
+
 - **Desktop applications**: Self-contained executables with optimal startup
 - **Cloud services**: Container-optimized deployments with minimal footprint
 - **IoT devices**: Trimmed applications for resource-constrained environments
@@ -22,6 +26,7 @@ The publishing system serves multiple deployment scenarios:
 ## Publishing Modes Overview
 
 ### Framework-Dependent Deployment (Default)
+
 **Use case**: Shared runtime environments, enterprise deployments
 **Benefits**: Smallest deployment size, automatic security updates, cross-platform portability
 **Requirements**: Target runtime must be pre-installed
@@ -35,6 +40,7 @@ dotnet publish -f net8.0                 # Specific target framework
 ```
 
 ### Self-Contained Deployment
+
 **Use case**: Isolated deployments, controlled runtime versions
 **Benefits**: No runtime installation required, version control, deployment independence
 **Trade-offs**: Larger deployment size, manual security updates
@@ -47,6 +53,7 @@ dotnet publish -r osx-arm64 --self-contained      # macOS Apple Silicon
 ```
 
 ### Single-File Deployment
+
 **Use case**: Simplified distribution, desktop applications, utility tools
 **Benefits**: Single executable file, easy deployment, reduced file clutter
 **Considerations**: Larger executable size, slower cold start
@@ -58,6 +65,7 @@ dotnet publish -r linux-x64 -p:PublishSingleFile=true --self-contained
 ```
 
 ### ReadyToRun Compilation
+
 **Use case**: Improved startup performance, frequent application restarts
 **Benefits**: Faster startup time, reduced JIT overhead, better first-run performance
 **Trade-offs**: Larger deployment size, longer build time
@@ -69,6 +77,7 @@ dotnet publish -c Release -p:PublishReadyToRun=true --self-contained
 ```
 
 ### Native AOT Deployment
+
 **Use case**: Ultimate performance, memory-constrained environments, cloud functions
 **Benefits**: Fastest startup, smallest memory footprint, no runtime dependency
 **Limitations**: Limited reflection support, framework compatibility restrictions
@@ -80,6 +89,7 @@ dotnet publish -r linux-x64 -p:PublishAot=true -c Release
 ```
 
 ### Container Deployment
+
 **Use case**: Cloud-native applications, microservices, scalable deployments
 **Benefits**: Consistent deployment environment, scalability, cloud integration
 **Integration**: Direct container image creation without Dockerfile
@@ -116,6 +126,7 @@ dotnet publish -p:PublishProfile=DefaultContainer
 ## Advanced Publishing Configuration
 
 ### Optimization Combinations
+
 ```bash
 # Maximum optimization for cloud deployment
 dotnet publish -r linux-x64 -c Release \
@@ -135,6 +146,7 @@ dotnet publish -t:PublishContainer \
 ```
 
 ### Platform-Specific Targeting
+
 ```bash
 # Cross-platform deployment matrix
 dotnet publish -r win-x64 -c Release      # Windows 64-bit
@@ -146,6 +158,7 @@ dotnet publish -r osx-arm64 -c Release    # macOS Apple Silicon
 ```
 
 ### Custom Output Configuration
+
 ```bash
 # Custom output paths and naming
 dotnet publish -o /deploy/artifacts       # Custom output directory
@@ -160,6 +173,7 @@ dotnet publish -p:VersionSuffix=beta     # Pre-release suffix
 ## Performance and Size Optimization
 
 ### Build-Time Optimizations
+
 ```xml
 <!-- Project file optimizations -->
 <PropertyGroup Condition="'$(Configuration)' == 'Release'">
@@ -178,6 +192,7 @@ dotnet publish -p:VersionSuffix=beta     # Pre-release suffix
 ```
 
 ### Runtime Configuration
+
 ```json
 // runtimeconfig.template.json
 {
@@ -191,6 +206,7 @@ dotnet publish -p:VersionSuffix=beta     # Pre-release suffix
 ```
 
 ### Framework Feature Control
+
 ```bash
 # Disable unnecessary framework features
 dotnet publish -r linux-x64 -c Release \
@@ -202,6 +218,7 @@ dotnet publish -r linux-x64 -c Release \
 ## Deployment Automation and CI/CD
 
 ### Optimized CI/CD Pipeline
+
 ```bash
 # Production-ready pipeline sequence
 dotnet restore --locked-mode              # Reproducible dependencies
@@ -211,6 +228,7 @@ dotnet publish --no-build -c Release -r linux-x64 -o ./publish
 ```
 
 ### Multi-Platform Deployment
+
 ```bash
 # Build matrix for multiple platforms
 PLATFORMS="win-x64 linux-x64 osx-x64 osx-arm64"
@@ -220,6 +238,7 @@ done
 ```
 
 ### Container Integration
+
 ```dockerfile
 # Multi-stage Docker build with optimized publishing
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
@@ -239,6 +258,7 @@ ENTRYPOINT ["./MyApp"]
 ## Common Deployment Scenarios
 
 ### Desktop Application Distribution
+
 ```bash
 # Self-contained desktop app with installer-ready output
 dotnet publish -r win-x64 -c Release \
@@ -248,6 +268,7 @@ dotnet publish -r win-x64 -c Release \
 ```
 
 ### Web Application Deployment
+
 ```bash
 # Web app optimized for container deployment
 dotnet publish -r linux-x64 -c Release \
@@ -257,6 +278,7 @@ dotnet publish -r linux-x64 -c Release \
 ```
 
 ### Microservice Deployment
+
 ```bash
 # Microservice with fastest startup for cloud deployment
 dotnet publish -r linux-x64 -c Release \
@@ -266,6 +288,7 @@ dotnet publish -r linux-x64 -c Release \
 ```
 
 ### Cross-Platform Library Distribution
+
 ```bash
 # Framework-dependent library for NuGet distribution
 dotnet publish -c Release                # Portable deployment
@@ -275,6 +298,7 @@ dotnet pack -c Release                   # Create NuGet package
 ## Troubleshooting and Diagnostics
 
 ### Common Publishing Issues
+
 ```bash
 # Diagnostic publishing for troubleshooting
 dotnet publish -v diagnostic             # Detailed output
@@ -287,6 +311,7 @@ dotnet --list-sdks                       # Available SDKs
 ```
 
 ### Platform Compatibility Verification
+
 ```bash
 # Test published application
 ./MyApp                                  # Direct execution test
@@ -298,6 +323,7 @@ dumpbin /dependents MyApp.exe           # Windows dependency check
 ```
 
 ### Performance Analysis
+
 ```bash
 # Measure deployment characteristics
 du -sh publish/                         # Deployment size
@@ -308,6 +334,7 @@ ps aux | grep MyApp                     # Memory usage
 ## Integration with Development Workflow
 
 ### Local Development Testing
+
 ```bash
 # Test different publishing modes locally
 dotnet publish -c Debug                 # Debug symbols included
@@ -316,6 +343,7 @@ dotnet publish -r $(dotnet --info | grep RID | cut -d: -f2 | tr -d ' ')
 ```
 
 ### Publishing Profile Management
+
 ```xml
 <!-- Properties/PublishProfiles/FolderProfile.pubxml -->
 <Project>
@@ -332,6 +360,7 @@ dotnet publish -r $(dotnet --info | grep RID | cut -d: -f2 | tr -d ' ')
 ```
 
 ### Quality Assurance Integration
+
 ```bash
 # Publishing validation workflow
 dotnet publish -c Release -r linux-x64
@@ -342,6 +371,7 @@ ldd MyApp || echo "Self-contained verified"
 ```
 
 ## See Also
+
 - **Build and compilation**: Development-time workflows, dependency management
 - **Native AOT**: Ultimate performance optimization and compilation strategies
 - **Assembly trimming**: Size reduction techniques and compatibility considerations

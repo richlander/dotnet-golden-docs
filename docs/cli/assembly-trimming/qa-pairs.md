@@ -21,11 +21,13 @@ A: Yes, trimming is automatically enabled with Native AOT and works synergistica
 
 **Q: How do I enable trimming for my application?**
 A: Add `<PublishTrimmed>true</PublishTrimmed>` to your project file and publish self-contained:
+
 ```xml
 <PropertyGroup>
     <PublishTrimmed>true</PublishTrimmed>
 </PropertyGroup>
 ```
+
 Then publish with: `dotnet publish -r win-x64 -c Release`
 
 **Q: Can I enable trimming from the command line?**
@@ -39,6 +41,7 @@ A: Set `<ILLinkTreatWarningsAsErrors>false</ILLinkTreatWarningsAsErrors>` in you
 
 **Q: Can I disable specific framework features during trimming?**
 A: Yes, use feature switches like:
+
 ```xml
 <PropertyGroup>
     <DebuggerSupport>false</DebuggerSupport>
@@ -64,6 +67,7 @@ A: Use `[RequiresUnreferencedCode]` when your method uses reflection patterns th
 
 **Q: How do I use [DynamicallyAccessedMembers] attribute?**
 A: Use `[DynamicallyAccessedMembers]` to specify which parts of a type need to be preserved for reflection:
+
 ```csharp
 public void ProcessType([DynamicallyAccessedMembers(DynamicallyAccessedMemberTypes.PublicMethods)] Type type)
 {
@@ -84,6 +88,7 @@ A: Check if newer versions are trim-compatible, look for alternative packages th
 
 **Q: How do I handle serialization with trimming?**
 A: Replace reflection-based serializers with source-generated alternatives:
+
 - Use System.Text.Json with source generation instead of Newtonsoft.Json
 - Use configuration binding source generators instead of manual reflection
 - Avoid BinaryFormatter (which is also deprecated for security reasons)
@@ -95,6 +100,7 @@ A: Yes, use `[UnconditionalSuppressMessage]` on the problematic method, but only
 
 **Q: How do I control trimming granularity and behavior?**
 A: Use MSBuild properties like:
+
 ```xml
 <PropertyGroup>
     <TrimmerSingleWarn>false</TrimmerSingleWarn>
@@ -108,6 +114,7 @@ A: `<TrimmerRootAssembly Include="AssemblyName" />` tells the trimmer to analyze
 
 **Q: How do I use [DynamicDependency] attribute?**
 A: `[DynamicDependency]` preserves specific members that would otherwise be trimmed:
+
 ```csharp
 [DynamicDependency("HelperMethod", "MyAssembly")]
 public void CallHelperViaReflection()
@@ -115,10 +122,12 @@ public void CallHelperViaReflection()
     // Ensures HelperMethod is kept even if not statically referenced
 }
 ```
+
 Use this as a last resort when other annotations don't work.
 
 **Q: Can I trim different amounts based on deployment target?**
 A: Yes, you can use conditional MSBuild properties:
+
 ```xml
 <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <PublishTrimmed>true</PublishTrimmed>

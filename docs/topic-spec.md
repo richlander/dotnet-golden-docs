@@ -6,77 +6,74 @@
 
 ## Metadata
 
-Name: .NET
-ID: dotnet
-Category: Platform
-Description: Comprehensive developer platform encompassing runtime, libraries, tools, languages, and deployment models for building modern applications across all scenarios.
-Complexity: 0.3
-Audience: All developers, platform architects, technical decision makers, system administrators
-Priority: 1 (Critical - foundational platform)
-Introduced-Version: 1.0
-Introduced-Year: 2016
+| Property | Value |
+| --- | --- |
+| Name | .NET |
+| ID | dotnet |
+| Category | Platform |
+| Description | Comprehensive developer platform encompassing runtime, libraries, tools, languages, and deployment models for building modern applications across all scenarios. |
+| Complexity | 0.9 |
+| ComplexityP25 | 0.8 |
+| ComplexityP50 | 0.9 |
+| ComplexityP75 | 0.9 |
+| Audience | All developers, platform architects, technical decision makers, system administrators |
+| Priority | 1 (Critical - foundational platform) |
+| Version | 1.0 |
+| Year | 2016 |
 
 ## Relationships
 
-Enables: Cross-platform development, Cloud-native applications, High-performance computing, Enterprise software development, Modern web applications, Mobile development, Desktop applications, Microservices architectures
-Conflicts with: None (comprehensive platform)
-Alternative to: Java ecosystem, Node.js platform, Python ecosystem, Go platform
-Prerequisite: None (self-contained platform)
-Synergistic with: Cloud platforms (Azure, AWS, GCP), Container technologies, DevOps tools, IDE environments, Package managers
+| Type | Target |
+| --- | --- |
+| Enables | Cross-platform development, Cloud-native applications, High-performance computing, Enterprise software development, Modern web applications, Mobile development, Desktop applications, Microservices architectures |
+| Conflicts with | None (comprehensive platform) |
+| Alternative to | Java ecosystem, Node.js platform, Python ecosystem, Go platform |
+| Prerequisite | None (self-contained platform) |
+| Synergistic with | Cloud platforms (Azure, AWS, GCP), Container technologies, DevOps tools, IDE environments, Package managers |
 
 ## Official Sources
 
-Documentation: https://docs.microsoft.com/dotnet/
-Announcement: https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/
-
-### Major Release Announcements
-- https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/
-- https://devblogs.microsoft.com/dotnet/announcing-net-core-1-1/
-- https://devblogs.microsoft.com/dotnet/announcing-net-core-2-0/
-- https://devblogs.microsoft.com/dotnet/announcing-net-core-2-1/
-- https://devblogs.microsoft.com/dotnet/announcing-net-core-2-2/
-- https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/
-- https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/
-- https://devblogs.microsoft.com/dotnet/announcing-net-5-0/
-- https://devblogs.microsoft.com/dotnet/announcing-net-6/
-- https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/
-- https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/
-- https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/
-- https://devblogs.microsoft.com/dotnet/announcing-dotnet-10-preview-1/
-
-### Performance Blog Posts
-- https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-2-1/
-- https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-3-0/
-- https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-5/
-- https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/
-- https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7/
-- https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/
-- https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-9/
-- https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-10/
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/ | rendered | Main .NET platform documentation | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Original .NET Core 1.0 announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-1/ | rendered | .NET Core 1.1 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-0/ | rendered | .NET Core 2.0 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-1/ | rendered | .NET Core 2.1 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-2-2/ | rendered | .NET Core 2.2 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/ | rendered | .NET Core 3.0 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/ | rendered | .NET Core 3.1 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-5-0/ | rendered | .NET 5.0 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-net-6/ | rendered | .NET 6 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/ | rendered | .NET 7 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/ | rendered | .NET 8 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/ | rendered | .NET 9 release announcement | - |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10-preview-1/ | rendered | .NET 10 preview announcement | - |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-2-1/ | rendered | .NET Core 2.1 performance improvements | - |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-3-0/ | rendered | .NET Core 3.0 performance improvements | - |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-5/ | rendered | .NET 5 performance improvements | - |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/ | rendered | .NET 6 performance improvements | - |
+| https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7/ | rendered | .NET 7 performance improvements | - |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/ | rendered | .NET 8 performance improvements | - |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-9/ | rendered | .NET 9 performance improvements | - |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-10/ | rendered | .NET 10 performance improvements | - |
 
 ## Primary Sources
-- https://raw.githubusercontent.com/dotnet/core/main/README.md
-- https://raw.githubusercontent.com/dotnet/docs/main/docs/index.yml
-- https://raw.githubusercontent.com/dotnet/runtime/main/README.md
-- https://raw.githubusercontent.com/dotnet/core/main/release-notes/README.md
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+| dotnet/core | README.md | .NET Core repository overview | - |
+| dotnet/docs | docs/index.yml | .NET documentation index | - |
+| dotnet/runtime | README.md | .NET runtime repository overview | - |
+| dotnet/core | release-notes/README.md | .NET release notes overview | - |
 
 ## Secondary Sources
-- https://github.com/dotnet/core
-- https://github.com/dotnet/announcements
-- https://github.com/dotnet/runtime
-- https://github.com/dotnet/roslyn
-- https://github.com/dotnet/sdk
-- https://github.com/dotnet/aspnetcore
 
-## Generation Hints
-
-Emphasize: Platform unity, Cross-platform capabilities, Performance characteristics, Developer productivity, Ecosystem breadth, Open-source nature
-Avoid: Deep implementation details, Platform-specific optimizations, Legacy .NET Framework specifics
-Cross-reference discover from: platform-comparison, ecosystem-overview, getting-started, platform-selection
-Cross-reference surface to: cli, libraries, csharp, dotnet, runtime-features, deployment-models
-
-## Token Budget Guidance
-
-Minimum viable content: 600 tokens - Platform overview, key benefits, primary use cases
-Comprehensive coverage: 2400 tokens - Complete ecosystem components, development workflows, deployment options, performance characteristics
-Full reference: 4800 tokens - Advanced scenarios, enterprise considerations, ecosystem comparison, migration strategies, future roadmap
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://github.com/dotnet/core | rendered | .NET Core repository | - |
+| https://github.com/dotnet/announcements | rendered | .NET announcements repository | - |
+| https://github.com/dotnet/runtime | rendered | .NET runtime repository | - |
+| https://github.com/dotnet/roslyn | rendered | Roslyn compiler repository | - |
+| https://github.com/dotnet/sdk | rendered | .NET SDK repository | - |
+| https://github.com/dotnet/aspnetcore | rendered | ASP.NET Core repository | - |

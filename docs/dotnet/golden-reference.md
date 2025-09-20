@@ -11,6 +11,7 @@ The .NET platform has been designed to deliver **Productivity**, **Performance**
 The .NET design point can be boiled down to being effective and efficient in both the safe domain (where everything is productive) and in the unsafe domain (where tremendous functionality exists). .NET is perhaps the managed environment with the most built-in functionality, while also offering the lowest cost to interop with the outside world, with no tradeoff between the two.
 
 .NET has the following key design points:
+
 - **Productivity is full-stack** with runtime, libraries, language, and tools all contributing to developer user experience
 - **Safe code** is the primary compute model, while unsafe code enables additional manual optimizations
 - **Static and dynamic code** are both supported, enabling a broad set of distinct scenarios
@@ -22,6 +23,7 @@ The .NET design point can be boiled down to being effective and efficient in bot
 ## Essential Architecture & Components
 
 .NET includes the following components:
+
 - **Runtime** -- executes application code with automatic memory management and type safety
 - **Libraries** -- provides utility functionality like JSON parsing and thousands of APIs
 - **Compiler** -- compiles C# (and other languages) source code into runtime executable code
@@ -29,6 +31,7 @@ The .NET design point can be boiled down to being effective and efficient in bot
 - **App stacks** -- like ASP.NET Core and Windows Forms, that enable writing specific types of apps
 
 ### The Three Pillars of .NET
+
 The runtime, libraries, and languages are the pillars of the .NET stack. Higher-level components build on top of these pillars:
 
 **Runtime**: Executes application code with automatic memory management via a self-tuning, tracing garbage collector. It provides type safety, memory safety, and cross-platform execution. The runtime was initially called the "Common Language Runtime (CLR)" and supports multiple programming languages.
@@ -50,6 +53,7 @@ The runtime, libraries, and languages are the pillars of the .NET stack. Higher-
 ## Relationships & Integration
 
 ### .NET Ecosystem and Variants
+
 There are multiple variants of .NET, each supporting different types of applications:
 
 - **.NET Framework** -- The original .NET that provides access to Windows and Windows Server capabilities. Actively supported in maintenance mode.
@@ -57,53 +61,66 @@ There are multiple variants of .NET, each supporting different types of applicat
 - **.NET (Core)** -- Modern .NET. Cross-platform and open-source, rethought for the cloud age while remaining significantly compatible with .NET Framework. Actively supported for Linux, macOS, and Windows.
 
 ### Cross-Platform and Multi-Architecture
+
 .NET runs on Windows, Linux, macOS, Android, iOS, and WebAssembly. Microsoft maintains several binary distributions, while the community primarily maintains Linux distributions. Code is portable across platforms (OS and chip architecture) while platform targeting enables specialization and optimization. Supported on Arm64, x64, and x86 architectures.
 
 ### Open Source and Community
+
 .NET is free, open source, and is a .NET Foundation project. It's maintained by Microsoft and the community on GitHub in several repositories, licensed with the MIT license. Regular updates ensure users deploy secure and reliable applications, with monthly updates on Patch Tuesday and annual releases in November.
 
 ### Interoperability and Industry Standards
+
 .NET has been explicitly designed for low-cost interop with native libraries. Programs can seamlessly call operating system APIs or tap into the vast ecosystem of C/C++ libraries using modern source-generated solutions and function pointers. Industry standards like OpenTelemetry and gRPC are favored over bespoke solutions.
 
 ### Development Ecosystem
+
 Higher-level components like .NET tools and app stacks (ASP.NET Core, MAUI, Windows Forms, WPF) build on top of the core pillars. NuGet is the package manager containing hundreds of thousands of packages. The SDK enables a modern developer experience with tools that can build, analyze, and test code, often with a single `dotnet build` command.
 
 ## Common Scenarios
 
 ### Enterprise and Cloud Applications
+
 .NET excels in building scalable web services, APIs, and cloud-native applications. The runtime's performance characteristics and extensive library ecosystem make it well-suited for high-throughput server applications.
 
 ### Cross-Platform Desktop and Mobile
+
 With .NET MAUI and Avalonia, developers can build applications that run across Windows, macOS, Linux, iOS, and Android from a single codebase.
 
 ### High-Performance Computing
+
 Low-level features like Span<T>, hardware intrinsics, and unsafe code enable manual optimizations for performance-critical paths while maintaining the safety and productivity of the managed environment.
 
 ## Gotchas & Limitations
 
 ### Memory Management Trade-offs
+
 While garbage collection eliminates many memory bugs, it can introduce pauses that may not be suitable for very tight latency requirements. Memory usage is typically higher than manual memory management.
 
 ### Platform-Specific Features
+
 While .NET is cross-platform, some features and APIs are platform-specific. Developers need to be aware of these differences when targeting multiple platforms.
 
 ### Learning Curve
+
 The extensive feature set and multiple abstraction levels can be overwhelming for newcomers. The "convenience spectrum" means developers need to understand when to use high-level vs. low-level APIs.
 
 ## See Also
 
 ### Core Concepts
+
 - **C# Language**: Modern, safe programming language with static typing and advanced features
 - **Runtime Libraries**: Expansive standard set of class libraries (BCL) providing foundational functionality
 - **NuGet Ecosystem**: Package manager and repository for .NET libraries and tools
 
 ### Related Technologies
+
 - **ASP.NET Core**: Web framework for building modern web applications and APIs
 - **Entity Framework**: Object-relational mapping framework for database access
 - **Blazor**: Framework for building interactive web UIs using C# instead of JavaScript
 - **ML.NET**: Machine learning framework for .NET developers
 
 ### Development Tools
+
 - **Visual Studio**: Full-featured IDE for .NET development
 - **Visual Studio Code**: Lightweight, cross-platform editor with .NET extensions
 - **dotnet CLI**: Command-line interface for .NET development and deployment

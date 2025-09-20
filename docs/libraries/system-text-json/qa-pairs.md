@@ -7,6 +7,7 @@ A: System.Text.Json is a high-performance JSON serialization library built into 
 
 **Q: How do I serialize an object to JSON with System.Text.Json?**
 A: Use `JsonSerializer.Serialize()`:
+
 ```csharp
 var person = new Person { Name = "John", Age = 30 };
 string json = JsonSerializer.Serialize(person);
@@ -15,6 +16,7 @@ string json = JsonSerializer.Serialize(person);
 
 **Q: How do I deserialize JSON to an object?**
 A: Use `JsonSerializer.Deserialize<T>()`:
+
 ```csharp
 string json = """{"Name":"John","Age":30}""";
 Person person = JsonSerializer.Deserialize<Person>(json);
@@ -22,6 +24,7 @@ Person person = JsonSerializer.Deserialize<Person>(json);
 
 **Q: How do I serialize to a file asynchronously?**
 A: Use `JsonSerializer.SerializeAsync()`:
+
 ```csharp
 await using var fileStream = File.Create("data.json");
 await JsonSerializer.SerializeAsync(fileStream, person);
@@ -29,6 +32,7 @@ await JsonSerializer.SerializeAsync(fileStream, person);
 
 **Q: How do I configure JSON serialization options?**
 A: Create a `JsonSerializerOptions` instance:
+
 ```csharp
 var options = new JsonSerializerOptions
 {
@@ -46,6 +50,7 @@ A: Source generation creates serialization code at compile time instead of using
 
 **Q: How do I set up source generation?**
 A: Create a partial context class with JsonSerializable attributes:
+
 ```csharp
 [JsonSerializable(typeof(Person))]
 [JsonSerializable(typeof(List<Person>))]
@@ -54,6 +59,7 @@ internal partial class MyJsonContext : JsonSerializerContext { }
 
 **Q: How do I use source generation for serialization?**
 A: Use the generated context:
+
 ```csharp
 string json = JsonSerializer.Serialize(person, MyJsonContext.Default.Person);
 Person person = JsonSerializer.Deserialize(json, MyJsonContext.Default.Person);
@@ -61,6 +67,7 @@ Person person = JsonSerializer.Deserialize(json, MyJsonContext.Default.Person);
 
 **Q: How do I specify source generation mode?**
 A: Use the GenerationMode property:
+
 ```csharp
 [JsonSourceGenerationOptions(GenerationMode = JsonSourceGenerationMode.Serialization)]
 [JsonSerializable(typeof(Person))]
@@ -69,6 +76,7 @@ internal partial class FastSerializationContext : JsonSerializerContext { }
 
 **Q: Can I disable reflection entirely for Native AOT?**
 A: Yes, set the MSBuild property in your project file:
+
 ```xml
 <PropertyGroup>
   <JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
@@ -82,12 +90,14 @@ A: .NET 10 adds: 1) Strict serialization options preset, 2) AllowDuplicateProper
 
 **Q: How do I use the strict serialization options in .NET 10?**
 A: Use the new `JsonSerializerOptions.Strict` preset:
+
 ```csharp
 var data = JsonSerializer.Deserialize<MyData>(json, JsonSerializerOptions.Strict);
 ```
 
 **Q: How do I prevent duplicate JSON properties in .NET 10?**
 A: Set `AllowDuplicateProperties` to false:
+
 ```csharp
 var options = new JsonSerializerOptions
 {
@@ -98,6 +108,7 @@ var options = new JsonSerializerOptions
 
 **Q: How do I handle circular references with source generation in .NET 10?**
 A: Use ReferenceHandler in JsonSourceGenerationOptions:
+
 ```csharp
 [JsonSourceGenerationOptions(ReferenceHandler = ReferenceHandler.Preserve)]
 [JsonSerializable(typeof(Node))]
@@ -106,6 +117,7 @@ internal partial class CircularRefContext : JsonSerializerContext { }
 
 **Q: How do I deserialize from PipeReader in .NET 10?**
 A: Use the new PipeReader overloads:
+
 ```csharp
 MyObject obj = await JsonSerializer.DeserializeAsync<MyObject>(pipeReader);
 ```
@@ -120,6 +132,7 @@ A: 1) Use source generation for known types, 2) Use UTF-8 byte arrays instead of
 
 **Q: Should I use UTF-8 operations for better performance?**
 A: Yes, UTF-8 operations are 5-10% faster:
+
 ```csharp
 byte[] utf8Json = JsonSerializer.SerializeToUtf8Bytes(person);
 Person person = JsonSerializer.Deserialize<Person>(utf8Json);
@@ -127,6 +140,7 @@ Person person = JsonSerializer.Deserialize<Person>(utf8Json);
 
 **Q: How do I reuse JsonSerializerOptions for better performance?**
 A: Create a static or singleton instance:
+
 ```csharp
 private static readonly JsonSerializerOptions s_options = new()
 {
@@ -139,6 +153,7 @@ private static readonly JsonSerializerOptions s_options = new()
 
 **Q: How do I use System.Text.Json with ASP.NET Core?**
 A: It's the default serializer. Configure it in Program.cs:
+
 ```csharp
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
@@ -148,6 +163,7 @@ builder.Services.ConfigureHttpJsonOptions(options =>
 
 **Q: How do I use System.Text.Json with HttpClient?**
 A: Use the extension methods from System.Net.Http.Json:
+
 ```csharp
 HttpResponseMessage response = await httpClient.PostAsJsonAsync("api/data", person);
 Person result = await response.Content.ReadFromJsonAsync<Person>();
@@ -155,6 +171,7 @@ Person result = await response.Content.ReadFromJsonAsync<Person>();
 
 **Q: How do I combine multiple source generation contexts?**
 A: Use JsonTypeInfoResolver.Combine:
+
 ```csharp
 var options = new JsonSerializerOptions
 {
@@ -177,6 +194,7 @@ A: Yes, install the System.Text.Json NuGet package. It supports .NET Framework 4
 
 **Q: How do I handle DateTime serialization differences?**
 A: System.Text.Json uses ISO 8601 format by default. For custom formats, use JsonConverter:
+
 ```csharp
 [JsonConverter(typeof(CustomDateTimeConverter))]
 public DateTime CreatedDate { get; set; }
@@ -186,6 +204,7 @@ public DateTime CreatedDate { get; set; }
 
 **Q: How do I handle JSON deserialization errors?**
 A: Wrap in try-catch and handle JsonException:
+
 ```csharp
 try
 {
@@ -211,6 +230,7 @@ A: This happens when modifying JsonSerializerOptions after first use. Create opt
 
 **Q: How do I implement custom JSON converters?**
 A: Create a class inheriting from JsonConverter<T>:
+
 ```csharp
 public class CustomDateConverter : JsonConverter<DateTime>
 {
@@ -224,6 +244,7 @@ public class CustomDateConverter : JsonConverter<DateTime>
 
 **Q: How do I handle polymorphic serialization?**
 A: Use type discriminators with JsonDerivedType attributes:
+
 ```csharp
 [JsonDerivedType(typeof(Dog), "dog")]
 [JsonDerivedType(typeof(Cat), "cat")]
@@ -232,6 +253,7 @@ public abstract class Animal { }
 
 **Q: How do I serialize private properties or fields?**
 A: Use JsonInclude attribute:
+
 ```csharp
 public class Person
 {
@@ -245,6 +267,7 @@ public class Person
 
 **Q: How do I handle large JSON files efficiently?**
 A: Use streaming APIs:
+
 ```csharp
 await using var stream = File.OpenRead("large.json");
 var data = JsonSerializer.DeserializeAsyncEnumerable<Item>(stream);

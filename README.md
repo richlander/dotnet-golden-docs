@@ -7,6 +7,7 @@ This repository contains curated source materials and generation instructions fo
 **Input Content Curation**: Human-curated, high-quality source materials that serve as the foundation for generating multiple output formats. This repository contains the "golden" references and validated Q&A pairs that ensure accuracy and completeness across all generated content.
 
 **Key Principles**:
+
 - Source authority tracking with provenance chains
 - Human-LLM collaborative content creation
 - Comprehensive validation and testing
@@ -26,18 +27,21 @@ llm-docs-workspace/
 ### Repository Relationships
 
 **dotnet-golden-llm-docs** (this repository):
+
 - Contains authoritative source materials
 - Maintains topic specifications and relationships
 - Stores validation rules and quality criteria
 - Never accessed directly by LLMs in production
 
 **dotnet-docs-llm-tools** *(planned)*:
+
 - Automated content generation pipeline
 - Template-driven multi-format output generation
 - Embedding-based validation against golden references
 - HAL+JSON index auto-generation
 
 **dotnet-docs-llms** *(planned)*:
+
 - Generated LLM-consumable content only
 - Multiple token-budget formats (600/2400/4800 tokens)
 - Hierarchical organization with auto-generated indexes

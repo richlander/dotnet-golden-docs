@@ -100,6 +100,7 @@ A: For cloud: use container deployment (`-t:PublishContainer`), enable trimming,
 
 **Q: How do I publish for multiple platforms efficiently?**
 A: Create a build matrix in CI/CD that publishes for each target platform:
+
 ```bash
 for rid in win-x64 linux-x64 osx-x64; do
   dotnet publish -r $rid -c Release -o ./dist/$rid
@@ -161,6 +162,7 @@ A: Use MSBuild item groups: `<Content>`, `<None>`, `<EmbeddedResource>` with `Co
 
 **Q: Can I run custom scripts during publishing?**
 A: Yes, use MSBuild targets like `BeforePublish` or `AfterPublish`:
+
 ```xml
 <Target Name="CustomPrePublish" BeforeTargets="PrepareForPublish">
   <Exec Command="echo Running pre-publish script" />
