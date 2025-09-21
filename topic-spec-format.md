@@ -23,6 +23,15 @@ The H1 will be structured as: `# {Feature Name} - Topic Specification`
 
 A concise paragraph explaining what the feature is and its primary purpose. Should be 2-3 sentences covering the essence of the feature without diving into implementation details.
 
+#### Keywords
+
+Key terms and phrases associated with the feature for discoverability and search. List as bullet points:
+
+- primary feature name
+- alternative names or terminology
+- related concepts and technologies
+- common search terms developers might use
+
 #### Relationships
 
 Structured relationship mapping using a two-column table:

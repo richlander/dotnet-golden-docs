@@ -14,7 +14,7 @@ Each topic is organized with focused document types:
 
 ## Directory Structure
 
-```
+```text
 docs/
 ├── README.md                    # Document format overview
 ├── qa-pairs-format.md          # Q&A standards and taxonomy
@@ -35,7 +35,6 @@ docs/
 - **`cli/`**: Command-line tools and interfaces
 - **`libraries/`**: Framework libraries and APIs *(planned)*
 - **`runtime/`**: Runtime behavior and configuration *(planned)*
-- **`cross-cutting/`**: Topics spanning multiple categories *(planned)*
 
 ## Format Standards
 
@@ -74,7 +73,3 @@ All content must meet these standards before being used for generation:
 - **Completeness**: Covers 80% of common scenarios per topic
 - **Precision**: Each document addresses exactly its stated scope
 - **Testability**: All code examples are verified working
-
----
-
-*This content organization enables systematic generation of multiple token-budget formats while maintaining high quality and authority through human curation and validation.*

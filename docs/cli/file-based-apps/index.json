@@ -2,6 +2,14 @@
   "id": "cli/file-based-apps",
   "title": "File-based apps",
   "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.",
+  "keywords": [
+    "file-based apps",
+    "single-file C#",
+    "C# scripting",
+    "dotnet run",
+    "prototyping",
+    "automation scripts"
+  ],
   "category": "CLI",
   "complexity": 0.6,
   "priority": 2,
@@ -114,7 +122,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-20T20:26:17.2988928Z",
+    "generated": "2025-09-21T00:54:46.4627530Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -2,6 +2,14 @@
   "id": "dotnet",
   "title": ".NET Platform",
   "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps.",
+  "keywords": [
+    ".NET platform",
+    "cross-platform",
+    "open-source platform",
+    "developer platform",
+    "high-performance runtime",
+    "C# runtime"
+  ],
   "category": ".NET Platform",
   "complexity": 0.6,
   "priority": 1,
@@ -88,7 +96,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-20T20:26:17.3124811Z",
+    "generated": "2025-09-21T00:54:46.4747646Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

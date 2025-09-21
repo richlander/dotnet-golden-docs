@@ -2,6 +2,14 @@
   "id": "cli/assembly-trimming",
   "title": "Assembly Trimming",
   "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. The trimmer performs build-time analysis to identify and eliminate code that is not statically reachable, significantly reducing deployment size while maintaining application functionality.",
+  "keywords": [
+    "assembly trimming",
+    "code trimming",
+    "size optimization",
+    "unused code removal",
+    "build-time analysis",
+    "deployment optimization"
+  ],
   "category": "CLI",
   "complexity": 0.9,
   "priority": 2,
@@ -109,7 +117,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-20T20:26:17.2738281Z",
+    "generated": "2025-09-21T00:54:46.4564540Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

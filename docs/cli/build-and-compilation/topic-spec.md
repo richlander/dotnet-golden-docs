@@ -4,6 +4,15 @@
 
 Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment. This includes the core commands `dotnet build`, `dotnet restore`, `dotnet clean`, along with MSBuild integration, multi-targeting, and build optimization strategies.
 
+## Keywords
+
+- dotnet build
+- compilation
+- MSBuild
+- project build
+- dependency management
+- build workflow
+
 ## Relationships
 
 | Type | Target |
@@ -22,7 +31,7 @@ Build and compilation encompasses the development-time workflow of transforming 
 | ID | build-and-compilation |
 | Category | CLI |
 | Description | Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment. |
-| Complexity | 0.8 |
+| Complexity | 0.5 |
 | Audience | All .NET developers, DevOps engineers, Build engineers |
 | Priority | 1 (Critical) |
 | Version | 1.0 |

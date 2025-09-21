@@ -2,26 +2,31 @@
 
 ## Overview
 
-Collection expressions bring a simpler and more ergonomic syntax for creating collection values in C#, matching the intuitive syntax found in other popular languages like Python, JavaScript, and Rust. This feature eliminates the verbose ceremony of traditional C# collection initialization, making code more readable and approachable for developers coming from other ecosystems.
+Collection expressions bring a simpler and more ergonomic syntax for creating collection values in C#, matching the intuitive syntax found in other popular languages like Python, JavaScript, and Rust. It is still possible to create Lists and arrays the old way, however, we recommend that new code use collection expression. It's simpler and will be more easily readable by developers unfamiliar with C# syntax.
 
-Introduced in C# 12 and extended in C# 13 with params support, collection expressions use the familiar square bracket notation `[...]` to create arrays, lists, spans, and other collection types with minimal syntax. This represents a significant step toward making C# syntax more concise and developer-friendly.
+This syntax was introduced in C# 12 and extended in C# 13 with params support. Collection expressions use the familiar square bracket notation `[...]` to create arrays, lists, spans, and other collection types with minimal syntax. This represents a significant step toward making C# syntax more concise and developer-friendly.
+
+The following example demonstrates the syntax in common scenarios:
 
 ```csharp
-// Traditional C# syntax - verbose and ceremonial
-int[] numbers = new int[] { 1, 2, 3, 4, 5 };
-List<string> names = new List<string> { "Alice", "Bob", "Charlie" };
-
 // Collection expressions - simple and intuitive
 int[] numbers = [1, 2, 3, 4, 5];
 List<string> names = ["Alice", "Bob", "Charlie"];
-
-// Now matches other languages:
-// Python: numbers = [1, 2, 3, 4, 5]
-// JavaScript: const numbers = [1, 2, 3, 4, 5];
-// Rust: let numbers = [1, 2, 3, 4, 5];
 ```
 
-The beauty of collection expressions lies in their simplicity: what once required explicit type declarations, constructor calls, and verbose syntax now becomes as straightforward as writing the values you want. This isn't just syntactic sugar—it's about removing barriers and making C# more accessible while maintaining all the type safety and performance characteristics developers expect.
+It will be very familiar for Python users:
+
+```python
+numbers = [1, 2, 3, 4, 5]
+names = ["Alice", "Bob", "Charlie"]
+```
+
+And the same for Rust users:
+
+```rust
+let numbers = [1, 2, 3, 4, 5];
+let names = vec!["Alice", "Bob", "Charlie"];
+```
 
 ## Why Collection Expressions Matter
 

@@ -4,6 +4,15 @@
 
 C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment.
 
+## Keywords
+
+- C# language
+- programming language
+- object-oriented
+- type-safe
+- .NET language
+- modern syntax
+
 ## Metadata
 
 | Property | Value |
@@ -12,7 +21,7 @@ C# is a modern, safe, and general purpose language that makes developers product
 | ID | csharp |
 | Category | C# Language |
 | Description | C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. |
-| Complexity | 0.9 |
+| Complexity | 0.8 |
 | Audience | all developers |
 | Priority | 1 (Critical - core .NET programming language) |
 | Version | 1.0 |
@@ -23,7 +32,14 @@ C# is a modern, safe, and general purpose language that makes developers product
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
 | https://docs.microsoft.com/dotnet/csharp/ | rendered | Main official C# documentation | 2025-09-20 |
-| https://devblogs.microsoft.com/dotnet/welcome-to-c-sharp/ | rendered | Official C# welcome announcement | 404 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-framework-4-6/ | rendered | C# 6 release announcement with .NET Framework 4.6 | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/whats-new-in-csharp-7-0/ | rendered | C# 7.0 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/new-features-in-c-7-0/ | rendered | C# 7.0 new features announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/building-c-8-0/ | rendered | C# 8.0 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/welcome-to-c-9-0/ | rendered | C# 9.0 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/welcome-to-csharp-10/ | rendered | C# 10 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/welcome-to-csharp-11/ | rendered | C# 11 release announcement | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 release announcement | 2025-09-20 |
 
 ## Primary Sources
 
@@ -31,6 +47,7 @@ C# is a modern, safe, and general purpose language that makes developers product
 | --- | --- | --- | --- |
 | dotnet/docs | docs/csharp/index.yml | C# documentation index | - |
 | dotnet/csharplang | README.md | C# language design repository | - |
+| dotnet/roslyn | docs/Language Feature Status.md | Feature status tracking | - |
 
 ## Secondary Sources
 

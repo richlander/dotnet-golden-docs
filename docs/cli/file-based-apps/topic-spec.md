@@ -4,6 +4,15 @@
 
 File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.
 
+## Keywords
+
+- file-based apps
+- single-file C#
+- C# scripting
+- dotnet run
+- prototyping
+- automation scripts
+
 ## Metadata
 
 | Property | Value |
@@ -12,7 +21,7 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | ID | file-based-apps |
 | Category | CLI |
 | Description | File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. |
-| Complexity | 0.6 |
+| Complexity | 0.3 |
 | Audience | all developers, especially those focused on scripting and automation |
 | Priority | 2 (Common usage - recent high-interest feature) |
 | Version | 10.0 |

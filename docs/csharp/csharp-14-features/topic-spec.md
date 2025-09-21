@@ -4,6 +4,15 @@
 
 Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax.
 
+## Keywords
+
+- C# 14 features
+- field keyword
+- first-class Span
+- enhanced lambdas
+- partial constructors
+- Extensions
+
 ## Metadata
 
 | Property | Value |
@@ -12,7 +21,7 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | ID | csharp-14-features |
 | Category | C# Language |
 | Description | Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. |
-| Complexity | 0.9 |
+| Complexity | 0.8 |
 | Audience | C# developers |
 | Priority | 2 (Common usage - language evolution and productivity improvements) |
 | Version | 14.0 |

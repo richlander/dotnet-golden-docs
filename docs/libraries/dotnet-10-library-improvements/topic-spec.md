@@ -4,6 +4,15 @@
 
 Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios.
 
+## Keywords
+
+- .NET 10 libraries
+- library improvements
+- WebSocket APIs
+- post-quantum cryptography
+- performance optimizations
+- tensor operations
+
 ## Metadata
 
 | Property | Value |
@@ -12,7 +21,7 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | ID | dotnet-10-library-improvements |
 | Category | Libraries |
 | Description | Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. |
-| Complexity | 0.6 |
+| Complexity | 0.8 |
 | Audience | All developers |
 | Priority | 2 (Common usage - multiple widely-requested features) |
 | Version | 10.0 |

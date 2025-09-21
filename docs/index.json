@@ -2,6 +2,7 @@
   "id": "",
   "title": ".NET Knowledge Graph",
   "description": "Root index of .NET documentation topics and categories",
+  "keywords": null,
   "category": "Root",
   "complexity": 0.5,
   "priority": 1,
@@ -65,7 +66,7 @@
         "name": "libraries",
         "title": ".NET Libraries",
         "category": ".NET Libraries",
-        "complexity": 0.9,
+        "complexity": 0.5,
         "priority": 1,
         "_links": {
           "self": {
@@ -78,7 +79,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-20T20:26:17.3148383Z",
+    "generated": "2025-09-21T00:54:46.4765727Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

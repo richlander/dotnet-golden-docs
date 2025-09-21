@@ -2,8 +2,16 @@
   "id": "libraries",
   "title": ".NET Libraries",
   "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages.",
+  "keywords": [
+    ".NET libraries",
+    "Base Class Library",
+    "NuGet packages",
+    "library ecosystem",
+    "runtime libraries",
+    "application frameworks"
+  ],
   "category": ".NET Libraries",
-  "complexity": 0.9,
+  "complexity": 0.5,
   "priority": 1,
   "depth_below": 1,
   "topic_count": 2,
@@ -122,7 +130,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-20T20:26:17.3131845Z",
+    "generated": "2025-09-21T00:54:46.4754200Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

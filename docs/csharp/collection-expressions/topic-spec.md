@@ -22,7 +22,7 @@ Collection expressions provide a concise syntax to create common collection valu
 | ID | collection-expressions |
 | Category | C# Language |
 | Description | Collection expressions provide a concise syntax to create common collection values using square bracket notation, including basic expressions and params collection support. |
-| Complexity | 0.6 |
+| Complexity | 0.25 |
 | Audience | All C# developers |
 | Priority | 2 (Common usage - modern syntax improvement) |
 | Version | 12.0 |

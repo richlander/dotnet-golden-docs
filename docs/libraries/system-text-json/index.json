@@ -2,6 +2,14 @@
   "id": "libraries/system-text-json",
   "title": "System.Text.Json",
   "description": "System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0\u002B that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). It emphasizes performance and low memory allocation over extensive features, with built-in UTF-8 support optimized for web and file operations.",
+  "keywords": [
+    "System.Text.Json",
+    "JSON serialization",
+    "high-performance JSON",
+    ".NET JSON library",
+    "JSON deserialization",
+    "UTF-8 JSON"
+  ],
   "category": "Libraries",
   "complexity": 0.6,
   "priority": 1,
@@ -114,7 +122,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-20T20:26:17.3027762Z",
+    "generated": "2025-09-21T00:54:46.4668077Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

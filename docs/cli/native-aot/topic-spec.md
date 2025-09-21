@@ -4,6 +4,15 @@
 
 Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don't require the .NET runtime to be installed on the target machine.
 
+## Keywords
+
+- Native AOT
+- ahead-of-time compilation
+- native code
+- fast startup
+- self-contained
+- performance optimization
+
 ## Relationships
 
 | Type | Target |
@@ -22,7 +31,7 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | ID | native-aot |
 | Category | CLI |
 | Description | Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. |
-| Complexity | 0.9 |
+| Complexity | 0.8 |
 | Audience | Performance-focused developers, Cloud developers, Desktop app developers |
 | Priority | 2 (Common) |
 | Version | 7.0 |

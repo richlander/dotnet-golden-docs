@@ -4,6 +4,15 @@
 
 The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle.
 
+## Keywords
+
+- .NET CLI
+- command-line interface
+- dotnet commands
+- cross-platform toolchain
+- build tools
+- developer tools
+
 ## Metadata
 
 | Property | Value |
@@ -12,7 +21,7 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | ID | cli |
 | Category | CLI |
 | Description | The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. |
-| Complexity | 0.9 |
+| Complexity | 0.4 |
 | Audience | all developers, DevOps engineers, system administrators |
 | Priority | 1 (Critical - fundamental .NET tooling) |
 | Version | 1.0 |

@@ -4,6 +4,15 @@
 
 Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. This covers all publishing modes from framework-dependent to self-contained, single-file, Native AOT, and container deployment, along with the decision matrix for choosing appropriate deployment strategies.
 
+## Keywords
+
+- dotnet publish
+- deployment
+- publishing modes
+- self-contained
+- production deployment
+- application distribution
+
 ## Relationships
 
 | Type | Target |
@@ -22,7 +31,7 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | ID | publishing-and-deployment |
 | Category | CLI |
 | Description | Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. |
-| Complexity | 0.9 |
+| Complexity | 0.6 |
 | Audience | All .NET developers, DevOps engineers, System administrators |
 | Priority | 1 (Critical) |
 | Version | 1.0 |
