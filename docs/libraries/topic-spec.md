@@ -38,8 +38,8 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/standard/index.yml | .NET standard documentation index | - |
-| dotnet/runtime | README.md | .NET runtime repository overview | - |
+| dotnet/docs | docs/toc.yml | .NET standard documentation index | 0249c38f27 |
+| dotnet/runtime | README.md | .NET runtime repository overview | 80fb00f580f |
 
 ## Secondary Sources
 

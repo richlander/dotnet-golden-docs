@@ -49,8 +49,8 @@ File-based apps allow developers to run and publish single .cs files directly wi
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/csharp/fundamentals/tutorials/file-based-programs.md | File-based programs tutorial | - |
-| dotnet/core | release-notes/10.0/10.0.0/10.0.0.md | .NET 10.0.0 release notes | - |
+| dotnet/docs | docs/csharp/fundamentals/tutorials/file-based-programs.md | File-based programs tutorial | 0249c38f27 |
+| dotnet/core | release-notes/10.0/preview/preview6/sdk.md | .NET 10.0.0 release notes | 4c489a6a |
 
 ## Secondary Sources
 

@@ -49,14 +49,8 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/core/whats-new/dotnet-10/libraries.md | .NET 10 library improvements documentation | - |
-| dotnet/core | release-notes/10.0/10.0.0/10.0.0.md | .NET 10.0.0 release notes | - |
-
-## Secondary Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://github.com/dotnet/runtime/releases/tag/v10.0.0 | rendered | .NET runtime 10.0.0 release information | 404 |
+| dotnet/docs | docs/core/whats-new/dotnet-10/libraries.md | .NET 10 library improvements documentation | 0249c38f27 |
+| dotnet/core | release-notes/10.0/preview | .NET 10.0.0 release notes | 4c489a6a |
 
 ## Critical limitations
 

@@ -48,8 +48,8 @@ Collection topic covering key C# 14 language features including the `field` keyw
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/csharp/whats-new/csharp-14.md | C# 14 what's new documentation | - |
-| dotnet/csharplang | proposals/csharp-14.0/README.md | C# 14 language proposals overview | - |
+| dotnet/docs | docs/csharp/whats-new/csharp-14.md | C# 14 what's new documentation | 0249c38f27 |
+| dotnet/csharplang | proposals/csharp-14.0/ | C# 14 language proposals overview | 86c78a07 |
 
 ## Secondary Sources
 

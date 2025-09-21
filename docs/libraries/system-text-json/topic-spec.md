@@ -48,9 +48,9 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/standard/serialization/system-text-json/overview.md | System.Text.Json overview documentation | - |
-| dotnet/runtime | src/libraries/System.Text.Json/README.md | System.Text.Json library README | - |
-| dotnet/docs | docs/core/whats-new/dotnet-10/libraries.md | .NET 10 library improvements documentation | - |
+| dotnet/docs | docs/standard/serialization/system-text-json/overview.md | System.Text.Json overview documentation | 0249c38f27 |
+| dotnet/runtime | src/libraries/System.Text.Json/README.md | System.Text.Json library README | 80fb00f580f |
+| dotnet/docs | docs/core/whats-new/dotnet-10/libraries.md | .NET 10 library improvements documentation | 0249c38f27 |
 
 ## Secondary Sources
 

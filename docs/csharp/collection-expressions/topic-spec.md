@@ -49,9 +49,9 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/csharp/language-reference/operators/collection-expressions.md | Collection expressions language reference | - |
-| dotnet/docs | docs/csharp/whats-new/csharp-12.md | C# 12 what's new documentation | - |
-| dotnet/docs | docs/csharp/whats-new/csharp-13.md | C# 13 what's new documentation | - |
+| dotnet/docs | docs/csharp/language-reference/operators/collection-expressions.md | Collection expressions language reference | 0249c38f27 |
+| dotnet/docs | docs/csharp/whats-new/csharp-12.md | C# 12 what's new documentation | 0249c38f27 |
+| dotnet/docs | docs/csharp/whats-new/csharp-13.md | C# 13 what's new documentation | 0249c38f27 |
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |

@@ -48,9 +48,9 @@ Build and compilation encompasses the development-time workflow of transforming 
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/core/tools/dotnet-build.md | dotnet build command documentation | - |
-| dotnet/docs | docs/core/tools/dotnet-restore.md | dotnet restore command documentation | - |
-| dotnet/docs | docs/core/tools/dotnet-clean.md | dotnet clean command documentation | - |
+| dotnet/docs | docs/core/tools/dotnet-build.md | dotnet build command documentation | 0249c38f27 |
+| dotnet/docs | docs/core/tools/dotnet-restore.md | dotnet restore command documentation | 0249c38f27 |
+| dotnet/docs | docs/core/tools/dotnet-clean.md | dotnet clean command documentation | 0249c38f27 |
 
 ## Secondary Sources
 

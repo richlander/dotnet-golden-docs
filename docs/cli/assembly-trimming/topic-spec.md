@@ -48,9 +48,9 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/core/deploying/trimming/trim-self-contained.md | Trim self-contained deployments documentation | - |
-| dotnet/docs | docs/core/deploying/trimming/trimming-options.md | Trimming options and configuration | - |
-| dotnet/docs | docs/core/deploying/trimming/incompatibilities.md | Trimming incompatibilities documentation | - |
+| dotnet/docs | docs/core/deploying/trimming/trim-self-contained.md | Trim self-contained deployments documentation | 0249c38f27 |
+| dotnet/docs | docs/core/deploying/trimming/trimming-options.md | Trimming options and configuration | 0249c38f27 |
+| dotnet/docs | docs/core/deploying/trimming/incompatibilities.md | Trimming incompatibilities documentation | 0249c38f27 |
 
 ## Secondary Sources
 

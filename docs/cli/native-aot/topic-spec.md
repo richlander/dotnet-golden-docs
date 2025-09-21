@@ -49,9 +49,9 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/core/deploying/native-aot/index.md | Native AOT overview documentation | - |
-| dotnet/docs | docs/core/deploying/native-aot/cross-compile.md | Native AOT cross-compilation guide | - |
-| dotnet/core | release-notes/7.0/7.0.0/7.0.0.md | .NET 7.0.0 release notes | - |
+| dotnet/docs | docs/core/deploying/native-aot/index.md | Native AOT overview documentation | 0249c38f27 |
+| dotnet/docs | docs/core/deploying/native-aot/cross-compile.md | Native AOT cross-compilation guide | 0249c38f27 |
+| dotnet/core | release-notes/7.0/7.0.0/7.0.0.md | .NET 7.0.0 release notes | 4c489a6a |
 
 ## Secondary Sources
 

@@ -59,7 +59,7 @@
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/index.yml | .NET documentation index | - |
-| dotnet/core | README.md | .NET Core repository overview | - |
-| dotnet/runtime | README.md | .NET runtime repository overview | - |
-| dotnet/core | release-notes/README.md | .NET release notes overview | - |
+| dotnet/docs | docs/index.yml | .NET documentation index | 0249c38f27 |
+| dotnet/core | README.md | .NET Core repository overview | 4c489a6a |
+| dotnet/runtime | README.md | .NET runtime repository overview | 80fb00f580f |
+| dotnet/core | release-notes/README.md | .NET release notes overview | 4c489a6a |

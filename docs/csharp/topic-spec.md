@@ -45,9 +45,9 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/csharp/index.yml | C# documentation index | - |
-| dotnet/csharplang | README.md | C# language design repository | - |
-| dotnet/roslyn | docs/Language Feature Status.md | Feature status tracking | - |
+| dotnet/docs | docs/csharp/index.yml | C# documentation index | 0249c38f27 |
+| dotnet/csharplang | README.md | C# language design repository | 86c78a07 |
+| dotnet/roslyn | docs/Language Feature Status.md | Feature status tracking | a4d213a6997 |
 
 ## Secondary Sources
 
@@ -71,9 +71,9 @@ First, look for features in the repos.
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/csharp/language-reference/operators/collection-expressions.md | Language reference documentation | - |
-| dotnet/docs | docs/csharp/whats-new/csharp-12.md | C# 12 feature announcement section | - |
-| dotnet/roslyn | docs/Language Feature Status.md | Feature status tracking | - |
+| dotnet/docs | docs/csharp/language-reference/operators/collection-expressions.md | Language reference documentation | 0249c38f27 |
+| dotnet/docs | docs/csharp/whats-new/csharp-12.md | C# 12 feature announcement section | 0249c38f27 |
+| dotnet/roslyn | docs/Language Feature Status.md | Feature status tracking | a4d213a6997 |
 
 Here's a GitHub issue discovered in "docs/Language Feature Status.md".
 

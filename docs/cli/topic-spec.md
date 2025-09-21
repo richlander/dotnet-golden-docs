@@ -38,8 +38,8 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/core/tools/index.md | .NET CLI tools documentation | - |
-| dotnet/core | release-notes/1.0/1.0.0.md | .NET Core 1.0.0 release notes | - |
+| dotnet/docs | docs/core/tools/index.md | .NET CLI tools documentation | 0249c38f27 |
+| dotnet/core | release-notes/1.0/1.0.0.md | .NET Core 1.0.0 release notes | 4c489a6a |
 
 ## Secondary Sources
 

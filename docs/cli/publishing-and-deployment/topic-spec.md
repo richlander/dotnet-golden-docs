@@ -47,9 +47,9 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
-| dotnet/docs | docs/core/tools/dotnet-publish.md | dotnet publish command documentation | - |
-| dotnet/docs | docs/core/deploying/index.md | .NET Core deployment overview | - |
-| dotnet/docs | docs/core/rid-catalog.md | Runtime identifier catalog | - |
+| dotnet/docs | docs/core/tools/dotnet-publish.md | dotnet publish command documentation | 0249c38f27 |
+| dotnet/docs | docs/core/deploying/index.md | .NET Core deployment overview | 0249c38f27 |
+| dotnet/docs | docs/core/rid-catalog.md | Runtime identifier catalog | 0249c38f27 |
 
 ## Secondary Sources
 
