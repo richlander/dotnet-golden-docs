@@ -2,7 +2,7 @@
 
 ## Overview
 
-Collection expressions bring a simpler and more ergonomic syntax for creating collection values in C#, matching the intuitive syntax found in other popular languages like Python, JavaScript, and Rust. It is still possible to create Lists and arrays the old way, however, we recommend that new code use collection expression. It's simpler and will be more easily readable by developers unfamiliar with C# syntax.
+Collection expressions provide an intuitive and ergonomic syntax for creating collection values in C#, matching the familiar syntax found in other popular languages like Python, JavaScript, and Rust. This syntax enables clear, readable code that focuses on the data rather than the construction mechanics.
 
 This syntax was introduced in C# 12 and extended in C# 13 with params support. Collection expressions use the familiar square bracket notation `[...]` to create arrays, lists, spans, and other collection types with minimal syntax. This represents a significant step toward making C# syntax more concise and developer-friendly.
 
@@ -32,13 +32,10 @@ let names = vec!["Alice", "Bob", "Charlie"];
 
 ### Simplicity by Design
 
-Collection expressions were specifically designed to reduce the cognitive overhead of working with collections in C#. Before this feature, creating a simple array required understanding constructors, type syntax, and initialization patterns. Now it's as simple as listing the values you want:
+Collection expressions provide a clean, data-focused syntax for working with collections in C#. The syntax lets you express your intent directly by listing the values you want:
 
 ```csharp
-// Before: Requires understanding of constructors and type declarations
-var weekdays = new string[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
-
-// After: Focus on the data, not the ceremony
+// Clear, expressive syntax that focuses on the data
 var weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 ```
 
@@ -47,11 +44,24 @@ var weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 For developers coming from Python, JavaScript, or other modern languages, collection expressions feel immediately familiar. This reduces the learning curve and makes C# more approachable:
 
 ```csharp
-// Familiar to Python developers: days = ["Mon", "Tue", "Wed"]
 string[] days = ["Mon", "Tue", "Wed"];
-
-// Familiar to JavaScript developers: const nums = [1, 2, 3]
 int[] nums = [1, 2, 3];
+```
+
+This syntax aligns with patterns developers know.
+
+JavaScript:
+
+```javascript
+const days = ["Mon", "Tue", "Wed"];
+const nums = [1, 2, 3];
+```
+
+And Swift:
+
+```swift
+let days = ["Mon", "Tue", "Wed"]
+let nums = [1, 2, 3]
 ```
 
 ### Reduced Boilerplate
@@ -254,6 +264,43 @@ int[] evens = [..numbers.Where(n => n % 2 == 0)];
 string[] strings = [..numbers.Select(n => n.ToString())];
 ```
 
+## Alternative Syntax Options
+
+Collection expressions provide a concise alternative to traditional initialization patterns:
+
+```csharp
+// Collection expressions
+int[] numbers = [1, 2, 3];
+List<string> names = ["a", "b", "c"];
+HashSet<int> unique = [1, 2, 3];
+
+// Traditional syntax (still fully supported)
+int[] numbersTraditional = new int[] { 1, 2, 3 };
+List<string> namesTraditional = new List<string> { "a", "b", "c" };
+HashSet<int> uniqueTraditional = new HashSet<int> { 1, 2, 3 };
+```
+
+### Combining Collections
+
+The spread operator provides an elegant way to combine multiple collections:
+
+```csharp
+int[] first = [1, 2, 3];
+int[] second = [4, 5, 6];
+
+// Using collection expressions with spread
+int[] combined = [..first, ..second];
+List<int> list = [..first, ..second];
+```
+
+## Best Practices
+
+1. **Use for readability**: Collection expressions make code more concise and readable
+2. **Prefer for small collections**: Most beneficial for small to medium-sized collections
+3. **Combine with spread**: Use spread operator to combine existing collections elegantly
+4. **Target type clarity**: Ensure target type is clear to avoid compilation errors
+5. **Performance awareness**: Understand that spread operations may involve copying data
+
 ## Limitations and Considerations
 
 ### Compile-Time Constants
@@ -261,13 +308,13 @@ string[] strings = [..numbers.Select(n => n.ToString())];
 Collection expressions cannot be used where compile-time constants are required:
 
 ```csharp
-// ❌ Not allowed - compile-time constant required
+// Not allowed - compile-time constant required
 const int[] CONSTANT_ARRAY = [1, 2, 3];
 
-// ❌ Not allowed - default parameter value
+// Not allowed - default parameter value
 void Method(int[] values = [1, 2, 3]) { }
 
-// ✅ Allowed - runtime initialization
+// Allowed - runtime initialization
 static readonly int[] ReadOnlyArray = [1, 2, 3];
 ```
 
@@ -276,10 +323,10 @@ static readonly int[] ReadOnlyArray = [1, 2, 3];
 Target type must be known or inferrable:
 
 ```csharp
-// ❌ Ambiguous - compiler can't determine type
+// Ambiguous - compiler can't determine type
 var unclear = [1, 2, 3];
 
-// ✅ Clear target type
+// Clear target type
 List<int> clear = [1, 2, 3];
 int[] alsoGood = [1, 2, 3];
 ```
@@ -293,58 +340,6 @@ Collection expressions cannot initialize inline arrays:
 [InlineArray(3)]
 struct Buffer3<T> { private T _element0; }
 
-// ❌ Not supported
+// Not supported
 Buffer3<int> buffer = [1, 2, 3];
 ```
-
-## Migration from Traditional Syntax
-
-### Array Initialization
-
-```csharp
-// Before
-int[] old = new int[] { 1, 2, 3 };
-int[] oldShort = { 1, 2, 3 };
-
-// After
-int[] new = [1, 2, 3];
-```
-
-### Collection Initializers
-
-```csharp
-// Before
-List<string> oldList = new List<string> { "a", "b", "c" };
-HashSet<int> oldSet = new HashSet<int> { 1, 2, 3 };
-
-// After
-List<string> newList = ["a", "b", "c"];
-HashSet<int> newSet = [1, 2, 3];
-```
-
-### Combining Collections
-
-```csharp
-int[] first = [1, 2, 3];
-int[] second = [4, 5, 6];
-
-// Before
-int[] combined = first.Concat(second).ToArray();
-var list = new List<int>();
-list.AddRange(first);
-list.AddRange(second);
-
-// After
-int[] combined = [..first, ..second];
-List<int> list = [..first, ..second];
-```
-
-## Best Practices
-
-1. **Use for readability**: Collection expressions make code more concise and readable
-2. **Prefer for small collections**: Most beneficial for small to medium-sized collections
-3. **Combine with spread**: Use spread operator to combine existing collections elegantly
-4. **Target type clarity**: Ensure target type is clear to avoid compilation errors
-5. **Performance awareness**: Understand that spread operations may involve copying data
-
-Collection expressions represent a significant improvement in C# syntax, providing a more natural and concise way to work with collections while maintaining full compatibility with existing collection types and patterns.
