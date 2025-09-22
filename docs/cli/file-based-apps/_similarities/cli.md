@@ -1,5 +1,5 @@
 | Topic (cli) | Neighbor (cli) | Similarity |
 |-------------|-------------------|------------|
-| cli/file-based-apps | cli | 0.7927 |
-| cli/file-based-apps | cli/native-aot | 0.6115 |
-| cli/file-based-apps | cli/build-and-compilation | 0.6069 |
+| cli/file-based-apps | cli | 0.5944 |
+| cli/file-based-apps | cli/publishing-and-deployment | 0.5851 |
+| cli/file-based-apps | cli/build-and-compilation | 0.5295 |

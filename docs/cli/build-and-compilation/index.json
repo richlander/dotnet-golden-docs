@@ -11,7 +11,7 @@
     "build workflow"
   ],
   "category": "CLI",
-  "complexity": 0.8,
+  "complexity": 0.5,
   "priority": 1,
   "depth_below": 0,
   "topic_count": 0,
@@ -50,74 +50,148 @@
     "similar_categories": [
       {
         "category": "cli",
+        "index": "/cli/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "cli",
-            "title": "CLI",
+            "name": "CLI",
+            "path": "cli",
+            "index": "cli/index.json",
             "similarity": 0.7427
           },
           {
             "id": "cli/publishing-and-deployment",
-            "title": "Publishing and Deployment",
+            "name": "Publishing and Deployment",
+            "path": "cli/publishing-and-deployment",
+            "index": "cli/publishing-and-deployment/index.json",
             "similarity": 0.7357
           },
           {
-            "id": "cli/file-based-apps",
-            "title": "File-based apps",
-            "similarity": 0.6069
+            "id": "cli/native-aot",
+            "name": "Native AOT",
+            "path": "cli/native-aot",
+            "index": "cli/native-aot/index.json",
+            "similarity": 0.5789
           }
         ]
       },
       {
         "category": "dotnet",
+        "index": "/dotnet/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "dotnet",
-            "title": ".NET Platform",
+            "name": ".NET Platform",
+            "path": "dotnet",
+            "index": "dotnet/index.json",
             "similarity": 0.5594
           }
         ]
       },
       {
         "category": "libraries",
+        "index": "/libraries/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "libraries",
-            "title": ".NET Libraries",
+            "name": ".NET Libraries",
+            "path": "libraries",
+            "index": "libraries/index.json",
             "similarity": 0.5499
           },
           {
             "id": "libraries/system-text-json",
-            "title": "System.Text.Json",
+            "name": "System.Text.Json",
+            "path": "libraries/system-text-json",
+            "index": "libraries/system-text-json/index.json",
             "similarity": 0.5261
-          }
-        ]
-      },
-      {
-        "category": "csharp",
-        "similarity_threshold": 0.5,
-        "topics": [
-          {
-            "id": "csharp",
-            "title": "C# Language",
-            "similarity": 0.5288
-          },
-          {
-            "id": "csharp/csharp-14-features",
-            "title": "C# 14 Language Features",
-            "similarity": 0.5087
           }
         ]
       }
     ],
-    "similar_documents": null,
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.4643,
+      "topics": [
+        {
+          "id": "cli",
+          "name": "CLI",
+          "path": "cli",
+          "index": "cli/index.json",
+          "similarity": 0.7427
+        },
+        {
+          "id": "cli/publishing-and-deployment",
+          "name": "Publishing and Deployment",
+          "path": "cli/publishing-and-deployment",
+          "index": "cli/publishing-and-deployment/index.json",
+          "similarity": 0.7357
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.5789
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET Platform",
+          "path": "dotnet",
+          "index": "dotnet/index.json",
+          "similarity": 0.5594
+        },
+        {
+          "id": "libraries",
+          "name": ".NET Libraries",
+          "path": "libraries",
+          "index": "libraries/index.json",
+          "similarity": 0.5499
+        },
+        {
+          "id": "csharp",
+          "name": "C# Language",
+          "path": "csharp",
+          "index": "csharp/index.json",
+          "similarity": 0.5288
+        },
+        {
+          "id": "libraries/system-text-json",
+          "name": "System.Text.Json",
+          "path": "libraries/system-text-json",
+          "index": "libraries/system-text-json/index.json",
+          "similarity": 0.5261
+        },
+        {
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.5087
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai",
+          "name": "Microsoft.Extensions.AI",
+          "path": "extensions/microsoft-extensions-ai",
+          "index": "extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.465
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai-evaluation",
+          "name": "Microsoft.Extensions.AI.Evaluation",
+          "path": "extensions/microsoft-extensions-ai-evaluation",
+          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+          "similarity": 0.4643
+        }
+      ]
+    },
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-21T00:54:46.4620894Z",
+    "generated": "2025-09-22T03:14:52.7598532Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

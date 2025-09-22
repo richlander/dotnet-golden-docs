@@ -11,7 +11,7 @@
     "modern syntax"
   ],
   "category": "C# Language",
-  "complexity": 0.9,
+  "complexity": 0.8,
   "priority": 1,
   "depth_below": 1,
   "topic_count": 2,
@@ -40,76 +40,157 @@
     "similar_categories": [
       {
         "category": "dotnet",
+        "index": "/dotnet/index.json",
         "similarity_threshold": 0.8677578339829674,
         "topics": [
           {
             "id": "dotnet",
-            "title": ".NET Platform",
+            "name": ".NET Platform",
+            "path": "dotnet",
+            "index": "dotnet/index.json",
             "similarity": 0.8678
           }
         ]
       },
       {
         "category": "cli",
+        "index": "/cli/index.json",
         "similarity_threshold": 0.5532995816757836,
         "topics": [
           {
-            "id": "cli/file-based-apps",
-            "title": "File-based apps",
-            "similarity": 0.7459
-          },
-          {
             "id": "cli",
-            "title": "CLI",
+            "name": "CLI",
+            "path": "cli",
+            "index": "cli/index.json",
             "similarity": 0.6518
           },
           {
             "id": "cli/native-aot",
-            "title": "Native AOT",
+            "name": "Native AOT",
+            "path": "cli/native-aot",
+            "index": "cli/native-aot/index.json",
             "similarity": 0.5773
           },
           {
+            "id": "cli/file-based-apps",
+            "name": "File-based apps",
+            "path": "cli/file-based-apps",
+            "index": "cli/file-based-apps/index.json",
+            "similarity": 0.5631
+          },
+          {
             "id": "cli/assembly-trimming",
-            "title": "Assembly Trimming",
+            "name": "Assembly Trimming",
+            "path": "cli/assembly-trimming",
+            "index": "cli/assembly-trimming/index.json",
             "similarity": 0.5533
           }
         ]
       },
       {
         "category": "libraries",
+        "index": "/libraries/index.json",
         "similarity_threshold": 0.5988768182223901,
         "topics": [
           {
             "id": "libraries",
-            "title": ".NET Libraries",
+            "name": ".NET Libraries",
+            "path": "libraries",
+            "index": "libraries/index.json",
             "similarity": 0.6511
           },
           {
             "id": "libraries/system-text-json",
-            "title": "System.Text.Json",
+            "name": "System.Text.Json",
+            "path": "libraries/system-text-json",
+            "index": "libraries/system-text-json/index.json",
             "similarity": 0.5989
-          }
-        ]
-      },
-      {
-        "category": "csharp",
-        "similarity_threshold": 0.5688094864537829,
-        "topics": [
-          {
-            "id": "csharp/csharp-14-features",
-            "title": "C# 14 Language Features",
-            "similarity": 0.612
           }
         ]
       }
     ],
-    "similar_documents": null,
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.4854,
+      "topics": [
+        {
+          "id": "dotnet",
+          "name": ".NET Platform",
+          "path": "dotnet",
+          "index": "dotnet/index.json",
+          "similarity": 0.8678
+        },
+        {
+          "id": "cli",
+          "name": "CLI",
+          "path": "cli",
+          "index": "cli/index.json",
+          "similarity": 0.6518
+        },
+        {
+          "id": "libraries",
+          "name": ".NET Libraries",
+          "path": "libraries",
+          "index": "libraries/index.json",
+          "similarity": 0.6511
+        },
+        {
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.612
+        },
+        {
+          "id": "libraries/system-text-json",
+          "name": "System.Text.Json",
+          "path": "libraries/system-text-json",
+          "index": "libraries/system-text-json/index.json",
+          "similarity": 0.5989
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.5773
+        },
+        {
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.5631
+        },
+        {
+          "id": "cli/assembly-trimming",
+          "name": "Assembly Trimming",
+          "path": "cli/assembly-trimming",
+          "index": "cli/assembly-trimming/index.json",
+          "similarity": 0.5533
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai",
+          "name": "Microsoft.Extensions.AI",
+          "path": "extensions/microsoft-extensions-ai",
+          "index": "extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.5393
+        },
+        {
+          "id": "extensions/microsoft-extensions-http-resilience",
+          "name": "Microsoft.Extensions.Http.Resilience",
+          "path": "extensions/microsoft-extensions-http-resilience",
+          "index": "extensions/microsoft-extensions-http-resilience/index.json",
+          "similarity": 0.4854
+        }
+      ]
+    },
     "topics": [
       {
         "name": "collection-expressions",
         "title": "Collection Expressions",
         "category": "C# Language",
-        "complexity": 0.6,
+        "complexity": 0.25,
         "priority": 2,
         "_links": {
           "self": {
@@ -123,7 +204,7 @@
         "name": "csharp-14-features",
         "title": "C# 14 Language Features",
         "category": "C# Language",
-        "complexity": 0.9,
+        "complexity": 0.8,
         "priority": 2,
         "_links": {
           "self": {
@@ -136,7 +217,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-21T00:54:46.4731746Z",
+    "generated": "2025-09-22T03:14:52.7875319Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

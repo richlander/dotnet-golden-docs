@@ -6,10 +6,10 @@ This document defines the format and quality standards for golden reference docu
 
 Golden reference documents serve multiple critical functions:
 
-- **Validation baseline**: Ground truth for evaluating generated content quality
-- **Content generation source**: Primary material for creating output formats
-- **Comprehensive coverage**: Complete reference including edge cases and integrations
-- **Authority establishment**: Definitive technical accuracy standard
+- Validation baseline: Ground truth for evaluating generated content quality
+- Content generation source: Primary material for creating output formats
+- Comprehensive coverage: Complete reference including edge cases and integrations
+- Authority establishment: Definitive technical accuracy standard
 
 ## Format Structure
 
@@ -23,79 +23,145 @@ The H1 will be structured as: `# {Feature Name} - Golden Reference`
 
 Conceptual foundation providing context and orientation:
 
-- **What it is**: Clear definition and technical positioning
-- **Key advantages**: Primary benefits and value propositions (3-6 bullet points)
-- **Main approaches**: Different usage patterns or modes (if applicable)
-- **When to use**: Primary scenarios and decision criteria
+- What it is: Clear definition and technical positioning
+- Key advantages: Primary benefits and value propositions (3-6 bullet points)
+- Main approaches: Different usage patterns or modes (if applicable)
+- When to use: Primary scenarios and decision criteria
 
 #### Essential Syntax & Examples
 
 Core technical content with working code:
 
-- **Basic operations**: Fundamental usage patterns with minimal examples
-- **Configuration**: Key options and customization approaches
-- **Advanced patterns**: Important but less common usage scenarios
-- **Version-specific features**: New capabilities in recent versions
+- Basic operations: Fundamental usage patterns with minimal examples
+- Configuration: Key options and customization approaches
+- Advanced patterns: Important but less common usage scenarios
+- Version-specific features: New capabilities in recent versions
 
 #### Relationships & Integration
 
 Ecosystem connections and context:
 
-- **Framework integration**: How it works with ASP.NET Core, Entity Framework, etc.
-- **Migration considerations**: Moving from alternative approaches
-- **Compatibility requirements**: Version and platform constraints
-- **Performance characteristics**: Key optimization considerations
+- Framework integration: How it works with ASP.NET Core, Entity Framework, etc.
+- Migration considerations: Moving from alternative approaches
+- Compatibility requirements: Version and platform constraints
+- Performance characteristics: Key optimization considerations
 
 #### Common Scenarios
 
 Real-world usage patterns organized by complexity:
 
-- **Scenario title**: Descriptive name for the use case
-- **When to use**: Specific conditions that make this pattern appropriate
-- **Implementation**: Working code example with explanation
-- **Considerations**: Important details, limitations, or alternatives
+- Scenario title: Descriptive name for the use case
+- When to use: Specific conditions that make this pattern appropriate
+- Implementation: Working code example with explanation
+- Considerations: Important details, limitations, or alternatives
 
 #### Alternative Syntax Options
 
 Showcase equivalent approaches and migration patterns:
 
-- **Traditional approaches**: Show existing syntax options that remain valid
-- **Multiple patterns**: Demonstrate different ways to accomplish the same goals
-- **Migration examples**: When appropriate, show how concepts translate between approaches
-- **Ecosystem compatibility**: How different approaches work within the broader .NET ecosystem
+- Traditional approaches: Show existing syntax options that remain valid
+- Multiple patterns: Demonstrate different ways to accomplish the same goals
+- Migration examples: When appropriate, show how concepts translate between approaches
+- Ecosystem compatibility: How different approaches work within the broader .NET ecosystem
 
 #### Best Practices
 
 Guidance for effective usage:
 
-- **Recommended patterns**: When and how to use the feature effectively
-- **Performance guidance**: Optimization considerations and trade-offs
-- **Common scenarios**: Typical use cases and implementation approaches
-- **Integration recommendations**: How to combine with other .NET features
+- Recommended patterns: When and how to use the feature effectively
+- Performance guidance: Optimization considerations and trade-offs
+- Common scenarios: Typical use cases and implementation approaches
+- Integration recommendations: How to combine with other .NET features
 
 #### Limitations and Considerations
 
 Critical knowledge for avoiding problems:
 
-- **Technical constraints**: What the feature cannot do or where it doesn't apply
-- **Performance considerations**: Important optimization guidance
-- **Security limitations**: Security model constraints and best practices
-- **Common pitfalls**: Frequent mistakes and how to avoid them
+- Technical constraints: What the feature cannot do or where it doesn't apply
+- Performance considerations: Important optimization guidance
+- Security limitations: Security model constraints and best practices
+- Common pitfalls: Frequent mistakes and how to avoid them
 
 #### See Also
 
 Natural cross-references to related topics:
 
-- **Direct relationships**: Immediately relevant related features
-- **Workflow continuations**: Logical next steps in development workflows
-- **Alternative approaches**: Different solutions to similar problems
-- **Advanced topics**: Deeper dives and specialized scenarios
+- Direct relationships: Immediately relevant related features
+- Workflow continuations: Logical next steps in development workflows
+- Alternative approaches: Different solutions to similar problems
+- Advanced topics: Deeper dives and specialized scenarios
+
+## Topic Metadata Requirements
+
+Each topic must include a metadata table with standardized properties for consistent organization and searchability:
+
+### Required Metadata Properties
+
+- Name: Display name of the topic
+- ID: Unique identifier (kebab-case)
+- Category: Primary category (CLI, C# Language, Libraries, Extensions, etc.)
+- Namespace: .NET namespace for code-related topics, "(none)" for concepts/features
+- Description: Brief description of the topic
+- Complexity: Numeric rating (0.0-1.0) indicating learning difficulty
+- Audience: Target developer audience
+- Priority: Importance ranking (1=highest, 2=medium, 3=lower)
+- Version: .NET version where introduced
+- Year: Year of introduction
+
+### Namespace Property Guidelines
+
+The Namespace property enables semantic distinction between code-focused topics and concept-focused topics:
+
+Use actual namespace for topics representing:
+- Class libraries and APIs (e.g., "System.Text.Json", "Microsoft.Extensions.AI")
+- Specific types and namespaces (e.g., "System.IO", "System.Threading.Tasks")
+- NuGet packages with primary namespaces
+
+Use "(none)" for topics representing:
+- Language features (e.g., collection expressions, pattern matching)
+- Tooling and CLI features (e.g., file-based apps, dotnet commands)
+- Deployment concepts (e.g., Native AOT, single-file deployment)
+- Development workflows and practices
+
+### Example Metadata Tables
+
+Code-focused topic:
+```markdown
+| Property | Value |
+| --- | --- |
+| Name | Microsoft.Extensions.AI |
+| ID | microsoft-extensions-ai |
+| Category | Extensions |
+| Namespace | Microsoft.Extensions.AI |
+| Description | Unified approach for .NET developers to integrate AI services |
+| Complexity | 0.6 |
+| Audience | AI developers, library authors |
+| Priority | 1 |
+| Version | 9.0 |
+| Year | 2024 |
+```
+
+Concept-focused topic:
+```markdown
+| Property | Value |
+| --- | --- |
+| Name | File-based apps |
+| ID | file-based-apps |
+| Category | CLI |
+| Namespace | (none) |
+| Description | Run single .cs files without project structure |
+| Complexity | 0.3 |
+| Audience | all developers, scripters |
+| Priority | 2 |
+| Version | 10.0 |
+| Year | 2025 |
+```
 
 ## Content Standards
 
 ### Storytelling Guidelines
 
-**Positive Narrative Focus**: Golden reference documents should tell a positive story about the feature without disparaging existing approaches:
+Positive Narrative Focus: Golden reference documents should tell a positive story about the feature without disparaging existing approaches:
 
 - Focus on benefits and capabilities rather than problems with alternatives
 - Avoid "before/after" comparisons that emphasize how "terrible" the old way was
@@ -103,14 +169,14 @@ Natural cross-references to related topics:
 - Use language like "provides", "enables", "offers" instead of "solves", "fixes", "improves"
 - When showing multiple approaches, frame them as "options" or "alternatives" rather than "old vs new"
 
-**Cross-Language Examples**: When showing familiar syntax patterns from other languages:
+Cross-Language Examples: When showing familiar syntax patterns from other languages:
 
 - Place examples from other programming languages in separate code fences, not in code comments
 - Use proper language-specific syntax highlighting
 - Show how C# syntax aligns with familiar patterns from Python, JavaScript, Swift, Rust, etc.
 - Present these as "familiar to [language] developers" rather than direct comparisons
 
-**Document Structure**: Organize sections to maintain positive flow:
+Document Structure: Organize sections to maintain positive flow:
 
 - Start with overview and core capabilities
 - Show syntax and practical examples
@@ -221,14 +287,14 @@ services.ConfigureHttpJsonOptions(options =>
 
 Before content is considered complete, verify:
 
-- [ ] **Code Compilation**: All examples compile against target frameworks
-- [ ] **Functional Testing**: Examples produce expected outputs
-- [ ] **Cross-Platform Compatibility**: Platform-specific content works on target platforms
-- [ ] **Version Accuracy**: Features are correctly attributed to .NET versions
-- [ ] **Authority Verification**: Claims backed by official sources
-- [ ] **Completeness Coverage**: Common scenarios adequately addressed
-- [ ] **Integration Accuracy**: Framework integration examples functional
-- [ ] **Security Compliance**: Security guidance aligns with official recommendations
+- [ ] Code Compilation: All examples compile against target frameworks
+- [ ] Functional Testing: Examples produce expected outputs
+- [ ] Cross-Platform Compatibility: Platform-specific content works on target platforms
+- [ ] Version Accuracy: Features are correctly attributed to .NET versions
+- [ ] Authority Verification: Claims backed by official sources
+- [ ] Completeness Coverage: Common scenarios adequately addressed
+- [ ] Integration Accuracy: Framework integration examples functional
+- [ ] Security Compliance: Security guidance aligns with official recommendations
 
 ## Quality Criteria
 

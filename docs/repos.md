@@ -28,8 +28,8 @@ When referencing repository files in topic specifications, use the short repo na
 ```
 
 ### URL Generation
-- **Rendered URL**: `{Home}/blob/main/{Path}`
-- **Raw URL**: `{Raw URL base}/{Path}` (replace README.md with the actual path)
+- Rendered URL: `{Home}/blob/main/{Path}`
+- Raw URL: `{Raw URL base}/{Path}` (replace README.md with the actual path)
 
 Example:
 - Repo: `dotnet/docs`

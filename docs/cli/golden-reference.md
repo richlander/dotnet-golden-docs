@@ -6,22 +6,22 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 
 The CLI operates through the `dotnet` command as a generic driver that provides two main functions:
 
-1. **SDK commands**: Tools for project development, building, testing, and deployment
-2. **Runtime host**: Execution of .NET applications and libraries
+1. SDK commands: Tools for project development, building, testing, and deployment
+2. Runtime host: Execution of .NET applications and libraries
 
 Key architectural principles:
 
-- **Cross-platform**: Consistent experience across all supported operating systems
-- **SDK-based**: Commands require SDK installation, runtime hosting requires only runtime
-- **Extensible**: Support for global and local tools, workloads, and project templates
-- **Version-aware**: Multiple SDK and runtime versions can coexist
+- Cross-platform: Consistent experience across all supported operating systems
+- SDK-based: Commands require SDK installation, runtime hosting requires only runtime
+- Extensible: Support for global and local tools, workloads, and project templates
+- Version-aware: Multiple SDK and runtime versions can coexist
 
 The CLI serves multiple audiences:
 
-- **Developers**: Primary development workflow through command-line
-- **DevOps engineers**: CI/CD pipeline automation and deployment
-- **System administrators**: Runtime and SDK management
-- **Tool authors**: Platform for building additional development tools
+- Developers: Primary development workflow through command-line
+- DevOps engineers: CI/CD pipeline automation and deployment
+- System administrators: Runtime and SDK management
+- Tool authors: Platform for building additional development tools
 
 ## Essential Command Categories
 
@@ -189,10 +189,10 @@ dotnet test MySolution.sln          # Test entire solution
 
 The CLI follows a hierarchical command structure:
 
-- **Root command**: `dotnet` provides global options and runtime hosting
-- **Verb commands**: Primary actions like `build`, `test`, `publish`
-- **Noun commands**: Object-focused like `sln`, `package`, `reference`
-- **Composite commands**: Multi-level like `dotnet tool install`, `dotnet workload list`
+- Root command: `dotnet` provides global options and runtime hosting
+- Verb commands: Primary actions like `build`, `test`, `publish`
+- Noun commands: Object-focused like `sln`, `package`, `reference`
+- Composite commands: Multi-level like `dotnet tool install`, `dotnet workload list`
 
 ### Configuration and Customization
 
@@ -226,17 +226,17 @@ dotnet test -f net8.0               # Test specific framework
 
 The CLI integrates seamlessly with development environments.
 
-**Visual Studio Integration**: The CLI commands power Visual Studio's build system, with all operations ultimately translating to CLI calls.
+Visual Studio Integration: The CLI commands power Visual Studio's build system, with all operations ultimately translating to CLI calls.
 
-**VS Code Integration**: The C# extension uses the CLI for IntelliSense, debugging, and build tasks. The integrated terminal provides direct CLI access.
+VS Code Integration: The C# extension uses the CLI for IntelliSense, debugging, and build tasks. The integrated terminal provides direct CLI access.
 
-**Command Line Development**: Full-featured development workflow using only the CLI and text editors, particularly valuable for remote development and containers.
+Command Line Development: Full-featured development workflow using only the CLI and text editors, particularly valuable for remote development and containers.
 
 ### Development Workflow Patterns
 
 Established patterns for efficient CLI-based development.
 
-**Watch-Driven Development**:
+Watch-Driven Development:
 
 ```bash
 # Auto-rebuild and restart on file changes
@@ -246,7 +246,7 @@ dotnet watch run
 dotnet watch test --project MyApp.Tests
 ```
 
-**Configuration Management**:
+Configuration Management:
 
 ```bash
 # Environment-specific builds
@@ -263,7 +263,7 @@ dotnet build --framework net481
 
 The CLI is designed for automation and continuous integration scenarios.
 
-**Optimized CI Pipeline Commands**:
+Optimized CI Pipeline Commands:
 
 ```bash
 # Comprehensive CI workflow
@@ -282,7 +282,7 @@ dotnet build --verbosity diagnostic # Detailed build output
 dotnet --diagnostics                # Enable diagnostic output
 ```
 
-**Docker Integration**:
+Docker Integration:
 
 ```dockerfile
 # Multi-stage builds using CLI
@@ -298,7 +298,7 @@ COPY --from=build /app .
 ENTRYPOINT ["dotnet", "MyApp.dll"]
 ```
 
-**Container and Cloud Deployment**:
+Container and Cloud Deployment:
 
 ```bash
 # Container-optimized publishing
@@ -313,11 +313,11 @@ dotnet publish -c Release -p:InvariantGlobalization=true
 
 The CLI provides consistent behavior across platforms while supporting platform-specific features.
 
-**Platform Targeting**: Support for targeting specific runtimes and frameworks while maintaining code portability.
+Platform Targeting: Support for targeting specific runtimes and frameworks while maintaining code portability.
 
-**File System Handling**: Consistent path handling and file operations across Windows, Linux, and macOS.
+File System Handling: Consistent path handling and file operations across Windows, Linux, and macOS.
 
-**Permission Models**: Appropriate handling of different operating system permission models and executable formats.
+Permission Models: Appropriate handling of different operating system permission models and executable formats.
 
 ## Performance and Efficiency
 
@@ -325,17 +325,17 @@ The CLI provides consistent behavior across platforms while supporting platform-
 
 The CLI includes several features to optimize build performance:
 
-- **Incremental Builds**: Only rebuilds changed projects and their dependencies
-- **Parallel Builds**: Automatically parallelizes builds of independent projects in solutions
-- **Build Caching**: Leverages file timestamps and dependency graphs to avoid unnecessary work
+- Incremental Builds: Only rebuilds changed projects and their dependencies
+- Parallel Builds: Automatically parallelizes builds of independent projects in solutions
+- Build Caching: Leverages file timestamps and dependency graphs to avoid unnecessary work
 
 ### Package Restore Optimization
 
 Efficient dependency resolution and caching mechanisms:
 
-- **NuGet Cache**: Central package cache shared across projects to avoid redundant downloads
-- **Lock Files**: Optional package lock files for reproducible builds and faster restores
-- **Source Mapping**: Multiple package source support with fallback and authentication
+- NuGet Cache: Central package cache shared across projects to avoid redundant downloads
+- Lock Files: Optional package lock files for reproducible builds and faster restores
+- Source Mapping: Multiple package source support with fallback and authentication
 
 ### Developer Productivity Tools
 
@@ -356,9 +356,9 @@ dotnet ef database update
 
 CLI usage patterns that support team collaboration:
 
-- **Solution Organization**: Using solution files to group related projects and enable efficient bulk operations
-- **Tool Manifests**: Committing tool manifests to ensure consistent tooling across team members
-- **Global.json**: Pinning SDK versions for consistent builds across development machines
+- Solution Organization: Using solution files to group related projects and enable efficient bulk operations
+- Tool Manifests: Committing tool manifests to ensure consistent tooling across team members
+- Global.json: Pinning SDK versions for consistent builds across development machines
 
 ### Project Template Customization
 
@@ -384,20 +384,20 @@ dotnet workload repair              # Repair workload installations
 
 ### Version and Compatibility Management
 
-- **Multiple SDK versions**: Global.json controls which SDK version is used
-- **Runtime compatibility**: Forward compatibility generally works, but breaking changes exist
-- **Platform differences**: Some commands behave differently across operating systems
-- **Path limitations**: Long paths can cause issues on Windows without proper configuration
+- Multiple SDK versions: Global.json controls which SDK version is used
+- Runtime compatibility: Forward compatibility generally works, but breaking changes exist
+- Platform differences: Some commands behave differently across operating systems
+- Path limitations: Long paths can cause issues on Windows without proper configuration
 
 ### Performance Considerations
 
-- **First-time experience**: Initial package restore and template downloads can be slow
-- **Parallel builds**: Default parallelism may overwhelm system resources
-- **Incremental builds**: Not always reliable with complex project graphs
-- **Package caching**: Global package cache can grow large over time
-- **Cold Start**: First restore operations can be slow due to package downloads and cache population
-- **Large Solutions**: Very large solutions with many projects may have slower build and restore times
-- **Network Dependencies**: Package restore and tool operations require network access and can be affected by connectivity issues
+- First-time experience: Initial package restore and template downloads can be slow
+- Parallel builds: Default parallelism may overwhelm system resources
+- Incremental builds: Not always reliable with complex project graphs
+- Package caching: Global package cache can grow large over time
+- Cold Start: First restore operations can be slow due to package downloads and cache population
+- Large Solutions: Very large solutions with many projects may have slower build and restore times
+- Network Dependencies: Package restore and tool operations require network access and can be affected by connectivity issues
 
 ### Common Error Scenarios
 
@@ -413,36 +413,36 @@ dotnet --info | grep "RID"          # Verify runtime identifier
 
 ### Platform-Specific Limitations
 
-- **Path Length**: Windows path length limitations can affect deep project hierarchies
-- **File Permissions**: Unix-like systems require explicit executable permissions for published outputs
-- **Case Sensitivity**: File system case sensitivity differences between platforms can cause issues
+- Path Length: Windows path length limitations can affect deep project hierarchies
+- File Permissions: Unix-like systems require explicit executable permissions for published outputs
+- Case Sensitivity: File system case sensitivity differences between platforms can cause issues
 
 ### Security and Trust Considerations
 
-- **Package source verification**: Always verify package sources in enterprise environments
-- **Code signing**: Consider package signature verification for security-critical applications
-- **Telemetry and privacy**: CLI collects telemetry by default, can be disabled
-- **Tool installation**: Global tools run with user permissions, verify before installing
+- Package source verification: Always verify package sources in enterprise environments
+- Code signing: Consider package signature verification for security-critical applications
+- Telemetry and privacy: CLI collects telemetry by default, can be disabled
+- Tool installation: Global tools run with user permissions, verify before installing
 
 ## See Also
 
 ### Core Development Concepts
 
-- **Project management**: MSBuild integration, project file format, SDK-style projects
-- **Publishing and deployment**: Self-contained deployment, trimming, Native AOT
-- **Development tools**: Global tools, workloads, project templates
-- **Testing infrastructure**: Test frameworks, coverage tools, reporting
+- Project management: MSBuild integration, project file format, SDK-style projects
+- Publishing and deployment: Self-contained deployment, trimming, Native AOT
+- Development tools: Global tools, workloads, project templates
+- Testing infrastructure: Test frameworks, coverage tools, reporting
 
 ### Related Tools and Extensions
 
-- **Entity Framework CLI**: Database migration and scaffolding tools
-- **ASP.NET Core CLI**: Web application development and deployment tools
-- **MAUI CLI**: Multi-platform application development tools
-- **Global Tools**: Community-developed CLI extensions
+- Entity Framework CLI: Database migration and scaffolding tools
+- ASP.NET Core CLI: Web application development and deployment tools
+- MAUI CLI: Multi-platform application development tools
+- Global Tools: Community-developed CLI extensions
 
 ### Development Environments
 
-- **Visual Studio**: Full IDE with integrated CLI functionality
-- **Visual Studio Code**: Lightweight editor with CLI integration
-- **JetBrains Rider**: Cross-platform IDE with CLI support
-- **Command Line**: Pure CLI development workflow and tooling
+- Visual Studio: Full IDE with integrated CLI functionality
+- Visual Studio Code: Lightweight editor with CLI integration
+- JetBrains Rider: Cross-platform IDE with CLI support
+- Command Line: Pure CLI development workflow and tooling

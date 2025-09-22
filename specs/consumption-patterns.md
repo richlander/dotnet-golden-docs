@@ -8,33 +8,33 @@ The consumption system provides intelligent retrieval from the pre-computed know
 
 ### Separation of Concerns
 
-- **Lexical analysis** (tool): Fast, deterministic environment scanning and keyword matching
-- **Graph navigation** (tool): Efficient traversal using pre-computed similarity scores
-- **Semantic understanding** (LLM): Contextual re-ranking and relevance assessment
-- **Subgraph caching** (tool): Coherent offline documentation sets
+- Lexical analysis (tool): Fast, deterministic environment scanning and keyword matching
+- Graph navigation (tool): Efficient traversal using pre-computed similarity scores
+- Semantic understanding (LLM): Contextual re-ranking and relevance assessment
+- Subgraph caching (tool): Coherent offline documentation sets
 
 ### Performance Characteristics
 
-- **No GPU required**: Tool uses only pre-computed embeddings and similarities
-- **Deterministic candidates**: Same environment produces same candidate set
-- **Offline capable**: Downloaded subgraphs work without connectivity
-- **Explainable results**: Clear signal separation between lexical/semantic/structural matches
+- No GPU required: Tool uses only pre-computed embeddings and similarities
+- Deterministic candidates: Same environment produces same candidate set
+- Offline capable: Downloaded subgraphs work without connectivity
+- Explainable results: Clear signal separation between lexical/semantic/structural matches
 
 ## Consumption Workflow
 
 ### Phase 1: Environment Analysis
 
-**Tool responsibility**: Scan developer environment for contextual signals
+Tool responsibility: Scan developer environment for contextual signals
 
-**Input sources**:
+Input sources:
 
-- **Project files**: `.csproj`, `.props`, `Directory.Build.props`
-- **Configuration**: `appsettings.json`, environment variables
-- **Error messages**: Compiler errors, runtime exceptions
-- **Code context**: Current file, namespace, using statements
-- **Command context**: CLI commands, MSBuild targets
+- Project files: `.csproj`, `.props`, `Directory.Build.props`
+- Configuration: `appsettings.json`, environment variables
+- Error messages: Compiler errors, runtime exceptions
+- Code context: Current file, namespace, using statements
+- Command context: CLI commands, MSBuild targets
 
-**Signal extraction**:
+Signal extraction:
 
 ```csharp
 // Tool detects these patterns lexically:
@@ -46,23 +46,23 @@ CA1234: Missing XML comment  → ["documentation", "xml-comments", "ca1234"]
 
 ### Phase 2: Candidate Generation
 
-**Tool responsibility**: Generate candidate topics using multi-signal matching
+Tool responsibility: Generate candidate topics using multi-signal matching
 
-**Lexical matching**:
+Lexical matching:
 
-1. **Keyword extraction**: Extract meaningful terms from environment
-2. **Index scanning**: Search topic titles, descriptions, and metadata
-3. **Exact matches**: High-priority candidates for exact keyword matches
-4. **Fuzzy matches**: Medium-priority candidates for partial matches
+1. Keyword extraction: Extract meaningful terms from environment
+2. Index scanning: Search topic titles, descriptions, and metadata
+3. Exact matches: High-priority candidates for exact keyword matches
+4. Fuzzy matches: Medium-priority candidates for partial matches
 
-**Graph traversal**:
+Graph traversal:
 
-1. **Initial candidates**: Topics matching lexical analysis
-2. **Semantic expansion**: Include neighbors above similarity threshold
-3. **Hierarchical inclusion**: Add parent/child topics for context
-4. **Priority weighting**: Use topic priority and complexity metadata
+1. Initial candidates: Topics matching lexical analysis
+2. Semantic expansion: Include neighbors above similarity threshold
+3. Hierarchical inclusion: Add parent/child topics for context
+4. Priority weighting: Use topic priority and complexity metadata
 
-**Candidate scoring**:
+Candidate scoring:
 
 ```json
 {
@@ -83,9 +83,9 @@ CA1234: Missing XML comment  → ["documentation", "xml-comments", "ca1234"]
 
 ### Phase 3: LLM Re-ranking
 
-**LLM responsibility**: Apply semantic understanding to refine candidate ranking
+LLM responsibility: Apply semantic understanding to refine candidate ranking
 
-**Input to LLM**:
+Input to LLM:
 
 ```json
 {
@@ -110,25 +110,25 @@ CA1234: Missing XML comment  → ["documentation", "xml-comments", "ca1234"]
 }
 ```
 
-**LLM re-ranking criteria**:
+LLM re-ranking criteria:
 
-- **Intent alignment**: How well topic matches likely user goal
-- **Context appropriateness**: Relevance to detected environment
-- **Completeness**: Whether topic provides comprehensive coverage
-- **Learning progression**: Appropriate complexity for user's apparent level
+- Intent alignment: How well topic matches likely user goal
+- Context appropriateness: Relevance to detected environment
+- Completeness: Whether topic provides comprehensive coverage
+- Learning progression: Appropriate complexity for user's apparent level
 
 ### Phase 4: Subgraph Download
 
-**Tool responsibility**: Assemble coherent documentation subset for offline use
+Tool responsibility: Assemble coherent documentation subset for offline use
 
-**Subgraph assembly**:
+Subgraph assembly:
 
-1. **Primary topics**: Top-ranked candidates from LLM re-ranking
-2. **Dependency inclusion**: Required prerequisite topics
-3. **Related topics**: Semantically connected content above threshold
-4. **Context topics**: Parent categories and overview content
+1. Primary topics: Top-ranked candidates from LLM re-ranking
+2. Dependency inclusion: Required prerequisite topics
+3. Related topics: Semantically connected content above threshold
+4. Context topics: Parent categories and overview content
 
-**Content selection**:
+Content selection:
 
 ```json
 {
@@ -146,18 +146,18 @@ CA1234: Missing XML comment  → ["documentation", "xml-comments", "ca1234"]
 }
 ```
 
-**Quality assurance**:
+Quality assurance:
 
-- **Completeness**: All cross-references resolvable within subgraph
-- **Consistency**: Compatible content versions and metadata
-- **Freshness**: Recent generation timestamps
-- **Authority**: Verified source provenance
+- Completeness: All cross-references resolvable within subgraph
+- Consistency: Compatible content versions and metadata
+- Freshness: Recent generation timestamps
+- Authority: Verified source provenance
 
 ### Phase 5: Offline LLM Processing
 
-**Tool + LLM responsibility**: Process downloaded subgraph for user assistance
+Tool + LLM responsibility: Process downloaded subgraph for user assistance
 
-**Local graph structure**:
+Local graph structure:
 
 ```
 downloaded_subgraph/
@@ -173,50 +173,50 @@ downloaded_subgraph/
 └── metadata.json              # Download context and timestamps
 ```
 
-**LLM integration patterns**:
+LLM integration patterns:
 
-- **Contextual grounding**: LLM references specific downloaded content
-- **Cross-topic synthesis**: LLM connects information across related topics
-- **Progressive disclosure**: LLM suggests deeper topics based on user engagement
-- **Problem-solving focus**: LLM prioritizes troubleshooting content for error scenarios
+- Contextual grounding: LLM references specific downloaded content
+- Cross-topic synthesis: LLM connects information across related topics
+- Progressive disclosure: LLM suggests deeper topics based on user engagement
+- Problem-solving focus: LLM prioritizes troubleshooting content for error scenarios
 
 ## Use Case Examples
 
 ### Scenario 1: Modern Feature Discovery
 
-**Context**: Developer sees `PublishAot=true` in project but unfamiliar with Native AOT
+Context: Developer sees `PublishAot=true` in project but unfamiliar with Native AOT
 
-**Workflow**:
+Workflow:
 
-1. **Environment scan**: Tool detects "PublishAot" property
-2. **Candidate generation**: ["native-aot", "publishing", "performance", "limitations"]
-3. **LLM re-ranking**: Prioritizes native-aot overview and publishing workflows
-4. **Subgraph download**: Includes native-aot + publishing + performance considerations
-5. **User assistance**: LLM explains Native AOT with current, authoritative examples
+1. Environment scan: Tool detects "PublishAot" property
+2. Candidate generation: ["native-aot", "publishing", "performance", "limitations"]
+3. LLM re-ranking: Prioritizes native-aot overview and publishing workflows
+4. Subgraph download: Includes native-aot + publishing + performance considerations
+5. User assistance: LLM explains Native AOT with current, authoritative examples
 
 ### Scenario 2: Error Resolution
 
-**Context**: Developer gets compilation error with file-based app in multi-file directory
+Context: Developer gets compilation error with file-based app in multi-file directory
 
-**Workflow**:
+Workflow:
 
-1. **Environment scan**: Tool detects "multiple .cs files" + "dotnet run error"
-2. **Candidate generation**: ["file-based-apps", "compilation-errors", "project-structure"]
-3. **LLM re-ranking**: Prioritizes troubleshooting content over conceptual overview
-4. **Subgraph download**: Includes file-based-apps troubleshooting + project migration
-5. **User assistance**: LLM provides specific solutions with migration guidance
+1. Environment scan: Tool detects "multiple .cs files" + "dotnet run error"
+2. Candidate generation: ["file-based-apps", "compilation-errors", "project-structure"]
+3. LLM re-ranking: Prioritizes troubleshooting content over conceptual overview
+4. Subgraph download: Includes file-based-apps troubleshooting + project migration
+5. User assistance: LLM provides specific solutions with migration guidance
 
 ### Scenario 3: Learning Progression
 
-**Context**: Developer successfully using file-based apps, wants to understand publishing
+Context: Developer successfully using file-based apps, wants to understand publishing
 
-**Workflow**:
+Workflow:
 
-1. **Environment scan**: Tool detects successful file-based app usage patterns
-2. **Candidate generation**: Semantic neighbors of file-based-apps
-3. **LLM re-ranking**: Prioritizes natural progression topics (publishing, native-aot)
-4. **Subgraph download**: Includes publishing workflows + deployment options
-5. **User assistance**: LLM suggests next steps with appropriate complexity
+1. Environment scan: Tool detects successful file-based app usage patterns
+2. Candidate generation: Semantic neighbors of file-based-apps
+3. LLM re-ranking: Prioritizes natural progression topics (publishing, native-aot)
+4. Subgraph download: Includes publishing workflows + deployment options
+5. User assistance: LLM suggests next steps with appropriate complexity
 
 ## Tool Interface Design
 
@@ -260,50 +260,50 @@ downloaded_subgraph/
 
 ### Caching Strategy
 
-- **Subgraph TTL**: 24-48 hours for typical development sessions
-- **Incremental updates**: Download only changed content
-- **Priority refresh**: Update high-priority topics more frequently
-- **Context awareness**: Refresh based on detected environment changes
+- Subgraph TTL: 24-48 hours for typical development sessions
+- Incremental updates: Download only changed content
+- Priority refresh: Update high-priority topics more frequently
+- Context awareness: Refresh based on detected environment changes
 
 ## Quality Indicators
 
 ### Signal Quality
 
-- **Lexical precision**: Keyword matching accuracy
-- **Semantic relevance**: Pre-computed similarity score confidence
-- **Context appropriateness**: Environment pattern recognition accuracy
-- **LLM alignment**: Re-ranking correlation with actual user satisfaction
+- Lexical precision: Keyword matching accuracy
+- Semantic relevance: Pre-computed similarity score confidence
+- Context appropriateness: Environment pattern recognition accuracy
+- LLM alignment: Re-ranking correlation with actual user satisfaction
 
 ### Content Quality
 
-- **Authority verification**: Source provenance and verification dates
-- **Recency indicators**: Content generation timestamps
-- **Completeness metrics**: Cross-reference resolution success
-- **Validation status**: Code example compilation and testing results
+- Authority verification: Source provenance and verification dates
+- Recency indicators: Content generation timestamps
+- Completeness metrics: Cross-reference resolution success
+- Validation status: Code example compilation and testing results
 
 ### User Experience
 
-- **Discovery success**: Relevant content found within 3 candidates
-- **Problem resolution**: Issue-specific content availability
-- **Learning progression**: Appropriate complexity and depth
-- **Offline reliability**: Subgraph completeness and navigability
+- Discovery success: Relevant content found within 3 candidates
+- Problem resolution: Issue-specific content availability
+- Learning progression: Appropriate complexity and depth
+- Offline reliability: Subgraph completeness and navigability
 
 ## Integration Patterns
 
 ### IDE Integration
 
-- **Context awareness**: Current file, project structure, compilation errors
-- **Progressive disclosure**: Contextual help expanding to full documentation
-- **Background refresh**: Keep relevant subgraphs current during development
+- Context awareness: Current file, project structure, compilation errors
+- Progressive disclosure: Contextual help expanding to full documentation
+- Background refresh: Keep relevant subgraphs current during development
 
 ### CLI Tool Integration
 
-- **Command context**: Integrate with dotnet CLI commands and error messages
-- **Workflow assistance**: Suggest documentation during common development tasks
-- **Error amplification**: Enhance error messages with relevant documentation links
+- Command context: Integrate with dotnet CLI commands and error messages
+- Workflow assistance: Suggest documentation during common development tasks
+- Error amplification: Enhance error messages with relevant documentation links
 
 ### CI/CD Integration
 
-- **Build context**: Analyze build logs and configuration for relevant documentation
-- **Deployment assistance**: Provide publishing and deployment guidance
-- **Performance monitoring**: Surface performance-related documentation during optimization
+- Build context: Analyze build logs and configuration for relevant documentation
+- Deployment assistance: Provide publishing and deployment guidance
+- Performance monitoring: Surface performance-related documentation during optimization

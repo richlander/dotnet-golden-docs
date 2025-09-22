@@ -20,6 +20,7 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | Name | File-based apps |
 | ID | file-based-apps |
 | Category | CLI |
+| Namespace | (none) |
 | Description | File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. |
 | Complexity | 0.3 |
 | Audience | all developers, especially those focused on scripting and automation |
@@ -43,6 +44,7 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
 | https://docs.microsoft.com/dotnet/core/tools/dotnet-run | rendered | dotnet run command documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/ | rendered | Announcing dotnet run app.cs – A simpler way to start with C# and .NET 10 | 2025-09-21 |
 | https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | .NET 10 announcement with file-based apps | 404 |
 
 ## Primary Sources

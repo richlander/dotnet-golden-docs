@@ -11,7 +11,7 @@
     "Extensions"
   ],
   "category": "C# Language",
-  "complexity": 0.9,
+  "complexity": 0.8,
   "priority": 2,
   "depth_below": 0,
   "topic_count": 0,
@@ -50,79 +50,169 @@
     "similar_categories": [
       {
         "category": "libraries",
+        "index": "/libraries/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "libraries",
-            "title": ".NET Libraries",
+            "name": ".NET Libraries",
+            "path": "libraries",
+            "index": "libraries/index.json",
             "similarity": 0.721
           },
           {
             "id": "libraries/system-text-json",
-            "title": "System.Text.Json",
+            "name": "System.Text.Json",
+            "path": "libraries/system-text-json",
+            "index": "libraries/system-text-json/index.json",
             "similarity": 0.5918
           }
         ]
       },
       {
-        "category": "csharp",
-        "similarity_threshold": 0.5,
-        "topics": [
-          {
-            "id": "csharp/collection-expressions",
-            "title": "Collection Expressions",
-            "similarity": 0.6765
-          },
-          {
-            "id": "csharp",
-            "title": "C# Language",
-            "similarity": 0.612
-          }
-        ]
-      },
-      {
         "category": "cli",
+        "index": "/cli/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "cli/assembly-trimming",
-            "title": "Assembly Trimming",
+            "name": "Assembly Trimming",
+            "path": "cli/assembly-trimming",
+            "index": "cli/assembly-trimming/index.json",
             "similarity": 0.6717
           },
           {
+            "id": "cli/file-based-apps",
+            "name": "File-based apps",
+            "path": "cli/file-based-apps",
+            "index": "cli/file-based-apps/index.json",
+            "similarity": 0.6016
+          },
+          {
             "id": "cli/native-aot",
-            "title": "Native AOT",
+            "name": "Native AOT",
+            "path": "cli/native-aot",
+            "index": "cli/native-aot/index.json",
             "similarity": 0.5366
           },
           {
             "id": "cli",
-            "title": "CLI",
+            "name": "CLI",
+            "path": "cli",
+            "index": "cli/index.json",
             "similarity": 0.5187
-          },
-          {
-            "id": "cli/file-based-apps",
-            "title": "File-based apps",
-            "similarity": 0.5098
           }
         ]
       },
       {
-        "category": "dotnet",
+        "category": "extensions",
+        "index": "/extensions/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
-            "id": "dotnet",
-            "title": ".NET Platform",
-            "similarity": 0.6125
+            "id": "extensions/microsoft-extensions-ai",
+            "name": "Microsoft.Extensions.AI",
+            "path": "extensions/microsoft-extensions-ai",
+            "index": "extensions/microsoft-extensions-ai/index.json",
+            "similarity": 0.6382
+          },
+          {
+            "id": "extensions/microsoft-extensions-ai-evaluation",
+            "name": "Microsoft.Extensions.AI.Evaluation",
+            "path": "extensions/microsoft-extensions-ai-evaluation",
+            "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+            "similarity": 0.6335
           }
         ]
       }
     ],
-    "similar_documents": null,
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.5187,
+      "topics": [
+        {
+          "id": "libraries",
+          "name": ".NET Libraries",
+          "path": "libraries",
+          "index": "libraries/index.json",
+          "similarity": 0.721
+        },
+        {
+          "id": "cli/assembly-trimming",
+          "name": "Assembly Trimming",
+          "path": "cli/assembly-trimming",
+          "index": "cli/assembly-trimming/index.json",
+          "similarity": 0.6717
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai",
+          "name": "Microsoft.Extensions.AI",
+          "path": "extensions/microsoft-extensions-ai",
+          "index": "extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.6382
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai-evaluation",
+          "name": "Microsoft.Extensions.AI.Evaluation",
+          "path": "extensions/microsoft-extensions-ai-evaluation",
+          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+          "similarity": 0.6335
+        },
+        {
+          "id": "csharp/collection-expressions",
+          "name": "Collection Expressions",
+          "path": "csharp/collection-expressions",
+          "index": "csharp/collection-expressions/index.json",
+          "similarity": 0.6232
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET Platform",
+          "path": "dotnet",
+          "index": "dotnet/index.json",
+          "similarity": 0.6125
+        },
+        {
+          "id": "csharp",
+          "name": "C# Language",
+          "path": "csharp",
+          "index": "csharp/index.json",
+          "similarity": 0.612
+        },
+        {
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.6016
+        },
+        {
+          "id": "libraries/system-text-json",
+          "name": "System.Text.Json",
+          "path": "libraries/system-text-json",
+          "index": "libraries/system-text-json/index.json",
+          "similarity": 0.5918
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.5366
+        },
+        {
+          "id": "cli",
+          "name": "CLI",
+          "path": "cli",
+          "index": "cli/index.json",
+          "similarity": 0.5187
+        }
+      ]
+    },
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-21T00:54:46.4654274Z",
+    "generated": "2025-09-22T03:14:52.7668004Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -6,23 +6,23 @@ Build and compilation is the foundational development workflow that transforms s
 
 Core build workflow stages:
 
-1. **Dependency resolution**: Restore NuGet packages and project references
-2. **Compilation**: Transform source code to Intermediate Language (IL)
-3. **Assembly generation**: Create .dll files and executable binaries
-4. **Asset preparation**: Generate runtime configuration and dependency files
+1. Dependency resolution: Restore NuGet packages and project references
+2. Compilation: Transform source code to Intermediate Language (IL)
+3. Assembly generation: Create .dll files and executable binaries
+4. Asset preparation: Generate runtime configuration and dependency files
 
 Key principles:
 
-- **Incremental builds**: Only rebuild changed components for performance
-- **Parallel compilation**: Utilize multiple CPU cores for faster builds
-- **Multi-targeting**: Build for multiple .NET framework versions simultaneously
-- **Configuration-based**: Support Debug, Release, and custom build configurations
+- Incremental builds: Only rebuild changed components for performance
+- Parallel compilation: Utilize multiple CPU cores for faster builds
+- Multi-targeting: Build for multiple .NET framework versions simultaneously
+- Configuration-based: Support Debug, Release, and custom build configurations
 
 The build system serves multiple audiences:
 
-- **Developers**: Local development and debugging workflows
-- **DevOps engineers**: CI/CD pipeline automation and optimization
-- **Build engineers**: Complex build orchestration and performance tuning
+- Developers: Local development and debugging workflows
+- DevOps engineers: CI/CD pipeline automation and optimization
+- Build engineers: Complex build orchestration and performance tuning
 
 ## Essential Commands and Syntax
 
@@ -393,7 +393,7 @@ dotnet format --verify-no-changes       # Format verification
 
 ## See Also
 
-- **Publishing and deployment**: Self-contained builds, trimming, Native AOT compilation
-- **Package management**: NuGet workflows, dependency resolution, version management
-- **Testing workflows**: Test execution, coverage analysis, CI integration
-- **Performance optimization**: Build acceleration, caching strategies, parallel execution
+- Publishing and deployment: Self-contained builds, trimming, Native AOT compilation
+- Package management: NuGet workflows, dependency resolution, version management
+- Testing workflows: Test execution, coverage analysis, CI integration
+- Performance optimization: Build acceleration, caching strategies, parallel execution

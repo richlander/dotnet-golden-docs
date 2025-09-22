@@ -6,11 +6,11 @@ This directory contains the structured content that serves as input for LLM-opti
 
 Each topic is organized with focused document types:
 
-- **`topic-spec.md`**: Feature description, relationships, source authority, generation hints
-- **`golden-reference.md`**: Comprehensive reference (validation baseline, never shipped to LLMs)
-- **`qa-pairs.md`**: Validated question-answer pairs for testing and generation
-- **`sources.md`**: Source authority tracking and provenance
-- **`validation.md`**: Validation requirements and test results
+- `topic-spec.md`: Feature description, relationships, source authority, generation hints
+- `golden-reference.md`: Comprehensive reference (validation baseline, never shipped to LLMs)
+- `qa-pairs.md`: Validated question-answer pairs for testing and generation
+- `sources.md`: Source authority tracking and provenance
+- `validation.md`: Validation requirements and test results
 
 ## Directory Structure
 
@@ -32,9 +32,9 @@ docs/
 
 ## Content Categories
 
-- **`cli/`**: Command-line tools and interfaces
-- **`libraries/`**: Framework libraries and APIs *(planned)*
-- **`runtime/`**: Runtime behavior and configuration *(planned)*
+- `cli/`: Command-line tools and interfaces
+- `libraries/`: Framework libraries and APIs *(planned)*
+- `runtime/`: Runtime behavior and configuration *(planned)*
 
 ## Format Standards
 
@@ -49,16 +49,16 @@ docs/
 
 Each document type has specific requirements:
 
-- **Focused scope**: Each document addresses exactly one concern
-- **Validation requirements**: All content must be testable and verifiable
-- **Source authority**: All claims backed by authoritative references
-- **Token efficiency**: Content optimized for embedding and retrieval
+- Focused scope: Each document addresses exactly one concern
+- Validation requirements: All content must be testable and verifiable
+- Source authority: All claims backed by authoritative references
+- Token efficiency: Content optimized for embedding and retrieval
 
 ## Current Topics
 
 ### CLI Category
 
-- **[file-based-apps](cli/file-based-apps/)**: Complete pilot implementation
+- [file-based-apps](cli/file-based-apps/): Complete pilot implementation
   - All document types implemented
   - Format standards established
   - Validation testing completed
@@ -68,8 +68,8 @@ Each document type has specific requirements:
 
 All content must meet these standards before being used for generation:
 
-- **Authority**: Claims backed by official sources with verification dates
-- **Currency**: Reflects latest stable versions and best practices
-- **Completeness**: Covers 80% of common scenarios per topic
-- **Precision**: Each document addresses exactly its stated scope
-- **Testability**: All code examples are verified working
+- Authority: Claims backed by official sources with verification dates
+- Currency: Reflects latest stable versions and best practices
+- Completeness: Covers 80% of common scenarios per topic
+- Precision: Each document addresses exactly its stated scope
+- Testability: All code examples are verified working

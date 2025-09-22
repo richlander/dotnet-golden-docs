@@ -11,7 +11,7 @@
     "developer tools"
   ],
   "category": "CLI",
-  "complexity": 0.9,
+  "complexity": 0.4,
   "priority": 1,
   "depth_below": 1,
   "topic_count": 5,
@@ -45,71 +45,143 @@
     "similar_categories": [
       {
         "category": "cli",
-        "similarity_threshold": 0.6898816617464825,
+        "index": "/cli/index.json",
+        "similarity_threshold": 0.5943813386451685,
         "topics": [
           {
-            "id": "cli/file-based-apps",
-            "title": "File-based apps",
-            "similarity": 0.7927
-          },
-          {
             "id": "cli/build-and-compilation",
-            "title": "Build and Compilation",
+            "name": "Build and Compilation",
+            "path": "cli/build-and-compilation",
+            "index": "cli/build-and-compilation/index.json",
             "similarity": 0.7427
           },
           {
             "id": "cli/publishing-and-deployment",
-            "title": "Publishing and Deployment",
+            "name": "Publishing and Deployment",
+            "path": "cli/publishing-and-deployment",
+            "index": "cli/publishing-and-deployment/index.json",
             "similarity": 0.6899
+          },
+          {
+            "id": "cli/file-based-apps",
+            "name": "File-based apps",
+            "path": "cli/file-based-apps",
+            "index": "cli/file-based-apps/index.json",
+            "similarity": 0.5944
           }
         ]
       },
       {
         "category": "dotnet",
+        "index": "/dotnet/index.json",
         "similarity_threshold": 0.6805562678887216,
         "topics": [
           {
             "id": "dotnet",
-            "title": ".NET Platform",
+            "name": ".NET Platform",
+            "path": "dotnet",
+            "index": "dotnet/index.json",
             "similarity": 0.6806
           }
         ]
       },
       {
         "category": "csharp",
+        "index": "/csharp/index.json",
         "similarity_threshold": 0.5186713815200625,
         "topics": [
           {
             "id": "csharp",
-            "title": "C# Language",
+            "name": "C# Language",
+            "path": "csharp",
+            "index": "csharp/index.json",
             "similarity": 0.6518
           },
           {
             "id": "csharp/csharp-14-features",
-            "title": "C# 14 Language Features",
+            "name": "C# 14 Language Features",
+            "path": "csharp/csharp-14-features",
+            "index": "csharp/csharp-14-features/index.json",
             "similarity": 0.5187
-          }
-        ]
-      },
-      {
-        "category": "libraries",
-        "similarity_threshold": 0.5113271338423592,
-        "topics": [
-          {
-            "id": "libraries",
-            "title": ".NET Libraries",
-            "similarity": 0.515
           }
         ]
       }
     ],
-    "similar_documents": null,
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.471,
+      "topics": [
+        {
+          "id": "cli/build-and-compilation",
+          "name": "Build and Compilation",
+          "path": "cli/build-and-compilation",
+          "index": "cli/build-and-compilation/index.json",
+          "similarity": 0.7427
+        },
+        {
+          "id": "cli/publishing-and-deployment",
+          "name": "Publishing and Deployment",
+          "path": "cli/publishing-and-deployment",
+          "index": "cli/publishing-and-deployment/index.json",
+          "similarity": 0.6899
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET Platform",
+          "path": "dotnet",
+          "index": "dotnet/index.json",
+          "similarity": 0.6806
+        },
+        {
+          "id": "csharp",
+          "name": "C# Language",
+          "path": "csharp",
+          "index": "csharp/index.json",
+          "similarity": 0.6518
+        },
+        {
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.5944
+        },
+        {
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.5187
+        },
+        {
+          "id": "libraries",
+          "name": ".NET Libraries",
+          "path": "libraries",
+          "index": "libraries/index.json",
+          "similarity": 0.515
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai-evaluation",
+          "name": "Microsoft.Extensions.AI.Evaluation",
+          "path": "extensions/microsoft-extensions-ai-evaluation",
+          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+          "similarity": 0.5033
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai",
+          "name": "Microsoft.Extensions.AI",
+          "path": "extensions/microsoft-extensions-ai",
+          "index": "extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.471
+        }
+      ]
+    },
     "topics": [
       {
         "name": "build-and-compilation",
         "title": "Build and Compilation",
         "category": "CLI",
-        "complexity": 0.8,
+        "complexity": 0.5,
         "priority": 1,
         "_links": {
           "self": {
@@ -123,7 +195,7 @@
         "name": "publishing-and-deployment",
         "title": "Publishing and Deployment",
         "category": "CLI",
-        "complexity": 0.9,
+        "complexity": 0.6,
         "priority": 1,
         "_links": {
           "self": {
@@ -137,7 +209,7 @@
         "name": "assembly-trimming",
         "title": "Assembly Trimming",
         "category": "CLI",
-        "complexity": 0.9,
+        "complexity": 0.7,
         "priority": 2,
         "_links": {
           "self": {
@@ -151,7 +223,7 @@
         "name": "file-based-apps",
         "title": "File-based apps",
         "category": "CLI",
-        "complexity": 0.6,
+        "complexity": 0.3,
         "priority": 2,
         "_links": {
           "self": {
@@ -165,7 +237,7 @@
         "name": "native-aot",
         "title": "Native AOT",
         "category": "CLI",
-        "complexity": 0.9,
+        "complexity": 0.8,
         "priority": 2,
         "_links": {
           "self": {
@@ -178,7 +250,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-21T00:54:46.4701585Z",
+    "generated": "2025-09-22T03:14:52.7808545Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

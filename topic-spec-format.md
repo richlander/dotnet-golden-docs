@@ -6,10 +6,10 @@ This document defines the format and content standards for topic specification f
 
 Topic specifications serve as the metadata foundation for the knowledge graph:
 
-- **Relationship mapping**: Define how features connect to and depend on each other
-- **Content generation guidance**: Provide hints for LLM content generation
-- **Quality boundaries**: Set scope and token budget expectations
-- **Authority tracking**: Establish source validation requirements
+- Relationship mapping: Define how features connect to and depend on each other
+- Content generation guidance: Provide hints for LLM content generation
+- Quality boundaries: Set scope and token budget expectations
+- Authority tracking: Establish source validation requirements
 
 ## Format Structure
 
@@ -23,43 +23,6 @@ The H1 will be structured as: `# {Feature Name} - Topic Specification`
 
 A concise paragraph explaining what the feature is and its primary purpose. Should be 2-3 sentences covering the essence of the feature without diving into implementation details.
 
-#### Keywords
-
-Key terms and phrases associated with the feature for discoverability and search. List as bullet points:
-
-- primary feature name
-- alternative names or terminology
-- related concepts and technologies
-- common search terms developers might use
-
-#### Relationships
-
-Structured relationship mapping using a two-column table:
-
-| Type | Target |
-| --- | --- |
-| Enables | Features or capabilities this feature makes possible |
-| Conflicts with | Features that cannot be used simultaneously |
-| Alternative to | Other approaches that solve similar problems |
-| Prerequisite | Required dependencies or foundational knowledge |
-| Synergistic with | Features that work particularly well together |
-
-#### Metadata
-
-Structured metadata for categorization and discovery using a two-column table:
-
-| Property | Value |
-| --- | --- |
-| Name | Display name for the feature |
-| ID | Unique identifier (kebab-case) |
-| Category | Primary organizational category |
-| Description | Brief description of the feature |
-| Complexity | Numeric complexity score from 0.0 (beginner) to 1.0 (advanced expert) |
-| Audience | Target developer groups |
-| Priority | Importance ranking (1=Critical, 2=Important, 3=Useful, 4=Specialized) |
-| Version | .NET version when the feature was first introduced (e.g., "8.0") |
-| Year | Year when the feature was first introduced (e.g., "2023") |
-
 #### Official Sources
 
 Primary Microsoft documentation and announcements using a four-column table:
@@ -69,11 +32,11 @@ Primary Microsoft documentation and announcements using a four-column table:
 | <https://docs.microsoft.com/>... | rendered | Main official documentation | - |
 | <https://devblogs.microsoft.com/>... | rendered | Official announcement or blog post | - |
 
-**Type values:**
+Type values:
 
-- **rendered**: Browser-rendered pages (docs.microsoft.com, devblogs, GitHub web interface)
-- **raw**: Direct file content for LLM consumption (raw.githubusercontent.com URLs)
-- **community**: Non-specific community content
+- rendered: Browser-rendered pages (docs.microsoft.com, devblogs, GitHub web interface)
+- raw: Direct file content for LLM consumption (raw.githubusercontent.com URLs)
+- community: Non-specific community content
 
 #### Primary Sources
 
@@ -93,11 +56,63 @@ Good-quality community and supplementary sources using a four-column table:
 | <https://example.com/>... | rendered | Community tutorials and guides | - |
 | <https://github.com/>... | rendered | Community repositories and examples | - |
 
-**Note**: All rows must contain actual URLs. Placeholder rows with dashes (`-`) or generic descriptions like "Community tutorials" are not allowed. Each row must provide a concrete, accessible URL.
+Note: All rows must contain actual URLs. Placeholder rows with dashes (`-`) or generic descriptions like "Community tutorials" are not allowed. Each row must provide a concrete, accessible URL.
+
+#### Metadata
+
+Structured metadata for categorization and discovery using a two-column table:
+
+| Property | Value |
+| --- | --- |
+| Name | Display name for the feature |
+| ID | Unique identifier (kebab-case) |
+| Category | Primary organizational category |
+| Description | Brief description of the feature |
+| Complexity | Numeric complexity score from 0.0 (beginner) to 1.0 (advanced expert) |
+| Audience | Target developer groups |
+| Priority | Importance ranking (1=Critical, 2=Important, 3=Useful, 4=Specialized) |
+| Version | .NET version when the feature was first introduced (e.g., "8.0") |
+| Year | Year when the feature was first introduced (e.g., "2023") |
+
+#### Relationships
+
+Structured relationship mapping using a two-column table:
+
+| Type | Target |
+| --- | --- |
+| Enables | Features or capabilities this feature makes possible |
+| Conflicts with | Features that cannot be used simultaneously |
+| Alternative to | Other approaches that solve similar problems |
+| Prerequisite | Required dependencies or foundational knowledge |
+| Synergistic with | Features that work particularly well together |
+
+#### Keywords
+
+Key terms and phrases associated with the feature for discoverability and search. List as bullet points:
+
+- primary feature name
+- alternative names or terminology
+- related concepts and technologies
+- common search terms developers might use
+
+#### Diagnostic Codes
+
+Error, warning, and analysis codes that relate to the topic. Use a two-column table sorted by priority (high-value codes first):
+
+| Code | Message |
+| --- | --- |
+| CS9176 | There is no target type for the collection expression. |
+| CS9174 | Cannot initialize type '{0}' with a collection expression because the type is not constructible. |
+
+Guidelines:
+- Include compiler error codes (CS####), analyzer warning codes (CA####), and other diagnostic codes
+- Prioritize codes that developers commonly encounter when working with the feature
+- Focus on codes that would benefit from dedicated documentation
+- Use the exact message text from the compiler/analyzer (including placeholder tokens like {0})
 
 #### Generation Hints (Category-Level Only)
 
-**Note**: Generation hints should be defined at the category level (e.g., in `docs/csharp/topic-spec.md`) rather than repeated in each feature specification.
+Note: Generation hints should be defined at the category level (e.g., in `docs/csharp/topic-spec.md`) rather than repeated in each feature specification.
 
 Using a two-column table:
 
@@ -125,7 +140,7 @@ Alternative terms and related concepts for discovery and cross-referencing:
 - spread operator
 ```
 
-**Guidelines:**
+Guidelines:
 
 - Use an unordered list with one keyword or phrase per item
 - Include alternative names, related terminology, and search terms
@@ -140,7 +155,7 @@ For repository file references, use Repo Path tables instead of full URLs:
 | dotnet/docs | docs/csharp/whats-new/csharp-12.md | C# 12 feature documentation | - |
 | dotnet/csharplang | proposals/collection-expressions.md | Collection expressions proposal | - |
 
-**Repository Registry**: All repository definitions are maintained in `/docs/repos.md`. Use the short repo names (e.g., `dotnet/docs`) defined in that registry.
+Repository Registry: All repository definitions are maintained in `/docs/repos.md`. Use the short repo names (e.g., `dotnet/docs`) defined in that registry.
 
 ## Content Standards
 
@@ -169,12 +184,12 @@ For repository file references, use Repo Path tables instead of full URLs:
 
 Before content is considered complete, verify:
 
-- [ ] **Relationship Accuracy**: All relationships verified against official documentation
-- [ ] **Authority Verification**: All sources accessible and current
-- [ ] **Cross-Reference Completeness**: Bidirectional relationships properly established
-- [ ] **Token Budget Realism**: Budget guidance matches actual content generation capacity
-- [ ] **Validation Testability**: All validation requirements can be automatically verified
-- [ ] **Metadata Consistency**: Category and complexity align with broader taxonomy
+- [ ] Relationship Accuracy: All relationships verified against official documentation
+- [ ] Authority Verification: All sources accessible and current
+- [ ] Cross-Reference Completeness: Bidirectional relationships properly established
+- [ ] Token Budget Realism: Budget guidance matches actual content generation capacity
+- [ ] Validation Testability: All validation requirements can be automatically verified
+- [ ] Metadata Consistency: Category and complexity align with broader taxonomy
 
 ## Quality Criteria
 
@@ -206,10 +221,10 @@ Before content is considered complete, verify:
 
 ### Code Quality Standards
 
-- **Linter Compliance**: All topic specification files must be linter-clean using markdownlint
-- **Formatting Consistency**: Use consistent table formatting and spacing
-- **URL Format**: Use plain text URLs without angle bracket notation for better parsing
-- **Table Structure**: Maintain consistent column ordering across all source tables
+- Linter Compliance: All topic specification files must be linter-clean using markdownlint
+- Formatting Consistency: Use consistent table formatting and spacing
+- URL Format: Use plain text URLs without angle bracket notation for better parsing
+- Table Structure: Maintain consistent column ordering across all source tables
 
 ## Anti-Patterns to Avoid
 

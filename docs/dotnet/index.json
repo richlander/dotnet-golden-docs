@@ -11,7 +11,7 @@
     "C# runtime"
   ],
   "category": ".NET Platform",
-  "complexity": 0.6,
+  "complexity": 0.7,
   "priority": 1,
   "depth_below": 0,
   "topic_count": 0,
@@ -40,63 +40,127 @@
     "similar_categories": [
       {
         "category": "csharp",
+        "index": "/csharp/index.json",
         "similarity_threshold": 0.6125357059240539,
         "topics": [
           {
             "id": "csharp",
-            "title": "C# Language",
+            "name": "C# Language",
+            "path": "csharp",
+            "index": "csharp/index.json",
             "similarity": 0.8678
           }
         ]
       },
       {
         "category": "cli",
-        "similarity_threshold": 0.5638850666398162,
+        "index": "/cli/index.json",
+        "similarity_threshold": 0.5634490517138491,
         "topics": [
           {
-            "id": "cli/file-based-apps",
-            "title": "File-based apps",
-            "similarity": 0.7613
-          },
-          {
             "id": "cli",
-            "title": "CLI",
+            "name": "CLI",
+            "path": "cli",
+            "index": "cli/index.json",
             "similarity": 0.6806
           },
           {
             "id": "cli/native-aot",
-            "title": "Native AOT",
+            "name": "Native AOT",
+            "path": "cli/native-aot",
+            "index": "cli/native-aot/index.json",
             "similarity": 0.6188
           },
           {
             "id": "cli/publishing-and-deployment",
-            "title": "Publishing and Deployment",
+            "name": "Publishing and Deployment",
+            "path": "cli/publishing-and-deployment",
+            "index": "cli/publishing-and-deployment/index.json",
             "similarity": 0.5639
           }
         ]
       },
       {
         "category": "libraries",
+        "index": "/libraries/index.json",
         "similarity_threshold": 0.6070886092809086,
         "topics": [
           {
             "id": "libraries",
-            "title": ".NET Libraries",
+            "name": ".NET Libraries",
+            "path": "libraries",
+            "index": "libraries/index.json",
             "similarity": 0.629
           },
           {
             "id": "libraries/system-text-json",
-            "title": "System.Text.Json",
+            "name": "System.Text.Json",
+            "path": "libraries/system-text-json",
+            "index": "libraries/system-text-json/index.json",
             "similarity": 0.6071
           }
         ]
       }
     ],
-    "similar_documents": null,
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.4987,
+      "topics": [
+        {
+          "id": "csharp",
+          "name": "C# Language",
+          "path": "csharp",
+          "index": "csharp/index.json",
+          "similarity": 0.8678
+        },
+        {
+          "id": "cli",
+          "name": "CLI",
+          "path": "cli",
+          "index": "cli/index.json",
+          "similarity": 0.6806
+        },
+        {
+          "id": "libraries",
+          "name": ".NET Libraries",
+          "path": "libraries",
+          "index": "libraries/index.json",
+          "similarity": 0.629
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.6188
+        },
+        {
+          "id": "libraries/system-text-json",
+          "name": "System.Text.Json",
+          "path": "libraries/system-text-json",
+          "index": "libraries/system-text-json/index.json",
+          "similarity": 0.6071
+        },
+        {
+          "id": "cli/publishing-and-deployment",
+          "name": "Publishing and Deployment",
+          "path": "cli/publishing-and-deployment",
+          "index": "cli/publishing-and-deployment/index.json",
+          "similarity": 0.5639
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai",
+          "name": "Microsoft.Extensions.AI",
+          "path": "extensions/microsoft-extensions-ai",
+          "index": "extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.5219
+        }
+      ]
+    },
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-21T00:54:46.4747646Z",
+    "generated": "2025-09-22T03:14:52.7911563Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -6,11 +6,11 @@ This document defines the format and structure of the HAL+JSON index files gener
 
 Index files serve multiple critical functions:
 
-- **Navigation structure**: Hierarchical links between topics, categories, and documents
-- **Machine-readable metadata**: Structured data for automated processing and content generation
-- **Semantic relationships**: Cross-references and similarity mappings between related topics
-- **Depth information**: Hierarchical structure depth for UI rendering and navigation
-- **Embedding metadata**: Information about the semantic embeddings used for similarity calculations
+- Navigation structure: Hierarchical links between topics, categories, and documents
+- Machine-readable metadata: Structured data for automated processing and content generation
+- Semantic relationships: Cross-references and similarity mappings between related topics
+- Depth information: Hierarchical structure depth for UI rendering and navigation
+- Embedding metadata: Information about the semantic embeddings used for similarity calculations
 
 ## Format Structure
 
@@ -35,13 +35,13 @@ Index files follow the HAL+JSON (Hypertext Application Language) specification, 
 
 #### Core Fields
 
-- **id**: Hierarchical path identifier (empty string for root, "cli" for categories, "cli/file-based-apps" for topics)
-- **title**: Human-readable display name
-- **description**: Detailed explanation of the topic or category's purpose and scope
-- **category**: Classification (e.g., "CLI", "Root", "Libraries")
-- **complexity**: Difficulty level as float from 0.0 (beginner) to 1.0 (advanced)
-- **priority**: Display priority as integer (1 = highest priority)
-- **depth_below**: Maximum depth of descendants from this node (0 for leaf topics, 1+ for categories)
+- id: Hierarchical path identifier (empty string for root, "cli" for categories, "cli/file-based-apps" for topics)
+- title: Human-readable display name
+- description: Detailed explanation of the topic or category's purpose and scope
+- category: Classification (e.g., "CLI", "Root", "Libraries")
+- complexity: Difficulty level as float from 0.0 (beginner) to 1.0 (advanced)
+- priority: Display priority as integer (1 = highest priority)
+- depth_below: Maximum depth of descendants from this node (0 for leaf topics, 1+ for categories)
 
 ### Links Section
 
@@ -89,9 +89,9 @@ The `_links` section provides HAL-compliant navigation relationships:
 
 #### Link Types
 
-- **self**: Self-referential link to this resource
-- **parent**: Link to containing category (absent for root)
-- **Document links**: Links to component markdown files (topic-spec, golden-reference, qa-pairs, sources, validation)
+- self: Self-referential link to this resource
+- parent: Link to containing category (absent for root)
+- Document links: Links to component markdown files (topic-spec, golden-reference, qa-pairs, sources, validation)
 
 ### Embedded Section
 
@@ -142,9 +142,9 @@ The `_embedded` section contains related resources and semantic relationships:
 
 #### Embedded Resources
 
-- **similar_categories**: Cross-category semantic relationships grouped by category with similarity thresholds
-- **similar_documents**: Document-level similarities within the same topic using cosine similarity
-- **topics**: Child topics for category indexes (null for leaf topics)
+- similar_categories: Cross-category semantic relationships grouped by category with similarity thresholds
+- similar_documents: Document-level similarities within the same topic using cosine similarity
+- topics: Child topics for category indexes (null for leaf topics)
 
 ### Metadata Section
 
@@ -162,35 +162,35 @@ The `metadata` section provides generation and embedding information:
 
 #### Metadata Fields
 
-- **generated**: ISO 8601 timestamp of index generation
-- **generator**: Tool and version used for generation
-- **embedding_model**: Semantic embedding model identifier
-- **embedding_dimensions**: Vector dimensionality for embeddings
-- **similarity_metric**: Distance calculation method (typically "cosine")
+- generated: ISO 8601 timestamp of index generation
+- generator: Tool and version used for generation
+- embedding_model: Semantic embedding model identifier
+- embedding_dimensions: Vector dimensionality for embeddings
+- similarity_metric: Distance calculation method (typically "cosine")
 
 ## Index Types
 
 ### Root Index (`docs/index.json`)
 
-- **id**: Empty string
-- **title**: ".NET Knowledge Graph"
-- **depth_below**: Maximum depth in the entire hierarchy
-- **topics**: Top-level categories only
-- **parent link**: Absent
+- id: Empty string
+- title: ".NET Knowledge Graph"
+- depth_below: Maximum depth in the entire hierarchy
+- topics: Top-level categories only
+- parent link: Absent
 
 ### Category Index (`docs/cli/index.json`)
 
-- **id**: Category path (e.g., "cli")
-- **depth_below**: Maximum depth of child topics
-- **topics**: All direct child topics
-- **parent link**: Points to root ("/")
+- id: Category path (e.g., "cli")
+- depth_below: Maximum depth of child topics
+- topics: All direct child topics
+- parent link: Points to root ("/")
 
 ### Topic Index (`docs/cli/file-based-apps/index.json`)
 
-- **id**: Full topic path (e.g., "cli/file-based-apps")
-- **depth_below**: 0 (leaf nodes)
-- **topics**: null
-- **parent link**: Points to containing category (e.g., "/cli")
+- id: Full topic path (e.g., "cli/file-based-apps")
+- depth_below: 0 (leaf nodes)
+- topics: null
+- parent link: Points to containing category (e.g., "/cli")
 
 ## Validation Requirements
 

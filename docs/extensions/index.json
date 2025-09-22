@@ -1,0 +1,89 @@
+{
+  "id": "extensions",
+  "title": "Extensions",
+  "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components. This category encompasses libraries that extend .NET\u0027s capabilities in areas like AI integration, dependency injection, configuration, logging, caching, and other cross-cutting concerns using familiar .NET patterns and conventions.",
+  "keywords": [
+    ".NET extensions",
+    "extensions libraries",
+    "middleware components",
+    "abstractions",
+    "AI integration",
+    "cross-cutting concerns"
+  ],
+  "category": "Extensions",
+  "complexity": 0.6,
+  "priority": 1,
+  "depth_below": 1,
+  "topic_count": 3,
+  "introduced": {
+    "version": "1.0",
+    "year": "2024"
+  },
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/extensions",
+      "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components. This category encompasses libraries that extend .NET\u0027s capabilities in areas like AI integration, dependency injection, configuration, logging, caching, and other cross-cutting concerns using familiar .NET patterns and conventions."
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/extensions/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    }
+  },
+  "_embedded": {
+    "similar_categories": null,
+    "similar_topics": null,
+    "topics": [
+      {
+        "name": "microsoft-extensions-ai",
+        "title": "Microsoft.Extensions.AI",
+        "category": "Extensions",
+        "complexity": 0.6,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/extensions/microsoft-extensions-ai",
+            "description": "Microsoft.Extensions.AI provides a unified approach for .NET developers to integrate and interact with artificial intelligence (AI) services in their applications. It offers standardized interfaces and higher-level utilities for working with generative AI components, enabling seamless integration and interoperability with various AI services through familiar dependency injection and middleware patterns."
+          }
+        }
+      },
+      {
+        "name": "microsoft-extensions-ai-evaluation",
+        "title": "Microsoft.Extensions.AI.Evaluation",
+        "category": "Extensions",
+        "complexity": 0.8,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/extensions/microsoft-extensions-ai-evaluation",
+            "description": "Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries designed to support building evaluation processes for AI software quality and safety. It provides abstractions, evaluators, and reporting tools to assess AI responses across multiple dimensions including quality metrics (relevance, fluency, coherence), safety evaluations (harmful content detection), and NLP metrics (BLEU, F1 scores)."
+          }
+        }
+      },
+      {
+        "name": "microsoft-extensions-http-resilience",
+        "title": "Microsoft.Extensions.Http.Resilience",
+        "category": "Extensions",
+        "complexity": 0.7,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/extensions/microsoft-extensions-http-resilience",
+            "description": "Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClient built on the Polly framework. It offers pre-configured resilience patterns including retry policies, circuit breakers, hedging strategies, rate limiting, and timeouts to ensure reliable HTTP communication in production applications."
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "generated": "2025-09-22T03:14:52.7913034Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

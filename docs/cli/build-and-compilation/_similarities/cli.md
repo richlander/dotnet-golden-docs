@@ -2,4 +2,4 @@
 |-------------|-------------------|------------|
 | cli/build-and-compilation | cli | 0.7427 |
 | cli/build-and-compilation | cli/publishing-and-deployment | 0.7357 |
-| cli/build-and-compilation | cli/file-based-apps | 0.6069 |
+| cli/build-and-compilation | cli/native-aot | 0.5789 |

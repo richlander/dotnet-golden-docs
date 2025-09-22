@@ -6,24 +6,24 @@ Assembly trimming is a build-time optimization that reduces the size of self-con
 
 Key benefits include:
 
-- **Significant size reduction**: 20-70% smaller deployments depending on application complexity
-- **Faster deployment**: Reduced download and transfer times
-- **Lower storage costs**: Particularly important for cloud and container scenarios
-- **Improved cold start**: Less code to load and JIT compile (when combined with ReadyToRun)
+- Significant size reduction: 20-70% smaller deployments depending on application complexity
+- Faster deployment: Reduced download and transfer times
+- Lower storage costs: Particularly important for cloud and container scenarios
+- Improved cold start: Less code to load and JIT compile (when combined with ReadyToRun)
 
 The technology works by:
 
-1. **Static analysis**: Analyzing code paths from application entry points
-2. **Dependency tracking**: Following method calls, field accesses, and type references
-3. **Dead code elimination**: Removing unreachable code and unused assemblies
-4. **Metadata reduction**: Stripping unused reflection metadata
+1. Static analysis: Analyzing code paths from application entry points
+2. Dependency tracking: Following method calls, field accesses, and type references
+3. Dead code elimination: Removing unreachable code and unused assemblies
+4. Metadata reduction: Stripping unused reflection metadata
 
 Trimming is particularly valuable for:
 
-- **Cloud applications**: Reduced container image sizes and deployment times
-- **Desktop applications**: Smaller installers and faster startup
-- **IoT applications**: Reduced storage requirements on constrained devices
-- **Serverless functions**: Faster cold starts and reduced memory footprint
+- Cloud applications: Reduced container image sizes and deployment times
+- Desktop applications: Smaller installers and faster startup
+- IoT applications: Reduced storage requirements on constrained devices
+- Serverless functions: Faster cold starts and reduced memory footprint
 
 ## Essential Syntax & Examples
 
@@ -102,10 +102,10 @@ dotnet publish -r linux-x64 -c Release -p:PublishTrimmed=true
 
 Trimming works exceptionally well with:
 
-- **Native AOT**: Automatically enabled, provides maximum size reduction
-- **Single-file deployment**: Combines for minimal deployment footprint
-- **Source generators**: Replace reflection-based code with analyzable alternatives
-- **ReadyToRun**: Improves startup performance of trimmed applications
+- Native AOT: Automatically enabled, provides maximum size reduction
+- Single-file deployment: Combines for minimal deployment footprint
+- Source generators: Replace reflection-based code with analyzable alternatives
+- ReadyToRun: Improves startup performance of trimmed applications
 
 ### Framework Integration
 
@@ -198,11 +198,11 @@ public class JsonProcessor
 
 ### Critical Incompatibilities
 
-- **WPF applications**: Trimming currently disabled due to extensive reflection usage
-- **Windows Forms**: Disabled due to COM marshalling dependencies
-- **C++/CLI**: Mixed-mode assemblies not supported
-- **Dynamic assembly loading**: Assembly.LoadFrom/LoadFile patterns incompatible
-- **Unbounded reflection**: Serializers using complex reflection patterns
+- WPF applications: Trimming currently disabled due to extensive reflection usage
+- Windows Forms: Disabled due to COM marshalling dependencies
+- C++/CLI: Mixed-mode assemblies not supported
+- Dynamic assembly loading: Assembly.LoadFrom/LoadFile patterns incompatible
+- Unbounded reflection: Serializers using complex reflection patterns
 
 ### Common Warning Scenarios
 
@@ -224,10 +224,10 @@ public void FixedCode([DynamicallyAccessedMembers(DynamicallyAccessedMemberTypes
 
 ### Performance Considerations
 
-- **Build time**: Trimming analysis adds significant compile time
-- **First deployment**: Initial trimmed builds are slower
-- **Warning investigation**: Time investment required to resolve compatibility issues
-- **Testing overhead**: Need to test trimmed applications thoroughly
+- Build time: Trimming analysis adds significant compile time
+- First deployment: Initial trimmed builds are slower
+- Warning investigation: Time investment required to resolve compatibility issues
+- Testing overhead: Need to test trimmed applications thoroughly
 
 ### Framework Feature Limitations
 
@@ -260,15 +260,15 @@ public T CreateInstance<T>() where T : class, new()
 
 ### Library Migration Strategies
 
-1. **Enable analysis**: Add `<EnableTrimAnalyzer>true</EnableTrimAnalyzer>`
-2. **Fix warnings progressively**: Start with high-impact APIs
-3. **Use source generators**: Replace reflection with compile-time alternatives
-4. **Document requirements**: Clearly state trim compatibility status
-5. **Test thoroughly**: Create trim-enabled test applications
+1. Enable analysis: Add `<EnableTrimAnalyzer>true</EnableTrimAnalyzer>`
+2. Fix warnings progressively: Start with high-impact APIs
+3. Use source generators: Replace reflection with compile-time alternatives
+4. Document requirements: Clearly state trim compatibility status
+5. Test thoroughly: Create trim-enabled test applications
 
 ## See Also
 
-- **Performance optimization**: Native AOT compilation, ReadyToRun, single-file deployment
-- **Library development**: Source generators, trim annotations, compatibility testing
-- **Deployment strategies**: Self-contained deployment, container optimization
-- **Framework integration**: ASP.NET Core trimming, minimal APIs, feature switches
+- Performance optimization: Native AOT compilation, ReadyToRun, single-file deployment
+- Library development: Source generators, trim annotations, compatibility testing
+- Deployment strategies: Self-contained deployment, container optimization
+- Framework integration: ASP.NET Core trimming, minimal APIs, feature switches

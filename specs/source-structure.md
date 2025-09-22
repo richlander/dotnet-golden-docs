@@ -51,46 +51,46 @@ Each topic directory contains a standardized set of files:
 
 Defines feature relationships, hierarchy, and generation hints:
 
-- **Feature description**: What the feature is and its purpose
-- **Relationships**: Enables, conflicts with, alternatives, prerequisites
-- **Hierarchy**: Category, complexity, audience, priority
-- **Generation hints**: What to emphasize and avoid
-- **Critical limitations**: Key constraints to communicate
+- Feature description: What the feature is and its purpose
+- Relationships: Enables, conflicts with, alternatives, prerequisites
+- Hierarchy: Category, complexity, audience, priority
+- Generation hints: What to emphasize and avoid
+- Critical limitations: Key constraints to communicate
 
 ### Golden Reference (golden-reference.md)
 
 Comprehensive reference document serving as validation baseline:
 
-- **Overview**: Complete conceptual explanation
-- **Essential syntax & examples**: Core code patterns
-- **Relationships & integration**: Ecosystem connections
-- **Common scenarios**: Real-world usage patterns
-- **Gotchas & limitations**: Critical knowledge
-- **See also**: Natural cross-references
+- Overview: Complete conceptual explanation
+- Essential syntax & examples: Core code patterns
+- Relationships & integration: Ecosystem connections
+- Common scenarios: Real-world usage patterns
+- Gotchas & limitations: Critical knowledge
+- See also: Natural cross-references
 
 ### Q&A Pairs (qa-pairs.md)
 
 Structured question-answer pairs with rich metadata:
 
-- **JSON frontmatter**: difficulty, validation, topics, audience, source-authority, last-verified
-- **Question-answer format**: Natural language Q&A
-- **Code examples**: Working code with explanations
-- **Validation notes**: How to verify correctness
+- JSON frontmatter: difficulty, validation, topics, audience, source-authority, last-verified
+- Question-answer format: Natural language Q&A
+- Code examples: Working code with explanations
+- Validation notes: How to verify correctness
 
 ### Sources (sources.md)
 
 Authoritative source references and provenance:
 
-- **Primary sources**: Official documentation with verification dates
-- **Secondary sources**: High-quality community content
-- **Validation requirements**: Testing and verification standards
+- Primary sources: Official documentation with verification dates
+- Secondary sources: High-quality community content
+- Validation requirements: Testing and verification standards
 
 ### Validation (validation.md)
 
 Testing requirements and validation rules:
 
-- **Validation requirements**: How to verify content accuracy
-- **Testing standards**: Compilation, runtime, cross-platform requirements
+- Validation requirements: How to verify content accuracy
+- Testing standards: Compilation, runtime, cross-platform requirements
 
 ## Semantic Analysis Structure
 
@@ -106,13 +106,13 @@ Two-column markdown table showing file similarities:
 | topic-spec.md | 0.7109 |
 ```
 
-**Coverage**: ALL files within the topic (no filtering)
+Coverage: ALL files within the topic (no filtering)
 
 ### Cross-Category Analysis (semantic-neighbors/{category}.md)
 
 Format depends on analysis level:
 
-**Topic level** (2-column):
+Topic level (2-column):
 
 ```markdown
 | Neighbor | Similarity |
@@ -121,7 +121,7 @@ Format depends on analysis level:
 | csharp/console-apps | 0.7500 |
 ```
 
-**Category level** (3-column):
+Category level (3-column):
 
 ```markdown
 | Topic (cli) | Neighbor (csharp) | Similarity |
@@ -130,17 +130,17 @@ Format depends on analysis level:
 | cli/native-aot | csharp/compilation | 0.8200 |
 ```
 
-**Coverage**:
+Coverage:
 
-- **TARGET**: P70 (70th percentile)
-- **SIMILARITY**: Similarity at applied threshold (after threshold algorithm)
-- **Include relationships**: >= applied threshold
-- **Algorithm**: Try P70 first (need ≥6 items), fallback to P60, then P50
-- **Distribution reporting**: 5-value system (P50, P60, P70, P80, P90)
+- TARGET: P70 (70th percentile)
+- SIMILARITY: Similarity at applied threshold (after threshold algorithm)
+- Include relationships: >= applied threshold
+- Algorithm: Try P70 first (need ≥6 items), fallback to P60, then P50
+- Distribution reporting: 5-value system (P50, P60, P70, P80, P90)
   - If P70 successful: Show [P70, P80, P90] (conditional on dataset size)
   - If P60 fallback: Show [P60] only
   - If P50 fallback: Show [P50] only
-- **Minimum dataset requirements**:
+- Minimum dataset requirements:
   - P80: Requires ≥30 items for meaningful reporting
   - P90: Requires ≥60 items for meaningful reporting
 
@@ -255,25 +255,25 @@ Each directory with content contains an `index.json` file defining its structure
 
 ### Schema Elements
 
-**Top-level links**: Files that the topic node contains
+Top-level links: Files that the topic node contains
 
-- **`self`**: Reference to this index file
-- **`similarities`**: Related topics with pre-computed vector similarity scores
+- `self`: Reference to this index file
+- `similarities`: Related topics with pre-computed vector similarity scores
 
-**Embedded section**: Children of this node
+Embedded section: Children of this node
 
-- **`documents`**: Markdown files within this topic directory
-- **`topics`**: Child topic directories (null for leaf topics, array for categories)
+- `documents`: Markdown files within this topic directory
+- `topics`: Child topic directories (null for leaf topics, array for categories)
 
-**Key distinction**:
+Key distinction:
 
-- **`links.similarities`**: Horizontal relationships to peer topics via vector similarity
-- **`embedded.topics`**: Vertical relationships to child topics
-- **`embedded.documents`**: Files owned by this specific topic
+- `links.similarities`: Horizontal relationships to peer topics via vector similarity
+- `embedded.topics`: Vertical relationships to child topics
+- `embedded.documents`: Files owned by this specific topic
 
 ### Category vs Topic Indexes
 
-**Category-level index** (e.g., `cli/index.json`):
+Category-level index (e.g., `cli/index.json`):
 
 ```json
 {
@@ -320,7 +320,7 @@ Each directory with content contains an `index.json` file defining its structure
 }
 ```
 
-**Topic-level index** (e.g., `cli/file-based-apps/index.json`):
+Topic-level index (e.g., `cli/file-based-apps/index.json`):
 
 ```json
 {
@@ -341,53 +341,53 @@ Each directory with content contains an `index.json` file defining its structure
 
 ### Embedding Generation
 
-1. **Content detection**: Monitor .md file changes
-2. **Vector generation**: Create embeddings using declared model
-3. **Token counting**: Calculate token counts for budget planning
-4. **Consistency**: Ensure all embedding-derived data matches declared model
+1. Content detection: Monitor .md file changes
+2. Vector generation: Create embeddings using declared model
+3. Token counting: Calculate token counts for budget planning
+4. Consistency: Ensure all embedding-derived data matches declared model
 
 ### Semantic Analysis
 
-1. **Within-topic analysis**: Compare all files to golden-reference.md baseline
-2. **Cross-category analysis**: Calculate similarities between all topic pairs
-3. **Statistical filtering**: Apply P75 thresholds to identify meaningful relationships
-4. **Relationship storage**: Write structured markdown tables and metadata
+1. Within-topic analysis: Compare all files to golden-reference.md baseline
+2. Cross-category analysis: Calculate similarities between all topic pairs
+3. Statistical filtering: Apply P75 thresholds to identify meaningful relationships
+4. Relationship storage: Write structured markdown tables and metadata
 
 ### Graph Construction
 
-1. **Index generation**: Create HAL+JSON navigation structure
-2. **Relationship integration**: Incorporate semantic similarity data
-3. **Metadata enrichment**: Add priority, complexity, audience information
-4. **Cross-reference validation**: Ensure graph completeness and accuracy
+1. Index generation: Create HAL+JSON navigation structure
+2. Relationship integration: Incorporate semantic similarity data
+3. Metadata enrichment: Add priority, complexity, audience information
+4. Cross-reference validation: Ensure graph completeness and accuracy
 
 ## Quality Assurance
 
 ### Content Standards
 
-- **Authority**: All claims backed by official sources with verification dates
-- **Currency**: Reflects latest stable versions and best practices
-- **Completeness**: Covers 80% of common scenarios per topic
-- **Precision**: Each document addresses exactly its stated scope
-- **Testability**: All code examples are verified working
+- Authority: All claims backed by official sources with verification dates
+- Currency: Reflects latest stable versions and best practices
+- Completeness: Covers 80% of common scenarios per topic
+- Precision: Each document addresses exactly its stated scope
+- Testability: All code examples are verified working
 
 ### Validation Pipeline
 
-- **Code compilation**: All examples compile against target framework
-- **Cross-platform testing**: Platform-specific examples work on target platforms
-- **Source verification**: Claims backed by authoritative sources
-- **Semantic consistency**: Generated embeddings maintain expected similarity to golden reference
-- **Template compliance**: All documents follow established format standards
+- Code compilation: All examples compile against target framework
+- Cross-platform testing: Platform-specific examples work on target platforms
+- Source verification: Claims backed by authoritative sources
+- Semantic consistency: Generated embeddings maintain expected similarity to golden reference
+- Template compliance: All documents follow established format standards
 
 ## Tool Dependencies
 
 ### Embedding Tool
 
-**Responsibility**: Generate and maintain all embedding-derived data
-**Key outputs**: .embedding files, semantic-neighbors/ directory, token counts
-**Consistency guarantee**: All outputs consistent with declared embedding model
+Responsibility: Generate and maintain all embedding-derived data
+Key outputs: .embedding files, semantic-neighbors/ directory, token counts
+Consistency guarantee: All outputs consistent with declared embedding model
 
 ### Index Tool
 
-**Responsibility**: Transform source structure into navigable knowledge graph
-**Key inputs**: Source content, semantic relationships, topic specifications
-**Key outputs**: HAL+JSON indexes, metadata enrichment, navigation structure
+Responsibility: Transform source structure into navigable knowledge graph
+Key inputs: Source content, semantic relationships, topic specifications
+Key outputs: HAL+JSON indexes, metadata enrichment, navigation structure

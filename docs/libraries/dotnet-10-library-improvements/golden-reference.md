@@ -119,11 +119,11 @@ ReadOnlyTensorSpan<float> slice = tensor.Slice(start..end);
 
 These features integrate with existing .NET patterns:
 
-- **Span-based APIs**: Reduce allocations in string normalization, hex conversion
-- **StringComparer patterns**: NumericOrdering works with LINQ, collections, search operations
-- **JSON serialization**: New security options complement existing JsonSerializerOptions
-- **Cryptography**: Post-quantum algorithms follow established patterns for key generation/import
-- **Collections**: OrderedDictionary performance improvements benefit JSON processing
+- Span-based APIs: Reduce allocations in string normalization, hex conversion
+- StringComparer patterns: NumericOrdering works with LINQ, collections, search operations
+- JSON serialization: New security options complement existing JsonSerializerOptions
+- Cryptography: Post-quantum algorithms follow established patterns for key generation/import
+- Collections: OrderedDictionary performance improvements benefit JSON processing
 
 ## Common Scenarios
 
@@ -145,10 +145,10 @@ Span-based normalization and UTF-8 operations without string allocations.
 
 ## Gotchas & Limitations
 
-**NumericOrdering**: Only works with comparison operations, not IndexOf/StartsWith/EndsWith
-**Post-Quantum Crypto**: Requires OpenSSL 3.5+ or Windows CNG with PQC support
-**JSON Security**: Duplicate detection adds parsing overhead
-**Span APIs**: Require careful lifetime management to avoid dangling references
+NumericOrdering: Only works with comparison operations, not IndexOf/StartsWith/EndsWith
+Post-Quantum Crypto: Requires OpenSSL 3.5+ or Windows CNG with PQC support
+JSON Security: Duplicate detection adds parsing overhead
+Span APIs: Require careful lifetime management to avoid dangling references
 
 ## See Also
 

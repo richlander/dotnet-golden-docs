@@ -8,14 +8,14 @@ The ComplexityTool's LLM-based complexity scoring is producing systematically in
 
 ### Expected vs. Actual Distribution
 
-**What we expected:**
+What we expected:
 
 - Simple topics (basic syntax, syntactic sugar): 0.1-0.3
 - Intermediate topics (standard patterns): 0.4-0.6
 - Advanced topics (complex scenarios): 0.7-0.9
 - Expert topics (internals, edge cases): 0.9-1.0
 
-**What we're getting:**
+What we're getting:
 
 - Collection expressions (intentionally simple): 0.6
 - File-based apps (basic scripting): 0.6
@@ -39,7 +39,7 @@ This lacks proper context for what constitutes "simple" vs "complex" within the 
 
 We created collection expressions as our test case because they represent genuinely simple .NET syntax:
 
-**Why this should be ~0.2-0.3:**
+Why this should be ~0.2-0.3:
 
 - Designed explicitly for simplicity ("simpler and more ergonomic syntax")
 - Reduces cognitive overhead compared to previous syntax
@@ -47,7 +47,7 @@ We created collection expressions as our test case because they represent genuin
 - Pure syntactic sugar with no new concepts
 - Minimal prerequisites (basic C# variables and arrays)
 
-**Actual result:** 0.55-0.6 consistently
+Actual result: 0.55-0.6 consistently
 
 ### Content Enhancement Test
 
@@ -59,7 +59,7 @@ We enhanced the collection expressions documentation to heavily emphasize:
 - Elimination of boilerplate
 - Accessibility improvements
 
-**Result:** No change in scoring (still 0.55)
+Result: No change in scoring (still 0.55)
 
 This confirms the issue is in the prompt's baseline understanding, not the content analysis.
 
@@ -69,7 +69,7 @@ This confirms the issue is in the prompt's baseline understanding, not the conte
 
 Collection expressions in C# should be scored relative to .NET complexity, not absolute programming complexity:
 
-**C# collection expressions** should be simpler than:
+C# collection expressions should be simpler than:
 
 - Rust's borrow checker concepts
 - C++'s memory management
@@ -82,26 +82,26 @@ Yet our current scoring treats basic .NET syntax as moderately complex in absolu
 
 Within .NET, we should see clear differentiation:
 
-**Simple (0.1-0.3):**
+Simple (0.1-0.3):
 
 - Collection expressions: `[1, 2, 3]`
 - Basic properties: `public string Name { get; set; }`
 - Console output: `Console.WriteLine("Hello")`
 
-**Intermediate (0.4-0.6):**
+Intermediate (0.4-0.6):
 
 - LINQ basics: `.Where(x => x.IsActive)`
 - Simple async: `await GetDataAsync()`
 - Basic generics: `List<T>`
 
-**Advanced (0.7-0.9):**
+Advanced (0.7-0.9):
 
 - Complex generics with constraints
 - Reflection and metaprogramming
 - Unsafe code and pointers
 - Advanced async patterns
 
-**Expert (0.9-1.0):**
+Expert (0.9-1.0):
 
 - Compiler services
 - Runtime manipulation
@@ -113,15 +113,15 @@ Within .NET, we should see clear differentiation:
 
 Create more intentionally simple topics to test scoring consistency:
 
-**Candidates for simple topics (~0.2-0.3 expected):**
+Candidates for simple topics (~0.2-0.3 expected):
 
-1. **Basic Properties** - Auto-implemented properties and simple getters/setters
-2. **String Interpolation** - `$"Hello {name}"` syntax
-3. **Using Statements** - `using var file = ...` resource management
-4. **Simple Classes** - Basic class definition and instantiation
-5. **Console I/O** - Basic input/output operations
+1. Basic Properties - Auto-implemented properties and simple getters/setters
+2. String Interpolation - `$"Hello {name}"` syntax
+3. Using Statements - `using var file = ...` resource management
+4. Simple Classes - Basic class definition and instantiation
+5. Console I/O - Basic input/output operations
 
-**Testing approach:**
+Testing approach:
 
 - Create topics emphasizing simplicity and ease of use
 - Document fundamental, beginner-friendly nature
@@ -132,32 +132,32 @@ Create more intentionally simple topics to test scoring consistency:
 
 If additional simple topics also score 0.5+, update the complexity analysis prompt with:
 
-**Explicit .NET complexity anchors:**
+Explicit .NET complexity anchors:
 
 ```markdown
 ## .NET Complexity Scale Context
 
-**0.1-0.2 (Beginner)**: Basic syntax sugar, simple statements
+0.1-0.2 (Beginner): Basic syntax sugar, simple statements
 - Collection expressions: [1, 2, 3]
 - String interpolation: $"Hello {name}"
 - Auto-properties: { get; set; }
 
-**0.3-0.4 (Beginner-Intermediate)**: Standard patterns, minimal prerequisites
+0.3-0.4 (Beginner-Intermediate): Standard patterns, minimal prerequisites
 - Basic LINQ: .Where(), .Select()
 - Simple classes and methods
 - Basic async/await usage
 
-**0.5-0.6 (Intermediate)**: Requires solid .NET foundation
+0.5-0.6 (Intermediate): Requires solid .NET foundation
 - Advanced LINQ operations
 - Generic type usage
 - Exception handling patterns
 
-**0.7-0.8 (Advanced)**: Deep .NET knowledge required
+0.7-0.8 (Advanced): Deep .NET knowledge required
 - Generic constraints and variance
 - Reflection and attributes
 - Advanced async patterns
 
-**0.9-1.0 (Expert)**: Specialized/internal knowledge
+0.9-1.0 (Expert): Specialized/internal knowledge
 - Unsafe code and pointers
 - Compiler services
 - Runtime manipulation
@@ -165,14 +165,14 @@ If additional simple topics also score 0.5+, update the complexity analysis prom
 
 ### Phase 3: Validation and Adjustment
 
-**Success criteria:**
+Success criteria:
 
 - Simple topics score 0.1-0.3
 - Intermediate topics score 0.4-0.6
 - Advanced topics score 0.7-0.9
 - Clear differentiation between complexity levels
 
-**Validation approach:**
+Validation approach:
 
 - Re-run complexity analysis on all existing topics
 - Verify score distribution matches expected .NET complexity spectrum
@@ -182,19 +182,19 @@ If additional simple topics also score 0.5+, update the complexity analysis prom
 
 ### Why This Matters
 
-**For AI systems:**
+For AI systems:
 
 - Enables accurate content filtering by complexity
 - Supports personalized learning paths
 - Improves search and recommendation quality
 
-**For developers:**
+For developers:
 
 - Provides realistic complexity expectations
 - Helps with learning progression planning
 - Enables better content discovery
 
-**For content organization:**
+For content organization:
 
 - Creates meaningful complexity-based categorization
 - Supports automated content generation guidelines
@@ -211,28 +211,28 @@ Without proper complexity calibration:
 
 ## Timeline and Resources
 
-**Phase 1 (Simple Topics):** 1-2 days
+Phase 1 (Simple Topics): 1-2 days
 
 - Create 3-5 additional simple topics
 - Test and document scoring results
 
-**Phase 2 (Prompt Calibration):** 1 day
+Phase 2 (Prompt Calibration): 1 day
 
 - Update prompt with .NET-specific examples
 - Test on collection expressions baseline
 
-**Phase 3 (Validation):** 1 day
+Phase 3 (Validation): 1 day
 
 - Re-analyze all topics
 - Verify score distribution
 - Document final calibration
 
-**Total estimated effort:** 3-4 days to achieve properly calibrated complexity scoring across the entire documentation set.
+Total estimated effort: 3-4 days to achieve properly calibrated complexity scoring across the entire documentation set.
 
 ## Success Metrics
 
-1. **Distribution spread**: Topics distributed across 0.1-0.9 range
-2. **Logical ordering**: Simple topics score lower than complex topics
-3. **Baseline validation**: Collection expressions score ~0.2-0.3
-4. **Consistency**: Similar complexity topics receive similar scores
-5. **.NET context**: Scores reflect .NET ecosystem complexity, not absolute programming complexity
+1. Distribution spread: Topics distributed across 0.1-0.9 range
+2. Logical ordering: Simple topics score lower than complex topics
+3. Baseline validation: Collection expressions score ~0.2-0.3
+4. Consistency: Similar complexity topics receive similar scores
+5. .NET context: Scores reflect .NET ecosystem complexity, not absolute programming complexity

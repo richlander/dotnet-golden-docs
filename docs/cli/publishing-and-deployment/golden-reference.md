@@ -6,30 +6,30 @@ Publishing and deployment is the distribution-time workflow that transforms buil
 
 Publishing fundamentally differs from building:
 
-- **Build**: Development-time compilation for testing and debugging
-- **Publish**: Distribution-time packaging for production deployment
+- Build: Development-time compilation for testing and debugging
+- Publish: Distribution-time packaging for production deployment
 
 Core publishing principles:
 
-- **Deployment target awareness**: Framework-dependent vs self-contained strategies
-- **Performance optimization**: ReadyToRun, trimming, Native AOT compilation
-- **Distribution optimization**: Single-file packaging, container deployment
-- **Platform targeting**: Runtime identifier (RID) specification for cross-platform deployment
+- Deployment target awareness: Framework-dependent vs self-contained strategies
+- Performance optimization: ReadyToRun, trimming, Native AOT compilation
+- Distribution optimization: Single-file packaging, container deployment
+- Platform targeting: Runtime identifier (RID) specification for cross-platform deployment
 
 The publishing system serves multiple deployment scenarios:
 
-- **Desktop applications**: Self-contained executables with optimal startup
-- **Cloud services**: Container-optimized deployments with minimal footprint
-- **IoT devices**: Trimmed applications for resource-constrained environments
-- **Enterprise applications**: Framework-dependent deployments with shared runtimes
+- Desktop applications: Self-contained executables with optimal startup
+- Cloud services: Container-optimized deployments with minimal footprint
+- IoT devices: Trimmed applications for resource-constrained environments
+- Enterprise applications: Framework-dependent deployments with shared runtimes
 
 ## Publishing Modes Overview
 
 ### Framework-Dependent Deployment (Default)
 
-**Use case**: Shared runtime environments, enterprise deployments
-**Benefits**: Smallest deployment size, automatic security updates, cross-platform portability
-**Requirements**: Target runtime must be pre-installed
+Use case: Shared runtime environments, enterprise deployments
+Benefits: Smallest deployment size, automatic security updates, cross-platform portability
+Requirements: Target runtime must be pre-installed
 
 ```bash
 # Basic framework-dependent publishing
@@ -41,9 +41,9 @@ dotnet publish -f net8.0                 # Specific target framework
 
 ### Self-Contained Deployment
 
-**Use case**: Isolated deployments, controlled runtime versions
-**Benefits**: No runtime installation required, version control, deployment independence
-**Trade-offs**: Larger deployment size, manual security updates
+Use case: Isolated deployments, controlled runtime versions
+Benefits: No runtime installation required, version control, deployment independence
+Trade-offs: Larger deployment size, manual security updates
 
 ```bash
 # Self-contained publishing
@@ -54,9 +54,9 @@ dotnet publish -r osx-arm64 --self-contained      # macOS Apple Silicon
 
 ### Single-File Deployment
 
-**Use case**: Simplified distribution, desktop applications, utility tools
-**Benefits**: Single executable file, easy deployment, reduced file clutter
-**Considerations**: Larger executable size, slower cold start
+Use case: Simplified distribution, desktop applications, utility tools
+Benefits: Single executable file, easy deployment, reduced file clutter
+Considerations: Larger executable size, slower cold start
 
 ```bash
 # Single-file deployment
@@ -66,9 +66,9 @@ dotnet publish -r linux-x64 -p:PublishSingleFile=true --self-contained
 
 ### ReadyToRun Compilation
 
-**Use case**: Improved startup performance, frequent application restarts
-**Benefits**: Faster startup time, reduced JIT overhead, better first-run performance
-**Trade-offs**: Larger deployment size, longer build time
+Use case: Improved startup performance, frequent application restarts
+Benefits: Faster startup time, reduced JIT overhead, better first-run performance
+Trade-offs: Larger deployment size, longer build time
 
 ```bash
 # ReadyToRun publishing
@@ -78,9 +78,9 @@ dotnet publish -c Release -p:PublishReadyToRun=true --self-contained
 
 ### Native AOT Deployment
 
-**Use case**: Ultimate performance, memory-constrained environments, cloud functions
-**Benefits**: Fastest startup, smallest memory footprint, no runtime dependency
-**Limitations**: Limited reflection support, framework compatibility restrictions
+Use case: Ultimate performance, memory-constrained environments, cloud functions
+Benefits: Fastest startup, smallest memory footprint, no runtime dependency
+Limitations: Limited reflection support, framework compatibility restrictions
 
 ```bash
 # Native AOT publishing
@@ -90,9 +90,9 @@ dotnet publish -r linux-x64 -p:PublishAot=true -c Release
 
 ### Container Deployment
 
-**Use case**: Cloud-native applications, microservices, scalable deployments
-**Benefits**: Consistent deployment environment, scalability, cloud integration
-**Integration**: Direct container image creation without Dockerfile
+Use case: Cloud-native applications, microservices, scalable deployments
+Benefits: Consistent deployment environment, scalability, cloud integration
+Integration: Direct container image creation without Dockerfile
 
 ```bash
 # Container publishing (.NET 8+)
@@ -107,21 +107,21 @@ dotnet publish -p:PublishProfile=DefaultContainer
 
 | Scenario | Recommended Mode | Rationale |
 |----------|------------------|-----------|
-| **Enterprise Web Apps** | Framework-dependent | Shared runtime, security updates, smaller deployments |
-| **Desktop Applications** | Self-contained + Single-file | No runtime dependency, easy distribution |
-| **Cloud Microservices** | Container + ReadyToRun | Fast startup, consistent environment |
-| **Serverless Functions** | Native AOT | Fastest cold start, minimal memory usage |
-| **IoT Devices** | Self-contained + Trimmed | Resource constraints, no runtime installation |
-| **Development Tools** | Single-file | Easy distribution, developer experience |
+| Enterprise Web Apps | Framework-dependent | Shared runtime, security updates, smaller deployments |
+| Desktop Applications | Self-contained + Single-file | No runtime dependency, easy distribution |
+| Cloud Microservices | Container + ReadyToRun | Fast startup, consistent environment |
+| Serverless Functions | Native AOT | Fastest cold start, minimal memory usage |
+| IoT Devices | Self-contained + Trimmed | Resource constraints, no runtime installation |
+| Development Tools | Single-file | Easy distribution, developer experience |
 
 ### By Performance Requirements
 
 | Priority | Deployment Size | Startup Time | Memory Usage | Recommended Approach |
 |----------|----------------|--------------|--------------|---------------------|
-| **Minimal Size** | Framework-dependent | Framework-dependent | Native AOT | Framework-dependent |
-| **Fastest Startup** | Native AOT | Native AOT | Native AOT | Native AOT |
-| **Lowest Memory** | Native AOT | Native AOT | Native AOT | Native AOT + Trimming |
-| **Balanced** | Self-contained + ReadyToRun | ReadyToRun | Self-contained | Self-contained + ReadyToRun |
+| Minimal Size | Framework-dependent | Framework-dependent | Native AOT | Framework-dependent |
+| Fastest Startup | Native AOT | Native AOT | Native AOT | Native AOT |
+| Lowest Memory | Native AOT | Native AOT | Native AOT | Native AOT + Trimming |
+| Balanced | Self-contained + ReadyToRun | ReadyToRun | Self-contained | Self-contained + ReadyToRun |
 
 ## Advanced Publishing Configuration
 
@@ -372,7 +372,7 @@ ldd MyApp || echo "Self-contained verified"
 
 ## See Also
 
-- **Build and compilation**: Development-time workflows, dependency management
-- **Native AOT**: Ultimate performance optimization and compilation strategies
-- **Assembly trimming**: Size reduction techniques and compatibility considerations
-- **Container deployment**: Cloud-native deployment patterns and optimization
+- Build and compilation: Development-time workflows, dependency management
+- Native AOT: Ultimate performance optimization and compilation strategies
+- Assembly trimming: Size reduction techniques and compatibility considerations
+- Container deployment: Cloud-native deployment patterns and optimization

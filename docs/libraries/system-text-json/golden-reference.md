@@ -6,17 +6,17 @@ System.Text.Json is a high-performance JSON serialization library that's built i
 
 Key advantages include:
 
-- **Performance**: 1.3-5x faster than Newtonsoft.Json in most scenarios
-- **Memory efficiency**: Lower allocation overhead with UTF-8 optimization
-- **Native AOT compatibility**: Works with trimmed and AOT-compiled applications
-- **Security**: Built-in protection against common JSON vulnerabilities
-- **Source generation**: Compile-time metadata generation for even better performance
+- Performance: 1.3-5x faster than Newtonsoft.Json in most scenarios
+- Memory efficiency: Lower allocation overhead with UTF-8 optimization
+- Native AOT compatibility: Works with trimmed and AOT-compiled applications
+- Security: Built-in protection against common JSON vulnerabilities
+- Source generation: Compile-time metadata generation for even better performance
 
 The library provides three main approaches:
 
-1. **Reflection-based**: Default runtime serialization using reflection
-2. **Source generation**: Compile-time code generation for optimal performance
-3. **DOM manipulation**: In-memory document object model for flexible JSON processing
+1. Reflection-based: Default runtime serialization using reflection
+2. Source generation: Compile-time code generation for optimal performance
+3. DOM manipulation: In-memory document object model for flexible JSON processing
 
 ## Essential Syntax & Examples
 
@@ -78,10 +78,10 @@ MyObject obj = await JsonSerializer.DeserializeAsync<MyObject>(pipeReader);
 
 System.Text.Json integrates seamlessly with:
 
-- **ASP.NET Core**: Default JSON serializer for web APIs
-- **HttpClient**: Extension methods for HTTP JSON operations
-- **Source generators**: Compile-time performance optimization
-- **Native AOT**: Full compatibility with ahead-of-time compilation
+- ASP.NET Core: Default JSON serializer for web APIs
+- HttpClient: Extension methods for HTTP JSON operations
+- Source generators: Compile-time performance optimization
+- Native AOT: Full compatibility with ahead-of-time compilation
 
 Migration from Newtonsoft.Json typically requires:
 
@@ -132,27 +132,27 @@ await foreach (var item in data)
 
 ### Critical Differences from Newtonsoft.Json
 
-- **No support for ISerializable**: Must use JsonConverter instead
-- **Constructor behavior**: Requires parameterless constructor or JsonConstructor attribute
-- **Date handling**: Different default DateTime serialization format
-- **Polymorphism**: Requires explicit type discriminators
+- No support for ISerializable: Must use JsonConverter instead
+- Constructor behavior: Requires parameterless constructor or JsonConstructor attribute
+- Date handling: Different default DateTime serialization format
+- Polymorphism: Requires explicit type discriminators
 
 ### Performance Considerations
 
-- **Source generation**: Always prefer for known types in performance-critical code
-- **UTF-8 operations**: Use SerializeToUtf8Bytes/DeserializeFromUtf8Bytes for best performance
-- **Options reuse**: Reuse JsonSerializerOptions instances to avoid overhead
-- **Large objects**: Consider streaming APIs for multi-megabyte JSON
+- Source generation: Always prefer for known types in performance-critical code
+- UTF-8 operations: Use SerializeToUtf8Bytes/DeserializeFromUtf8Bytes for best performance
+- Options reuse: Reuse JsonSerializerOptions instances to avoid overhead
+- Large objects: Consider streaming APIs for multi-megabyte JSON
 
 ### Security Limitations
 
-- **Depth limits**: Default maximum depth of 64 levels
-- **Memory limits**: No built-in memory consumption limits
-- **Type resolution**: Source generation prevents unexpected type loading
+- Depth limits: Default maximum depth of 64 levels
+- Memory limits: No built-in memory consumption limits
+- Type resolution: Source generation prevents unexpected type loading
 
 ## See Also
 
-- **Performance optimization**: Source generation modes, UTF-8 operations
-- **ASP.NET Core integration**: Web API configuration, HttpClient extensions
-- **Migration guides**: Newtonsoft.Json to System.Text.Json conversion
-- **Advanced scenarios**: Custom converters, polymorphic serialization
+- Performance optimization: Source generation modes, UTF-8 operations
+- ASP.NET Core integration: Web API configuration, HttpClient extensions
+- Migration guides: Newtonsoft.Json to System.Text.Json conversion
+- Advanced scenarios: Custom converters, polymorphic serialization

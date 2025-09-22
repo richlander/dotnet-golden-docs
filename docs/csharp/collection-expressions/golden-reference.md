@@ -295,11 +295,11 @@ List<int> list = [..first, ..second];
 
 ## Best Practices
 
-1. **Use for readability**: Collection expressions make code more concise and readable
-2. **Prefer for small collections**: Most beneficial for small to medium-sized collections
-3. **Combine with spread**: Use spread operator to combine existing collections elegantly
-4. **Target type clarity**: Ensure target type is clear to avoid compilation errors
-5. **Performance awareness**: Understand that spread operations may involve copying data
+1. Use for readability: Collection expressions make code more concise and readable
+2. Prefer for small collections: Most beneficial for small to medium-sized collections
+3. Combine with spread: Use spread operator to combine existing collections elegantly
+4. Target type clarity: Ensure target type is clear to avoid compilation errors
+5. Performance awareness: Understand that spread operations may involve copying data
 
 ## Limitations and Considerations
 

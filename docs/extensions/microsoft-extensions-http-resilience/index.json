@@ -1,0 +1,205 @@
+{
+  "id": "extensions/microsoft-extensions-http-resilience",
+  "title": "Microsoft.Extensions.Http.Resilience",
+  "description": "Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClient built on the Polly framework. It offers pre-configured resilience patterns including retry policies, circuit breakers, hedging strategies, rate limiting, and timeouts to ensure reliable HTTP communication in production applications.",
+  "keywords": [
+    "HTTP resilience",
+    "Polly integration",
+    "circuit breaker",
+    "retry policies",
+    "hedging",
+    "rate limiting",
+    "HTTP timeouts",
+    "fault tolerance",
+    "HTTP reliability"
+  ],
+  "category": "Extensions",
+  "complexity": 0.7,
+  "priority": 1,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "9.0",
+    "year": "2024"
+  },
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/extensions/microsoft-extensions-http-resilience",
+      "description": "Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClient built on the Polly framework. It offers pre-configured resilience patterns including retry policies, circuit breakers, hedging strategies, rate limiting, and timeouts to ensure reliable HTTP communication in production applications."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/extensions",
+      "description": "Extensions category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/extensions/microsoft-extensions-http-resilience/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/extensions/microsoft-extensions-http-resilience/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    }
+  },
+  "_embedded": {
+    "similar_categories": [
+      {
+        "category": "extensions",
+        "index": "/extensions/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "extensions/microsoft-extensions-ai",
+            "name": "Microsoft.Extensions.AI",
+            "path": "extensions/microsoft-extensions-ai",
+            "index": "extensions/microsoft-extensions-ai/index.json",
+            "similarity": 0.6681
+          },
+          {
+            "id": "extensions/microsoft-extensions-ai-evaluation",
+            "name": "Microsoft.Extensions.AI.Evaluation",
+            "path": "extensions/microsoft-extensions-ai-evaluation",
+            "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+            "similarity": 0.6173
+          }
+        ]
+      },
+      {
+        "category": "csharp",
+        "index": "/csharp/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp/csharp-14-features",
+            "name": "C# 14 Language Features",
+            "path": "csharp/csharp-14-features",
+            "index": "csharp/csharp-14-features/index.json",
+            "similarity": 0.6281
+          },
+          {
+            "id": "csharp/collection-expressions",
+            "name": "Collection Expressions",
+            "path": "csharp/collection-expressions",
+            "index": "csharp/collection-expressions/index.json",
+            "similarity": 0.5283
+          }
+        ]
+      },
+      {
+        "category": "libraries",
+        "index": "/libraries/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries",
+            "name": ".NET Libraries",
+            "path": "libraries",
+            "index": "libraries/index.json",
+            "similarity": 0.6277
+          },
+          {
+            "id": "libraries/system-text-json",
+            "name": "System.Text.Json",
+            "path": "libraries/system-text-json",
+            "index": "libraries/system-text-json/index.json",
+            "similarity": 0.5326
+          }
+        ]
+      }
+    ],
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.4417,
+      "topics": [
+        {
+          "id": "extensions/microsoft-extensions-ai",
+          "name": "Microsoft.Extensions.AI",
+          "path": "extensions/microsoft-extensions-ai",
+          "index": "extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.6681
+        },
+        {
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.6281
+        },
+        {
+          "id": "libraries",
+          "name": ".NET Libraries",
+          "path": "libraries",
+          "index": "libraries/index.json",
+          "similarity": 0.6277
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai-evaluation",
+          "name": "Microsoft.Extensions.AI.Evaluation",
+          "path": "extensions/microsoft-extensions-ai-evaluation",
+          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+          "similarity": 0.6173
+        },
+        {
+          "id": "cli/assembly-trimming",
+          "name": "Assembly Trimming",
+          "path": "cli/assembly-trimming",
+          "index": "cli/assembly-trimming/index.json",
+          "similarity": 0.5767
+        },
+        {
+          "id": "libraries/system-text-json",
+          "name": "System.Text.Json",
+          "path": "libraries/system-text-json",
+          "index": "libraries/system-text-json/index.json",
+          "similarity": 0.5326
+        },
+        {
+          "id": "csharp/collection-expressions",
+          "name": "Collection Expressions",
+          "path": "csharp/collection-expressions",
+          "index": "csharp/collection-expressions/index.json",
+          "similarity": 0.5283
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET Platform",
+          "path": "dotnet",
+          "index": "dotnet/index.json",
+          "similarity": 0.4987
+        },
+        {
+          "id": "cli/build-and-compilation",
+          "name": "Build and Compilation",
+          "path": "cli/build-and-compilation",
+          "index": "cli/build-and-compilation/index.json",
+          "similarity": 0.4577
+        },
+        {
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.451
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.4417
+        }
+      ]
+    },
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-22T03:14:52.7706291Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

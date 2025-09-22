@@ -30,6 +30,7 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | Name | System.Text.Json |
 | ID | system-text-json |
 | Category | Libraries |
+| Namespace | System.Text.Json |
 | Description | System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0+ that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). |
 | Complexity | 0.7 |
 | Audience | All developers, Web developers, API developers |

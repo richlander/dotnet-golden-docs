@@ -295,20 +295,20 @@ public extension CollectionExtensions for ICollection<T>
 
 ### Related Language Features
 
-- **C# 13 Features**: params collections, ref/unsafe in async, overload resolution priority
-- **Pattern Matching**: Enhanced patterns and switch expressions
-- **Records**: Immutable data structures with value semantics
-- **Nullable Reference Types**: Compile-time null safety
+- C# 13 Features: params collections, ref/unsafe in async, overload resolution priority
+- Pattern Matching: Enhanced patterns and switch expressions
+- Records: Immutable data structures with value semantics
+- Nullable Reference Types: Compile-time null safety
 
 ### Performance Features
 
-- **Span and Memory**: Zero-allocation memory management
-- **ref struct**: Stack-only types for performance
-- **Unsafe Code**: Low-level memory operations
-- **Hardware Intrinsics**: SIMD operations
+- Span and Memory: Zero-allocation memory management
+- ref struct: Stack-only types for performance
+- Unsafe Code: Low-level memory operations
+- Hardware Intrinsics: SIMD operations
 
 ### Development Tools
 
-- **Source Generators**: Compile-time code generation
-- **Analyzers**: Custom compile-time diagnostics
-- **Language Version**: Targeting specific C# versions
+- Source Generators: Compile-time code generation
+- Analyzers: Custom compile-time diagnostics
+- Language Version: Targeting specific C# versions

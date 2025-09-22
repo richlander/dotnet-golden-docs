@@ -4,9 +4,9 @@ This repository contains curated .NET documentation with structured topic specif
 
 ## What This Is
 
-**Structured .NET Knowledge Base**: 12+ comprehensive topic specifications covering the .NET ecosystem, from C# language features to CLI tools, with semantic relationship mapping and embedding-based similarity analysis.
+Structured .NET Knowledge Base: 12+ comprehensive topic specifications covering the .NET ecosystem, from C# language features to CLI tools, with semantic relationship mapping and embedding-based similarity analysis.
 
-**Key Features**:
+Key Features:
 - Topic specifications with metadata, sources, and relationships
 - Semantic embedding and similarity analysis
 - LLM-optimized content structure
@@ -20,34 +20,34 @@ llm-docs-workspace/
 └── dotnet-docs-llm-tools/      # Embedding and similarity analysis tools
 ```
 
-**dotnet-golden-llm-docs** (this repository):
+dotnet-golden-llm-docs (this repository):
 - Topic specifications with official sources and metadata
 - Structured content for 12+ .NET topics
 - Generated embeddings and similarity analysis in `_embeddings/` and `_similarities/`
 
-**dotnet-docs-llm-tools**:
+dotnet-docs-llm-tools:
 - Embedding generation and management
 - Semantic similarity analysis
 - Cross-topic relationship discovery
 
 ## Getting Started
 
-**For LLMs/AI Agents:**
+For LLMs/AI Agents:
 - Browse [docs/](docs/) for topic specifications
 - Read [topic-spec-format.md](topic-spec-format.md) for structure
 - Check `_similarities/` directories for cross-topic relationships
 
-**For Humans:**
+For Humans:
 - See [docs/topic-spec.md](docs/topic-spec.md) for the platform overview
 - Review individual topic specs like [docs/csharp/topic-spec.md](docs/csharp/topic-spec.md)
 - Use the embedding tools in `../dotnet-docs-llm-tools/` for analysis
 
 ## Content Organization
 
-- **Platform**: [docs/topic-spec.md](docs/topic-spec.md) - Overall .NET platform
-- **Categories**: CLI, C# Language, Libraries, etc.
-- **Topics**: 12+ specific areas like file-based apps, System.Text.Json, Native AOT
-- **Metadata**: Complexity scores, audience, version info, official sources
+- Platform: [docs/topic-spec.md](docs/topic-spec.md) - Overall .NET platform
+- Categories: CLI, C# Language, Libraries, etc.
+- Topics: 12+ specific areas like file-based apps, System.Text.Json, Native AOT
+- Metadata: Complexity scores, audience, version info, official sources
 
 ## Tools Usage
 

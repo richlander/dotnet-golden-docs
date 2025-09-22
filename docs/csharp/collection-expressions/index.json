@@ -11,8 +11,17 @@
     "spread operator",
     "square bracket notation"
   ],
+  "diagnostic_codes": [
+    "CS9176",
+    "CS9174",
+    "CS9188",
+    "CS9187",
+    "CS9185",
+    "CS9186",
+    "CS9175"
+  ],
   "category": "C# Language",
-  "complexity": 0.6,
+  "complexity": 0.25,
   "priority": 2,
   "depth_below": 0,
   "topic_count": 0,
@@ -40,93 +49,164 @@
       "name": "Golden Reference Document",
       "href": "/csharp/collection-expressions/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
-    },
-    "golden-test": {
-      "name": "golden test",
-      "href": "/csharp/collection-expressions/golden-test.md",
-      "description": "golden test"
     }
   },
   "_embedded": {
     "similar_categories": [
       {
         "category": "libraries",
+        "index": "/libraries/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "libraries",
-            "title": ".NET Libraries",
-            "similarity": 0.702
+            "name": ".NET Libraries",
+            "path": "libraries",
+            "index": "libraries/index.json",
+            "similarity": 0.6882
           },
           {
             "id": "libraries/system-text-json",
-            "title": "System.Text.Json",
-            "similarity": 0.517
+            "name": "System.Text.Json",
+            "path": "libraries/system-text-json",
+            "index": "libraries/system-text-json/index.json",
+            "similarity": 0.5039
           }
         ]
       },
       {
         "category": "csharp",
+        "index": "/csharp/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
             "id": "csharp/csharp-14-features",
-            "title": "C# 14 Language Features",
-            "similarity": 0.6765
+            "name": "C# 14 Language Features",
+            "path": "csharp/csharp-14-features",
+            "index": "csharp/csharp-14-features/index.json",
+            "similarity": 0.6232
           },
           {
             "id": "csharp",
-            "title": "C# Language",
-            "similarity": 0.5688
+            "name": "C# Language",
+            "path": "csharp",
+            "index": "csharp/index.json",
+            "similarity": 0.5797
           }
         ]
       },
       {
-        "category": "cli",
+        "category": "extensions",
+        "index": "/extensions/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
-            "id": "cli/assembly-trimming",
-            "title": "Assembly Trimming",
-            "similarity": 0.5715
+            "id": "extensions/microsoft-extensions-ai",
+            "name": "Microsoft.Extensions.AI",
+            "path": "extensions/microsoft-extensions-ai",
+            "index": "extensions/microsoft-extensions-ai/index.json",
+            "similarity": 0.5795
           },
           {
-            "id": "cli/native-aot",
-            "title": "Native AOT",
-            "similarity": 0.4967
-          },
-          {
-            "id": "cli",
-            "title": "CLI",
-            "similarity": 0.4921
-          },
-          {
-            "id": "cli/build-and-compilation",
-            "title": "Build and Compilation",
-            "similarity": 0.4887
-          }
-        ]
-      },
-      {
-        "category": "dotnet",
-        "similarity_threshold": 0.5,
-        "topics": [
-          {
-            "id": "dotnet",
-            "title": ".NET Platform",
-            "similarity": 0.5464
+            "id": "extensions/microsoft-extensions-ai-evaluation",
+            "name": "Microsoft.Extensions.AI.Evaluation",
+            "path": "extensions/microsoft-extensions-ai-evaluation",
+            "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+            "similarity": 0.5327
           }
         ]
       }
     ],
-    "similar_documents": null,
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.5012,
+      "topics": [
+        {
+          "id": "libraries",
+          "name": ".NET Libraries",
+          "path": "libraries",
+          "index": "libraries/index.json",
+          "similarity": 0.6882
+        },
+        {
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.6232
+        },
+        {
+          "id": "csharp",
+          "name": "C# Language",
+          "path": "csharp",
+          "index": "csharp/index.json",
+          "similarity": 0.5797
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai",
+          "name": "Microsoft.Extensions.AI",
+          "path": "extensions/microsoft-extensions-ai",
+          "index": "extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.5795
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET Platform",
+          "path": "dotnet",
+          "index": "dotnet/index.json",
+          "similarity": 0.5468
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai-evaluation",
+          "name": "Microsoft.Extensions.AI.Evaluation",
+          "path": "extensions/microsoft-extensions-ai-evaluation",
+          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+          "similarity": 0.5327
+        },
+        {
+          "id": "cli/assembly-trimming",
+          "name": "Assembly Trimming",
+          "path": "cli/assembly-trimming",
+          "index": "cli/assembly-trimming/index.json",
+          "similarity": 0.5294
+        },
+        {
+          "id": "cli",
+          "name": "CLI",
+          "path": "cli",
+          "index": "cli/index.json",
+          "similarity": 0.5141
+        },
+        {
+          "id": "libraries/system-text-json",
+          "name": "System.Text.Json",
+          "path": "libraries/system-text-json",
+          "index": "libraries/system-text-json/index.json",
+          "similarity": 0.5039
+        },
+        {
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.5016
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.5012
+        }
+      ]
+    },
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-21T00:54:46.4647501Z",
+    "generated": "2025-09-22T03:40:56.4416301Z",
     "generator": "IndexTool/1.0",
-    "embedding_model": "Ollama/nomic-embed-text:latest",
-    "embedding_dimensions": 768,
-    "similarity_metric": "cosine"
+    "embedding_model": null,
+    "embedding_dimensions": null,
+    "similarity_metric": null
   }
 }

@@ -1,0 +1,215 @@
+{
+  "id": "extensions/microsoft-extensions-ai-evaluation",
+  "title": "Microsoft.Extensions.AI.Evaluation",
+  "description": "Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries designed to support building evaluation processes for AI software quality and safety. It provides abstractions, evaluators, and reporting tools to assess AI responses across multiple dimensions including quality metrics (relevance, fluency, coherence), safety evaluations (harmful content detection), and NLP metrics (BLEU, F1 scores).",
+  "keywords": [
+    "AI evaluation",
+    "AI quality assessment",
+    "AI safety evaluation",
+    "content safety",
+    "evaluation metrics",
+    "AI testing",
+    "response evaluation",
+    "natural language processing",
+    "evaluation reporting"
+  ],
+  "category": "Extensions",
+  "complexity": 0.8,
+  "priority": 1,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "9.0",
+    "year": "2024"
+  },
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/extensions/microsoft-extensions-ai-evaluation",
+      "description": "Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries designed to support building evaluation processes for AI software quality and safety. It provides abstractions, evaluators, and reporting tools to assess AI responses across multiple dimensions including quality metrics (relevance, fluency, coherence), safety evaluations (harmful content detection), and NLP metrics (BLEU, F1 scores)."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/extensions",
+      "description": "Extensions category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/extensions/microsoft-extensions-ai-evaluation/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/extensions/microsoft-extensions-ai-evaluation/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/extensions/microsoft-extensions-ai-evaluation/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "validation": {
+      "name": "Validation Requirements",
+      "href": "/extensions/microsoft-extensions-ai-evaluation/validation.md",
+      "description": "Testing requirements and validation rules for content accuracy and code example verification"
+    }
+  },
+  "_embedded": {
+    "similar_categories": [
+      {
+        "category": "csharp",
+        "index": "/csharp/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "csharp/csharp-14-features",
+            "name": "C# 14 Language Features",
+            "path": "csharp/csharp-14-features",
+            "index": "csharp/csharp-14-features/index.json",
+            "similarity": 0.6335
+          },
+          {
+            "id": "csharp/collection-expressions",
+            "name": "Collection Expressions",
+            "path": "csharp/collection-expressions",
+            "index": "csharp/collection-expressions/index.json",
+            "similarity": 0.5327
+          }
+        ]
+      },
+      {
+        "category": "libraries",
+        "index": "/libraries/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries",
+            "name": ".NET Libraries",
+            "path": "libraries",
+            "index": "libraries/index.json",
+            "similarity": 0.6234
+          },
+          {
+            "id": "libraries/system-text-json",
+            "name": "System.Text.Json",
+            "path": "libraries/system-text-json",
+            "index": "libraries/system-text-json/index.json",
+            "similarity": 0.4874
+          }
+        ]
+      },
+      {
+        "category": "extensions",
+        "index": "/extensions/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "extensions/microsoft-extensions-http-resilience",
+            "name": "Microsoft.Extensions.Http.Resilience",
+            "path": "extensions/microsoft-extensions-http-resilience",
+            "index": "extensions/microsoft-extensions-http-resilience/index.json",
+            "similarity": 0.6173
+          },
+          {
+            "id": "extensions/microsoft-extensions-ai",
+            "name": "Microsoft.Extensions.AI",
+            "path": "extensions/microsoft-extensions-ai",
+            "index": "extensions/microsoft-extensions-ai/index.json",
+            "similarity": 0.607
+          }
+        ]
+      }
+    ],
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.4874,
+      "topics": [
+        {
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.6335
+        },
+        {
+          "id": "libraries",
+          "name": ".NET Libraries",
+          "path": "libraries",
+          "index": "libraries/index.json",
+          "similarity": 0.6234
+        },
+        {
+          "id": "extensions/microsoft-extensions-http-resilience",
+          "name": "Microsoft.Extensions.Http.Resilience",
+          "path": "extensions/microsoft-extensions-http-resilience",
+          "index": "extensions/microsoft-extensions-http-resilience/index.json",
+          "similarity": 0.6173
+        },
+        {
+          "id": "cli/assembly-trimming",
+          "name": "Assembly Trimming",
+          "path": "cli/assembly-trimming",
+          "index": "cli/assembly-trimming/index.json",
+          "similarity": 0.6133
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai",
+          "name": "Microsoft.Extensions.AI",
+          "path": "extensions/microsoft-extensions-ai",
+          "index": "extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.607
+        },
+        {
+          "id": "csharp/collection-expressions",
+          "name": "Collection Expressions",
+          "path": "csharp/collection-expressions",
+          "index": "csharp/collection-expressions/index.json",
+          "similarity": 0.5327
+        },
+        {
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.5123
+        },
+        {
+          "id": "cli",
+          "name": "CLI",
+          "path": "cli",
+          "index": "cli/index.json",
+          "similarity": 0.5033
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET Platform",
+          "path": "dotnet",
+          "index": "dotnet/index.json",
+          "similarity": 0.4975
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.4915
+        },
+        {
+          "id": "libraries/system-text-json",
+          "name": "System.Text.Json",
+          "path": "libraries/system-text-json",
+          "index": "libraries/system-text-json/index.json",
+          "similarity": 0.4874
+        }
+      ]
+    },
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-22T03:14:52.7693575Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

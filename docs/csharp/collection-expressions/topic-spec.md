@@ -4,40 +4,6 @@
 
 Collection expressions provide a concise syntax to create common collection values using square bracket notation. This feature combines collection expressions (introduced in C# 12) and params collection expressions (introduced in C# 13) to offer a unified, simplified approach to collection initialization and manipulation, replacing more verbose traditional syntax.
 
-## Relationships
-
-| Type | Target |
-| --- | --- |
-| Enables | Simplified collection initialization, Cleaner method parameter passing, Spread operations |
-| Conflicts with | None (additive language feature) |
-| Alternative to | Traditional array initialization, Collection initializer syntax, Manual collection construction |
-| Prerequisite | C# 12+ for basic expressions, C# 13+ for params collections |
-| Synergistic with | LINQ operations, Span/ReadOnlySpan usage, Collection interfaces |
-
-## Metadata
-
-| Property | Value |
-| --- | --- |
-| Name | Collection Expressions |
-| ID | collection-expressions |
-| Category | C# Language |
-| Description | Collection expressions provide a concise syntax to create common collection values using square bracket notation, including basic expressions and params collection support. |
-| Complexity | 0.25 |
-| Audience | All C# developers |
-| Priority | 2 (Common usage - modern syntax improvement) |
-| Version | 12.0 |
-| Year | 2023 |
-
-## Keywords
-
-- collection expressions
-- params collection expressions
-- collection initializers
-- array syntax
-- list initialization
-- spread operator
-- square bracket notation
-
 ## Official Sources
 
 | URL | Type | Description | Last Verified |
@@ -66,3 +32,50 @@ Collection expressions provide a concise syntax to create common collection valu
 | https://devblogs.microsoft.com/dotnet/csharp13-calling-methods-is-easier-and-faster/ | rendered | C# 13 params collections | 2025-09-20 |
 | https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with collection expressions | 2025-09-20 |
 | https://github.com/dotnet/roslyn | rendered | Compiler implementation | 2025-09-20 |
+
+## Metadata
+
+| Property | Value |
+| --- | --- |
+| Name | Collection Expressions |
+| ID | collection-expressions |
+| Category | C# Language |
+| Namespace | (none) |
+| Description | Collection expressions provide a concise syntax to create common collection values using square bracket notation, including basic expressions and params collection support. |
+| Complexity | 0.25 |
+| Audience | All C# developers |
+| Priority | 2 (Common usage - modern syntax improvement) |
+| Version | 12.0 |
+| Year | 2023 |
+
+## Relationships
+
+| Type | Target |
+| --- | --- |
+| Enables | Simplified collection initialization, Cleaner method parameter passing, Spread operations |
+| Conflicts with | None (additive language feature) |
+| Alternative to | Traditional array initialization, Collection initializer syntax, Manual collection construction |
+| Prerequisite | C# 12+ for basic expressions, C# 13+ for params collections |
+| Synergistic with | LINQ operations, Span/ReadOnlySpan usage, Collection interfaces |
+
+## Keywords
+
+- collection expressions
+- params collection expressions
+- collection initializers
+- array syntax
+- list initialization
+- spread operator
+- square bracket notation
+
+## Diagnostic Codes
+
+| Code | Message |
+| --- | --- |
+| CS9176 | There is no target type for the collection expression. |
+| CS9174 | Cannot initialize type '{0}' with a collection expression because the type is not constructible. |
+| CS9188 | '{0}' has a CollectionBuilderAttribute but no element type. |
+| CS9187 | Could not find an accessible '{0}' method with the expected signature: a static method with a single parameter of type 'ReadOnlySpan<{1}>' and return type '{2}'. |
+| CS9185 | The CollectionBuilderAttribute builder type must be a non-generic class or struct. |
+| CS9186 | The CollectionBuilderAttribute method name is invalid. |
+| CS9175 | An expression tree may not contain a collection expression. |

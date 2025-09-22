@@ -20,6 +20,7 @@ C# is a modern, safe, and general purpose language that makes developers product
 | Name | C# Language |
 | ID | csharp |
 | Category | C# Language |
+| Namespace | (none) |
 | Description | C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. |
 | Complexity | 0.8 |
 | Audience | all developers |

@@ -20,6 +20,7 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | Name | .NET Libraries |
 | ID | libraries |
 | Category | .NET Libraries |
+| Namespace | (none) |
 | Description | The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. |
 | Complexity | 0.8 |
 | Audience | all developers, library authors, framework developers |

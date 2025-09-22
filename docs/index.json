@@ -7,7 +7,7 @@
   "complexity": 0.5,
   "priority": 1,
   "depth_below": 2,
-  "topic_count": 4,
+  "topic_count": 5,
   "introduced": null,
   "_links": {
     "self": {
@@ -18,13 +18,13 @@
   },
   "_embedded": {
     "similar_categories": null,
-    "similar_documents": null,
+    "similar_topics": null,
     "topics": [
       {
         "name": "cli",
         "title": "CLI",
         "category": "CLI",
-        "complexity": 0.9,
+        "complexity": 0.4,
         "priority": 1,
         "_links": {
           "self": {
@@ -38,7 +38,7 @@
         "name": "csharp",
         "title": "C# Language",
         "category": "C# Language",
-        "complexity": 0.9,
+        "complexity": 0.8,
         "priority": 1,
         "_links": {
           "self": {
@@ -52,7 +52,7 @@
         "name": "dotnet",
         "title": ".NET Platform",
         "category": ".NET Platform",
-        "complexity": 0.6,
+        "complexity": 0.7,
         "priority": 1,
         "_links": {
           "self": {
@@ -63,10 +63,24 @@
         }
       },
       {
+        "name": "extensions",
+        "title": "Extensions",
+        "category": "Extensions",
+        "complexity": 0.6,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/extensions",
+            "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components. This category encompasses libraries that extend .NET\u0027s capabilities in areas like AI integration, dependency injection, configuration, logging, caching, and other cross-cutting concerns using familiar .NET patterns and conventions."
+          }
+        }
+      },
+      {
         "name": "libraries",
         "title": ".NET Libraries",
         "category": ".NET Libraries",
-        "complexity": 0.5,
+        "complexity": 0.8,
         "priority": 1,
         "_links": {
           "self": {
@@ -79,7 +93,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-21T00:54:46.4765727Z",
+    "generated": "2025-09-22T03:14:52.7999429Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,
