@@ -4,30 +4,6 @@
 
 C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment.
 
-## Keywords
-
-- C# language
-- programming language
-- object-oriented
-- type-safe
-- .NET language
-- modern syntax
-
-## Metadata
-
-| Property | Value |
-| --- | --- |
-| Name | C# Language |
-| ID | csharp |
-| Category | C# Language |
-| Namespace | (none) |
-| Description | C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. |
-| Complexity | 0.8 |
-| Audience | all developers |
-| Priority | 1 (Critical - core .NET programming language) |
-| Version | 1.0 |
-| Year | 2000 |
-
 ## Official Sources
 
 | URL | Type | Description | Last Verified |
@@ -55,6 +31,35 @@ C# is a modern, safe, and general purpose language that makes developers product
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
 | https://github.com/dotnet/roslyn | rendered | C# compiler implementation | 2025-09-20 |
+
+## Metadata
+
+| Property | Value |
+| --- | --- |
+| Name | C# Language |
+| ID | csharp |
+| Category | C# Language |
+| Namespace | (none) |
+| Description | C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. |
+| Complexity | 0.8 |
+| Audience | all developers |
+| Priority | 1 (Critical - core .NET programming language) |
+| Version | 1.0 |
+| Year | 2000 |
+
+## Relationships
+
+| Type | Target |
+| --- | --- |
+
+## Keywords
+
+- C# language
+- programming language
+- object-oriented
+- type-safe
+- .NET language
+- modern syntax
 
 ## Source Discovery Workflow
 

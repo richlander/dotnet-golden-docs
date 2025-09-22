@@ -53,6 +53,7 @@ All files must be markdownlint compliant:
 - Single trailing newline at file end
 - No multiple consecutive blank lines
 - Proper spacing around headings and tables
+- Code elements containing angle brackets (`<` and `>`) must be wrapped in backticks to prevent HTML parsing issues
 
 ### URL and Link Format
 
@@ -71,6 +72,7 @@ Consistent table structure across all documents:
 - Consistent column ordering within document types
 - No placeholder rows with dashes or empty content
 - Each row must provide actionable, concrete information
+- Code elements in table cells containing `<` and `>` characters must use backticks for markdown compliance
 
 ### List Format
 
@@ -82,6 +84,24 @@ Bullet point lists for array-like content:
 - Consistent formatting across similar content types
 
 ## Content Organization Patterns
+
+### Directory Organization
+
+Topic specifications should be organized by namespace-based categorization:
+
+- `libraries/` - All `System.*` namespaces (both built-in libraries and NuGet packages)
+- `extensions/` - All `Microsoft.Extensions.*` namespaces
+- `csharp/` - C# language features and syntax
+- `cli/` - .NET CLI tools and commands
+- `dotnet/` - .NET platform and runtime features
+
+Examples:
+
+- `docs/libraries/system-commandline/` - System.CommandLine namespace
+- `docs/libraries/system-text-json/` - System.Text.Json namespace
+- `docs/extensions/microsoft-extensions-ai/` - Microsoft.Extensions.AI namespace
+
+Distribution method (built-in vs NuGet package) should be documented in the metadata Prerequisites field rather than affecting directory structure.
 
 ### Information Hierarchy
 

@@ -4,30 +4,6 @@
 
 .NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components. This category encompasses libraries that extend .NET's capabilities in areas like AI integration, dependency injection, configuration, logging, caching, and other cross-cutting concerns using familiar .NET patterns and conventions.
 
-## Keywords
-
-- .NET extensions
-- extensions libraries
-- middleware components
-- abstractions
-- AI integration
-- cross-cutting concerns
-
-## Metadata
-
-| Property | Value |
-| --- | --- |
-| Name | Extensions |
-| ID | extensions |
-| Category | Extensions |
-| Namespace | (none) |
-| Description | .NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components. |
-| Complexity | 0.6 |
-| Audience | developers building modern applications, library authors, AI developers |
-| Priority | 1 (High - emerging technology area) |
-| Version | 1.0 |
-| Year | 2024 |
-
 ## Official Sources
 
 | URL | Type | Description | Last Verified |
@@ -47,3 +23,32 @@
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
 | https://learn.microsoft.com/dotnet/ai/microsoft-extensions-ai | rendered | Official Microsoft Learn AI extensions docs | 2025-09-21 |
+
+## Metadata
+
+| Property | Value |
+| --- | --- |
+| Name | Extensions |
+| ID | extensions |
+| Category | Extensions |
+| Namespace | (none) |
+| Description | .NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components. |
+| Complexity | 0.6 |
+| Audience | developers building modern applications, library authors, AI developers |
+| Priority | 1 (High - emerging technology area) |
+| Version | 1.0 |
+| Year | 2024 |
+
+## Relationships
+
+| Type | Target |
+| --- | --- |
+
+## Keywords
+
+- .NET extensions
+- extensions libraries
+- middleware components
+- abstractions
+- AI integration
+- cross-cutting concerns

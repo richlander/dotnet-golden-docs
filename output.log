@@ -1,0 +1,491 @@
+🤖 Starting LLM-dependent analysis tools...
+=============================================
+
+📊 Step 1: Analyzing documentation complexity...
+Note: This requires an LLM API (OpenRouter recommended)
+⚠️  Currently configured to use Ollama - OpenRouter support needs configuration work
+🔧 Running complexity analysis with current configuration...
+DEBUG: Loaded .env file. BaseUrl from env: http://merritt:11434
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Starting complexity analysis for path: docs
+info: ComplexityAnalyzer.Services.TopicSpecParser[0]
+      Found 19 topic specifications in docs
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Found 19 topic specifications to analyze
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: .NET (dotnet)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: .NET (dotnet)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for dotnet:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for dotnet
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: dotnet
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: .NET Libraries (libraries)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: .NET Libraries (libraries)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for libraries:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for libraries
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: libraries
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: C# Language (csharp)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: C# Language (csharp)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for csharp:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for csharp
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: csharp
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: .NET Platform (dotnet)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: .NET Platform (dotnet)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for dotnet:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for dotnet
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: dotnet
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: CLI (cli)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: CLI (cli)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for cli:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for cli
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: cli
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Extensions (extensions)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Extensions (extensions)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for extensions:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for extensions
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: extensions
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: System.Text.Json (system-text-json)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: System.Text.Json (system-text-json)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for system-text-json:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for system-text-json
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: system-text-json
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: .NET 10 Libraries Features (dotnet-10-library-improvements)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: .NET 10 Libraries Features (dotnet-10-library-improvements)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for dotnet-10-library-improvements:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for dotnet-10-library-improvements
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: dotnet-10-library-improvements
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Collection Expressions (collection-expressions)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Collection Expressions (collection-expressions)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for collection-expressions:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for collection-expressions
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: collection-expressions
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Inline Arrays (inline-arrays)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Inline Arrays (inline-arrays)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for inline-arrays:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for inline-arrays
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: inline-arrays
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: C# 14 Language Features (csharp-14-features)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: C# 14 Language Features (csharp-14-features)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for csharp-14-features:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for csharp-14-features
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: csharp-14-features
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Publishing and Deployment (publishing-and-deployment)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Publishing and Deployment (publishing-and-deployment)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for publishing-and-deployment:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for publishing-and-deployment
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: publishing-and-deployment
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Build and Compilation (build-and-compilation)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Build and Compilation (build-and-compilation)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for build-and-compilation:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for build-and-compilation
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: build-and-compilation
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Assembly Trimming (assembly-trimming)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Assembly Trimming (assembly-trimming)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for assembly-trimming:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for assembly-trimming
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: assembly-trimming
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: File-based apps (file-based-apps)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: File-based apps (file-based-apps)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for file-based-apps:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for file-based-apps
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: file-based-apps
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Native AOT (native-aot)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Native AOT (native-aot)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for native-aot:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for native-aot
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: native-aot
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Microsoft.Extensions.AI.Evaluation (microsoft-extensions-ai-evaluation)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Microsoft.Extensions.AI.Evaluation (microsoft-extensions-ai-evaluation)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for microsoft-extensions-ai-evaluation:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for microsoft-extensions-ai-evaluation
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: microsoft-extensions-ai-evaluation
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Microsoft.Extensions.AI (microsoft-extensions-ai)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Microsoft.Extensions.AI (microsoft-extensions-ai)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for microsoft-extensions-ai:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for microsoft-extensions-ai
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: microsoft-extensions-ai
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Processing topic: Microsoft.Extensions.Http.Resilience (microsoft-extensions-http-resilience)
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Analyzing complexity for topic: Microsoft.Extensions.Http.Resilience (microsoft-extensions-http-resilience)
+fail: ComplexityAnalyzer.Services.LLMService[0]
+      Ollama API error
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at OllamaSharp.OllamaApiClient.EnsureSuccessStatusCodeAsync(HttpResponseMessage response)
+         at OllamaSharp.OllamaApiClient.SendToOllamaAsync(HttpRequestMessage requestMessage, OllamaRequest ollamaRequest, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+MoveNext()
+         at OllamaSharp.OllamaApiClient.ChatAsync(ChatRequest request, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.IAsyncEnumerableExtensions.StreamToEndAsync[Tin,Tout](IAsyncEnumerable`1 stream, IAppender`2 appender, Action`1 itemCallback)
+         at OllamaSharp.OllamaApiClient.Microsoft.Extensions.AI.IChatClient.GetResponseAsync(IEnumerable`1 messages, ChatOptions options, CancellationToken cancellationToken)
+         at ComplexityAnalyzer.Services.LLMService.GetResponseAsync(String prompt) in /home/rich/git/llm-docs-workspace/dotnet-docs-llm-tools/src/ComplexityAnalyzer/Services/SimpleLlmClient.cs:line 62
+info: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Raw LLM Response for microsoft-extensions-http-resilience:
+      
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Could not extract complexity score from response: 
+warn: ComplexityAnalyzer.Services.ComplexityAnalysisService[0]
+      Failed to parse complexity analysis response for microsoft-extensions-http-resilience
+fail: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Failed to analyze complexity for topic: microsoft-extensions-http-resilience
+info: ComplexityAnalyzer.Commands.AnalyzeComplexityCommand[0]
+      Complexity analysis completed. Success: 0, Errors: 19

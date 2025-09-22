@@ -1,4 +1,4 @@
 | Topic (dotnet) | Neighbor (csharp) | Similarity |
 |-------------|-------------------|------------|
-| dotnet | csharp | 0.8678 |
-| dotnet | csharp/csharp-14-features | 0.6125 |
+| dotnet | csharp | 0.8178 |
+| dotnet | csharp/csharp-14-features | 0.6178 |

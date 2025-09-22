@@ -1,0 +1,70 @@
+{
+  "id": "csharp/inline-arrays",
+  "title": "Inline Arrays",
+  "description": "Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the \u0060InlineArrayAttribute\u0060. This C# 12 feature enables developers to create custom buffer types with compile-time known sizes, offering a safe alternative to unsafe fixed-size buffers while maintaining performance characteristics similar to arrays with full GC tracking and bounds checking.",
+  "keywords": [
+    "inline arrays",
+    "InlineArrayAttribute",
+    "fixed-size buffers",
+    "type-safe buffers",
+    "sequential layout",
+    "high-performance arrays",
+    "stack allocation",
+    "span integration",
+    "bounds checking"
+  ],
+  "diagnostic_codes": [
+    "CS9166",
+    "CS9167",
+    "CS9168",
+    "CS9169",
+    "CS9170",
+    "CS9171",
+    "CS9172",
+    "CS9173",
+    "CS9180",
+    "CS9181",
+    "CS9182",
+    "CS9183",
+    "CS9184",
+    "CS9189"
+  ],
+  "category": "C# Language",
+  "complexity": 0.7,
+  "priority": 3,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "12.0",
+    "year": "2023"
+  },
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/csharp/inline-arrays",
+      "description": "Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the \u0060InlineArrayAttribute\u0060. This C# 12 feature enables developers to create custom buffer types with compile-time known sizes, offering a safe alternative to unsafe fixed-size buffers while maintaining performance characteristics similar to arrays with full GC tracking and bounds checking."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/csharp",
+      "description": "Csharp category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/csharp/inline-arrays/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    }
+  },
+  "_embedded": {
+    "similar_categories": null,
+    "similar_topics": null,
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-22T14:02:28.0363559Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

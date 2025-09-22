@@ -4,29 +4,6 @@
 
 .NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps.
 
-## Keywords
-
-- .NET platform
-- cross-platform
-- open-source platform
-- developer platform
-- high-performance runtime
-- C# runtime
-
-## Metadata
-
-| Property | Value |
-| --- | --- |
-| Name | .NET Platform |
-| ID | dotnet |
-| Category | .NET Platform |
-| Description | .NET is a free, cross-platform, open-source developer platform for building many kinds of applications. |
-| Complexity | 0.7 |
-| Audience | all developers, platform architects, system administrators |
-| Priority | 1 (Critical - foundational platform) |
-| Version | 1.0 |
-| Year | 2016 |
-
 ## Official Sources
 
 | URL | Type | Description | Last Verified |
@@ -63,3 +40,36 @@
 | dotnet/core | README.md | .NET Core repository overview | 4c489a6a |
 | dotnet/runtime | README.md | .NET runtime repository overview | 80fb00f580f |
 | dotnet/core | release-notes/README.md | .NET release notes overview | 4c489a6a |
+
+## Secondary Sources
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+
+## Metadata
+
+| Property | Value |
+| --- | --- |
+| Name | .NET Platform |
+| ID | dotnet |
+| Category | .NET Platform |
+| Description | .NET is a free, cross-platform, open-source developer platform for building many kinds of applications. |
+| Complexity | 0.7 |
+| Audience | all developers, platform architects, system administrators |
+| Priority | 1 (Critical - foundational platform) |
+| Version | 1.0 |
+| Year | 2016 |
+
+## Relationships
+
+| Type | Target |
+| --- | --- |
+
+## Keywords
+
+- .NET platform
+- cross-platform
+- open-source platform
+- developer platform
+- high-performance runtime
+- C# runtime

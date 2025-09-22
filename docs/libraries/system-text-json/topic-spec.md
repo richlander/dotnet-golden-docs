@@ -4,40 +4,6 @@
 
 System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0+ that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). It emphasizes performance and low memory allocation over extensive features, with built-in UTF-8 support optimized for web and file operations.
 
-## Keywords
-
-- System.Text.Json
-- JSON serialization
-- high-performance JSON
-- .NET JSON library
-- JSON deserialization
-- UTF-8 JSON
-
-## Relationships
-
-| Type | Target |
-| --- | --- |
-| Enables | Native AOT compatibility, High-performance JSON operations, Secure JSON processing |
-| Conflicts with | System.Runtime.Serialization attributes, ISerializable interface |
-| Alternative to | Newtonsoft.Json, DataContractJsonSerializer |
-| Prerequisite | .NET Core 3.0+ (built-in), .NET Standard 2.0+ (NuGet package) |
-| Synergistic with | ASP.NET Core APIs, Source generators, HttpClient extensions |
-
-## Metadata
-
-| Property | Value |
-| --- | --- |
-| Name | System.Text.Json |
-| ID | system-text-json |
-| Category | Libraries |
-| Namespace | System.Text.Json |
-| Description | System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0+ that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). |
-| Complexity | 0.7 |
-| Audience | All developers, Web developers, API developers |
-| Priority | 1 (Critical) |
-| Version | 3.0 |
-| Year | 2019 |
-
 ## Official Sources
 
 | URL | Type | Description | Last Verified |
@@ -58,3 +24,57 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
 | https://github.com/dotnet/samples/tree/main/core/json | rendered | Official JSON samples repository | 2025-09-20 |
+
+## Metadata
+
+| Property | Value |
+| --- | --- |
+| Name | System.Text.Json |
+| ID | system-text-json |
+| Category | Libraries |
+| Namespace | System.Text.Json |
+| Description | System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0+ that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). |
+| Complexity | 0.7 |
+| Audience | All developers, Web developers, API developers |
+| Priority | 1 (Critical) |
+| Version | 3.0 |
+| Year | 2019 |
+
+## Relationships
+
+| Type | Target |
+| --- | --- |
+| Enables | Native AOT compatibility, High-performance JSON operations, Secure JSON processing |
+| Conflicts with | System.Runtime.Serialization attributes, ISerializable interface |
+| Alternative to | Newtonsoft.Json, DataContractJsonSerializer |
+| Prerequisite | .NET Core 3.0+ (built-in), .NET Standard 2.0+ (NuGet package) |
+| Synergistic with | ASP.NET Core APIs, Source generators, HttpClient extensions |
+
+## Keywords
+
+- System.Text.Json
+- JSON serialization
+- high-performance JSON
+- .NET JSON library
+- JSON deserialization
+- UTF-8 JSON
+
+## Diagnostic Codes
+
+| Code | Message |
+| --- | --- |
+| IL2026 | Using member `System.Text.Json.JsonSerializer.Serialize<TValue>(TValue, JsonSerializerOptions)` which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved. |
+| IL2026 | Using member `System.Text.Json.JsonSerializer.Deserialize<TValue>(String, JsonSerializerOptions)` which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved. |
+| IL3050 | Using member `System.Text.Json.JsonSerializer.Serialize<TValue>(TValue, JsonSerializerOptions)` which has 'RequiresDynamicCodeAttribute' can break functionality when AOT compiling. JSON serialization and deserialization might require types that cannot be statically analyzed and might need runtime code generation. Use System.Text.Json source generation for native AOT applications. |
+| IL3050 | Using member `System.Text.Json.JsonSerializer.Deserialize<TValue>(String, JsonSerializerOptions)` which has 'RequiresDynamicCodeAttribute' can break functionality when AOT compiling. JSON serialization and deserialization might require types that cannot be statically analyzed and might need runtime code generation. Use System.Text.Json source generation for native AOT applications. |
+| SYSLIB1030 | JsonSourceGenerationOptionsAttribute on type '{0}' is not valid. {1} |
+| SYSLIB1034 | JsonStringEnumConverter with '{0}' is not supported in source generation mode. |
+| SYSLIB1037 | Init-only property '{0}' is not supported in source generation mode. |
+| SYSLIB1038 | JsonInclude is specified on inaccessible property '{0}'. |
+| SYSLIB1039 | Polymorphic types are not supported in source generation mode. |
+| SYSLIB1220 | Invalid '{0}' attribute argument: '{1}'. |
+| SYSLIB1222 | Constructor parameter '{0}' has a JsonConstructorAttribute annotation but is inaccessible. |
+| SYSLIB1223 | JsonConverterAttribute '{0}' is invalid. |
+| SYSLIB1225 | JSON source generation does not support the specified configuration. |
+| SYSLIB0020 | JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull. |
+| SYSLIB0049 | JsonSerializerOptions.AddContext is obsolete. To register a JsonSerializerContext, use either the TypeInfoResolver or TypeInfoResolverChain properties. |

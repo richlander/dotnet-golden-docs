@@ -1,4 +1,4 @@
 | Topic (csharp) | Neighbor (extensions) | Similarity |
 |-------------|-------------------|------------|
-| csharp | extensions/microsoft-extensions-ai | 0.5393 |
-| csharp | extensions/microsoft-extensions-http-resilience | 0.4854 |
+| csharp | extensions/microsoft-extensions-ai | 0.5895 |
+| csharp | extensions/microsoft-extensions-ai-evaluation | 0.5019 |

@@ -4,39 +4,6 @@
 
 Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. The trimmer performs build-time analysis to identify and eliminate code that is not statically reachable, significantly reducing deployment size while maintaining application functionality.
 
-## Keywords
-
-- assembly trimming
-- code trimming
-- size optimization
-- unused code removal
-- build-time analysis
-- deployment optimization
-
-## Relationships
-
-| Type | Target |
-| --- | --- |
-| Enables | Reduced deployment size, Faster deployment, Lower storage costs, Improved container performance |
-| Conflicts with | Dynamic assembly loading, Unbounded reflection, C++/CLI, WPF/WinForms (currently) |
-| Alternative to | Manual dependency reduction, Framework-dependent deployment |
-| Prerequisite | Self-contained deployment, .NET 6+ (fully supported), Static code analysis compatibility |
-| Synergistic with | Native AOT compilation, Single-file deployment, Source generators |
-
-## Metadata
-
-| Property | Value |
-| --- | --- |
-| Name | Assembly Trimming |
-| ID | assembly-trimming |
-| Category | CLI |
-| Description | Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. |
-| Complexity | 0.7 |
-| Audience | Performance-focused developers, Cloud developers, Library authors |
-| Priority | 2 (Common) |
-| Version | 6.0 |
-| Year | 2021 |
-
 ## Official Sources
 
 | URL | Type | Description | Last Verified |
@@ -57,3 +24,55 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
 | https://github.com/mono/linker | rendered | ILLink linker repository | 2025-09-20 |
+
+## Metadata
+
+| Property | Value |
+| --- | --- |
+| Name | Assembly Trimming |
+| ID | assembly-trimming |
+| Category | CLI |
+| Description | Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. |
+| Complexity | 0.7 |
+| Audience | Performance-focused developers, Cloud developers, Library authors |
+| Priority | 2 (Common) |
+| Version | 6.0 |
+| Year | 2021 |
+
+## Relationships
+
+| Type | Target |
+| --- | --- |
+| Enables | Reduced deployment size, Faster deployment, Lower storage costs, Improved container performance |
+| Conflicts with | Dynamic assembly loading, Unbounded reflection, C++/CLI, WPF/WinForms (currently) |
+| Alternative to | Manual dependency reduction, Framework-dependent deployment |
+| Prerequisite | Self-contained deployment, .NET 6+ (fully supported), Static code analysis compatibility |
+| Synergistic with | Native AOT compilation, Single-file deployment, Source generators |
+
+## Keywords
+
+- assembly trimming
+- code trimming
+- size optimization
+- unused code removal
+- build-time analysis
+- deployment optimization
+
+## Diagnostic Codes
+
+| Code | Message |
+| --- | --- |
+| IL2026 | Using member '{0}' which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. |
+| IL2032 | Unrecognized value passed to the parameter '{0}' of method 'CreateInstance'. It's not possible to guarantee the availability of the target type. |
+| IL2055 | Call to 'System.Type.MakeGenericType' can not be statically analyzed. |
+| IL2057 | Unrecognized value passed to the parameter 'typeName' of method 'System.Type.GetType'. It's not possible to guarantee the availability of the target type. |
+| IL2062 | Value passed to implicit 'this' parameter of method '{0}' does not satisfy 'DynamicallyAccessedMembersAttribute' requirements. |
+| IL2070 | 'this' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to target method. The parameter of method does not have matching annotations. |
+| IL2102 | Invalid AssemblyMetadata('IsTrimmable', ...) attribute. Value must be 'True'. |
+| IL2110 | Field '{0}' with 'DynamicallyAccessedMembersAttribute' is accessed via reflection. |
+| IL2111 | Method '{0}' with parameters or return value with 'DynamicallyAccessedMembersAttribute' is accessed via reflection. |
+| NETSDK1124 | Trimming assemblies requires .NET Core 3.0 or higher. |
+| NETSDK1168 | WPF is not supported or recommended with trimming enabled. |
+| NETSDK1175 | Windows Forms is not supported or recommended with trimming enabled. |
+| NETSDK1195 | Trimming, or code compatibility analysis for trimming, single-file deployment, or ahead-of-time compilation is not supported for the target framework. |
+| NETSDK1212 | IsTrimmable and EnableTrimAnalyzer are not supported for the target framework. |

@@ -4,14 +4,24 @@
 
 Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios.
 
-## Keywords
+## Official Sources
 
-- .NET 10 libraries
-- library improvements
-- WebSocket APIs
-- post-quantum cryptography
-- performance optimizations
-- tensor operations
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/core/whats-new/dotnet-10/libraries | rendered | Main .NET 10 library improvements documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | Official .NET 10 announcement | 404 |
+
+## Primary Sources
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+| dotnet/docs | docs/core/whats-new/dotnet-10/libraries.md | .NET 10 library improvements documentation | 0249c38f27 |
+| dotnet/core | release-notes/10.0/preview | .NET 10.0.0 release notes | 4c489a6a |
+
+## Secondary Sources
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
 
 ## Metadata
 
@@ -38,19 +48,14 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | Synergistic with | Performance-critical applications, security-focused development |
 | Prerequisite | .NET 10 SDK |
 
-## Official Sources
+## Keywords
 
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/whats-new/dotnet-10/libraries | rendered | Main .NET 10 library improvements documentation | 2025-09-20 |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | Official .NET 10 announcement | 404 |
-
-## Primary Sources
-
-| Repo | Path | Description | Last Verified |
-| --- | --- | --- | --- |
-| dotnet/docs | docs/core/whats-new/dotnet-10/libraries.md | .NET 10 library improvements documentation | 0249c38f27 |
-| dotnet/core | release-notes/10.0/preview | .NET 10.0.0 release notes | 4c489a6a |
+- .NET 10 libraries
+- library improvements
+- WebSocket APIs
+- post-quantum cryptography
+- performance optimizations
+- tensor operations
 
 ## Critical limitations
 

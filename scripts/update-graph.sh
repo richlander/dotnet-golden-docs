@@ -10,36 +10,32 @@ echo "================================================================="
 # Step 1: Validate Q&A pairs before processing
 echo ""
 echo "📝 Step 1: Validating Q&A pairs..."
-./scripts/validate-qa-pairs.sh
-if [ $? -ne 0 ]; then
-    echo "❌ Q&A validation failed - aborting update"
+if ! ./scripts/validate-qa-pairs.sh; then
+    echo "❌ Step 1 failed - aborting update"
     exit 1
 fi
 
 # Step 2: Generate embeddings for all content
 echo ""
 echo "🔨 Step 2: Generating embeddings..."
-./scripts/generate-embeddings.sh
-if [ $? -ne 0 ]; then
-    echo "❌ Embedding generation failed - aborting update"
+if ! ./scripts/generate-embeddings.sh; then
+    echo "❌ Step 2 failed - aborting update"
     exit 1
 fi
 
 # Step 3: Generate similarities and relationships
 echo ""
 echo "🔍 Step 3: Generating similarities..."
-./scripts/generate-similarities.sh
-if [ $? -ne 0 ]; then
-    echo "❌ Similarity generation failed - aborting update"
+if ! ./scripts/generate-similarities.sh; then
+    echo "❌ Step 3 failed - aborting update"
     exit 1
 fi
 
 # Step 4: Generate index files for all topics
 echo ""
 echo "📋 Step 4: Generating indexes..."
-./scripts/generate-indexes.sh
-if [ $? -ne 0 ]; then
-    echo "❌ Index generation failed - aborting update"
+if ! ./scripts/generate-indexes.sh; then
+    echo "❌ Step 4 failed - aborting update"
     exit 1
 fi
 

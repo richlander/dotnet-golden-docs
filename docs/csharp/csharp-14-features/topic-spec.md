@@ -4,14 +4,24 @@
 
 Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax.
 
-## Keywords
+## Official Sources
 
-- C# 14 features
-- field keyword
-- first-class Span
-- enhanced lambdas
-- partial constructors
-- Extensions
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-14 | rendered | Main C# 14 features documentation | 2025-09-20 |
+
+## Primary Sources
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+| dotnet/docs | docs/csharp/whats-new/csharp-14.md | C# 14 what's new documentation | 0249c38f27 |
+| dotnet/csharplang | proposals/csharp-14.0/ | C# 14 language proposals overview | 86c78a07 |
+
+## Secondary Sources
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://github.com/dotnet/roslyn/releases | rendered | Roslyn compiler releases | 2025-09-20 |
 
 ## Metadata
 
@@ -38,24 +48,14 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Synergistic with | Performance-oriented development, modern C# patterns, library design |
 | Prerequisite | C# 14 / .NET 10 |
 
-## Official Sources
+## Keywords
 
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-14 | rendered | Main C# 14 features documentation | 2025-09-20 |
-
-## Primary Sources
-
-| Repo | Path | Description | Last Verified |
-| --- | --- | --- | --- |
-| dotnet/docs | docs/csharp/whats-new/csharp-14.md | C# 14 what's new documentation | 0249c38f27 |
-| dotnet/csharplang | proposals/csharp-14.0/ | C# 14 language proposals overview | 86c78a07 |
-
-## Secondary Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://github.com/dotnet/roslyn/releases | rendered | Roslyn compiler releases | 2025-09-20 |
+- C# 14 features
+- field keyword
+- first-class Span
+- enhanced lambdas
+- partial constructors
+- Extensions
 
 ## Critical limitations
 
@@ -84,3 +84,24 @@ Collection topic covering key C# 14 language features including the `field` keyw
 - Overusing null-conditional assignment where traditional patterns are clearer
 - Complex compound assignment operators that reduce readability
 - Extensions that violate type safety or expected behavior
+
+## Diagnostic Codes
+
+| Code | Message |
+| --- | --- |
+| CS9273 | In language version {0}, 'field' is a keyword within a property accessor. Rename the variable or use the identifier '@field' instead. |
+| CS9327 | Feature '{0}' is not available in C# 14.0. Please use language version {1} or greater. |
+| CS9316 | Extension members are not allowed as an argument to 'nameof'. |
+| CS9281 | Extension declarations may not have a name. |
+| CS9282 | This member is not allowed in an extension block. |
+| CS9283 | Extensions must be declared in a static class. |
+| CS9286 | Extension resolution failed. |
+| CS9317 | User-defined operator '{0}' must be declared as 'public static'. |
+| CS9318 | Binary operator '{0}' has the wrong signature for a compound assignment operator. |
+| CS9319 | Operator '{0}' cannot be used as a compound assignment operator because its return type is not assignable to its first parameter type. |
+| CS9320 | User-defined operator '{0}' cannot be used as a compound assignment operator with operands of type '{1}' and '{2}'. |
+| CS9321 | Conversion operator '{0}' cannot be used in a compound assignment because it has the wrong return type. |
+| CS9322 | Binary operator '{0}' has a ref return but is not valid for compound assignment. |
+| CS9323 | User-defined compound assignment operator '{0}' has invalid signature. |
+| CS9324 | Operator '{0}' is not valid for compound assignment with operands of type '{1}' and '{2}'. |
+| CS9329 | Extension block collision with type '{0}'.

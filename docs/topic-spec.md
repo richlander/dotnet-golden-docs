@@ -4,14 +4,20 @@
 
 .NET is a comprehensive, free, cross-platform, open-source developer platform for building modern applications. It encompasses the runtime, libraries, tools, languages (primarily C#), CLI tooling, and deployment models that together provide a unified development experience across desktop, web, mobile, cloud, IoT, and gaming scenarios. This platform combines high performance, developer productivity, and enterprise-grade reliability. .NET was previously called ".NET Core". The predecessor product was ".NET Framework".
 
-## Keywords
+## Official Sources
 
-- .NET platform
-- cross-platform development
-- developer platform
-- .NET runtime
-- C# programming
-- modern applications
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+
+## Primary Sources
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+
+## Secondary Sources
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
 
 ## Metadata
 
@@ -39,3 +45,12 @@
 | Alternative to | Java ecosystem, Node.js platform, Python ecosystem, Go platform |
 | Prerequisite | None (self-contained platform) |
 | Synergistic with | Cloud platforms (Azure, AWS, GCP), Container technologies, DevOps tools, IDE environments, Package managers |
+
+## Keywords
+
+- .NET platform
+- cross-platform development
+- developer platform
+- .NET runtime
+- C# programming
+- modern applications

@@ -4,39 +4,6 @@
 
 Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don't require the .NET runtime to be installed on the target machine.
 
-## Keywords
-
-- Native AOT
-- ahead-of-time compilation
-- native code
-- fast startup
-- self-contained
-- performance optimization
-
-## Relationships
-
-| Type | Target |
-| --- | --- |
-| Enables | Fast startup times, Reduced memory usage, Self-contained deployment, Container optimization, Edge computing scenarios |
-| Conflicts with | Dynamic code generation, Assembly.LoadFile, System.Reflection.Emit, C++/CLI |
-| Alternative to | JIT compilation, Self-contained deployment, ReadyToRun |
-| Prerequisite | .NET 7+ SDK, Platform-specific toolchain (C++ build tools) |
-| Synergistic with | Source generators, Trimming, Single-file deployment, Container images |
-
-## Metadata
-
-| Property | Value |
-| --- | --- |
-| Name | Native AOT |
-| ID | native-aot |
-| Category | CLI |
-| Description | Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. |
-| Complexity | 0.8 |
-| Audience | Performance-focused developers, Cloud developers, Desktop app developers |
-| Priority | 2 (Common) |
-| Version | 7.0 |
-| Year | 2022 |
-
 ## Official Sources
 
 | URL | Type | Description | Last Verified |
@@ -58,3 +25,48 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
 | https://github.com/dotnet/samples/tree/main/core/nativeaot | rendered | Official Native AOT samples | 2025-09-20 |
+
+## Metadata
+
+| Property | Value |
+| --- | --- |
+| Name | Native AOT |
+| ID | native-aot |
+| Category | CLI |
+| Description | Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. |
+| Complexity | 0.8 |
+| Audience | Performance-focused developers, Cloud developers, Desktop app developers |
+| Priority | 2 (Common) |
+| Version | 7.0 |
+| Year | 2022 |
+
+## Relationships
+
+| Type | Target |
+| --- | --- |
+| Enables | Fast startup times, Reduced memory usage, Self-contained deployment, Container optimization, Edge computing scenarios |
+| Conflicts with | Dynamic code generation, Assembly.LoadFile, System.Reflection.Emit, C++/CLI |
+| Alternative to | JIT compilation, Self-contained deployment, ReadyToRun |
+| Prerequisite | .NET 7+ SDK, Platform-specific toolchain (C++ build tools) |
+| Synergistic with | Source generators, Trimming, Single-file deployment, Container images |
+
+## Keywords
+
+- Native AOT
+- ahead-of-time compilation
+- native code
+- fast startup
+- self-contained
+- performance optimization
+
+## Diagnostic Codes
+
+| Code | Message |
+| --- | --- |
+| NETSDK1196 | The SDK does not support ahead-of-time compilation. Set the PublishAot property to false. |
+| IL2026 | Using member '{0}' which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. |
+| IL2055 | Call to 'System.Type.MakeGenericType' can not be statically analyzed. |
+| IL2057 | Unrecognized value passed to the parameter 'typeName' of method 'System.Type.GetType'. It's not possible to guarantee the availability of the target type. |
+| IL2070 | 'this' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to target method. The parameter of method does not have matching annotations. |
+| IL2087 | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The return value of source method does not have matching annotations. |
+| IL2091 | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The generic parameter does not have matching annotations. |

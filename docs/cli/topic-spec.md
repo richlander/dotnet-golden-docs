@@ -4,30 +4,6 @@
 
 The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle.
 
-## Keywords
-
-- .NET CLI
-- command-line interface
-- dotnet commands
-- cross-platform toolchain
-- build tools
-- developer tools
-
-## Metadata
-
-| Property | Value |
-| --- | --- |
-| Name | CLI |
-| ID | cli |
-| Category | CLI |
-| Namespace | (none) |
-| Description | The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. |
-| Complexity | 0.4 |
-| Audience | all developers, DevOps engineers, system administrators |
-| Priority | 1 (Critical - fundamental .NET tooling) |
-| Version | 1.0 |
-| Year | 2016 |
-
 ## Official Sources
 
 | URL | Type | Description | Last Verified |
@@ -47,3 +23,32 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
 | https://github.com/dotnet/cli | rendered | .NET CLI repository | 2025-09-20 |
+
+## Metadata
+
+| Property | Value |
+| --- | --- |
+| Name | CLI |
+| ID | cli |
+| Category | CLI |
+| Namespace | (none) |
+| Description | The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. |
+| Complexity | 0.4 |
+| Audience | all developers, DevOps engineers, system administrators |
+| Priority | 1 (Critical - fundamental .NET tooling) |
+| Version | 1.0 |
+| Year | 2016 |
+
+## Relationships
+
+| Type | Target |
+| --- | --- |
+
+## Keywords
+
+- .NET CLI
+- command-line interface
+- dotnet commands
+- cross-platform toolchain
+- build tools
+- developer tools

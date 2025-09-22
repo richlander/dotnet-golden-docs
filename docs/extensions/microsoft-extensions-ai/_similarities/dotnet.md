@@ -1,3 +1,3 @@
 | Topic (extensions) | Neighbor (dotnet) | Similarity |
 |-------------|-------------------|------------|
-| extensions/microsoft-extensions-ai | dotnet | 0.5219 |
+| extensions/microsoft-extensions-ai | dotnet | 0.5765 |

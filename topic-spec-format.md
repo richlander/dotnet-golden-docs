@@ -109,6 +109,8 @@ Guidelines:
 - Prioritize codes that developers commonly encounter when working with the feature
 - Focus on codes that would benefit from dedicated documentation
 - Use the exact message text from the compiler/analyzer (including placeholder tokens like {0})
+- Multiple rows with the same code are allowed when different methods or contexts produce different messages (e.g., IL2026 for both Serialize and Deserialize methods)
+- Use backticks around method names or code elements containing `<` and `>` characters to ensure markdown compliance (e.g., `JsonSerializer.Serialize<TValue>()`)
 
 #### Generation Hints (Category-Level Only)
 

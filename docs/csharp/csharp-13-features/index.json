@@ -1,0 +1,59 @@
+{
+  "id": "csharp/csharp-13-features",
+  "title": "C# 13 Features",
+  "description": "C# 13 is the latest version of the C# programming language, released with .NET 9 in November 2024. It introduces significant enhancements to the params modifier with collection support, new lock object semantics, ref struct improvements, partial members expansion, and several syntax improvements that enhance developer productivity and performance.",
+  "keywords": [
+    "C# 13",
+    "params collections",
+    "lock object",
+    "ref struct interfaces",
+    "allows ref struct",
+    "partial properties",
+    "partial indexers",
+    "field keyword",
+    "escape sequence",
+    "method group natural type",
+    "implicit index access",
+    "overload resolution priority",
+    ".NET 9"
+  ],
+  "diagnostic_codes": null,
+  "category": "C# Language",
+  "complexity": 0.7,
+  "priority": 1,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "13.0",
+    "year": "2024"
+  },
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/csharp/csharp-13-features",
+      "description": "C# 13 is the latest version of the C# programming language, released with .NET 9 in November 2024. It introduces significant enhancements to the params modifier with collection support, new lock object semantics, ref struct improvements, partial members expansion, and several syntax improvements that enhance developer productivity and performance."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/csharp",
+      "description": "Csharp category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/csharp/csharp-13-features/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    }
+  },
+  "_embedded": {
+    "similar_categories": null,
+    "similar_topics": null,
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-22T14:02:28.0344498Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

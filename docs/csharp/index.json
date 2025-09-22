@@ -10,11 +10,12 @@
     ".NET language",
     "modern syntax"
   ],
+  "diagnostic_codes": null,
   "category": "C# Language",
   "complexity": 0.8,
   "priority": 1,
   "depth_below": 1,
-  "topic_count": 2,
+  "topic_count": 4,
   "introduced": {
     "version": "1.0",
     "year": "2000"
@@ -41,151 +42,158 @@
       {
         "category": "dotnet",
         "index": "/dotnet/index.json",
-        "similarity_threshold": 0.8677578339829674,
+        "similarity_threshold": 0.8177800122844312,
         "topics": [
           {
             "id": "dotnet",
             "name": ".NET Platform",
             "path": "dotnet",
             "index": "dotnet/index.json",
-            "similarity": 0.8678
+            "similarity": 0.8178
           }
         ]
       },
       {
         "category": "cli",
         "index": "/cli/index.json",
-        "similarity_threshold": 0.5532995816757836,
+        "similarity_threshold": 0.5746155138704769,
         "topics": [
           {
             "id": "cli",
             "name": "CLI",
             "path": "cli",
             "index": "cli/index.json",
-            "similarity": 0.6518
-          },
-          {
-            "id": "cli/native-aot",
-            "name": "Native AOT",
-            "path": "cli/native-aot",
-            "index": "cli/native-aot/index.json",
-            "similarity": 0.5773
+            "similarity": 0.6507
           },
           {
             "id": "cli/file-based-apps",
             "name": "File-based apps",
             "path": "cli/file-based-apps",
             "index": "cli/file-based-apps/index.json",
-            "similarity": 0.5631
+            "similarity": 0.5799
           },
           {
             "id": "cli/assembly-trimming",
             "name": "Assembly Trimming",
             "path": "cli/assembly-trimming",
             "index": "cli/assembly-trimming/index.json",
-            "similarity": 0.5533
+            "similarity": 0.5765
           }
         ]
       },
       {
         "category": "libraries",
         "index": "/libraries/index.json",
-        "similarity_threshold": 0.5988768182223901,
+        "similarity_threshold": 0.5991433579463199,
         "topics": [
           {
-            "id": "libraries",
-            "name": ".NET Libraries",
-            "path": "libraries",
-            "index": "libraries/index.json",
-            "similarity": 0.6511
+            "id": "libraries/dotnet-10-library-improvements",
+            "name": ".NET 10 Libraries Features",
+            "path": "libraries/dotnet-10-library-improvements",
+            "index": "libraries/dotnet-10-library-improvements/index.json",
+            "similarity": 0.6378
           },
           {
             "id": "libraries/system-text-json",
             "name": "System.Text.Json",
             "path": "libraries/system-text-json",
             "index": "libraries/system-text-json/index.json",
-            "similarity": 0.5989
+            "similarity": 0.6033
           }
         ]
       }
     ],
     "similar_topics": {
       "baseline": "golden-reference.md",
-      "similarity_threshold": 0.4854,
+      "similarity_threshold": 0.5019,
       "topics": [
         {
           "id": "dotnet",
           "name": ".NET Platform",
           "path": "dotnet",
           "index": "dotnet/index.json",
-          "similarity": 0.8678
+          "similarity": 0.8178
         },
         {
           "id": "cli",
           "name": "CLI",
           "path": "cli",
           "index": "cli/index.json",
-          "similarity": 0.6518
+          "similarity": 0.6507
         },
         {
-          "id": "libraries",
-          "name": ".NET Libraries",
-          "path": "libraries",
-          "index": "libraries/index.json",
-          "similarity": 0.6511
-        },
-        {
-          "id": "csharp/csharp-14-features",
-          "name": "C# 14 Language Features",
-          "path": "csharp/csharp-14-features",
-          "index": "csharp/csharp-14-features/index.json",
-          "similarity": 0.612
+          "id": "libraries/dotnet-10-library-improvements",
+          "name": ".NET 10 Libraries Features",
+          "path": "libraries/dotnet-10-library-improvements",
+          "index": "libraries/dotnet-10-library-improvements/index.json",
+          "similarity": 0.6378
         },
         {
           "id": "libraries/system-text-json",
           "name": "System.Text.Json",
           "path": "libraries/system-text-json",
           "index": "libraries/system-text-json/index.json",
-          "similarity": 0.5989
+          "similarity": 0.6033
         },
         {
-          "id": "cli/native-aot",
-          "name": "Native AOT",
-          "path": "cli/native-aot",
-          "index": "cli/native-aot/index.json",
-          "similarity": 0.5773
-        },
-        {
-          "id": "cli/file-based-apps",
-          "name": "File-based apps",
-          "path": "cli/file-based-apps",
-          "index": "cli/file-based-apps/index.json",
-          "similarity": 0.5631
-        },
-        {
-          "id": "cli/assembly-trimming",
-          "name": "Assembly Trimming",
-          "path": "cli/assembly-trimming",
-          "index": "cli/assembly-trimming/index.json",
-          "similarity": 0.5533
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.5997
         },
         {
           "id": "extensions/microsoft-extensions-ai",
           "name": "Microsoft.Extensions.AI",
           "path": "extensions/microsoft-extensions-ai",
           "index": "extensions/microsoft-extensions-ai/index.json",
-          "similarity": 0.5393
+          "similarity": 0.5895
         },
         {
-          "id": "extensions/microsoft-extensions-http-resilience",
-          "name": "Microsoft.Extensions.Http.Resilience",
-          "path": "extensions/microsoft-extensions-http-resilience",
-          "index": "extensions/microsoft-extensions-http-resilience/index.json",
-          "similarity": 0.4854
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.5799
+        },
+        {
+          "id": "cli/assembly-trimming",
+          "name": "Assembly Trimming",
+          "path": "cli/assembly-trimming",
+          "index": "cli/assembly-trimming/index.json",
+          "similarity": 0.5765
+        },
+        {
+          "id": "csharp/collection-expressions",
+          "name": "Collection Expressions",
+          "path": "csharp/collection-expressions",
+          "index": "csharp/collection-expressions/index.json",
+          "similarity": 0.5559
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai-evaluation",
+          "name": "Microsoft.Extensions.AI.Evaluation",
+          "path": "extensions/microsoft-extensions-ai-evaluation",
+          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+          "similarity": 0.5019
         }
       ]
     },
     "topics": [
+      {
+        "name": "csharp-13-features",
+        "title": "C# 13 Features",
+        "category": "C# Language",
+        "complexity": 0.7,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/csharp/csharp-13-features",
+            "description": "C# 13 is the latest version of the C# programming language, released with .NET 9 in November 2024. It introduces significant enhancements to the params modifier with collection support, new lock object semantics, ref struct improvements, partial members expansion, and several syntax improvements that enhance developer productivity and performance."
+          }
+        }
+      },
       {
         "name": "collection-expressions",
         "title": "Collection Expressions",
@@ -213,11 +221,25 @@
             "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax."
           }
         }
+      },
+      {
+        "name": "inline-arrays",
+        "title": "Inline Arrays",
+        "category": "C# Language",
+        "complexity": 0.7,
+        "priority": 3,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/csharp/inline-arrays",
+            "description": "Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the \u0060InlineArrayAttribute\u0060. This C# 12 feature enables developers to create custom buffer types with compile-time known sizes, offering a safe alternative to unsafe fixed-size buffers while maintaining performance characteristics similar to arrays with full GC tracking and bounds checking."
+          }
+        }
       }
     ]
   },
   "metadata": {
-    "generated": "2025-09-22T03:14:52.7875319Z",
+    "generated": "2025-09-22T14:02:28.0658394Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

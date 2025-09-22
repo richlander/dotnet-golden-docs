@@ -4,14 +4,25 @@
 
 File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.
 
-## Keywords
+## Official Sources
 
-- file-based apps
-- single-file C#
-- C# scripting
-- dotnet run
-- prototyping
-- automation scripts
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/core/tools/dotnet-run | rendered | dotnet run command documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/ | rendered | Announcing dotnet run app.cs – A simpler way to start with C# and .NET 10 | 2025-09-21 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | .NET 10 announcement with file-based apps | 404 |
+
+## Primary Sources
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+| dotnet/docs | docs/csharp/fundamentals/tutorials/file-based-programs.md | File-based programs tutorial | 0249c38f27 |
+| dotnet/core | release-notes/10.0/preview/preview6/sdk.md | .NET 10.0.0 release notes | 4c489a6a |
+
+## Secondary Sources
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
 
 ## Metadata
 
@@ -39,25 +50,14 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | Synergistic with | Visual Studio Code |
 | Prerequisite | .NET 10 SDK |
 
-## Official Sources
+## Keywords
 
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/tools/dotnet-run | rendered | dotnet run command documentation | 2025-09-20 |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/ | rendered | Announcing dotnet run app.cs – A simpler way to start with C# and .NET 10 | 2025-09-21 |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/ | rendered | .NET 10 announcement with file-based apps | 404 |
-
-## Primary Sources
-
-| Repo | Path | Description | Last Verified |
-| --- | --- | --- | --- |
-| dotnet/docs | docs/csharp/fundamentals/tutorials/file-based-programs.md | File-based programs tutorial | 0249c38f27 |
-| dotnet/core | release-notes/10.0/preview/preview6/sdk.md | .NET 10.0.0 release notes | 4c489a6a |
-
-## Secondary Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
+- file-based apps
+- single-file C#
+- C# scripting
+- dotnet run
+- prototyping
+- automation scripts
 
 ## Critical limitations
 
