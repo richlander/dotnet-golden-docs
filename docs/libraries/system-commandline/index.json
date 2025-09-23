@@ -1,7 +1,7 @@
 {
   "id": "libraries/system-commandline",
   "title": "System.CommandLine",
-  "description": "System.CommandLine is a command-line parsing library for .NET that provides functionality commonly needed by command-line apps, such as parsing command-line input and displaying help text. It offers strongly-typed argument and option parsing, automatic help generation, tab completion, response files, and built-in validation according to POSIX or Windows conventions.",
+  "description": "Command-line parsing library for .NET that provides strongly-typed argument and option parsing, automatic help generation, and tab completion.",
   "keywords": [
     "System.CommandLine",
     "command-line parsing",
@@ -32,7 +32,7 @@
     "self": {
       "name": "self",
       "href": "/libraries/system-commandline",
-      "description": "System.CommandLine is a command-line parsing library for .NET that provides functionality commonly needed by command-line apps, such as parsing command-line input and displaying help text. It offers strongly-typed argument and option parsing, automatic help generation, tab completion, response files, and built-in validation according to POSIX or Windows conventions."
+      "description": "Command-line parsing library for .NET that provides strongly-typed argument and option parsing, automatic help generation, and tab completion."
     },
     "parent": {
       "name": "parent",
@@ -202,7 +202,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0460845Z",
+    "generated": "2025-09-23T02:48:56.4582450Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

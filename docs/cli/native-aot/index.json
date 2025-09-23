@@ -1,7 +1,7 @@
 {
   "id": "cli/native-aot",
   "title": "Native AOT",
-  "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don\u0027t require the .NET runtime to be installed on the target machine.",
+  "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime.",
   "keywords": [
     "Native AOT",
     "ahead-of-time compilation",
@@ -31,7 +31,7 @@
     "self": {
       "name": "self",
       "href": "/cli/native-aot",
-      "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don\u0027t require the .NET runtime to be installed on the target machine."
+      "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime."
     },
     "parent": {
       "name": "parent",
@@ -213,7 +213,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0308119Z",
+    "generated": "2025-09-23T02:48:56.3796780Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

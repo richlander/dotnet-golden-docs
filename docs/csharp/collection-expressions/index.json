@@ -1,7 +1,7 @@
 {
   "id": "csharp/collection-expressions",
   "title": "Collection Expressions",
-  "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation. This feature combines collection expressions (introduced in C# 12) and params collection expressions (introduced in C# 13) to offer a unified, simplified approach to collection initialization and manipulation, replacing more verbose traditional syntax.",
+  "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation, including basic expressions and params collection support.",
   "keywords": [
     "collection expressions",
     "params collection expressions",
@@ -33,7 +33,7 @@
     "self": {
       "name": "self",
       "href": "/csharp/collection-expressions",
-      "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation. This feature combines collection expressions (introduced in C# 12) and params collection expressions (introduced in C# 13) to offer a unified, simplified approach to collection initialization and manipulation, replacing more verbose traditional syntax."
+      "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation, including basic expressions and params collection support."
     },
     "parent": {
       "name": "parent",
@@ -49,6 +49,11 @@
       "name": "Golden Reference Document",
       "href": "/csharp/collection-expressions/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/csharp/collection-expressions/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     }
   },
   "_embedded": {
@@ -217,7 +222,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0342744Z",
+    "generated": "2025-09-23T02:48:56.3920510Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

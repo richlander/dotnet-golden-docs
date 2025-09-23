@@ -1,7 +1,7 @@
 {
   "id": "csharp/csharp-14-features",
   "title": "C# 14 Language Features",
-  "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax.",
+  "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements.",
   "keywords": [
     "C# 14 features",
     "field keyword",
@@ -41,7 +41,7 @@
     "self": {
       "name": "self",
       "href": "/csharp/csharp-14-features",
-      "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax."
+      "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements."
     },
     "parent": {
       "name": "parent",
@@ -244,7 +244,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0361506Z",
+    "generated": "2025-09-23T02:48:56.4059520Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

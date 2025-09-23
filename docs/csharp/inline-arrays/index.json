@@ -1,7 +1,7 @@
 {
   "id": "csharp/inline-arrays",
   "title": "Inline Arrays",
-  "description": "Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the \u0060InlineArrayAttribute\u0060. This C# 12 feature enables developers to create custom buffer types with compile-time known sizes, offering a safe alternative to unsafe fixed-size buffers while maintaining performance characteristics similar to arrays with full GC tracking and bounds checking.",
+  "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers.",
   "keywords": [
     "inline arrays",
     "InlineArrayAttribute",
@@ -42,7 +42,7 @@
     "self": {
       "name": "self",
       "href": "/csharp/inline-arrays",
-      "description": "Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the \u0060InlineArrayAttribute\u0060. This C# 12 feature enables developers to create custom buffer types with compile-time known sizes, offering a safe alternative to unsafe fixed-size buffers while maintaining performance characteristics similar to arrays with full GC tracking and bounds checking."
+      "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers."
     },
     "parent": {
       "name": "parent",
@@ -61,7 +61,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0363559Z",
+    "generated": "2025-09-23T02:48:56.4093350Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

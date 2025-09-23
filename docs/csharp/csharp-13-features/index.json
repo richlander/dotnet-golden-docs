@@ -1,7 +1,7 @@
 {
   "id": "csharp/csharp-13-features",
   "title": "C# 13 Features",
-  "description": "C# 13 is the latest version of the C# programming language, released with .NET 9 in November 2024. It introduces significant enhancements to the params modifier with collection support, new lock object semantics, ref struct improvements, partial members expansion, and several syntax improvements that enhance developer productivity and performance.",
+  "description": "C# 13 introduces params collections, new lock semantics, ref struct improvements, partial properties, and enhanced syntax features for .NET 9.",
   "keywords": [
     "C# 13",
     "params collections",
@@ -31,7 +31,7 @@
     "self": {
       "name": "self",
       "href": "/csharp/csharp-13-features",
-      "description": "C# 13 is the latest version of the C# programming language, released with .NET 9 in November 2024. It introduces significant enhancements to the params modifier with collection support, new lock object semantics, ref struct improvements, partial members expansion, and several syntax improvements that enhance developer productivity and performance."
+      "description": "C# 13 introduces params collections, new lock semantics, ref struct improvements, partial properties, and enhanced syntax features for .NET 9."
     },
     "parent": {
       "name": "parent",
@@ -50,7 +50,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0344498Z",
+    "generated": "2025-09-23T02:48:56.3948580Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

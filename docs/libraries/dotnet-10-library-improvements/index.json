@@ -1,7 +1,7 @@
 {
   "id": "libraries/dotnet-10-library-improvements",
   "title": ".NET 10 Libraries Features",
-  "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios.",
+  "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations.",
   "keywords": [
     ".NET 10 libraries",
     "library improvements",
@@ -24,7 +24,7 @@
     "self": {
       "name": "self",
       "href": "/libraries/dotnet-10-library-improvements",
-      "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios."
+      "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations."
     },
     "parent": {
       "name": "parent",
@@ -218,7 +218,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0438399Z",
+    "generated": "2025-09-23T02:48:56.4520610Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

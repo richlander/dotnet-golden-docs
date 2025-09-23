@@ -1,7 +1,7 @@
 {
   "id": "libraries",
   "title": ".NET Libraries",
-  "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages.",
+  "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios.",
   "keywords": [
     ".NET libraries",
     "Base Class Library",
@@ -24,7 +24,7 @@
     "self": {
       "name": "self",
       "href": "/libraries",
-      "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages."
+      "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios."
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -190,7 +190,7 @@
           "self": {
             "name": "self",
             "href": "/libraries/system-text-json",
-            "description": "System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0\u002B that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). It emphasizes performance and low memory allocation over extensive features, with built-in UTF-8 support optimized for web and file operations."
+            "description": "System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0\u002B that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON)."
           }
         }
       },
@@ -204,7 +204,7 @@
           "self": {
             "name": "self",
             "href": "/libraries/dotnet-10-library-improvements",
-            "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios."
+            "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations."
           }
         }
       },
@@ -218,14 +218,14 @@
           "self": {
             "name": "self",
             "href": "/libraries/system-commandline",
-            "description": "System.CommandLine is a command-line parsing library for .NET that provides functionality commonly needed by command-line apps, such as parsing command-line input and displaying help text. It offers strongly-typed argument and option parsing, automatic help generation, tab completion, response files, and built-in validation according to POSIX or Windows conventions."
+            "description": "Command-line parsing library for .NET that provides strongly-typed argument and option parsing, automatic help generation, and tab completion."
           }
         }
       }
     ]
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0784229Z",
+    "generated": "2025-09-23T02:48:56.5436740Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

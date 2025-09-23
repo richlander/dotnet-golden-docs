@@ -1,7 +1,7 @@
 {
   "id": "extensions/microsoft-extensions-ai",
   "title": "Microsoft.Extensions.AI",
-  "description": "Microsoft.Extensions.AI provides a unified approach for .NET developers to integrate and interact with artificial intelligence (AI) services in their applications. It offers standardized interfaces and higher-level utilities for working with generative AI components, enabling seamless integration and interoperability with various AI services through familiar dependency injection and middleware patterns.",
+  "description": "Unified approach for .NET developers to integrate and interact with AI services through standardized interfaces and middleware patterns.",
   "keywords": [
     "Microsoft.Extensions.AI",
     "AI abstractions",
@@ -28,7 +28,7 @@
     "self": {
       "name": "self",
       "href": "/extensions/microsoft-extensions-ai",
-      "description": "Microsoft.Extensions.AI provides a unified approach for .NET developers to integrate and interact with artificial intelligence (AI) services in their applications. It offers standardized interfaces and higher-level utilities for working with generative AI components, enabling seamless integration and interoperability with various AI services through familiar dependency injection and middleware patterns."
+      "description": "Unified approach for .NET developers to integrate and interact with AI services through standardized interfaces and middleware patterns."
     },
     "parent": {
       "name": "parent",
@@ -222,7 +222,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0380664Z",
+    "generated": "2025-09-23T02:48:56.4155470Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

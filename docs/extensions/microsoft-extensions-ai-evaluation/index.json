@@ -1,7 +1,7 @@
 {
   "id": "extensions/microsoft-extensions-ai-evaluation",
   "title": "Microsoft.Extensions.AI.Evaluation",
-  "description": "Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries designed to support building evaluation processes for AI software quality and safety. It provides abstractions, evaluators, and reporting tools to assess AI responses across multiple dimensions including quality metrics (relevance, fluency, coherence), safety evaluations (harmful content detection), and NLP metrics (BLEU, F1 scores).",
+  "description": "Comprehensive set of libraries for evaluating AI software quality and safety through metrics, safety checks, and reporting tools.",
   "keywords": [
     "AI evaluation",
     "AI quality assessment",
@@ -27,7 +27,7 @@
     "self": {
       "name": "self",
       "href": "/extensions/microsoft-extensions-ai-evaluation",
-      "description": "Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries designed to support building evaluation processes for AI software quality and safety. It provides abstractions, evaluators, and reporting tools to assess AI responses across multiple dimensions including quality metrics (relevance, fluency, coherence), safety evaluations (harmful content detection), and NLP metrics (BLEU, F1 scores)."
+      "description": "Comprehensive set of libraries for evaluating AI software quality and safety through metrics, safety checks, and reporting tools."
     },
     "parent": {
       "name": "parent",
@@ -221,7 +221,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0398420Z",
+    "generated": "2025-09-23T02:48:56.4224750Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -1,7 +1,7 @@
 {
   "id": "csharp",
   "title": "C# Language",
-  "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment.",
+  "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code.",
   "keywords": [
     "C# language",
     "programming language",
@@ -24,7 +24,7 @@
     "self": {
       "name": "self",
       "href": "/csharp",
-      "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment."
+      "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code."
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -190,7 +190,7 @@
           "self": {
             "name": "self",
             "href": "/csharp/csharp-13-features",
-            "description": "C# 13 is the latest version of the C# programming language, released with .NET 9 in November 2024. It introduces significant enhancements to the params modifier with collection support, new lock object semantics, ref struct improvements, partial members expansion, and several syntax improvements that enhance developer productivity and performance."
+            "description": "C# 13 introduces params collections, new lock semantics, ref struct improvements, partial properties, and enhanced syntax features for .NET 9."
           }
         }
       },
@@ -204,7 +204,7 @@
           "self": {
             "name": "self",
             "href": "/csharp/collection-expressions",
-            "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation. This feature combines collection expressions (introduced in C# 12) and params collection expressions (introduced in C# 13) to offer a unified, simplified approach to collection initialization and manipulation, replacing more verbose traditional syntax."
+            "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation, including basic expressions and params collection support."
           }
         }
       },
@@ -218,7 +218,7 @@
           "self": {
             "name": "self",
             "href": "/csharp/csharp-14-features",
-            "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax."
+            "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements."
           }
         }
       },
@@ -232,14 +232,14 @@
           "self": {
             "name": "self",
             "href": "/csharp/inline-arrays",
-            "description": "Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the \u0060InlineArrayAttribute\u0060. This C# 12 feature enables developers to create custom buffer types with compile-time known sizes, offering a safe alternative to unsafe fixed-size buffers while maintaining performance characteristics similar to arrays with full GC tracking and bounds checking."
+            "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers."
           }
         }
       }
     ]
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0658394Z",
+    "generated": "2025-09-23T02:48:56.5138910Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

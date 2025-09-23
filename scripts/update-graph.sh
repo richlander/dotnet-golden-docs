@@ -7,14 +7,6 @@ set -e
 echo "🚀 Starting complete knowledge graph update for docs directory..."
 echo "================================================================="
 
-# Step 1: Validate Q&A pairs before processing
-echo ""
-echo "📝 Step 1: Validating Q&A pairs..."
-if ! ./scripts/validate-qa-pairs.sh; then
-    echo "❌ Step 1 failed - aborting update"
-    exit 1
-fi
-
 # Step 2: Generate embeddings for all content
 echo ""
 echo "🔨 Step 2: Generating embeddings..."

@@ -1,7 +1,7 @@
 {
   "id": "extensions/microsoft-extensions-http-resilience",
   "title": "Microsoft.Extensions.Http.Resilience",
-  "description": "Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClient built on the Polly framework. It offers pre-configured resilience patterns including retry policies, circuit breakers, hedging strategies, rate limiting, and timeouts to ensure reliable HTTP communication in production applications.",
+  "description": "Resilience mechanisms for HttpClient built on Polly framework with pre-configured patterns for retry, circuit breaking, hedging, and rate limiting.",
   "keywords": [
     "HTTP resilience",
     "Polly integration",
@@ -27,7 +27,7 @@
     "self": {
       "name": "self",
       "href": "/extensions/microsoft-extensions-http-resilience",
-      "description": "Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClient built on the Polly framework. It offers pre-configured resilience patterns including retry policies, circuit breakers, hedging strategies, rate limiting, and timeouts to ensure reliable HTTP communication in production applications."
+      "description": "Resilience mechanisms for HttpClient built on Polly framework with pre-configured patterns for retry, circuit breaking, hedging, and rate limiting."
     },
     "parent": {
       "name": "parent",
@@ -211,7 +211,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0420119Z",
+    "generated": "2025-09-23T02:48:56.4342790Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

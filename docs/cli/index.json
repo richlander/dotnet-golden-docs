@@ -1,7 +1,7 @@
 {
   "id": "cli",
   "title": "CLI",
-  "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle.",
+  "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications.",
   "keywords": [
     ".NET CLI",
     "command-line interface",
@@ -24,7 +24,7 @@
     "self": {
       "name": "self",
       "href": "/cli",
-      "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle."
+      "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications."
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -167,7 +167,7 @@
           "self": {
             "name": "self",
             "href": "/cli/build-and-compilation",
-            "description": "Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment. This includes the core commands \u0060dotnet build\u0060, \u0060dotnet restore\u0060, \u0060dotnet clean\u0060, along with MSBuild integration, multi-targeting, and build optimization strategies."
+            "description": "Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment."
           }
         }
       },
@@ -181,7 +181,7 @@
           "self": {
             "name": "self",
             "href": "/cli/publishing-and-deployment",
-            "description": "Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. This covers all publishing modes from framework-dependent to self-contained, single-file, Native AOT, and container deployment, along with the decision matrix for choosing appropriate deployment strategies."
+            "description": "Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies."
           }
         }
       },
@@ -195,7 +195,7 @@
           "self": {
             "name": "self",
             "href": "/cli/assembly-trimming",
-            "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. The trimmer performs build-time analysis to identify and eliminate code that is not statically reachable, significantly reducing deployment size while maintaining application functionality."
+            "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies."
           }
         }
       },
@@ -209,7 +209,7 @@
           "self": {
             "name": "self",
             "href": "/cli/file-based-apps",
-            "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities."
+            "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure."
           }
         }
       },
@@ -223,14 +223,14 @@
           "self": {
             "name": "self",
             "href": "/cli/native-aot",
-            "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don\u0027t require the .NET runtime to be installed on the target machine."
+            "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime."
           }
         }
       }
     ]
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0565600Z",
+    "generated": "2025-09-23T02:48:56.4932490Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

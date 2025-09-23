@@ -31,7 +31,7 @@
           "self": {
             "name": "self",
             "href": "/cli",
-            "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle."
+            "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications."
           }
         }
       },
@@ -45,7 +45,7 @@
           "self": {
             "name": "self",
             "href": "/csharp",
-            "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment."
+            "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code."
           }
         }
       },
@@ -59,7 +59,7 @@
           "self": {
             "name": "self",
             "href": "/dotnet",
-            "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps."
+            "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications."
           }
         }
       },
@@ -73,7 +73,7 @@
           "self": {
             "name": "self",
             "href": "/extensions",
-            "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components. This category encompasses libraries that extend .NET\u0027s capabilities in areas like AI integration, dependency injection, configuration, logging, caching, and other cross-cutting concerns using familiar .NET patterns and conventions."
+            "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components."
           }
         }
       },
@@ -87,14 +87,14 @@
           "self": {
             "name": "self",
             "href": "/libraries",
-            "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages."
+            "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios."
           }
         }
       }
     ]
   },
   "metadata": {
-    "generated": "2025-09-22T14:02:28.0832878Z",
+    "generated": "2025-09-23T02:48:56.5560360Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,
