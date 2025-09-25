@@ -1,0 +1,257 @@
+{
+  "id": "libraries/system-text-json-source-generation",
+  "title": "System.Text.Json Source Generation",
+  "description": "Compile-time generation of JSON serialization code for high-performance, AOT-compatible operations with automatic property naming and type-safe generic support.",
+  "keywords": [
+    "System.Text.Json source generation",
+    "JsonSerializerContext",
+    "JsonSourceGenerationOptions",
+    "JsonSerializable attribute",
+    "AOT-compatible JSON",
+    "JsonTypeInfo",
+    "Compile-time serialization",
+    "Source generators",
+    "Property naming policies",
+    "Generic JSON serialization"
+  ],
+  "diagnostic_codes": [
+    "IL2026",
+    "IL2055",
+    "IL2057",
+    "IL2070",
+    "IL2087",
+    "IL2091",
+    "IL3050",
+    "SYSLIB0020",
+    "SYSLIB0049",
+    "SYSLIB1030",
+    "SYSLIB1031",
+    "SYSLIB1032",
+    "SYSLIB1033",
+    "SYSLIB1034",
+    "SYSLIB1035",
+    "SYSLIB1036",
+    "SYSLIB1037",
+    "SYSLIB1038",
+    "SYSLIB1039",
+    "SYSLIB1220",
+    "SYSLIB1222",
+    "SYSLIB1223",
+    "SYSLIB1225"
+  ],
+  "category": "Libraries",
+  "complexity": 0.45,
+  "priority": 2,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "6.0",
+    "year": "2021"
+  },
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/libraries/system-text-json-source-generation",
+      "description": "Compile-time generation of JSON serialization code for high-performance, AOT-compatible operations with automatic property naming and type-safe generic support."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/libraries",
+      "description": "Libraries category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/system-text-json-source-generation/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/system-text-json-source-generation/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/libraries/system-text-json-source-generation/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    }
+  },
+  "_embedded": {
+    "similar_categories": [
+      {
+        "category": "libraries",
+        "index": "/libraries/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "libraries/system-text-json",
+            "name": "System.Text.Json",
+            "path": "libraries/system-text-json",
+            "index": "libraries/system-text-json/index.json",
+            "similarity": 0.8638
+          },
+          {
+            "id": "libraries/dotnet-10-library-improvements",
+            "name": ".NET 10 Libraries Features",
+            "path": "libraries/dotnet-10-library-improvements",
+            "index": "libraries/dotnet-10-library-improvements/index.json",
+            "similarity": 0.6796
+          },
+          {
+            "id": "libraries/system-commandline",
+            "name": "System.CommandLine",
+            "path": "libraries/system-commandline",
+            "index": "libraries/system-commandline/index.json",
+            "similarity": 0.6766
+          }
+        ]
+      },
+      {
+        "category": "cli",
+        "index": "/cli/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "cli/native-aot",
+            "name": "Native AOT",
+            "path": "cli/native-aot",
+            "index": "cli/native-aot/index.json",
+            "similarity": 0.7659
+          },
+          {
+            "id": "cli/file-based-apps",
+            "name": "File-based apps",
+            "path": "cli/file-based-apps",
+            "index": "cli/file-based-apps/index.json",
+            "similarity": 0.6652
+          },
+          {
+            "id": "cli/assembly-trimming",
+            "name": "Assembly Trimming",
+            "path": "cli/assembly-trimming",
+            "index": "cli/assembly-trimming/index.json",
+            "similarity": 0.6555
+          },
+          {
+            "id": "cli/publishing-and-deployment",
+            "name": "Publishing and Deployment",
+            "path": "cli/publishing-and-deployment",
+            "index": "cli/publishing-and-deployment/index.json",
+            "similarity": 0.6544
+          }
+        ]
+      },
+      {
+        "category": "dotnet",
+        "index": "/dotnet/index.json",
+        "similarity_threshold": 0.5,
+        "topics": [
+          {
+            "id": "dotnet",
+            "name": ".NET Platform",
+            "path": "dotnet",
+            "index": "dotnet/index.json",
+            "similarity": 0.6713
+          }
+        ]
+      }
+    ],
+    "similar_topics": {
+      "baseline": "golden-reference.md",
+      "similarity_threshold": 0.6142,
+      "topics": [
+        {
+          "id": "libraries/system-text-json",
+          "name": "System.Text.Json",
+          "path": "libraries/system-text-json",
+          "index": "libraries/system-text-json/index.json",
+          "similarity": 0.8638
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.7659
+        },
+        {
+          "id": "libraries/dotnet-10-library-improvements",
+          "name": ".NET 10 Libraries Features",
+          "path": "libraries/dotnet-10-library-improvements",
+          "index": "libraries/dotnet-10-library-improvements/index.json",
+          "similarity": 0.6796
+        },
+        {
+          "id": "libraries/system-commandline",
+          "name": "System.CommandLine",
+          "path": "libraries/system-commandline",
+          "index": "libraries/system-commandline/index.json",
+          "similarity": 0.6766
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET Platform",
+          "path": "dotnet",
+          "index": "dotnet/index.json",
+          "similarity": 0.6713
+        },
+        {
+          "id": "csharp/object-initialization",
+          "name": "Object Initialization",
+          "path": "csharp/object-initialization",
+          "index": "csharp/object-initialization/index.json",
+          "similarity": 0.6711
+        },
+        {
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.6652
+        },
+        {
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.66
+        },
+        {
+          "id": "cli/assembly-trimming",
+          "name": "Assembly Trimming",
+          "path": "cli/assembly-trimming",
+          "index": "cli/assembly-trimming/index.json",
+          "similarity": 0.6555
+        },
+        {
+          "id": "cli/publishing-and-deployment",
+          "name": "Publishing and Deployment",
+          "path": "cli/publishing-and-deployment",
+          "index": "cli/publishing-and-deployment/index.json",
+          "similarity": 0.6544
+        },
+        {
+          "id": "csharp/collection-initialization",
+          "name": "Collection Initialization",
+          "path": "csharp/collection-initialization",
+          "index": "csharp/collection-initialization/index.json",
+          "similarity": 0.6382
+        },
+        {
+          "id": "extensions/microsoft-extensions-ai-evaluation",
+          "name": "Microsoft.Extensions.AI.Evaluation",
+          "path": "extensions/microsoft-extensions-ai-evaluation",
+          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+          "similarity": 0.6227
+        }
+      ]
+    },
+    "topics": null
+  },
+  "metadata": {
+    "generated": "2025-09-25T16:53:14.6269370Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

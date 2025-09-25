@@ -1,3 +1,3 @@
 | Topic (libraries) | Neighbor (dotnet) | Similarity |
 |-------------|-------------------|------------|
-| libraries/dotnet-10-library-improvements | dotnet | 0.5505 |
+| libraries/dotnet-10-library-improvements | dotnet | 0.7536 |

@@ -1,4 +1,5 @@
 | Topic (extensions) | Neighbor (csharp) | Similarity |
 |-------------|-------------------|------------|
-| extensions/microsoft-extensions-ai-evaluation | csharp/csharp-14-features | 0.6235 |
-| extensions/microsoft-extensions-ai-evaluation | csharp/collection-expressions | 0.5607 |
+| extensions/microsoft-extensions-ai-evaluation | csharp/csharp-14-features | 0.6318 |
+| extensions/microsoft-extensions-ai-evaluation | csharp | 0.5970 |
+| extensions/microsoft-extensions-ai-evaluation | csharp/object-initialization | 0.5472 |

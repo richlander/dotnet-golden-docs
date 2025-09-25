@@ -14,10 +14,22 @@ fi
 
 echo "🔍 Analyzing similarities across docs directory..."
 
-# Set unified environment variables for LLM infrastructure (works across all tools)
+# Provider-First Configuration - Comment out providers you're not using
+
+# Ollama Configuration (default)
 export LLM_PROVIDER=ollama
+export LLM_MODEL=mxbai-embed-large
 export LLM_BASE_URL="http://merritt:11434"
-export OLLAMA_MODEL=mxbai-embed-large
+
+# OpenAI Configuration
+# export LLM_PROVIDER=openai
+# export LLM_MODEL=text-embedding-3-large
+# export OPENAI_API_KEY="your-openai-api-key"
+
+# OpenRouter Configuration
+# export LLM_PROVIDER=openrouter
+# export LLM_MODEL=text-embedding-3-large
+# export OPENROUTER_API_KEY="your-openrouter-api-key"
 
 # Analyze similarities and generate reports for docs directory only
 embedding-tool update-similarities --path docs

@@ -64,18 +64,18 @@
         "similarity_threshold": 0.5,
         "topics": [
           {
-            "id": "extensions/microsoft-extensions-http-resilience",
-            "name": "Microsoft.Extensions.Http.Resilience",
-            "path": "extensions/microsoft-extensions-http-resilience",
-            "index": "extensions/microsoft-extensions-http-resilience/index.json",
-            "similarity": 0.6422
-          },
-          {
             "id": "extensions/microsoft-extensions-ai-evaluation",
             "name": "Microsoft.Extensions.AI.Evaluation",
             "path": "extensions/microsoft-extensions-ai-evaluation",
             "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
-            "similarity": 0.6149
+            "similarity": 0.8264
+          },
+          {
+            "id": "extensions/microsoft-extensions-http-resilience",
+            "name": "Microsoft.Extensions.Http.Resilience",
+            "path": "extensions/microsoft-extensions-http-resilience",
+            "index": "extensions/microsoft-extensions-http-resilience/index.json",
+            "similarity": 0.6772
           }
         ]
       },
@@ -89,140 +89,133 @@
             "name": ".NET Libraries",
             "path": "libraries",
             "index": "libraries/index.json",
-            "similarity": 0.6324
-          },
-          {
-            "id": "libraries/system-commandline",
-            "name": "System.CommandLine",
-            "path": "libraries/system-commandline",
-            "index": "libraries/system-commandline/index.json",
-            "similarity": 0.5889
+            "similarity": 0.7289
           },
           {
             "id": "libraries/dotnet-10-library-improvements",
             "name": ".NET 10 Libraries Features",
             "path": "libraries/dotnet-10-library-improvements",
             "index": "libraries/dotnet-10-library-improvements/index.json",
-            "similarity": 0.5515
+            "similarity": 0.6675
+          },
+          {
+            "id": "libraries/system-commandline",
+            "name": "System.CommandLine",
+            "path": "libraries/system-commandline",
+            "index": "libraries/system-commandline/index.json",
+            "similarity": 0.6362
           }
         ]
       },
       {
-        "category": "csharp",
-        "index": "/csharp/index.json",
+        "category": "dotnet",
+        "index": "/dotnet/index.json",
         "similarity_threshold": 0.5,
         "topics": [
           {
-            "id": "csharp/csharp-14-features",
-            "name": "C# 14 Language Features",
-            "path": "csharp/csharp-14-features",
-            "index": "csharp/csharp-14-features/index.json",
-            "similarity": 0.6097
-          },
-          {
-            "id": "csharp",
-            "name": "C# Language",
-            "path": "csharp",
-            "index": "csharp/index.json",
-            "similarity": 0.5895
+            "id": "dotnet",
+            "name": ".NET Platform",
+            "path": "dotnet",
+            "index": "dotnet/index.json",
+            "similarity": 0.7116
           }
         ]
       }
     ],
     "similar_topics": {
       "baseline": "golden-reference.md",
-      "similarity_threshold": 0.5067,
+      "similarity_threshold": 0.6026,
       "topics": [
         {
-          "id": "extensions/microsoft-extensions-http-resilience",
-          "name": "Microsoft.Extensions.Http.Resilience",
-          "path": "extensions/microsoft-extensions-http-resilience",
-          "index": "extensions/microsoft-extensions-http-resilience/index.json",
-          "similarity": 0.6422
+          "id": "extensions/microsoft-extensions-ai-evaluation",
+          "name": "Microsoft.Extensions.AI.Evaluation",
+          "path": "extensions/microsoft-extensions-ai-evaluation",
+          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
+          "similarity": 0.8264
         },
         {
           "id": "libraries",
           "name": ".NET Libraries",
           "path": "libraries",
           "index": "libraries/index.json",
-          "similarity": 0.6324
-        },
-        {
-          "id": "extensions/microsoft-extensions-ai-evaluation",
-          "name": "Microsoft.Extensions.AI.Evaluation",
-          "path": "extensions/microsoft-extensions-ai-evaluation",
-          "index": "extensions/microsoft-extensions-ai-evaluation/index.json",
-          "similarity": 0.6149
-        },
-        {
-          "id": "csharp/csharp-14-features",
-          "name": "C# 14 Language Features",
-          "path": "csharp/csharp-14-features",
-          "index": "csharp/csharp-14-features/index.json",
-          "similarity": 0.6097
-        },
-        {
-          "id": "cli/assembly-trimming",
-          "name": "Assembly Trimming",
-          "path": "cli/assembly-trimming",
-          "index": "cli/assembly-trimming/index.json",
-          "similarity": 0.5998
-        },
-        {
-          "id": "csharp",
-          "name": "C# Language",
-          "path": "csharp",
-          "index": "csharp/index.json",
-          "similarity": 0.5895
-        },
-        {
-          "id": "libraries/system-commandline",
-          "name": "System.CommandLine",
-          "path": "libraries/system-commandline",
-          "index": "libraries/system-commandline/index.json",
-          "similarity": 0.5889
+          "similarity": 0.7289
         },
         {
           "id": "dotnet",
           "name": ".NET Platform",
           "path": "dotnet",
           "index": "dotnet/index.json",
-          "similarity": 0.5765
+          "similarity": 0.7116
         },
         {
-          "id": "cli/file-based-apps",
-          "name": "File-based apps",
-          "path": "cli/file-based-apps",
-          "index": "cli/file-based-apps/index.json",
-          "similarity": 0.5604
-        },
-        {
-          "id": "libraries/dotnet-10-library-improvements",
-          "name": ".NET 10 Libraries Features",
-          "path": "libraries/dotnet-10-library-improvements",
-          "index": "libraries/dotnet-10-library-improvements/index.json",
-          "similarity": 0.5515
-        },
-        {
-          "id": "cli/publishing-and-deployment",
-          "name": "Publishing and Deployment",
-          "path": "cli/publishing-and-deployment",
-          "index": "cli/publishing-and-deployment/index.json",
-          "similarity": 0.508
+          "id": "extensions/microsoft-extensions-http-resilience",
+          "name": "Microsoft.Extensions.Http.Resilience",
+          "path": "extensions/microsoft-extensions-http-resilience",
+          "index": "extensions/microsoft-extensions-http-resilience/index.json",
+          "similarity": 0.6772
         },
         {
           "id": "cli",
           "name": "CLI",
           "path": "cli",
           "index": "cli/index.json",
-          "similarity": 0.5067
+          "similarity": 0.6702
+        },
+        {
+          "id": "libraries/dotnet-10-library-improvements",
+          "name": ".NET 10 Libraries Features",
+          "path": "libraries/dotnet-10-library-improvements",
+          "index": "libraries/dotnet-10-library-improvements/index.json",
+          "similarity": 0.6675
+        },
+        {
+          "id": "csharp/csharp-14-features",
+          "name": "C# 14 Language Features",
+          "path": "csharp/csharp-14-features",
+          "index": "csharp/csharp-14-features/index.json",
+          "similarity": 0.6539
+        },
+        {
+          "id": "cli/file-based-apps",
+          "name": "File-based apps",
+          "path": "cli/file-based-apps",
+          "index": "cli/file-based-apps/index.json",
+          "similarity": 0.6518
+        },
+        {
+          "id": "cli/native-aot",
+          "name": "Native AOT",
+          "path": "cli/native-aot",
+          "index": "cli/native-aot/index.json",
+          "similarity": 0.6484
+        },
+        {
+          "id": "libraries/system-commandline",
+          "name": "System.CommandLine",
+          "path": "libraries/system-commandline",
+          "index": "libraries/system-commandline/index.json",
+          "similarity": 0.6362
+        },
+        {
+          "id": "csharp",
+          "name": "C# Language",
+          "path": "csharp",
+          "index": "csharp/index.json",
+          "similarity": 0.6222
+        },
+        {
+          "id": "cli/publishing-and-deployment",
+          "name": "Publishing and Deployment",
+          "path": "cli/publishing-and-deployment",
+          "index": "cli/publishing-and-deployment/index.json",
+          "similarity": 0.6098
         }
       ]
     },
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-23T02:48:56.4155470Z",
+    "generated": "2025-09-25T16:53:14.5445990Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

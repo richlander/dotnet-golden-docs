@@ -1,5 +1,5 @@
 | Topic (cli) | Neighbor (cli) | Similarity |
 |-------------|-------------------|------------|
-| cli/assembly-trimming | cli/native-aot | 0.6331 |
-| cli/assembly-trimming | cli | 0.5393 |
-| cli/assembly-trimming | cli/publishing-and-deployment | 0.5269 |
+| cli/assembly-trimming | cli/build-and-compilation | 0.7272 |
+| cli/assembly-trimming | cli/native-aot | 0.7122 |
+| cli/assembly-trimming | cli/publishing-and-deployment | 0.7049 |

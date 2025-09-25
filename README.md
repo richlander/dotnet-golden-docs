@@ -1,75 +1,69 @@
 # .NET Golden LLM Documentation
 
-This repository contains curated .NET documentation with structured topic specifications, semantic analysis, and embedding-based content organization for LLM consumption.
+**Source Graph Repository** - Curated .NET documentation and project coordination hub for a comprehensive LLM documentation system.
 
-## What This Is
+> 📖 **[See ARCHITECTURE.md](ARCHITECTURE.md)** for complete system overview, process flow, and multi-repository coordination.
 
-Structured .NET Knowledge Base: 12+ comprehensive topic specifications covering the .NET ecosystem, from C# language features to CLI tools, with semantic relationship mapping and embedding-based similarity analysis.
+## What This Repository Contains
 
-Key Features:
-- Topic specifications with metadata, sources, and relationships
-- Semantic embedding and similarity analysis
-- LLM-optimized content structure
-- Automated cross-topic relationship discovery
+This is the **source graph** in a three-repository system that creates high-quality, LLM-optimized .NET documentation:
+
+- **High-quality curated content** - Golden reference documents and structured topic specifications
+- **Project coordination** - Architecture documentation, format specifications, and validation standards
+- **Content foundation** - Source material that feeds the content generation pipeline
 
 ## Repository Structure
 
 ```text
 llm-docs-workspace/
-├── dotnet-golden-llm-docs/     # THIS REPO - Curated content with topic specs
-└── dotnet-docs-llm-tools/      # Embedding and similarity analysis tools
+├── dotnet-golden-llm-docs/     # THIS REPO - Source graph and project coordination
+├── dotnet-docs-llm-tools/      # Unified toolchain for both graphs
+└── dotnet-docs-llms/           # Consumption graph - Generated LLM-optimized content
 ```
 
-dotnet-golden-llm-docs (this repository):
-- Topic specifications with official sources and metadata
-- Structured content for 12+ .NET topics
-- Generated embeddings and similarity analysis in `_embeddings/` and `_similarities/`
+## Quick Start
 
-dotnet-docs-llm-tools:
-- Embedding generation and management
-- Semantic similarity analysis
-- Cross-topic relationship discovery
+### For Project Contributors
+1. Read [ARCHITECTURE.md](ARCHITECTURE.md) for system overview
+2. Review format documentation for content standards:
+   - [golden-reference-format.md](templates/golden-reference-format.md) - Authoritative content format
+   - [qa-pairs-format.md](templates/qa-pairs-format.md) - Validation question-answer pairs
+   - [topic-spec-format.md](templates/topic-spec-format.md) - Topic organization and metadata
+3. Browse [docs/](docs/) for existing topic implementations
 
-## Getting Started
+### For LLMs/AI Agents
+- **Primary content**: Browse [docs/](docs/) for topic specifications and golden references
+- **Format understanding**: Read format documentation files for structure specifications
+- **Cross-topic relationships**: Check `_similarities/` directories when available
 
-For LLMs/AI Agents:
-- Browse [docs/](docs/) for topic specifications
-- Read [topic-spec-format.md](topic-spec-format.md) for structure
-- Check `_similarities/` directories for cross-topic relationships
+### For Content Generation
+1. Install and configure tools from `../dotnet-docs-llm-tools/`
+2. Run the complete pipeline to generate consumption-ready documentation
+3. Use validation tools to ensure quality standards
 
-For Humans:
-- See [docs/topic-spec.md](docs/topic-spec.md) for the platform overview
-- Review individual topic specs like [docs/csharp/topic-spec.md](docs/csharp/topic-spec.md)
-- Use the embedding tools in `../dotnet-docs-llm-tools/` for analysis
+## Content Coverage
 
-## Content Organization
+Current topics span the .NET ecosystem with structured specifications:
+- **Platform**: Overall .NET platform overview and fundamentals
+- **CLI Tools**: Command-line interfaces and development tools
+- **C# Language**: Core language features and syntax
+- **Libraries**: Key .NET libraries including System.Text.Json, file I/O, and more
+- **Advanced Topics**: Native AOT, performance optimization, and specialized scenarios
 
-- Platform: [docs/topic-spec.md](docs/topic-spec.md) - Overall .NET platform
-- Categories: CLI, C# Language, Libraries, etc.
-- Topics: 12+ specific areas like file-based apps, System.Text.Json, Native AOT
-- Metadata: Complexity scores, audience, version info, official sources
+Each topic includes:
+- Golden reference documentation
+- Validation question-answer pairs
+- Complexity scores and audience targeting
+- Official source references and metadata
 
-## Tools Usage
+## Tools Integration
 
-The embedding tools provide semantic analysis capabilities:
+This repository works with the unified toolchain in `../dotnet-docs-llm-tools/`:
 
-```bash
-# Generate embeddings for all content
-cd ../dotnet-docs-llm-tools
-dotnet run -- update-embeddings --path ./docs
+- **Index Tool** - Generates navigation structure and HAL+JSON graphs
+- **Embedding Tool** - Creates semantic analysis using nomadic embedding model
+- **CopyGraph Tool** - Copies curated content to consumption graph
+- **ContentGenerator** - Creates LLM-optimized content from source materials
+- **Validation Tools** - Ensures quality through similarity testing and token budget validation
 
-# Generate similarity analysis
-dotnet run -- update-similarities --path ./docs
-
-# Clean all generated files
-dotnet run -- clean --path ./docs
-```
-
-Generated files:
-- `_embeddings/` - Per-file and topic-level embeddings
-- `_similarities/` - Cross-topic relationship analysis
-- `embedding-model.txt` - Model configuration
-
-## Topic Coverage
-
-Current topics include C# language features, CLI tools, and core libraries, with complexity ratings and audience targeting for LLM training optimization.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for complete process flow and tool usage.

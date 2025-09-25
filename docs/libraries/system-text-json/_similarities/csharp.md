@@ -1,4 +1,5 @@
 | Topic (libraries) | Neighbor (csharp) | Similarity |
 |-------------|-------------------|------------|
-| libraries/system-text-json | csharp | 0.6033 |
-| libraries/system-text-json | csharp/csharp-14-features | 0.5879 |
+| libraries/system-text-json | csharp/csharp-14-features | 0.7225 |
+| libraries/system-text-json | csharp | 0.7046 |
+| libraries/system-text-json | csharp/object-initialization | 0.6963 |
