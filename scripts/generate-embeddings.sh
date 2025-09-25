@@ -14,8 +14,10 @@ fi
 
 echo "🔨 Generating embeddings for docs directory..."
 
-# Set Ollama server using .NET configuration environment variable format
-export Embedding__BaseUrl="http://merritt:11434"
+# Set unified environment variables for LLM infrastructure
+export LLM_PROVIDER=ollama
+export LLM_BASE_URL="http://merritt:11434"
+export OLLAMA_MODEL=mxbai-embed-large
 
 # Generate embeddings for docs directory only
 embedding-tool update-embeddings --path docs

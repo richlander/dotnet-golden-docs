@@ -14,8 +14,10 @@ fi
 
 echo "🔍 Analyzing similarities across docs directory..."
 
-# Set Ollama server using .NET configuration environment variable format
-export Embedding__BaseUrl="http://merritt:11434"
+# Set unified environment variables for LLM infrastructure (works across all tools)
+export LLM_PROVIDER=ollama
+export LLM_BASE_URL="http://merritt:11434"
+export OLLAMA_MODEL=mxbai-embed-large
 
 # Analyze similarities and generate reports for docs directory only
 embedding-tool update-similarities --path docs
