@@ -1,4 +1,4 @@
-# Build and Compilation - Golden Reference
+# Build and Compilation
 
 ## Overview
 

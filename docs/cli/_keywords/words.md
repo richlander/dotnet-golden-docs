@@ -1,0 +1,122 @@
+# Unified Local Analysis
+
+Combined 5 compound terms and 110 single words
+Total unique terms: 114
+Total term occurrences: 404
+
+| Term | Type | Count | Document Concentration |
+|------|------|-------|------------------------|
+| cli | single | 23 | 0.0266 |
+| development | single | 13 | 0.0150 |
+| package | single | 13 | 0.0150 |
+| tools | single | 13 | 0.0150 |
+| commands | single | 9 | 0.0104 |
+| across | single | 8 | 0.0092 |
+| global | single | 8 | 0.0092 |
+| project | single | 8 | 0.0092 |
+| runtime | single | 8 | 0.0092 |
+| builds | single | 7 | 0.0081 |
+| integration | single | 6 | 0.0069 |
+| patterns | single | 6 | 0.0069 |
+| projects | single | 6 | 0.0069 |
+| command-line | compound | 5 | 0.0058 |
+| consistent | single | 5 | 0.0058 |
+| operations | single | 5 | 0.0058 |
+| provides | single | 5 | 0.0058 |
+| restore | single | 5 | 0.0058 |
+| sdk | single | 5 | 0.0058 |
+| support | single | 5 | 0.0058 |
+| cache | single | 4 | 0.0046 |
+| code | single | 4 | 0.0046 |
+| deployment | single | 4 | 0.0046 |
+| limitations | single | 4 | 0.0046 |
+| multiple | single | 4 | 0.0046 |
+| path | single | 4 | 0.0046 |
+| scenarios | single | 4 | 0.0046 |
+| solution | single | 4 | 0.0046 |
+| system | single | 4 | 0.0046 |
+| team | single | 4 | 0.0046 |
+| tool | single | 4 | 0.0046 |
+| visual | single | 4 | 0.0046 |
+| windows | single | 4 | 0.0046 |
+| workflow | single | 4 | 0.0046 |
+| application | single | 3 | 0.0035 |
+| building | single | 3 | 0.0035 |
+| caching | single | 3 | 0.0035 |
+| ci | single | 3 | 0.0035 |
+| configuration | single | 3 | 0.0035 |
+| considerations | single | 3 | 0.0035 |
+| downloads | single | 3 | 0.0035 |
+| efficient | single | 3 | 0.0035 |
+| experience | single | 3 | 0.0035 |
+| features | single | 3 | 0.0035 |
+| ide | single | 3 | 0.0035 |
+| issues | single | 3 | 0.0035 |
+| large | single | 3 | 0.0035 |
+| like | single | 3 | 0.0035 |
+| net | single | 3 | 0.0035 |
+| operating | single | 3 | 0.0035 |
+| organization | single | 3 | 0.0035 |
+| permissions | single | 3 | 0.0035 |
+| pipeline | single | 3 | 0.0035 |
+| primary | single | 3 | 0.0035 |
+| require | single | 3 | 0.0035 |
+| solutions | single | 3 | 0.0035 |
+| studio | single | 3 | 0.0035 |
+| systems | single | 3 | 0.0035 |
+| versions | single | 3 | 0.0035 |
+| access | single | 2 | 0.0023 |
+| always | single | 2 | 0.0023 |
+| automation | single | 2 | 0.0023 |
+| avoid | single | 2 | 0.0023 |
+| case | single | 2 | 0.0023 |
+| cause | single | 2 | 0.0023 |
+| cd | single | 2 | 0.0023 |
+| command structure | compound | 2 | 0.0023 |
+| common | single | 2 | 0.0023 |
+| core | single | 2 | 0.0023 |
+| cross-platform | single | 2 | 0.0023 |
+| customization | single | 2 | 0.0023 |
+| default | single | 2 | 0.0023 |
+| dependencies | single | 2 | 0.0023 |
+| development environments | compound | 2 | 0.0023 |
+| differences | single | 2 | 0.0023 |
+| editor | single | 2 | 0.0023 |
+| enterprise | single | 2 | 0.0023 |
+| environment | single | 2 | 0.0023 |
+| executable | single | 2 | 0.0023 |
+| extensions | single | 2 | 0.0023 |
+| frameworks | single | 2 | 0.0023 |
+| graphs | single | 2 | 0.0023 |
+| hosting | single | 2 | 0.0023 |
+| incremental | single | 2 | 0.0023 |
+| installation | single | 2 | 0.0023 |
+| json | single | 2 | 0.0023 |
+| length | single | 2 | 0.0023 |
+| linux | single | 2 | 0.0023 |
+| lock | single | 2 | 0.0023 |
+| macos | single | 2 | 0.0023 |
+| manifests | single | 2 | 0.0023 |
+| models | single | 2 | 0.0023 |
+| net cli | compound | 2 | 0.0023 |
+| network | single | 2 | 0.0023 |
+| parallel | single | 2 | 0.0023 |
+| permission | single | 2 | 0.0023 |
+| platforms | single | 2 | 0.0023 |
+| publishing | single | 2 | 0.0023 |
+| related | single | 2 | 0.0023 |
+| sensitivity | single | 2 | 0.0023 |
+| slow | single | 2 | 0.0023 |
+| targeting | single | 2 | 0.0023 |
+| telemetry | single | 2 | 0.0023 |
+| template | single | 2 | 0.0023 |
+| templates | single | 2 | 0.0023 |
+| testing | single | 2 | 0.0023 |
+| through | single | 2 | 0.0023 |
+| tooling | single | 2 | 0.0023 |
+| using | single | 2 | 0.0023 |
+| verification | single | 2 | 0.0023 |
+| verify | single | 2 | 0.0023 |
+| while | single | 2 | 0.0023 |
+| without | single | 2 | 0.0023 |
+| workloads | single | 2 | 0.0023 |

@@ -1,4 +1,4 @@
-# .NET CLI - Golden Reference
+# .NET CLI
 
 ## Overview
 

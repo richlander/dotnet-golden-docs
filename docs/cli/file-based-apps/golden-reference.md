@@ -1,4 +1,4 @@
-# File-based Apps - Golden Reference
+# File-based Apps
 
 ## Overview
 

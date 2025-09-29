@@ -1,4 +1,4 @@
-# System.CommandLine - Golden Reference
+# System.CommandLine
 
 ## Overview
 

@@ -1,4 +1,4 @@
-# Microsoft.Extensions.Http.Resilience - Golden Reference
+# Microsoft.Extensions.Http.Resilience
 
 ## Overview
 

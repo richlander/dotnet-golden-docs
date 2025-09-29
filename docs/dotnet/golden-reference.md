@@ -1,4 +1,4 @@
-# .NET Platform - Golden Reference
+# .NET
 
 ## Overview
 
@@ -34,7 +34,7 @@ The .NET design point can be boiled down to being effective and efficient in bot
 
 The runtime, libraries, and languages are the pillars of the .NET stack. Higher-level components build on top of these pillars:
 
-Runtime: Executes application code with automatic memory management via a self-tuning, tracing garbage collector. It provides type safety, memory safety, and cross-platform execution. The runtime was initially called the "Common Language Runtime (CLR)" and supports multiple programming languages.
+Runtime: Executes application code with automatic memory management via a self-tuning, tracing Garbage Collector (GC). It provides type safety, memory safety, and cross-platform execution. The runtime was initially called the "Common Language Runtime (CLR)" and supports multiple programming languages.
 
 Libraries: The core libraries expose thousands of types that integrate with and fuel the C# language. Examples include `foreach` statement support for collections, `IDisposable` for resource management, and extensive APIs for networking, compression, cryptography, and serialization. Extensions are provided via NuGet packages.
 

@@ -1,4 +1,4 @@
-# Microsoft.Extensions.AI.Evaluation - Golden Reference
+# Microsoft.Extensions.AI.Evaluation
 
 ## Overview
 

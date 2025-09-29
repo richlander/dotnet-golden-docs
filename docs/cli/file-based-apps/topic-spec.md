@@ -52,13 +52,15 @@ File-based apps allow developers to run and publish single .cs files directly wi
 
 ## Keywords
 
+### High-value keywords (generated, weighted entropy ≥ 3)
 - file-based apps
-- single-file C#
-- C# scripting
-- dotnet run
-- prototyping
-- automation scripts
-
+- file-based-programs
+- file-level
+- whats-new
+- exit codes
+- single file constraint
+- traditional project structure
+- docs
 ## Critical limitations
 
 - Single file constraint: only works with exactly one .cs file in the directory

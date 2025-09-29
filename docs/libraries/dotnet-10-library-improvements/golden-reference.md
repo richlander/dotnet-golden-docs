@@ -1,4 +1,4 @@
-# .NET 10 Libraries Features - Golden Reference
+# .NET 10 Libraries
 
 ## Overview
 

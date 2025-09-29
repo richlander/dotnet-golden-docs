@@ -1,4 +1,4 @@
-# Publishing and Deployment - Golden Reference
+# Publishing and Deployment
 
 ## Overview
 

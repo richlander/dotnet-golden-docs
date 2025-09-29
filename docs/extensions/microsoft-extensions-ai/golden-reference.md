@@ -1,4 +1,4 @@
-# Microsoft.Extensions.AI - Golden Reference
+# Microsoft.Extensions.AI
 
 ## Overview
 

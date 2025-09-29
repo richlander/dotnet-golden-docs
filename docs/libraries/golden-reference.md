@@ -1,4 +1,4 @@
-# .NET Libraries - Golden Reference
+# .NET Libraries
 
 ## Overview
 

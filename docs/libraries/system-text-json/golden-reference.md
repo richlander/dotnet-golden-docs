@@ -1,4 +1,4 @@
-# System.Text.Json - Golden Reference
+# System.Text.Json
 
 ## Overview
 

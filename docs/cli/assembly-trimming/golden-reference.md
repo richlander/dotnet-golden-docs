@@ -1,4 +1,4 @@
-# Assembly Trimming - Golden Reference
+# Assembly Trimming
 
 ## Overview
 

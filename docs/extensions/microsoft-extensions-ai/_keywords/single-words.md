@@ -1,0 +1,100 @@
+# Single Word Frequency Analysis
+
+Generated from: `golden-reference.md`
+Total unique words: 91
+Total word occurrences: 463
+Total document words: 636
+
+| Word | Count | Document Concentration |
+|------|-------|------------------------|
+| abstraction | 2 | 0.0031 |
+| abstractions | 2 | 0.0031 |
+| adds | 2 | 0.0031 |
+| application | 2 | 0.0031 |
+| applications | 2 | 0.0031 |
+| around | 2 | 0.0031 |
+| between | 2 | 0.0031 |
+| builder | 2 | 0.0031 |
+| built-in | 2 | 0.0031 |
+| considerations | 2 | 0.0031 |
+| conventions | 2 | 0.0031 |
+| creating | 2 | 0.0031 |
+| cross-provider | 2 | 0.0031 |
+| design | 2 | 0.0031 |
+| different | 2 | 0.0031 |
+| direct | 2 | 0.0031 |
+| ecosystem | 2 | 0.0031 |
+| enables | 2 | 0.0031 |
+| enabling | 2 | 0.0031 |
+| following | 2 | 0.0031 |
+| functions | 2 | 0.0031 |
+| implementing | 2 | 0.0031 |
+| independence | 2 | 0.0031 |
+| integrates | 2 | 0.0031 |
+| interact | 2 | 0.0031 |
+| interoperability | 2 | 0.0031 |
+| key | 2 | 0.0031 |
+| layer | 2 | 0.0031 |
+| libraries | 2 | 0.0031 |
+| limiting | 2 | 0.0031 |
+| method | 2 | 0.0031 |
+| multiple | 2 | 0.0031 |
+| operations | 2 | 0.0031 |
+| package | 2 | 0.0031 |
+| preview | 2 | 0.0031 |
+| proper | 2 | 0.0031 |
+| rate | 2 | 0.0031 |
+| resilience | 2 | 0.0031 |
+| responses | 2 | 0.0031 |
+| seamlessly | 2 | 0.0031 |
+| semantic | 2 | 0.0031 |
+| standardized | 2 | 0.0031 |
+| strategy | 2 | 0.0031 |
+| streaming | 2 | 0.0031 |
+| switch | 2 | 0.0031 |
+| syntax | 2 | 0.0031 |
+| systems | 2 | 0.0031 |
+| through | 2 | 0.0031 |
+| use | 2 | 0.0031 |
+| uses | 2 | 0.0031 |
+| using | 2 | 0.0031 |
+| utilities | 2 | 0.0031 |
+| while | 2 | 0.0031 |
+| allowing | 3 | 0.0047 |
+| architecture | 3 | 0.0047 |
+| capabilities | 3 | 0.0047 |
+| changes | 3 | 0.0047 |
+| chat | 3 | 0.0047 |
+| code | 3 | 0.0047 |
+| configuration | 3 | 0.0047 |
+| dependency | 3 | 0.0047 |
+| implement | 3 | 0.0047 |
+| injection | 3 | 0.0047 |
+| opentelemetry | 3 | 0.0047 |
+| provides | 3 | 0.0047 |
+| scenarios | 3 | 0.0047 |
+| standard | 3 | 0.0047 |
+| telemetry | 3 | 0.0047 |
+| vs | 3 | 0.0047 |
+| core | 4 | 0.0063 |
+| familiar | 4 | 0.0063 |
+| functionality | 4 | 0.0063 |
+| observability | 4 | 0.0063 |
+| provider | 4 | 0.0063 |
+| providers | 4 | 0.0063 |
+| service | 4 | 0.0063 |
+| without | 4 | 0.0063 |
+| extensions | 5 | 0.0079 |
+| like | 5 | 0.0079 |
+| microsoft | 5 | 0.0079 |
+| support | 5 | 0.0079 |
+| caching | 6 | 0.0094 |
+| calling | 6 | 0.0094 |
+| composition | 6 | 0.0094 |
+| interfaces | 6 | 0.0094 |
+| patterns | 6 | 0.0094 |
+| function | 7 | 0.0110 |
+| net | 10 | 0.0157 |
+| services | 10 | 0.0157 |
+| middleware | 16 | 0.0252 |
+| ai | 32 | 0.0503 |

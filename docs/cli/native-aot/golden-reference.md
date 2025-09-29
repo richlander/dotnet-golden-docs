@@ -1,4 +1,4 @@
-# Native AOT - Golden Reference
+# Native AOT
 
 ## Overview
 
