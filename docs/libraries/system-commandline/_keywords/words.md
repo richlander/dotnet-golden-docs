@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 6 compound terms and 243 single words
-Total unique terms: 249
-Terms with score ≥ 3.0: 41
-Total term occurrences: 405
+Combined 5 compound terms and 247 single words
+Total unique terms: 252
+Terms with score ≥ 3.0: 42
+Total term occurrences: 417
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -19,15 +19,17 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | parsing | single | 9 | 1.00x | 1.00x | 9.0 |
 | use | single | 8 | 1.00x | 1.00x | 8.0 |
 | option | single | 7 | 1.00x | 1.00x | 7.0 |
+| validation | single | 7 | 1.00x | 1.00x | 7.0 |
 | commandline | single | 6 | 1.00x | 1.00x | 6.0 |
 | options | single | 6 | 1.00x | 1.00x | 6.0 |
 | tools | single | 6 | 1.00x | 1.00x | 6.0 |
-| validation | single | 5 | 1.00x | 1.00x | 5.0 |
+| command | single | 5 | 1.00x | 1.00x | 5.0 |
 | response files | compound | 3 | 1.10x | 1.50x | 5.0 |
 | application | single | 4 | 1.00x | 1.00x | 4.0 |
 | automatic | single | 4 | 1.00x | 1.00x | 4.0 |
 | binding | single | 4 | 1.00x | 1.00x | 4.0 |
 | completion | single | 4 | 1.00x | 1.00x | 4.0 |
+| configuration | single | 4 | 1.00x | 1.00x | 4.0 |
 | console | single | 4 | 1.00x | 1.00x | 4.0 |
 | extensions | single | 4 | 1.00x | 1.00x | 4.0 |
 | global | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -37,12 +39,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | hosting | single | 4 | 1.00x | 1.00x | 4.0 |
 | microsoft | single | 4 | 1.00x | 1.00x | 4.0 |
 | support | single | 4 | 1.00x | 1.00x | 4.0 |
+| system | single | 4 | 1.00x | 1.00x | 4.0 |
 | best practices | compound | 2 | 1.25x | 1.50x | 3.8 |
-| lambda expressions | compound | 2 | 1.10x | 1.50x | 3.3 |
 | model binding | compound | 2 | 1.10x | 1.50x | 3.3 |
 | arguments | single | 3 | 1.00x | 1.00x | 3.0 |
 | built-in | single | 3 | 1.00x | 1.00x | 3.0 |
-| command | single | 3 | 1.00x | 1.00x | 3.0 |
 | commands | single | 3 | 1.00x | 1.00x | 3.0 |
 | complex | single | 3 | 1.00x | 1.00x | 3.0 |
 | conventions | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -50,7 +51,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | errors | single | 3 | 1.00x | 1.00x | 3.0 |
 | expensive | single | 3 | 1.00x | 1.00x | 3.0 |
 | handler | single | 3 | 1.00x | 1.00x | 3.0 |
-| methods | single | 3 | 1.00x | 1.00x | 3.0 |
+| net | single | 3 | 1.00x | 1.00x | 3.0 |
 | service-based | compound | 2 | 1.00x | 1.50x | 3.0 |
 | sethandler | single | 3 | 1.00x | 1.00x | 3.0 |
 | subcommands | single | 3 | 1.00x | 1.00x | 3.0 |

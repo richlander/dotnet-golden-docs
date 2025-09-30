@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 227
-Total word occurrences: 378
+Total unique words: 235
+Total word occurrences: 414
 Total document words: 716
 
 | Word | Count | Document Concentration |
@@ -11,6 +11,7 @@ Total document words: 716
 | allocation | 1 | 0.0014 |
 | already | 1 | 0.0014 |
 | anti-pattern | 1 | 0.0014 |
+| aot-compatible | 1 | 0.0014 |
 | api | 1 | 0.0014 |
 | application | 1 | 0.0014 |
 | application-wide | 1 | 0.0014 |
@@ -32,7 +33,6 @@ Total document words: 716
 | clean | 1 | 0.0014 |
 | cloud | 1 | 0.0014 |
 | cold | 1 | 0.0014 |
-| compilation | 1 | 0.0014 |
 | conditional | 1 | 0.0014 |
 | conflicts | 1 | 0.0014 |
 | consistency | 1 | 0.0014 |
@@ -84,9 +84,10 @@ Total document words: 716
 | matters | 1 | 0.0014 |
 | messages | 1 | 0.0014 |
 | metadata | 1 | 0.0014 |
-| methods | 1 | 0.0014 |
+| microservices | 1 | 0.0014 |
 | migrate | 1 | 0.0014 |
 | missing | 1 | 0.0014 |
+| modes | 1 | 0.0014 |
 | monolithic | 1 | 0.0014 |
 | multiple | 1 | 0.0014 |
 | necessary | 1 | 0.0014 |
@@ -137,6 +138,7 @@ Total document words: 716
 | solutions | 1 | 0.0014 |
 | source-generated | 1 | 0.0014 |
 | starts | 1 | 0.0014 |
+| string | 1 | 0.0014 |
 | summary | 1 | 0.0014 |
 | synergistically | 1 | 0.0014 |
 | technology | 1 | 0.0014 |
@@ -157,6 +159,7 @@ Total document words: 716
 | approaches | 2 | 0.0028 |
 | asp | 2 | 0.0028 |
 | better | 2 | 0.0028 |
+| compilation | 2 | 0.0028 |
 | compile | 2 | 0.0028 |
 | contexts | 2 | 0.0028 |
 | conversion | 2 | 0.0028 |
@@ -179,7 +182,9 @@ Total document words: 716
 | let | 2 | 0.0028 |
 | like | 2 | 0.0028 |
 | manual | 2 | 0.0028 |
-| naming | 2 | 0.0028 |
+| policies | 2 | 0.0028 |
+| policy | 2 | 0.0028 |
+| pre-computing | 2 | 0.0028 |
 | predictable | 2 | 0.0028 |
 | provides | 2 | 0.0028 |
 | providing | 2 | 0.0028 |
@@ -206,31 +211,34 @@ Total document words: 716
 | common | 3 | 0.0042 |
 | deployments | 3 | 0.0042 |
 | enables | 3 | 0.0042 |
+| generic | 3 | 0.0042 |
 | jsonpropertyname | 3 | 0.0042 |
 | need | 3 | 0.0042 |
 | options | 3 | 0.0042 |
 | parameters | 3 | 0.0042 |
 | performance | 3 | 0.0042 |
-| reflection | 3 | 0.0042 |
 | unconstrained | 3 | 0.0042 |
 | usage | 3 | 0.0042 |
 | using | 3 | 0.0042 |
 | warnings | 3 | 0.0042 |
 | works | 3 | 0.0042 |
-| context | 4 | 0.0056 |
 | generics | 4 | 0.0056 |
 | migration | 4 | 0.0056 |
 | newtonsoft | 4 | 0.0056 |
 | operations | 4 | 0.0056 |
 | overhead | 4 | 0.0056 |
-| scenarios | 4 | 0.0056 |
+| patterns | 4 | 0.0056 |
+| system | 4 | 0.0056 |
 | text | 4 | 0.0056 |
 | these | 4 | 0.0056 |
 | utf-8 | 4 | 0.0056 |
-| generic | 5 | 0.0070 |
-| serialization | 5 | 0.0070 |
+| reflection | 5 | 0.0070 |
+| scenarios | 5 | 0.0070 |
 | use | 5 | 0.0070 |
+| context | 6 | 0.0084 |
 | errors | 6 | 0.0084 |
 | code | 8 | 0.0112 |
+| naming | 8 | 0.0112 |
 | runtime | 8 | 0.0112 |
-| json | 11 | 0.0154 |
+| serialization | 9 | 0.0126 |
+| json | 16 | 0.0223 |

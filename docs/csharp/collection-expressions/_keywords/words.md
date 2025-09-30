@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 8 compound terms and 152 single words
-Total unique terms: 160
-Terms with score ≥ 3.0: 19
-Total term occurrences: 244
+Combined 6 compound terms and 155 single words
+Total unique terms: 161
+Terms with score ≥ 3.0: 17
+Total term occurrences: 241
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,18 +15,16 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| collection expressions | compound | 16 | 1.50x | 1.50x | 36.0 |
-| collection types | compound | 5 | 1.10x | 1.50x | 8.2 |
-| target type | compound | 5 | 1.10x | 1.50x | 8.2 |
+| collection expressions | compound | 15 | 1.50x | 1.50x | 33.8 |
 | syntax | single | 8 | 1.00x | 1.00x | 8.0 |
+| collection types | compound | 4 | 1.10x | 1.50x | 6.6 |
+| target type | compound | 4 | 1.10x | 1.50x | 6.6 |
 | collections | single | 6 | 1.00x | 1.00x | 6.0 |
 | spread | single | 5 | 1.00x | 1.00x | 5.0 |
 | familiar | single | 4 | 1.00x | 1.00x | 4.0 |
 | params | single | 4 | 1.00x | 1.00x | 4.0 |
 | use | single | 4 | 1.00x | 1.00x | 4.0 |
 | spread element | compound | 2 | 1.25x | 1.50x | 3.8 |
-| type inference | compound | 2 | 1.25x | 1.50x | 3.8 |
-| compile-time | compound | 2 | 1.10x | 1.50x | 3.3 |
 | compile-time constants | compound | 2 | 1.10x | 1.50x | 3.3 |
 | inline arrays | compound | 2 | 1.10x | 1.50x | 3.3 |
 | combine | single | 3 | 1.00x | 1.00x | 3.0 |

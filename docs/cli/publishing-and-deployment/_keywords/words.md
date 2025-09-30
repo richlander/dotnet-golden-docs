@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 13 compound terms and 155 single words
-Total unique terms: 168
+Combined 11 compound terms and 164 single words
+Total unique terms: 174
 Terms with score ≥ 3.0: 39
-Total term occurrences: 359
+Total term occurrences: 366
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,31 +15,31 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| native aot | compound | 14 | 1.10x | 1.50x | 23.1 |
-| deployment | single | 22 | 1.00x | 1.00x | 22.0 |
-| framework-dependent | compound | 8 | 1.10x | 1.50x | 13.2 |
-| self-contained | compound | 8 | 1.10x | 1.50x | 13.2 |
+| deployment | single | 23 | 1.00x | 1.00x | 23.0 |
+| native aot | compound | 13 | 1.10x | 1.50x | 21.5 |
+| framework-dependent | compound | 7 | 1.10x | 1.50x | 11.6 |
+| self-contained | compound | 7 | 1.10x | 1.50x | 11.6 |
+| publishing | single | 11 | 1.00x | 1.00x | 11.0 |
 | runtime | single | 10 | 1.00x | 1.00x | 10.0 |
-| publishing | single | 9 | 1.00x | 1.00x | 9.0 |
 | size | single | 8 | 1.00x | 1.00x | 8.0 |
 | deployments | single | 7 | 1.00x | 1.00x | 7.0 |
 | startup | single | 7 | 1.00x | 1.00x | 7.0 |
-| single-file | compound | 4 | 1.10x | 1.50x | 6.6 |
 | benefits | single | 6 | 1.00x | 1.00x | 6.0 |
 | case | single | 6 | 1.00x | 1.00x | 6.0 |
 | distribution | single | 6 | 1.00x | 1.00x | 6.0 |
 | readytorun | single | 6 | 1.00x | 1.00x | 6.0 |
 | use | single | 6 | 1.00x | 1.00x | 6.0 |
-| deployment scenarios | compound | 3 | 1.25x | 1.50x | 5.6 |
 | container deployment | compound | 3 | 1.10x | 1.50x | 5.0 |
-| cross-platform | compound | 3 | 1.10x | 1.50x | 5.0 |
+| single-file | compound | 3 | 1.10x | 1.50x | 5.0 |
 | cloud | single | 4 | 1.00x | 1.00x | 4.0 |
 | no | single | 4 | 1.00x | 1.00x | 4.0 |
 | optimization | single | 4 | 1.00x | 1.00x | 4.0 |
-| publishing modes | compound | 2 | 1.25x | 1.50x | 3.8 |
-| build-time | compound | 2 | 1.10x | 1.50x | 3.3 |
+| deployment scenarios | compound | 2 | 1.25x | 1.50x | 3.8 |
+| cross-platform | compound | 2 | 1.10x | 1.50x | 3.3 |
 | application | single | 3 | 1.00x | 1.00x | 3.0 |
 | cloud-native | compound | 2 | 1.00x | 1.50x | 3.0 |
+| compilation | single | 3 | 1.00x | 1.00x | 3.0 |
+| configuration | single | 3 | 1.00x | 1.00x | 3.0 |
 | container | single | 3 | 1.00x | 1.00x | 3.0 |
 | development-time | compound | 2 | 1.00x | 1.50x | 3.0 |
 | distribution-time | compound | 2 | 1.00x | 1.50x | 3.0 |

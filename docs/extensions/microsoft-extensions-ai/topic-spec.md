@@ -52,16 +52,20 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 
 ## Keywords
 
-- Microsoft.Extensions.AI
-- AI abstractions
-- IChatClient
-- IEmbeddingGenerator
-- generative AI
-- AI middleware
-- AI dependency injection
-- OpenTelemetry AI
-- AI function calling
-- AI caching
+| Keyword | Score |
+|---------|-------|
+| middleware composition | 4.57 |
+| function calling | 4.55 |
+| embedding generation | 4.52 |
+| strongly-typed | 4.52 |
+| tool invocation | 4.52 |
+| dependency injection | 3.57 |
+| middleware | 3.11 |
+| services | 3.10 |
+| interfaces | 3.06 |
+| service | 3.06 |
+| observability | 3.04 |
+| provider | 3.04 |
 
 ## Critical limitations
 

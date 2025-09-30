@@ -50,12 +50,20 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 
 ## Keywords
 
-- dotnet publish
-- deployment
-- publishing modes
-- self-contained
-- production deployment
-- application distribution
+| Keyword | Score |
+|---------|-------|
+| framework-dependent | 4.60 |
+| container deployment | 4.54 |
+| cloud-native | 4.52 |
+| deployment scenarios | 4.52 |
+| development-time | 4.52 |
+| distribution-time | 4.52 |
+| trade-offs | 4.52 |
+| native aot | 3.22 |
+| benefits | 3.06 |
+| case | 3.06 |
+| distribution | 3.06 |
+| optimization | 3.04 |
 
 ## Diagnostic Codes
 

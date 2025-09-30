@@ -51,15 +51,20 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 
 ## Keywords
 
-- AI evaluation
-- AI quality assessment
-- AI safety evaluation
-- content safety
-- evaluation metrics
-- AI testing
-- response evaluation
-- natural language processing
-- evaluation reporting
+| Keyword | Score |
+|---------|-------|
+| safety evaluators | 4.55 |
+| ai-generated | 4.52 |
+| automated quality gates | 4.52 |
+| custom evaluator implementation | 4.52 |
+| llm-based | 4.52 |
+| llm-based evaluators | 4.52 |
+| regression testing | 4.52 |
+| evaluation | 3.30 |
+| quality | 3.14 |
+| safety | 3.10 |
+| azure | 3.06 |
+| evaluators | 3.06 |
 
 ## Critical limitations
 

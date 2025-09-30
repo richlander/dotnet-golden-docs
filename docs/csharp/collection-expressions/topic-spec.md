@@ -60,13 +60,20 @@ Collection expressions provide a concise syntax to create common collection valu
 
 ## Keywords
 
-- collection expressions
-- params collection expressions
-- collection initializers
-- array syntax
-- list initialization
-- spread operator
-- square bracket notation
+| Keyword | Score |
+|---------|-------|
+| collection expressions | 4.72 |
+| collection types | 4.55 |
+| target type | 4.55 |
+| compile-time constants | 4.52 |
+| inline arrays | 4.52 |
+| spread element | 4.52 |
+| spread | 3.05 |
+| params | 3.04 |
+| combine | 3.03 |
+| concise | 3.03 |
+| javascript | 3.03 |
+| python | 3.03 |
 
 ## Diagnostic Codes
 

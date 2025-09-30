@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 226 single words
-Total unique terms: 237
-Terms with score ≥ 3.0: 39
-Total term occurrences: 432
+Combined 8 compound terms and 236 single words
+Total unique terms: 244
+Terms with score ≥ 3.0: 40
+Total term occurrences: 448
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -16,12 +16,12 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
 | ai | single | 34 | 1.00x | 1.00x | 34.0 |
-| middleware | single | 10 | 1.00x | 1.00x | 10.0 |
+| middleware | single | 11 | 1.00x | 1.00x | 11.0 |
 | services | single | 10 | 1.00x | 1.00x | 10.0 |
-| dependency injection | compound | 6 | 1.10x | 1.50x | 9.9 |
-| middleware composition | compound | 6 | 1.10x | 1.50x | 9.9 |
-| function calling | compound | 5 | 1.10x | 1.50x | 8.2 |
-| net | single | 7 | 1.00x | 1.00x | 7.0 |
+| dependency injection | compound | 5 | 1.10x | 1.50x | 8.2 |
+| middleware composition | compound | 5 | 1.10x | 1.50x | 8.2 |
+| net | single | 8 | 1.00x | 1.00x | 8.0 |
+| function calling | compound | 4 | 1.10x | 1.50x | 6.6 |
 | caching | single | 6 | 1.00x | 1.00x | 6.0 |
 | interfaces | single | 6 | 1.00x | 1.00x | 6.0 |
 | service | single | 6 | 1.00x | 1.00x | 6.0 |
@@ -35,9 +35,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | provider | single | 4 | 1.00x | 1.00x | 4.0 |
 | providers | single | 4 | 1.00x | 1.00x | 4.0 |
 | without | single | 4 | 1.00x | 1.00x | 4.0 |
-| best practices | compound | 2 | 1.25x | 1.50x | 3.8 |
-| builder pattern | compound | 2 | 1.10x | 1.50x | 3.3 |
-| cross-provider | compound | 2 | 1.10x | 1.50x | 3.3 |
 | embedding generation | compound | 2 | 1.10x | 1.50x | 3.3 |
 | error handling | compound | 2 | 1.10x | 1.50x | 3.3 |
 | memory management | compound | 2 | 1.10x | 1.50x | 3.3 |
@@ -48,9 +45,13 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | changes | single | 3 | 1.00x | 1.00x | 3.0 |
 | chat | single | 3 | 1.00x | 1.00x | 3.0 |
 | code | single | 3 | 1.00x | 1.00x | 3.0 |
+| configuration | single | 3 | 1.00x | 1.00x | 3.0 |
+| function | single | 3 | 1.00x | 1.00x | 3.0 |
 | implement | single | 3 | 1.00x | 1.00x | 3.0 |
 | opentelemetry | single | 3 | 1.00x | 1.00x | 3.0 |
+| patterns | single | 3 | 1.00x | 1.00x | 3.0 |
 | provides | single | 3 | 1.00x | 1.00x | 3.0 |
+| standard | single | 3 | 1.00x | 1.00x | 3.0 |
 | strongly-typed | compound | 2 | 1.00x | 1.50x | 3.0 |
 | telemetry | single | 3 | 1.00x | 1.00x | 3.0 |
 | vs | single | 3 | 1.00x | 1.00x | 3.0 |

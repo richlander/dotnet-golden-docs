@@ -1,18 +1,20 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 93
-Total word occurrences: 129
+Total unique words: 98
+Total word occurrences: 143
 Total document words: 287
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | across | 1 | 0.0035 |
 | advancement | 1 | 0.0035 |
+| anonymous | 1 | 0.0035 |
 | approaches | 1 | 0.0035 |
 | appropriate | 1 | 0.0035 |
 | array | 1 | 0.0035 |
 | avoid | 1 | 0.0035 |
+| builder | 1 | 0.0035 |
 | capacity | 1 | 0.0035 |
 | clean | 1 | 0.0035 |
 | clear | 1 | 0.0035 |
@@ -39,7 +41,6 @@ Total document words: 287
 | flexible | 1 | 0.0035 |
 | good | 1 | 0.0035 |
 | immutability | 1 | 0.0035 |
-| init | 1 | 0.0035 |
 | initialize | 1 | 0.0035 |
 | initializers | 1 | 0.0035 |
 | intentions | 1 | 0.0035 |
@@ -56,7 +57,7 @@ Total document words: 287
 | mark | 1 | 0.0035 |
 | matching | 1 | 0.0035 |
 | matters | 1 | 0.0035 |
-| methods | 1 | 0.0035 |
+| members | 1 | 0.0035 |
 | mixed | 1 | 0.0035 |
 | multiple | 1 | 0.0035 |
 | need | 1 | 0.0035 |
@@ -85,18 +86,22 @@ Total document words: 287
 | advanced | 2 | 0.0070 |
 | collections | 2 | 0.0070 |
 | essential | 2 | 0.0070 |
+| init | 2 | 0.0070 |
 | nested | 2 | 0.0070 |
-| object | 2 | 0.0070 |
+| pattern | 2 | 0.0070 |
 | readable | 2 | 0.0070 |
-| required | 2 | 0.0070 |
+| self-documenting | 2 | 0.0070 |
 | simple | 2 | 0.0070 |
 | constructors | 3 | 0.0105 |
 | immutable | 3 | 0.0105 |
 | modern | 3 | 0.0105 |
+| patterns | 3 | 0.0105 |
 | records | 3 | 0.0105 |
+| required | 3 | 0.0105 |
 | basic | 4 | 0.0139 |
 | code | 4 | 0.0139 |
 | constructor | 4 | 0.0139 |
+| object | 4 | 0.0139 |
 | objects | 4 | 0.0139 |
-| properties | 5 | 0.0174 |
 | use | 5 | 0.0174 |
+| properties | 6 | 0.0209 |

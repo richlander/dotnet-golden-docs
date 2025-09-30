@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 141
-Total word occurrences: 194
+Total unique words: 144
+Total word occurrences: 203
 Total document words: 380
 
 | Word | Count | Document Concentration |
@@ -16,6 +16,7 @@ Total document words: 380
 | avoiding | 1 | 0.0026 |
 | basic | 1 | 0.0026 |
 | both | 1 | 0.0026 |
+| builder | 1 | 0.0026 |
 | careful | 1 | 0.0026 |
 | case | 1 | 0.0026 |
 | characteristics | 1 | 0.0026 |
@@ -92,6 +93,7 @@ Total document words: 380
 | resizing | 1 | 0.0026 |
 | return | 1 | 0.0026 |
 | selection | 1 | 0.0026 |
+| self-documenting | 1 | 0.0026 |
 | serving | 1 | 0.0026 |
 | signatures | 1 | 0.0026 |
 | significantly | 1 | 0.0026 |
@@ -125,9 +127,8 @@ Total document words: 380
 | linq | 2 | 0.0053 |
 | list | 2 | 0.0053 |
 | method | 2 | 0.0053 |
-| methods | 2 | 0.0053 |
 | multiple | 2 | 0.0053 |
-| patterns | 2 | 0.0053 |
+| new | 2 | 0.0053 |
 | provide | 2 | 0.0053 |
 | reference | 2 | 0.0053 |
 | seamlessly | 2 | 0.0053 |
@@ -143,8 +144,10 @@ Total document words: 380
 | initializers | 3 | 0.0079 |
 | modern | 3 | 0.0079 |
 | right | 3 | 0.0079 |
+| target-typed | 3 | 0.0079 |
 | understanding | 3 | 0.0079 |
 | works | 3 | 0.0079 |
 | code | 4 | 0.0105 |
 | collections | 4 | 0.0105 |
+| patterns | 6 | 0.0158 |
 | use | 6 | 0.0158 |

@@ -52,12 +52,12 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 ## Keywords
 
-- System.Text.Json
-- JSON serialization
-- high-performance JSON
-- .NET JSON library
-- JSON deserialization
-- UTF-8 JSON
+| Keyword | Score |
+|---------|-------|
+| source generation | 3.24 |
+| default | 3.04 |
+| limits | 3.03 |
+| requires | 3.03 |
 
 ## Diagnostic Codes
 

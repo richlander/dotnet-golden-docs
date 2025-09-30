@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 380
-Total word occurrences: 693
+Total unique words: 389
+Total word occurrences: 711
 Total document words: 1212
 
 | Word | Count | Document Concentration |
@@ -46,6 +46,7 @@ Total document words: 1212
 | compute | 1 | 0.0008 |
 | computing | 1 | 0.0008 |
 | concepts | 1 | 0.0008 |
+| configuration | 1 | 0.0008 |
 | containing | 1 | 0.0008 |
 | contributing | 1 | 0.0008 |
 | convenience | 1 | 0.0008 |
@@ -118,8 +119,8 @@ Total document words: 1212
 | interoperability | 1 | 0.0008 |
 | introduce | 1 | 0.0008 |
 | javascript | 1 | 0.0008 |
+| json | 1 | 0.0008 |
 | kinds | 1 | 0.0008 |
-| language | 1 | 0.0008 |
 | large | 1 | 0.0008 |
 | larger | 1 | 0.0008 |
 | late-bound | 1 | 0.0008 |
@@ -184,10 +185,12 @@ Total document words: 1212
 | raw | 1 | 0.0008 |
 | records | 1 | 0.0008 |
 | reference | 1 | 0.0008 |
+| reflection | 1 | 0.0008 |
 | regular | 1 | 0.0008 |
 | related | 1 | 0.0008 |
 | relationships | 1 | 0.0008 |
 | releases | 1 | 0.0008 |
+| reliability | 1 | 0.0008 |
 | reliable | 1 | 0.0008 |
 | relies | 1 | 0.0008 |
 | remaining | 1 | 0.0008 |
@@ -203,6 +206,7 @@ Total document words: 1212
 | secure | 1 | 0.0008 |
 | security | 1 | 0.0008 |
 | see | 1 | 0.0008 |
+| serialization | 1 | 0.0008 |
 | services | 1 | 0.0008 |
 | significant | 1 | 0.0008 |
 | significantly | 1 | 0.0008 |
@@ -214,9 +218,11 @@ Total document words: 1212
 | spectrum | 1 | 0.0008 |
 | stack | 1 | 0.0008 |
 | stackoverflow | 1 | 0.0008 |
+| standard | 1 | 0.0008 |
 | statement | 1 | 0.0008 |
 | suitable | 1 | 0.0008 |
 | supporting | 1 | 0.0008 |
+| system | 1 | 0.0008 |
 | systems | 1 | 0.0008 |
 | tap | 1 | 0.0008 |
 | task | 1 | 0.0008 |
@@ -256,6 +262,7 @@ Total document words: 1212
 | write | 1 | 0.0008 |
 | writing | 1 | 0.0008 |
 | abstraction | 2 | 0.0017 |
+| app | 2 | 0.0017 |
 | application | 2 | 0.0017 |
 | architectures | 2 | 0.0017 |
 | being | 2 | 0.0017 |
@@ -265,6 +272,7 @@ Total document words: 1212
 | bugs | 2 | 0.0017 |
 | client | 2 | 0.0017 |
 | concurrency | 2 | 0.0017 |
+| core | 2 | 0.0017 |
 | cost | 2 | 0.0017 |
 | design | 2 | 0.0017 |
 | designed | 2 | 0.0017 |
@@ -278,7 +286,6 @@ Total document words: 1212
 | experience | 2 | 0.0017 |
 | extensions | 2 | 0.0017 |
 | favored | 2 | 0.0017 |
-| features | 2 | 0.0017 |
 | following | 2 | 0.0017 |
 | forms | 2 | 0.0017 |
 | free | 2 | 0.0017 |
@@ -340,6 +347,7 @@ Total document words: 1212
 | interop | 3 | 0.0025 |
 | ios | 3 | 0.0025 |
 | it's | 3 | 0.0025 |
+| language | 3 | 0.0025 |
 | macos | 3 | 0.0025 |
 | manual | 3 | 0.0025 |
 | nuget | 3 | 0.0025 |
@@ -361,6 +369,7 @@ Total document words: 1212
 | cloud | 4 | 0.0033 |
 | components | 4 | 0.0033 |
 | developers | 4 | 0.0033 |
+| features | 4 | 0.0033 |
 | linux | 4 | 0.0033 |
 | many | 4 | 0.0033 |
 | pillars | 4 | 0.0033 |
@@ -381,9 +390,9 @@ Total document words: 1212
 | multiple | 7 | 0.0058 |
 | tools | 7 | 0.0058 |
 | windows | 7 | 0.0058 |
-| libraries | 9 | 0.0074 |
 | like | 10 | 0.0083 |
 | while | 10 | 0.0083 |
+| libraries | 11 | 0.0091 |
 | runtime | 12 | 0.0099 |
 | code | 14 | 0.0116 |
-| net | 34 | 0.0281 |
+| net | 35 | 0.0289 |

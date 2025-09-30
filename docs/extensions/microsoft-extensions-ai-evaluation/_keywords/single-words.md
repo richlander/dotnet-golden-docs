@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 211
-Total word occurrences: 387
+Total unique words: 219
+Total word occurrences: 408
 Total document words: 597
 
 | Word | Count | Document Concentration |
@@ -25,13 +25,14 @@ Total document words: 597
 | benefits | 1 | 0.0017 |
 | bleu | 1 | 0.0017 |
 | both | 1 | 0.0017 |
+| builder | 1 | 0.0017 |
 | building | 1 | 0.0017 |
 | built-in | 1 | 0.0017 |
-| cd | 1 | 0.0017 |
 | changes | 1 | 0.0017 |
 | checks | 1 | 0.0017 |
 | code-based | 1 | 0.0017 |
 | common | 1 | 0.0017 |
+| comparison | 1 | 0.0017 |
 | completeness | 1 | 0.0017 |
 | complexity | 1 | 0.0017 |
 | configurable | 1 | 0.0017 |
@@ -87,6 +88,7 @@ Total document words: 597
 | large-scale | 1 | 0.0017 |
 | latency | 1 | 0.0017 |
 | layer | 1 | 0.0017 |
+| libraries | 1 | 0.0017 |
 | limitations | 1 | 0.0017 |
 | llms | 1 | 0.0017 |
 | manual | 1 | 0.0017 |
@@ -107,10 +109,12 @@ Total document words: 597
 | packages | 1 | 0.0017 |
 | parallel | 1 | 0.0017 |
 | persistent | 1 | 0.0017 |
+| pipeline | 1 | 0.0017 |
 | planning | 1 | 0.0017 |
 | positioning | 1 | 0.0017 |
 | potential | 1 | 0.0017 |
 | process | 1 | 0.0017 |
+| processing | 1 | 0.0017 |
 | production-ready | 1 | 0.0017 |
 | productivity | 1 | 0.0017 |
 | proper | 1 | 0.0017 |
@@ -138,6 +142,7 @@ Total document words: 597
 | specialized | 1 | 0.0017 |
 | storage | 1 | 0.0017 |
 | strategies | 1 | 0.0017 |
+| strategy | 1 | 0.0017 |
 | support | 1 | 0.0017 |
 | synchronous | 1 | 0.0017 |
 | systematic | 1 | 0.0017 |
@@ -165,6 +170,7 @@ Total document words: 597
 | built | 2 | 0.0034 |
 | capabilities | 2 | 0.0034 |
 | coherence | 2 | 0.0034 |
+| configuration | 2 | 0.0034 |
 | cost | 2 | 0.0034 |
 | deployments | 2 | 0.0034 |
 | designed | 2 | 0.0034 |
@@ -190,6 +196,8 @@ Total document words: 597
 | setup | 2 | 0.0034 |
 | tests | 2 | 0.0034 |
 | trails | 2 | 0.0034 |
+| automated | 3 | 0.0050 |
+| cd | 3 | 0.0050 |
 | ci | 3 | 0.0050 |
 | compliance | 3 | 0.0050 |
 | comprehensive | 3 | 0.0050 |
@@ -214,7 +222,7 @@ Total document words: 597
 | metrics | 6 | 0.0101 |
 | extensions | 7 | 0.0117 |
 | microsoft | 7 | 0.0117 |
-| quality | 8 | 0.0134 |
 | safety | 10 | 0.0168 |
+| quality | 14 | 0.0235 |
 | ai | 24 | 0.0402 |
-| evaluation | 28 | 0.0469 |
+| evaluation | 30 | 0.0503 |

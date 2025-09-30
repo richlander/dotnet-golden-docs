@@ -1,14 +1,16 @@
 # Compound Term Analysis
 
 Generated from: `golden-reference.md`
-Total unique compounds: 5
-Total compound occurrences: 49
-Total document words: 387
+Total unique compounds: 7
+Total compound occurrences: 60
+Total document words: 603
 
 | Compound Term | Count | Document Concentration |
 |---------------|-------|------------------------|
-| aot-compatible | 2 | 0.0052 |
-| cross-compilation | 2 | 0.0052 |
-| single-file | 2 | 0.0052 |
-| self-contained | 3 | 0.0078 |
-| native aot | 6 | 0.0155 |
+| generic methods | 2 | 0.0033 |
+| single-file | 2 | 0.0033 |
+| system.text.json source generation | 2 | 0.0033 |
+| self-contained | 3 | 0.0050 |
+| reflection-based | 4 | 0.0066 |
+| source generation | 4 | 0.0066 |
+| native aot | 9 | 0.0149 |

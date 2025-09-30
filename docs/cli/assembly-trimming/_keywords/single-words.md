@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 187
-Total word occurrences: 275
+Total unique words: 189
+Total word occurrences: 281
 Total document words: 419
 
 | Word | Count | Document Concentration |
@@ -28,6 +28,7 @@ Total document words: 419
 | combines | 1 | 0.0024 |
 | complex | 1 | 0.0024 |
 | complexity | 1 | 0.0024 |
+| configuration | 1 | 0.0024 |
 | constrained | 1 | 0.0024 |
 | costs | 1 | 0.0024 |
 | create | 1 | 0.0024 |
@@ -108,7 +109,6 @@ Total document words: 419
 | relationships | 1 | 0.0024 |
 | resolve | 1 | 0.0024 |
 | resolving | 1 | 0.0024 |
-| scenarios | 1 | 0.0024 |
 | see | 1 | 0.0024 |
 | serializers | 1 | 0.0024 |
 | serverless | 1 | 0.0024 |
@@ -117,6 +117,7 @@ Total document words: 419
 | sizes | 1 | 0.0024 |
 | slower | 1 | 0.0024 |
 | starts | 1 | 0.0024 |
+| state | 1 | 0.0024 |
 | status | 1 | 0.0024 |
 | stripping | 1 | 0.0024 |
 | supported | 1 | 0.0024 |
@@ -162,6 +163,7 @@ Total document words: 419
 | removing | 2 | 0.0048 |
 | replace | 2 | 0.0048 |
 | requirements | 2 | 0.0048 |
+| scenarios | 2 | 0.0048 |
 | significant | 2 | 0.0048 |
 | smaller | 2 | 0.0048 |
 | start | 2 | 0.0048 |
@@ -176,7 +178,6 @@ Total document words: 419
 | works | 2 | 0.0048 |
 | application | 3 | 0.0072 |
 | common | 3 | 0.0072 |
-| deployment | 3 | 0.0072 |
 | disabled | 3 | 0.0072 |
 | faster | 3 | 0.0072 |
 | generators | 3 | 0.0072 |
@@ -189,8 +190,9 @@ Total document words: 419
 | trimmed | 3 | 0.0072 |
 | unused | 3 | 0.0072 |
 | analysis | 4 | 0.0095 |
+| deployment | 4 | 0.0095 |
 | reduced | 4 | 0.0095 |
-| reflection | 4 | 0.0095 |
 | test | 4 | 0.0095 |
+| reflection | 6 | 0.0143 |
 | code | 7 | 0.0167 |
 | trimming | 8 | 0.0191 |

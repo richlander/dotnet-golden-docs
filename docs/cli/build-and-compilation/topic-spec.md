@@ -51,9 +51,13 @@ Build and compilation encompasses the development-time workflow of transforming 
 
 ## Keywords
 
-- dotnet build
-- compilation
-- MSBuild
-- project build
-- dependency management
-- build workflow
+| Keyword | Score |
+|---------|-------|
+| build acceleration | 4.52 |
+| custom build configurations | 4.52 |
+| dependency resolution | 4.52 |
+| msbuild integration | 4.52 |
+| performance optimization | 4.52 |
+| build | 3.17 |
+| parallel | 3.03 |
+

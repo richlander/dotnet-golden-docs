@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 96
-Total word occurrences: 136
+Total unique words: 107
+Total word occurrences: 166
 Total document words: 298
 
 | Word | Count | Document Concentration |
@@ -46,17 +46,20 @@ Total document words: 298
 | optimized | 1 | 0.0034 |
 | orchestration | 1 | 0.0034 |
 | overview | 1 | 0.0034 |
+| package | 1 | 0.0034 |
 | packages | 1 | 0.0034 |
 | packaging | 1 | 0.0034 |
 | preparation | 1 | 0.0034 |
 | prepares | 1 | 0.0034 |
 | principles | 1 | 0.0034 |
 | provides | 1 | 0.0034 |
+| publishing | 1 | 0.0034 |
 | rebuild | 1 | 0.0034 |
 | reference | 1 | 0.0034 |
 | references | 1 | 0.0034 |
 | release | 1 | 0.0034 |
 | reproducible | 1 | 0.0034 |
+| resolution | 1 | 0.0034 |
 | runtime | 1 | 0.0034 |
 | see | 1 | 0.0034 |
 | server | 1 | 0.0034 |
@@ -64,7 +67,9 @@ Total document words: 298
 | simultaneously | 1 | 0.0034 |
 | solution | 1 | 0.0034 |
 | stages | 1 | 0.0034 |
+| standard | 1 | 0.0034 |
 | support | 1 | 0.0034 |
+| team | 1 | 0.0034 |
 | test | 1 | 0.0034 |
 | testing | 1 | 0.0034 |
 | through | 1 | 0.0034 |
@@ -82,24 +87,30 @@ Total document words: 298
 | automation | 2 | 0.0067 |
 | binaries | 2 | 0.0067 |
 | caching | 2 | 0.0067 |
+| cd | 2 | 0.0067 |
 | common | 2 | 0.0067 |
-| compilation | 2 | 0.0067 |
-| configuration | 2 | 0.0067 |
+| configurations | 2 | 0.0067 |
 | engineers | 2 | 0.0067 |
 | executable | 2 | 0.0067 |
 | execution | 2 | 0.0067 |
 | incremental | 2 | 0.0067 |
 | integration | 2 | 0.0067 |
 | issues | 2 | 0.0067 |
+| local | 2 | 0.0067 |
+| multi-targeting | 2 | 0.0067 |
 | optimization | 2 | 0.0067 |
+| pipeline | 2 | 0.0067 |
+| project | 2 | 0.0067 |
 | strategies | 2 | 0.0067 |
 | analysis | 3 | 0.0101 |
 | builds | 3 | 0.0101 |
 | code | 3 | 0.0101 |
 | commands | 3 | 0.0101 |
+| compilation | 3 | 0.0101 |
 | multiple | 3 | 0.0101 |
 | nuget | 3 | 0.0101 |
 | parallel | 3 | 0.0101 |
 | workflows | 3 | 0.0101 |
 | ci | 4 | 0.0134 |
-| build | 8 | 0.0268 |
+| configuration | 5 | 0.0168 |
+| build | 17 | 0.0570 |

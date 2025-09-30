@@ -67,9 +67,18 @@
 
 ## Keywords
 
-- .NET platform
-- cross-platform
-- open-source platform
-- developer platform
-- high-performance runtime
-- C# runtime
+| Keyword | Score |
+|---------|-------|
+| open-source | 4.57 |
+| garbage collector | 4.54 |
+| gc | 4.54 |
+| industry standards | 4.54 |
+| higher-level | 4.52 |
+| low-cost | 4.52 |
+| self-tuning | 4.52 |
+| low-level | 3.56 |
+| object-oriented | 3.56 |
+| high-level | 3.54 |
+| community | 3.05 |
+| via | 3.05 |
+

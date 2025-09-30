@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 308
-Total word occurrences: 536
+Total unique words: 321
+Total word occurrences: 584
 Total document words: 865
 
 | Word | Count | Document Concentration |
@@ -56,7 +56,6 @@ Total document words: 865
 | debugging | 1 | 0.0012 |
 | deep | 1 | 0.0012 |
 | deploying | 1 | 0.0012 |
-| deployment | 1 | 0.0012 |
 | design | 1 | 0.0012 |
 | designed | 1 | 0.0012 |
 | developer | 1 | 0.0012 |
@@ -85,6 +84,7 @@ Total document words: 865
 | extension | 1 | 0.0012 |
 | fallback | 1 | 0.0012 |
 | faster | 1 | 0.0012 |
+| file | 1 | 0.0012 |
 | first | 1 | 0.0012 |
 | first-time | 1 | 0.0012 |
 | follows | 1 | 0.0012 |
@@ -96,7 +96,6 @@ Total document words: 865
 | functionality | 1 | 0.0012 |
 | functions | 1 | 0.0012 |
 | generally | 1 | 0.0012 |
-| generic | 1 | 0.0012 |
 | gotchas | 1 | 0.0012 |
 | group | 1 | 0.0012 |
 | grow | 1 | 0.0012 |
@@ -115,8 +114,10 @@ Total document words: 865
 | jetbrains | 1 | 0.0012 |
 | key | 1 | 0.0012 |
 | leverages | 1 | 0.0012 |
+| libraries | 1 | 0.0012 |
 | lifecycle | 1 | 0.0012 |
 | lightweight | 1 | 0.0012 |
+| local | 1 | 0.0012 |
 | long | 1 | 0.0012 |
 | machines | 1 | 0.0012 |
 | main | 1 | 0.0012 |
@@ -129,6 +130,7 @@ Total document words: 865
 | modern | 1 | 0.0012 |
 | multi-level | 1 | 0.0012 |
 | multi-platform | 1 | 0.0012 |
+| net | 1 | 0.0012 |
 | noun | 1 | 0.0012 |
 | nuget | 1 | 0.0012 |
 | object-focused | 1 | 0.0012 |
@@ -169,7 +171,6 @@ Total document words: 865
 | run | 1 | 0.0012 |
 | runtimes | 1 | 0.0012 |
 | scaffolding | 1 | 0.0012 |
-| scenarios | 1 | 0.0012 |
 | sdk-based | 1 | 0.0012 |
 | sdk-style | 1 | 0.0012 |
 | seamlessly | 1 | 0.0012 |
@@ -218,6 +219,7 @@ Total document words: 865
 | watch-driven | 1 | 0.0012 |
 | web | 1 | 0.0012 |
 | work | 1 | 0.0012 |
+| workflow | 1 | 0.0012 |
 | workload | 1 | 0.0012 |
 | works | 1 | 0.0012 |
 | always | 2 | 0.0023 |
@@ -225,10 +227,13 @@ Total document words: 865
 | avoid | 2 | 0.0023 |
 | case | 2 | 0.0023 |
 | cause | 2 | 0.0023 |
+| cd | 2 | 0.0023 |
+| command | 2 | 0.0023 |
 | common | 2 | 0.0023 |
 | customization | 2 | 0.0023 |
 | default | 2 | 0.0023 |
 | dependencies | 2 | 0.0023 |
+| deployment | 2 | 0.0023 |
 | differences | 2 | 0.0023 |
 | editor | 2 | 0.0023 |
 | enterprise | 2 | 0.0023 |
@@ -241,6 +246,7 @@ Total document words: 865
 | incremental | 2 | 0.0023 |
 | installation | 2 | 0.0023 |
 | integrated | 2 | 0.0023 |
+| json | 2 | 0.0023 |
 | length | 2 | 0.0023 |
 | linux | 2 | 0.0023 |
 | lock | 2 | 0.0023 |
@@ -251,12 +257,12 @@ Total document words: 865
 | parallel | 2 | 0.0023 |
 | permission | 2 | 0.0023 |
 | platforms | 2 | 0.0023 |
+| publishing | 2 | 0.0023 |
 | related | 2 | 0.0023 |
-| restore | 2 | 0.0023 |
+| scenarios | 2 | 0.0023 |
 | sensitivity | 2 | 0.0023 |
 | slow | 2 | 0.0023 |
 | targeting | 2 | 0.0023 |
-| team | 2 | 0.0023 |
 | telemetry | 2 | 0.0023 |
 | template | 2 | 0.0023 |
 | templates | 2 | 0.0023 |
@@ -273,6 +279,7 @@ Total document words: 865
 | building | 3 | 0.0035 |
 | caching | 3 | 0.0035 |
 | ci | 3 | 0.0035 |
+| configuration | 3 | 0.0035 |
 | downloads | 3 | 0.0035 |
 | efficient | 3 | 0.0035 |
 | experience | 3 | 0.0035 |
@@ -282,10 +289,13 @@ Total document words: 865
 | like | 3 | 0.0035 |
 | operating | 3 | 0.0035 |
 | organization | 3 | 0.0035 |
+| patterns | 3 | 0.0035 |
 | permissions | 3 | 0.0035 |
+| pipeline | 3 | 0.0035 |
 | platform | 3 | 0.0035 |
 | primary | 3 | 0.0035 |
 | require | 3 | 0.0035 |
+| restore | 3 | 0.0035 |
 | solutions | 3 | 0.0035 |
 | studio | 3 | 0.0035 |
 | systems | 3 | 0.0035 |
@@ -296,11 +306,12 @@ Total document words: 865
 | multiple | 4 | 0.0046 |
 | path | 4 | 0.0046 |
 | solution | 4 | 0.0046 |
+| system | 4 | 0.0046 |
+| team | 4 | 0.0046 |
 | tool | 4 | 0.0046 |
 | visual | 4 | 0.0046 |
 | windows | 4 | 0.0046 |
 | consistent | 5 | 0.0058 |
-| development | 5 | 0.0058 |
 | operations | 5 | 0.0058 |
 | provides | 5 | 0.0058 |
 | sdk | 5 | 0.0058 |
@@ -310,8 +321,10 @@ Total document words: 865
 | builds | 7 | 0.0081 |
 | across | 8 | 0.0092 |
 | global | 8 | 0.0092 |
-| package | 8 | 0.0092 |
+| project | 8 | 0.0092 |
 | runtime | 8 | 0.0092 |
 | commands | 9 | 0.0104 |
+| package | 11 | 0.0127 |
+| development | 12 | 0.0139 |
 | tools | 13 | 0.0150 |
 | cli | 23 | 0.0266 |

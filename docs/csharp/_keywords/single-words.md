@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 440
-Total word occurrences: 768
+Total unique words: 445
+Total word occurrences: 786
 Total document words: 1406
 
 | Word | Count | Document Concentration |
@@ -126,7 +126,6 @@ Total document words: 1406
 | fundamental | 1 | 0.0007 |
 | game | 1 | 0.0007 |
 | general | 1 | 0.0007 |
-| generic | 1 | 0.0007 |
 | gotchas | 1 | 0.0007 |
 | great | 1 | 0.0007 |
 | group | 1 | 0.0007 |
@@ -166,6 +165,7 @@ Total document words: 1406
 | iterating | 1 | 0.0007 |
 | jagged | 1 | 0.0007 |
 | java | 1 | 0.0007 |
+| json | 1 | 0.0007 |
 | keywords | 1 | 0.0007 |
 | known | 1 | 0.0007 |
 | language-library | 1 | 0.0007 |
@@ -187,7 +187,7 @@ Total document words: 1406
 | mapping | 1 | 0.0007 |
 | matters | 1 | 0.0007 |
 | maximum | 1 | 0.0007 |
-| methods | 1 | 0.0007 |
+| microservices | 1 | 0.0007 |
 | mobile | 1 | 0.0007 |
 | modeling | 1 | 0.0007 |
 | models | 1 | 0.0007 |
@@ -270,8 +270,11 @@ Total document words: 1406
 | special | 1 | 0.0007 |
 | specialized | 1 | 0.0007 |
 | stack-allocated | 1 | 0.0007 |
+| state | 1 | 0.0007 |
 | static | 1 | 0.0007 |
 | statically | 1 | 0.0007 |
+| strategy | 1 | 0.0007 |
+| string | 1 | 0.0007 |
 | strongly | 1 | 0.0007 |
 | structs | 1 | 0.0007 |
 | switch | 1 | 0.0007 |
@@ -359,6 +362,7 @@ Total document words: 1406
 | offer | 2 | 0.0014 |
 | optimizations | 2 | 0.0014 |
 | optional | 2 | 0.0014 |
+| patterns | 2 | 0.0014 |
 | platforms | 2 | 0.0014 |
 | plug-in | 2 | 0.0014 |
 | polymorphism | 2 | 0.0014 |
@@ -375,6 +379,7 @@ Total document words: 1406
 | studio | 2 | 0.0014 |
 | supporting | 2 | 0.0014 |
 | supports | 2 | 0.0014 |
+| system | 2 | 0.0014 |
 | time | 2 | 0.0014 |
 | typed | 2 | 0.0014 |
 | used | 2 | 0.0014 |
@@ -426,7 +431,6 @@ Total document words: 1406
 | control | 5 | 0.0036 |
 | developers | 5 | 0.0036 |
 | matching | 5 | 0.0036 |
-| pattern | 5 | 0.0036 |
 | platform | 5 | 0.0036 |
 | reference | 5 | 0.0036 |
 | web | 5 | 0.0036 |
@@ -435,15 +439,16 @@ Total document words: 1406
 | enables | 6 | 0.0043 |
 | while | 6 | 0.0043 |
 | collections | 7 | 0.0050 |
-| libraries | 7 | 0.0050 |
+| pattern | 7 | 0.0050 |
 | using | 7 | 0.0050 |
 | compiler | 8 | 0.0057 |
 | programming | 8 | 0.0057 |
 | provides | 8 | 0.0057 |
-| types | 8 | 0.0057 |
+| libraries | 9 | 0.0064 |
 | support | 9 | 0.0064 |
+| types | 10 | 0.0071 |
 | code | 11 | 0.0078 |
-| features | 11 | 0.0078 |
 | like | 11 | 0.0078 |
-| net | 12 | 0.0085 |
-| language | 19 | 0.0135 |
+| features | 13 | 0.0092 |
+| net | 13 | 0.0092 |
+| language | 21 | 0.0149 |

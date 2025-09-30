@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 139
-Total word occurrences: 186
+Total unique words: 145
+Total word occurrences: 203
 Total document words: 357
 
 | Word | Count | Document Concentration |
@@ -49,6 +49,7 @@ Total document words: 357
 | extending | 1 | 0.0028 |
 | feature | 1 | 0.0028 |
 | field | 1 | 0.0028 |
+| first-class | 1 | 0.0028 |
 | follows | 1 | 0.0028 |
 | generators | 1 | 0.0028 |
 | gotchas | 1 | 0.0028 |
@@ -61,7 +62,6 @@ Total document words: 357
 | intrinsics | 1 | 0.0028 |
 | introduces | 1 | 0.0028 |
 | key | 1 | 0.0028 |
-| lambda | 1 | 0.0028 |
 | lifetime | 1 | 0.0028 |
 | limitations | 1 | 0.0028 |
 | limited | 1 | 0.0028 |
@@ -70,7 +70,6 @@ Total document words: 357
 | matching | 1 | 0.0028 |
 | member | 1 | 0.0028 |
 | method | 1 | 0.0028 |
-| methods | 1 | 0.0028 |
 | name | 1 | 0.0028 |
 | natural | 1 | 0.0028 |
 | null | 1 | 0.0028 |
@@ -81,6 +80,7 @@ Total document words: 357
 | overview | 1 | 0.0028 |
 | parameter | 1 | 0.0028 |
 | params | 1 | 0.0028 |
+| pattern | 1 | 0.0028 |
 | priority | 1 | 0.0028 |
 | productivity | 1 | 0.0028 |
 | property | 1 | 0.0028 |
@@ -117,15 +117,16 @@ Total document words: 357
 | versions | 1 | 0.0028 |
 | ways | 1 | 0.0028 |
 | work | 1 | 0.0028 |
-| assignment | 2 | 0.0056 |
+| zero-allocation | 1 | 0.0028 |
 | async | 2 | 0.0056 |
 | boilerplate | 2 | 0.0056 |
 | common | 2 | 0.0056 |
 | constructors | 2 | 0.0056 |
 | enables | 2 | 0.0056 |
 | events | 2 | 0.0056 |
-| generic | 2 | 0.0056 |
+| features | 2 | 0.0056 |
 | modifiers | 2 | 0.0056 |
+| null-conditional | 2 | 0.0056 |
 | optional | 2 | 0.0056 |
 | parameters | 2 | 0.0056 |
 | preview | 2 | 0.0056 |
@@ -134,15 +135,20 @@ Total document words: 357
 | rules | 2 | 0.0056 |
 | safety | 2 | 0.0056 |
 | specific | 2 | 0.0056 |
+| string | 2 | 0.0056 |
 | unsafe | 2 | 0.0056 |
+| validation | 2 | 0.0056 |
 | without | 2 | 0.0056 |
 | extensions | 3 | 0.0084 |
 | keyword | 3 | 0.0084 |
+| lambda | 3 | 0.0084 |
 | partial | 3 | 0.0084 |
 | ref | 3 | 0.0084 |
+| assignment | 4 | 0.0112 |
 | code | 4 | 0.0112 |
 | enhanced | 4 | 0.0112 |
 | operations | 4 | 0.0112 |
-| span | 4 | 0.0112 |
+| patterns | 4 | 0.0112 |
 | extension | 5 | 0.0140 |
+| span | 5 | 0.0140 |
 | support | 5 | 0.0140 |

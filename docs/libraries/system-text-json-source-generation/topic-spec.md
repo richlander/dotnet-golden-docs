@@ -62,18 +62,18 @@ System.Text.Json source generation provides compile-time generation of serializa
 
 | Keyword | Score |
 |---------|-------|
-| reflection-based | 4.57 |
 | aot applications | 4.55 |
-| aot compatibility | 4.55 |
-| naming policies | 4.55 |
-| aot compilation | 4.54 |
-| property naming | 4.54 |
-| context management | 4.52 |
-| generation handle | 4.52 |
-| generation handle naming | 4.52 |
-| handle naming | 4.52 |
-| json reflection | 4.52 |
-| json source | 4.52 |
+| aot compatibility | 4.54 |
+| aot compilation | 4.52 |
+| property naming policies | 4.52 |
+| type-safe | 4.52 |
+| reflection-based | 3.59 |
+| high-performance | 3.53 |
+| system.text.json source generation | 3.51 |
+| source generation | 3.24 |
+| native aot | 3.22 |
+| naming | 3.08 |
+| context | 3.06 |
 
 ## Diagnostic Codes
 

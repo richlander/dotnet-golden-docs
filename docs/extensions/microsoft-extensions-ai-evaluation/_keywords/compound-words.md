@@ -1,8 +1,8 @@
 # Compound Term Analysis
 
 Generated from: `golden-reference.md`
-Total unique compounds: 10
-Total compound occurrences: 67
+Total unique compounds: 8
+Total compound occurrences: 55
 Total document words: 597
 
 | Compound Term | Count | Document Concentration |
@@ -11,9 +11,7 @@ Total document words: 597
 | automated quality gates | 2 | 0.0034 |
 | custom evaluator implementation | 2 | 0.0034 |
 | error handling | 2 | 0.0034 |
+| llm-based | 2 | 0.0034 |
 | llm-based evaluators | 2 | 0.0034 |
-| quality evaluation | 2 | 0.0034 |
 | regression testing | 2 | 0.0034 |
-| automated quality | 4 | 0.0067 |
-| llm-based | 4 | 0.0067 |
 | safety evaluators | 4 | 0.0067 |

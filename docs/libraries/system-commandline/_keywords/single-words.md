@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 243
-Total word occurrences: 384
+Total unique words: 247
+Total word occurrences: 398
 Total document words: 630
 
 | Word | Count | Document Concentration |
@@ -39,7 +39,6 @@ Total document words: 630
 | commonly | 1 | 0.0016 |
 | compared | 1 | 0.0016 |
 | compiled | 1 | 0.0016 |
-| configuration | 1 | 0.0016 |
 | considerations | 1 | 0.0016 |
 | constraints | 1 | 0.0016 |
 | construction | 1 | 0.0016 |
@@ -81,7 +80,6 @@ Total document words: 630
 | full | 1 | 0.0016 |
 | functions | 1 | 0.0016 |
 | generated | 1 | 0.0016 |
-| generic | 1 | 0.0016 |
 | git | 1 | 0.0016 |
 | group | 1 | 0.0016 |
 | handle | 1 | 0.0016 |
@@ -103,9 +101,11 @@ Total document words: 630
 | lazy | 1 | 0.0016 |
 | let | 1 | 0.0016 |
 | leveraging | 1 | 0.0016 |
+| libraries | 1 | 0.0016 |
 | like | 1 | 0.0016 |
 | limitations | 1 | 0.0016 |
 | limited | 1 | 0.0016 |
+| local | 1 | 0.0016 |
 | logging | 1 | 0.0016 |
 | long-running | 1 | 0.0016 |
 | main | 1 | 0.0016 |
@@ -114,6 +114,7 @@ Total document words: 630
 | matching | 1 | 0.0016 |
 | messages | 1 | 0.0016 |
 | method | 1 | 0.0016 |
+| methods | 1 | 0.0016 |
 | migration | 1 | 0.0016 |
 | minimal | 1 | 0.0016 |
 | minimize | 1 | 0.0016 |
@@ -136,6 +137,7 @@ Total document words: 630
 | overview | 1 | 0.0016 |
 | packaging | 1 | 0.0016 |
 | parameters | 1 | 0.0016 |
+| pattern | 1 | 0.0016 |
 | perform | 1 | 0.0016 |
 | pitfalls | 1 | 0.0016 |
 | plan | 1 | 0.0016 |
@@ -199,9 +201,9 @@ Total document words: 630
 | helpful | 2 | 0.0032 |
 | inputs | 2 | 0.0032 |
 | integrates | 2 | 0.0032 |
+| lambda | 2 | 0.0032 |
 | logic | 2 | 0.0032 |
 | multiple | 2 | 0.0032 |
-| net | 2 | 0.0032 |
 | parse | 2 | 0.0032 |
 | parser | 2 | 0.0032 |
 | platforms | 2 | 0.0032 |
@@ -217,7 +219,6 @@ Total document words: 630
 | works | 2 | 0.0032 |
 | arguments | 3 | 0.0048 |
 | built-in | 3 | 0.0048 |
-| command | 3 | 0.0048 |
 | commands | 3 | 0.0048 |
 | complex | 3 | 0.0048 |
 | conventions | 3 | 0.0048 |
@@ -225,7 +226,7 @@ Total document words: 630
 | errors | 3 | 0.0048 |
 | expensive | 3 | 0.0048 |
 | handler | 3 | 0.0048 |
-| methods | 3 | 0.0048 |
+| net | 3 | 0.0048 |
 | sethandler | 3 | 0.0048 |
 | subcommands | 3 | 0.0048 |
 | tab | 3 | 0.0048 |
@@ -234,6 +235,7 @@ Total document words: 630
 | automatic | 4 | 0.0063 |
 | binding | 4 | 0.0063 |
 | completion | 4 | 0.0063 |
+| configuration | 4 | 0.0063 |
 | console | 4 | 0.0063 |
 | extensions | 4 | 0.0063 |
 | global | 4 | 0.0063 |
@@ -243,10 +245,12 @@ Total document words: 630
 | hosting | 4 | 0.0063 |
 | microsoft | 4 | 0.0063 |
 | support | 4 | 0.0063 |
-| validation | 5 | 0.0079 |
+| system | 4 | 0.0063 |
+| command | 5 | 0.0079 |
 | commandline | 6 | 0.0095 |
 | options | 6 | 0.0095 |
 | tools | 6 | 0.0095 |
 | option | 7 | 0.0111 |
+| validation | 7 | 0.0111 |
 | use | 8 | 0.0127 |
 | parsing | 9 | 0.0143 |

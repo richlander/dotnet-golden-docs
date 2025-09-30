@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 8 compound terms and 187 single words
-Total unique terms: 195
+Combined 8 compound terms and 189 single words
+Total unique terms: 197
 Terms with score ≥ 3.0: 28
-Total term occurrences: 291
+Total term occurrences: 297
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -17,10 +17,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 |------|------|-------|-------------|-----------|-------------|
 | trimming | single | 8 | 1.00x | 1.00x | 8.0 |
 | code | single | 7 | 1.00x | 1.00x | 7.0 |
+| reflection | single | 6 | 1.00x | 1.00x | 6.0 |
 | assembly trimming | compound | 2 | 1.50x | 1.50x | 4.5 |
 | analysis | single | 4 | 1.00x | 1.00x | 4.0 |
+| deployment | single | 4 | 1.00x | 1.00x | 4.0 |
 | reduced | single | 4 | 1.00x | 1.00x | 4.0 |
-| reflection | single | 4 | 1.00x | 1.00x | 4.0 |
 | test | single | 4 | 1.00x | 1.00x | 4.0 |
 | desktop applications | compound | 2 | 1.10x | 1.50x | 3.3 |
 | framework integration | compound | 2 | 1.10x | 1.50x | 3.3 |
@@ -29,7 +30,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | build-time | compound | 2 | 1.00x | 1.50x | 3.0 |
 | common | single | 3 | 1.00x | 1.00x | 3.0 |
 | compile-time | compound | 2 | 1.00x | 1.50x | 3.0 |
-| deployment | single | 3 | 1.00x | 1.00x | 3.0 |
 | disabled | single | 3 | 1.00x | 1.00x | 3.0 |
 | faster | single | 3 | 1.00x | 1.00x | 3.0 |
 | generators | single | 3 | 1.00x | 1.00x | 3.0 |

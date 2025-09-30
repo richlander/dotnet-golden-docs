@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 14 compound terms and 112 single words
-Total unique terms: 126
-Terms with score ≥ 3.0: 23
-Total term occurrences: 196
+Combined 11 compound terms and 119 single words
+Total unique terms: 129
+Terms with score ≥ 3.0: 24
+Total term occurrences: 212
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,26 +15,27 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| libraries | single | 10 | 1.00x | 1.00x | 10.0 |
-| asp.net core | compound | 4 | 1.10x | 1.50x | 6.6 |
+| libraries | single | 12 | 1.00x | 1.00x | 12.0 |
+| system | single | 8 | 1.00x | 1.00x | 8.0 |
 | data access | compound | 3 | 1.25x | 1.50x | 5.6 |
 | library ecosystem | compound | 3 | 1.25x | 1.50x | 5.6 |
-| memory management | compound | 3 | 1.25x | 1.50x | 5.6 |
 | frameworks | single | 5 | 1.00x | 1.00x | 5.0 |
+| patterns | single | 5 | 1.00x | 1.00x | 5.0 |
+| asp.net core | compound | 3 | 1.10x | 1.50x | 5.0 |
 | dependency injection | compound | 3 | 1.10x | 1.50x | 5.0 |
-| high-performance | compound | 3 | 1.10x | 1.50x | 5.0 |
-| third-party | compound | 3 | 1.10x | 1.50x | 5.0 |
 | application | single | 4 | 1.00x | 1.00x | 4.0 |
 | asp | single | 4 | 1.00x | 1.00x | 4.0 |
-| system | single | 4 | 1.00x | 1.00x | 4.0 |
-| distributed system | compound | 2 | 1.25x | 1.50x | 3.8 |
-| system libraries | compound | 2 | 1.25x | 1.50x | 3.8 |
+| json | single | 4 | 1.00x | 1.00x | 4.0 |
+| memory management | compound | 2 | 1.25x | 1.50x | 3.8 |
 | azure sdk | compound | 2 | 1.10x | 1.50x | 3.3 |
 | entity framework core | compound | 2 | 1.10x | 1.50x | 3.3 |
 | high-performance collections | compound | 2 | 1.10x | 1.50x | 3.3 |
+| third-party | compound | 2 | 1.10x | 1.50x | 3.3 |
 | across | single | 3 | 1.00x | 1.00x | 3.0 |
 | async | single | 3 | 1.00x | 1.00x | 3.0 |
 | base class library | compound | 2 | 1.00x | 1.50x | 3.0 |
 | bcl | compound | 2 | 1.00x | 1.50x | 3.0 |
 | cloud | single | 3 | 1.00x | 1.00x | 3.0 |
+| core | single | 3 | 1.00x | 1.00x | 3.0 |
+| distributed | single | 3 | 1.00x | 1.00x | 3.0 |
 | nuget | single | 3 | 1.00x | 1.00x | 3.0 |

@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 128
-Total word occurrences: 189
+Total unique words: 135
+Total word occurrences: 209
 Total document words: 304
 
 | Word | Count | Document Concentration |
@@ -23,7 +23,6 @@ Total document words: 304
 | common | 1 | 0.0033 |
 | compared | 1 | 0.0033 |
 | compareoptions | 1 | 0.0033 |
-| comparison | 1 | 0.0033 |
 | complement | 1 | 0.0033 |
 | content | 1 | 0.0033 |
 | dangling | 1 | 0.0033 |
@@ -37,6 +36,7 @@ Total document words: 304
 | established | 1 | 0.0033 |
 | examples | 1 | 0.0033 |
 | experimental | 1 | 0.0033 |
+| features | 1 | 0.0033 |
 | filenames | 1 | 0.0033 |
 | focus | 1 | 0.0033 |
 | follow | 1 | 0.0033 |
@@ -55,6 +55,7 @@ Total document words: 304
 | introduces | 1 | 0.0033 |
 | jsonserializeroptions | 1 | 0.0033 |
 | lexicographically | 1 | 0.0033 |
+| libraries | 1 | 0.0033 |
 | lifetime | 1 | 0.0033 |
 | limitations | 1 | 0.0033 |
 | linq | 1 | 0.0033 |
@@ -72,6 +73,8 @@ Total document words: 304
 | overloads | 1 | 0.0033 |
 | overview | 1 | 0.0033 |
 | parsing | 1 | 0.0033 |
+| patterns | 1 | 0.0033 |
+| post-quantum | 1 | 0.0033 |
 | pqc | 1 | 0.0033 |
 | preset | 1 | 0.0033 |
 | prevent | 1 | 0.0033 |
@@ -98,6 +101,7 @@ Total document words: 304
 | subsequent | 1 | 0.0033 |
 | themes | 1 | 0.0033 |
 | usage | 1 | 0.0033 |
+| validation | 1 | 0.0033 |
 | vulnerabilities | 1 | 0.0033 |
 | websocketstream | 1 | 0.0033 |
 | windows | 1 | 0.0033 |
@@ -122,16 +126,19 @@ Total document words: 304
 | without | 2 | 0.0066 |
 | works | 2 | 0.0066 |
 | algorithms | 3 | 0.0099 |
+| comparison | 3 | 0.0099 |
 | cryptography | 3 | 0.0099 |
 | duplicate | 3 | 0.0099 |
 | hex | 3 | 0.0099 |
 | numericordering | 3 | 0.0099 |
 | options | 3 | 0.0099 |
-| string | 3 | 0.0099 |
+| processing | 3 | 0.0099 |
+| serialization | 3 | 0.0099 |
 | utf-8 | 3 | 0.0099 |
 | improvements | 4 | 0.0132 |
-| json | 4 | 0.0132 |
 | support | 4 | 0.0132 |
 | apis | 5 | 0.0164 |
 | operations | 5 | 0.0164 |
+| string | 5 | 0.0164 |
+| json | 9 | 0.0296 |
 | security | 9 | 0.0296 |

@@ -54,12 +54,20 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 ## Keywords
 
-- C# language
-- programming language
-- object-oriented
-- type-safe
-- .NET language
-- modern syntax
+| Keyword | Score |
+|---------|-------|
+| asynchronous programming | 4.54 |
+| language features | 4.54 |
+| memory-safety | 4.54 |
+| cloud-native development | 4.52 |
+| language-integrated | 4.52 |
+| mobile applications | 4.52 |
+| pattern-based | 4.52 |
+| platform-specific | 4.52 |
+| type system | 4.52 |
+| version compatibility | 4.52 |
+| low-level | 3.56 |
+| object-oriented | 3.56 |
 
 ## Source Discovery Workflow
 

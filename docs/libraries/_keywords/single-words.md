@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 112
-Total word occurrences: 160
+Total unique words: 119
+Total word occurrences: 187
 Total document words: 353
 
 | Word | Count | Document Concentration |
@@ -38,7 +38,6 @@ Total document words: 353
 | diagnostics | 1 | 0.0028 |
 | different | 1 | 0.0028 |
 | discovery | 1 | 0.0028 |
-| distributed | 1 | 0.0028 |
 | ecosystem | 1 | 0.0028 |
 | enable | 1 | 0.0028 |
 | encryption | 1 | 0.0028 |
@@ -62,9 +61,9 @@ Total document words: 353
 | maui | 1 | 0.0028 |
 | mediatr | 1 | 0.0028 |
 | memory-efficient | 1 | 0.0028 |
+| microservices | 1 | 0.0028 |
 | mstest | 1 | 0.0028 |
 | namespace | 1 | 0.0028 |
-| net | 1 | 0.0028 |
 | object-relational | 1 | 0.0028 |
 | operations | 1 | 0.0028 |
 | optimization | 1 | 0.0028 |
@@ -73,7 +72,6 @@ Total document words: 353
 | overview | 1 | 0.0028 |
 | paradigms | 1 | 0.0028 |
 | parallelism | 1 | 0.0028 |
-| patterns | 1 | 0.0028 |
 | platform | 1 | 0.0028 |
 | platforms | 1 | 0.0028 |
 | popular | 1 | 0.0028 |
@@ -86,7 +84,9 @@ Total document words: 353
 | serverless | 1 | 0.0028 |
 | serves | 1 | 0.0028 |
 | specialized | 1 | 0.0028 |
+| state | 1 | 0.0028 |
 | support | 1 | 0.0028 |
+| third-party | 1 | 0.0028 |
 | threading | 1 | 0.0028 |
 | via | 1 | 0.0028 |
 | windows | 1 | 0.0028 |
@@ -96,15 +96,18 @@ Total document words: 353
 | apis | 2 | 0.0057 |
 | architecture | 2 | 0.0057 |
 | components | 2 | 0.0057 |
+| configuration | 2 | 0.0057 |
 | foundation | 2 | 0.0057 |
 | fundamental | 2 | 0.0057 |
 | logging | 2 | 0.0057 |
 | modern | 2 | 0.0057 |
 | multiple | 2 | 0.0057 |
+| net | 2 | 0.0057 |
 | networking | 2 | 0.0057 |
 | packages | 2 | 0.0057 |
 | runtime | 2 | 0.0057 |
 | security | 2 | 0.0057 |
+| serialization | 2 | 0.0057 |
 | services | 2 | 0.0057 |
 | spans | 2 | 0.0057 |
 | testing | 2 | 0.0057 |
@@ -113,9 +116,13 @@ Total document words: 353
 | across | 3 | 0.0085 |
 | async | 3 | 0.0085 |
 | cloud | 3 | 0.0085 |
+| core | 3 | 0.0085 |
+| distributed | 3 | 0.0085 |
 | nuget | 3 | 0.0085 |
 | application | 4 | 0.0113 |
 | asp | 4 | 0.0113 |
-| system | 4 | 0.0113 |
+| json | 4 | 0.0113 |
 | frameworks | 5 | 0.0142 |
-| libraries | 10 | 0.0283 |
+| patterns | 5 | 0.0142 |
+| system | 8 | 0.0227 |
+| libraries | 12 | 0.0340 |

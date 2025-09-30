@@ -64,14 +64,20 @@ Object initialization encompasses the various approaches for creating and initia
 
 ## Keywords
 
-- object initialization
-- object initializers
-- property initialization
-- init-only properties
-- required members
-- anonymous types
-- collection initializers
-- target-typed new
+| Keyword | Score |
+|---------|-------|
+| anonymous types | 4.58 |
+| object initialization | 4.58 |
+| init properties | 4.54 |
+| required members | 4.54 |
+| anti-patterns | 4.52 |
+| collection initialization within | 4.52 |
+| init-only properties | 4.52 |
+| initialization within objects | 4.52 |
+| object initializer syntax | 4.52 |
+| properties | 3.06 |
+| constructor | 3.04 |
+| object | 3.04 |
 
 ## Diagnostic Codes
 

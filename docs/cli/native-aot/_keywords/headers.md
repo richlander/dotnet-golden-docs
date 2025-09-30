@@ -1,13 +1,14 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 23
+Total headers: 27
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
 - **H2**: 6 headers (multiplier: 1.25x)
-- **H3**: 16 headers (multiplier: 1.1x)
+- **H3**: 17 headers (multiplier: 1.1x)
+- **H4**: 3 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -25,6 +26,10 @@ Total headers: 23
 | H3 | Complementary Technologies | 1.1x |
 | H3 | ASP.NET Core Integration (.NET 8+) | 1.1x |
 | H3 | Cross-Compilation Support | 1.1x |
+| H3 | System.Text.Json Source Generation | 1.1x |
+| H4 | Setting Up Source Generation | 1.1x |
+| H4 | Enabling Source Generation for Generic Methods with JsonTypeInfo | 1.1x |
+| H4 | Common AOT Errors | 1.1x |
 | H2 | Common Scenarios | 1.25x |
 | H3 | High-Performance Console Applications | 1.1x |
 | H3 | Microservice with Minimal API | 1.1x |

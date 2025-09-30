@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 148
-Total word occurrences: 202
+Total unique words: 152
+Total word occurrences: 221
 Total document words: 356
 
 | Word | Count | Document Concentration |
@@ -21,7 +21,6 @@ Total document words: 356
 | better | 1 | 0.0028 |
 | built | 1 | 0.0028 |
 | cases | 1 | 0.0028 |
-| configuration | 1 | 0.0028 |
 | consider | 1 | 0.0028 |
 | consumption | 1 | 0.0028 |
 | conversion | 1 | 0.0028 |
@@ -79,7 +78,7 @@ Total document words: 356
 | matters | 1 | 0.0028 |
 | maximum | 1 | 0.0028 |
 | metadata | 1 | 0.0028 |
-| methods | 1 | 0.0028 |
+| modes | 1 | 0.0028 |
 | multi-megabyte | 1 | 0.0028 |
 | names | 1 | 0.0028 |
 | namespace | 1 | 0.0028 |
@@ -95,13 +94,14 @@ Total document words: 356
 | prefer | 1 | 0.0028 |
 | prevents | 1 | 0.0028 |
 | prioritizes | 1 | 0.0028 |
+| processing | 1 | 0.0028 |
 | protection | 1 | 0.0028 |
 | provides | 1 | 0.0028 |
 | recommended | 1 | 0.0028 |
+| reflection | 1 | 0.0028 |
 | relationships | 1 | 0.0028 |
 | requiring | 1 | 0.0028 |
 | runtime | 1 | 0.0028 |
-| scenarios | 1 | 0.0028 |
 | seamlessly | 1 | 0.0028 |
 | see | 1 | 0.0028 |
 | serializer | 1 | 0.0028 |
@@ -119,6 +119,7 @@ Total document words: 356
 | unexpected | 1 | 0.0028 |
 | updating | 1 | 0.0028 |
 | using | 1 | 0.0028 |
+| validation | 1 | 0.0028 |
 | vs | 1 | 0.0028 |
 | vulnerabilities | 1 | 0.0028 |
 | works | 1 | 0.0028 |
@@ -141,6 +142,7 @@ Total document words: 356
 | options | 2 | 0.0056 |
 | overhead | 2 | 0.0056 |
 | reuse | 2 | 0.0056 |
+| scenarios | 2 | 0.0056 |
 | security | 2 | 0.0056 |
 | web | 2 | 0.0056 |
 | apis | 3 | 0.0084 |
@@ -148,10 +150,12 @@ Total document words: 356
 | operations | 3 | 0.0084 |
 | performance | 3 | 0.0084 |
 | requires | 3 | 0.0084 |
-| serialization | 3 | 0.0084 |
+| system | 3 | 0.0084 |
 | text | 3 | 0.0084 |
 | use | 3 | 0.0084 |
 | utf-8 | 3 | 0.0084 |
+| configuration | 4 | 0.0112 |
 | default | 4 | 0.0112 |
 | newtonsoft | 4 | 0.0112 |
-| json | 10 | 0.0281 |
+| serialization | 7 | 0.0197 |
+| json | 15 | 0.0421 |

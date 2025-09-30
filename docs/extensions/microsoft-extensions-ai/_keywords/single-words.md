@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 226
-Total word occurrences: 399
+Total unique words: 236
+Total word occurrences: 424
 Total document words: 636
 
 | Word | Count | Document Concentration |
@@ -32,7 +32,6 @@ Total document words: 636
 | built | 1 | 0.0016 |
 | business | 1 | 0.0016 |
 | call | 1 | 0.0016 |
-| calling | 1 | 0.0016 |
 | calls | 1 | 0.0016 |
 | capability | 1 | 0.0016 |
 | careful | 1 | 0.0016 |
@@ -45,6 +44,7 @@ Total document words: 636
 | components | 1 | 0.0016 |
 | composable | 1 | 0.0016 |
 | compose | 1 | 0.0016 |
+| composition | 1 | 0.0016 |
 | comprehensive | 1 | 0.0016 |
 | concepts | 1 | 0.0016 |
 | concerns | 1 | 0.0016 |
@@ -103,7 +103,6 @@ Total document words: 636
 | maintaining | 1 | 0.0016 |
 | manner | 1 | 0.0016 |
 | message | 1 | 0.0016 |
-| methods | 1 | 0.0016 |
 | mock | 1 | 0.0016 |
 | monitoring | 1 | 0.0016 |
 | multi-turn | 1 | 0.0016 |
@@ -130,10 +129,12 @@ Total document words: 636
 | request | 1 | 0.0016 |
 | require | 1 | 0.0016 |
 | requiring | 1 | 0.0016 |
+| scenarios | 1 | 0.0016 |
 | sdks | 1 | 0.0016 |
 | seamless | 1 | 0.0016 |
 | security | 1 | 0.0016 |
 | sensitivity | 1 | 0.0016 |
+| serialization | 1 | 0.0016 |
 | set | 1 | 0.0016 |
 | settings | 1 | 0.0016 |
 | signatures | 1 | 0.0016 |
@@ -166,9 +167,12 @@ Total document words: 636
 | application | 2 | 0.0031 |
 | around | 2 | 0.0031 |
 | between | 2 | 0.0031 |
+| builder | 2 | 0.0031 |
 | built-in | 2 | 0.0031 |
+| calling | 2 | 0.0031 |
 | conventions | 2 | 0.0031 |
 | creating | 2 | 0.0031 |
+| cross-provider | 2 | 0.0031 |
 | design | 2 | 0.0031 |
 | different | 2 | 0.0031 |
 | direct | 2 | 0.0031 |
@@ -176,7 +180,6 @@ Total document words: 636
 | enables | 2 | 0.0031 |
 | enabling | 2 | 0.0031 |
 | following | 2 | 0.0031 |
-| function | 2 | 0.0031 |
 | functions | 2 | 0.0031 |
 | implementing | 2 | 0.0031 |
 | independence | 2 | 0.0031 |
@@ -185,10 +188,12 @@ Total document words: 636
 | interoperability | 2 | 0.0031 |
 | key | 2 | 0.0031 |
 | layer | 2 | 0.0031 |
+| libraries | 2 | 0.0031 |
 | limiting | 2 | 0.0031 |
 | method | 2 | 0.0031 |
 | multiple | 2 | 0.0031 |
 | operations | 2 | 0.0031 |
+| pattern | 2 | 0.0031 |
 | preview | 2 | 0.0031 |
 | proper | 2 | 0.0031 |
 | rate | 2 | 0.0031 |
@@ -196,6 +201,7 @@ Total document words: 636
 | seamlessly | 2 | 0.0031 |
 | semantic | 2 | 0.0031 |
 | standardized | 2 | 0.0031 |
+| strategy | 2 | 0.0031 |
 | streaming | 2 | 0.0031 |
 | switch | 2 | 0.0031 |
 | systems | 2 | 0.0031 |
@@ -211,9 +217,13 @@ Total document words: 636
 | changes | 3 | 0.0047 |
 | chat | 3 | 0.0047 |
 | code | 3 | 0.0047 |
+| configuration | 3 | 0.0047 |
+| function | 3 | 0.0047 |
 | implement | 3 | 0.0047 |
 | opentelemetry | 3 | 0.0047 |
+| patterns | 3 | 0.0047 |
 | provides | 3 | 0.0047 |
+| standard | 3 | 0.0047 |
 | telemetry | 3 | 0.0047 |
 | vs | 3 | 0.0047 |
 | familiar | 4 | 0.0063 |
@@ -229,7 +239,7 @@ Total document words: 636
 | caching | 6 | 0.0094 |
 | interfaces | 6 | 0.0094 |
 | service | 6 | 0.0094 |
-| net | 7 | 0.0110 |
-| middleware | 10 | 0.0157 |
+| net | 8 | 0.0126 |
 | services | 10 | 0.0157 |
+| middleware | 11 | 0.0173 |
 | ai | 34 | 0.0535 |

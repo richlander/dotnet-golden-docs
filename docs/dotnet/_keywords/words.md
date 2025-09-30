@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 15 compound terms and 380 single words
-Total unique terms: 394
+Combined 13 compound terms and 389 single words
+Total unique terms: 401
 Terms with score ≥ 3.0: 75
-Total term occurrences: 740
+Total term occurrences: 752
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,14 +15,14 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| net | single | 34 | 1.00x | 1.00x | 34.0 |
+| net | single | 35 | 1.00x | 1.00x | 35.0 |
 | code | single | 14 | 1.00x | 1.00x | 14.0 |
-| cross-platform | compound | 8 | 1.10x | 1.50x | 13.2 |
 | runtime | single | 12 | 1.00x | 1.00x | 12.0 |
-| memory management | compound | 7 | 1.10x | 1.50x | 11.6 |
+| cross-platform | compound | 7 | 1.10x | 1.50x | 11.6 |
+| libraries | single | 11 | 1.00x | 1.00x | 11.0 |
 | like | single | 10 | 1.00x | 1.00x | 10.0 |
 | while | single | 10 | 1.00x | 1.00x | 10.0 |
-| libraries | single | 9 | 1.00x | 1.00x | 9.0 |
+| memory management | compound | 6 | 1.10x | 1.50x | 9.9 |
 | open-source | compound | 5 | 1.00x | 1.50x | 7.5 |
 | apis | single | 7 | 1.00x | 1.00x | 7.0 |
 | multiple | single | 7 | 1.00x | 1.00x | 7.0 |
@@ -47,6 +47,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | cloud | single | 4 | 1.00x | 1.00x | 4.0 |
 | components | single | 4 | 1.00x | 1.00x | 4.0 |
 | developers | single | 4 | 1.00x | 1.00x | 4.0 |
+| features | single | 4 | 1.00x | 1.00x | 4.0 |
 | linux | single | 4 | 1.00x | 1.00x | 4.0 |
 | many | single | 4 | 1.00x | 1.00x | 4.0 |
 | pillars | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -54,8 +55,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | programming | single | 4 | 1.00x | 1.00x | 4.0 |
 | set | single | 4 | 1.00x | 1.00x | 4.0 |
 | web | single | 4 | 1.00x | 1.00x | 4.0 |
-| high-performance | compound | 2 | 1.10x | 1.50x | 3.3 |
-| platform-specific | compound | 2 | 1.10x | 1.50x | 3.3 |
 | actively | single | 3 | 1.00x | 1.00x | 3.0 |
 | android | single | 3 | 1.00x | 1.00x | 3.0 |
 | architecture | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -71,6 +70,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | interop | single | 3 | 1.00x | 1.00x | 3.0 |
 | ios | single | 3 | 1.00x | 1.00x | 3.0 |
 | it's | single | 3 | 1.00x | 1.00x | 3.0 |
+| language | single | 3 | 1.00x | 1.00x | 3.0 |
 | low-cost | compound | 2 | 1.00x | 1.50x | 3.0 |
 | macos | single | 3 | 1.00x | 1.00x | 3.0 |
 | manual | single | 3 | 1.00x | 1.00x | 3.0 |

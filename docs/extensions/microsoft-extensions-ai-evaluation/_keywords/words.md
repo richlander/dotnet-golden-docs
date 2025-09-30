@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 10 compound terms and 211 single words
-Total unique terms: 221
+Combined 8 compound terms and 219 single words
+Total unique terms: 227
 Terms with score ≥ 3.0: 38
-Total term occurrences: 413
+Total term occurrences: 426
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,14 +15,12 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| evaluation | single | 28 | 1.00x | 1.00x | 28.0 |
+| evaluation | single | 30 | 1.00x | 1.00x | 30.0 |
 | ai | single | 24 | 1.00x | 1.00x | 24.0 |
+| quality | single | 14 | 1.00x | 1.00x | 14.0 |
 | safety | single | 10 | 1.00x | 1.00x | 10.0 |
-| quality | single | 8 | 1.00x | 1.00x | 8.0 |
 | extensions | single | 7 | 1.00x | 1.00x | 7.0 |
 | microsoft | single | 7 | 1.00x | 1.00x | 7.0 |
-| automated quality | compound | 4 | 1.10x | 1.50x | 6.6 |
-| llm-based | compound | 4 | 1.10x | 1.50x | 6.6 |
 | safety evaluators | compound | 4 | 1.10x | 1.50x | 6.6 |
 | azure | single | 6 | 1.00x | 1.00x | 6.0 |
 | evaluators | single | 6 | 1.00x | 1.00x | 6.0 |
@@ -37,10 +35,12 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | automated quality gates | compound | 2 | 1.10x | 1.50x | 3.3 |
 | custom evaluator implementation | compound | 2 | 1.10x | 1.50x | 3.3 |
 | error handling | compound | 2 | 1.10x | 1.50x | 3.3 |
+| llm-based | compound | 2 | 1.10x | 1.50x | 3.3 |
 | llm-based evaluators | compound | 2 | 1.10x | 1.50x | 3.3 |
-| quality evaluation | compound | 2 | 1.10x | 1.50x | 3.3 |
 | regression testing | compound | 2 | 1.10x | 1.50x | 3.3 |
 | ai-generated | compound | 2 | 1.00x | 1.50x | 3.0 |
+| automated | single | 3 | 1.00x | 1.00x | 3.0 |
+| cd | single | 3 | 1.00x | 1.00x | 3.0 |
 | ci | single | 3 | 1.00x | 1.00x | 3.0 |
 | compliance | single | 3 | 1.00x | 1.00x | 3.0 |
 | comprehensive | single | 3 | 1.00x | 1.00x | 3.0 |

@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 171
-Total word occurrences: 306
+Total unique words: 179
+Total word occurrences: 351
 Total document words: 496
 
 | Word | Count | Document Concentration |
@@ -85,6 +85,7 @@ Total document words: 496
 | overview | 1 | 0.0020 |
 | parallel | 1 | 0.0020 |
 | pipelines | 1 | 0.0020 |
+| policy | 1 | 0.0020 |
 | pools | 1 | 0.0020 |
 | positioning | 1 | 0.0020 |
 | production-ready | 1 | 0.0020 |
@@ -94,6 +95,7 @@ Total document words: 496
 | readable | 1 | 0.0020 |
 | reduce | 1 | 0.0020 |
 | relationships | 1 | 0.0020 |
+| scenarios | 1 | 0.0020 |
 | seamless | 1 | 0.0020 |
 | selection | 1 | 0.0020 |
 | service | 1 | 0.0020 |
@@ -120,27 +122,26 @@ Total document words: 496
 | apis | 2 | 0.0040 |
 | architecture | 2 | 0.0040 |
 | both | 2 | 0.0040 |
+| breaker | 2 | 0.0040 |
 | breakers | 2 | 0.0040 |
 | building | 2 | 0.0040 |
 | built-in | 2 | 0.0040 |
 | common | 2 | 0.0040 |
 | declarative | 2 | 0.0040 |
-| distributed | 2 | 0.0040 |
 | events | 2 | 0.0040 |
 | external | 2 | 0.0040 |
 | flexible | 2 | 0.0040 |
 | foundation | 2 | 0.0040 |
 | handler | 2 | 0.0040 |
 | health | 2 | 0.0040 |
-| hedging | 2 | 0.0040 |
 | implement | 2 | 0.0040 |
 | implementing | 2 | 0.0040 |
 | integrates | 2 | 0.0040 |
 | mature | 2 | 0.0040 |
 | mechanisms | 2 | 0.0040 |
-| microservices | 2 | 0.0040 |
 | observability | 2 | 0.0040 |
 | offers | 2 | 0.0040 |
+| pattern | 2 | 0.0040 |
 | production | 2 | 0.0040 |
 | proven | 2 | 0.0040 |
 | provides | 2 | 0.0040 |
@@ -148,33 +149,40 @@ Total document words: 496
 | request | 2 | 0.0040 |
 | requirements | 2 | 0.0040 |
 | seamlessly | 2 | 0.0040 |
+| state | 2 | 0.0040 |
+| strategy | 2 | 0.0040 |
 | systems | 2 | 0.0040 |
 | telemetry | 2 | 0.0040 |
 | timeout | 2 | 0.0040 |
 | use | 2 | 0.0040 |
-| circuit | 3 | 0.0060 |
-| communication | 3 | 0.0060 |
 | comprehensive | 3 | 0.0060 |
 | essential | 3 | 0.0060 |
 | failures | 3 | 0.0060 |
 | integration | 3 | 0.0060 |
+| patterns | 3 | 0.0060 |
 | providing | 3 | 0.0060 |
-| reliability | 3 | 0.0060 |
 | reliable | 3 | 0.0060 |
 | require | 3 | 0.0060 |
 | retry | 3 | 0.0060 |
-| standard | 3 | 0.0060 |
-| configuration | 4 | 0.0081 |
+| distributed | 4 | 0.0081 |
 | fault | 4 | 0.0081 |
+| hedging | 4 | 0.0081 |
+| microservices | 4 | 0.0081 |
+| pipeline | 4 | 0.0081 |
 | tolerance | 4 | 0.0081 |
 | built | 5 | 0.0101 |
+| circuit | 5 | 0.0101 |
 | extensions | 5 | 0.0101 |
 | factory | 5 | 0.0101 |
 | microsoft | 5 | 0.0101 |
 | polly | 5 | 0.0101 |
+| reliability | 5 | 0.0101 |
 | through | 5 | 0.0101 |
 | monitoring | 6 | 0.0121 |
 | strategies | 6 | 0.0121 |
+| communication | 7 | 0.0141 |
+| configuration | 7 | 0.0141 |
 | httpclient | 7 | 0.0141 |
+| standard | 7 | 0.0141 |
 | http | 9 | 0.0181 |
-| resilience | 18 | 0.0363 |
+| resilience | 25 | 0.0504 |

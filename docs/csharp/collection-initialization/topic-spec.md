@@ -60,14 +60,20 @@ Collection initialization encompasses the traditional and modern approaches to c
 
 ## Keywords
 
-- collection initialization
-- constructor syntax
-- target-typed new
-- collection initializers
-- new operator
-- List constructor
-- Array initialization
-- generic collections
+| Keyword | Score |
+|---------|-------|
+| collection initialization | 4.58 |
+| collection type | 4.54 |
+| initialization patterns | 4.54 |
+| collection initializer syntax | 4.52 |
+| data management | 4.52 |
+| dictionary initializers | 4.52 |
+| performance considerations | 4.52 |
+| target-typed new expressions | 4.52 |
+| approach | 3.03 |
+| approaches | 3.03 |
+| different | 3.03 |
+| initializers | 3.03 |
 
 ## Diagnostic Codes
 

@@ -55,20 +55,20 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 
 ## Keywords
 
-- System.CommandLine
-- command-line parsing
-- CLI applications
-- argument parsing
-- option parsing
-- tab completion
-- command-line interface
-- console applications
-- .NET CLI tools
-- POSIX conventions
-- response files
-- command directives
-- option bundling
-- argument arity
+| Keyword | Score |
+|---------|-------|
+| response files | 4.54 |
+| best practices | 4.52 |
+| model binding | 4.52 |
+| service-based | 4.52 |
+| command-line | 3.12 |
+| parsing | 3.09 |
+| option | 3.07 |
+| validation | 3.07 |
+| commandline | 3.06 |
+| command | 3.05 |
+| binding | 3.04 |
+| completion | 3.04 |
 
 ## Common Parse Error Messages
 

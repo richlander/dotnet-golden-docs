@@ -51,12 +51,20 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 
 ## Keywords
 
-- assembly trimming
-- code trimming
-- size optimization
-- unused code removal
-- build-time analysis
-- deployment optimization
+| Keyword | Score |
+|---------|-------|
+| assembly trimming | 4.52 |
+| build-time | 4.52 |
+| desktop applications | 4.52 |
+| framework integration | 4.52 |
+| library development | 4.52 |
+| trimming | 3.08 |
+| reduced | 3.04 |
+| test | 3.04 |
+| disabled | 3.03 |
+| faster | 3.03 |
+| generators | 3.03 |
+| reduction | 3.03 |
 
 ## Diagnostic Codes
 

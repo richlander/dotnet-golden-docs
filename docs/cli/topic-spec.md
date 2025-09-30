@@ -48,15 +48,16 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 
 | Keyword | Score |
 |---------|-------|
-| package restore | 4.54 |
+| development workflow | 4.54 |
 | build performance | 4.52 |
-| cd pipeline | 4.52 |
 | command structure | 4.52 |
 | development environments | 4.52 |
 | net cli | 4.52 |
-| project management | 4.52 |
-| team development | 4.52 |
-| development workflow | 3.54 |
+| package restore | 4.52 |
 | cli | 3.23 |
-| command-line | 3.15 |
-| development | 3.05 |
+| development | 3.12 |
+| command-line | 3.12 |
+| consistent | 3.05 |
+| sdk | 3.05 |
+| cache | 3.04 |
+

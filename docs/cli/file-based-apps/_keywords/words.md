@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 19 compound terms and 275 single words
-Total unique terms: 292
+Combined 15 compound terms and 285 single words
+Total unique terms: 298
 Terms with score ≥ 3.0: 86
-Total term occurrences: 715
+Total term occurrences: 721
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,13 +15,13 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| file-based | compound | 21 | 1.50x | 1.50x | 47.2 |
 | file-based apps | compound | 13 | 1.50x | 1.50x | 29.2 |
+| project | single | 19 | 1.00x | 1.00x | 19.0 |
 | docs | single | 18 | 1.00x | 1.00x | 18.0 |
 | dotnet | single | 12 | 1.00x | 1.00x | 12.0 |
 | code | single | 10 | 1.00x | 1.00x | 10.0 |
+| language | single | 10 | 1.00x | 1.00x | 10.0 |
 | scripts | single | 10 | 1.00x | 1.00x | 10.0 |
-| cross-platform | compound | 6 | 1.10x | 1.50x | 9.9 |
 | com | single | 9 | 1.00x | 1.00x | 9.0 |
 | description | single | 9 | 1.00x | 1.00x | 9.0 |
 | directives | single | 9 | 1.00x | 1.00x | 9.0 |
@@ -32,46 +32,44 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | main | single | 9 | 1.00x | 1.00x | 9.0 |
 | md | single | 9 | 1.00x | 1.00x | 9.0 |
 | raw | single | 9 | 1.00x | 1.00x | 9.0 |
-| single-file | compound | 6 | 1.00x | 1.50x | 9.0 |
 | title | single | 9 | 1.00x | 1.00x | 9.0 |
-| traditional project | compound | 5 | 1.10x | 1.50x | 8.2 |
+| cross-platform | compound | 5 | 1.10x | 1.50x | 8.2 |
 | full | single | 8 | 1.00x | 1.00x | 8.0 |
-| language | single | 8 | 1.00x | 1.00x | 8.0 |
-| project | single | 8 | 1.00x | 1.00x | 8.0 |
-| command-line | compound | 5 | 1.00x | 1.50x | 7.5 |
 | fundamentals | single | 7 | 1.00x | 1.00x | 7.0 |
+| package | single | 7 | 1.00x | 1.00x | 7.0 |
 | projects | single | 7 | 1.00x | 1.00x | 7.0 |
+| publishing | single | 7 | 1.00x | 1.00x | 7.0 |
 | use | single | 7 | 1.00x | 1.00x | 7.0 |
-| project structure | compound | 4 | 1.10x | 1.50x | 6.6 |
 | csharp | single | 6 | 1.00x | 1.00x | 6.0 |
 | debugging | single | 6 | 1.00x | 1.00x | 6.0 |
 | execution | single | 6 | 1.00x | 1.00x | 6.0 |
+| file | single | 6 | 1.00x | 1.00x | 6.0 |
 | packages | single | 6 | 1.00x | 1.00x | 6.0 |
 | scripting | single | 6 | 1.00x | 1.00x | 6.0 |
+| single-file | compound | 4 | 1.00x | 1.50x | 6.0 |
 | support | single | 6 | 1.00x | 1.00x | 6.0 |
 | tutorials | single | 6 | 1.00x | 1.00x | 6.0 |
 | without | single | 6 | 1.00x | 1.00x | 6.0 |
 | create | single | 5 | 1.00x | 1.00x | 5.0 |
 | files | single | 5 | 1.00x | 1.00x | 5.0 |
 | nuget | single | 5 | 1.00x | 1.00x | 5.0 |
-| publishing | single | 5 | 1.00x | 1.00x | 5.0 |
 | setup | single | 5 | 1.00x | 1.00x | 5.0 |
-| ascii art | compound | 3 | 1.10x | 1.50x | 5.0 |
-| file-based app | compound | 2 | 1.50x | 1.50x | 4.5 |
+| traditional | single | 5 | 1.00x | 1.00x | 5.0 |
+| command-line | compound | 3 | 1.00x | 1.50x | 4.5 |
 | whats-new | compound | 3 | 1.00x | 1.50x | 4.5 |
 | basic | single | 4 | 1.00x | 1.00x | 4.0 |
 | complexity | single | 4 | 1.00x | 1.00x | 4.0 |
 | direct | single | 4 | 1.00x | 1.00x | 4.0 |
-| file | single | 4 | 1.00x | 1.00x | 4.0 |
 | migration | single | 4 | 1.00x | 1.00x | 4.0 |
-| package | single | 4 | 1.00x | 1.00x | 4.0 |
 | reference | single | 4 | 1.00x | 1.00x | 4.0 |
 | run | single | 4 | 1.00x | 1.00x | 4.0 |
 | simple | single | 4 | 1.00x | 1.00x | 4.0 |
 | structures | single | 4 | 1.00x | 1.00x | 4.0 |
+| team | single | 4 | 1.00x | 1.00x | 4.0 |
 | utilities | single | 4 | 1.00x | 1.00x | 4.0 |
 | while | single | 4 | 1.00x | 1.00x | 4.0 |
 | works | single | 4 | 1.00x | 1.00x | 4.0 |
+| ascii art | compound | 2 | 1.10x | 1.50x | 3.3 |
 | error handling | compound | 2 | 1.10x | 1.50x | 3.3 |
 | exit codes | compound | 2 | 1.10x | 1.50x | 3.3 |
 | single file constraint | compound | 2 | 1.10x | 1.50x | 3.3 |
@@ -90,6 +88,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | integration | single | 3 | 1.00x | 1.00x | 3.0 |
 | intellisense | single | 3 | 1.00x | 1.00x | 3.0 |
 | learning | single | 3 | 1.00x | 1.00x | 3.0 |
+| local | single | 3 | 1.00x | 1.00x | 3.0 |
 | options | single | 3 | 1.00x | 1.00x | 3.0 |
 | path | single | 3 | 1.00x | 1.00x | 3.0 |
 | proper | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -98,6 +97,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | shebang | single | 3 | 1.00x | 1.00x | 3.0 |
 | shell | single | 3 | 1.00x | 1.00x | 3.0 |
 | standalone | single | 3 | 1.00x | 1.00x | 3.0 |
+| standard | single | 3 | 1.00x | 1.00x | 3.0 |
 | transform | single | 3 | 1.00x | 1.00x | 3.0 |
 | unix | single | 3 | 1.00x | 1.00x | 3.0 |
 | using | single | 3 | 1.00x | 1.00x | 3.0 |

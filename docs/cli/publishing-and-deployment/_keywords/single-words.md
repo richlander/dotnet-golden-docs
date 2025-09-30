@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 155
-Total word occurrences: 304
+Total unique words: 164
+Total word occurrences: 322
 Total document words: 504
 
 | Word | Count | Document Concentration |
@@ -39,6 +39,7 @@ Total document words: 504
 | faster | 1 | 0.0020 |
 | feature | 1 | 0.0020 |
 | first-run | 1 | 0.0020 |
+| framework-dependent | 1 | 0.0020 |
 | frequent | 1 | 0.0020 |
 | fundamentally | 1 | 0.0020 |
 | highly | 1 | 0.0020 |
@@ -53,6 +54,7 @@ Total document words: 504
 | jit | 1 | 0.0020 |
 | limitations | 1 | 0.0020 |
 | limited | 1 | 0.0020 |
+| local | 1 | 0.0020 |
 | longer | 1 | 0.0020 |
 | lowest | 1 | 0.0020 |
 | manual | 1 | 0.0020 |
@@ -64,6 +66,7 @@ Total document words: 504
 | optimizations | 1 | 0.0020 |
 | output | 1 | 0.0020 |
 | overhead | 1 | 0.0020 |
+| pipeline | 1 | 0.0020 |
 | portability | 1 | 0.0020 |
 | pre-installed | 1 | 0.0020 |
 | principles | 1 | 0.0020 |
@@ -75,6 +78,7 @@ Total document words: 504
 | publish | 1 | 0.0020 |
 | rationale | 1 | 0.0020 |
 | reduction | 1 | 0.0020 |
+| reflection | 1 | 0.0020 |
 | resource-constrained | 1 | 0.0020 |
 | restarts | 1 | 0.0020 |
 | restrictions | 1 | 0.0020 |
@@ -82,6 +86,7 @@ Total document words: 504
 | runtimes | 1 | 0.0020 |
 | scalability | 1 | 0.0020 |
 | scalable | 1 | 0.0020 |
+| scenarios | 1 | 0.0020 |
 | see | 1 | 0.0020 |
 | serverless | 1 | 0.0020 |
 | serves | 1 | 0.0020 |
@@ -102,10 +107,10 @@ Total document words: 504
 | vs | 1 | 0.0020 |
 | without | 1 | 0.0020 |
 | workflows | 1 | 0.0020 |
+| cd | 2 | 0.0040 |
 | ci | 2 | 0.0040 |
 | cold | 2 | 0.0040 |
 | common | 2 | 0.0040 |
-| compilation | 2 | 0.0040 |
 | consistent | 2 | 0.0040 |
 | control | 2 | 0.0040 |
 | desktop | 2 | 0.0040 |
@@ -117,7 +122,9 @@ Total document words: 504
 | functions | 2 | 0.0040 |
 | installation | 2 | 0.0040 |
 | iot | 2 | 0.0040 |
+| microservices | 2 | 0.0040 |
 | mode | 2 | 0.0040 |
+| modes | 2 | 0.0040 |
 | multiple | 2 | 0.0040 |
 | overview | 2 | 0.0040 |
 | packaging | 2 | 0.0040 |
@@ -137,6 +144,8 @@ Total document words: 504
 | usage | 2 | 0.0040 |
 | web | 2 | 0.0040 |
 | application | 3 | 0.0060 |
+| compilation | 3 | 0.0060 |
+| configuration | 3 | 0.0060 |
 | container | 3 | 0.0060 |
 | easy | 3 | 0.0060 |
 | enterprise | 3 | 0.0060 |
@@ -159,6 +168,6 @@ Total document words: 504
 | deployments | 7 | 0.0139 |
 | startup | 7 | 0.0139 |
 | size | 8 | 0.0159 |
-| publishing | 9 | 0.0179 |
 | runtime | 10 | 0.0198 |
-| deployment | 22 | 0.0437 |
+| publishing | 11 | 0.0218 |
+| deployment | 23 | 0.0456 |

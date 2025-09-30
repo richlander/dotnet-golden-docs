@@ -50,15 +50,20 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 
 ## Keywords
 
-- HTTP resilience
-- Polly integration
-- circuit breaker
-- retry policies
-- hedging
-- rate limiting
-- HTTP timeouts
-- fault tolerance
-- HTTP reliability
+| Keyword | Score |
+|---------|-------|
+| circuit breaker | 4.54 |
+| pre-configured | 4.54 |
+| custom resilience | 4.52 |
+| resource management | 4.52 |
+| resilience | 3.25 |
+| http | 3.09 |
+| communication | 3.07 |
+| httpclient | 3.07 |
+| monitoring | 3.06 |
+| strategies | 3.06 |
+| built | 3.05 |
+| circuit | 3.05 |
 
 ## Critical limitations
 

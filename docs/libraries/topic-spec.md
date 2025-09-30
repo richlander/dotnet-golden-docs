@@ -43,9 +43,18 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 ## Keywords
 
-- .NET libraries
-- Base Class Library
-- NuGet packages
-- library ecosystem
-- runtime libraries
-- application frameworks
+| Keyword | Score |
+|---------|-------|
+| asp.net core | 4.54 |
+| data access | 4.54 |
+| library ecosystem | 4.54 |
+| azure sdk | 4.52 |
+| base class library | 4.52 |
+| bcl | 4.52 |
+| entity framework core | 4.52 |
+| high-performance collections | 4.52 |
+| third-party | 4.52 |
+| dependency injection | 3.57 |
+| async | 3.03 |
+| core | 3.03 |
+

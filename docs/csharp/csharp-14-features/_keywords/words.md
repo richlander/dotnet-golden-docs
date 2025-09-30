@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 139 single words
-Total unique terms: 150
-Terms with score ≥ 3.0: 21
-Total term occurrences: 214
+Combined 7 compound terms and 145 single words
+Total unique terms: 151
+Terms with score ≥ 3.0: 20
+Total term occurrences: 219
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,24 +15,23 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| zero-allocation | compound | 4 | 1.10x | 1.50x | 6.6 |
 | compile-time | compound | 4 | 1.00x | 1.50x | 6.0 |
 | extension | single | 5 | 1.00x | 1.00x | 5.0 |
+| span | single | 5 | 1.00x | 1.00x | 5.0 |
 | support | single | 5 | 1.00x | 1.00x | 5.0 |
-| first-class | compound | 3 | 1.10x | 1.50x | 5.0 |
-| first-class span | compound | 3 | 1.10x | 1.50x | 5.0 |
+| zero-allocation | compound | 3 | 1.10x | 1.50x | 5.0 |
+| assignment | single | 4 | 1.00x | 1.00x | 4.0 |
 | code | single | 4 | 1.00x | 1.00x | 4.0 |
 | enhanced | single | 4 | 1.00x | 1.00x | 4.0 |
 | operations | single | 4 | 1.00x | 1.00x | 4.0 |
-| span | single | 4 | 1.00x | 1.00x | 4.0 |
+| patterns | single | 4 | 1.00x | 1.00x | 4.0 |
 | compound assignment operators | compound | 2 | 1.10x | 1.50x | 3.3 |
 | expression trees | compound | 2 | 1.10x | 1.50x | 3.3 |
+| first-class span | compound | 2 | 1.10x | 1.50x | 3.3 |
 | named arguments | compound | 2 | 1.10x | 1.50x | 3.3 |
-| null-conditional | compound | 2 | 1.10x | 1.50x | 3.3 |
-| null-conditional assignment | compound | 2 | 1.10x | 1.50x | 3.3 |
-| validation patterns | compound | 2 | 1.10x | 1.50x | 3.3 |
 | extensions | single | 3 | 1.00x | 1.00x | 3.0 |
 | keyword | single | 3 | 1.00x | 1.00x | 3.0 |
+| lambda | single | 3 | 1.00x | 1.00x | 3.0 |
 | partial | single | 3 | 1.00x | 1.00x | 3.0 |
 | ref | single | 3 | 1.00x | 1.00x | 3.0 |
 | stack-only | compound | 2 | 1.00x | 1.50x | 3.0 |

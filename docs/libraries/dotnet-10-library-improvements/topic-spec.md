@@ -50,12 +50,20 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 ## Keywords
 
-- .NET 10 libraries
-- library improvements
-- WebSocket APIs
-- post-quantum cryptography
-- performance optimizations
-- tensor operations
+| Keyword | Score |
+|---------|-------|
+| span-based | 4.54 |
+| high-performance text processing | 4.52 |
+| net 10 | 4.52 |
+| post-quantum cryptography | 4.52 |
+| quantum-resistant | 4.52 |
+| string | 3.05 |
+| improvements | 3.04 |
+| algorithms | 3.03 |
+| comparison | 3.03 |
+| cryptography | 3.03 |
+| duplicate | 3.03 |
+| hex | 3.03 |
 
 ## Critical limitations
 

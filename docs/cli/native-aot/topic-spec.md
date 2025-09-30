@@ -52,12 +52,15 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 
 ## Keywords
 
-- Native AOT
-- ahead-of-time compilation
-- native code
-- fast startup
-- self-contained
-- performance optimization
+| Keyword | Score |
+|---------|-------|
+| generic methods | 4.52 |
+| reflection-based | 3.59 |
+| system.text.json source generation | 3.51 |
+| source generation | 3.24 |
+| native aot | 3.22 |
+| jit | 3.04 |
+| smaller | 3.03 |
 
 ## Diagnostic Codes
 

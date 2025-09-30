@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 12 compound terms and 96 single words
-Total unique terms: 108
-Terms with score ≥ 3.0: 22
-Total term occurrences: 164
+Combined 5 compound terms and 107 single words
+Total unique terms: 112
+Terms with score ≥ 3.0: 17
+Total term occurrences: 176
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,24 +15,19 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| build | single | 8 | 1.00x | 1.00x | 8.0 |
-| build configurations | compound | 4 | 1.25x | 1.50x | 7.5 |
-| build configuration | compound | 3 | 1.25x | 1.50x | 5.6 |
-| dependency resolution | compound | 3 | 1.10x | 1.50x | 5.0 |
+| build | single | 17 | 1.00x | 1.00x | 17.0 |
+| configuration | single | 5 | 1.00x | 1.00x | 5.0 |
 | ci | single | 4 | 1.00x | 1.00x | 4.0 |
 | build acceleration | compound | 2 | 1.25x | 1.50x | 3.8 |
 | performance optimization | compound | 2 | 1.25x | 1.50x | 3.8 |
-| core build | compound | 2 | 1.10x | 1.50x | 3.3 |
 | custom build configurations | compound | 2 | 1.10x | 1.50x | 3.3 |
-| development workflow | compound | 2 | 1.10x | 1.50x | 3.3 |
-| local development | compound | 2 | 1.10x | 1.50x | 3.3 |
+| dependency resolution | compound | 2 | 1.10x | 1.50x | 3.3 |
 | msbuild integration | compound | 2 | 1.10x | 1.50x | 3.3 |
-| multi-targeting | compound | 2 | 1.10x | 1.50x | 3.3 |
-| package management | compound | 2 | 1.10x | 1.50x | 3.3 |
 | analysis | single | 3 | 1.00x | 1.00x | 3.0 |
 | builds | single | 3 | 1.00x | 1.00x | 3.0 |
 | code | single | 3 | 1.00x | 1.00x | 3.0 |
 | commands | single | 3 | 1.00x | 1.00x | 3.0 |
+| compilation | single | 3 | 1.00x | 1.00x | 3.0 |
 | multiple | single | 3 | 1.00x | 1.00x | 3.0 |
 | nuget | single | 3 | 1.00x | 1.00x | 3.0 |
 | parallel | single | 3 | 1.00x | 1.00x | 3.0 |

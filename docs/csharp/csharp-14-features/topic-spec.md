@@ -50,12 +50,20 @@ Collection topic covering key C# 14 language features including the `field` keyw
 
 ## Keywords
 
-- C# 14 features
-- field keyword
-- first-class Span
-- enhanced lambdas
-- partial constructors
-- Extensions
+| Keyword | Score |
+|---------|-------|
+| zero-allocation | 4.54 |
+| compound assignment operators | 4.52 |
+| expression trees | 4.52 |
+| first-class span | 4.52 |
+| named arguments | 4.52 |
+| stack-only | 4.52 |
+| extension | 3.05 |
+| span | 3.05 |
+| assignment | 3.04 |
+| enhanced | 3.04 |
+| keyword | 3.03 |
+| lambda | 3.03 |
 
 ## Critical limitations
 
