@@ -1,149 +1,103 @@
 # Unified Local Analysis
 
-Combined 13 compound terms and 132 single words
-Total unique terms: 141
-Total term occurrences: 587
+Combined 19 compound terms and 275 single words
+Total unique terms: 292
+Terms with score ≥ 3.0: 86
+Total term occurrences: 715
+Header-based scoring: enabled
 
-| Term | Type | Count | Document Concentration |
-|------|------|-------|------------------------|
-| project | single | 19 | 0.0188 |
-| docs | single | 18 | 0.0178 |
-| file-based apps | compound | 13 | 0.0128 |
-| dotnet | single | 12 | 0.0119 |
-| language | single | 11 | 0.0109 |
-| code | single | 10 | 0.0099 |
-| scripts | single | 10 | 0.0099 |
-| com | single | 9 | 0.0089 |
-| description | single | 9 | 0.0089 |
-| directives | single | 9 | 0.0089 |
-| githubusercontent | single | 9 | 0.0089 |
-| https | single | 9 | 0.0089 |
-| main | single | 9 | 0.0089 |
-| md | single | 9 | 0.0089 |
-| package | single | 9 | 0.0089 |
-| raw | single | 9 | 0.0089 |
-| title | single | 9 | 0.0089 |
-| full | single | 8 | 0.0079 |
-| fundamentals | single | 7 | 0.0069 |
-| projects | single | 7 | 0.0069 |
-| publishing | single | 7 | 0.0069 |
-| use | single | 7 | 0.0069 |
-| csharp | single | 6 | 0.0059 |
-| debugging | single | 6 | 0.0059 |
-| execution | single | 6 | 0.0059 |
-| file-based-programs | compound | 6 | 0.0059 |
-| file-level | compound | 6 | 0.0059 |
-| packages | single | 6 | 0.0059 |
-| scripting | single | 6 | 0.0059 |
-| support | single | 6 | 0.0059 |
-| syntax | single | 6 | 0.0059 |
-| tutorials | single | 6 | 0.0059 |
-| without | single | 6 | 0.0059 |
-| create | single | 5 | 0.0049 |
-| files | single | 5 | 0.0049 |
-| nuget | single | 5 | 0.0049 |
-| setup | single | 5 | 0.0049 |
-| source | single | 5 | 0.0049 |
-| traditional | single | 5 | 0.0049 |
-| aot | single | 4 | 0.0040 |
-| basic | single | 4 | 0.0040 |
-| complexity | single | 4 | 0.0040 |
-| core | single | 4 | 0.0040 |
-| cross-platform | single | 4 | 0.0040 |
-| direct | single | 4 | 0.0040 |
-| features | single | 4 | 0.0040 |
-| migration | single | 4 | 0.0040 |
-| net | single | 4 | 0.0040 |
-| reference | single | 4 | 0.0040 |
-| run | single | 4 | 0.0040 |
-| scenarios | single | 4 | 0.0040 |
-| simple | single | 4 | 0.0040 |
-| structures | single | 4 | 0.0040 |
-| team | single | 4 | 0.0040 |
-| utilities | single | 4 | 0.0040 |
-| while | single | 4 | 0.0040 |
-| works | single | 4 | 0.0040 |
-| access | single | 3 | 0.0030 |
-| arguments | single | 3 | 0.0030 |
-| art | single | 3 | 0.0030 |
-| artifacts | single | 3 | 0.0030 |
-| both | single | 3 | 0.0030 |
-| capabilities | single | 3 | 0.0030 |
-| complex | single | 3 | 0.0030 |
-| considerations | single | 3 | 0.0030 |
-| directive | single | 3 | 0.0030 |
-| dotnet-10 | single | 3 | 0.0030 |
-| experimentation | single | 3 | 0.0030 |
-| external | single | 3 | 0.0030 |
-| handle | single | 3 | 0.0030 |
-| input | single | 3 | 0.0030 |
-| integration | single | 3 | 0.0030 |
-| intellisense | single | 3 | 0.0030 |
-| learning | single | 3 | 0.0030 |
-| local | single | 3 | 0.0030 |
-| native | single | 3 | 0.0030 |
-| options | single | 3 | 0.0030 |
-| path | single | 3 | 0.0030 |
-| processing | single | 3 | 0.0030 |
-| proper | single | 3 | 0.0030 |
-| rather | single | 3 | 0.0030 |
-| shebang | single | 3 | 0.0030 |
-| shell | single | 3 | 0.0030 |
-| standalone | single | 3 | 0.0030 |
-| standard | single | 3 | 0.0030 |
-| transform | single | 3 | 0.0030 |
-| unix | single | 3 | 0.0030 |
-| using | single | 3 | 0.0030 |
-| whats-new | compound | 3 | 0.0030 |
-| advanced | single | 2 | 0.0020 |
-| alternative | single | 2 | 0.0020 |
-| app | single | 2 | 0.0020 |
-| approach | single | 2 | 0.0020 |
-| ascii | single | 2 | 0.0020 |
-| automation | single | 2 | 0.0020 |
-| collaboration | single | 2 | 0.0020 |
-| commands | single | 2 | 0.0020 |
-| concepts | single | 2 | 0.0020 |
-| developers | single | 2 | 0.0020 |
-| directly | single | 2 | 0.0020 |
-| directory | single | 2 | 0.0020 |
-| doesn't | single | 2 | 0.0020 |
-| enterprise | single | 2 | 0.0020 |
-| error handling | compound | 2 | 0.0020 |
-| exactly | single | 2 | 0.0020 |
-| executable | single | 2 | 0.0020 |
-| executables | single | 2 | 0.0020 |
-| exit codes | compound | 2 | 0.0020 |
-| explicit | single | 2 | 0.0020 |
-| file-based | single | 2 | 0.0020 |
-| flexibility | single | 2 | 0.0020 |
-| grows | single | 2 | 0.0020 |
-| host | single | 2 | 0.0020 |
-| immediate | single | 2 | 0.0020 |
-| intentionally | single | 2 | 0.0020 |
-| key | single | 2 | 0.0020 |
-| limitations | single | 2 | 0.0020 |
-| limited | single | 2 | 0.0020 |
-| maintaining | single | 2 | 0.0020 |
-| msbuild | single | 2 | 0.0020 |
-| no | single | 2 | 0.0020 |
-| one | single | 2 | 0.0020 |
-| overhead | single | 2 | 0.0020 |
-| patterns | single | 2 | 0.0020 |
-| per | single | 2 | 0.0020 |
-| persistent | single | 2 | 0.0020 |
-| powershell | single | 2 | 0.0020 |
-| prototyping | single | 2 | 0.0020 |
-| references | single | 2 | 0.0020 |
-| require | single | 2 | 0.0020 |
-| runtime | single | 2 | 0.0020 |
-| script | single | 2 | 0.0020 |
-| seamless | single | 2 | 0.0020 |
-| self-contained | compound | 2 | 0.0020 |
-| separator | single | 2 | 0.0020 |
-| simplified | single | 2 | 0.0020 |
-| single file constraint | compound | 2 | 0.0020 |
-| solution | single | 2 | 0.0020 |
-| temporary | single | 2 | 0.0020 |
-| these | single | 2 | 0.0020 |
-| traditional project structure | compound | 2 | 0.0020 |
+Scoring formula: LocalScore = count × header_multiplier × type_multiplier
+- header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
+  - Single words do NOT get header multipliers (prevents arbitrary matches)
+  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+- type_multiplier: 1.5x (compound), 1.0x (single)
+- Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
+
+| Term | Type | Count | Header Mult | Type Mult | Local Score |
+|------|------|-------|-------------|-----------|-------------|
+| file-based | compound | 21 | 1.50x | 1.50x | 47.2 |
+| file-based apps | compound | 13 | 1.50x | 1.50x | 29.2 |
+| docs | single | 18 | 1.00x | 1.00x | 18.0 |
+| dotnet | single | 12 | 1.00x | 1.00x | 12.0 |
+| code | single | 10 | 1.00x | 1.00x | 10.0 |
+| scripts | single | 10 | 1.00x | 1.00x | 10.0 |
+| cross-platform | compound | 6 | 1.10x | 1.50x | 9.9 |
+| com | single | 9 | 1.00x | 1.00x | 9.0 |
+| description | single | 9 | 1.00x | 1.00x | 9.0 |
+| directives | single | 9 | 1.00x | 1.00x | 9.0 |
+| file-based-programs | compound | 6 | 1.00x | 1.50x | 9.0 |
+| file-level | compound | 6 | 1.00x | 1.50x | 9.0 |
+| githubusercontent | single | 9 | 1.00x | 1.00x | 9.0 |
+| https | single | 9 | 1.00x | 1.00x | 9.0 |
+| main | single | 9 | 1.00x | 1.00x | 9.0 |
+| md | single | 9 | 1.00x | 1.00x | 9.0 |
+| raw | single | 9 | 1.00x | 1.00x | 9.0 |
+| single-file | compound | 6 | 1.00x | 1.50x | 9.0 |
+| title | single | 9 | 1.00x | 1.00x | 9.0 |
+| traditional project | compound | 5 | 1.10x | 1.50x | 8.2 |
+| full | single | 8 | 1.00x | 1.00x | 8.0 |
+| language | single | 8 | 1.00x | 1.00x | 8.0 |
+| project | single | 8 | 1.00x | 1.00x | 8.0 |
+| command-line | compound | 5 | 1.00x | 1.50x | 7.5 |
+| fundamentals | single | 7 | 1.00x | 1.00x | 7.0 |
+| projects | single | 7 | 1.00x | 1.00x | 7.0 |
+| use | single | 7 | 1.00x | 1.00x | 7.0 |
+| project structure | compound | 4 | 1.10x | 1.50x | 6.6 |
+| csharp | single | 6 | 1.00x | 1.00x | 6.0 |
+| debugging | single | 6 | 1.00x | 1.00x | 6.0 |
+| execution | single | 6 | 1.00x | 1.00x | 6.0 |
+| packages | single | 6 | 1.00x | 1.00x | 6.0 |
+| scripting | single | 6 | 1.00x | 1.00x | 6.0 |
+| support | single | 6 | 1.00x | 1.00x | 6.0 |
+| tutorials | single | 6 | 1.00x | 1.00x | 6.0 |
+| without | single | 6 | 1.00x | 1.00x | 6.0 |
+| create | single | 5 | 1.00x | 1.00x | 5.0 |
+| files | single | 5 | 1.00x | 1.00x | 5.0 |
+| nuget | single | 5 | 1.00x | 1.00x | 5.0 |
+| publishing | single | 5 | 1.00x | 1.00x | 5.0 |
+| setup | single | 5 | 1.00x | 1.00x | 5.0 |
+| ascii art | compound | 3 | 1.10x | 1.50x | 5.0 |
+| file-based app | compound | 2 | 1.50x | 1.50x | 4.5 |
+| whats-new | compound | 3 | 1.00x | 1.50x | 4.5 |
+| basic | single | 4 | 1.00x | 1.00x | 4.0 |
+| complexity | single | 4 | 1.00x | 1.00x | 4.0 |
+| direct | single | 4 | 1.00x | 1.00x | 4.0 |
+| file | single | 4 | 1.00x | 1.00x | 4.0 |
+| migration | single | 4 | 1.00x | 1.00x | 4.0 |
+| package | single | 4 | 1.00x | 1.00x | 4.0 |
+| reference | single | 4 | 1.00x | 1.00x | 4.0 |
+| run | single | 4 | 1.00x | 1.00x | 4.0 |
+| simple | single | 4 | 1.00x | 1.00x | 4.0 |
+| structures | single | 4 | 1.00x | 1.00x | 4.0 |
+| utilities | single | 4 | 1.00x | 1.00x | 4.0 |
+| while | single | 4 | 1.00x | 1.00x | 4.0 |
+| works | single | 4 | 1.00x | 1.00x | 4.0 |
+| error handling | compound | 2 | 1.10x | 1.50x | 3.3 |
+| exit codes | compound | 2 | 1.10x | 1.50x | 3.3 |
+| single file constraint | compound | 2 | 1.10x | 1.50x | 3.3 |
+| traditional project structure | compound | 2 | 1.10x | 1.50x | 3.3 |
+| arguments | single | 3 | 1.00x | 1.00x | 3.0 |
+| artifacts | single | 3 | 1.00x | 1.00x | 3.0 |
+| both | single | 3 | 1.00x | 1.00x | 3.0 |
+| capabilities | single | 3 | 1.00x | 1.00x | 3.0 |
+| complex | single | 3 | 1.00x | 1.00x | 3.0 |
+| directive | single | 3 | 1.00x | 1.00x | 3.0 |
+| dotnet-10 | single | 3 | 1.00x | 1.00x | 3.0 |
+| experimentation | single | 3 | 1.00x | 1.00x | 3.0 |
+| external | single | 3 | 1.00x | 1.00x | 3.0 |
+| handle | single | 3 | 1.00x | 1.00x | 3.0 |
+| input | single | 3 | 1.00x | 1.00x | 3.0 |
+| integration | single | 3 | 1.00x | 1.00x | 3.0 |
+| intellisense | single | 3 | 1.00x | 1.00x | 3.0 |
+| learning | single | 3 | 1.00x | 1.00x | 3.0 |
+| options | single | 3 | 1.00x | 1.00x | 3.0 |
+| path | single | 3 | 1.00x | 1.00x | 3.0 |
+| proper | single | 3 | 1.00x | 1.00x | 3.0 |
+| rather | single | 3 | 1.00x | 1.00x | 3.0 |
+| self-contained | compound | 2 | 1.00x | 1.50x | 3.0 |
+| shebang | single | 3 | 1.00x | 1.00x | 3.0 |
+| shell | single | 3 | 1.00x | 1.00x | 3.0 |
+| standalone | single | 3 | 1.00x | 1.00x | 3.0 |
+| transform | single | 3 | 1.00x | 1.00x | 3.0 |
+| unix | single | 3 | 1.00x | 1.00x | 3.0 |
+| using | single | 3 | 1.00x | 1.00x | 3.0 |

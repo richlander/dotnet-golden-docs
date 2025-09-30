@@ -1,164 +1,99 @@
 # Unified Local Analysis
 
-Combined 24 compound terms and 141 single words
-Total unique terms: 156
-Total term occurrences: 574
+Combined 18 compound terms and 440 single words
+Total unique terms: 458
+Terms with score ≥ 3.0: 82
+Total term occurrences: 825
+Header-based scoring: enabled
 
-| Term | Type | Count | Document Concentration |
-|------|------|-------|------------------------|
-| language | single | 22 | 0.0156 |
-| types | single | 20 | 0.0142 |
-| features | single | 16 | 0.0114 |
-| net | single | 15 | 0.0107 |
-| code | single | 11 | 0.0078 |
-| data | single | 11 | 0.0078 |
-| like | single | 11 | 0.0078 |
-| applications | single | 9 | 0.0064 |
-| libraries | single | 9 | 0.0064 |
-| support | single | 9 | 0.0064 |
-| compiler | single | 8 | 0.0057 |
-| programming | single | 8 | 0.0057 |
-| provides | single | 8 | 0.0057 |
-| collection | single | 7 | 0.0050 |
-| collections | single | 7 | 0.0050 |
-| expressions | single | 7 | 0.0050 |
-| syntax | single | 7 | 0.0050 |
-| using | single | 7 | 0.0050 |
-| enables | single | 6 | 0.0043 |
-| memory management | compound | 6 | 0.0043 |
-| type | single | 6 | 0.0043 |
-| while | single | 6 | 0.0043 |
-| apis | single | 5 | 0.0036 |
-| control | single | 5 | 0.0036 |
-| core | single | 5 | 0.0036 |
-| developers | single | 5 | 0.0036 |
-| matching | single | 5 | 0.0036 |
-| object-oriented | compound | 5 | 0.0036 |
-| pattern | single | 5 | 0.0036 |
-| patterns | single | 5 | 0.0036 |
-| reference | single | 5 | 0.0036 |
-| web | single | 5 | 0.0036 |
-| windows | single | 5 | 0.0036 |
-| both | single | 4 | 0.0028 |
-| capabilities | single | 4 | 0.0028 |
-| concepts | single | 4 | 0.0028 |
-| cross-platform | single | 4 | 0.0028 |
-| define | single | 4 | 0.0028 |
-| enable | single | 4 | 0.0028 |
-| first | single | 4 | 0.0028 |
-| functional | single | 4 | 0.0028 |
-| introduce | single | 4 | 0.0028 |
-| languages | single | 4 | 0.0028 |
-| low-level | compound | 4 | 0.0028 |
-| multiple | single | 4 | 0.0028 |
-| offers | single | 4 | 0.0028 |
-| value | single | 4 | 0.0028 |
-| abstraction | single | 3 | 0.0021 |
-| asynchronous programming | compound | 3 | 0.0021 |
-| common | single | 3 | 0.0021 |
-| compile-time | compound | 3 | 0.0021 |
-| constructs | single | 3 | 0.0021 |
-| direct | single | 3 | 0.0021 |
-| extensible | single | 3 | 0.0021 |
-| frameworks | single | 3 | 0.0021 |
-| high-level | compound | 3 | 0.0021 |
-| high-performance | compound | 3 | 0.0021 |
-| linq | single | 3 | 0.0021 |
-| mainstream | single | 3 | 0.0021 |
-| many | single | 3 | 0.0021 |
-| memory-safety | compound | 3 | 0.0021 |
-| modern | single | 3 | 0.0021 |
-| operations | single | 3 | 0.0021 |
-| provide | single | 3 | 0.0021 |
-| query | single | 3 | 0.0021 |
-| range | single | 3 | 0.0021 |
-| run | single | 3 | 0.0021 |
-| runtime | single | 3 | 0.0021 |
-| target | single | 3 | 0.0021 |
-| through | single | 3 | 0.0021 |
-| tools | single | 3 | 0.0021 |
-| understanding | single | 3 | 0.0021 |
-| unsafe | single | 3 | 0.0021 |
-| use | single | 3 | 0.0021 |
-| values | single | 3 | 0.0021 |
-| write | single | 3 | 0.0021 |
-| access | single | 2 | 0.0014 |
-| additional | single | 2 | 0.0014 |
-| adopting | single | 2 | 0.0014 |
-| algorithms | single | 2 | 0.0014 |
-| android | single | 2 | 0.0014 |
-| application | single | 2 | 0.0014 |
-| array | single | 2 | 0.0014 |
-| asp | single | 2 | 0.0014 |
-| asynchronous | single | 2 | 0.0014 |
-| augment | single | 2 | 0.0014 |
-| automatic | single | 2 | 0.0014 |
-| baseline | single | 2 | 0.0014 |
-| built-in | single | 2 | 0.0014 |
-| characters | single | 2 | 0.0014 |
-| classes | single | 2 | 0.0014 |
-| cloud-native development | compound | 2 | 0.0014 |
-| comprehensive | single | 2 | 0.0014 |
-| concurrency | single | 2 | 0.0014 |
-| desktop | single | 2 | 0.0014 |
-| diagnostics | single | 2 | 0.0014 |
-| different | single | 2 | 0.0014 |
-| efficient | single | 2 | 0.0014 |
-| either | single | 2 | 0.0014 |
-| end | single | 2 | 0.0014 |
-| enterprise | single | 2 | 0.0014 |
-| entity | single | 2 | 0.0014 |
-| environment | single | 2 | 0.0014 |
-| essential | single | 2 | 0.0014 |
-| example | single | 2 | 0.0014 |
-| feature | single | 2 | 0.0014 |
-| flow | single | 2 | 0.0014 |
-| forms | single | 2 | 0.0014 |
-| framework | single | 2 | 0.0014 |
-| generics | single | 2 | 0.0014 |
-| hardware | single | 2 | 0.0014 |
-| implementations | single | 2 | 0.0014 |
-| in-memory | single | 2 | 0.0014 |
-| including | single | 2 | 0.0014 |
-| influenced | single | 2 | 0.0014 |
-| inheritance | single | 2 | 0.0014 |
-| into | single | 2 | 0.0014 |
-| ios | single | 2 | 0.0014 |
-| javascript | single | 2 | 0.0014 |
-| language-integrated | compound | 2 | 0.0014 |
-| levels | single | 2 | 0.0014 |
-| lightweight | single | 2 | 0.0014 |
-| make | single | 2 | 0.0014 |
-| maui | single | 2 | 0.0014 |
-| mobile applications | compound | 2 | 0.0014 |
-| needed | single | 2 | 0.0014 |
-| nullable | single | 2 | 0.0014 |
-| offer | single | 2 | 0.0014 |
-| optimizations | single | 2 | 0.0014 |
-| optional | single | 2 | 0.0014 |
-| pattern-based | compound | 2 | 0.0014 |
-| platform-specific | compound | 2 | 0.0014 |
-| platforms | single | 2 | 0.0014 |
-| plug-in | single | 2 | 0.0014 |
-| polymorphism | single | 2 | 0.0014 |
-| powered | single | 2 | 0.0014 |
-| primary | single | 2 | 0.0014 |
-| ref | single | 2 | 0.0014 |
-| rich | single | 2 | 0.0014 |
-| scenarios | single | 2 | 0.0014 |
-| services | single | 2 | 0.0014 |
-| statement | single | 2 | 0.0014 |
-| statements | single | 2 | 0.0014 |
-| structures | single | 2 | 0.0014 |
-| studio | single | 2 | 0.0014 |
-| supporting | single | 2 | 0.0014 |
-| supports | single | 2 | 0.0014 |
-| system | single | 2 | 0.0014 |
-| type system | compound | 2 | 0.0014 |
-| used | single | 2 | 0.0014 |
-| variable | single | 2 | 0.0014 |
-| version compatibility | compound | 2 | 0.0014 |
-| via | single | 2 | 0.0014 |
-| visual | single | 2 | 0.0014 |
-| without | single | 2 | 0.0014 |
-| wpf | single | 2 | 0.0014 |
+Scoring formula: LocalScore = count × header_multiplier × type_multiplier
+- header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
+  - Single words do NOT get header multipliers (prevents arbitrary matches)
+  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+- type_multiplier: 1.5x (compound), 1.0x (single)
+- Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
+
+| Term | Type | Count | Header Mult | Type Mult | Local Score |
+|------|------|-------|-------------|-----------|-------------|
+| language | single | 19 | 1.00x | 1.00x | 19.0 |
+| net | single | 12 | 1.00x | 1.00x | 12.0 |
+| code | single | 11 | 1.00x | 1.00x | 11.0 |
+| features | single | 11 | 1.00x | 1.00x | 11.0 |
+| like | single | 11 | 1.00x | 1.00x | 11.0 |
+| cross-platform | compound | 6 | 1.10x | 1.50x | 9.9 |
+| memory management | compound | 6 | 1.10x | 1.50x | 9.9 |
+| language features | compound | 5 | 1.25x | 1.50x | 9.4 |
+| support | single | 9 | 1.00x | 1.00x | 9.0 |
+| compiler | single | 8 | 1.00x | 1.00x | 8.0 |
+| programming | single | 8 | 1.00x | 1.00x | 8.0 |
+| provides | single | 8 | 1.00x | 1.00x | 8.0 |
+| types | single | 8 | 1.00x | 1.00x | 8.0 |
+| object-oriented | compound | 5 | 1.00x | 1.50x | 7.5 |
+| collections | single | 7 | 1.00x | 1.00x | 7.0 |
+| libraries | single | 7 | 1.00x | 1.00x | 7.0 |
+| using | single | 7 | 1.00x | 1.00x | 7.0 |
+| data | single | 6 | 1.00x | 1.00x | 6.0 |
+| enables | single | 6 | 1.00x | 1.00x | 6.0 |
+| low-level | compound | 4 | 1.00x | 1.50x | 6.0 |
+| while | single | 6 | 1.00x | 1.00x | 6.0 |
+| apis | single | 5 | 1.00x | 1.00x | 5.0 |
+| applications | single | 5 | 1.00x | 1.00x | 5.0 |
+| control | single | 5 | 1.00x | 1.00x | 5.0 |
+| developers | single | 5 | 1.00x | 1.00x | 5.0 |
+| matching | single | 5 | 1.00x | 1.00x | 5.0 |
+| pattern | single | 5 | 1.00x | 1.00x | 5.0 |
+| platform | single | 5 | 1.00x | 1.00x | 5.0 |
+| reference | single | 5 | 1.00x | 1.00x | 5.0 |
+| web | single | 5 | 1.00x | 1.00x | 5.0 |
+| windows | single | 5 | 1.00x | 1.00x | 5.0 |
+| asynchronous programming | compound | 3 | 1.10x | 1.50x | 5.0 |
+| compile-time | compound | 3 | 1.00x | 1.50x | 4.5 |
+| high-level | compound | 3 | 1.00x | 1.50x | 4.5 |
+| high-performance | compound | 3 | 1.00x | 1.50x | 4.5 |
+| memory-safety | compound | 3 | 1.00x | 1.50x | 4.5 |
+| both | single | 4 | 1.00x | 1.00x | 4.0 |
+| capabilities | single | 4 | 1.00x | 1.00x | 4.0 |
+| concepts | single | 4 | 1.00x | 1.00x | 4.0 |
+| define | single | 4 | 1.00x | 1.00x | 4.0 |
+| enable | single | 4 | 1.00x | 1.00x | 4.0 |
+| first | single | 4 | 1.00x | 1.00x | 4.0 |
+| functional | single | 4 | 1.00x | 1.00x | 4.0 |
+| introduce | single | 4 | 1.00x | 1.00x | 4.0 |
+| languages | single | 4 | 1.00x | 1.00x | 4.0 |
+| multiple | single | 4 | 1.00x | 1.00x | 4.0 |
+| offers | single | 4 | 1.00x | 1.00x | 4.0 |
+| value | single | 4 | 1.00x | 1.00x | 4.0 |
+| cloud-native | compound | 2 | 1.10x | 1.50x | 3.3 |
+| cloud-native development | compound | 2 | 1.10x | 1.50x | 3.3 |
+| mobile applications | compound | 2 | 1.10x | 1.50x | 3.3 |
+| type system | compound | 2 | 1.10x | 1.50x | 3.3 |
+| version compatibility | compound | 2 | 1.10x | 1.50x | 3.3 |
+| abstraction | single | 3 | 1.00x | 1.00x | 3.0 |
+| based | single | 3 | 1.00x | 1.00x | 3.0 |
+| common | single | 3 | 1.00x | 1.00x | 3.0 |
+| constructs | single | 3 | 1.00x | 1.00x | 3.0 |
+| direct | single | 3 | 1.00x | 1.00x | 3.0 |
+| extensible | single | 3 | 1.00x | 1.00x | 3.0 |
+| frameworks | single | 3 | 1.00x | 1.00x | 3.0 |
+| integrated | single | 3 | 1.00x | 1.00x | 3.0 |
+| language-integrated | compound | 2 | 1.00x | 1.50x | 3.0 |
+| linq | single | 3 | 1.00x | 1.00x | 3.0 |
+| mainstream | single | 3 | 1.00x | 1.00x | 3.0 |
+| many | single | 3 | 1.00x | 1.00x | 3.0 |
+| modern | single | 3 | 1.00x | 1.00x | 3.0 |
+| operations | single | 3 | 1.00x | 1.00x | 3.0 |
+| pattern-based | compound | 2 | 1.00x | 1.50x | 3.0 |
+| platform-specific | compound | 2 | 1.00x | 1.50x | 3.0 |
+| provide | single | 3 | 1.00x | 1.00x | 3.0 |
+| query | single | 3 | 1.00x | 1.00x | 3.0 |
+| range | single | 3 | 1.00x | 1.00x | 3.0 |
+| run | single | 3 | 1.00x | 1.00x | 3.0 |
+| runtime | single | 3 | 1.00x | 1.00x | 3.0 |
+| syntax | single | 3 | 1.00x | 1.00x | 3.0 |
+| through | single | 3 | 1.00x | 1.00x | 3.0 |
+| tools | single | 3 | 1.00x | 1.00x | 3.0 |
+| understanding | single | 3 | 1.00x | 1.00x | 3.0 |
+| unsafe | single | 3 | 1.00x | 1.00x | 3.0 |
+| use | single | 3 | 1.00x | 1.00x | 3.0 |
+| values | single | 3 | 1.00x | 1.00x | 3.0 |
+| write | single | 3 | 1.00x | 1.00x | 3.0 |

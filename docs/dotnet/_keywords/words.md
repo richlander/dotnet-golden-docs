@@ -1,159 +1,92 @@
 # Unified Local Analysis
 
-Combined 17 compound terms and 141 single words
-Total unique terms: 151
-Total term occurrences: 516
+Combined 15 compound terms and 380 single words
+Total unique terms: 394
+Terms with score ≥ 3.0: 75
+Total term occurrences: 740
+Header-based scoring: enabled
 
-| Term | Type | Count | Document Concentration |
-|------|------|-------|------------------------|
-| net | single | 37 | 0.0305 |
-| code | single | 14 | 0.0116 |
-| runtime | single | 12 | 0.0099 |
-| libraries | single | 11 | 0.0091 |
-| like | single | 10 | 0.0083 |
-| while | single | 10 | 0.0083 |
-| apis | single | 7 | 0.0058 |
-| core | single | 7 | 0.0058 |
-| features | single | 7 | 0.0058 |
-| multiple | single | 7 | 0.0058 |
-| tools | single | 7 | 0.0058 |
-| windows | single | 7 | 0.0058 |
-| cross-platform | single | 6 | 0.0050 |
-| languages | single | 6 | 0.0050 |
-| modern | single | 6 | 0.0050 |
-| provides | single | 6 | 0.0050 |
-| types | single | 6 | 0.0050 |
-| building | single | 5 | 0.0041 |
-| community | single | 5 | 0.0041 |
-| enables | single | 5 | 0.0041 |
-| framework | single | 5 | 0.0041 |
-| functionality | single | 5 | 0.0041 |
-| open-source | compound | 5 | 0.0041 |
-| supported | single | 5 | 0.0041 |
-| via | single | 5 | 0.0041 |
-| across | single | 4 | 0.0033 |
-| applications | single | 4 | 0.0033 |
-| automatic | single | 4 | 0.0033 |
-| components | single | 4 | 0.0033 |
-| developers | single | 4 | 0.0033 |
-| language | single | 4 | 0.0033 |
-| linux | single | 4 | 0.0033 |
-| many | single | 4 | 0.0033 |
-| pillars | single | 4 | 0.0033 |
-| programming | single | 4 | 0.0033 |
-| set | single | 4 | 0.0033 |
-| web | single | 4 | 0.0033 |
-| access | single | 3 | 0.0025 |
-| actively | single | 3 | 0.0025 |
-| android | single | 3 | 0.0025 |
-| architecture | single | 3 | 0.0025 |
-| asp | single | 3 | 0.0025 |
-| been | single | 3 | 0.0025 |
-| chip | single | 3 | 0.0025 |
-| common | single | 3 | 0.0025 |
-| developer | single | 3 | 0.0025 |
-| enable | single | 3 | 0.0025 |
-| extensive | single | 3 | 0.0025 |
-| garbage collector | compound | 3 | 0.0025 |
-| gc | compound | 3 | 0.0025 |
-| high-level | compound | 3 | 0.0025 |
-| industry standards | compound | 3 | 0.0025 |
-| interop | single | 3 | 0.0025 |
-| ios | single | 3 | 0.0025 |
-| it's | single | 3 | 0.0025 |
-| low-level | compound | 3 | 0.0025 |
-| macos | single | 3 | 0.0025 |
-| manual | single | 3 | 0.0025 |
-| nuget | single | 3 | 0.0025 |
-| offers | single | 3 | 0.0025 |
-| platforms | single | 3 | 0.0025 |
-| productivity | single | 3 | 0.0025 |
-| run | single | 3 | 0.0025 |
-| safe | single | 3 | 0.0025 |
-| solutions | single | 3 | 0.0025 |
-| targeting | single | 3 | 0.0025 |
-| thousands | single | 3 | 0.0025 |
-| unsafe | single | 3 | 0.0025 |
-| used | single | 3 | 0.0025 |
-| using | single | 3 | 0.0025 |
-| visual | single | 3 | 0.0025 |
-| abstraction | single | 2 | 0.0017 |
-| app | single | 2 | 0.0017 |
-| application | single | 2 | 0.0017 |
-| architectures | single | 2 | 0.0017 |
-| being | single | 2 | 0.0017 |
-| bespoke | single | 2 | 0.0017 |
-| both | single | 2 | 0.0017 |
-| broad | single | 2 | 0.0017 |
-| bugs | single | 2 | 0.0017 |
-| client | single | 2 | 0.0017 |
-| cloud | single | 2 | 0.0017 |
-| collection | single | 2 | 0.0017 |
-| concurrency | single | 2 | 0.0017 |
-| design | single | 2 | 0.0017 |
-| designed | single | 2 | 0.0017 |
-| distributions | single | 2 | 0.0017 |
-| domain | single | 2 | 0.0017 |
-| dynamic | single | 2 | 0.0017 |
-| ecosystem | single | 2 | 0.0017 |
-| eliminates | single | 2 | 0.0017 |
-| environment | single | 2 | 0.0017 |
-| executes | single | 2 | 0.0017 |
-| experience | single | 2 | 0.0017 |
-| extensions | single | 2 | 0.0017 |
-| favored | single | 2 | 0.0017 |
-| following | single | 2 | 0.0017 |
-| forms | single | 2 | 0.0017 |
-| free | single | 2 | 0.0017 |
-| function | single | 2 | 0.0017 |
-| garbage | single | 2 | 0.0017 |
-| github | single | 2 | 0.0017 |
-| grpc | single | 2 | 0.0017 |
-| hardware | single | 2 | 0.0017 |
-| higher-level | compound | 2 | 0.0017 |
-| implementations | single | 2 | 0.0017 |
-| includes | single | 2 | 0.0017 |
-| into | single | 2 | 0.0017 |
-| intrinsics | single | 2 | 0.0017 |
-| key | single | 2 | 0.0017 |
-| learning | single | 2 | 0.0017 |
-| levels | single | 2 | 0.0017 |
-| low-cost | compound | 2 | 0.0017 |
-| maintains | single | 2 | 0.0017 |
-| managed | single | 2 | 0.0017 |
-| manager | single | 2 | 0.0017 |
-| maui | single | 2 | 0.0017 |
-| microsoft | single | 2 | 0.0017 |
-| need | single | 2 | 0.0017 |
-| object-oriented | compound | 2 | 0.0017 |
-| offering | single | 2 | 0.0017 |
-| opentelemetry | single | 2 | 0.0017 |
-| operating | single | 2 | 0.0017 |
-| optimizations | single | 2 | 0.0017 |
-| original | single | 2 | 0.0017 |
-| os | single | 2 | 0.0017 |
-| package | single | 2 | 0.0017 |
-| packages | single | 2 | 0.0017 |
-| particularly | single | 2 | 0.0017 |
-| pointers | single | 2 | 0.0017 |
-| portable | single | 2 | 0.0017 |
-| primary | single | 2 | 0.0017 |
-| primitives | single | 2 | 0.0017 |
-| scenarios | single | 2 | 0.0017 |
-| self-tuning | compound | 2 | 0.0017 |
-| server | single | 2 | 0.0017 |
-| several | single | 2 | 0.0017 |
-| specialization | single | 2 | 0.0017 |
-| stacks | single | 2 | 0.0017 |
-| static | single | 2 | 0.0017 |
-| studio | single | 2 | 0.0017 |
-| support | single | 2 | 0.0017 |
-| supports | single | 2 | 0.0017 |
-| these | single | 2 | 0.0017 |
-| top | single | 2 | 0.0017 |
-| tracing | single | 2 | 0.0017 |
-| type | single | 2 | 0.0017 |
-| updates | single | 2 | 0.0017 |
-| variants | single | 2 | 0.0017 |
-| webassembly | single | 2 | 0.0017 |
-| written | single | 2 | 0.0017 |
+Scoring formula: LocalScore = count × header_multiplier × type_multiplier
+- header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
+  - Single words do NOT get header multipliers (prevents arbitrary matches)
+  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+- type_multiplier: 1.5x (compound), 1.0x (single)
+- Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
+
+| Term | Type | Count | Header Mult | Type Mult | Local Score |
+|------|------|-------|-------------|-----------|-------------|
+| net | single | 34 | 1.00x | 1.00x | 34.0 |
+| code | single | 14 | 1.00x | 1.00x | 14.0 |
+| cross-platform | compound | 8 | 1.10x | 1.50x | 13.2 |
+| runtime | single | 12 | 1.00x | 1.00x | 12.0 |
+| memory management | compound | 7 | 1.10x | 1.50x | 11.6 |
+| like | single | 10 | 1.00x | 1.00x | 10.0 |
+| while | single | 10 | 1.00x | 1.00x | 10.0 |
+| libraries | single | 9 | 1.00x | 1.00x | 9.0 |
+| open-source | compound | 5 | 1.00x | 1.50x | 7.5 |
+| apis | single | 7 | 1.00x | 1.00x | 7.0 |
+| multiple | single | 7 | 1.00x | 1.00x | 7.0 |
+| tools | single | 7 | 1.00x | 1.00x | 7.0 |
+| windows | single | 7 | 1.00x | 1.00x | 7.0 |
+| languages | single | 6 | 1.00x | 1.00x | 6.0 |
+| modern | single | 6 | 1.00x | 1.00x | 6.0 |
+| provides | single | 6 | 1.00x | 1.00x | 6.0 |
+| building | single | 5 | 1.00x | 1.00x | 5.0 |
+| community | single | 5 | 1.00x | 1.00x | 5.0 |
+| enables | single | 5 | 1.00x | 1.00x | 5.0 |
+| functionality | single | 5 | 1.00x | 1.00x | 5.0 |
+| supported | single | 5 | 1.00x | 1.00x | 5.0 |
+| via | single | 5 | 1.00x | 1.00x | 5.0 |
+| industry standards | compound | 3 | 1.10x | 1.50x | 5.0 |
+| garbage collector | compound | 3 | 1.00x | 1.50x | 4.5 |
+| gc | compound | 3 | 1.00x | 1.50x | 4.5 |
+| high-level | compound | 3 | 1.00x | 1.50x | 4.5 |
+| low-level | compound | 3 | 1.00x | 1.50x | 4.5 |
+| across | single | 4 | 1.00x | 1.00x | 4.0 |
+| automatic | single | 4 | 1.00x | 1.00x | 4.0 |
+| cloud | single | 4 | 1.00x | 1.00x | 4.0 |
+| components | single | 4 | 1.00x | 1.00x | 4.0 |
+| developers | single | 4 | 1.00x | 1.00x | 4.0 |
+| linux | single | 4 | 1.00x | 1.00x | 4.0 |
+| many | single | 4 | 1.00x | 1.00x | 4.0 |
+| pillars | single | 4 | 1.00x | 1.00x | 4.0 |
+| platform | single | 4 | 1.00x | 1.00x | 4.0 |
+| programming | single | 4 | 1.00x | 1.00x | 4.0 |
+| set | single | 4 | 1.00x | 1.00x | 4.0 |
+| web | single | 4 | 1.00x | 1.00x | 4.0 |
+| high-performance | compound | 2 | 1.10x | 1.50x | 3.3 |
+| platform-specific | compound | 2 | 1.10x | 1.50x | 3.3 |
+| actively | single | 3 | 1.00x | 1.00x | 3.0 |
+| android | single | 3 | 1.00x | 1.00x | 3.0 |
+| architecture | single | 3 | 1.00x | 1.00x | 3.0 |
+| asp | single | 3 | 1.00x | 1.00x | 3.0 |
+| been | single | 3 | 1.00x | 1.00x | 3.0 |
+| chip | single | 3 | 1.00x | 1.00x | 3.0 |
+| common | single | 3 | 1.00x | 1.00x | 3.0 |
+| developer | single | 3 | 1.00x | 1.00x | 3.0 |
+| enable | single | 3 | 1.00x | 1.00x | 3.0 |
+| extensive | single | 3 | 1.00x | 1.00x | 3.0 |
+| framework | single | 3 | 1.00x | 1.00x | 3.0 |
+| higher-level | compound | 2 | 1.00x | 1.50x | 3.0 |
+| interop | single | 3 | 1.00x | 1.00x | 3.0 |
+| ios | single | 3 | 1.00x | 1.00x | 3.0 |
+| it's | single | 3 | 1.00x | 1.00x | 3.0 |
+| low-cost | compound | 2 | 1.00x | 1.50x | 3.0 |
+| macos | single | 3 | 1.00x | 1.00x | 3.0 |
+| manual | single | 3 | 1.00x | 1.00x | 3.0 |
+| nuget | single | 3 | 1.00x | 1.00x | 3.0 |
+| object-oriented | compound | 2 | 1.00x | 1.50x | 3.0 |
+| offers | single | 3 | 1.00x | 1.00x | 3.0 |
+| platforms | single | 3 | 1.00x | 1.00x | 3.0 |
+| productivity | single | 3 | 1.00x | 1.00x | 3.0 |
+| programs | single | 3 | 1.00x | 1.00x | 3.0 |
+| run | single | 3 | 1.00x | 1.00x | 3.0 |
+| safe | single | 3 | 1.00x | 1.00x | 3.0 |
+| self-tuning | compound | 2 | 1.00x | 1.50x | 3.0 |
+| solutions | single | 3 | 1.00x | 1.00x | 3.0 |
+| targeting | single | 3 | 1.00x | 1.00x | 3.0 |
+| thousands | single | 3 | 1.00x | 1.00x | 3.0 |
+| unsafe | single | 3 | 1.00x | 1.00x | 3.0 |
+| used | single | 3 | 1.00x | 1.00x | 3.0 |
+| using | single | 3 | 1.00x | 1.00x | 3.0 |
+| visual | single | 3 | 1.00x | 1.00x | 3.0 |

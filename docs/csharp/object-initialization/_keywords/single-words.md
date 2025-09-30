@@ -1,0 +1,102 @@
+# Single Word Frequency Analysis
+
+Generated from: `golden-reference.md`
+Total unique words: 93
+Total word occurrences: 129
+Total document words: 287
+
+| Word | Count | Document Concentration |
+|------|-------|------------------------|
+| across | 1 | 0.0035 |
+| advancement | 1 | 0.0035 |
+| approaches | 1 | 0.0035 |
+| appropriate | 1 | 0.0035 |
+| array | 1 | 0.0035 |
+| avoid | 1 | 0.0035 |
+| capacity | 1 | 0.0035 |
+| clean | 1 | 0.0035 |
+| clear | 1 | 0.0035 |
+| coherent | 1 | 0.0035 |
+| combine | 1 | 0.0035 |
+| common | 1 | 0.0035 |
+| complex | 1 | 0.0035 |
+| comprehensive | 1 | 0.0035 |
+| concise | 1 | 0.0035 |
+| conditional | 1 | 0.0035 |
+| consider | 1 | 0.0035 |
+| construction | 1 | 0.0035 |
+| containers | 1 | 0.0035 |
+| creating | 1 | 0.0035 |
+| creation | 1 | 0.0035 |
+| deconstruction | 1 | 0.0035 |
+| each | 1 | 0.0035 |
+| eliminate | 1 | 0.0035 |
+| enables | 1 | 0.0035 |
+| encompasses | 1 | 0.0035 |
+| error-prone | 1 | 0.0035 |
+| evolved | 1 | 0.0035 |
+| factory | 1 | 0.0035 |
+| flexible | 1 | 0.0035 |
+| good | 1 | 0.0035 |
+| immutability | 1 | 0.0035 |
+| init | 1 | 0.0035 |
+| initialize | 1 | 0.0035 |
+| initializers | 1 | 0.0035 |
+| intentions | 1 | 0.0035 |
+| known | 1 | 0.0035 |
+| large | 1 | 0.0035 |
+| less | 1 | 0.0035 |
+| leverage | 1 | 0.0035 |
+| like | 1 | 0.0035 |
+| linq | 1 | 0.0035 |
+| list | 1 | 0.0035 |
+| maintainable | 1 | 0.0035 |
+| makes | 1 | 0.0035 |
+| making | 1 | 0.0035 |
+| mark | 1 | 0.0035 |
+| matching | 1 | 0.0035 |
+| matters | 1 | 0.0035 |
+| methods | 1 | 0.0035 |
+| mixed | 1 | 0.0035 |
+| multiple | 1 | 0.0035 |
+| need | 1 | 0.0035 |
+| ones | 1 | 0.0035 |
+| optional | 1 | 0.0035 |
+| overloads | 1 | 0.0035 |
+| overview | 1 | 0.0035 |
+| parameters | 1 | 0.0035 |
+| powerful | 1 | 0.0035 |
+| pre-size | 1 | 0.0035 |
+| prefer | 1 | 0.0035 |
+| proliferation | 1 | 0.0035 |
+| provides | 1 | 0.0035 |
+| reduced | 1 | 0.0035 |
+| reference | 1 | 0.0035 |
+| setting | 1 | 0.0035 |
+| short-lived | 1 | 0.0035 |
+| significantly | 1 | 0.0035 |
+| structures | 1 | 0.0035 |
+| temporary | 1 | 0.0035 |
+| their | 1 | 0.0035 |
+| these | 1 | 0.0035 |
+| understanding | 1 | 0.0035 |
+| versions | 1 | 0.0035 |
+| writing | 1 | 0.0035 |
+| advanced | 2 | 0.0070 |
+| collections | 2 | 0.0070 |
+| essential | 2 | 0.0070 |
+| nested | 2 | 0.0070 |
+| object | 2 | 0.0070 |
+| readable | 2 | 0.0070 |
+| required | 2 | 0.0070 |
+| simple | 2 | 0.0070 |
+| constructors | 3 | 0.0105 |
+| immutable | 3 | 0.0105 |
+| modern | 3 | 0.0105 |
+| records | 3 | 0.0105 |
+| basic | 4 | 0.0139 |
+| code | 4 | 0.0139 |
+| constructor | 4 | 0.0139 |
+| objects | 4 | 0.0139 |
+| properties | 5 | 0.0174 |
+| use | 5 | 0.0174 |

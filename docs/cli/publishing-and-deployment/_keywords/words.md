@@ -1,84 +1,56 @@
 # Unified Local Analysis
 
-Combined 10 compound terms and 70 single words
-Total unique terms: 76
-Total term occurrences: 275
+Combined 13 compound terms and 155 single words
+Total unique terms: 168
+Terms with score ≥ 3.0: 39
+Total term occurrences: 359
+Header-based scoring: enabled
 
-| Term | Type | Count | Document Concentration |
-|------|------|-------|------------------------|
-| deployment | single | 25 | 0.0496 |
-| aot | single | 14 | 0.0278 |
-| native | single | 12 | 0.0238 |
-| publishing | single | 11 | 0.0218 |
-| runtime | single | 10 | 0.0198 |
-| framework-dependent | single | 8 | 0.0159 |
-| size | single | 8 | 0.0159 |
-| deployments | single | 7 | 0.0139 |
-| benefits | single | 6 | 0.0119 |
-| case | single | 6 | 0.0119 |
-| readytorun | single | 6 | 0.0119 |
-| use | single | 6 | 0.0119 |
-| compilation | single | 5 | 0.0099 |
-| startup | single | 5 | 0.0099 |
-| distribution | single | 4 | 0.0079 |
-| no | single | 4 | 0.0079 |
-| optimization | single | 4 | 0.0079 |
-| application | single | 3 | 0.0060 |
-| applications | single | 3 | 0.0060 |
-| configuration | single | 3 | 0.0060 |
-| container | single | 3 | 0.0060 |
-| container deployment | compound | 3 | 0.0060 |
-| easy | single | 3 | 0.0060 |
-| enterprise | single | 3 | 0.0060 |
-| larger | single | 3 | 0.0060 |
-| minimal | single | 3 | 0.0060 |
-| optimized | single | 3 | 0.0060 |
-| performance | single | 3 | 0.0060 |
-| scenarios | single | 3 | 0.0060 |
-| security | single | 3 | 0.0060 |
-| self-contained | single | 3 | 0.0060 |
-| shared | single | 3 | 0.0060 |
-| updates | single | 3 | 0.0060 |
-| cd | single | 2 | 0.0040 |
-| ci | single | 2 | 0.0040 |
-| cloud | single | 2 | 0.0040 |
-| cloud-native | compound | 2 | 0.0040 |
-| cold | single | 2 | 0.0040 |
-| common | single | 2 | 0.0040 |
-| considerations | single | 2 | 0.0040 |
-| consistent | single | 2 | 0.0040 |
-| control | single | 2 | 0.0040 |
-| desktop | single | 2 | 0.0040 |
-| development-time | compound | 2 | 0.0040 |
-| devices | single | 2 | 0.0040 |
-| distribution-time | compound | 2 | 0.0040 |
-| environment | single | 2 | 0.0040 |
-| executable | single | 2 | 0.0040 |
-| executables | single | 2 | 0.0040 |
-| fastest startup | compound | 2 | 0.0040 |
-| footprint | single | 2 | 0.0040 |
-| functions | single | 2 | 0.0040 |
-| installation | single | 2 | 0.0040 |
-| iot | single | 2 | 0.0040 |
-| microservices | single | 2 | 0.0040 |
-| mode | single | 2 | 0.0040 |
-| modes | single | 2 | 0.0040 |
-| multiple | single | 2 | 0.0040 |
-| overview | single | 2 | 0.0040 |
-| packaging | single | 2 | 0.0040 |
-| recommended | single | 2 | 0.0040 |
-| reduced | single | 2 | 0.0040 |
-| requirements | single | 2 | 0.0040 |
-| scenario | single | 2 | 0.0040 |
-| smallest | single | 2 | 0.0040 |
-| start | single | 2 | 0.0040 |
-| strategies | single | 2 | 0.0040 |
-| target | single | 2 | 0.0040 |
-| targeting | single | 2 | 0.0040 |
-| tools | single | 2 | 0.0040 |
-| trade-offs | compound | 2 | 0.0040 |
-| trimmed | single | 2 | 0.0040 |
-| ultimate | single | 2 | 0.0040 |
-| usage | single | 2 | 0.0040 |
-| web | single | 2 | 0.0040 |
-| workflow | single | 2 | 0.0040 |
+Scoring formula: LocalScore = count × header_multiplier × type_multiplier
+- header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
+  - Single words do NOT get header multipliers (prevents arbitrary matches)
+  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+- type_multiplier: 1.5x (compound), 1.0x (single)
+- Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
+
+| Term | Type | Count | Header Mult | Type Mult | Local Score |
+|------|------|-------|-------------|-----------|-------------|
+| native aot | compound | 14 | 1.10x | 1.50x | 23.1 |
+| deployment | single | 22 | 1.00x | 1.00x | 22.0 |
+| framework-dependent | compound | 8 | 1.10x | 1.50x | 13.2 |
+| self-contained | compound | 8 | 1.10x | 1.50x | 13.2 |
+| runtime | single | 10 | 1.00x | 1.00x | 10.0 |
+| publishing | single | 9 | 1.00x | 1.00x | 9.0 |
+| size | single | 8 | 1.00x | 1.00x | 8.0 |
+| deployments | single | 7 | 1.00x | 1.00x | 7.0 |
+| startup | single | 7 | 1.00x | 1.00x | 7.0 |
+| single-file | compound | 4 | 1.10x | 1.50x | 6.6 |
+| benefits | single | 6 | 1.00x | 1.00x | 6.0 |
+| case | single | 6 | 1.00x | 1.00x | 6.0 |
+| distribution | single | 6 | 1.00x | 1.00x | 6.0 |
+| readytorun | single | 6 | 1.00x | 1.00x | 6.0 |
+| use | single | 6 | 1.00x | 1.00x | 6.0 |
+| deployment scenarios | compound | 3 | 1.25x | 1.50x | 5.6 |
+| container deployment | compound | 3 | 1.10x | 1.50x | 5.0 |
+| cross-platform | compound | 3 | 1.10x | 1.50x | 5.0 |
+| cloud | single | 4 | 1.00x | 1.00x | 4.0 |
+| no | single | 4 | 1.00x | 1.00x | 4.0 |
+| optimization | single | 4 | 1.00x | 1.00x | 4.0 |
+| publishing modes | compound | 2 | 1.25x | 1.50x | 3.8 |
+| build-time | compound | 2 | 1.10x | 1.50x | 3.3 |
+| application | single | 3 | 1.00x | 1.00x | 3.0 |
+| cloud-native | compound | 2 | 1.00x | 1.50x | 3.0 |
+| container | single | 3 | 1.00x | 1.00x | 3.0 |
+| development-time | compound | 2 | 1.00x | 1.50x | 3.0 |
+| distribution-time | compound | 2 | 1.00x | 1.50x | 3.0 |
+| easy | single | 3 | 1.00x | 1.00x | 3.0 |
+| enterprise | single | 3 | 1.00x | 1.00x | 3.0 |
+| fastest | single | 3 | 1.00x | 1.00x | 3.0 |
+| larger | single | 3 | 1.00x | 1.00x | 3.0 |
+| minimal | single | 3 | 1.00x | 1.00x | 3.0 |
+| optimized | single | 3 | 1.00x | 1.00x | 3.0 |
+| security | single | 3 | 1.00x | 1.00x | 3.0 |
+| shared | single | 3 | 1.00x | 1.00x | 3.0 |
+| time | single | 3 | 1.00x | 1.00x | 3.0 |
+| trade-offs | compound | 2 | 1.00x | 1.50x | 3.0 |
+| updates | single | 3 | 1.00x | 1.00x | 3.0 |

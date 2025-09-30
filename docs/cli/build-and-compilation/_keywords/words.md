@@ -1,49 +1,39 @@
 # Unified Local Analysis
 
-Combined 4 compound terms and 37 single words
-Total unique terms: 41
-Total term occurrences: 116
+Combined 12 compound terms and 96 single words
+Total unique terms: 108
+Terms with score ≥ 3.0: 22
+Total term occurrences: 164
+Header-based scoring: enabled
 
-| Term | Type | Count | Document Concentration |
-|------|------|-------|------------------------|
-| build | single | 17 | 0.0570 |
-| compilation | single | 5 | 0.0168 |
-| configuration | single | 5 | 0.0168 |
-| ci | single | 4 | 0.0134 |
-| analysis | single | 3 | 0.0101 |
-| builds | single | 3 | 0.0101 |
-| code | single | 3 | 0.0101 |
-| commands | single | 3 | 0.0101 |
-| multiple | single | 3 | 0.0101 |
-| nuget | single | 3 | 0.0101 |
-| package | single | 3 | 0.0101 |
-| parallel | single | 3 | 0.0101 |
-| resolution | single | 3 | 0.0101 |
-| workflow | single | 3 | 0.0101 |
-| workflows | single | 3 | 0.0101 |
-| automation | single | 2 | 0.0067 |
-| binaries | single | 2 | 0.0067 |
-| build acceleration | compound | 2 | 0.0067 |
-| caching | single | 2 | 0.0067 |
-| cd | single | 2 | 0.0067 |
-| common | single | 2 | 0.0067 |
-| configurations | single | 2 | 0.0067 |
-| core | single | 2 | 0.0067 |
-| custom build configurations | compound | 2 | 0.0067 |
-| dependency | single | 2 | 0.0067 |
-| engineers | single | 2 | 0.0067 |
-| executable | single | 2 | 0.0067 |
-| execution | single | 2 | 0.0067 |
-| incremental | single | 2 | 0.0067 |
-| integration | single | 2 | 0.0067 |
-| issues | single | 2 | 0.0067 |
-| local | single | 2 | 0.0067 |
-| msbuild integration | compound | 2 | 0.0067 |
-| multi-targeting | single | 2 | 0.0067 |
-| optimization | single | 2 | 0.0067 |
-| patterns | single | 2 | 0.0067 |
-| performance optimization | compound | 2 | 0.0067 |
-| pipeline | single | 2 | 0.0067 |
-| project | single | 2 | 0.0067 |
-| restore | single | 2 | 0.0067 |
-| strategies | single | 2 | 0.0067 |
+Scoring formula: LocalScore = count × header_multiplier × type_multiplier
+- header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
+  - Single words do NOT get header multipliers (prevents arbitrary matches)
+  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+- type_multiplier: 1.5x (compound), 1.0x (single)
+- Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
+
+| Term | Type | Count | Header Mult | Type Mult | Local Score |
+|------|------|-------|-------------|-----------|-------------|
+| build | single | 8 | 1.00x | 1.00x | 8.0 |
+| build configurations | compound | 4 | 1.25x | 1.50x | 7.5 |
+| build configuration | compound | 3 | 1.25x | 1.50x | 5.6 |
+| dependency resolution | compound | 3 | 1.10x | 1.50x | 5.0 |
+| ci | single | 4 | 1.00x | 1.00x | 4.0 |
+| build acceleration | compound | 2 | 1.25x | 1.50x | 3.8 |
+| performance optimization | compound | 2 | 1.25x | 1.50x | 3.8 |
+| core build | compound | 2 | 1.10x | 1.50x | 3.3 |
+| custom build configurations | compound | 2 | 1.10x | 1.50x | 3.3 |
+| development workflow | compound | 2 | 1.10x | 1.50x | 3.3 |
+| local development | compound | 2 | 1.10x | 1.50x | 3.3 |
+| msbuild integration | compound | 2 | 1.10x | 1.50x | 3.3 |
+| multi-targeting | compound | 2 | 1.10x | 1.50x | 3.3 |
+| package management | compound | 2 | 1.10x | 1.50x | 3.3 |
+| analysis | single | 3 | 1.00x | 1.00x | 3.0 |
+| builds | single | 3 | 1.00x | 1.00x | 3.0 |
+| code | single | 3 | 1.00x | 1.00x | 3.0 |
+| commands | single | 3 | 1.00x | 1.00x | 3.0 |
+| multiple | single | 3 | 1.00x | 1.00x | 3.0 |
+| nuget | single | 3 | 1.00x | 1.00x | 3.0 |
+| parallel | single | 3 | 1.00x | 1.00x | 3.0 |
+| workflows | single | 3 | 1.00x | 1.00x | 3.0 |

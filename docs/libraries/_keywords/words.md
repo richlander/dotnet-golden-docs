@@ -1,55 +1,40 @@
 # Unified Local Analysis
 
-Combined 6 compound terms and 41 single words
-Total unique terms: 47
-Total term occurrences: 146
+Combined 14 compound terms and 112 single words
+Total unique terms: 126
+Terms with score ≥ 3.0: 23
+Total term occurrences: 196
+Header-based scoring: enabled
 
-| Term | Type | Count | Document Concentration |
-|------|------|-------|------------------------|
-| libraries | single | 12 | 0.0340 |
-| core | single | 8 | 0.0227 |
-| patterns | single | 8 | 0.0227 |
-| system | single | 8 | 0.0227 |
-| data | single | 6 | 0.0170 |
-| frameworks | single | 5 | 0.0142 |
-| access | single | 4 | 0.0113 |
-| application | single | 4 | 0.0113 |
-| asp | single | 4 | 0.0113 |
-| json | single | 4 | 0.0113 |
-| net | single | 4 | 0.0113 |
-| across | single | 3 | 0.0085 |
-| async | single | 3 | 0.0085 |
-| dependency injection | compound | 3 | 0.0085 |
-| distributed | single | 3 | 0.0085 |
-| library ecosystem | compound | 3 | 0.0085 |
-| nuget | single | 3 | 0.0085 |
-| third-party | single | 3 | 0.0085 |
-| api | single | 2 | 0.0057 |
-| apis | single | 2 | 0.0057 |
-| architecture | single | 2 | 0.0057 |
-| azure sdk | compound | 2 | 0.0057 |
-| base class library | compound | 2 | 0.0057 |
-| bcl | compound | 2 | 0.0057 |
-| components | single | 2 | 0.0057 |
-| configuration | single | 2 | 0.0057 |
-| entity | single | 2 | 0.0057 |
-| foundation | single | 2 | 0.0057 |
-| fundamental | single | 2 | 0.0057 |
-| high-performance collections | compound | 2 | 0.0057 |
-| logging | single | 2 | 0.0057 |
-| modern | single | 2 | 0.0057 |
-| multiple | single | 2 | 0.0057 |
-| networking | single | 2 | 0.0057 |
-| package | single | 2 | 0.0057 |
-| packages | single | 2 | 0.0057 |
-| runtime | single | 2 | 0.0057 |
-| scenarios | single | 2 | 0.0057 |
-| security | single | 2 | 0.0057 |
-| serialization | single | 2 | 0.0057 |
-| services | single | 2 | 0.0057 |
-| spans | single | 2 | 0.0057 |
-| testing | single | 2 | 0.0057 |
-| text | single | 2 | 0.0057 |
-| types | single | 2 | 0.0057 |
-| unit | single | 2 | 0.0057 |
-| web | single | 2 | 0.0057 |
+Scoring formula: LocalScore = count × header_multiplier × type_multiplier
+- header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
+  - Single words do NOT get header multipliers (prevents arbitrary matches)
+  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+- type_multiplier: 1.5x (compound), 1.0x (single)
+- Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
+
+| Term | Type | Count | Header Mult | Type Mult | Local Score |
+|------|------|-------|-------------|-----------|-------------|
+| libraries | single | 10 | 1.00x | 1.00x | 10.0 |
+| asp.net core | compound | 4 | 1.10x | 1.50x | 6.6 |
+| data access | compound | 3 | 1.25x | 1.50x | 5.6 |
+| library ecosystem | compound | 3 | 1.25x | 1.50x | 5.6 |
+| memory management | compound | 3 | 1.25x | 1.50x | 5.6 |
+| frameworks | single | 5 | 1.00x | 1.00x | 5.0 |
+| dependency injection | compound | 3 | 1.10x | 1.50x | 5.0 |
+| high-performance | compound | 3 | 1.10x | 1.50x | 5.0 |
+| third-party | compound | 3 | 1.10x | 1.50x | 5.0 |
+| application | single | 4 | 1.00x | 1.00x | 4.0 |
+| asp | single | 4 | 1.00x | 1.00x | 4.0 |
+| system | single | 4 | 1.00x | 1.00x | 4.0 |
+| distributed system | compound | 2 | 1.25x | 1.50x | 3.8 |
+| system libraries | compound | 2 | 1.25x | 1.50x | 3.8 |
+| azure sdk | compound | 2 | 1.10x | 1.50x | 3.3 |
+| entity framework core | compound | 2 | 1.10x | 1.50x | 3.3 |
+| high-performance collections | compound | 2 | 1.10x | 1.50x | 3.3 |
+| across | single | 3 | 1.00x | 1.00x | 3.0 |
+| async | single | 3 | 1.00x | 1.00x | 3.0 |
+| base class library | compound | 2 | 1.00x | 1.50x | 3.0 |
+| bcl | compound | 2 | 1.00x | 1.50x | 3.0 |
+| cloud | single | 3 | 1.00x | 1.00x | 3.0 |
+| nuget | single | 3 | 1.00x | 1.00x | 3.0 |

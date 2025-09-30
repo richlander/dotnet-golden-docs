@@ -145,10 +145,10 @@ Span-based normalization and UTF-8 operations without string allocations.
 
 ## Gotchas & Limitations
 
-NumericOrdering: Only works with comparison operations, not IndexOf/StartsWith/EndsWith
-Post-Quantum Crypto: Requires OpenSSL 3.5+ or Windows CNG with PQC support
-JSON Security: Duplicate detection adds parsing overhead
-Span APIs: Require careful lifetime management to avoid dangling references
+- NumericOrdering: Only works with comparison operations, not IndexOf/StartsWith/EndsWith
+- Post-quantum cryptography: Requires OpenSSL 3.5+ or Windows CNG with PQC support
+- JSON Security: Duplicate detection adds parsing overhead
+- Span APIs: Require careful lifetime management to avoid dangling references
 
 ## See Also
 

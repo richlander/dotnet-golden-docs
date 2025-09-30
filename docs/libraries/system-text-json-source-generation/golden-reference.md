@@ -1,4 +1,4 @@
-# System.Text.Json Source Generation - Comprehensive Reference
+# System.Text.Json Source Generation
 
 ## Overview
 

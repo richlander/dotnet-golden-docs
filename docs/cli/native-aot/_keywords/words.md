@@ -1,46 +1,30 @@
 # Unified Local Analysis
 
-Combined 4 compound terms and 36 single words
-Total unique terms: 38
-Total term occurrences: 115
+Combined 5 compound terms and 178 single words
+Total unique terms: 183
+Terms with score ≥ 3.0: 13
+Total term occurrences: 246
+Header-based scoring: enabled
 
-| Term | Type | Count | Document Concentration |
-|------|------|-------|------------------------|
-| compilation | single | 8 | 0.0207 |
-| aot | single | 7 | 0.0181 |
-| runtime | single | 7 | 0.0181 |
-| native | single | 6 | 0.0155 |
-| no | single | 6 | 0.0155 |
-| code | single | 5 | 0.0129 |
-| deployment | single | 5 | 0.0129 |
-| jit | single | 4 | 0.0103 |
-| net | single | 4 | 0.0103 |
-| supported | single | 4 | 0.0103 |
-| reflection | single | 3 | 0.0078 |
-| self-contained | compound | 3 | 0.0078 |
-| without | single | 3 | 0.0078 |
-| arm64 | single | 2 | 0.0052 |
-| common | single | 2 | 0.0052 |
-| cross-compilation | single | 2 | 0.0052 |
-| during | single | 2 | 0.0052 |
-| faster | single | 2 | 0.0052 |
-| generators | single | 2 | 0.0052 |
-| images | single | 2 | 0.0052 |
-| limitations | single | 2 | 0.0052 |
-| limited | single | 2 | 0.0052 |
-| linux | single | 2 | 0.0052 |
-| machine | single | 2 | 0.0052 |
-| metadata | single | 2 | 0.0052 |
-| prohibited | single | 2 | 0.0052 |
-| publishing | single | 2 | 0.0052 |
-| reduced | single | 2 | 0.0052 |
-| required | single | 2 | 0.0052 |
-| requirements | single | 2 | 0.0052 |
-| setup | single | 2 | 0.0052 |
-| single-file | compound | 2 | 0.0052 |
-| size | single | 2 | 0.0052 |
-| smaller | single | 2 | 0.0052 |
-| support | single | 2 | 0.0052 |
-| toolchain | single | 2 | 0.0052 |
-| usage | single | 2 | 0.0052 |
-| windows | single | 2 | 0.0052 |
+Scoring formula: LocalScore = count × header_multiplier × type_multiplier
+- header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
+  - Single words do NOT get header multipliers (prevents arbitrary matches)
+  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+- type_multiplier: 1.5x (compound), 1.0x (single)
+- Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
+
+| Term | Type | Count | Header Mult | Type Mult | Local Score |
+|------|------|-------|-------------|-----------|-------------|
+| native aot | compound | 6 | 1.50x | 1.50x | 13.5 |
+| runtime | single | 7 | 1.00x | 1.00x | 7.0 |
+| no | single | 6 | 1.00x | 1.00x | 6.0 |
+| code | single | 5 | 1.00x | 1.00x | 5.0 |
+| compilation | single | 5 | 1.00x | 1.00x | 5.0 |
+| self-contained | compound | 3 | 1.00x | 1.50x | 4.5 |
+| jit | single | 4 | 1.00x | 1.00x | 4.0 |
+| supported | single | 4 | 1.00x | 1.00x | 4.0 |
+| aot-compatible | compound | 2 | 1.10x | 1.50x | 3.3 |
+| cross-compilation | compound | 2 | 1.10x | 1.50x | 3.3 |
+| single-file | compound | 2 | 1.00x | 1.50x | 3.0 |
+| startup | single | 3 | 1.00x | 1.00x | 3.0 |
+| without | single | 3 | 1.00x | 1.00x | 3.0 |
