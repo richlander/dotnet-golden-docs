@@ -1,0 +1,44 @@
+Title | Assembly Trimming
+API | RequiresUnreferencedCode
+API | DynamicallyAccessedMembers
+API | GetMethods
+Error | IL2026
+ErrorMessage | Using member '{0}' which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code.
+Error | IL2032
+ErrorMessage | Unrecognized value passed to the parameter '{0}' of method 'CreateInstance'. It's not possible to guarantee the availability of the target type.
+Error | IL2055
+ErrorMessage | Call to 'System.Type.MakeGenericType' can not be statically analyzed.
+Error | IL2057
+ErrorMessage | Unrecognized value passed to the parameter 'typeName' of method 'System.Type.GetType'. It's not possible to guarantee the availability of the target type.
+Error | IL2062
+ErrorMessage | Value passed to implicit 'this' parameter of method '{0}' does not satisfy 'DynamicallyAccessedMembersAttribute' requirements.
+Error | IL2070
+ErrorMessage | 'this' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to target method. The parameter of method does not have matching annotations.
+Error | IL2102
+ErrorMessage | Invalid AssemblyMetadata('IsTrimmable', ...) attribute. Value must be 'True'.
+Error | IL2110
+ErrorMessage | Field '{0}' with 'DynamicallyAccessedMembersAttribute' is accessed via reflection.
+Error | IL2111
+ErrorMessage | Method '{0}' with parameters or return value with 'DynamicallyAccessedMembersAttribute' is accessed via reflection.
+Error | NETSDK1124
+ErrorMessage | Trimming assemblies requires .NET Core 3.0 or higher.
+Error | NETSDK1168
+ErrorMessage | WPF is not supported or recommended with trimming enabled.
+Error | NETSDK1175
+ErrorMessage | Windows Forms is not supported or recommended with trimming enabled.
+Error | NETSDK1195
+ErrorMessage | Trimming, or code compatibility analysis for trimming, single-file deployment, or ahead-of-time compilation is not supported for the target framework.
+Error | NETSDK1212
+ErrorMessage | IsTrimmable and EnableTrimAnalyzer are not supported for the target framework.
+Keyword | assembly trimming
+Keyword | build-time
+Keyword | desktop applications
+Keyword | framework integration
+Keyword | library development
+Keyword | trimming
+Keyword | reduced
+Keyword | test
+Keyword | disabled
+Keyword | faster
+Keyword | generators
+Keyword | reduction

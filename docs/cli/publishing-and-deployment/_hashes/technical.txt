@@ -1,0 +1,47 @@
+Title | Publishing and Deployment
+Error | NETSDK1031
+ErrorMessage | It is not supported to build or publish a self-contained application without specifying a RuntimeIdentifier.
+Error | NETSDK1097
+ErrorMessage | It is not supported to publish an application to a single-file without specifying a RuntimeIdentifier.
+Error | NETSDK1098
+ErrorMessage | Applications published to a single-file are required to use the application host.
+Error | NETSDK1099
+ErrorMessage | Publishing to a single-file is only supported for executable applications.
+Error | NETSDK1123
+ErrorMessage | Publishing an application to a single-file requires .NET Core 3.0 or higher.
+Error | NETSDK1125
+ErrorMessage | Publishing to a single-file is only supported for netcoreapp target framework.
+Error | NETSDK1126
+ErrorMessage | Publishing ReadyToRun using Crossgen2 is only supported for self-contained applications.
+Error | NETSDK1128
+ErrorMessage | COM hosting does not support self-contained deployments.
+Error | NETSDK1129
+ErrorMessage | The 'Publish' target is not supported without specifying a target framework.
+Error | NETSDK1134
+ErrorMessage | Building a solution with a specific RuntimeIdentifier is not supported.
+Error | NETSDK1142
+ErrorMessage | Including symbols in a single file bundle is not supported when publishing for .NET5 or higher.
+Error | NETSDK1152
+ErrorMessage | Found multiple publish output files with the same relative path.
+Error | NETSDK1167
+ErrorMessage | Compression in a single file bundle is only supported when publishing for .NET6 or higher.
+Error | NETSDK1176
+ErrorMessage | Compression in a single file bundle is only supported when publishing a self-contained application.
+Error | NETSDK1193
+ErrorMessage | If PublishSelfContained is set, it must be either true or false.
+Error | NETSDK1198
+ErrorMessage | A publish profile with the name '{0}' was not found in the project.
+Error | NETSDK1225
+ErrorMessage | Native compilation is not supported when invoking the Publish target directly.
+Keyword | framework-dependent
+Keyword | container deployment
+Keyword | cloud-native
+Keyword | deployment scenarios
+Keyword | development-time
+Keyword | distribution-time
+Keyword | trade-offs
+Keyword | native aot
+Keyword | benefits
+Keyword | case
+Keyword | distribution
+Keyword | optimization

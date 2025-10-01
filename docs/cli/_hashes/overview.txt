@@ -1,0 +1,14 @@
+Title | CLI
+Keyword | development workflow
+Keyword | build performance
+Keyword | command structure
+Keyword | development environments
+Keyword | net cli
+Keyword | package restore
+Keyword | cli
+Keyword | command-line
+Keyword | development
+Keyword | consistent
+Keyword | sdk
+Keyword | cache
+Description | The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle.

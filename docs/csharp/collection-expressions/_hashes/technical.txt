@@ -1,0 +1,29 @@
+Title | Collection Expressions
+API | ProcessItems
+API | PrintNumbers
+Error | CS9176
+ErrorMessage | There is no target type for the collection expression.
+Error | CS9174
+ErrorMessage | Cannot initialize type '{0}' with a collection expression because the type is not constructible.
+Error | CS9188
+ErrorMessage | '{0}' has a CollectionBuilderAttribute but no element type.
+Error | CS9187
+ErrorMessage | Could not find an accessible '{0}' method with the expected signature: a static method with a single parameter of type 'ReadOnlySpan<{1}>' and return type '{2}'.
+Error | CS9185
+ErrorMessage | The CollectionBuilderAttribute builder type must be a non-generic class or struct.
+Error | CS9186
+ErrorMessage | The CollectionBuilderAttribute method name is invalid.
+Error | CS9175
+ErrorMessage | An expression tree may not contain a collection expression.
+Keyword | collection expressions
+Keyword | collection types
+Keyword | target type
+Keyword | compile-time constants
+Keyword | inline arrays
+Keyword | spread element
+Keyword | spread
+Keyword | params
+Keyword | combine
+Keyword | concise
+Keyword | javascript
+Keyword | python

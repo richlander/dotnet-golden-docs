@@ -1,0 +1,39 @@
+Title | System.Text.Json
+API | JsonSerializable
+API | JsonSerializer.Serialize
+API | JsonSerializer.SerializeAsync
+Error | IL2026
+ErrorMessage | Using member `System.Text.Json.JsonSerializer.Serialize<TValue>(TValue, JsonSerializerOptions)` which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.
+Error | IL2026
+ErrorMessage | Using member `System.Text.Json.JsonSerializer.Deserialize<TValue>(String, JsonSerializerOptions)` which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.
+Error | IL3050
+ErrorMessage | Using member `System.Text.Json.JsonSerializer.Serialize<TValue>(TValue, JsonSerializerOptions)` which has 'RequiresDynamicCodeAttribute' can break functionality when AOT compiling. JSON serialization and deserialization might require types that cannot be statically analyzed and might need runtime code generation. Use System.Text.Json source generation for native AOT applications.
+Error | IL3050
+ErrorMessage | Using member `System.Text.Json.JsonSerializer.Deseriallize<TValue>(String, JsonSerializerOptions)` which has 'RequiresDynamicCodeAttribute' can break functionality when AOT compiling. JSON serialization and deserialization might require types that cannot be statically analyzed and might need runtime code generation. Use System.Text.Json source generation for native AOT applications.
+Error | SYSLIB1030
+ErrorMessage | JsonSourceGenerationOptionsAttribute on type '{0}' is not valid. {1}
+Error | SYSLIB1034
+ErrorMessage | JsonStringEnumConverter with '{0}' is not supported in source generation mode.
+Error | SYSLIB1037
+ErrorMessage | Init-only property '{0}' is not supported in source generation mode.
+Error | SYSLIB1038
+ErrorMessage | JsonInclude is specified on inaccessible property '{0}'.
+Error | SYSLIB1039
+ErrorMessage | Polymorphic types are not supported in source generation mode.
+Error | SYSLIB1220
+ErrorMessage | Invalid '{0}' attribute argument: '{1}'.
+Error | SYSLIB1222
+ErrorMessage | Constructor parameter '{0}' has a JsonConstructorAttribute annotation but is inaccessible.
+Error | SYSLIB1223
+ErrorMessage | JsonConverterAttribute '{0}' is invalid.
+Error | SYSLIB1225
+ErrorMessage | JSON source generation does not support the specified configuration.
+Error | SYSLIB0020
+ErrorMessage | JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.
+Error | SYSLIB0049
+ErrorMessage | JsonSerializerOptions.AddContext is obsolete. To register a JsonSerializerContext, use either the TypeInfoResolver or TypeInfoResolverChain properties.
+Keyword | newtonsoft.json
+Keyword | source generation
+Keyword | default
+Keyword | limits
+Keyword | requires

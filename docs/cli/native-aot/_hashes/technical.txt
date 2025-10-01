@@ -1,0 +1,25 @@
+Title | Native AOT
+API | JsonSerializable
+API | JsonSerializer.Serialize
+API | WebApplication.CreateSlimBuilder
+Error | NETSDK1196
+ErrorMessage | The SDK does not support ahead-of-time compilation. Set the PublishAot property to false.
+Error | IL2026
+ErrorMessage | Using member '{0}' which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code.
+Error | IL2055
+ErrorMessage | Call to 'System.Type.MakeGenericType' can not be statically analyzed.
+Error | IL2057
+ErrorMessage | Unrecognized value passed to the parameter 'typeName' of method 'System.Type.GetType'. It's not possible to guarantee the availability of the target type.
+Error | IL2070
+ErrorMessage | 'this' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to target method. The parameter of method does not have matching annotations.
+Error | IL2087
+ErrorMessage | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The return value of source method does not have matching annotations.
+Error | IL2091
+ErrorMessage | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The generic parameter does not have matching annotations.
+Keyword | generic methods
+Keyword | reflection-based
+Keyword | system.text.json source generation
+Keyword | source generation
+Keyword | native aot
+Keyword | jit
+Keyword | smaller

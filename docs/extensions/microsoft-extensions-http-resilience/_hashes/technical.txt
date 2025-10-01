@@ -1,0 +1,23 @@
+Title | Microsoft.Extensions.Http.Resilience
+API | TimeSpan.FromSeconds
+API | GetAsync
+API | AddHttpClient
+API | CreateClient
+API | AddStandardResilienceHandler
+API | Configure
+API | IncrementCounter
+API | OrderResult.Failed
+API | TimeSpan.FromMinutes
+API | Uri
+Keyword | circuit breaker
+Keyword | microsoft.extensions.http.resilience
+Keyword | pre-configured
+Keyword | custom resilience
+Keyword | resource management
+Keyword | resilience
+Keyword | http
+Keyword | communication
+Keyword | httpclient
+Keyword | monitoring
+Keyword | strategies
+Keyword | built

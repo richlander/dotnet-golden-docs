@@ -1,0 +1,14 @@
+Title | C# Language
+Keyword | asynchronous programming
+Keyword | language features
+Keyword | memory-safety
+Keyword | cloud-native development
+Keyword | language-integrated
+Keyword | mobile applications
+Keyword | pattern-based
+Keyword | platform-specific
+Keyword | type system
+Keyword | version compatibility
+Keyword | low-level
+Keyword | object-oriented
+Description | C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment.

@@ -1,0 +1,23 @@
+Title | Microsoft.Extensions.AI.Evaluation
+API | EvaluateAsync
+API | Microsoft.Extensions.AI.Evaluation
+API | Microsoft.Extensions
+API | Microsoft.Extensions.AI
+API | Console.WriteLine
+API | GetResponseAsync
+API | AddEvaluation
+API | Assert.That
+API | ContentHarmEvaluator
+API | RelevanceEvaluator
+Keyword | microsoft.extensions.ai.evaluation
+Keyword | safety evaluators
+Keyword | ai-generated
+Keyword | automated quality
+Keyword | automated quality gates
+Keyword | custom evaluator implementation
+Keyword | llm-based
+Keyword | llm-based evaluators
+Keyword | regression testing
+Keyword | evaluation
+Keyword | quality
+Keyword | safety

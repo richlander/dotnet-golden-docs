@@ -1,0 +1,14 @@
+Title | Collection Initialization
+Keyword | collection initialization
+Keyword | collection type
+Keyword | initialization patterns
+Keyword | 9.0
+Keyword | collection initializer syntax
+Keyword | data management
+Keyword | dictionary initializers
+Keyword | performance considerations
+Keyword | target-typed new
+Keyword | target-typed new expressions
+Keyword | target-typed
+Keyword | approach
+Description | Collection initialization encompasses the traditional and modern approaches to creating and initializing collections in C#, including constructor-based initialization, target-typed constructors, and collection initializer syntax. This covers the foundational patterns for working with collections before the introduction of collection expressions, and represents the established, widely-compatible approaches to collection creation.

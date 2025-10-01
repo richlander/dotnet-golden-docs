@@ -1,0 +1,20 @@
+Title | System.CommandLine
+API | AddOption
+API | SetHandler
+API | AddArgument
+API | Command
+API | RootCommand
+API | AddCommand
+API | ProcessFile
+Keyword | system.commandline
+Keyword | response files
+Keyword | best practices
+Keyword | model binding
+Keyword | service-based
+Keyword | command-line
+Keyword | parsing
+Keyword | option
+Keyword | validation
+Keyword | commandline
+Keyword | binding
+Keyword | completion

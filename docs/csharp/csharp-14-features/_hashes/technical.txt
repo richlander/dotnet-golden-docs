@@ -1,0 +1,54 @@
+Title | C# 14 Language Features
+API | Console.WriteLine
+API | LastIndexOf
+API | LogMessage
+API | MyClass
+API | ArgumentNullException
+API | CelebrateBirthday
+API | GetFileExtension
+API | Trim
+API | TryParse
+Error | CS9273
+ErrorMessage | In language version {0}, 'field' is a keyword within a property accessor. Rename the variable or use the identifier '@field' instead.
+Error | CS9327
+ErrorMessage | Feature '{0}' is not available in C# 14.0. Please use language version {1} or greater.
+Error | CS9316
+ErrorMessage | Extension members are not allowed as an argument to 'nameof'.
+Error | CS9281
+ErrorMessage | Extension declarations may not have a name.
+Error | CS9282
+ErrorMessage | This member is not allowed in an extension block.
+Error | CS9283
+ErrorMessage | Extensions must be declared in a static class.
+Error | CS9286
+ErrorMessage | Extension resolution failed.
+Error | CS9317
+ErrorMessage | User-defined operator '{0}' must be declared as 'public static'.
+Error | CS9318
+ErrorMessage | Binary operator '{0}' has the wrong signature for a compound assignment operator.
+Error | CS9319
+ErrorMessage | Operator '{0}' cannot be used as a compound assignment operator because its return type is not assignable to its first parameter type.
+Error | CS9320
+ErrorMessage | User-defined operator '{0}' cannot be used as a compound assignment operator with operands of type '{1}' and '{2}'.
+Error | CS9321
+ErrorMessage | Conversion operator '{0}' cannot be used in a compound assignment because it has the wrong return type.
+Error | CS9322
+ErrorMessage | Binary operator '{0}' has a ref return but is not valid for compound assignment.
+Error | CS9323
+ErrorMessage | User-defined compound assignment operator '{0}' has invalid signature.
+Error | CS9324
+ErrorMessage | Operator '{0}' is not valid for compound assignment with operands of type '{1}' and '{2}'.
+Error | CS9329
+ErrorMessage | Extension block collision with type '{0}'.
+Keyword | zero-allocation
+Keyword | expression trees
+Keyword | first-class span
+Keyword | named arguments
+Keyword | stack-only
+Keyword | assignment
+Keyword | extension
+Keyword | enhanced
+Keyword | first-class
+Keyword | keyword
+Keyword | lambda
+Keyword | partial

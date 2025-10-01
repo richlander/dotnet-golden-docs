@@ -52,14 +52,70 @@
       "score": 3.04
     }
   ],
-  "authority": [
+  "edges": [
     {
-      "target_node": "/cli/native-aot",
-      "score": 1.322
+      "target": "/cli/native-aot",
+      "similarity": 0.8261,
+      "authority": {
+        "native aot": 1.322
+      }
     },
     {
-      "target_node": "/libraries/system-text-json-source-generation",
-      "score": 1.322
+      "target": "/cli/build-and-compilation",
+      "similarity": 0.812,
+      "authority": null
+    },
+    {
+      "target": "/cli",
+      "similarity": 0.785,
+      "authority": null
+    },
+    {
+      "target": "/dotnet",
+      "similarity": 0.7094,
+      "authority": null
+    },
+    {
+      "target": "/libraries",
+      "similarity": 0.6974,
+      "authority": null
+    },
+    {
+      "target": "/libraries/system-text-json-source-generation",
+      "similarity": 0.6453,
+      "authority": {
+        "native aot": 1.322
+      }
+    },
+    {
+      "target": "/libraries/system-commandline",
+      "similarity": 0.6301,
+      "authority": null
+    },
+    {
+      "target": "/extensions/microsoft-extensions-http-resilience",
+      "similarity": 0.6171,
+      "authority": null
+    },
+    {
+      "target": "/extensions/microsoft-extensions-ai",
+      "similarity": 0.5931,
+      "authority": null
+    },
+    {
+      "target": "/csharp/csharp-14-features",
+      "similarity": 0.5899,
+      "authority": null
+    },
+    {
+      "target": "/csharp",
+      "similarity": 0.5672,
+      "authority": null
+    },
+    {
+      "target": "/csharp/object-initialization",
+      "similarity": 0.5537,
+      "authority": null
     }
   ],
   "apis": null,
@@ -101,172 +157,10 @@
     }
   },
   "_embedded": {
-    "similar_categories": [
-      {
-        "category": "cli",
-        "index": "/cli/index.json",
-        "similarity_threshold": 0.785,
-        "topics": [
-          {
-            "id": "/cli/native-aot",
-            "name": "Native AOT",
-            "path": "/cli/native-aot",
-            "index": "/cli/native-aot/index.json",
-            "similarity": 1.0921042
-          },
-          {
-            "id": "/cli/build-and-compilation",
-            "name": "Build and Compilation",
-            "path": "/cli/build-and-compilation",
-            "index": "/cli/build-and-compilation/index.json",
-            "similarity": 0.812
-          },
-          {
-            "id": "/cli",
-            "name": "CLI",
-            "path": "/cli",
-            "index": "/cli/index.json",
-            "similarity": 0.785
-          }
-        ]
-      },
-      {
-        "category": "libraries",
-        "index": "/libraries/index.json",
-        "similarity_threshold": 0.6301,
-        "topics": [
-          {
-            "id": "/libraries",
-            "name": ".NET Libraries",
-            "path": "/libraries",
-            "index": "/libraries/index.json",
-            "similarity": 0.6974
-          },
-          {
-            "id": "/libraries/system-text-json-source-generation",
-            "name": "System.Text.Json Source Generation",
-            "path": "/libraries/system-text-json-source-generation",
-            "index": "/libraries/system-text-json-source-generation/index.json",
-            "similarity": 0.8530866
-          },
-          {
-            "id": "/libraries/system-commandline",
-            "name": "System.CommandLine",
-            "path": "/libraries/system-commandline",
-            "index": "/libraries/system-commandline/index.json",
-            "similarity": 0.6301
-          }
-        ]
-      },
-      {
-        "category": "dotnet",
-        "index": "/dotnet/index.json",
-        "similarity_threshold": 0.7094,
-        "topics": [
-          {
-            "id": "/dotnet",
-            "name": ".NET Platform",
-            "path": "/dotnet",
-            "index": "/dotnet/index.json",
-            "similarity": 0.7094
-          }
-        ]
-      }
-    ],
-    "similar_topics": {
-      "baseline": "golden-reference.md",
-      "similarity_threshold": 0.5537,
-      "topics": [
-        {
-          "id": "/cli/native-aot",
-          "name": "Native AOT",
-          "path": "/cli/native-aot",
-          "index": "/cli/native-aot/index.json",
-          "similarity": 1.0921042
-        },
-        {
-          "id": "/cli/build-and-compilation",
-          "name": "Build and Compilation",
-          "path": "/cli/build-and-compilation",
-          "index": "/cli/build-and-compilation/index.json",
-          "similarity": 0.812
-        },
-        {
-          "id": "/cli",
-          "name": "CLI",
-          "path": "/cli",
-          "index": "/cli/index.json",
-          "similarity": 0.785
-        },
-        {
-          "id": "/dotnet",
-          "name": ".NET Platform",
-          "path": "/dotnet",
-          "index": "/dotnet/index.json",
-          "similarity": 0.7094
-        },
-        {
-          "id": "/libraries",
-          "name": ".NET Libraries",
-          "path": "/libraries",
-          "index": "/libraries/index.json",
-          "similarity": 0.6974
-        },
-        {
-          "id": "/libraries/system-text-json-source-generation",
-          "name": "System.Text.Json Source Generation",
-          "path": "/libraries/system-text-json-source-generation",
-          "index": "/libraries/system-text-json-source-generation/index.json",
-          "similarity": 0.8530866
-        },
-        {
-          "id": "/libraries/system-commandline",
-          "name": "System.CommandLine",
-          "path": "/libraries/system-commandline",
-          "index": "/libraries/system-commandline/index.json",
-          "similarity": 0.6301
-        },
-        {
-          "id": "/extensions/microsoft-extensions-http-resilience",
-          "name": "Microsoft.Extensions.Http.Resilience",
-          "path": "/extensions/microsoft-extensions-http-resilience",
-          "index": "/extensions/microsoft-extensions-http-resilience/index.json",
-          "similarity": 0.6171
-        },
-        {
-          "id": "/extensions/microsoft-extensions-ai",
-          "name": "Microsoft.Extensions.AI",
-          "path": "/extensions/microsoft-extensions-ai",
-          "index": "/extensions/microsoft-extensions-ai/index.json",
-          "similarity": 0.5931
-        },
-        {
-          "id": "/csharp/csharp-14-features",
-          "name": "C# 14 Language Features",
-          "path": "/csharp/csharp-14-features",
-          "index": "/csharp/csharp-14-features/index.json",
-          "similarity": 0.5899
-        },
-        {
-          "id": "/csharp",
-          "name": "C# Language",
-          "path": "/csharp",
-          "index": "/csharp/index.json",
-          "similarity": 0.5672
-        },
-        {
-          "id": "/csharp/object-initialization",
-          "name": "Object Initialization",
-          "path": "/csharp/object-initialization",
-          "index": "/csharp/object-initialization/index.json",
-          "similarity": 0.5537
-        }
-      ]
-    },
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-01T00:41:05.8563240Z",
+    "generated": "2025-10-01T15:27:16.2307432Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -31,35 +31,43 @@ if ! ./scripts/generate-embeddings.sh; then
     exit 1
 fi
 
-# Step 4: Generate similarities and relationships
+# Step 4: Generate LSH hash signatures for content gates
 echo ""
-echo "🔍 Step 4: Generating similarities..."
-if ! ./scripts/generate-similarities.sh; then
+echo "🔍 Step 4: Generating hash signatures..."
+if ! ./scripts/generate-hashes.sh; then
     echo "❌ Step 4 failed - aborting update"
     exit 1
 fi
 
-# Step 5: Sync similarities to topic-spec.md files
+# Step 5: Generate similarities and relationships
 echo ""
-echo "🔄 Step 5: Syncing similarities to topic specifications..."
-if ! ./scripts/sync-similarities.sh; then
+echo "🔍 Step 5: Generating similarities..."
+if ! ./scripts/generate-similarities.sh; then
     echo "❌ Step 5 failed - aborting update"
     exit 1
 fi
 
-# Step 6: Calculate and sync authority scores
+# Step 6: Sync similarities to topic-spec.md files
 echo ""
-echo "🎯 Step 6: Calculating authority scores..."
-if ! ./scripts/sync-authority.sh; then
+echo "🔄 Step 6: Syncing similarities to topic specifications..."
+if ! ./scripts/sync-similarities.sh; then
     echo "❌ Step 6 failed - aborting update"
     exit 1
 fi
 
-# Step 7: Generate index files for all topics
+# Step 7: Calculate and sync authority scores
 echo ""
-echo "📋 Step 7: Generating indexes..."
-if ! ./scripts/generate-indexes.sh; then
+echo "🎯 Step 7: Calculating authority scores..."
+if ! ./scripts/sync-authority.sh; then
     echo "❌ Step 7 failed - aborting update"
+    exit 1
+fi
+
+# Step 8: Generate index files for all topics
+echo ""
+echo "📋 Step 8: Generating indexes..."
+if ! ./scripts/generate-indexes.sh; then
+    echo "❌ Step 8 failed - aborting update"
     exit 1
 fi
 
@@ -72,6 +80,7 @@ echo "📊 Summary:"
 echo "  - Keywords extracted and synced to topic-spec.md files"
 echo "  - API references extracted and synced to topic-spec.md files"
 echo "  - Embeddings generated for all docs/ content"
+echo "  - LSH hash signatures generated for content gates"
 echo "  - Similarity analysis completed across docs/"
 echo "  - Similarities synced to topic-spec.md files"
 echo "  - Authority scores calculated and synced"

@@ -1,0 +1,13 @@
+Title | .NET
+API | Console.WriteLine
+API | JsonSerializable
+API | JsonSerializer.Serialize
+API | Build
+API | Add
+API | GetResponseAsync
+API | JsonSourceGenerationOptions
+API | EvaluateAsync
+API | AddOption
+API | ChatClientBuilder
+API | Microsoft.Extensions
+API | System.Text.Json

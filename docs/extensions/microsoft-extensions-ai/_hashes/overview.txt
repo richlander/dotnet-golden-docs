@@ -1,0 +1,14 @@
+Title | Microsoft.Extensions.AI
+Keyword | microsoft.extensions.ai
+Keyword | middleware composition
+Keyword | function calling
+Keyword | embedding generation
+Keyword | strongly-typed
+Keyword | tool invocation
+Keyword | dependency injection
+Keyword | middleware
+Keyword | services
+Keyword | interfaces
+Keyword | observability
+Keyword | provider
+Description | Microsoft.Extensions.AI provides a unified approach for .NET developers to integrate and interact with artificial intelligence (AI) services in their applications. It offers standardized interfaces and higher-level utilities for working with generative AI components, enabling seamless integration and interoperability with various AI services through familiar dependency injection and middleware patterns.

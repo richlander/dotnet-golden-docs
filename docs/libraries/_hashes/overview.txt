@@ -1,0 +1,13 @@
+Title | .NET Libraries
+Keyword | asp.net core
+Keyword | data access
+Keyword | library ecosystem
+Keyword | azure sdk
+Keyword | base class library
+Keyword | entity framework core
+Keyword | high-performance collections
+Keyword | third-party
+Keyword | dependency injection
+Keyword | async
+Keyword | core
+Description | The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages.

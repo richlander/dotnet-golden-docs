@@ -1,0 +1,70 @@
+Title | System.Text.Json Source Generation
+API | JsonSerializable
+API | JsonSourceGenerationOptions
+API | JsonSerializer.Serialize
+API | System.Text.Json
+API | System.Text
+API | JsonSerializer.Deserialize
+API | JsonTypeInfoResolver.Combine
+API | JsonPropertyName
+API | System.Text.Json.JsonSerializer
+API | System.Text.Json.JsonSerializer.Serialize
+API | GetFromJsonAsync
+Error | IL2026
+ErrorMessage | Using member which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. Use JsonTypeInfo overloads instead.
+Error | IL2055
+ErrorMessage | Type '{0}' was not found in the caller assembly nor in the base library. Type reference '{1}' may be removed by the trimmer.
+Error | IL2057
+ErrorMessage | Unrecognized value '{0}' for parameter '{1}' of attribute '{2}'.
+Error | IL2070
+ErrorMessage | 'this' parameter does not satisfy 'DynamicallyAccessedMemberTypes.{0}' in call to '{1}'. The parameter '{2}' of method '{3}' does not have matching annotations.
+Error | IL2087
+ErrorMessage | 'target' parameter does not satisfy 'DynamicallyAccessedMemberTypes.{0}' in call to '{1}'. The parameter '{2}' of method '{3}' does not have matching annotations.
+Error | IL2091
+ErrorMessage | 'target' parameter does not satisfy 'DynamicallyAccessedMemberTypes.{0}' in call to '{1}'. The generic parameter '{2}' of '{3}' does not have matching annotations.
+Error | IL3050
+ErrorMessage | Using member which has 'RequiresDynamicCodeAttribute' can break functionality when AOT compiling. Use System.Text.Json source generation for native AOT applications.
+Error | SYSLIB0020
+ErrorMessage | JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.
+Error | SYSLIB0049
+ErrorMessage | JsonSerializerOptions.AddContext is obsolete. To register a JsonSerializerContext, use either the TypeInfoResolver or TypeInfoResolverChain properties.
+Error | SYSLIB1030
+ErrorMessage | JsonSourceGenerationOptionsAttribute on type '{0}' is not valid. {1}
+Error | SYSLIB1031
+ErrorMessage | JsonSerializableAttribute on type '{0}' is not valid. {1}
+Error | SYSLIB1032
+ErrorMessage | JsonSourceGenerationMode '{0}' is not supported.
+Error | SYSLIB1033
+ErrorMessage | JsonStringEnumConverter on type '{0}' is not supported in source generation mode.
+Error | SYSLIB1034
+ErrorMessage | JsonStringEnumConverter with '{0}' is not supported in source generation mode.
+Error | SYSLIB1035
+ErrorMessage | Multiple JsonConstructorAttribute annotations are not supported in source generation mode.
+Error | SYSLIB1036
+ErrorMessage | JsonConstructorAttribute is specified on type '{0}' with non-public accessibility.
+Error | SYSLIB1037
+ErrorMessage | Init-only property '{0}' is not supported in source generation mode.
+Error | SYSLIB1038
+ErrorMessage | JsonInclude is specified on inaccessible property '{0}'.
+Error | SYSLIB1039
+ErrorMessage | Polymorphic types are not supported in source generation mode.
+Error | SYSLIB1220
+ErrorMessage | Invalid '{0}' attribute argument: '{1}'.
+Error | SYSLIB1222
+ErrorMessage | Constructor parameter '{0}' has a JsonConstructorAttribute annotation but is inaccessible.
+Error | SYSLIB1223
+ErrorMessage | JsonConverterAttribute '{0}' is invalid.
+Error | SYSLIB1225
+ErrorMessage | JSON source generation does not support the specified configuration.
+Keyword | aot applications
+Keyword | aot compatibility
+Keyword | aot compilation
+Keyword | property naming policies
+Keyword | type-safe
+Keyword | reflection-based
+Keyword | newtonsoft.json
+Keyword | system.text.json source generation
+Keyword | source generation
+Keyword | native aot
+Keyword | naming
+Keyword | context

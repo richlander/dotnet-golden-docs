@@ -1,0 +1,13 @@
+Title | .NET Platform
+Keyword | open-source
+Keyword | garbage collector
+Keyword | industry standards
+Keyword | higher-level
+Keyword | low-cost
+Keyword | self-tuning
+Keyword | low-level
+Keyword | object-oriented
+Keyword | high-level
+Keyword | community
+Keyword | via
+Keyword | components

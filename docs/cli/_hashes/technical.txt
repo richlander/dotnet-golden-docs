@@ -1,0 +1,13 @@
+Title | CLI
+Keyword | development workflow
+Keyword | build performance
+Keyword | command structure
+Keyword | development environments
+Keyword | net cli
+Keyword | package restore
+Keyword | cli
+Keyword | command-line
+Keyword | development
+Keyword | consistent
+Keyword | sdk
+Keyword | cache

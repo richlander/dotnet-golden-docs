@@ -1,0 +1,14 @@
+Title | Microsoft.Extensions.AI.Evaluation
+Keyword | microsoft.extensions.ai.evaluation
+Keyword | safety evaluators
+Keyword | ai-generated
+Keyword | automated quality
+Keyword | automated quality gates
+Keyword | custom evaluator implementation
+Keyword | llm-based
+Keyword | llm-based evaluators
+Keyword | regression testing
+Keyword | evaluation
+Keyword | quality
+Keyword | safety
+Description | Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries designed to support building evaluation processes for AI software quality and safety. It provides abstractions, evaluators, and reporting tools to assess AI responses across multiple dimensions including quality metrics (relevance, fluency, coherence), safety evaluations (harmful content detection), and NLP metrics (BLEU, F1 scores).

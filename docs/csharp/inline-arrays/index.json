@@ -3,7 +3,7 @@
   "title": "Inline Arrays",
   "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers.",
   "keywords": null,
-  "authority": null,
+  "edges": null,
   "apis": null,
   "diagnostic_codes": [
     "CS9166",
@@ -48,12 +48,10 @@
     }
   },
   "_embedded": {
-    "similar_categories": null,
-    "similar_topics": null,
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-01T00:41:05.8904960Z",
+    "generated": "2025-10-01T15:27:16.2324882Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

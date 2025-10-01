@@ -1,0 +1,27 @@
+Title | Collection Initialization
+API | Add
+API | AddRange
+Error | CS0143
+ErrorMessage | The type '{0}' has no constructors defined
+Error | CS0144
+ErrorMessage | Cannot create an instance of the abstract type or interface '{0}'
+Error | CS0266
+ErrorMessage | Cannot implicitly convert type '{0}' to '{1}'. An explicit conversion exists (are you missing a cast?)
+Error | CS0029
+ErrorMessage | Cannot implicitly convert type '{0}' to '{1}'
+Error | CS0246
+ErrorMessage | The type or namespace name '{0}' could not be found
+Error | CS1729
+ErrorMessage | '{0}' does not contain a constructor that takes '{1}' arguments
+Keyword | collection initialization
+Keyword | collection type
+Keyword | initialization patterns
+Keyword | 9.0
+Keyword | collection initializer syntax
+Keyword | data management
+Keyword | dictionary initializers
+Keyword | performance considerations
+Keyword | target-typed new
+Keyword | target-typed new expressions
+Keyword | target-typed
+Keyword | approach

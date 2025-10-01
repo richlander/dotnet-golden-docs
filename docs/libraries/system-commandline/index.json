@@ -52,10 +52,68 @@
       "score": 3.04
     }
   ],
-  "authority": [
+  "edges": [
     {
-      "target_node": "/cli",
-      "score": 1.312
+      "target": "/cli",
+      "similarity": 0.797,
+      "authority": {
+        "command-line": 1.312
+      }
+    },
+    {
+      "target": "/cli/file-based-apps",
+      "similarity": 0.7239,
+      "authority": null
+    },
+    {
+      "target": "/libraries/system-text-json",
+      "similarity": 0.7216,
+      "authority": null
+    },
+    {
+      "target": "/dotnet",
+      "similarity": 0.7004,
+      "authority": null
+    },
+    {
+      "target": "/csharp",
+      "similarity": 0.6995,
+      "authority": null
+    },
+    {
+      "target": "/csharp/csharp-14-features",
+      "similarity": 0.699,
+      "authority": null
+    },
+    {
+      "target": "/libraries",
+      "similarity": 0.6963,
+      "authority": null
+    },
+    {
+      "target": "/libraries/dotnet-10-library-improvements",
+      "similarity": 0.6932,
+      "authority": null
+    },
+    {
+      "target": "/csharp/object-initialization",
+      "similarity": 0.6719,
+      "authority": null
+    },
+    {
+      "target": "/cli/native-aot",
+      "similarity": 0.6697,
+      "authority": null
+    },
+    {
+      "target": "/cli/build-and-compilation",
+      "similarity": 0.6689,
+      "authority": null
+    },
+    {
+      "target": "/extensions/microsoft-extensions-ai",
+      "similarity": 0.6293,
+      "authority": null
     }
   ],
   "apis": [
@@ -128,179 +186,10 @@
     }
   },
   "_embedded": {
-    "similar_categories": [
-      {
-        "category": "cli",
-        "index": "/cli/index.json",
-        "similarity_threshold": 0.6689,
-        "topics": [
-          {
-            "id": "/cli",
-            "name": "CLI",
-            "path": "/cli",
-            "index": "/cli/index.json",
-            "similarity": 1.0456640000000001
-          },
-          {
-            "id": "/cli/file-based-apps",
-            "name": "File-based apps",
-            "path": "/cli/file-based-apps",
-            "index": "/cli/file-based-apps/index.json",
-            "similarity": 0.7239
-          },
-          {
-            "id": "/cli/native-aot",
-            "name": "Native AOT",
-            "path": "/cli/native-aot",
-            "index": "/cli/native-aot/index.json",
-            "similarity": 0.6697
-          },
-          {
-            "id": "/cli/build-and-compilation",
-            "name": "Build and Compilation",
-            "path": "/cli/build-and-compilation",
-            "index": "/cli/build-and-compilation/index.json",
-            "similarity": 0.6689
-          }
-        ]
-      },
-      {
-        "category": "libraries",
-        "index": "/libraries/index.json",
-        "similarity_threshold": 0.6932,
-        "topics": [
-          {
-            "id": "/libraries/system-text-json",
-            "name": "System.Text.Json",
-            "path": "/libraries/system-text-json",
-            "index": "/libraries/system-text-json/index.json",
-            "similarity": 0.7216
-          },
-          {
-            "id": "/libraries",
-            "name": ".NET Libraries",
-            "path": "/libraries",
-            "index": "/libraries/index.json",
-            "similarity": 0.6963
-          },
-          {
-            "id": "/libraries/dotnet-10-library-improvements",
-            "name": ".NET 10 Libraries Features",
-            "path": "/libraries/dotnet-10-library-improvements",
-            "index": "/libraries/dotnet-10-library-improvements/index.json",
-            "similarity": 0.6932
-          }
-        ]
-      },
-      {
-        "category": "dotnet",
-        "index": "/dotnet/index.json",
-        "similarity_threshold": 0.7004,
-        "topics": [
-          {
-            "id": "/dotnet",
-            "name": ".NET Platform",
-            "path": "/dotnet",
-            "index": "/dotnet/index.json",
-            "similarity": 0.7004
-          }
-        ]
-      }
-    ],
-    "similar_topics": {
-      "baseline": "golden-reference.md",
-      "similarity_threshold": 0.6293,
-      "topics": [
-        {
-          "id": "/cli",
-          "name": "CLI",
-          "path": "/cli",
-          "index": "/cli/index.json",
-          "similarity": 1.0456640000000001
-        },
-        {
-          "id": "/cli/file-based-apps",
-          "name": "File-based apps",
-          "path": "/cli/file-based-apps",
-          "index": "/cli/file-based-apps/index.json",
-          "similarity": 0.7239
-        },
-        {
-          "id": "/libraries/system-text-json",
-          "name": "System.Text.Json",
-          "path": "/libraries/system-text-json",
-          "index": "/libraries/system-text-json/index.json",
-          "similarity": 0.7216
-        },
-        {
-          "id": "/dotnet",
-          "name": ".NET Platform",
-          "path": "/dotnet",
-          "index": "/dotnet/index.json",
-          "similarity": 0.7004
-        },
-        {
-          "id": "/csharp",
-          "name": "C# Language",
-          "path": "/csharp",
-          "index": "/csharp/index.json",
-          "similarity": 0.6995
-        },
-        {
-          "id": "/csharp/csharp-14-features",
-          "name": "C# 14 Language Features",
-          "path": "/csharp/csharp-14-features",
-          "index": "/csharp/csharp-14-features/index.json",
-          "similarity": 0.699
-        },
-        {
-          "id": "/libraries",
-          "name": ".NET Libraries",
-          "path": "/libraries",
-          "index": "/libraries/index.json",
-          "similarity": 0.6963
-        },
-        {
-          "id": "/libraries/dotnet-10-library-improvements",
-          "name": ".NET 10 Libraries Features",
-          "path": "/libraries/dotnet-10-library-improvements",
-          "index": "/libraries/dotnet-10-library-improvements/index.json",
-          "similarity": 0.6932
-        },
-        {
-          "id": "/csharp/object-initialization",
-          "name": "Object Initialization",
-          "path": "/csharp/object-initialization",
-          "index": "/csharp/object-initialization/index.json",
-          "similarity": 0.6719
-        },
-        {
-          "id": "/cli/native-aot",
-          "name": "Native AOT",
-          "path": "/cli/native-aot",
-          "index": "/cli/native-aot/index.json",
-          "similarity": 0.6697
-        },
-        {
-          "id": "/cli/build-and-compilation",
-          "name": "Build and Compilation",
-          "path": "/cli/build-and-compilation",
-          "index": "/cli/build-and-compilation/index.json",
-          "similarity": 0.6689
-        },
-        {
-          "id": "/extensions/microsoft-extensions-ai",
-          "name": "Microsoft.Extensions.AI",
-          "path": "/extensions/microsoft-extensions-ai",
-          "index": "/extensions/microsoft-extensions-ai/index.json",
-          "similarity": 0.6293
-        }
-      ]
-    },
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-01T00:41:05.9575590Z",
+    "generated": "2025-10-01T15:27:16.2342414Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

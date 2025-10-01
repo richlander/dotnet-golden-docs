@@ -3,7 +3,7 @@
   "title": ".NET Knowledge Graph",
   "description": "Root index of .NET documentation topics and categories",
   "keywords": null,
-  "authority": null,
+  "edges": null,
   "apis": null,
   "diagnostic_codes": null,
   "category": "Root",
@@ -20,8 +20,6 @@
     }
   },
   "_embedded": {
-    "similar_categories": null,
-    "similar_topics": null,
     "topics": [
       {
         "name": "cli",
@@ -96,7 +94,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-10-01T00:41:06.4699810Z",
+    "generated": "2025-10-01T15:27:16.2425232Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -1,0 +1,25 @@
+Title | Microsoft.Extensions.AI
+API | GetResponseAsync
+API | ChatClientBuilder
+API | Build
+API | Use
+API | UseDistributedCache
+API | Microsoft.Extensions
+API | Microsoft.Extensions.AI
+API | UseOpenTelemetry
+API | UseFunctionInvocation
+API | Description
+API | AIFunctionFactory.Create
+API | ChatMessage
+Keyword | microsoft.extensions.ai
+Keyword | middleware composition
+Keyword | function calling
+Keyword | embedding generation
+Keyword | strongly-typed
+Keyword | tool invocation
+Keyword | dependency injection
+Keyword | middleware
+Keyword | services
+Keyword | interfaces
+Keyword | observability
+Keyword | provider

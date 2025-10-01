@@ -3,7 +3,7 @@
   "title": "C# 13 Features",
   "description": "C# 13 introduces params collections, new lock semantics, ref struct improvements, partial properties, and enhanced syntax features for .NET 9.",
   "keywords": null,
-  "authority": null,
+  "edges": null,
   "apis": null,
   "diagnostic_codes": null,
   "category": "C# Language",
@@ -33,12 +33,10 @@
     }
   },
   "_embedded": {
-    "similar_categories": null,
-    "similar_topics": null,
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-01T00:41:05.8773340Z",
+    "generated": "2025-10-01T15:27:16.2315474Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

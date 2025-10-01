@@ -1,0 +1,14 @@
+Title | Microsoft.Extensions.Http.Resilience
+Keyword | circuit breaker
+Keyword | microsoft.extensions.http.resilience
+Keyword | pre-configured
+Keyword | custom resilience
+Keyword | resource management
+Keyword | resilience
+Keyword | http
+Keyword | communication
+Keyword | httpclient
+Keyword | monitoring
+Keyword | strategies
+Keyword | built
+Description | Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClient built on the Polly framework. It offers pre-configured resilience patterns including retry policies, circuit breakers, hedging strategies, rate limiting, and timeouts to ensure reliable HTTP communication in production applications.
