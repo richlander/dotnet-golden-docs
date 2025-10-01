@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 189
-Total word occurrences: 281
+Total unique words: 190
+Total word occurrences: 275
 Total document words: 419
 
 | Word | Count | Document Concentration |
@@ -20,12 +20,15 @@ Total document words: 419
 | basic | 1 | 0.0024 |
 | benefits | 1 | 0.0024 |
 | binary | 1 | 0.0024 |
+| build-time | 1 | 0.0024 |
 | builds | 1 | 0.0024 |
 | built-in | 1 | 0.0024 |
 | calls | 1 | 0.0024 |
 | clearly | 1 | 0.0024 |
+| cloud-native | 1 | 0.0024 |
 | combined | 1 | 0.0024 |
 | combines | 1 | 0.0024 |
+| compile-time | 1 | 0.0024 |
 | complex | 1 | 0.0024 |
 | complexity | 1 | 0.0024 |
 | configuration | 1 | 0.0024 |
@@ -54,7 +57,6 @@ Total document words: 419
 | extensive | 1 | 0.0024 |
 | field | 1 | 0.0024 |
 | final | 1 | 0.0024 |
-| first | 1 | 0.0024 |
 | fix | 1 | 0.0024 |
 | following | 1 | 0.0024 |
 | formatter | 1 | 0.0024 |
@@ -106,6 +108,7 @@ Total document words: 419
 | reached | 1 | 0.0024 |
 | reduces | 1 | 0.0024 |
 | references | 1 | 0.0024 |
+| reflection-based | 1 | 0.0024 |
 | relationships | 1 | 0.0024 |
 | resolve | 1 | 0.0024 |
 | resolving | 1 | 0.0024 |
@@ -146,10 +149,8 @@ Total document words: 419
 | assemblies | 2 | 0.0048 |
 | assembly | 2 | 0.0048 |
 | automatically | 2 | 0.0048 |
-| cloud | 2 | 0.0048 |
 | cold | 2 | 0.0048 |
 | com | 2 | 0.0048 |
-| compile | 2 | 0.0048 |
 | dependencies | 2 | 0.0048 |
 | due | 2 | 0.0048 |
 | enabled | 2 | 0.0048 |
@@ -164,7 +165,9 @@ Total document words: 419
 | replace | 2 | 0.0048 |
 | requirements | 2 | 0.0048 |
 | scenarios | 2 | 0.0048 |
+| self-contained | 2 | 0.0048 |
 | significant | 2 | 0.0048 |
+| single-file | 2 | 0.0048 |
 | smaller | 2 | 0.0048 |
 | start | 2 | 0.0048 |
 | static | 2 | 0.0048 |
@@ -186,13 +189,11 @@ Total document words: 419
 | size | 3 | 0.0072 |
 | startup | 3 | 0.0072 |
 | support | 3 | 0.0072 |
-| time | 3 | 0.0072 |
 | trimmed | 3 | 0.0072 |
 | unused | 3 | 0.0072 |
 | analysis | 4 | 0.0095 |
 | deployment | 4 | 0.0095 |
 | reduced | 4 | 0.0095 |
 | test | 4 | 0.0095 |
-| reflection | 6 | 0.0143 |
 | code | 7 | 0.0167 |
 | trimming | 8 | 0.0191 |

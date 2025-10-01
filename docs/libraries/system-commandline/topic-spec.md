@@ -57,6 +57,7 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 
 | Keyword | Score |
 |---------|-------|
+| system.commandline | 4.58 |
 | response files | 4.54 |
 | best practices | 4.52 |
 | model binding | 4.52 |
@@ -66,9 +67,43 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 | option | 3.07 |
 | validation | 3.07 |
 | commandline | 3.06 |
-| command | 3.05 |
 | binding | 3.04 |
 | completion | 3.04 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| AddOption | method | 13 |
+| SetHandler | method | 6 |
+| AddArgument | method | 5 |
+| Command | method | 5 |
+| RootCommand | method | 5 |
+| AddCommand | method | 4 |
+| ProcessFile | method | 3 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| cli | cli | 0.7970 |
+| cli | cli/file-based-apps | 0.7239 |
+| libraries | libraries/system-text-json | 0.7216 |
+| dotnet | dotnet | 0.7004 |
+| csharp | csharp | 0.6995 |
+| csharp | csharp/csharp-14-features | 0.6990 |
+| libraries | libraries | 0.6963 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6932 |
+| csharp | csharp/object-initialization | 0.6719 |
+| cli | cli/native-aot | 0.6697 |
+| cli | cli/build-and-compilation | 0.6689 |
+| extensions | extensions/microsoft-extensions-ai | 0.6293 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| cli | command-line | 1.312 |
 
 ## Common Parse Error Messages
 

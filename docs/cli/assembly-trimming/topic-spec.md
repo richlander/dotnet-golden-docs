@@ -66,6 +66,14 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | generators | 3.03 |
 | reduction | 3.03 |
 
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| RequiresUnreferencedCode | attribute | 8 |
+| DynamicallyAccessedMembers | attribute | 7 |
+| GetMethods | method | 4 |
+
 ## Diagnostic Codes
 
 | Code | Message |
@@ -84,3 +92,20 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | NETSDK1175 | Windows Forms is not supported or recommended with trimming enabled. |
 | NETSDK1195 | Trimming, or code compatibility analysis for trimming, single-file deployment, or ahead-of-time compilation is not supported for the target framework. |
 | NETSDK1212 | IsTrimmable and EnableTrimAnalyzer are not supported for the target framework. |
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| cli | cli/build-and-compilation | 0.7217 |
+| dotnet | dotnet | 0.7190 |
+| cli | cli/native-aot | 0.7073 |
+| cli | cli/publishing-and-deployment | 0.7000 |
+| csharp | csharp/csharp-14-features | 0.6853 |
+| libraries | libraries | 0.6762 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6727 |
+| libraries | libraries/system-text-json | 0.6477 |
+| csharp | csharp/collection-initialization | 0.6366 |
+| csharp | csharp/object-initialization | 0.6252 |
+| extensions | extensions/microsoft-extensions-http-resilience | 0.6045 |
+| extensions | extensions/microsoft-extensions-ai | 0.5959 |
+

@@ -71,13 +71,21 @@ Object initialization encompasses the various approaches for creating and initia
 | init properties | 4.54 |
 | required members | 4.54 |
 | anti-patterns | 4.52 |
-| collection initialization within | 4.52 |
+| collection initialization within objects | 4.52 |
 | init-only properties | 4.52 |
-| initialization within objects | 4.52 |
-| object initializer syntax | 4.52 |
 | properties | 3.06 |
 | constructor | 3.04 |
-| object | 3.04 |
+| objects | 3.04 |
+| constructors | 3.03 |
+| immutable | 3.03 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| Person | method | 6 |
+| Console.WriteLine | method | 4 |
+| PersonOld | method | 3 |
 
 ## Diagnostic Codes
 
@@ -89,3 +97,20 @@ Object initialization encompasses the various approaches for creating and initia
 | CS9035 | Required member '{0}' must be set in the object initializer or attribute constructor |
 | CS8868 | A switch expression or with expression does not handle some possible values (it is not exhaustive) |
 | CS0266 | Cannot implicitly convert type '{0}' to '{1}'. An explicit conversion exists (are you missing a cast?) |
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| csharp | csharp/collection-initialization | 0.8825 |
+| csharp | csharp/csharp-14-features | 0.8118 |
+| csharp | csharp | 0.7932 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7277 |
+| libraries | libraries/system-text-json | 0.7000 |
+| dotnet | dotnet | 0.6808 |
+| libraries | libraries | 0.6761 |
+| cli | cli/file-based-apps | 0.6336 |
+| cli | cli/assembly-trimming | 0.6252 |
+| cli | cli | 0.6195 |
+| cli | cli/build-and-compilation | 0.6156 |
+| extensions | extensions/microsoft-extensions-ai | 0.6001 |
+

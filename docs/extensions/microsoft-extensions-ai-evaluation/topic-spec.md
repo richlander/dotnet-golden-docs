@@ -53,18 +53,50 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 
 | Keyword | Score |
 |---------|-------|
+| microsoft.extensions.ai.evaluation | 4.57 |
 | safety evaluators | 4.55 |
 | ai-generated | 4.52 |
+| automated quality | 4.52 |
 | automated quality gates | 4.52 |
 | custom evaluator implementation | 4.52 |
 | llm-based | 4.52 |
 | llm-based evaluators | 4.52 |
 | regression testing | 4.52 |
 | evaluation | 3.30 |
-| quality | 3.14 |
-| safety | 3.10 |
-| azure | 3.06 |
-| evaluators | 3.06 |
+| quality | 3.12 |
+| safety | 3.07 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| EvaluateAsync | method | 17 |
+| Microsoft.Extensions.AI.Evaluation | type | 8 |
+| Microsoft.Extensions | namespace | 6 |
+| Microsoft.Extensions.AI | namespace | 6 |
+| Console.WriteLine | method | 5 |
+| GetResponseAsync | method | 5 |
+| AddEvaluation | method | 3 |
+| Assert.That | method | 3 |
+| ContentHarmEvaluator | method | 3 |
+| RelevanceEvaluator | method | 3 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| extensions | extensions/microsoft-extensions-ai | 0.8279 |
+| dotnet | dotnet | 0.6825 |
+| libraries | libraries | 0.6506 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6445 |
+| extensions | extensions/microsoft-extensions-http-resilience | 0.6424 |
+| libraries | libraries/system-text-json | 0.6286 |
+| csharp | csharp/csharp-14-features | 0.6285 |
+| cli | cli/native-aot | 0.6161 |
+| cli | cli | 0.6142 |
+| cli | cli/file-based-apps | 0.6092 |
+| cli | cli/publishing-and-deployment | 0.5921 |
+| csharp | csharp | 0.5845 |
 
 ## Critical limitations
 

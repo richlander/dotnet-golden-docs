@@ -2,21 +2,9 @@
   "id": "csharp/csharp-13-features",
   "title": "C# 13 Features",
   "description": "C# 13 introduces params collections, new lock semantics, ref struct improvements, partial properties, and enhanced syntax features for .NET 9.",
-  "keywords": [
-    "C# 13",
-    "params collections",
-    "lock object",
-    "ref struct interfaces",
-    "allows ref struct",
-    "partial properties",
-    "partial indexers",
-    "field keyword",
-    "escape sequence",
-    "method group natural type",
-    "implicit index access",
-    "overload resolution priority",
-    ".NET 9"
-  ],
+  "keywords": null,
+  "authority": null,
+  "apis": null,
   "diagnostic_codes": null,
   "category": "C# Language",
   "complexity": 0.7,
@@ -50,7 +38,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-25T16:53:14.5171500Z",
+    "generated": "2025-10-01T00:41:05.8773340Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -1,15 +1,14 @@
 # Unified Local Analysis
 
-Combined 13 compound terms and 389 single words
-Total unique terms: 401
-Terms with score ≥ 3.0: 75
-Total term occurrences: 752
+Combined 12 compound terms and 394 single words
+Total unique terms: 397
+Terms with score ≥ 3.0: 69
+Total term occurrences: 735
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
@@ -39,19 +38,16 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | via | single | 5 | 1.00x | 1.00x | 5.0 |
 | industry standards | compound | 3 | 1.10x | 1.50x | 5.0 |
 | garbage collector | compound | 3 | 1.00x | 1.50x | 4.5 |
-| gc | compound | 3 | 1.00x | 1.50x | 4.5 |
 | high-level | compound | 3 | 1.00x | 1.50x | 4.5 |
 | low-level | compound | 3 | 1.00x | 1.50x | 4.5 |
 | across | single | 4 | 1.00x | 1.00x | 4.0 |
 | automatic | single | 4 | 1.00x | 1.00x | 4.0 |
-| cloud | single | 4 | 1.00x | 1.00x | 4.0 |
 | components | single | 4 | 1.00x | 1.00x | 4.0 |
 | developers | single | 4 | 1.00x | 1.00x | 4.0 |
 | features | single | 4 | 1.00x | 1.00x | 4.0 |
 | linux | single | 4 | 1.00x | 1.00x | 4.0 |
 | many | single | 4 | 1.00x | 1.00x | 4.0 |
 | pillars | single | 4 | 1.00x | 1.00x | 4.0 |
-| platform | single | 4 | 1.00x | 1.00x | 4.0 |
 | programming | single | 4 | 1.00x | 1.00x | 4.0 |
 | set | single | 4 | 1.00x | 1.00x | 4.0 |
 | web | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -65,12 +61,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | developer | single | 3 | 1.00x | 1.00x | 3.0 |
 | enable | single | 3 | 1.00x | 1.00x | 3.0 |
 | extensive | single | 3 | 1.00x | 1.00x | 3.0 |
-| framework | single | 3 | 1.00x | 1.00x | 3.0 |
+| gc | single | 3 | 1.00x | 1.00x | 3.0 |
 | higher-level | compound | 2 | 1.00x | 1.50x | 3.0 |
 | interop | single | 3 | 1.00x | 1.00x | 3.0 |
 | ios | single | 3 | 1.00x | 1.00x | 3.0 |
 | it's | single | 3 | 1.00x | 1.00x | 3.0 |
-| language | single | 3 | 1.00x | 1.00x | 3.0 |
 | low-cost | compound | 2 | 1.00x | 1.50x | 3.0 |
 | macos | single | 3 | 1.00x | 1.00x | 3.0 |
 | manual | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -79,9 +74,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | offers | single | 3 | 1.00x | 1.00x | 3.0 |
 | platforms | single | 3 | 1.00x | 1.00x | 3.0 |
 | productivity | single | 3 | 1.00x | 1.00x | 3.0 |
-| programs | single | 3 | 1.00x | 1.00x | 3.0 |
 | run | single | 3 | 1.00x | 1.00x | 3.0 |
-| safe | single | 3 | 1.00x | 1.00x | 3.0 |
 | self-tuning | compound | 2 | 1.00x | 1.50x | 3.0 |
 | solutions | single | 3 | 1.00x | 1.00x | 3.0 |
 | targeting | single | 3 | 1.00x | 1.00x | 3.0 |

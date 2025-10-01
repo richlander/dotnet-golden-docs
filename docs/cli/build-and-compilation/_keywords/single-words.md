@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 107
-Total word occurrences: 166
+Total word occurrences: 163
 Total document words: 298
 
 | Word | Count | Document Concentration |
@@ -22,6 +22,7 @@ Total document words: 298
 | coverage | 1 | 0.0034 |
 | cpu | 1 | 0.0034 |
 | create | 1 | 0.0034 |
+| cross-platform | 1 | 0.0034 |
 | debug | 1 | 0.0034 |
 | debugging | 1 | 0.0034 |
 | dependencies | 1 | 0.0034 |
@@ -62,6 +63,7 @@ Total document words: 298
 | resolution | 1 | 0.0034 |
 | runtime | 1 | 0.0034 |
 | see | 1 | 0.0034 |
+| self-contained | 1 | 0.0034 |
 | server | 1 | 0.0034 |
 | serves | 1 | 0.0034 |
 | simultaneously | 1 | 0.0034 |
@@ -77,7 +79,6 @@ Total document words: 298
 | transform | 1 | 0.0034 |
 | transforms | 1 | 0.0034 |
 | troubleshooting | 1 | 0.0034 |
-| tuning | 1 | 0.0034 |
 | unified | 1 | 0.0034 |
 | use | 1 | 0.0034 |
 | utilize | 1 | 0.0034 |
@@ -100,7 +101,6 @@ Total document words: 298
 | multi-targeting | 2 | 0.0067 |
 | optimization | 2 | 0.0067 |
 | pipeline | 2 | 0.0067 |
-| project | 2 | 0.0067 |
 | strategies | 2 | 0.0067 |
 | analysis | 3 | 0.0101 |
 | builds | 3 | 0.0101 |
@@ -113,4 +113,4 @@ Total document words: 298
 | workflows | 3 | 0.0101 |
 | ci | 4 | 0.0134 |
 | configuration | 5 | 0.0168 |
-| build | 17 | 0.0570 |
+| build | 15 | 0.0503 |

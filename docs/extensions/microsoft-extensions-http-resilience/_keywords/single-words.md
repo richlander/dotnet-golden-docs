@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 179
-Total word occurrences: 351
+Total unique words: 175
+Total word occurrences: 346
 Total document words: 496
 
 | Word | Count | Document Concentration |
@@ -15,7 +15,6 @@ Total document words: 496
 | asp | 1 | 0.0020 |
 | availability | 1 | 0.0020 |
 | awareness | 1 | 0.0020 |
-| based | 1 | 0.0020 |
 | battle-tested | 1 | 0.0020 |
 | behavior | 1 | 0.0020 |
 | benefits | 1 | 0.0020 |
@@ -49,7 +48,6 @@ Total document words: 496
 | fallbacks | 1 | 0.0020 |
 | fine-grained | 1 | 0.0020 |
 | fluent | 1 | 0.0020 |
-| framework | 1 | 0.0020 |
 | gateway | 1 | 0.0020 |
 | gracefully | 1 | 0.0020 |
 | handle | 1 | 0.0020 |
@@ -84,6 +82,7 @@ Total document words: 496
 | overhead | 1 | 0.0020 |
 | overview | 1 | 0.0020 |
 | parallel | 1 | 0.0020 |
+| patterns | 1 | 0.0020 |
 | pipelines | 1 | 0.0020 |
 | policy | 1 | 0.0020 |
 | pools | 1 | 0.0020 |
@@ -98,14 +97,12 @@ Total document words: 496
 | scenarios | 1 | 0.0020 |
 | seamless | 1 | 0.0020 |
 | selection | 1 | 0.0020 |
-| service | 1 | 0.0020 |
 | service-to-service | 1 | 0.0020 |
 | settings | 1 | 0.0020 |
 | setup | 1 | 0.0020 |
 | simple | 1 | 0.0020 |
 | simplified | 1 | 0.0020 |
 | sits | 1 | 0.0020 |
-| specific | 1 | 0.0020 |
 | strict | 1 | 0.0020 |
 | supports | 1 | 0.0020 |
 | thresholds | 1 | 0.0020 |
@@ -141,7 +138,6 @@ Total document words: 496
 | mechanisms | 2 | 0.0040 |
 | observability | 2 | 0.0040 |
 | offers | 2 | 0.0040 |
-| pattern | 2 | 0.0040 |
 | production | 2 | 0.0040 |
 | proven | 2 | 0.0040 |
 | provides | 2 | 0.0040 |
@@ -159,7 +155,7 @@ Total document words: 496
 | essential | 3 | 0.0060 |
 | failures | 3 | 0.0060 |
 | integration | 3 | 0.0060 |
-| patterns | 3 | 0.0060 |
+| pre-configured | 3 | 0.0060 |
 | providing | 3 | 0.0060 |
 | reliable | 3 | 0.0060 |
 | require | 3 | 0.0060 |

@@ -1,15 +1,14 @@
 # Unified Local Analysis
 
-Combined 8 compound terms and 189 single words
-Total unique terms: 197
-Terms with score ≥ 3.0: 28
-Total term occurrences: 297
+Combined 8 compound terms and 190 single words
+Total unique terms: 194
+Terms with score ≥ 3.0: 26
+Total term occurrences: 285
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
@@ -17,7 +16,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 |------|------|-------|-------------|-----------|-------------|
 | trimming | single | 8 | 1.00x | 1.00x | 8.0 |
 | code | single | 7 | 1.00x | 1.00x | 7.0 |
-| reflection | single | 6 | 1.00x | 1.00x | 6.0 |
 | assembly trimming | compound | 2 | 1.50x | 1.50x | 4.5 |
 | analysis | single | 4 | 1.00x | 1.00x | 4.0 |
 | deployment | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -40,6 +38,5 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | size | single | 3 | 1.00x | 1.00x | 3.0 |
 | startup | single | 3 | 1.00x | 1.00x | 3.0 |
 | support | single | 3 | 1.00x | 1.00x | 3.0 |
-| time | single | 3 | 1.00x | 1.00x | 3.0 |
 | trimmed | single | 3 | 1.00x | 1.00x | 3.0 |
 | unused | single | 3 | 1.00x | 1.00x | 3.0 |

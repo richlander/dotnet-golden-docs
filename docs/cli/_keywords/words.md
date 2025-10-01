@@ -1,15 +1,14 @@
 # Unified Local Analysis
 
-Combined 8 compound terms and 321 single words
-Total unique terms: 329
-Terms with score ≥ 3.0: 61
-Total term occurrences: 605
+Combined 8 compound terms and 319 single words
+Total unique terms: 325
+Terms with score ≥ 3.0: 59
+Total term occurrences: 589
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
@@ -17,12 +16,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 |------|------|-------|-------------|-----------|-------------|
 | cli | single | 23 | 1.00x | 1.00x | 23.0 |
 | tools | single | 13 | 1.00x | 1.00x | 13.0 |
-| development | single | 12 | 1.00x | 1.00x | 12.0 |
 | package | single | 11 | 1.00x | 1.00x | 11.0 |
+| development | single | 10 | 1.00x | 1.00x | 10.0 |
 | commands | single | 9 | 1.00x | 1.00x | 9.0 |
 | across | single | 8 | 1.00x | 1.00x | 8.0 |
 | global | single | 8 | 1.00x | 1.00x | 8.0 |
-| project | single | 8 | 1.00x | 1.00x | 8.0 |
 | runtime | single | 8 | 1.00x | 1.00x | 8.0 |
 | command-line | compound | 5 | 1.00x | 1.50x | 7.5 |
 | builds | single | 7 | 1.00x | 1.00x | 7.0 |
@@ -65,11 +63,10 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | like | single | 3 | 1.00x | 1.00x | 3.0 |
 | operating | single | 3 | 1.00x | 1.00x | 3.0 |
 | organization | single | 3 | 1.00x | 1.00x | 3.0 |
-| patterns | single | 3 | 1.00x | 1.00x | 3.0 |
 | permissions | single | 3 | 1.00x | 1.00x | 3.0 |
 | pipeline | single | 3 | 1.00x | 1.00x | 3.0 |
-| platform | single | 3 | 1.00x | 1.00x | 3.0 |
 | primary | single | 3 | 1.00x | 1.00x | 3.0 |
+| project | single | 3 | 1.00x | 1.00x | 3.0 |
 | require | single | 3 | 1.00x | 1.00x | 3.0 |
 | restore | single | 3 | 1.00x | 1.00x | 3.0 |
 | solutions | single | 3 | 1.00x | 1.00x | 3.0 |

@@ -1,15 +1,14 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 119 single words
-Total unique terms: 129
+Combined 11 compound terms and 121 single words
+Total unique terms: 131
 Terms with score ≥ 3.0: 24
-Total term occurrences: 212
+Total term occurrences: 213
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
@@ -20,7 +19,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | data access | compound | 3 | 1.25x | 1.50x | 5.6 |
 | library ecosystem | compound | 3 | 1.25x | 1.50x | 5.6 |
 | frameworks | single | 5 | 1.00x | 1.00x | 5.0 |
-| patterns | single | 5 | 1.00x | 1.00x | 5.0 |
 | asp.net core | compound | 3 | 1.10x | 1.50x | 5.0 |
 | dependency injection | compound | 3 | 1.10x | 1.50x | 5.0 |
 | application | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -30,12 +28,13 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | azure sdk | compound | 2 | 1.10x | 1.50x | 3.3 |
 | entity framework core | compound | 2 | 1.10x | 1.50x | 3.3 |
 | high-performance collections | compound | 2 | 1.10x | 1.50x | 3.3 |
+| system.text.json | compound | 2 | 1.10x | 1.50x | 3.3 |
 | third-party | compound | 2 | 1.10x | 1.50x | 3.3 |
 | across | single | 3 | 1.00x | 1.00x | 3.0 |
 | async | single | 3 | 1.00x | 1.00x | 3.0 |
 | base class library | compound | 2 | 1.00x | 1.50x | 3.0 |
-| bcl | compound | 2 | 1.00x | 1.50x | 3.0 |
-| cloud | single | 3 | 1.00x | 1.00x | 3.0 |
 | core | single | 3 | 1.00x | 1.00x | 3.0 |
 | distributed | single | 3 | 1.00x | 1.00x | 3.0 |
+| high-performance | single | 3 | 1.00x | 1.00x | 3.0 |
 | nuget | single | 3 | 1.00x | 1.00x | 3.0 |
+| patterns | single | 3 | 1.00x | 1.00x | 3.0 |

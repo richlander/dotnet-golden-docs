@@ -2,14 +2,9 @@
   "id": "extensions",
   "title": "Extensions",
   "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components.",
-  "keywords": [
-    ".NET extensions",
-    "extensions libraries",
-    "middleware components",
-    "abstractions",
-    "AI integration",
-    "cross-cutting concerns"
-  ],
+  "keywords": null,
+  "authority": null,
+  "apis": null,
   "diagnostic_codes": null,
   "category": "Extensions",
   "complexity": 0.6,
@@ -81,7 +76,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-09-25T16:53:14.6985620Z",
+    "generated": "2025-10-01T00:41:06.2189070Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

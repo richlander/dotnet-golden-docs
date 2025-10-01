@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique compounds: 5
-Total compound occurrences: 48
+Total compound occurrences: 51
 Total document words: 298
 
 | Compound Term | Count | Document Concentration |

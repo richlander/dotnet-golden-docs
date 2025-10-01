@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 152
-Total word occurrences: 221
+Total unique words: 151
+Total word occurrences: 220
 Total document words: 356
 
 | Word | Count | Document Concentration |
@@ -70,7 +70,6 @@ Total document words: 356
 | known | 1 | 0.0028 |
 | levels | 1 | 0.0028 |
 | loading | 1 | 0.0028 |
-| low | 1 | 0.0028 |
 | lower | 1 | 0.0028 |
 | main | 1 | 0.0028 |
 | making | 1 | 0.0028 |
@@ -98,7 +97,7 @@ Total document words: 356
 | protection | 1 | 0.0028 |
 | provides | 1 | 0.0028 |
 | recommended | 1 | 0.0028 |
-| reflection | 1 | 0.0028 |
+| reflection-based | 1 | 0.0028 |
 | relationships | 1 | 0.0028 |
 | requiring | 1 | 0.0028 |
 | runtime | 1 | 0.0028 |
@@ -123,7 +122,6 @@ Total document words: 356
 | vs | 1 | 0.0028 |
 | vulnerabilities | 1 | 0.0028 |
 | works | 1 | 0.0028 |
-| allocation | 2 | 0.0056 |
 | api | 2 | 0.0056 |
 | asp | 2 | 0.0056 |
 | attribute | 2 | 0.0056 |
@@ -134,6 +132,7 @@ Total document words: 356
 | constructor | 2 | 0.0056 |
 | depth | 2 | 0.0056 |
 | efficiency | 2 | 0.0056 |
+| high-performance | 2 | 0.0056 |
 | httpclient | 2 | 0.0056 |
 | large | 2 | 0.0056 |
 | limitations | 2 | 0.0056 |
@@ -146,9 +145,9 @@ Total document words: 356
 | security | 2 | 0.0056 |
 | web | 2 | 0.0056 |
 | apis | 3 | 0.0084 |
+| compile-time | 3 | 0.0084 |
 | limits | 3 | 0.0084 |
 | operations | 3 | 0.0084 |
-| performance | 3 | 0.0084 |
 | requires | 3 | 0.0084 |
 | system | 3 | 0.0084 |
 | text | 3 | 0.0084 |

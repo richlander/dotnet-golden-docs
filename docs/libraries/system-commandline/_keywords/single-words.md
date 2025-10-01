@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 247
-Total word occurrences: 398
+Total unique words: 244
+Total word occurrences: 400
 Total document words: 630
 
 | Word | Count | Document Concentration |
@@ -45,7 +45,6 @@ Total document words: 630
 | conversion | 1 | 0.0016 |
 | converting | 1 | 0.0016 |
 | corrections | 1 | 0.0016 |
-| cost | 1 | 0.0016 |
 | debugging | 1 | 0.0016 |
 | definition | 1 | 0.0016 |
 | definitions | 1 | 0.0016 |
@@ -60,7 +59,6 @@ Total document words: 630
 | discovery | 1 | 0.0016 |
 | displaying | 1 | 0.0016 |
 | distribute | 1 | 0.0016 |
-| distribution | 1 | 0.0016 |
 | domain-specific | 1 | 0.0016 |
 | dynamic | 1 | 0.0016 |
 | dynamically | 1 | 0.0016 |
@@ -79,7 +77,6 @@ Total document words: 630
 | foundation | 1 | 0.0016 |
 | full | 1 | 0.0016 |
 | functions | 1 | 0.0016 |
-| generated | 1 | 0.0016 |
 | git | 1 | 0.0016 |
 | group | 1 | 0.0016 |
 | handle | 1 | 0.0016 |
@@ -137,11 +134,9 @@ Total document words: 630
 | overview | 1 | 0.0016 |
 | packaging | 1 | 0.0016 |
 | parameters | 1 | 0.0016 |
-| pattern | 1 | 0.0016 |
 | perform | 1 | 0.0016 |
 | pitfalls | 1 | 0.0016 |
 | plan | 1 | 0.0016 |
-| platform | 1 | 0.0016 |
 | possible | 1 | 0.0016 |
 | powers | 1 | 0.0016 |
 | prefer | 1 | 0.0016 |
@@ -153,6 +148,7 @@ Total document words: 630
 | read | 1 | 0.0016 |
 | recommendations | 1 | 0.0016 |
 | references | 1 | 0.0016 |
+| reflection-based | 1 | 0.0016 |
 | related | 1 | 0.0016 |
 | relationships | 1 | 0.0016 |
 | replacing | 1 | 0.0016 |
@@ -167,8 +163,8 @@ Total document words: 630
 | settings | 1 | 0.0016 |
 | simple | 1 | 0.0016 |
 | sparingly | 1 | 0.0016 |
-| stack | 1 | 0.0016 |
 | startup | 1 | 0.0016 |
+| strongly-typed | 1 | 0.0016 |
 | structured | 1 | 0.0016 |
 | success | 1 | 0.0016 |
 | suggest | 1 | 0.0016 |
@@ -212,7 +208,9 @@ Total document words: 630
 | provides | 2 | 0.0032 |
 | rules | 2 | 0.0032 |
 | runtime | 2 | 0.0032 |
+| service-based | 2 | 0.0032 |
 | shell | 2 | 0.0032 |
+| syntax | 2 | 0.0032 |
 | validators | 2 | 0.0032 |
 | vs | 2 | 0.0032 |
 | windows | 2 | 0.0032 |
@@ -230,7 +228,6 @@ Total document words: 630
 | sethandler | 3 | 0.0048 |
 | subcommands | 3 | 0.0048 |
 | tab | 3 | 0.0048 |
-| time | 3 | 0.0048 |
 | application | 4 | 0.0063 |
 | automatic | 4 | 0.0063 |
 | binding | 4 | 0.0063 |
@@ -246,7 +243,6 @@ Total document words: 630
 | microsoft | 4 | 0.0063 |
 | support | 4 | 0.0063 |
 | system | 4 | 0.0063 |
-| command | 5 | 0.0079 |
 | commandline | 6 | 0.0095 |
 | options | 6 | 0.0095 |
 | tools | 6 | 0.0095 |
@@ -254,3 +250,4 @@ Total document words: 630
 | validation | 7 | 0.0111 |
 | use | 8 | 0.0127 |
 | parsing | 9 | 0.0143 |
+| command-line | 10 | 0.0159 |

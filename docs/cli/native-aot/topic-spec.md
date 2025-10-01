@@ -62,6 +62,14 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | jit | 3.04 |
 | smaller | 3.03 |
 
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| JsonSerializable | attribute | 5 |
+| JsonSerializer.Serialize | method | 4 |
+| WebApplication.CreateSlimBuilder | method | 3 |
+
 ## Diagnostic Codes
 
 | Code | Message |
@@ -73,3 +81,31 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | IL2070 | 'this' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to target method. The parameter of method does not have matching annotations. |
 | IL2087 | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The return value of source method does not have matching annotations. |
 | IL2091 | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The generic parameter does not have matching annotations. |
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| cli | cli/publishing-and-deployment | 0.8261 |
+| cli | cli/file-based-apps | 0.7976 |
+| dotnet | dotnet | 0.7752 |
+| libraries | libraries/system-text-json-source-generation | 0.7595 |
+| cli | cli/build-and-compilation | 0.7450 |
+| libraries | libraries/system-text-json | 0.6960 |
+| libraries | libraries | 0.6828 |
+| csharp | csharp/csharp-14-features | 0.6593 |
+| csharp | csharp | 0.6473 |
+| extensions | extensions/microsoft-extensions-ai | 0.6401 |
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6161 |
+| csharp | csharp/object-initialization | 0.5928 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| cli/publishing-and-deployment | native aot | 1.322 |
+| libraries/system-text-json | source generation | 1.324 |
+| libraries/system-text-json-source-generation | reflection-based | 1.359 |
+| libraries/system-text-json-source-generation | system.text.json source generation | 1.351 |
+| libraries/system-text-json-source-generation | source generation | 1.324 |
+| libraries/system-text-json-source-generation | native aot | 1.322 |
+

@@ -53,6 +53,7 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | Keyword | Score |
 |---------|-------|
 | circuit breaker | 4.54 |
+| microsoft.extensions.http.resilience | 4.54 |
 | pre-configured | 4.54 |
 | custom resilience | 4.52 |
 | resource management | 4.52 |
@@ -63,7 +64,38 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | monitoring | 3.06 |
 | strategies | 3.06 |
 | built | 3.05 |
-| circuit | 3.05 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| TimeSpan.FromSeconds | method | 9 |
+| GetAsync | method | 7 |
+| AddHttpClient | method | 6 |
+| CreateClient | method | 6 |
+| AddStandardResilienceHandler | method | 4 |
+| Configure | method | 4 |
+| IncrementCounter | method | 3 |
+| OrderResult.Failed | method | 3 |
+| TimeSpan.FromMinutes | method | 3 |
+| Uri | method | 3 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| extensions | extensions/microsoft-extensions-ai | 0.6811 |
+| libraries | libraries | 0.6457 |
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6424 |
+| dotnet | dotnet | 0.6271 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6244 |
+| cli | cli/publishing-and-deployment | 0.6171 |
+| csharp | csharp/csharp-14-features | 0.6045 |
+| cli | cli/assembly-trimming | 0.6045 |
+| libraries | libraries/system-text-json | 0.6027 |
+| cli | cli/build-and-compilation | 0.5987 |
+| cli | cli | 0.5916 |
+| csharp | csharp | 0.5520 |
 
 ## Critical limitations
 

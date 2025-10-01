@@ -3,19 +3,18 @@
 Combined 5 compound terms and 107 single words
 Total unique terms: 112
 Terms with score ≥ 3.0: 17
-Total term occurrences: 176
+Total term occurrences: 173
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| build | single | 17 | 1.00x | 1.00x | 17.0 |
+| build | single | 15 | 1.00x | 1.00x | 15.0 |
 | configuration | single | 5 | 1.00x | 1.00x | 5.0 |
 | ci | single | 4 | 1.00x | 1.00x | 4.0 |
 | build acceleration | compound | 2 | 1.25x | 1.50x | 3.8 |

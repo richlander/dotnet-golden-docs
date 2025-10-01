@@ -1,15 +1,14 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 119
-Total word occurrences: 187
+Total unique words: 121
+Total word occurrences: 190
 Total document words: 353
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | abstractions | 1 | 0.0028 |
 | access | 1 | 0.0028 |
-| allocation | 1 | 0.0028 |
 | allocation-aware | 1 | 0.0028 |
 | architectural | 1 | 0.0028 |
 | areas | 1 | 0.0028 |
@@ -21,6 +20,7 @@ Total document words: 353
 | caching | 1 | 0.0028 |
 | categories | 1 | 0.0028 |
 | cloud-first | 1 | 0.0028 |
+| cloud-native | 1 | 0.0028 |
 | common | 1 | 0.0028 |
 | community | 1 | 0.0028 |
 | comprehensive | 1 | 0.0028 |
@@ -30,6 +30,7 @@ Total document words: 353
 | containers | 1 | 0.0028 |
 | cqrs | 1 | 0.0028 |
 | cross-cutting | 1 | 0.0028 |
+| cross-platform | 1 | 0.0028 |
 | data | 1 | 0.0028 |
 | database | 1 | 0.0028 |
 | design | 1 | 0.0028 |
@@ -65,6 +66,7 @@ Total document words: 353
 | mstest | 1 | 0.0028 |
 | namespace | 1 | 0.0028 |
 | object-relational | 1 | 0.0028 |
+| open-source | 1 | 0.0028 |
 | operations | 1 | 0.0028 |
 | optimization | 1 | 0.0028 |
 | options | 1 | 0.0028 |
@@ -72,7 +74,6 @@ Total document words: 353
 | overview | 1 | 0.0028 |
 | paradigms | 1 | 0.0028 |
 | parallelism | 1 | 0.0028 |
-| platform | 1 | 0.0028 |
 | platforms | 1 | 0.0028 |
 | popular | 1 | 0.0028 |
 | primitives | 1 | 0.0028 |
@@ -86,7 +87,6 @@ Total document words: 353
 | specialized | 1 | 0.0028 |
 | state | 1 | 0.0028 |
 | support | 1 | 0.0028 |
-| third-party | 1 | 0.0028 |
 | threading | 1 | 0.0028 |
 | via | 1 | 0.0028 |
 | windows | 1 | 0.0028 |
@@ -95,6 +95,7 @@ Total document words: 353
 | api | 2 | 0.0057 |
 | apis | 2 | 0.0057 |
 | architecture | 2 | 0.0057 |
+| bcl | 2 | 0.0057 |
 | components | 2 | 0.0057 |
 | configuration | 2 | 0.0057 |
 | foundation | 2 | 0.0057 |
@@ -115,14 +116,15 @@ Total document words: 353
 | web | 2 | 0.0057 |
 | across | 3 | 0.0085 |
 | async | 3 | 0.0085 |
-| cloud | 3 | 0.0085 |
 | core | 3 | 0.0085 |
 | distributed | 3 | 0.0085 |
+| high-performance | 3 | 0.0085 |
 | nuget | 3 | 0.0085 |
+| patterns | 3 | 0.0085 |
+| third-party | 3 | 0.0085 |
 | application | 4 | 0.0113 |
 | asp | 4 | 0.0113 |
 | json | 4 | 0.0113 |
 | frameworks | 5 | 0.0142 |
-| patterns | 5 | 0.0142 |
 | system | 8 | 0.0227 |
 | libraries | 12 | 0.0340 |

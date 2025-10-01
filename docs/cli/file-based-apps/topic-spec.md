@@ -57,15 +57,52 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | file-based apps | 4.69 |
 | file-based-programs | 4.58 |
 | file-level | 4.58 |
+| traditional project | 4.54 |
 | whats-new | 4.54 |
 | ascii art | 4.52 |
 | exit codes | 4.52 |
+| project structure | 4.52 |
 | single file constraint | 4.52 |
 | traditional project structure | 4.52 |
 | docs | 3.18 |
-| dotnet | 3.12 |
-| command-line | 3.12 |
-| scripts | 3.10 |
+| file-based | 3.15 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| Console.WriteLine | method | 37 |
+| Console.ReadLine | method | 4 |
+| AsciiOptions | method | 3 |
+| Colorful.Console.WriteAscii | method | 3 |
+| EntryPointImpl | method | 3 |
+| Join | method | 3 |
+| JsonConvert.SerializeObject | method | 3 |
+| System.CommandLine | namespace | 3 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| cli | cli | 0.7994 |
+| cli | cli/native-aot | 0.7976 |
+| cli | cli/build-and-compilation | 0.7631 |
+| dotnet | dotnet | 0.7610 |
+| libraries | libraries | 0.7375 |
+| libraries | libraries/system-commandline | 0.7239 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6961 |
+| csharp | csharp/csharp-14-features | 0.6828 |
+| csharp | csharp | 0.6755 |
+| extensions | extensions/microsoft-extensions-ai | 0.6440 |
+| csharp | csharp/object-initialization | 0.6336 |
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6092 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| cli | command-line | 1.312 |
+| libraries/system-commandline | command-line | 1.312 |
 
 ## Critical limitations
 

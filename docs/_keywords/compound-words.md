@@ -1,8 +1,8 @@
 # Global Compound Analysis with Entropy Scores
 
 Analyzed 20 documents
-Total unique compounds: 136
-Total compound occurrences: 534
+Total unique compounds: 142
+Total compound occurrences: 569
 
 | Compound Term | Total Count | Document Count | Simple Entropy | Weighted Entropy |
 |---------------|-------------|----------------|----------------|------------------|
@@ -12,8 +12,11 @@ Total compound occurrences: 534
 | anonymous types | 6 | 1 | 3.017 | 3.617 |
 | object initialization | 6 | 1 | 3.017 | 3.617 |
 | collection initialization | 6 | 1 | 3.012 | 3.612 |
+| system.commandline | 6 | 1 | 3.005 | 3.605 |
 | file-based-programs | 6 | 1 | 3.002 | 3.602 |
 | file-level | 6 | 1 | 3.002 | 3.602 |
+| microsoft.extensions.ai.evaluation | 5 | 1 | 3.004 | 3.504 |
+| microsoft.extensions.ai | 5 | 1 | 3.004 | 3.504 |
 | middleware composition | 5 | 1 | 3.004 | 3.504 |
 | open source | 5 | 1 | 3.000 | 3.500 |
 | open-source | 5 | 1 | 3.000 | 3.500 |
@@ -33,24 +36,23 @@ Total compound occurrences: 534
 | collection type | 3 | 1 | 3.004 | 3.304 |
 | initialization patterns | 3 | 1 | 3.004 | 3.304 |
 | circuit breaker | 3 | 1 | 3.002 | 3.302 |
+| microsoft.extensions.http.resilience | 3 | 1 | 3.002 | 3.302 |
 | pre-configured | 3 | 1 | 3.002 | 3.302 |
 | container deployment | 3 | 1 | 3.002 | 3.302 |
 | response files | 3 | 1 | 3.000 | 3.300 |
 | aot compatibility | 3 | 1 | 3.000 | 3.300 |
 | development workflow | 3 | 1 | 2.999 | 3.299 |
 | command line | 3 | 1 | 2.999 | 3.299 |
+| traditional project | 3 | 1 | 2.999 | 3.299 |
 | whats-new | 3 | 1 | 2.999 | 3.299 |
 | garbage collector | 3 | 1 | 2.998 | 3.298 |
-| gc | 3 | 1 | 2.998 | 3.298 |
 | industry standards | 3 | 1 | 2.998 | 3.298 |
 | asynchronous programming | 3 | 1 | 2.998 | 3.298 |
 | language features | 3 | 1 | 2.998 | 3.298 |
 | memory-safety | 3 | 1 | 2.998 | 3.298 |
 | anti-patterns | 2 | 1 | 3.003 | 3.203 |
-| collection initialization within | 2 | 1 | 3.003 | 3.203 |
+| collection initialization within objects | 2 | 1 | 3.003 | 3.203 |
 | init-only properties | 2 | 1 | 3.003 | 3.203 |
-| initialization within objects | 2 | 1 | 3.003 | 3.203 |
-| object initializer syntax | 2 | 1 | 3.003 | 3.203 |
 | build acceleration | 2 | 1 | 3.002 | 3.202 |
 | custom build configurations | 2 | 1 | 3.002 | 3.202 |
 | dependency resolution | 2 | 1 | 3.002 | 3.202 |
@@ -62,19 +64,19 @@ Total compound occurrences: 534
 | quantum-resistant | 2 | 1 | 3.002 | 3.202 |
 | azure sdk | 2 | 1 | 3.001 | 3.201 |
 | base class library | 2 | 1 | 3.001 | 3.201 |
-| bcl | 2 | 1 | 3.001 | 3.201 |
 | entity framework core | 2 | 1 | 3.001 | 3.201 |
 | high-performance collections | 2 | 1 | 3.001 | 3.201 |
 | third-party | 2 | 1 | 3.001 | 3.201 |
-| compound assignment operators | 2 | 1 | 3.001 | 3.201 |
 | expression trees | 2 | 1 | 3.001 | 3.201 |
 | first-class span | 2 | 1 | 3.001 | 3.201 |
 | named arguments | 2 | 1 | 3.001 | 3.201 |
 | stack-only | 2 | 1 | 3.001 | 3.201 |
+| 9.0 | 2 | 1 | 3.001 | 3.201 |
 | collection initializer syntax | 2 | 1 | 3.001 | 3.201 |
 | data management | 2 | 1 | 3.001 | 3.201 |
 | dictionary initializers | 2 | 1 | 3.001 | 3.201 |
 | performance considerations | 2 | 1 | 3.001 | 3.201 |
+| target-typed new | 2 | 1 | 3.001 | 3.201 |
 | target-typed new expressions | 2 | 1 | 3.001 | 3.201 |
 | assembly trimming | 2 | 1 | 3.001 | 3.201 |
 | build-time | 2 | 1 | 3.001 | 3.201 |
@@ -92,6 +94,7 @@ Total compound occurrences: 534
 | distribution-time | 2 | 1 | 3.000 | 3.200 |
 | trade-offs | 2 | 1 | 3.000 | 3.200 |
 | ai-generated | 2 | 1 | 2.999 | 3.199 |
+| automated quality | 2 | 1 | 2.999 | 3.199 |
 | automated quality gates | 2 | 1 | 2.999 | 3.199 |
 | custom evaluator implementation | 2 | 1 | 2.999 | 3.199 |
 | llm-based | 2 | 1 | 2.999 | 3.199 |
@@ -114,6 +117,7 @@ Total compound occurrences: 534
 | package restore | 2 | 1 | 2.998 | 3.198 |
 | ascii art | 2 | 1 | 2.998 | 3.198 |
 | exit codes | 2 | 1 | 2.998 | 3.198 |
+| project structure | 2 | 1 | 2.998 | 3.198 |
 | single file constraint | 2 | 1 | 2.998 | 3.198 |
 | traditional project structure | 2 | 1 | 2.998 | 3.198 |
 | higher-level | 2 | 1 | 2.997 | 3.197 |
@@ -130,12 +134,14 @@ Total compound occurrences: 534
 | native aot | 25 | 3 | 1.942 | 2.775 |
 | reflection-based | 9 | 2 | 2.316 | 2.766 |
 | dependency injection | 8 | 2 | 2.319 | 2.719 |
+| newtonsoft.json | 7 | 2 | 2.318 | 2.668 |
 | low-level | 7 | 2 | 2.308 | 2.658 |
 | object-oriented | 7 | 2 | 2.308 | 2.658 |
 | high-level | 6 | 2 | 2.307 | 2.607 |
 | high-performance | 5 | 2 | 2.308 | 2.558 |
 | command-line | 18 | 3 | 1.922 | 2.522 |
 | system.text.json source generation | 4 | 2 | 2.309 | 2.509 |
+| system.text.json | 9 | 3 | 1.920 | 2.220 |
 | error handling | 6 | 3 | 1.906 | 2.106 |
 | memory management | 16 | 4 | 1.627 | 2.027 |
 | self-contained | 14 | 4 | 1.635 | 1.985 |

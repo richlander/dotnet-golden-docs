@@ -1,7 +1,7 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 237
+Total unique words: 236
 Total word occurrences: 331
 Total document words: 603
 
@@ -27,21 +27,19 @@ Total document words: 603
 | built-in | 1 | 0.0017 |
 | check | 1 | 0.0017 |
 | classes | 1 | 0.0017 |
-| cloud | 1 | 0.0017 |
 | cold | 1 | 0.0017 |
 | com | 1 | 0.0017 |
 | combinations | 1 | 0.0017 |
 | combined | 1 | 0.0017 |
 | compared | 1 | 0.0017 |
 | compatible | 1 | 0.0017 |
-| compile | 1 | 0.0017 |
+| compile-time | 1 | 0.0017 |
 | compiled | 1 | 0.0017 |
 | compiles | 1 | 0.0017 |
 | complementary | 1 | 0.0017 |
 | components | 1 | 0.0017 |
 | computing | 1 | 0.0017 |
 | configuration | 1 | 0.0017 |
-| configured | 1 | 0.0017 |
 | console | 1 | 0.0017 |
 | container-optimized | 1 | 0.0017 |
 | containers | 1 | 0.0017 |
@@ -74,6 +72,7 @@ Total document words: 603
 | experience | 1 | 0.0017 |
 | failures | 1 | 0.0017 |
 | fast | 1 | 0.0017 |
+| file-based | 1 | 0.0017 |
 | first-run | 1 | 0.0017 |
 | footprint | 1 | 0.0017 |
 | full | 1 | 0.0017 |
@@ -82,7 +81,7 @@ Total document words: 603
 | glibc | 1 | 0.0017 |
 | gotchas | 1 | 0.0017 |
 | guides | 1 | 0.0017 |
-| higher | 1 | 0.0017 |
+| high-performance | 1 | 0.0017 |
 | ideal | 1 | 0.0017 |
 | il | 1 | 0.0017 |
 | important | 1 | 0.0017 |
@@ -134,6 +133,7 @@ Total document words: 603
 | particularly | 1 | 0.0017 |
 | peak | 1 | 0.0017 |
 | platform-dependent | 1 | 0.0017 |
+| platform-specific | 1 | 0.0017 |
 | platforms | 1 | 0.0017 |
 | portability | 1 | 0.0017 |
 | pre-generated | 1 | 0.0017 |
@@ -164,7 +164,6 @@ Total document words: 603
 | setting | 1 | 0.0017 |
 | significantly | 1 | 0.0017 |
 | simpler | 1 | 0.0017 |
-| specific | 1 | 0.0017 |
 | start | 1 | 0.0017 |
 | statically | 1 | 0.0017 |
 | strategies | 1 | 0.0017 |
@@ -212,17 +211,16 @@ Total document words: 603
 | method | 2 | 0.0033 |
 | needs | 2 | 0.0033 |
 | net | 2 | 0.0033 |
-| platform | 2 | 0.0033 |
 | prohibited | 2 | 0.0033 |
 | publishing | 2 | 0.0033 |
 | reduced | 2 | 0.0033 |
 | requirements | 2 | 0.0033 |
 | see | 2 | 0.0033 |
 | setup | 2 | 0.0033 |
+| single-file | 2 | 0.0033 |
 | size | 2 | 0.0033 |
 | support | 2 | 0.0033 |
 | system | 2 | 0.0033 |
-| time | 2 | 0.0033 |
 | toolchain | 2 | 0.0033 |
 | usage | 2 | 0.0033 |
 | use | 2 | 0.0033 |
@@ -232,11 +230,12 @@ Total document words: 603
 | work | 2 | 0.0033 |
 | common | 3 | 0.0050 |
 | deployment | 3 | 0.0050 |
+| self-contained | 3 | 0.0050 |
 | smaller | 3 | 0.0050 |
 | startup | 3 | 0.0050 |
 | without | 3 | 0.0050 |
 | jit | 4 | 0.0066 |
-| reflection | 4 | 0.0066 |
+| reflection-based | 4 | 0.0066 |
 | serialization | 4 | 0.0066 |
 | supported | 4 | 0.0066 |
 | no | 6 | 0.0100 |

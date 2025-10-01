@@ -75,6 +75,13 @@ Collection expressions provide a concise syntax to create common collection valu
 | javascript | 3.03 |
 | python | 3.03 |
 
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| ProcessItems | method | 4 |
+| PrintNumbers | method | 3 |
+
 ## Diagnostic Codes
 
 | Code | Message |
@@ -86,3 +93,20 @@ Collection expressions provide a concise syntax to create common collection valu
 | CS9185 | The CollectionBuilderAttribute builder type must be a non-generic class or struct. |
 | CS9186 | The CollectionBuilderAttribute method name is invalid. |
 | CS9175 | An expression tree may not contain a collection expression. |
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| csharp | csharp/collection-initialization | 0.8672 |
+| csharp | csharp/csharp-14-features | 0.7522 |
+| csharp | csharp/object-initialization | 0.7404 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6799 |
+| libraries | libraries/system-text-json | 0.6238 |
+| libraries | libraries/system-commandline | 0.6209 |
+| dotnet | dotnet | 0.5787 |
+| cli | cli/file-based-apps | 0.5601 |
+| cli | cli/assembly-trimming | 0.5568 |
+| cli | cli | 0.5342 |
+| extensions | extensions/microsoft-extensions-ai | 0.5133 |
+| cli | cli/build-and-compilation | 0.5132 |
+

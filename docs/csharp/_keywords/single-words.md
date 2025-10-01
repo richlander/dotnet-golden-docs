@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 445
-Total word occurrences: 786
+Total unique words: 447
+Total word occurrences: 791
 Total document words: 1406
 
 | Word | Count | Document Concentration |
@@ -12,7 +12,6 @@ Total document words: 1406
 | actual | 1 | 0.0007 |
 | add | 1 | 0.0007 |
 | advanced | 1 | 0.0007 |
-| allocation | 1 | 0.0007 |
 | allocations | 1 | 0.0007 |
 | allowing | 1 | 0.0007 |
 | analysis | 1 | 0.0007 |
@@ -20,6 +19,7 @@ Total document words: 1406
 | appropriately | 1 | 0.0007 |
 | arbitrary | 1 | 0.0007 |
 | architecture | 1 | 0.0007 |
+| assignment | 1 | 0.0007 |
 | async | 1 | 0.0007 |
 | auto-initialized | 1 | 0.0007 |
 | available | 1 | 0.0007 |
@@ -50,7 +50,6 @@ Total document words: 1406
 | codebase | 1 | 0.0007 |
 | come | 1 | 0.0007 |
 | comparisons | 1 | 0.0007 |
-| compile | 1 | 0.0007 |
 | compose | 1 | 0.0007 |
 | compression | 1 | 0.0007 |
 | concerns | 1 | 0.0007 |
@@ -115,6 +114,7 @@ Total document words: 1406
 | familiar | 1 | 0.0007 |
 | familiarity | 1 | 0.0007 |
 | family | 1 | 0.0007 |
+| first-class | 1 | 0.0007 |
 | fix | 1 | 0.0007 |
 | fixed-length | 1 | 0.0007 |
 | focus | 1 | 0.0007 |
@@ -153,6 +153,7 @@ Total document words: 1406
 | instead | 1 | 0.0007 |
 | instructions | 1 | 0.0007 |
 | integrate | 1 | 0.0007 |
+| integrated | 1 | 0.0007 |
 | integration | 1 | 0.0007 |
 | intellisense | 1 | 0.0007 |
 | interactive | 1 | 0.0007 |
@@ -168,6 +169,7 @@ Total document words: 1406
 | json | 1 | 0.0007 |
 | keywords | 1 | 0.0007 |
 | known | 1 | 0.0007 |
+| language-integrated | 1 | 0.0007 |
 | language-library | 1 | 0.0007 |
 | layout | 1 | 0.0007 |
 | learning | 1 | 0.0007 |
@@ -187,6 +189,7 @@ Total document words: 1406
 | mapping | 1 | 0.0007 |
 | matters | 1 | 0.0007 |
 | maximum | 1 | 0.0007 |
+| memory-safety | 1 | 0.0007 |
 | microservices | 1 | 0.0007 |
 | mobile | 1 | 0.0007 |
 | modeling | 1 | 0.0007 |
@@ -248,9 +251,7 @@ Total document words: 1406
 | roslyn | 1 | 0.0007 |
 | routines | 1 | 0.0007 |
 | runtime's | 1 | 0.0007 |
-| safe | 1 | 0.0007 |
 | safely | 1 | 0.0007 |
-| safety | 1 | 0.0007 |
 | scalable | 1 | 0.0007 |
 | scope | 1 | 0.0007 |
 | see | 1 | 0.0007 |
@@ -275,7 +276,6 @@ Total document words: 1406
 | statically | 1 | 0.0007 |
 | strategy | 1 | 0.0007 |
 | string | 1 | 0.0007 |
-| strongly | 1 | 0.0007 |
 | structs | 1 | 0.0007 |
 | switch | 1 | 0.0007 |
 | symbiotic | 1 | 0.0007 |
@@ -293,6 +293,7 @@ Total document words: 1406
 | transform | 1 | 0.0007 |
 | tuples | 1 | 0.0007 |
 | type- | 1 | 0.0007 |
+| type-safe | 1 | 0.0007 |
 | typescript | 1 | 0.0007 |
 | typing | 1 | 0.0007 |
 | uis | 1 | 0.0007 |
@@ -328,6 +329,8 @@ Total document words: 1406
 | built-in | 2 | 0.0014 |
 | characters | 2 | 0.0014 |
 | classes | 2 | 0.0014 |
+| cloud-native | 2 | 0.0014 |
+| compile-time | 2 | 0.0014 |
 | comprehensive | 2 | 0.0014 |
 | concurrency | 2 | 0.0014 |
 | desktop | 2 | 0.0014 |
@@ -341,6 +344,7 @@ Total document words: 1406
 | essential | 2 | 0.0014 |
 | example | 2 | 0.0014 |
 | feature | 2 | 0.0014 |
+| first | 2 | 0.0014 |
 | flow | 2 | 0.0014 |
 | forms | 2 | 0.0014 |
 | generics | 2 | 0.0014 |
@@ -362,17 +366,16 @@ Total document words: 1406
 | offer | 2 | 0.0014 |
 | optimizations | 2 | 0.0014 |
 | optional | 2 | 0.0014 |
-| patterns | 2 | 0.0014 |
+| pattern-based | 2 | 0.0014 |
+| platform-specific | 2 | 0.0014 |
 | platforms | 2 | 0.0014 |
 | plug-in | 2 | 0.0014 |
 | polymorphism | 2 | 0.0014 |
 | powered | 2 | 0.0014 |
 | primary | 2 | 0.0014 |
-| programs | 2 | 0.0014 |
 | ref | 2 | 0.0014 |
 | rich | 2 | 0.0014 |
 | services | 2 | 0.0014 |
-| stack | 2 | 0.0014 |
 | statement | 2 | 0.0014 |
 | statements | 2 | 0.0014 |
 | structures | 2 | 0.0014 |
@@ -380,8 +383,6 @@ Total document words: 1406
 | supporting | 2 | 0.0014 |
 | supports | 2 | 0.0014 |
 | system | 2 | 0.0014 |
-| time | 2 | 0.0014 |
-| typed | 2 | 0.0014 |
 | used | 2 | 0.0014 |
 | variable | 2 | 0.0014 |
 | via | 2 | 0.0014 |
@@ -389,13 +390,13 @@ Total document words: 1406
 | without | 2 | 0.0014 |
 | wpf | 2 | 0.0014 |
 | abstraction | 3 | 0.0021 |
-| based | 3 | 0.0021 |
 | common | 3 | 0.0021 |
 | constructs | 3 | 0.0021 |
 | direct | 3 | 0.0021 |
 | extensible | 3 | 0.0021 |
 | frameworks | 3 | 0.0021 |
-| integrated | 3 | 0.0021 |
+| high-level | 3 | 0.0021 |
+| high-performance | 3 | 0.0021 |
 | linq | 3 | 0.0021 |
 | mainstream | 3 | 0.0021 |
 | many | 3 | 0.0021 |
@@ -406,7 +407,6 @@ Total document words: 1406
 | range | 3 | 0.0021 |
 | run | 3 | 0.0021 |
 | runtime | 3 | 0.0021 |
-| syntax | 3 | 0.0021 |
 | through | 3 | 0.0021 |
 | tools | 3 | 0.0021 |
 | understanding | 3 | 0.0021 |
@@ -419,10 +419,10 @@ Total document words: 1406
 | concepts | 4 | 0.0028 |
 | define | 4 | 0.0028 |
 | enable | 4 | 0.0028 |
-| first | 4 | 0.0028 |
 | functional | 4 | 0.0028 |
 | introduce | 4 | 0.0028 |
 | languages | 4 | 0.0028 |
+| low-level | 4 | 0.0028 |
 | multiple | 4 | 0.0028 |
 | offers | 4 | 0.0028 |
 | value | 4 | 0.0028 |
@@ -431,15 +431,17 @@ Total document words: 1406
 | control | 5 | 0.0036 |
 | developers | 5 | 0.0036 |
 | matching | 5 | 0.0036 |
-| platform | 5 | 0.0036 |
+| object-oriented | 5 | 0.0036 |
+| pattern | 5 | 0.0036 |
 | reference | 5 | 0.0036 |
+| syntax | 5 | 0.0036 |
 | web | 5 | 0.0036 |
 | windows | 5 | 0.0036 |
+| cross-platform | 6 | 0.0043 |
 | data | 6 | 0.0043 |
 | enables | 6 | 0.0043 |
 | while | 6 | 0.0043 |
 | collections | 7 | 0.0050 |
-| pattern | 7 | 0.0050 |
 | using | 7 | 0.0050 |
 | compiler | 8 | 0.0057 |
 | programming | 8 | 0.0057 |
@@ -451,4 +453,4 @@ Total document words: 1406
 | like | 11 | 0.0078 |
 | features | 13 | 0.0092 |
 | net | 13 | 0.0092 |
-| language | 21 | 0.0149 |
+| language | 19 | 0.0135 |

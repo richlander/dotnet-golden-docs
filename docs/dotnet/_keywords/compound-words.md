@@ -1,8 +1,8 @@
 # Compound Term Analysis
 
 Generated from: `golden-reference.md`
-Total unique compounds: 13
-Total compound occurrences: 84
+Total unique compounds: 12
+Total compound occurrences: 80
 Total document words: 1212
 
 | Compound Term | Count | Document Concentration |
@@ -12,7 +12,6 @@ Total document words: 1212
 | object-oriented | 2 | 0.0017 |
 | self-tuning | 2 | 0.0017 |
 | garbage collector | 3 | 0.0025 |
-| gc | 3 | 0.0025 |
 | high-level | 3 | 0.0025 |
 | industry standards | 3 | 0.0025 |
 | low-level | 3 | 0.0025 |

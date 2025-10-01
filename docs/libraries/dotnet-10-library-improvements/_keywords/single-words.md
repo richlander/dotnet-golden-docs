@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 135
-Total word occurrences: 209
+Total unique words: 137
+Total word occurrences: 219
 Total document words: 304
 
 | Word | Count | Document Concentration |
@@ -10,7 +10,6 @@ Total document words: 304
 | abstraction | 1 | 0.0033 |
 | across | 1 | 0.0033 |
 | adds | 1 | 0.0033 |
-| allocation | 1 | 0.0033 |
 | allowduplicateproperties | 1 | 0.0033 |
 | alphanumeric | 1 | 0.0033 |
 | applies | 1 | 0.0033 |
@@ -73,8 +72,6 @@ Total document words: 304
 | overloads | 1 | 0.0033 |
 | overview | 1 | 0.0033 |
 | parsing | 1 | 0.0033 |
-| patterns | 1 | 0.0033 |
-| post-quantum | 1 | 0.0033 |
 | pqc | 1 | 0.0033 |
 | preset | 1 | 0.0033 |
 | prevent | 1 | 0.0033 |
@@ -108,6 +105,7 @@ Total document words: 304
 | allocations | 2 | 0.0066 |
 | collections | 2 | 0.0066 |
 | conversion | 2 | 0.0066 |
+| cross-platform | 2 | 0.0066 |
 | detection | 2 | 0.0066 |
 | existing | 2 | 0.0066 |
 | key | 2 | 0.0066 |
@@ -116,6 +114,7 @@ Total document words: 304
 | numbers | 2 | 0.0066 |
 | ordereddictionary | 2 | 0.0066 |
 | overhead | 2 | 0.0066 |
+| quantum-resistant | 2 | 0.0066 |
 | stable | 2 | 0.0066 |
 | streaming | 2 | 0.0066 |
 | strict | 2 | 0.0066 |
@@ -130,10 +129,13 @@ Total document words: 304
 | cryptography | 3 | 0.0099 |
 | duplicate | 3 | 0.0099 |
 | hex | 3 | 0.0099 |
+| high-performance | 3 | 0.0099 |
 | numericordering | 3 | 0.0099 |
 | options | 3 | 0.0099 |
+| post-quantum | 3 | 0.0099 |
 | processing | 3 | 0.0099 |
 | serialization | 3 | 0.0099 |
+| span-based | 3 | 0.0099 |
 | utf-8 | 3 | 0.0099 |
 | improvements | 4 | 0.0132 |
 | support | 4 | 0.0132 |

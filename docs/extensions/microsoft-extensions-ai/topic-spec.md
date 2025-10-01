@@ -54,6 +54,7 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 
 | Keyword | Score |
 |---------|-------|
+| microsoft.extensions.ai | 4.57 |
 | middleware composition | 4.57 |
 | function calling | 4.55 |
 | embedding generation | 4.52 |
@@ -63,9 +64,48 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 | middleware | 3.11 |
 | services | 3.10 |
 | interfaces | 3.06 |
-| service | 3.06 |
 | observability | 3.04 |
 | provider | 3.04 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| GetResponseAsync | method | 16 |
+| ChatClientBuilder | method | 14 |
+| Build | method | 13 |
+| Use | method | 12 |
+| UseDistributedCache | method | 8 |
+| Microsoft.Extensions | namespace | 6 |
+| Microsoft.Extensions.AI | type | 6 |
+| UseOpenTelemetry | method | 6 |
+| UseFunctionInvocation | method | 5 |
+| Description | attribute | 4 |
+| AIFunctionFactory.Create | method | 3 |
+| ChatMessage | method | 3 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.8279 |
+| libraries | libraries | 0.7133 |
+| dotnet | dotnet | 0.7043 |
+| extensions | extensions/microsoft-extensions-http-resilience | 0.6811 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6650 |
+| cli | cli | 0.6615 |
+| csharp | csharp/csharp-14-features | 0.6469 |
+| cli | cli/file-based-apps | 0.6440 |
+| cli | cli/native-aot | 0.6401 |
+| libraries | libraries/system-commandline | 0.6293 |
+| csharp | csharp | 0.6054 |
+| csharp | csharp/object-initialization | 0.6001 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries | dependency injection | 1.357 |
 
 ## Critical limitations
 

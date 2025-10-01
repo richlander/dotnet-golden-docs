@@ -1,14 +1,13 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 235
-Total word occurrences: 414
+Total unique words: 230
+Total word occurrences: 404
 Total document words: 716
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | advanced | 1 | 0.0014 |
-| allocation | 1 | 0.0014 |
 | already | 1 | 0.0014 |
 | anti-pattern | 1 | 0.0014 |
 | aot-compatible | 1 | 0.0014 |
@@ -31,8 +30,8 @@ Total document words: 716
 | challenge | 1 | 0.0014 |
 | characteristics | 1 | 0.0014 |
 | clean | 1 | 0.0014 |
-| cloud | 1 | 0.0014 |
 | cold | 1 | 0.0014 |
+| compile-time | 1 | 0.0014 |
 | conditional | 1 | 0.0014 |
 | conflicts | 1 | 0.0014 |
 | consistency | 1 | 0.0014 |
@@ -59,7 +58,6 @@ Total document words: 716
 | functions | 1 | 0.0014 |
 | fundamental | 1 | 0.0014 |
 | generate | 1 | 0.0014 |
-| generated | 1 | 0.0014 |
 | generating | 1 | 0.0014 |
 | global | 1 | 0.0014 |
 | high-throughput | 1 | 0.0014 |
@@ -153,14 +151,12 @@ Total document words: 716
 | variants | 1 | 0.0014 |
 | volumes | 1 | 0.0014 |
 | work | 1 | 0.0014 |
-| zero | 1 | 0.0014 |
 | analysis | 2 | 0.0028 |
 | apis | 2 | 0.0028 |
 | approaches | 2 | 0.0028 |
 | asp | 2 | 0.0028 |
 | better | 2 | 0.0028 |
 | compilation | 2 | 0.0028 |
-| compile | 2 | 0.0028 |
 | contexts | 2 | 0.0028 |
 | conversion | 2 | 0.0028 |
 | create | 2 | 0.0028 |
@@ -175,6 +171,7 @@ Total document words: 716
 | faster | 2 | 0.0028 |
 | handle | 2 | 0.0028 |
 | handles | 2 | 0.0028 |
+| high-performance | 2 | 0.0028 |
 | httpclient | 2 | 0.0028 |
 | improvements | 2 | 0.0028 |
 | jsontypeinfo | 2 | 0.0028 |
@@ -182,6 +179,7 @@ Total document words: 716
 | let | 2 | 0.0028 |
 | like | 2 | 0.0028 |
 | manual | 2 | 0.0028 |
+| patterns | 2 | 0.0028 |
 | policies | 2 | 0.0028 |
 | policy | 2 | 0.0028 |
 | pre-computing | 2 | 0.0028 |
@@ -193,15 +191,14 @@ Total document words: 716
 | seamlessly | 2 | 0.0028 |
 | serverless | 2 | 0.0028 |
 | solution | 2 | 0.0028 |
-| specific | 2 | 0.0028 |
 | startup | 2 | 0.0028 |
 | static | 2 | 0.0028 |
 | streaming | 2 | 0.0028 |
 | superior | 2 | 0.0028 |
 | support | 2 | 0.0028 |
-| time | 2 | 0.0028 |
 | times | 2 | 0.0028 |
 | trimmed | 2 | 0.0028 |
+| type-safe | 2 | 0.0028 |
 | warning | 2 | 0.0028 |
 | web | 2 | 0.0028 |
 | while | 2 | 0.0028 |
@@ -216,7 +213,6 @@ Total document words: 716
 | need | 3 | 0.0042 |
 | options | 3 | 0.0042 |
 | parameters | 3 | 0.0042 |
-| performance | 3 | 0.0042 |
 | unconstrained | 3 | 0.0042 |
 | usage | 3 | 0.0042 |
 | using | 3 | 0.0042 |
@@ -227,12 +223,11 @@ Total document words: 716
 | newtonsoft | 4 | 0.0056 |
 | operations | 4 | 0.0056 |
 | overhead | 4 | 0.0056 |
-| patterns | 4 | 0.0056 |
 | system | 4 | 0.0056 |
 | text | 4 | 0.0056 |
 | these | 4 | 0.0056 |
 | utf-8 | 4 | 0.0056 |
-| reflection | 5 | 0.0070 |
+| reflection-based | 5 | 0.0070 |
 | scenarios | 5 | 0.0070 |
 | use | 5 | 0.0070 |
 | context | 6 | 0.0084 |

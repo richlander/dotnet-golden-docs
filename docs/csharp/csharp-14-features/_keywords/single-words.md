@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 145
-Total word occurrences: 203
+Total word occurrences: 210
 Total document words: 357
 
 | Word | Count | Document Concentration |
@@ -24,7 +24,6 @@ Total document words: 357
 | capabilities | 1 | 0.0028 |
 | careful | 1 | 0.0028 |
 | change | 1 | 0.0028 |
-| compile | 1 | 0.0028 |
 | compiler-generated | 1 | 0.0028 |
 | complex | 1 | 0.0028 |
 | contexts | 1 | 0.0028 |
@@ -49,7 +48,6 @@ Total document words: 357
 | extending | 1 | 0.0028 |
 | feature | 1 | 0.0028 |
 | field | 1 | 0.0028 |
-| first-class | 1 | 0.0028 |
 | follows | 1 | 0.0028 |
 | generators | 1 | 0.0028 |
 | gotchas | 1 | 0.0028 |
@@ -67,6 +65,7 @@ Total document words: 357
 | limited | 1 | 0.0028 |
 | linq | 1 | 0.0028 |
 | logic | 1 | 0.0028 |
+| low-level | 1 | 0.0028 |
 | matching | 1 | 0.0028 |
 | member | 1 | 0.0028 |
 | method | 1 | 0.0028 |
@@ -80,7 +79,6 @@ Total document words: 357
 | overview | 1 | 0.0028 |
 | parameter | 1 | 0.0028 |
 | params | 1 | 0.0028 |
-| pattern | 1 | 0.0028 |
 | priority | 1 | 0.0028 |
 | productivity | 1 | 0.0028 |
 | property | 1 | 0.0028 |
@@ -88,7 +86,6 @@ Total document words: 357
 | records | 1 | 0.0028 |
 | reducing | 1 | 0.0028 |
 | related | 1 | 0.0028 |
-| safe | 1 | 0.0028 |
 | safely | 1 | 0.0028 |
 | safer | 1 | 0.0028 |
 | scope | 1 | 0.0028 |
@@ -104,12 +101,11 @@ Total document words: 357
 | structures | 1 | 0.0028 |
 | subject | 1 | 0.0028 |
 | switch | 1 | 0.0028 |
-| syntax | 1 | 0.0028 |
 | targeting | 1 | 0.0028 |
 | themes | 1 | 0.0028 |
 | these | 1 | 0.0028 |
-| time | 1 | 0.0028 |
 | tools | 1 | 0.0028 |
+| type-safe | 1 | 0.0028 |
 | unbound | 1 | 0.0028 |
 | used | 1 | 0.0028 |
 | user-defined | 1 | 0.0028 |
@@ -117,38 +113,42 @@ Total document words: 357
 | versions | 1 | 0.0028 |
 | ways | 1 | 0.0028 |
 | work | 1 | 0.0028 |
-| zero-allocation | 1 | 0.0028 |
 | async | 2 | 0.0056 |
 | boilerplate | 2 | 0.0056 |
 | common | 2 | 0.0056 |
+| compound | 2 | 0.0056 |
 | constructors | 2 | 0.0056 |
 | enables | 2 | 0.0056 |
 | events | 2 | 0.0056 |
 | features | 2 | 0.0056 |
 | modifiers | 2 | 0.0056 |
 | null-conditional | 2 | 0.0056 |
+| operators | 2 | 0.0056 |
 | optional | 2 | 0.0056 |
 | parameters | 2 | 0.0056 |
+| patterns | 2 | 0.0056 |
 | preview | 2 | 0.0056 |
 | reference | 2 | 0.0056 |
 | restrictions | 2 | 0.0056 |
 | rules | 2 | 0.0056 |
-| safety | 2 | 0.0056 |
-| specific | 2 | 0.0056 |
+| span | 2 | 0.0056 |
+| stack-only | 2 | 0.0056 |
 | string | 2 | 0.0056 |
 | unsafe | 2 | 0.0056 |
 | validation | 2 | 0.0056 |
 | without | 2 | 0.0056 |
+| compile-time | 3 | 0.0084 |
 | extensions | 3 | 0.0084 |
+| first-class | 3 | 0.0084 |
 | keyword | 3 | 0.0084 |
 | lambda | 3 | 0.0084 |
 | partial | 3 | 0.0084 |
 | ref | 3 | 0.0084 |
-| assignment | 4 | 0.0112 |
+| syntax | 3 | 0.0084 |
 | code | 4 | 0.0112 |
 | enhanced | 4 | 0.0112 |
 | operations | 4 | 0.0112 |
-| patterns | 4 | 0.0112 |
+| zero-allocation | 4 | 0.0112 |
 | extension | 5 | 0.0140 |
-| span | 5 | 0.0140 |
 | support | 5 | 0.0140 |
+| assignment | 6 | 0.0168 |

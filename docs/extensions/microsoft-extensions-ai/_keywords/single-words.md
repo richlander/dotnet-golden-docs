@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 236
-Total word occurrences: 424
+Total unique words: 235
+Total word occurrences: 417
 Total document words: 636
 
 | Word | Count | Document Concentration |
@@ -50,7 +50,6 @@ Total document words: 636
 | concerns | 1 | 0.0016 |
 | configurable | 1 | 0.0016 |
 | configure | 1 | 0.0016 |
-| configured | 1 | 0.0016 |
 | constraints | 1 | 0.0016 |
 | construction | 1 | 0.0016 |
 | consume | 1 | 0.0016 |
@@ -85,6 +84,7 @@ Total document words: 636
 | future-proof | 1 | 0.0016 |
 | generative | 1 | 0.0016 |
 | guidelines | 1 | 0.0016 |
+| higher-level | 1 | 0.0016 |
 | identical | 1 | 0.0016 |
 | impact | 1 | 0.0016 |
 | implementations | 1 | 0.0016 |
@@ -112,6 +112,7 @@ Total document words: 636
 | order | 1 | 0.0016 |
 | output | 1 | 0.0016 |
 | overview | 1 | 0.0016 |
+| patterns | 1 | 0.0016 |
 | permissions | 1 | 0.0016 |
 | portability | 1 | 0.0016 |
 | positioning | 1 | 0.0016 |
@@ -141,7 +142,6 @@ Total document words: 636
 | similar | 1 | 0.0016 |
 | similarity | 1 | 0.0016 |
 | sits | 1 | 0.0016 |
-| specific | 1 | 0.0016 |
 | standardize | 1 | 0.0016 |
 | structured | 1 | 0.0016 |
 | switching | 1 | 0.0016 |
@@ -193,7 +193,6 @@ Total document words: 636
 | method | 2 | 0.0031 |
 | multiple | 2 | 0.0031 |
 | operations | 2 | 0.0031 |
-| pattern | 2 | 0.0031 |
 | preview | 2 | 0.0031 |
 | proper | 2 | 0.0031 |
 | rate | 2 | 0.0031 |
@@ -203,6 +202,7 @@ Total document words: 636
 | standardized | 2 | 0.0031 |
 | strategy | 2 | 0.0031 |
 | streaming | 2 | 0.0031 |
+| strongly-typed | 2 | 0.0031 |
 | switch | 2 | 0.0031 |
 | systems | 2 | 0.0031 |
 | through | 2 | 0.0031 |
@@ -221,7 +221,6 @@ Total document words: 636
 | function | 3 | 0.0047 |
 | implement | 3 | 0.0047 |
 | opentelemetry | 3 | 0.0047 |
-| patterns | 3 | 0.0047 |
 | provides | 3 | 0.0047 |
 | standard | 3 | 0.0047 |
 | telemetry | 3 | 0.0047 |
@@ -231,6 +230,7 @@ Total document words: 636
 | observability | 4 | 0.0063 |
 | provider | 4 | 0.0063 |
 | providers | 4 | 0.0063 |
+| service | 4 | 0.0063 |
 | without | 4 | 0.0063 |
 | extensions | 5 | 0.0079 |
 | like | 5 | 0.0079 |
@@ -238,8 +238,7 @@ Total document words: 636
 | support | 5 | 0.0079 |
 | caching | 6 | 0.0094 |
 | interfaces | 6 | 0.0094 |
-| service | 6 | 0.0094 |
 | net | 8 | 0.0126 |
 | services | 10 | 0.0157 |
 | middleware | 11 | 0.0173 |
-| ai | 34 | 0.0535 |
+| ai | 32 | 0.0503 |

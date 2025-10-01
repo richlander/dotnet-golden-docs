@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 144
-Total word occurrences: 203
+Total word occurrences: 204
 Total document words: 380
 
 | Word | Count | Document Concentration |
@@ -57,7 +57,9 @@ Total document words: 380
 | improves | 1 | 0.0026 |
 | inception | 1 | 0.0026 |
 | information | 1 | 0.0026 |
+| initialization | 1 | 0.0026 |
 | initialize | 1 | 0.0026 |
+| initializer | 1 | 0.0026 |
 | internal | 1 | 0.0026 |
 | issues | 1 | 0.0026 |
 | key-value | 1 | 0.0026 |
@@ -76,7 +78,6 @@ Total document words: 380
 | overview | 1 | 0.0026 |
 | pair | 1 | 0.0026 |
 | parameters | 1 | 0.0026 |
-| performance | 1 | 0.0026 |
 | pitfalls | 1 | 0.0026 |
 | planning | 1 | 0.0026 |
 | populate | 1 | 0.0026 |
@@ -102,7 +103,6 @@ Total document words: 380
 | sources | 1 | 0.0026 |
 | speed | 1 | 0.0026 |
 | styles | 1 | 0.0026 |
-| syntax | 1 | 0.0026 |
 | techniques | 1 | 0.0026 |
 | them | 1 | 0.0026 |
 | throughout | 1 | 0.0026 |
@@ -128,7 +128,6 @@ Total document words: 380
 | list | 2 | 0.0053 |
 | method | 2 | 0.0053 |
 | multiple | 2 | 0.0053 |
-| new | 2 | 0.0053 |
 | provide | 2 | 0.0053 |
 | reference | 2 | 0.0053 |
 | seamlessly | 2 | 0.0053 |
@@ -144,10 +143,11 @@ Total document words: 380
 | initializers | 3 | 0.0079 |
 | modern | 3 | 0.0079 |
 | right | 3 | 0.0079 |
-| target-typed | 3 | 0.0079 |
+| syntax | 3 | 0.0079 |
 | understanding | 3 | 0.0079 |
 | works | 3 | 0.0079 |
 | code | 4 | 0.0105 |
 | collections | 4 | 0.0105 |
-| patterns | 6 | 0.0158 |
+| patterns | 4 | 0.0105 |
+| target-typed | 5 | 0.0132 |
 | use | 6 | 0.0158 |

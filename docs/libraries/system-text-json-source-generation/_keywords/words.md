@@ -1,15 +1,14 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 235 single words
-Total unique terms: 246
-Terms with score ≥ 3.0: 46
-Total term occurrences: 457
+Combined 13 compound terms and 230 single words
+Total unique terms: 239
+Terms with score ≥ 3.0: 45
+Total term occurrences: 442
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
@@ -25,19 +24,19 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | aot applications | compound | 4 | 1.10x | 1.50x | 6.6 |
 | context | single | 6 | 1.00x | 1.00x | 6.0 |
 | errors | single | 6 | 1.00x | 1.00x | 6.0 |
-| reflection | single | 5 | 1.00x | 1.00x | 5.0 |
+| newtonsoft.json | compound | 3 | 1.25x | 1.50x | 5.6 |
 | scenarios | single | 5 | 1.00x | 1.00x | 5.0 |
 | use | single | 5 | 1.00x | 1.00x | 5.0 |
 | aot compatibility | compound | 3 | 1.10x | 1.50x | 5.0 |
 | native aot | compound | 3 | 1.10x | 1.50x | 5.0 |
 | compile-time | compound | 3 | 1.00x | 1.50x | 4.5 |
+| system.text.json | compound | 2 | 1.50x | 1.50x | 4.5 |
 | system.text.json source generation | compound | 2 | 1.50x | 1.50x | 4.5 |
 | generics | single | 4 | 1.00x | 1.00x | 4.0 |
 | migration | single | 4 | 1.00x | 1.00x | 4.0 |
 | newtonsoft | single | 4 | 1.00x | 1.00x | 4.0 |
 | operations | single | 4 | 1.00x | 1.00x | 4.0 |
 | overhead | single | 4 | 1.00x | 1.00x | 4.0 |
-| patterns | single | 4 | 1.00x | 1.00x | 4.0 |
 | system | single | 4 | 1.00x | 1.00x | 4.0 |
 | text | single | 4 | 1.00x | 1.00x | 4.0 |
 | these | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -54,7 +53,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | need | single | 3 | 1.00x | 1.00x | 3.0 |
 | options | single | 3 | 1.00x | 1.00x | 3.0 |
 | parameters | single | 3 | 1.00x | 1.00x | 3.0 |
-| performance | single | 3 | 1.00x | 1.00x | 3.0 |
 | type-safe | compound | 2 | 1.00x | 1.50x | 3.0 |
 | unconstrained | single | 3 | 1.00x | 1.00x | 3.0 |
 | usage | single | 3 | 1.00x | 1.00x | 3.0 |

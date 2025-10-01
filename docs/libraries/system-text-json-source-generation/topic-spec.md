@@ -44,7 +44,7 @@ System.Text.Json source generation provides compile-time generation of serializa
 | Description | Compile-time generation of JSON serialization code for high-performance, AOT-compatible operations with automatic property naming and type-safe generic support. |
 | Complexity | 0.45 |
 | Audience | Performance-focused developers, Native AOT developers, Enterprise developers |
-| Priority | 2 (High - important for AOT scenarios) |
+| Priority | 2 (High - important for AOT scenacd doterios) |
 | Version | 6.0 |
 | Year | 2021 |
 
@@ -68,12 +68,28 @@ System.Text.Json source generation provides compile-time generation of serializa
 | property naming policies | 4.52 |
 | type-safe | 4.52 |
 | reflection-based | 3.59 |
-| high-performance | 3.53 |
+| newtonsoft.json | 3.56 |
 | system.text.json source generation | 3.51 |
 | source generation | 3.24 |
 | native aot | 3.22 |
 | naming | 3.08 |
 | context | 3.06 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| JsonSerializable | attribute | 24 |
+| JsonSourceGenerationOptions | attribute | 18 |
+| JsonSerializer.Serialize | method | 14 |
+| System.Text.Json | namespace | 11 |
+| System.Text | namespace | 7 |
+| JsonSerializer.Deserialize | method | 5 |
+| JsonTypeInfoResolver.Combine | method | 5 |
+| JsonPropertyName | attribute | 4 |
+| System.Text.Json.JsonSerializer | namespace | 4 |
+| System.Text.Json.JsonSerializer.Serialize | type | 4 |
+| GetFromJsonAsync | method | 3 |
 
 ## Diagnostic Codes
 
@@ -102,3 +118,32 @@ System.Text.Json source generation provides compile-time generation of serializa
 | SYSLIB1222 | Constructor parameter '{0}' has a JsonConstructorAttribute annotation but is inaccessible. |
 | SYSLIB1223 | JsonConverterAttribute '{0}' is invalid. |
 | SYSLIB1225 | JSON source generation does not support the specified configuration. |
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries/system-text-json | 0.8614 |
+| cli | cli/native-aot | 0.7595 |
+| dotnet | dotnet | 0.6763 |
+| libraries | libraries/system-commandline | 0.6746 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6743 |
+| cli | cli/file-based-apps | 0.6693 |
+| csharp | csharp/csharp-14-features | 0.6648 |
+| csharp | csharp/object-initialization | 0.6641 |
+| cli | cli/publishing-and-deployment | 0.6453 |
+| cli | cli/assembly-trimming | 0.6435 |
+| csharp | csharp/collection-initialization | 0.6331 |
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6149 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| cli/native-aot | reflection-based | 1.359 |
+| cli/native-aot | system.text.json source generation | 1.351 |
+| cli/native-aot | source generation | 1.324 |
+| cli/native-aot | native aot | 1.322 |
+| cli/publishing-and-deployment | native aot | 1.322 |
+| libraries/system-text-json | newtonsoft.json | 1.356 |
+| libraries/system-text-json | source generation | 1.324 |
+

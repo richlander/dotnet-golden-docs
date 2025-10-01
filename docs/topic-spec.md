@@ -54,3 +54,21 @@
 - .NET runtime
 - C# programming
 - modern applications
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| Console.WriteLine | method | 63 |
+| JsonSerializable | attribute | 38 |
+| JsonSerializer.Serialize | method | 29 |
+| Build | method | 25 |
+| Add | method | 21 |
+| GetResponseAsync | method | 21 |
+| JsonSourceGenerationOptions | attribute | 21 |
+| EvaluateAsync | method | 17 |
+| AddOption | method | 14 |
+| ChatClientBuilder | method | 14 |
+| Microsoft.Extensions | namespace | 14 |
+| System.Text.Json | namespace | 13 |
+

@@ -53,17 +53,31 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Keyword | Score |
 |---------|-------|
 | zero-allocation | 4.54 |
-| compound assignment operators | 4.52 |
 | expression trees | 4.52 |
 | first-class span | 4.52 |
 | named arguments | 4.52 |
 | stack-only | 4.52 |
+| assignment | 3.06 |
 | extension | 3.05 |
-| span | 3.05 |
-| assignment | 3.04 |
 | enhanced | 3.04 |
+| first-class | 3.03 |
 | keyword | 3.03 |
 | lambda | 3.03 |
+| partial | 3.03 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| Console.WriteLine | method | 8 |
+| LastIndexOf | method | 4 |
+| LogMessage | method | 4 |
+| MyClass | method | 4 |
+| ArgumentNullException | method | 3 |
+| CelebrateBirthday | method | 3 |
+| GetFileExtension | method | 3 |
+| Trim | method | 3 |
+| TryParse | method | 3 |
 
 ## Critical limitations
 
@@ -113,3 +127,20 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | CS9323 | User-defined compound assignment operator '{0}' has invalid signature. |
 | CS9324 | Operator '{0}' is not valid for compound assignment with operands of type '{1}' and '{2}'. |
 | CS9329 | Extension block collision with type '{0}'.
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| csharp | csharp | 0.8373 |
+| csharp | csharp/object-initialization | 0.8118 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7967 |
+| csharp | csharp/collection-initialization | 0.7800 |
+| libraries | libraries | 0.7280 |
+| dotnet | dotnet | 0.7274 |
+| libraries | libraries/system-text-json | 0.7242 |
+| cli | cli/assembly-trimming | 0.6853 |
+| cli | cli/file-based-apps | 0.6828 |
+| cli | cli/native-aot | 0.6593 |
+| extensions | extensions/microsoft-extensions-ai | 0.6469 |
+| cli | cli/build-and-compilation | 0.6456 |
+

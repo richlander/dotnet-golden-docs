@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 219
-Total word occurrences: 408
+Total word occurrences: 402
 Total document words: 597
 
 | Word | Count | Document Concentration |
@@ -20,6 +20,7 @@ Total document words: 597
 | assess | 1 | 0.0017 |
 | assessments | 1 | 0.0017 |
 | associated | 1 | 0.0017 |
+| automated | 1 | 0.0017 |
 | basic | 1 | 0.0017 |
 | behavior | 1 | 0.0017 |
 | benefits | 1 | 0.0017 |
@@ -64,7 +65,6 @@ Total document words: 597
 | follows | 1 | 0.0017 |
 | foundry-powered | 1 | 0.0017 |
 | foundry's | 1 | 0.0017 |
-| framework | 1 | 0.0017 |
 | frameworks | 1 | 0.0017 |
 | functionality | 1 | 0.0017 |
 | gates | 1 | 0.0017 |
@@ -133,7 +133,6 @@ Total document words: 597
 | seamlessly | 1 | 0.0017 |
 | security | 1 | 0.0017 |
 | separate | 1 | 0.0017 |
-| service | 1 | 0.0017 |
 | set | 1 | 0.0017 |
 | settings | 1 | 0.0017 |
 | significant | 1 | 0.0017 |
@@ -143,6 +142,7 @@ Total document words: 597
 | storage | 1 | 0.0017 |
 | strategies | 1 | 0.0017 |
 | strategy | 1 | 0.0017 |
+| strongly-typed | 1 | 0.0017 |
 | support | 1 | 0.0017 |
 | synchronous | 1 | 0.0017 |
 | systematic | 1 | 0.0017 |
@@ -161,6 +161,7 @@ Total document words: 597
 | works | 1 | 0.0017 |
 | abstractions | 2 | 0.0034 |
 | across | 2 | 0.0034 |
+| ai-generated | 2 | 0.0034 |
 | allowing | 2 | 0.0034 |
 | analysis | 2 | 0.0034 |
 | architecture | 2 | 0.0034 |
@@ -171,7 +172,6 @@ Total document words: 597
 | capabilities | 2 | 0.0034 |
 | coherence | 2 | 0.0034 |
 | configuration | 2 | 0.0034 |
-| cost | 2 | 0.0034 |
 | deployments | 2 | 0.0034 |
 | designed | 2 | 0.0034 |
 | developers | 2 | 0.0034 |
@@ -196,7 +196,6 @@ Total document words: 597
 | setup | 2 | 0.0034 |
 | tests | 2 | 0.0034 |
 | trails | 2 | 0.0034 |
-| automated | 3 | 0.0050 |
 | cd | 3 | 0.0050 |
 | ci | 3 | 0.0050 |
 | compliance | 3 | 0.0050 |
@@ -213,6 +212,7 @@ Total document words: 597
 | assurance | 4 | 0.0067 |
 | caching | 4 | 0.0067 |
 | content | 4 | 0.0067 |
+| llm-based | 4 | 0.0067 |
 | responses | 4 | 0.0067 |
 | vs | 4 | 0.0067 |
 | nlp | 5 | 0.0084 |
@@ -222,7 +222,7 @@ Total document words: 597
 | metrics | 6 | 0.0101 |
 | extensions | 7 | 0.0117 |
 | microsoft | 7 | 0.0117 |
-| safety | 10 | 0.0168 |
-| quality | 14 | 0.0235 |
-| ai | 24 | 0.0402 |
+| safety | 7 | 0.0117 |
+| quality | 12 | 0.0201 |
+| ai | 22 | 0.0369 |
 | evaluation | 30 | 0.0503 |

@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 155
-Total word occurrences: 212
+Total unique words: 154
+Total word occurrences: 214
 Total document words: 423
 
 | Word | Count | Document Concentration |
@@ -102,7 +102,6 @@ Total document words: 423
 | options | 1 | 0.0024 |
 | overview | 1 | 0.0024 |
 | parameters | 1 | 0.0024 |
-| patterns | 1 | 0.0024 |
 | popular | 1 | 0.0024 |
 | prefer | 1 | 0.0024 |
 | provides | 1 | 0.0024 |
@@ -120,7 +119,6 @@ Total document words: 423
 | step | 1 | 0.0024 |
 | support | 1 | 0.0024 |
 | swift | 1 | 0.0024 |
-| target | 1 | 0.0024 |
 | toward | 1 | 0.0024 |
 | understand | 1 | 0.0024 |
 | used | 1 | 0.0024 |
@@ -134,6 +132,7 @@ Total document words: 423
 | clear | 2 | 0.0047 |
 | code | 2 | 0.0047 |
 | common | 2 | 0.0047 |
+| compile-time | 2 | 0.0047 |
 | compiler | 2 | 0.0047 |
 | developers | 2 | 0.0047 |
 | elements | 2 | 0.0047 |
@@ -161,4 +160,4 @@ Total document words: 423
 | use | 4 | 0.0095 |
 | spread | 5 | 0.0118 |
 | collections | 6 | 0.0142 |
-| syntax | 8 | 0.0189 |
+| syntax | 10 | 0.0236 |

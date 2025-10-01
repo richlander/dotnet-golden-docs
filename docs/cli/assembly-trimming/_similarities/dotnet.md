@@ -1,3 +1,3 @@
 | Topic (cli) | Neighbor (dotnet) | Similarity |
 |-------------|-------------------|------------|
-| cli/assembly-trimming | dotnet | 0.7114 |
+| cli/assembly-trimming | dotnet | 0.7190 |

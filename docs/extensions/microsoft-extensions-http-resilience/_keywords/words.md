@@ -1,15 +1,14 @@
 # Unified Local Analysis
 
-Combined 4 compound terms and 179 single words
-Total unique terms: 183
+Combined 5 compound terms and 175 single words
+Total unique terms: 179
 Terms with score ≥ 3.0: 35
-Total term occurrences: 361
+Total term occurrences: 356
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
@@ -21,6 +20,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | configuration | single | 7 | 1.00x | 1.00x | 7.0 |
 | httpclient | single | 7 | 1.00x | 1.00x | 7.0 |
 | standard | single | 7 | 1.00x | 1.00x | 7.0 |
+| microsoft.extensions.http.resilience | compound | 3 | 1.50x | 1.50x | 6.8 |
 | monitoring | single | 6 | 1.00x | 1.00x | 6.0 |
 | strategies | single | 6 | 1.00x | 1.00x | 6.0 |
 | built | single | 5 | 1.00x | 1.00x | 5.0 |
@@ -45,7 +45,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | essential | single | 3 | 1.00x | 1.00x | 3.0 |
 | failures | single | 3 | 1.00x | 1.00x | 3.0 |
 | integration | single | 3 | 1.00x | 1.00x | 3.0 |
-| patterns | single | 3 | 1.00x | 1.00x | 3.0 |
 | providing | single | 3 | 1.00x | 1.00x | 3.0 |
 | reliable | single | 3 | 1.00x | 1.00x | 3.0 |
 | require | single | 3 | 1.00x | 1.00x | 3.0 |

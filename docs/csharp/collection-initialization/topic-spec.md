@@ -65,15 +65,22 @@ Collection initialization encompasses the traditional and modern approaches to c
 | collection initialization | 4.58 |
 | collection type | 4.54 |
 | initialization patterns | 4.54 |
+| 9.0 | 4.52 |
 | collection initializer syntax | 4.52 |
 | data management | 4.52 |
 | dictionary initializers | 4.52 |
 | performance considerations | 4.52 |
+| target-typed new | 4.52 |
 | target-typed new expressions | 4.52 |
+| target-typed | 3.05 |
 | approach | 3.03 |
-| approaches | 3.03 |
-| different | 3.03 |
-| initializers | 3.03 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| Add | method | 15 |
+| AddRange | method | 5 |
 
 ## Diagnostic Codes
 
@@ -85,3 +92,20 @@ Collection initialization encompasses the traditional and modern approaches to c
 | CS0029 | Cannot implicitly convert type '{0}' to '{1}' |
 | CS0246 | The type or namespace name '{0}' could not be found |
 | CS1729 | '{0}' does not contain a constructor that takes '{1}' arguments |
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| csharp | csharp/object-initialization | 0.8825 |
+| csharp | csharp/collection-expressions | 0.8672 |
+| csharp | csharp/csharp-14-features | 0.7800 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7191 |
+| libraries | libraries | 0.6949 |
+| libraries | libraries/system-text-json | 0.6831 |
+| dotnet | dotnet | 0.6516 |
+| cli | cli/assembly-trimming | 0.6366 |
+| cli | cli/file-based-apps | 0.6257 |
+| cli | cli | 0.5979 |
+| cli | cli/build-and-compilation | 0.5934 |
+| extensions | extensions/microsoft-extensions-ai | 0.5802 |
+

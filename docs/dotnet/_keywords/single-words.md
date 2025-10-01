@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 389
-Total word occurrences: 711
+Total unique words: 394
+Total word occurrences: 721
 Total document words: 1212
 
 | Word | Count | Document Concentration |
@@ -12,7 +12,6 @@ Total document words: 1212
 | advanced | 1 | 0.0008 |
 | age | 1 | 0.0008 |
 | agentic | 1 | 0.0008 |
-| ai | 1 | 0.0008 |
 | allowing | 1 | 0.0008 |
 | analyze | 1 | 0.0008 |
 | annual | 1 | 0.0008 |
@@ -25,6 +24,7 @@ Total document words: 1212
 | await | 1 | 0.0008 |
 | aware | 1 | 0.0008 |
 | basic | 1 | 0.0008 |
+| bcl | 1 | 0.0008 |
 | between | 1 | 0.0008 |
 | binary | 1 | 0.0008 |
 | blazor | 1 | 0.0008 |
@@ -35,8 +35,10 @@ Total document words: 1212
 | called | 1 | 0.0008 |
 | capabilities | 1 | 0.0008 |
 | characteristics | 1 | 0.0008 |
+| cloud-native | 1 | 0.0008 |
 | clr | 1 | 0.0008 |
 | codebase | 1 | 0.0008 |
+| command-line | 1 | 0.0008 |
 | commonly | 1 | 0.0008 |
 | companies | 1 | 0.0008 |
 | compatible | 1 | 0.0008 |
@@ -104,7 +106,6 @@ Total document words: 1212
 | high-fidelity | 1 | 0.0008 |
 | high-scale | 1 | 0.0008 |
 | high-throughput | 1 | 0.0008 |
-| higher | 1 | 0.0008 |
 | hundreds | 1 | 0.0008 |
 | ide | 1 | 0.0008 |
 | include | 1 | 0.0008 |
@@ -121,6 +122,7 @@ Total document words: 1212
 | javascript | 1 | 0.0008 |
 | json | 1 | 0.0008 |
 | kinds | 1 | 0.0008 |
+| language | 1 | 0.0008 |
 | large | 1 | 0.0008 |
 | larger | 1 | 0.0008 |
 | late-bound | 1 | 0.0008 |
@@ -129,7 +131,7 @@ Total document words: 1212
 | licensed | 1 | 0.0008 |
 | lightweight | 1 | 0.0008 |
 | limitations | 1 | 0.0008 |
-| low | 1 | 0.0008 |
+| low-cost | 1 | 0.0008 |
 | lowest | 1 | 0.0008 |
 | machine | 1 | 0.0008 |
 | maintained | 1 | 0.0008 |
@@ -185,7 +187,6 @@ Total document words: 1212
 | raw | 1 | 0.0008 |
 | records | 1 | 0.0008 |
 | reference | 1 | 0.0008 |
-| reflection | 1 | 0.0008 |
 | regular | 1 | 0.0008 |
 | related | 1 | 0.0008 |
 | relationships | 1 | 0.0008 |
@@ -201,6 +202,7 @@ Total document words: 1212
 | rethought | 1 | 0.0008 |
 | runs | 1 | 0.0008 |
 | runtime's | 1 | 0.0008 |
+| safe | 1 | 0.0008 |
 | scalable | 1 | 0.0008 |
 | seamlessly | 1 | 0.0008 |
 | secure | 1 | 0.0008 |
@@ -214,9 +216,7 @@ Total document words: 1212
 | source-generated | 1 | 0.0008 |
 | spans | 1 | 0.0008 |
 | specialized | 1 | 0.0008 |
-| specific | 1 | 0.0008 |
 | spectrum | 1 | 0.0008 |
-| stack | 1 | 0.0008 |
 | stackoverflow | 1 | 0.0008 |
 | standard | 1 | 0.0008 |
 | statement | 1 | 0.0008 |
@@ -233,10 +233,12 @@ Total document words: 1212
 | threadpool | 1 | 0.0008 |
 | three | 1 | 0.0008 |
 | tight | 1 | 0.0008 |
+| trade-offs | 1 | 0.0008 |
 | tradeoff | 1 | 0.0008 |
 | tremendous | 1 | 0.0008 |
 | tuesday | 1 | 0.0008 |
 | two | 1 | 0.0008 |
+| type-safe | 1 | 0.0008 |
 | typically | 1 | 0.0008 |
 | typing | 1 | 0.0008 |
 | uis | 1 | 0.0008 |
@@ -273,7 +275,6 @@ Total document words: 1212
 | client | 2 | 0.0017 |
 | concurrency | 2 | 0.0017 |
 | core | 2 | 0.0017 |
-| cost | 2 | 0.0017 |
 | design | 2 | 0.0017 |
 | designed | 2 | 0.0017 |
 | distributions | 2 | 0.0017 |
@@ -293,6 +294,8 @@ Total document words: 1212
 | github | 2 | 0.0017 |
 | grpc | 2 | 0.0017 |
 | hardware | 2 | 0.0017 |
+| high-performance | 2 | 0.0017 |
+| higher-level | 2 | 0.0017 |
 | implementations | 2 | 0.0017 |
 | includes | 2 | 0.0017 |
 | into | 2 | 0.0017 |
@@ -306,6 +309,7 @@ Total document words: 1212
 | maui | 2 | 0.0017 |
 | microsoft | 2 | 0.0017 |
 | need | 2 | 0.0017 |
+| object-oriented | 2 | 0.0017 |
 | offering | 2 | 0.0017 |
 | opentelemetry | 2 | 0.0017 |
 | operating | 2 | 0.0017 |
@@ -314,10 +318,12 @@ Total document words: 1212
 | os | 2 | 0.0017 |
 | packages | 2 | 0.0017 |
 | particularly | 2 | 0.0017 |
+| platform-specific | 2 | 0.0017 |
 | pointers | 2 | 0.0017 |
 | portable | 2 | 0.0017 |
 | primary | 2 | 0.0017 |
 | primitives | 2 | 0.0017 |
+| self-tuning | 2 | 0.0017 |
 | server | 2 | 0.0017 |
 | several | 2 | 0.0017 |
 | specialization | 2 | 0.0017 |
@@ -343,20 +349,20 @@ Total document words: 1212
 | developer | 3 | 0.0025 |
 | enable | 3 | 0.0025 |
 | extensive | 3 | 0.0025 |
-| framework | 3 | 0.0025 |
+| gc | 3 | 0.0025 |
+| high-level | 3 | 0.0025 |
 | interop | 3 | 0.0025 |
 | ios | 3 | 0.0025 |
 | it's | 3 | 0.0025 |
-| language | 3 | 0.0025 |
+| low-level | 3 | 0.0025 |
 | macos | 3 | 0.0025 |
 | manual | 3 | 0.0025 |
 | nuget | 3 | 0.0025 |
 | offers | 3 | 0.0025 |
+| open-source | 3 | 0.0025 |
 | platforms | 3 | 0.0025 |
 | productivity | 3 | 0.0025 |
-| programs | 3 | 0.0025 |
 | run | 3 | 0.0025 |
-| safe | 3 | 0.0025 |
 | solutions | 3 | 0.0025 |
 | targeting | 3 | 0.0025 |
 | thousands | 3 | 0.0025 |
@@ -366,14 +372,12 @@ Total document words: 1212
 | visual | 3 | 0.0025 |
 | across | 4 | 0.0033 |
 | automatic | 4 | 0.0033 |
-| cloud | 4 | 0.0033 |
 | components | 4 | 0.0033 |
 | developers | 4 | 0.0033 |
 | features | 4 | 0.0033 |
 | linux | 4 | 0.0033 |
 | many | 4 | 0.0033 |
 | pillars | 4 | 0.0033 |
-| platform | 4 | 0.0033 |
 | programming | 4 | 0.0033 |
 | set | 4 | 0.0033 |
 | web | 4 | 0.0033 |
@@ -390,6 +394,7 @@ Total document words: 1212
 | multiple | 7 | 0.0058 |
 | tools | 7 | 0.0058 |
 | windows | 7 | 0.0058 |
+| cross-platform | 8 | 0.0066 |
 | like | 10 | 0.0083 |
 | while | 10 | 0.0083 |
 | libraries | 11 | 0.0091 |

@@ -55,9 +55,42 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | net cli | 4.52 |
 | package restore | 4.52 |
 | cli | 3.23 |
-| development | 3.12 |
 | command-line | 3.12 |
+| development | 3.10 |
 | consistent | 3.05 |
 | sdk | 3.05 |
 | cache | 3.04 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| cli | cli/build-and-compilation | 0.8459 |
+| cli | cli/file-based-apps | 0.7994 |
+| libraries | libraries/system-commandline | 0.7970 |
+| cli | cli/publishing-and-deployment | 0.7850 |
+| dotnet | dotnet | 0.7804 |
+| libraries | libraries | 0.7484 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6809 |
+| extensions | extensions/microsoft-extensions-ai | 0.6615 |
+| csharp | csharp | 0.6447 |
+| csharp | csharp/csharp-14-features | 0.6346 |
+| csharp | csharp/object-initialization | 0.6195 |
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6142 |
+
+### Similarity Metadata
+
+| Category | Threshold | Percentile | Total Pairs |
+|----------|-----------|------------|-------------|
+| cli | 0.7850 | P50 | 5 |
+| csharp | 0.6195 | P50 | 5 |
+| dotnet | 0.7804 | P50 | 1 |
+| extensions | 0.6142 | P50 | 3 |
+| libraries | 0.6809 | P50 | 5 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/system-commandline | command-line | 1.312 |
 

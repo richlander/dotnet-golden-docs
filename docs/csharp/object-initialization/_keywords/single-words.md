@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 98
-Total word occurrences: 143
+Total unique words: 99
+Total word occurrences: 139
 Total document words: 287
 
 | Word | Count | Document Concentration |
@@ -42,6 +42,7 @@ Total document words: 287
 | good | 1 | 0.0035 |
 | immutability | 1 | 0.0035 |
 | initialize | 1 | 0.0035 |
+| initializer | 1 | 0.0035 |
 | initializers | 1 | 0.0035 |
 | intentions | 1 | 0.0035 |
 | known | 1 | 0.0035 |
@@ -66,6 +67,7 @@ Total document words: 287
 | overloads | 1 | 0.0035 |
 | overview | 1 | 0.0035 |
 | parameters | 1 | 0.0035 |
+| patterns | 1 | 0.0035 |
 | powerful | 1 | 0.0035 |
 | pre-size | 1 | 0.0035 |
 | prefer | 1 | 0.0035 |
@@ -77,6 +79,7 @@ Total document words: 287
 | short-lived | 1 | 0.0035 |
 | significantly | 1 | 0.0035 |
 | structures | 1 | 0.0035 |
+| syntax | 1 | 0.0035 |
 | temporary | 1 | 0.0035 |
 | their | 1 | 0.0035 |
 | these | 1 | 0.0035 |
@@ -84,24 +87,22 @@ Total document words: 287
 | versions | 1 | 0.0035 |
 | writing | 1 | 0.0035 |
 | advanced | 2 | 0.0070 |
+| anti-patterns | 2 | 0.0070 |
 | collections | 2 | 0.0070 |
 | essential | 2 | 0.0070 |
-| init | 2 | 0.0070 |
+| init-only | 2 | 0.0070 |
 | nested | 2 | 0.0070 |
-| pattern | 2 | 0.0070 |
 | readable | 2 | 0.0070 |
 | self-documenting | 2 | 0.0070 |
 | simple | 2 | 0.0070 |
 | constructors | 3 | 0.0105 |
 | immutable | 3 | 0.0105 |
 | modern | 3 | 0.0105 |
-| patterns | 3 | 0.0105 |
 | records | 3 | 0.0105 |
 | required | 3 | 0.0105 |
 | basic | 4 | 0.0139 |
 | code | 4 | 0.0139 |
 | constructor | 4 | 0.0139 |
-| object | 4 | 0.0139 |
 | objects | 4 | 0.0139 |
 | use | 5 | 0.0174 |
 | properties | 6 | 0.0209 |

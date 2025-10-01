@@ -71,7 +71,6 @@
 |---------|-------|
 | open-source | 4.57 |
 | garbage collector | 4.54 |
-| gc | 4.54 |
 | industry standards | 4.54 |
 | higher-level | 4.52 |
 | low-cost | 4.52 |
@@ -81,4 +80,38 @@
 | high-level | 3.54 |
 | community | 3.05 |
 | via | 3.05 |
+| components | 3.04 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries | 0.8198 |
+| csharp | csharp | 0.7851 |
+| cli | cli | 0.7804 |
+| cli | cli/native-aot | 0.7752 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7626 |
+| cli | cli/build-and-compilation | 0.7617 |
+| cli | cli/file-based-apps | 0.7610 |
+| libraries | libraries/system-text-json | 0.7299 |
+| csharp | csharp/csharp-14-features | 0.7274 |
+| extensions | extensions/microsoft-extensions-ai | 0.7043 |
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6825 |
+| csharp | csharp/object-initialization | 0.6808 |
+
+### Similarity Metadata
+
+| Category | Threshold | Percentile | Total Pairs |
+|----------|-----------|------------|-------------|
+| cli | 0.7610 | P50 | 6 |
+| csharp | 0.6808 | P50 | 5 |
+| extensions | 0.6825 | P50 | 3 |
+| libraries | 0.7299 | P50 | 5 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp | low-level | 1.356 |
+| csharp | object-oriented | 1.356 |
 

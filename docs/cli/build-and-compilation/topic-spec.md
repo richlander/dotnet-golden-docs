@@ -58,6 +58,23 @@ Build and compilation encompasses the development-time workflow of transforming 
 | dependency resolution | 4.52 |
 | msbuild integration | 4.52 |
 | performance optimization | 4.52 |
-| build | 3.17 |
+| build | 3.15 |
 | parallel | 3.03 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| cli | cli | 0.8459 |
+| cli | cli/publishing-and-deployment | 0.8120 |
+| cli | cli/file-based-apps | 0.7631 |
+| dotnet | dotnet | 0.7617 |
+| libraries | libraries | 0.7280 |
+| libraries | libraries/system-commandline | 0.6689 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6622 |
+| csharp | csharp/csharp-14-features | 0.6456 |
+| csharp | csharp | 0.6385 |
+| csharp | csharp/object-initialization | 0.6156 |
+| extensions | extensions/microsoft-extensions-http-resilience | 0.5987 |
+| extensions | extensions/microsoft-extensions-ai | 0.5919 |
 

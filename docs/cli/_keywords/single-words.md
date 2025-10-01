@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 321
-Total word occurrences: 584
+Total unique words: 319
+Total word occurrences: 575
 Total document words: 865
 
 | Word | Count | Document Concentration |
@@ -34,7 +34,6 @@ Total document words: 865
 | changed | 1 | 0.0012 |
 | changes | 1 | 0.0012 |
 | cli-based | 1 | 0.0012 |
-| cloud | 1 | 0.0012 |
 | coexist | 1 | 0.0012 |
 | cold | 1 | 0.0012 |
 | collaboration | 1 | 0.0012 |
@@ -84,8 +83,7 @@ Total document words: 865
 | extension | 1 | 0.0012 |
 | fallback | 1 | 0.0012 |
 | faster | 1 | 0.0012 |
-| file | 1 | 0.0012 |
-| first | 1 | 0.0012 |
+| file-based | 1 | 0.0012 |
 | first-time | 1 | 0.0012 |
 | follows | 1 | 0.0012 |
 | format | 1 | 0.0012 |
@@ -147,6 +145,7 @@ Total document words: 865
 | parallelizes | 1 | 0.0012 |
 | particularly | 1 | 0.0012 |
 | paths | 1 | 0.0012 |
+| patterns | 1 | 0.0012 |
 | pinning | 1 | 0.0012 |
 | population | 1 | 0.0012 |
 | portability | 1 | 0.0012 |
@@ -177,14 +176,15 @@ Total document words: 865
 | security | 1 | 0.0012 |
 | security-critical | 1 | 0.0012 |
 | see | 1 | 0.0012 |
+| self-contained | 1 | 0.0012 |
 | serves | 1 | 0.0012 |
 | several | 1 | 0.0012 |
 | shared | 1 | 0.0012 |
 | signature | 1 | 0.0012 |
 | signing | 1 | 0.0012 |
+| single-file | 1 | 0.0012 |
 | slower | 1 | 0.0012 |
 | sources | 1 | 0.0012 |
-| specific | 1 | 0.0012 |
 | stages | 1 | 0.0012 |
 | start | 1 | 0.0012 |
 | streamlined | 1 | 0.0012 |
@@ -195,7 +195,6 @@ Total document words: 865
 | terminal | 1 | 0.0012 |
 | test | 1 | 0.0012 |
 | their | 1 | 0.0012 |
-| time | 1 | 0.0012 |
 | times | 1 | 0.0012 |
 | timestamps | 1 | 0.0012 |
 | toolchain | 1 | 0.0012 |
@@ -228,7 +227,6 @@ Total document words: 865
 | case | 2 | 0.0023 |
 | cause | 2 | 0.0023 |
 | cd | 2 | 0.0023 |
-| command | 2 | 0.0023 |
 | common | 2 | 0.0023 |
 | customization | 2 | 0.0023 |
 | default | 2 | 0.0023 |
@@ -245,7 +243,6 @@ Total document words: 865
 | hosting | 2 | 0.0023 |
 | incremental | 2 | 0.0023 |
 | installation | 2 | 0.0023 |
-| integrated | 2 | 0.0023 |
 | json | 2 | 0.0023 |
 | length | 2 | 0.0023 |
 | linux | 2 | 0.0023 |
@@ -256,6 +253,7 @@ Total document words: 865
 | network | 2 | 0.0023 |
 | parallel | 2 | 0.0023 |
 | permission | 2 | 0.0023 |
+| platform-specific | 2 | 0.0023 |
 | platforms | 2 | 0.0023 |
 | publishing | 2 | 0.0023 |
 | related | 2 | 0.0023 |
@@ -279,6 +277,7 @@ Total document words: 865
 | building | 3 | 0.0035 |
 | caching | 3 | 0.0035 |
 | ci | 3 | 0.0035 |
+| command-line | 3 | 0.0035 |
 | configuration | 3 | 0.0035 |
 | downloads | 3 | 0.0035 |
 | efficient | 3 | 0.0035 |
@@ -289,11 +288,10 @@ Total document words: 865
 | like | 3 | 0.0035 |
 | operating | 3 | 0.0035 |
 | organization | 3 | 0.0035 |
-| patterns | 3 | 0.0035 |
 | permissions | 3 | 0.0035 |
 | pipeline | 3 | 0.0035 |
-| platform | 3 | 0.0035 |
 | primary | 3 | 0.0035 |
+| project | 3 | 0.0035 |
 | require | 3 | 0.0035 |
 | restore | 3 | 0.0035 |
 | solutions | 3 | 0.0035 |
@@ -302,6 +300,7 @@ Total document words: 865
 | versions | 3 | 0.0035 |
 | cache | 4 | 0.0046 |
 | code | 4 | 0.0046 |
+| cross-platform | 4 | 0.0046 |
 | limitations | 4 | 0.0046 |
 | multiple | 4 | 0.0046 |
 | path | 4 | 0.0046 |
@@ -321,10 +320,9 @@ Total document words: 865
 | builds | 7 | 0.0081 |
 | across | 8 | 0.0092 |
 | global | 8 | 0.0092 |
-| project | 8 | 0.0092 |
 | runtime | 8 | 0.0092 |
 | commands | 9 | 0.0104 |
+| development | 10 | 0.0116 |
 | package | 11 | 0.0127 |
-| development | 12 | 0.0139 |
 | tools | 13 | 0.0150 |
 | cli | 23 | 0.0266 |

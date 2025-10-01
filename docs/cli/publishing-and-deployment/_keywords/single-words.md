@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 164
-Total word occurrences: 322
+Total unique words: 168
+Total word occurrences: 340
 Total document words: 504
 
 | Word | Count | Document Concentration |
@@ -17,6 +17,7 @@ Total document words: 504
 | awareness | 1 | 0.0020 |
 | balanced | 1 | 0.0020 |
 | better | 1 | 0.0020 |
+| build-time | 1 | 0.0020 |
 | building | 1 | 0.0020 |
 | clutter | 1 | 0.0020 |
 | combinations | 1 | 0.0020 |
@@ -39,7 +40,6 @@ Total document words: 504
 | faster | 1 | 0.0020 |
 | feature | 1 | 0.0020 |
 | first-run | 1 | 0.0020 |
-| framework-dependent | 1 | 0.0020 |
 | frequent | 1 | 0.0020 |
 | fundamentally | 1 | 0.0020 |
 | highly | 1 | 0.0020 |
@@ -67,6 +67,7 @@ Total document words: 504
 | output | 1 | 0.0020 |
 | overhead | 1 | 0.0020 |
 | pipeline | 1 | 0.0020 |
+| platform-specific | 1 | 0.0020 |
 | portability | 1 | 0.0020 |
 | pre-installed | 1 | 0.0020 |
 | principles | 1 | 0.0020 |
@@ -78,7 +79,6 @@ Total document words: 504
 | publish | 1 | 0.0020 |
 | rationale | 1 | 0.0020 |
 | reduction | 1 | 0.0020 |
-| reflection | 1 | 0.0020 |
 | resource-constrained | 1 | 0.0020 |
 | restarts | 1 | 0.0020 |
 | restrictions | 1 | 0.0020 |
@@ -109,12 +109,15 @@ Total document words: 504
 | workflows | 1 | 0.0020 |
 | cd | 2 | 0.0040 |
 | ci | 2 | 0.0040 |
+| cloud-native | 2 | 0.0040 |
 | cold | 2 | 0.0040 |
 | common | 2 | 0.0040 |
 | consistent | 2 | 0.0040 |
 | control | 2 | 0.0040 |
 | desktop | 2 | 0.0040 |
+| development-time | 2 | 0.0040 |
 | devices | 2 | 0.0040 |
+| distribution-time | 2 | 0.0040 |
 | environment | 2 | 0.0040 |
 | executable | 2 | 0.0040 |
 | executables | 2 | 0.0040 |
@@ -128,8 +131,6 @@ Total document words: 504
 | multiple | 2 | 0.0040 |
 | overview | 2 | 0.0040 |
 | packaging | 2 | 0.0040 |
-| performance | 2 | 0.0040 |
-| platform | 2 | 0.0040 |
 | recommended | 2 | 0.0040 |
 | reduced | 2 | 0.0040 |
 | requirements | 2 | 0.0040 |
@@ -139,6 +140,7 @@ Total document words: 504
 | strategies | 2 | 0.0040 |
 | targeting | 2 | 0.0040 |
 | tools | 2 | 0.0040 |
+| trade-offs | 2 | 0.0040 |
 | trimmed | 2 | 0.0040 |
 | ultimate | 2 | 0.0040 |
 | usage | 2 | 0.0040 |
@@ -147,6 +149,7 @@ Total document words: 504
 | compilation | 3 | 0.0060 |
 | configuration | 3 | 0.0060 |
 | container | 3 | 0.0060 |
+| cross-platform | 3 | 0.0060 |
 | easy | 3 | 0.0060 |
 | enterprise | 3 | 0.0060 |
 | fastest | 3 | 0.0060 |
@@ -155,18 +158,19 @@ Total document words: 504
 | optimized | 3 | 0.0060 |
 | security | 3 | 0.0060 |
 | shared | 3 | 0.0060 |
-| time | 3 | 0.0060 |
 | updates | 3 | 0.0060 |
-| cloud | 4 | 0.0079 |
+| distribution | 4 | 0.0079 |
 | no | 4 | 0.0079 |
 | optimization | 4 | 0.0079 |
+| single-file | 4 | 0.0079 |
 | benefits | 6 | 0.0119 |
 | case | 6 | 0.0119 |
-| distribution | 6 | 0.0119 |
 | readytorun | 6 | 0.0119 |
 | use | 6 | 0.0119 |
 | deployments | 7 | 0.0139 |
 | startup | 7 | 0.0139 |
+| framework-dependent | 8 | 0.0159 |
+| self-contained | 8 | 0.0159 |
 | size | 8 | 0.0159 |
 | runtime | 10 | 0.0198 |
 | publishing | 11 | 0.0218 |

@@ -2,17 +2,9 @@
   "id": "csharp/inline-arrays",
   "title": "Inline Arrays",
   "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers.",
-  "keywords": [
-    "inline arrays",
-    "InlineArrayAttribute",
-    "fixed-size buffers",
-    "type-safe buffers",
-    "sequential layout",
-    "high-performance arrays",
-    "stack allocation",
-    "span integration",
-    "bounds checking"
-  ],
+  "keywords": null,
+  "authority": null,
+  "apis": null,
   "diagnostic_codes": [
     "CS9166",
     "CS9167",
@@ -61,7 +53,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-25T16:53:14.5267270Z",
+    "generated": "2025-10-01T00:41:05.8904960Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

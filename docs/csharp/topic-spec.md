@@ -69,6 +69,40 @@ C# is a modern, safe, and general purpose language that makes developers product
 | low-level | 3.56 |
 | object-oriented | 3.56 |
 
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| csharp | csharp/csharp-14-features | 0.8373 |
+| csharp | csharp/object-initialization | 0.7932 |
+| dotnet | dotnet | 0.7851 |
+| csharp | csharp/collection-initialization | 0.7500 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7352 |
+| libraries | libraries | 0.7046 |
+| libraries | libraries/system-commandline | 0.6995 |
+| cli | cli/file-based-apps | 0.6755 |
+| cli | cli/native-aot | 0.6473 |
+| cli | cli | 0.6447 |
+| cli | cli/build-and-compilation | 0.6385 |
+| extensions | extensions/microsoft-extensions-ai | 0.6054 |
+
+### Similarity Metadata
+
+| Category | Threshold | Percentile | Total Pairs |
+|----------|-----------|------------|-------------|
+| cli | 0.6385 | P50 | 6 |
+| csharp | 0.7500 | P50 | 4 |
+| dotnet | 0.7851 | P50 | 1 |
+| extensions | 0.5845 | P50 | 3 |
+| libraries | 0.6995 | P50 | 5 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| dotnet | low-level | 1.356 |
+| dotnet | object-oriented | 1.356 |
+
 ## Source Discovery Workflow
 
 For finding authoritative C# language feature content:

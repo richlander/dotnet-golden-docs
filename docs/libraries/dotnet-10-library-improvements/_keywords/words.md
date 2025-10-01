@@ -1,15 +1,14 @@
 # Unified Local Analysis
 
-Combined 6 compound terms and 135 single words
-Total unique terms: 141
-Terms with score ≥ 3.0: 23
-Total term occurrences: 222
+Combined 6 compound terms and 137 single words
+Total unique terms: 140
+Terms with score ≥ 3.0: 25
+Total term occurrences: 225
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
@@ -32,8 +31,10 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | cryptography | single | 3 | 1.00x | 1.00x | 3.0 |
 | duplicate | single | 3 | 1.00x | 1.00x | 3.0 |
 | hex | single | 3 | 1.00x | 1.00x | 3.0 |
+| high-performance | single | 3 | 1.00x | 1.00x | 3.0 |
 | numericordering | single | 3 | 1.00x | 1.00x | 3.0 |
 | options | single | 3 | 1.00x | 1.00x | 3.0 |
+| post-quantum | single | 3 | 1.00x | 1.00x | 3.0 |
 | processing | single | 3 | 1.00x | 1.00x | 3.0 |
 | quantum-resistant | compound | 2 | 1.00x | 1.50x | 3.0 |
 | serialization | single | 3 | 1.00x | 1.00x | 3.0 |

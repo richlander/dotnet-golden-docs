@@ -3,14 +3,67 @@
   "title": "Collection Initialization",
   "description": "Traditional and modern approaches to creating and initializing collections using constructors, target-typed new expressions, and collection initializer syntax.",
   "keywords": [
-    "collection initialization",
-    "constructor syntax",
-    "target-typed new",
-    "collection initializers",
-    "new operator",
-    "List constructor",
-    "Array initialization",
-    "generic collections"
+    {
+      "name": "collection initialization",
+      "score": 4.58
+    },
+    {
+      "name": "collection type",
+      "score": 4.54
+    },
+    {
+      "name": "initialization patterns",
+      "score": 4.54
+    },
+    {
+      "name": "9.0",
+      "score": 4.52
+    },
+    {
+      "name": "collection initializer syntax",
+      "score": 4.52
+    },
+    {
+      "name": "data management",
+      "score": 4.52
+    },
+    {
+      "name": "dictionary initializers",
+      "score": 4.52
+    },
+    {
+      "name": "performance considerations",
+      "score": 4.52
+    },
+    {
+      "name": "target-typed new",
+      "score": 4.52
+    },
+    {
+      "name": "target-typed new expressions",
+      "score": 4.52
+    },
+    {
+      "name": "target-typed",
+      "score": 3.05
+    },
+    {
+      "name": "approach",
+      "score": 3.03
+    }
+  ],
+  "authority": null,
+  "apis": [
+    {
+      "name": "Add",
+      "type": "method",
+      "count": 15
+    },
+    {
+      "name": "AddRange",
+      "type": "method",
+      "count": 5
+    }
   ],
   "diagnostic_codes": [
     "CS0029",
@@ -61,168 +114,168 @@
       {
         "category": "csharp",
         "index": "/csharp/index.json",
-        "similarity_threshold": 0.5,
+        "similarity_threshold": 0.78,
         "topics": [
           {
-            "id": "csharp/object-initialization",
+            "id": "/csharp/object-initialization",
             "name": "Object Initialization",
-            "path": "csharp/object-initialization",
-            "index": "csharp/object-initialization/index.json",
+            "path": "/csharp/object-initialization",
+            "index": "/csharp/object-initialization/index.json",
             "similarity": 0.8825
           },
           {
-            "id": "csharp/collection-expressions",
+            "id": "/csharp/collection-expressions",
             "name": "Collection Expressions",
-            "path": "csharp/collection-expressions",
-            "index": "csharp/collection-expressions/index.json",
-            "similarity": 0.8756
+            "path": "/csharp/collection-expressions",
+            "index": "/csharp/collection-expressions/index.json",
+            "similarity": 0.8672
           },
           {
-            "id": "csharp/csharp-14-features",
+            "id": "/csharp/csharp-14-features",
             "name": "C# 14 Language Features",
-            "path": "csharp/csharp-14-features",
-            "index": "csharp/csharp-14-features/index.json",
-            "similarity": 0.7714
+            "path": "/csharp/csharp-14-features",
+            "index": "/csharp/csharp-14-features/index.json",
+            "similarity": 0.78
           }
         ]
       },
       {
         "category": "libraries",
         "index": "/libraries/index.json",
-        "similarity_threshold": 0.5,
+        "similarity_threshold": 0.6831,
         "topics": [
           {
-            "id": "libraries/dotnet-10-library-improvements",
+            "id": "/libraries/dotnet-10-library-improvements",
             "name": ".NET 10 Libraries Features",
-            "path": "libraries/dotnet-10-library-improvements",
-            "index": "libraries/dotnet-10-library-improvements/index.json",
-            "similarity": 0.7129
+            "path": "/libraries/dotnet-10-library-improvements",
+            "index": "/libraries/dotnet-10-library-improvements/index.json",
+            "similarity": 0.7191
           },
           {
-            "id": "libraries",
+            "id": "/libraries",
             "name": ".NET Libraries",
-            "path": "libraries",
-            "index": "libraries/index.json",
-            "similarity": 0.6932
+            "path": "/libraries",
+            "index": "/libraries/index.json",
+            "similarity": 0.6949
           },
           {
-            "id": "libraries/system-text-json",
+            "id": "/libraries/system-text-json",
             "name": "System.Text.Json",
-            "path": "libraries/system-text-json",
-            "index": "libraries/system-text-json/index.json",
-            "similarity": 0.6815
+            "path": "/libraries/system-text-json",
+            "index": "/libraries/system-text-json/index.json",
+            "similarity": 0.6831
           }
         ]
       },
       {
         "category": "dotnet",
         "index": "/dotnet/index.json",
-        "similarity_threshold": 0.5,
+        "similarity_threshold": 0.6516,
         "topics": [
           {
-            "id": "dotnet",
+            "id": "/dotnet",
             "name": ".NET Platform",
-            "path": "dotnet",
-            "index": "dotnet/index.json",
-            "similarity": 0.6474
+            "path": "/dotnet",
+            "index": "/dotnet/index.json",
+            "similarity": 0.6516
           }
         ]
       }
     ],
     "similar_topics": {
       "baseline": "golden-reference.md",
-      "similarity_threshold": 0.5436,
+      "similarity_threshold": 0.5802,
       "topics": [
         {
-          "id": "csharp/object-initialization",
+          "id": "/csharp/object-initialization",
           "name": "Object Initialization",
-          "path": "csharp/object-initialization",
-          "index": "csharp/object-initialization/index.json",
+          "path": "/csharp/object-initialization",
+          "index": "/csharp/object-initialization/index.json",
           "similarity": 0.8825
         },
         {
-          "id": "csharp/collection-expressions",
+          "id": "/csharp/collection-expressions",
           "name": "Collection Expressions",
-          "path": "csharp/collection-expressions",
-          "index": "csharp/collection-expressions/index.json",
-          "similarity": 0.8756
+          "path": "/csharp/collection-expressions",
+          "index": "/csharp/collection-expressions/index.json",
+          "similarity": 0.8672
         },
         {
-          "id": "csharp/csharp-14-features",
+          "id": "/csharp/csharp-14-features",
           "name": "C# 14 Language Features",
-          "path": "csharp/csharp-14-features",
-          "index": "csharp/csharp-14-features/index.json",
-          "similarity": 0.7714
+          "path": "/csharp/csharp-14-features",
+          "index": "/csharp/csharp-14-features/index.json",
+          "similarity": 0.78
         },
         {
-          "id": "libraries/dotnet-10-library-improvements",
+          "id": "/libraries/dotnet-10-library-improvements",
           "name": ".NET 10 Libraries Features",
-          "path": "libraries/dotnet-10-library-improvements",
-          "index": "libraries/dotnet-10-library-improvements/index.json",
-          "similarity": 0.7129
+          "path": "/libraries/dotnet-10-library-improvements",
+          "index": "/libraries/dotnet-10-library-improvements/index.json",
+          "similarity": 0.7191
         },
         {
-          "id": "libraries",
+          "id": "/libraries",
           "name": ".NET Libraries",
-          "path": "libraries",
-          "index": "libraries/index.json",
-          "similarity": 0.6932
+          "path": "/libraries",
+          "index": "/libraries/index.json",
+          "similarity": 0.6949
         },
         {
-          "id": "libraries/system-text-json",
+          "id": "/libraries/system-text-json",
           "name": "System.Text.Json",
-          "path": "libraries/system-text-json",
-          "index": "libraries/system-text-json/index.json",
-          "similarity": 0.6815
+          "path": "/libraries/system-text-json",
+          "index": "/libraries/system-text-json/index.json",
+          "similarity": 0.6831
         },
         {
-          "id": "dotnet",
+          "id": "/dotnet",
           "name": ".NET Platform",
-          "path": "dotnet",
-          "index": "dotnet/index.json",
-          "similarity": 0.6474
+          "path": "/dotnet",
+          "index": "/dotnet/index.json",
+          "similarity": 0.6516
         },
         {
-          "id": "cli/assembly-trimming",
+          "id": "/cli/assembly-trimming",
           "name": "Assembly Trimming",
-          "path": "cli/assembly-trimming",
-          "index": "cli/assembly-trimming/index.json",
-          "similarity": 0.6462
+          "path": "/cli/assembly-trimming",
+          "index": "/cli/assembly-trimming/index.json",
+          "similarity": 0.6366
         },
         {
-          "id": "cli/file-based-apps",
+          "id": "/cli/file-based-apps",
           "name": "File-based apps",
-          "path": "cli/file-based-apps",
-          "index": "cli/file-based-apps/index.json",
-          "similarity": 0.6303
+          "path": "/cli/file-based-apps",
+          "index": "/cli/file-based-apps/index.json",
+          "similarity": 0.6257
         },
         {
-          "id": "cli",
+          "id": "/cli",
           "name": "CLI",
-          "path": "cli",
-          "index": "cli/index.json",
-          "similarity": 0.6024
+          "path": "/cli",
+          "index": "/cli/index.json",
+          "similarity": 0.5979
         },
         {
-          "id": "cli/build-and-compilation",
+          "id": "/cli/build-and-compilation",
           "name": "Build and Compilation",
-          "path": "cli/build-and-compilation",
-          "index": "cli/build-and-compilation/index.json",
-          "similarity": 0.5994
+          "path": "/cli/build-and-compilation",
+          "index": "/cli/build-and-compilation/index.json",
+          "similarity": 0.5934
         },
         {
-          "id": "extensions/microsoft-extensions-ai",
+          "id": "/extensions/microsoft-extensions-ai",
           "name": "Microsoft.Extensions.AI",
-          "path": "extensions/microsoft-extensions-ai",
-          "index": "extensions/microsoft-extensions-ai/index.json",
-          "similarity": 0.5836
+          "path": "/extensions/microsoft-extensions-ai",
+          "index": "/extensions/microsoft-extensions-ai/index.json",
+          "similarity": 0.5802
         }
       ]
     },
     "topics": null
   },
   "metadata": {
-    "generated": "2025-09-25T16:53:14.5140840Z",
+    "generated": "2025-10-01T00:41:05.8742420Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -65,6 +65,31 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | duplicate | 3.03 |
 | hex | 3.03 |
 
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| StringComparer.Create | method | 3 |
+| WebSocketStream.Create | method | 3 |
+| WebSocketStream.CreateReadableMessageStream | method | 3 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| csharp | csharp/csharp-14-features | 0.7967 |
+| libraries | libraries | 0.7945 |
+| libraries | libraries/system-text-json | 0.7690 |
+| dotnet | dotnet | 0.7626 |
+| csharp | csharp | 0.7352 |
+| csharp | csharp/object-initialization | 0.7277 |
+| cli | cli/file-based-apps | 0.6961 |
+| libraries | libraries/system-commandline | 0.6932 |
+| cli | cli | 0.6809 |
+| cli | cli/assembly-trimming | 0.6727 |
+| extensions | extensions/microsoft-extensions-ai | 0.6650 |
+| cli | cli/build-and-compilation | 0.6622 |
+
 ## Critical limitations
 
 - NumericOrdering: Only works with comparison operations, not IndexOf/StartsWith/EndsWith

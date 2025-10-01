@@ -1,0 +1,86 @@
+# API Analysis
+
+Generated from: `golden-reference.md`, `qa-pairs.md`
+Total unique APIs: 78
+Total API references: 144
+
+| API | Type | Count |
+|-----|------|-------|
+| EvaluateAsync | method | 17 |
+| Microsoft.Extensions.AI.Evaluation | type | 8 |
+| Microsoft.Extensions | namespace | 6 |
+| Microsoft.Extensions.AI | namespace | 6 |
+| Console.WriteLine | method | 5 |
+| GetResponseAsync | method | 5 |
+| AddEvaluation | method | 3 |
+| Assert.That | method | 3 |
+| ContentHarmEvaluator | method | 3 |
+| RelevanceEvaluator | method | 3 |
+| AddQualityEvaluators | method | 2 |
+| AddResponseCaching | method | 2 |
+| AddSafetyEvaluators | method | 2 |
+| BleuEvaluator | method | 2 |
+| Build | method | 2 |
+| CalculateDomainSpecificScore | method | 2 |
+| EvaluationBuilder | method | 2 |
+| GenerateReasoningText | method | 2 |
+| GenerateReportAsync | method | 2 |
+| GetSection | method | 2 |
+| LogWarning | method | 2 |
+| Microsoft.Extensions.AI.Evaluation.Quality | type | 2 |
+| PerformEvaluationAsync | method | 2 |
+| Set | method | 2 |
+| SetAsync | method | 2 |
+| TimeSpan.FromHours | method | 2 |
+| TimeSpan.FromMinutes | method | 2 |
+| Add | method | 1 |
+| AddNLPEvaluators | method | 1 |
+| AddRange | method | 1 |
+| AddReporting | method | 1 |
+| AggregateEvaluationTrendsAsync | method | 1 |
+| ArchiveOldEvaluationsAsync | method | 1 |
+| Average | method | 1 |
+| CleanupTemporaryDataAsync | method | 1 |
+| CompareModelPerformance | method | 1 |
+| CreateProductionPlan | method | 1 |
+| DateTime.UtcNow.AddHours | method | 1 |
+| DefaultAzureCredential | method | 1 |
+| EstimateEvaluationCost | method | 1 |
+| Evaluate | method | 1 |
+| EvaluateBatchAsync | method | 1 |
+| EvaluateForProductionAsync | method | 1 |
+| EvaluateWithBudgetAsync | method | 1 |
+| EvaluateWithCachingAsync | method | 1 |
+| EvaluateWithFallbackAsync | method | 1 |
+| EvaluateWithResilienceAsync | method | 1 |
+| ExecuteAsync | method | 1 |
+| FullEvaluationAsync | method | 1 |
+| GenerateAIResponse | method | 1 |
+| GenerateCacheKey | method | 1 |
+| GetAsync | method | 1 |
+| GetEvaluatedResponseAsync | method | 1 |
+| HashHelper.ComputeHash | method | 1 |
+| Is.GreaterThan | method | 1 |
+| Is.GreaterThanOrEqualTo | method | 1 |
+| Is.LessThan | method | 1 |
+| IsRetriableError | method | 1 |
+| JsonSerializer.SerializeToUtf8Bytes | method | 1 |
+| LoadRegressionTestSuite | method | 1 |
+| LoadTestDataset | method | 1 |
+| LogError | method | 1 |
+| ManageEvaluationDataAsync | method | 1 |
+| Microsoft.Extensions.AI.Evaluation.NLP | type | 1 |
+| Microsoft.Extensions.AI.Evaluation.Reporting | type | 1 |
+| Microsoft.Extensions.AI.Evaluation.Safety | type | 1 |
+| MinimalEvaluationAsync | method | 1 |
+| NLPOnlyEvaluationAsync | method | 1 |
+| QualityOnlyEvaluationAsync | method | 1 |
+| RunComprehensiveEvaluation | method | 1 |
+| Select | method | 1 |
+| Task.WhenAll | method | 1 |
+| Test | attribute | 1 |
+| TimeSpan.FromDays | method | 1 |
+| TruthEvaluator | method | 1 |
+| TryGetAsync | method | 1 |
+| TryGetValue | method | 1 |
+| WouldExceedBudgetAsync | method | 1 |

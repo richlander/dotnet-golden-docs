@@ -62,7 +62,7 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | native aot | 3.22 |
 | benefits | 3.06 |
 | case | 3.06 |
-| distribution | 3.06 |
+| distribution | 3.04 |
 | optimization | 3.04 |
 
 ## Diagnostic Codes
@@ -86,3 +86,27 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | NETSDK1193 | If PublishSelfContained is set, it must be either true or false. |
 | NETSDK1198 | A publish profile with the name '{0}' was not found in the project. |
 | NETSDK1225 | Native compilation is not supported when invoking the Publish target directly. |
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| cli | cli/native-aot | 0.8261 |
+| cli | cli/build-and-compilation | 0.8120 |
+| cli | cli | 0.7850 |
+| dotnet | dotnet | 0.7094 |
+| libraries | libraries | 0.6974 |
+| libraries | libraries/system-text-json-source-generation | 0.6453 |
+| libraries | libraries/system-commandline | 0.6301 |
+| extensions | extensions/microsoft-extensions-http-resilience | 0.6171 |
+| extensions | extensions/microsoft-extensions-ai | 0.5931 |
+| csharp | csharp/csharp-14-features | 0.5899 |
+| csharp | csharp | 0.5672 |
+| csharp | csharp/object-initialization | 0.5537 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| cli/native-aot | native aot | 1.322 |
+| libraries/system-text-json-source-generation | native aot | 1.322 |
+

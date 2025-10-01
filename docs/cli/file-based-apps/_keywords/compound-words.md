@@ -1,8 +1,8 @@
 # Compound Term Analysis
 
 Generated from: `golden-reference.md`
-Total unique compounds: 15
-Total compound occurrences: 87
+Total unique compounds: 17
+Total compound occurrences: 92
 Total document words: 1012
 
 | Compound Term | Count | Document Concentration |
@@ -10,11 +10,13 @@ Total document words: 1012
 | ascii art | 2 | 0.0020 |
 | error handling | 2 | 0.0020 |
 | exit codes | 2 | 0.0020 |
+| project structure | 2 | 0.0020 |
 | self-contained | 2 | 0.0020 |
 | single file constraint | 2 | 0.0020 |
 | traditional project structure | 2 | 0.0020 |
 | command line | 3 | 0.0030 |
 | command-line | 3 | 0.0030 |
+| traditional project | 3 | 0.0030 |
 | whats-new | 3 | 0.0030 |
 | single file | 4 | 0.0040 |
 | single-file | 4 | 0.0040 |

@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 285
-Total word occurrences: 669
+Total unique words: 292
+Total word occurrences: 694
 Total document words: 1012
 
 | Word | Count | Document Concentration |
@@ -73,6 +73,7 @@ Total document words: 1012
 | flexible | 1 | 0.0010 |
 | folder | 1 | 0.0010 |
 | follow | 1 | 0.0010 |
+| framework-dependent | 1 | 0.0010 |
 | functionality | 1 | 0.0010 |
 | gap | 1 | 0.0010 |
 | generator | 1 | 0.0010 |
@@ -113,6 +114,7 @@ Total document words: 1012
 | passing | 1 | 0.0010 |
 | pathways | 1 | 0.0010 |
 | perfect | 1 | 0.0010 |
+| platform-specific | 1 | 0.0010 |
 | platforms | 1 | 0.0010 |
 | positioning | 1 | 0.0010 |
 | processing | 1 | 0.0010 |
@@ -139,6 +141,7 @@ Total document words: 1012
 | set | 1 | 0.0010 |
 | shared | 1 | 0.0010 |
 | shebang-style | 1 | 0.0010 |
+| single-file | 1 | 0.0010 |
 | single-purpose | 1 | 0.0010 |
 | sit | 1 | 0.0010 |
 | size | 1 | 0.0010 |
@@ -176,6 +179,7 @@ Total document words: 1012
 | approach | 2 | 0.0020 |
 | automation | 2 | 0.0020 |
 | collaboration | 2 | 0.0020 |
+| command-line | 2 | 0.0020 |
 | commands | 2 | 0.0020 |
 | concepts | 2 | 0.0020 |
 | developers | 2 | 0.0020 |
@@ -187,7 +191,6 @@ Total document words: 1012
 | executable | 2 | 0.0020 |
 | executables | 2 | 0.0020 |
 | explicit | 2 | 0.0020 |
-| file-based | 2 | 0.0020 |
 | flexibility | 2 | 0.0020 |
 | grows | 2 | 0.0020 |
 | host | 2 | 0.0020 |
@@ -212,13 +215,13 @@ Total document words: 1012
 | scenarios | 2 | 0.0020 |
 | script | 2 | 0.0020 |
 | seamless | 2 | 0.0020 |
+| self-contained | 2 | 0.0020 |
 | separator | 2 | 0.0020 |
 | simplified | 2 | 0.0020 |
 | solution | 2 | 0.0020 |
-| specific | 2 | 0.0020 |
-| syntax | 2 | 0.0020 |
 | temporary | 2 | 0.0020 |
 | these | 2 | 0.0020 |
+| traditional | 2 | 0.0020 |
 | arguments | 3 | 0.0030 |
 | artifacts | 3 | 0.0030 |
 | both | 3 | 0.0030 |
@@ -245,6 +248,7 @@ Total document words: 1012
 | transform | 3 | 0.0030 |
 | unix | 3 | 0.0030 |
 | using | 3 | 0.0030 |
+| whats-new | 3 | 0.0030 |
 | basic | 4 | 0.0040 |
 | complexity | 4 | 0.0040 |
 | direct | 4 | 0.0040 |
@@ -253,6 +257,7 @@ Total document words: 1012
 | run | 4 | 0.0040 |
 | simple | 4 | 0.0040 |
 | structures | 4 | 0.0040 |
+| syntax | 4 | 0.0040 |
 | team | 4 | 0.0040 |
 | utilities | 4 | 0.0040 |
 | while | 4 | 0.0040 |
@@ -261,11 +266,12 @@ Total document words: 1012
 | files | 5 | 0.0049 |
 | nuget | 5 | 0.0049 |
 | setup | 5 | 0.0049 |
-| traditional | 5 | 0.0049 |
+| cross-platform | 6 | 0.0059 |
 | csharp | 6 | 0.0059 |
 | debugging | 6 | 0.0059 |
 | execution | 6 | 0.0059 |
-| file | 6 | 0.0059 |
+| file-based-programs | 6 | 0.0059 |
+| file-level | 6 | 0.0059 |
 | packages | 6 | 0.0059 |
 | scripting | 6 | 0.0059 |
 | support | 6 | 0.0059 |
@@ -277,6 +283,7 @@ Total document words: 1012
 | publishing | 7 | 0.0069 |
 | use | 7 | 0.0069 |
 | full | 8 | 0.0079 |
+| language | 8 | 0.0079 |
 | com | 9 | 0.0089 |
 | description | 9 | 0.0089 |
 | directives | 9 | 0.0089 |
@@ -287,8 +294,8 @@ Total document words: 1012
 | raw | 9 | 0.0089 |
 | title | 9 | 0.0089 |
 | code | 10 | 0.0099 |
-| language | 10 | 0.0099 |
 | scripts | 10 | 0.0099 |
 | dotnet | 12 | 0.0119 |
+| project | 14 | 0.0138 |
+| file-based | 15 | 0.0148 |
 | docs | 18 | 0.0178 |
-| project | 19 | 0.0188 |

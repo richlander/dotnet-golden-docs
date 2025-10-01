@@ -54,10 +54,19 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 | Keyword | Score |
 |---------|-------|
+| newtonsoft.json | 3.56 |
 | source generation | 3.24 |
 | default | 3.04 |
 | limits | 3.03 |
 | requires | 3.03 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| JsonSerializable | attribute | 7 |
+| JsonSerializer.Serialize | method | 7 |
+| JsonSerializer.SerializeAsync | method | 3 |
 
 ## Diagnostic Codes
 
@@ -78,3 +87,28 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | SYSLIB1225 | JSON source generation does not support the specified configuration. |
 | SYSLIB0020 | JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull. |
 | SYSLIB0049 | JsonSerializerOptions.AddContext is obsolete. To register a JsonSerializerContext, use either the TypeInfoResolver or TypeInfoResolverChain properties. |
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries/system-text-json-source-generation | 0.8614 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7690 |
+| dotnet | dotnet | 0.7299 |
+| csharp | csharp/csharp-14-features | 0.7242 |
+| libraries | libraries/system-commandline | 0.7216 |
+| csharp | csharp/object-initialization | 0.7000 |
+| csharp | csharp | 0.6981 |
+| cli | cli/native-aot | 0.6960 |
+| cli | cli/file-based-apps | 0.6947 |
+| cli | cli/assembly-trimming | 0.6477 |
+| cli | cli | 0.6320 |
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6286 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| cli/native-aot | source generation | 1.324 |
+| libraries/system-text-json-source-generation | newtonsoft.json | 1.356 |
+| libraries/system-text-json-source-generation | source generation | 1.324 |
+

@@ -1,0 +1,82 @@
+# API Analysis
+
+Generated from: `golden-reference.md`, `qa-pairs.md`
+Total unique APIs: 74
+Total API references: 120
+
+| API | Type | Count |
+|-----|------|-------|
+| TimeSpan.FromSeconds | method | 9 |
+| GetAsync | method | 7 |
+| AddHttpClient | method | 6 |
+| CreateClient | method | 6 |
+| AddStandardResilienceHandler | method | 4 |
+| Configure | method | 4 |
+| IncrementCounter | method | 3 |
+| OrderResult.Failed | method | 3 |
+| TimeSpan.FromMinutes | method | 3 |
+| Uri | method | 3 |
+| AddStandardHedgingHandler | method | 2 |
+| Dispose | method | 2 |
+| GetCircuitBreaker | method | 2 |
+| GetCircuitBreakerStates | method | 2 |
+| GetSection | method | 2 |
+| PostAsJsonAsync | method | 2 |
+| SendAsync | method | 2 |
+| TimeSpan.FromMilliseconds | method | 2 |
+| AddCircuitBreaker | method | 1 |
+| AddConcurrencyLimiter | method | 1 |
+| AddFallback | method | 1 |
+| AddResilienceHandler | method | 1 |
+| AddRetry | method | 1 |
+| AddTimeout | method | 1 |
+| AggregatedResponse | method | 1 |
+| ApiGatewayService | method | 1 |
+| ApiService | method | 1 |
+| Assembly.GetName | method | 1 |
+| AttemptNumber.ToString | method | 1 |
+| CheckServicesHealthAsync | method | 1 |
+| ConfigureBulkService | method | 1 |
+| ConfigureCriticalService | method | 1 |
+| ConfigureEnvironmentSpecificResilience | method | 1 |
+| ConfigureFastService | method | 1 |
+| Content.ReadAsStringAsync | method | 1 |
+| EnsureSuccessStatusCode | method | 1 |
+| ExecuteAsync | method | 1 |
+| GetDashboardDataAsync | method | 1 |
+| GetDataAsync | method | 1 |
+| GetWeatherAsync | method | 1 |
+| GetWithConcurrencyLimitAsync | method | 1 |
+| HealthReport | method | 1 |
+| HttpResponseMessage | method | 1 |
+| InvalidOperationException | method | 1 |
+| IsDevelopment | method | 1 |
+| IsProduction | method | 1 |
+| IsRetryableException | method | 1 |
+| IsServiceHealthyAsync | method | 1 |
+| IsolateAsync | method | 1 |
+| LogCircuitBreakerAction | method | 1 |
+| LogError | method | 1 |
+| LogRequestAttempt | method | 1 |
+| LogResponseReceived | method | 1 |
+| LogWarning | method | 1 |
+| ManuallyOpenCircuitBreakerAsync | method | 1 |
+| OnCircuitBreakerStateChanged | method | 1 |
+| OnRetryExecuted | method | 1 |
+| OrderResult.Success | method | 1 |
+| OrderService | method | 1 |
+| Outcome.FromResultAsValueTask | method | 1 |
+| ProcessOrderAsync | method | 1 |
+| Release | method | 1 |
+| ResilienceObserver | method | 1 |
+| ResourceAwareHttpService | method | 1 |
+| SemaphoreSlim | method | 1 |
+| Set | method | 1 |
+| SetGauge | method | 1 |
+| SmartResilienceHandler | method | 1 |
+| StartTimer | method | 1 |
+| Task.WhenAll | method | 1 |
+| TryGetValue | method | 1 |
+| Version | method | 1 |
+| WaitAsync | method | 1 |
+| WeatherServiceUnavailableException | method | 1 |

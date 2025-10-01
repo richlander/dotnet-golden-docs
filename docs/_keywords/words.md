@@ -1,8 +1,8 @@
 # Global Unified Analysis
 
 Analyzed 20 topics
-Total unique terms: 506
-Total term occurrences: 3403
+Total unique terms: 499
+Total term occurrences: 3326
 
 | Term | Type | Total Count | Document Count | Topics | Weighted Entropy |
 |------|------|-------------|----------------|--------|------------------|
@@ -14,6 +14,9 @@ Total term occurrences: 3403
 | file-based-programs | compound | 6 | 1 | file-based-apps | 4.584 |
 | file-level | compound | 6 | 1 | file-based-apps | 4.584 |
 | object initialization | compound | 6 | 1 | object-initialization | 4.584 |
+| system.commandline | compound | 6 | 1 | system-commandline | 4.584 |
+| microsoft.extensions.ai | compound | 5 | 1 | microsoft-extensions-ai | 4.569 |
+| microsoft.extensions.ai.evaluation | compound | 5 | 1 | microsoft-extensions-ai-evaluation | 4.569 |
 | middleware composition | compound | 5 | 1 | microsoft-extensions-ai | 4.569 |
 | open-source | compound | 5 | 1 | dotnet | 4.569 |
 | aot applications | compound | 4 | 1 | system-text-json-source-generation | 4.554 |
@@ -30,39 +33,40 @@ Total term occurrences: 3403
 | data access | compound | 3 | 1 | libraries | 4.539 |
 | development workflow | compound | 3 | 1 | cli | 4.539 |
 | garbage collector | compound | 3 | 1 | dotnet | 4.539 |
-| gc | compound | 3 | 1 | dotnet | 4.539 |
 | industry standards | compound | 3 | 1 | dotnet | 4.539 |
 | init properties | compound | 3 | 1 | object-initialization | 4.539 |
 | initialization patterns | compound | 3 | 1 | collection-initialization | 4.539 |
 | language features | compound | 3 | 1 | csharp | 4.539 |
 | library ecosystem | compound | 3 | 1 | libraries | 4.539 |
 | memory-safety | compound | 3 | 1 | csharp | 4.539 |
+| microsoft.extensions.http.resilience | compound | 3 | 1 | microsoft-extensions-http-resilience | 4.539 |
 | pre-configured | compound | 3 | 1 | microsoft-extensions-http-resilience | 4.539 |
 | required members | compound | 3 | 1 | object-initialization | 4.539 |
 | response files | compound | 3 | 1 | system-commandline | 4.539 |
 | span-based | compound | 3 | 1 | dotnet-10-library-improvements | 4.539 |
+| traditional project | compound | 3 | 1 | file-based-apps | 4.539 |
 | whats-new | compound | 3 | 1 | file-based-apps | 4.539 |
 | zero-allocation | compound | 3 | 1 | csharp-14-features | 4.539 |
+| 9.0 | compound | 2 | 1 | collection-initialization | 4.524 |
 | ai-generated | compound | 2 | 1 | microsoft-extensions-ai-evaluation | 4.524 |
 | anti-patterns | compound | 2 | 1 | object-initialization | 4.524 |
 | aot compilation | compound | 2 | 1 | system-text-json-source-generation | 4.524 |
 | ascii art | compound | 2 | 1 | file-based-apps | 4.524 |
 | assembly trimming | compound | 2 | 1 | assembly-trimming | 4.524 |
+| automated quality | compound | 2 | 1 | microsoft-extensions-ai-evaluation | 4.524 |
 | automated quality gates | compound | 2 | 1 | microsoft-extensions-ai-evaluation | 4.524 |
 | azure sdk | compound | 2 | 1 | libraries | 4.524 |
 | base class library | compound | 2 | 1 | libraries | 4.524 |
-| bcl | compound | 2 | 1 | libraries | 4.524 |
 | best practices | compound | 2 | 1 | system-commandline | 4.524 |
 | build acceleration | compound | 2 | 1 | build-and-compilation | 4.524 |
 | build performance | compound | 2 | 1 | cli | 4.524 |
 | build-time | compound | 2 | 1 | assembly-trimming | 4.524 |
 | cloud-native | compound | 2 | 1 | publishing-and-deployment | 4.524 |
 | cloud-native development | compound | 2 | 1 | csharp | 4.524 |
-| collection initialization within | compound | 2 | 1 | object-initialization | 4.524 |
+| collection initialization within objects | compound | 2 | 1 | object-initialization | 4.524 |
 | collection initializer syntax | compound | 2 | 1 | collection-initialization | 4.524 |
 | command structure | compound | 2 | 1 | cli | 4.524 |
 | compile-time constants | compound | 2 | 1 | collection-expressions | 4.524 |
-| compound assignment operators | compound | 2 | 1 | csharp-14-features | 4.524 |
 | custom build configurations | compound | 2 | 1 | build-and-compilation | 4.524 |
 | custom evaluator implementation | compound | 2 | 1 | microsoft-extensions-ai-evaluation | 4.524 |
 | custom resilience | compound | 2 | 1 | microsoft-extensions-http-resilience | 4.524 |
@@ -85,7 +89,6 @@ Total term occurrences: 3403
 | high-performance text processing | compound | 2 | 1 | dotnet-10-library-improvements | 4.524 |
 | higher-level | compound | 2 | 1 | dotnet | 4.524 |
 | init-only properties | compound | 2 | 1 | object-initialization | 4.524 |
-| initialization within objects | compound | 2 | 1 | object-initialization | 4.524 |
 | inline arrays | compound | 2 | 1 | collection-expressions | 4.524 |
 | language-integrated | compound | 2 | 1 | csharp | 4.524 |
 | library development | compound | 2 | 1 | assembly-trimming | 4.524 |
@@ -98,13 +101,13 @@ Total term occurrences: 3403
 | named arguments | compound | 2 | 1 | csharp-14-features | 4.524 |
 | net 10 | compound | 2 | 1 | dotnet-10-library-improvements | 4.524 |
 | net cli | compound | 2 | 1 | cli | 4.524 |
-| object initializer syntax | compound | 2 | 1 | object-initialization | 4.524 |
 | package restore | compound | 2 | 1 | cli | 4.524 |
 | pattern-based | compound | 2 | 1 | csharp | 4.524 |
 | performance considerations | compound | 2 | 1 | collection-initialization | 4.524 |
 | performance optimization | compound | 2 | 1 | build-and-compilation | 4.524 |
 | platform-specific | compound | 2 | 1 | csharp | 4.524 |
 | post-quantum cryptography | compound | 2 | 1 | dotnet-10-library-improvements | 4.524 |
+| project structure | compound | 2 | 1 | file-based-apps | 4.524 |
 | property naming policies | compound | 2 | 1 | system-text-json-source-generation | 4.524 |
 | quantum-resistant | compound | 2 | 1 | dotnet-10-library-improvements | 4.524 |
 | regression testing | compound | 2 | 1 | microsoft-extensions-ai-evaluation | 4.524 |
@@ -115,6 +118,7 @@ Total term occurrences: 3403
 | spread element | compound | 2 | 1 | collection-expressions | 4.524 |
 | stack-only | compound | 2 | 1 | csharp-14-features | 4.524 |
 | strongly-typed | compound | 2 | 1 | microsoft-extensions-ai | 4.524 |
+| target-typed new | compound | 2 | 1 | collection-initialization | 4.524 |
 | target-typed new expressions | compound | 2 | 1 | collection-initialization | 4.524 |
 | third-party | compound | 2 | 1 | libraries | 4.524 |
 | tool invocation | compound | 2 | 1 | microsoft-extensions-ai | 4.524 |
@@ -126,9 +130,9 @@ Total term occurrences: 3403
 | reflection-based | compound | 9 | 2 | native-aot, system-text-json-source-generation | 3.589 |
 | dependency injection | compound | 8 | 2 | libraries, microsoft-extensions-ai | 3.574 |
 | low-level | compound | 7 | 2 | csharp, dotnet | 3.559 |
+| newtonsoft.json | compound | 7 | 2 | system-text-json, system-text-json-source-generation | 3.559 |
 | object-oriented | compound | 7 | 2 | csharp, dotnet | 3.559 |
 | high-level | compound | 6 | 2 | csharp, dotnet | 3.544 |
-| high-performance | compound | 5 | 2 | csharp, system-text-json-source-generation | 3.529 |
 | system.text.json source generation | compound | 4 | 2 | native-aot, system-text-json-source-generation | 3.514 |
 | evaluation | single | 30 | 1 | microsoft-extensions-ai-evaluation | 3.296 |
 | resilience | single | 25 | 1 | microsoft-extensions-http-resilience | 3.246 |
@@ -136,13 +140,13 @@ Total term occurrences: 3403
 | cli | single | 23 | 1 | cli | 3.226 |
 | native aot | compound | 25 | 3 | native-aot, publishing-and-deployment, system-text-json-source-generation | 3.221 |
 | docs | single | 18 | 1 | file-based-apps | 3.176 |
-| build | single | 17 | 1 | build-and-compilation | 3.166 |
-| quality | single | 14 | 1 | microsoft-extensions-ai-evaluation | 3.136 |
-| development | single | 12 | 1 | cli | 3.116 |
+| build | single | 15 | 1 | build-and-compilation | 3.146 |
+| file-based | single | 15 | 1 | file-based-apps | 3.146 |
 | dotnet | single | 12 | 1 | file-based-apps | 3.116 |
+| quality | single | 12 | 1 | microsoft-extensions-ai-evaluation | 3.116 |
 | command-line | compound | 18 | 3 | cli, file-based-apps, system-commandline | 3.116 |
 | middleware | single | 11 | 1 | microsoft-extensions-ai | 3.106 |
-| safety | single | 10 | 1 | microsoft-extensions-ai-evaluation | 3.096 |
+| development | single | 10 | 1 | cli | 3.096 |
 | scripts | single | 10 | 1 | file-based-apps | 3.096 |
 | services | single | 10 | 1 | microsoft-extensions-ai | 3.096 |
 | types | single | 10 | 1 | csharp | 3.096 |
@@ -165,8 +169,9 @@ Total term occurrences: 3403
 | fundamentals | single | 7 | 1 | file-based-apps | 3.066 |
 | httpclient | single | 7 | 1 | microsoft-extensions-http-resilience | 3.066 |
 | option | single | 7 | 1 | system-commandline | 3.066 |
-| pattern | single | 7 | 1 | csharp | 3.066 |
+| safety | single | 7 | 1 | microsoft-extensions-ai-evaluation | 3.066 |
 | validation | single | 7 | 1 | system-commandline | 3.066 |
+| assignment | single | 6 | 1 | csharp-14-features | 3.056 |
 | azure | single | 6 | 1 | microsoft-extensions-ai-evaluation | 3.056 |
 | benefits | single | 6 | 1 | publishing-and-deployment | 3.056 |
 | case | single | 6 | 1 | publishing-and-deployment | 3.056 |
@@ -175,23 +180,19 @@ Total term occurrences: 3403
 | csharp | single | 6 | 1 | file-based-apps | 3.056 |
 | data | single | 6 | 1 | csharp | 3.056 |
 | debugging | single | 6 | 1 | file-based-apps | 3.056 |
-| distribution | single | 6 | 1 | publishing-and-deployment | 3.056 |
 | evaluators | single | 6 | 1 | microsoft-extensions-ai-evaluation | 3.056 |
 | execution | single | 6 | 1 | file-based-apps | 3.056 |
-| file | single | 6 | 1 | file-based-apps | 3.056 |
 | interfaces | single | 6 | 1 | microsoft-extensions-ai | 3.056 |
 | metrics | single | 6 | 1 | microsoft-extensions-ai-evaluation | 3.056 |
 | monitoring | single | 6 | 1 | microsoft-extensions-http-resilience | 3.056 |
 | packages | single | 6 | 1 | file-based-apps | 3.056 |
 | properties | single | 6 | 1 | object-initialization | 3.056 |
 | scripting | single | 6 | 1 | file-based-apps | 3.056 |
-| service | single | 6 | 1 | microsoft-extensions-ai | 3.056 |
 | strategies | single | 6 | 1 | microsoft-extensions-http-resilience | 3.056 |
 | tutorials | single | 6 | 1 | file-based-apps | 3.056 |
 | applications | single | 5 | 1 | csharp | 3.046 |
 | built | single | 5 | 1 | microsoft-extensions-http-resilience | 3.046 |
 | circuit | single | 5 | 1 | microsoft-extensions-http-resilience | 3.046 |
-| command | single | 5 | 1 | system-commandline | 3.046 |
 | community | single | 5 | 1 | dotnet | 3.046 |
 | consistent | single | 5 | 1 | cli | 3.046 |
 | control | single | 5 | 1 | csharp | 3.046 |
@@ -201,18 +202,17 @@ Total term occurrences: 3403
 | files | single | 5 | 1 | file-based-apps | 3.046 |
 | matching | single | 5 | 1 | csharp | 3.046 |
 | nlp | single | 5 | 1 | microsoft-extensions-ai-evaluation | 3.046 |
+| pattern | single | 5 | 1 | csharp | 3.046 |
 | polly | single | 5 | 1 | microsoft-extensions-http-resilience | 3.046 |
 | reliability | single | 5 | 1 | microsoft-extensions-http-resilience | 3.046 |
 | reporting | single | 5 | 1 | microsoft-extensions-ai-evaluation | 3.046 |
 | scenarios | single | 5 | 1 | system-text-json-source-generation | 3.046 |
 | sdk | single | 5 | 1 | cli | 3.046 |
 | setup | single | 5 | 1 | file-based-apps | 3.046 |
-| span | single | 5 | 1 | csharp-14-features | 3.046 |
 | spread | single | 5 | 1 | collection-expressions | 3.046 |
 | string | single | 5 | 1 | dotnet-10-library-improvements | 3.046 |
-| traditional | single | 5 | 1 | file-based-apps | 3.046 |
+| target-typed | single | 5 | 1 | collection-initialization | 3.046 |
 | via | single | 5 | 1 | dotnet | 3.046 |
-| assignment | single | 4 | 1 | csharp-14-features | 3.036 |
 | assurance | single | 4 | 1 | microsoft-extensions-ai-evaluation | 3.036 |
 | binding | single | 4 | 1 | system-commandline | 3.036 |
 | cache | single | 4 | 1 | cli | 3.036 |
@@ -225,9 +225,9 @@ Total term occurrences: 3403
 | content | single | 4 | 1 | microsoft-extensions-ai-evaluation | 3.036 |
 | default | single | 4 | 1 | system-text-json | 3.036 |
 | define | single | 4 | 1 | csharp | 3.036 |
+| distribution | single | 4 | 1 | publishing-and-deployment | 3.036 |
 | enhanced | single | 4 | 1 | csharp-14-features | 3.036 |
 | fault | single | 4 | 1 | microsoft-extensions-http-resilience | 3.036 |
-| first | single | 4 | 1 | csharp | 3.036 |
 | functional | single | 4 | 1 | csharp | 3.036 |
 | generics | single | 4 | 1 | system-text-json-source-generation | 3.036 |
 | handlers | single | 4 | 1 | system-commandline | 3.036 |
@@ -241,7 +241,6 @@ Total term occurrences: 3403
 | limitations | single | 4 | 1 | cli | 3.036 |
 | linux | single | 4 | 1 | dotnet | 3.036 |
 | microservices | single | 4 | 1 | microsoft-extensions-http-resilience | 3.036 |
-| object | single | 4 | 1 | object-initialization | 3.036 |
 | objects | single | 4 | 1 | object-initialization | 3.036 |
 | observability | single | 4 | 1 | microsoft-extensions-ai | 3.036 |
 | optimization | single | 4 | 1 | publishing-and-deployment | 3.036 |
@@ -252,6 +251,7 @@ Total term occurrences: 3403
 | providers | single | 4 | 1 | microsoft-extensions-ai | 3.036 |
 | reduced | single | 4 | 1 | assembly-trimming | 3.036 |
 | responses | single | 4 | 1 | microsoft-extensions-ai-evaluation | 3.036 |
+| service | single | 4 | 1 | microsoft-extensions-ai | 3.036 |
 | set | single | 4 | 1 | dotnet | 3.036 |
 | simple | single | 4 | 1 | file-based-apps | 3.036 |
 | solution | single | 4 | 1 | cli | 3.036 |
@@ -271,8 +271,6 @@ Total term occurrences: 3403
 | approaches | single | 3 | 1 | collection-initialization | 3.026 |
 | artifacts | single | 3 | 1 | file-based-apps | 3.026 |
 | async | single | 3 | 1 | libraries | 3.026 |
-| automated | single | 3 | 1 | microsoft-extensions-ai-evaluation | 3.026 |
-| based | single | 3 | 1 | csharp | 3.026 |
 | been | single | 3 | 1 | dotnet | 3.026 |
 | built-in | single | 3 | 1 | system-commandline | 3.026 |
 | cannot | single | 3 | 1 | system-text-json-source-generation | 3.026 |
@@ -311,9 +309,10 @@ Total term occurrences: 3403
 | failures | single | 3 | 1 | microsoft-extensions-http-resilience | 3.026 |
 | faster | single | 3 | 1 | assembly-trimming | 3.026 |
 | fastest | single | 3 | 1 | publishing-and-deployment | 3.026 |
+| first-class | single | 3 | 1 | csharp-14-features | 3.026 |
 | foundry | single | 3 | 1 | microsoft-extensions-ai-evaluation | 3.026 |
-| framework | single | 3 | 1 | dotnet | 3.026 |
 | function | single | 3 | 1 | microsoft-extensions-ai | 3.026 |
+| gc | single | 3 | 1 | dotnet | 3.026 |
 | generators | single | 3 | 1 | assembly-trimming | 3.026 |
 | generic | single | 3 | 1 | system-text-json-source-generation | 3.026 |
 | handle | single | 3 | 1 | file-based-apps | 3.026 |
@@ -324,7 +323,6 @@ Total term occurrences: 3403
 | implement | single | 3 | 1 | microsoft-extensions-ai | 3.026 |
 | initializers | single | 3 | 1 | collection-initialization | 3.026 |
 | input | single | 3 | 1 | file-based-apps | 3.026 |
-| integrated | single | 3 | 1 | csharp | 3.026 |
 | intellisense | single | 3 | 1 | file-based-apps | 3.026 |
 | interop | single | 3 | 1 | dotnet | 3.026 |
 | ios | single | 3 | 1 | dotnet | 3.026 |
@@ -355,10 +353,10 @@ Total term occurrences: 3403
 | partial | single | 3 | 1 | csharp-14-features | 3.026 |
 | permissions | single | 3 | 1 | cli | 3.026 |
 | platforms | single | 3 | 1 | dotnet | 3.026 |
+| post-quantum | single | 3 | 1 | dotnet-10-library-improvements | 3.026 |
 | primary | single | 3 | 1 | cli | 3.026 |
 | processing | single | 3 | 1 | dotnet-10-library-improvements | 3.026 |
 | productivity | single | 3 | 1 | dotnet | 3.026 |
-| programs | single | 3 | 1 | dotnet | 3.026 |
 | proper | single | 3 | 1 | file-based-apps | 3.026 |
 | providing | single | 3 | 1 | microsoft-extensions-http-resilience | 3.026 |
 | python | single | 3 | 1 | collection-expressions | 3.026 |
@@ -374,7 +372,6 @@ Total term occurrences: 3403
 | restore | single | 3 | 1 | cli | 3.026 |
 | retry | single | 3 | 1 | microsoft-extensions-http-resilience | 3.026 |
 | right | single | 3 | 1 | collection-initialization | 3.026 |
-| safe | single | 3 | 1 | dotnet | 3.026 |
 | sethandler | single | 3 | 1 | system-commandline | 3.026 |
 | shared | single | 3 | 1 | publishing-and-deployment | 3.026 |
 | shebang | single | 3 | 1 | file-based-apps | 3.026 |
@@ -385,7 +382,6 @@ Total term occurrences: 3403
 | subcommands | single | 3 | 1 | system-commandline | 3.026 |
 | systems | single | 3 | 1 | cli | 3.026 |
 | tab | single | 3 | 1 | system-commandline | 3.026 |
-| target-typed | single | 3 | 1 | collection-initialization | 3.026 |
 | targeting | single | 3 | 1 | dotnet | 3.026 |
 | telemetry | single | 3 | 1 | microsoft-extensions-ai | 3.026 |
 | testing | single | 3 | 1 | microsoft-extensions-ai-evaluation | 3.026 |
@@ -402,21 +398,22 @@ Total term occurrences: 3403
 | versions | single | 3 | 1 | cli | 3.026 |
 | warnings | single | 3 | 1 | system-text-json-source-generation | 3.026 |
 | write | single | 3 | 1 | csharp | 3.026 |
+| system.text.json | compound | 9 | 3 | libraries, system-text-json, system-text-json-source-generation | 2.981 |
 | error handling | compound | 6 | 3 | file-based-apps, microsoft-extensions-ai, microsoft-extensions-ai-evaluation | 2.936 |
-| ai | single | 58 | 2 | microsoft-extensions-ai, microsoft-extensions-ai-evaluation | 2.883 |
+| ai | single | 54 | 2 | microsoft-extensions-ai, microsoft-extensions-ai-evaluation | 2.843 |
 | memory management | compound | 16 | 4 | csharp, dotnet, libraries, microsoft-extensions-ai | 2.654 |
 | self-contained | compound | 14 | 4 | assembly-trimming, file-based-apps, native-aot, publishing-and-deployment | 2.624 |
 | single-file | compound | 11 | 4 | assembly-trimming, file-based-apps, native-aot, publishing-and-deployment | 2.579 |
-| project | single | 27 | 2 | cli, file-based-apps | 2.573 |
+| language | single | 27 | 2 | csharp, file-based-apps | 2.573 |
 | package | single | 18 | 2 | cli, file-based-apps | 2.483 |
 | publishing | single | 18 | 2 | file-based-apps, publishing-and-deployment | 2.483 |
 | features | single | 17 | 2 | csharp, dotnet | 2.473 |
+| project | single | 17 | 2 | cli, file-based-apps | 2.473 |
 | projects | single | 13 | 2 | cli, file-based-apps | 2.433 |
 | global | single | 12 | 2 | cli, system-commandline | 2.423 |
 | programming | single | 12 | 2 | csharp, dotnet | 2.423 |
 | security | single | 12 | 2 | dotnet-10-library-improvements, publishing-and-deployment | 2.423 |
 | size | single | 11 | 2 | assembly-trimming, publishing-and-deployment | 2.413 |
-| syntax | single | 11 | 2 | collection-expressions, csharp | 2.413 |
 | builds | single | 10 | 2 | build-and-compilation, cli | 2.403 |
 | deployments | single | 10 | 2 | publishing-and-deployment, system-text-json-source-generation | 2.403 |
 | languages | single | 10 | 2 | csharp, dotnet | 2.403 |
@@ -445,6 +442,7 @@ Total term occurrences: 3403
 | many | single | 7 | 2 | csharp, dotnet | 2.373 |
 | offers | single | 7 | 2 | csharp, dotnet | 2.373 |
 | path | single | 7 | 2 | cli, file-based-apps | 2.373 |
+| patterns | single | 7 | 2 | collection-initialization, libraries | 2.373 |
 | pipeline | single | 7 | 2 | cli, microsoft-extensions-http-resilience | 2.373 |
 | text | single | 7 | 2 | system-text-json, system-text-json-source-generation | 2.373 |
 | visual | single | 7 | 2 | cli, dotnet | 2.373 |
@@ -454,7 +452,6 @@ Total term occurrences: 3403
 | complex | single | 6 | 2 | file-based-apps, system-commandline | 2.363 |
 | comprehensive | single | 6 | 2 | microsoft-extensions-ai-evaluation, microsoft-extensions-http-resilience | 2.363 |
 | design | single | 6 | 2 | microsoft-extensions-ai-evaluation, system-commandline | 2.363 |
-| performance | single | 6 | 2 | system-text-json, system-text-json-source-generation | 2.363 |
 | provide | single | 6 | 2 | collection-expressions, csharp | 2.363 |
 | require | single | 6 | 2 | cli, microsoft-extensions-http-resilience | 2.363 |
 | solutions | single | 6 | 2 | cli, dotnet | 2.363 |
@@ -462,7 +459,6 @@ Total term occurrences: 3403
 | unsafe | single | 6 | 2 | csharp, dotnet | 2.363 |
 | workflows | single | 6 | 2 | build-and-compilation, microsoft-extensions-ai-evaluation | 2.363 |
 | compile-time | compound | 15 | 5 | assembly-trimming, csharp, csharp-14-features, system-text-json, system-text-json-source-generation | 2.304 |
-| language | single | 34 | 3 | csharp, dotnet, file-based-apps | 2.237 |
 | libraries | single | 32 | 3 | csharp, dotnet, libraries | 2.217 |
 | net | single | 59 | 4 | csharp, dotnet, microsoft-extensions-ai, system-commandline | 2.199 |
 | deployment | single | 30 | 3 | assembly-trimming, native-aot, publishing-and-deployment | 2.197 |
@@ -472,22 +468,18 @@ Total term occurrences: 3403
 | windows | single | 16 | 3 | cli, csharp, dotnet | 2.057 |
 | across | single | 15 | 3 | cli, dotnet, libraries | 2.047 |
 | commands | single | 15 | 3 | build-and-compilation, cli, system-commandline | 2.047 |
-| reflection | single | 15 | 3 | assembly-trimming, native-aot, system-text-json-source-generation | 2.047 |
 | enables | single | 14 | 3 | csharp, dotnet, system-text-json-source-generation | 2.037 |
 | caching | single | 13 | 3 | cli, microsoft-extensions-ai, microsoft-extensions-ai-evaluation | 2.027 |
 | compilation | single | 13 | 3 | build-and-compilation, native-aot, publishing-and-deployment | 2.027 |
 | standard | single | 13 | 3 | file-based-apps, microsoft-extensions-ai, microsoft-extensions-http-resilience | 2.027 |
 | startup | single | 13 | 3 | assembly-trimming, native-aot, publishing-and-deployment | 2.027 |
 | without | single | 13 | 3 | file-based-apps, microsoft-extensions-ai, native-aot | 2.027 |
-| platform | single | 12 | 3 | cli, csharp, dotnet | 2.017 |
-| cloud | single | 11 | 3 | dotnet, libraries, publishing-and-deployment | 2.007 |
 | through | single | 11 | 3 | csharp, microsoft-extensions-ai-evaluation, microsoft-extensions-http-resilience | 2.007 |
 | capabilities | single | 10 | 3 | csharp, file-based-apps, microsoft-extensions-ai | 1.997 |
 | ci | single | 10 | 3 | build-and-compilation, cli, microsoft-extensions-ai-evaluation | 1.997 |
 | run | single | 10 | 3 | csharp, dotnet, file-based-apps | 1.997 |
 | utf-8 | single | 10 | 3 | dotnet-10-library-improvements, system-text-json, system-text-json-source-generation | 1.997 |
 | works | single | 10 | 3 | collection-initialization, file-based-apps, system-text-json-source-generation | 1.997 |
-| time | single | 9 | 3 | assembly-trimming, publishing-and-deployment, system-commandline | 1.987 |
 | like | single | 29 | 4 | cli, csharp, dotnet, microsoft-extensions-ai | 1.899 |
 | tools | single | 29 | 4 | cli, csharp, dotnet, system-commandline | 1.899 |
 | json | single | 51 | 5 | dotnet-10-library-improvements, libraries, native-aot, system-text-json, system-text-json-source-generation | 1.896 |
@@ -501,7 +493,9 @@ Total term occurrences: 3403
 | options | single | 15 | 4 | dotnet-10-library-improvements, file-based-apps, system-commandline, system-text-json-source-generation | 1.759 |
 | nuget | single | 14 | 4 | build-and-compilation, dotnet, file-based-apps, libraries | 1.749 |
 | runtime | single | 52 | 6 | cli, csharp, dotnet, native-aot, publishing-and-deployment, system-text-json-source-generation | 1.724 |
+| high-performance | single | 11 | 4 | csharp, dotnet-10-library-improvements, libraries, system-text-json-source-generation | 1.719 |
 | provides | single | 25 | 5 | cli, csharp, dotnet, microsoft-extensions-ai, microsoft-extensions-ai-evaluation | 1.636 |
+| syntax | single | 25 | 5 | collection-expressions, collection-initialization, csharp, csharp-14-features, file-based-apps | 1.636 |
 | extensions | single | 24 | 5 | csharp-14-features, microsoft-extensions-ai, microsoft-extensions-ai-evaluation, microsoft-extensions-http-resilience, system-commandline | 1.626 |
 | system | single | 23 | 5 | cli, libraries, system-commandline, system-text-json, system-text-json-source-generation | 1.616 |
 | application | single | 17 | 5 | assembly-trimming, cli, libraries, publishing-and-deployment, system-commandline | 1.556 |
@@ -510,5 +504,4 @@ Total term occurrences: 3403
 | configuration | single | 29 | 7 | build-and-compilation, cli, microsoft-extensions-ai, microsoft-extensions-http-resilience, publishing-and-deployment, system-commandline, system-text-json | 1.340 |
 | support | single | 41 | 8 | assembly-trimming, cli, csharp, csharp-14-features, dotnet-10-library-improvements, file-based-apps, microsoft-extensions-ai, system-commandline | 1.326 |
 | code | single | 79 | 12 | assembly-trimming, build-and-compilation, cli, collection-initialization, csharp, csharp-14-features, dotnet, file-based-apps, microsoft-extensions-ai, native-aot, object-initialization, system-text-json-source-generation | 1.301 |
-| patterns | single | 31 | 8 | cli, collection-initialization, csharp-14-features, libraries, microsoft-extensions-ai, microsoft-extensions-http-resilience, object-initialization, system-text-json-source-generation | 1.226 |
 | use | single | 50 | 10 | collection-expressions, collection-initialization, csharp, file-based-apps, microsoft-extensions-ai-evaluation, object-initialization, publishing-and-deployment, system-commandline, system-text-json, system-text-json-source-generation | 1.193 |

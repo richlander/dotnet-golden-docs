@@ -1,21 +1,21 @@
 # Unified Local Analysis
 
-Combined 5 compound terms and 247 single words
-Total unique terms: 252
-Terms with score ≥ 3.0: 42
-Total term occurrences: 417
+Combined 6 compound terms and 244 single words
+Total unique terms: 248
+Terms with score ≥ 3.0: 41
+Total term occurrences: 413
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 - header_multiplier (compounds only): 1.5x (H1), 1.25x (H2), 1.1x (H3+), 1.0x (none)
-  - Single words do NOT get header multipliers (prevents arbitrary matches)
-  - Exception: Acronyms (all-caps, 2+ letters) get 1.25x boost regardless
+  - Single words do NOT get header multipliers (prevents arbitrary substring matches)
 - type_multiplier: 1.5x (compound), 1.0x (single)
 - Minimum score threshold: 3.0 (only terms meeting this threshold are shown)
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
 | command-line | compound | 10 | 1.00x | 1.50x | 15.0 |
+| system.commandline | compound | 6 | 1.50x | 1.50x | 13.5 |
 | parsing | single | 9 | 1.00x | 1.00x | 9.0 |
 | use | single | 8 | 1.00x | 1.00x | 8.0 |
 | option | single | 7 | 1.00x | 1.00x | 7.0 |
@@ -23,7 +23,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | commandline | single | 6 | 1.00x | 1.00x | 6.0 |
 | options | single | 6 | 1.00x | 1.00x | 6.0 |
 | tools | single | 6 | 1.00x | 1.00x | 6.0 |
-| command | single | 5 | 1.00x | 1.00x | 5.0 |
 | response files | compound | 3 | 1.10x | 1.50x | 5.0 |
 | application | single | 4 | 1.00x | 1.00x | 4.0 |
 | automatic | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -56,4 +55,3 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | sethandler | single | 3 | 1.00x | 1.00x | 3.0 |
 | subcommands | single | 3 | 1.00x | 1.00x | 3.0 |
 | tab | single | 3 | 1.00x | 1.00x | 3.0 |
-| time | single | 3 | 1.00x | 1.00x | 3.0 |

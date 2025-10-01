@@ -1,3 +1,3 @@
 | Topic (cli) | Neighbor (dotnet) | Similarity |
 |-------------|-------------------|------------|
-| cli/file-based-apps | dotnet | 0.7623 |
+| cli/file-based-apps | dotnet | 0.7610 |
