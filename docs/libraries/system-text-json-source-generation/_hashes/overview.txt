@@ -2,13 +2,13 @@ Title | System.Text.Json Source Generation
 Keyword | aot applications
 Keyword | aot compatibility
 Keyword | aot compilation
+Keyword | let source generation handle
 Keyword | property naming policies
+Keyword | source generation handle naming
 Keyword | type-safe
+Keyword | unconstrained generics
 Keyword | reflection-based
 Keyword | newtonsoft.json
 Keyword | system.text.json source generation
-Keyword | source generation
 Keyword | native aot
-Keyword | naming
-Keyword | context
 Description | System.Text.Json source generation provides compile-time generation of serialization code to enable high-performance, AOT-compatible JSON operations. It eliminates runtime reflection by generating typed serialization logic at compile time, making it essential for Native AOT deployments and high-performance applications. Source generation supports type-safe operations with unconstrained generics and automatic property naming policies, reducing the need for manual JsonPropertyName attributes.

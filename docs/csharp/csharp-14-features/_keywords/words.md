@@ -2,8 +2,8 @@
 
 Combined 6 compound terms and 145 single words
 Total unique terms: 148
-Terms with score ≥ 3.0: 19
-Total term occurrences: 216
+Terms with score ≥ 3.0: 20
+Total term occurrences: 221
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,6 +14,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
+| patterns | single | 7 | 1.00x | 1.00x | 7.0 |
 | assignment | single | 6 | 1.00x | 1.00x | 6.0 |
 | compile-time | compound | 4 | 1.00x | 1.50x | 6.0 |
 | extension | single | 5 | 1.00x | 1.00x | 5.0 |

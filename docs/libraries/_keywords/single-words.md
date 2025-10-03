@@ -1,12 +1,49 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 121
-Total word occurrences: 190
+Total unique words: 122
+Total word occurrences: 198
 Total document words: 353
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
+| libraries | 12 | 0.0340 |
+| patterns | 8 | 0.0227 |
+| system | 8 | 0.0227 |
+| frameworks | 5 | 0.0142 |
+| application | 4 | 0.0113 |
+| asp | 4 | 0.0113 |
+| json | 4 | 0.0113 |
+| across | 3 | 0.0085 |
+| async | 3 | 0.0085 |
+| core | 3 | 0.0085 |
+| data | 3 | 0.0085 |
+| distributed | 3 | 0.0085 |
+| high-performance | 3 | 0.0085 |
+| nuget | 3 | 0.0085 |
+| third-party | 3 | 0.0085 |
+| api | 2 | 0.0057 |
+| apis | 2 | 0.0057 |
+| architecture | 2 | 0.0057 |
+| bcl | 2 | 0.0057 |
+| components | 2 | 0.0057 |
+| configuration | 2 | 0.0057 |
+| foundation | 2 | 0.0057 |
+| fundamental | 2 | 0.0057 |
+| logging | 2 | 0.0057 |
+| modern | 2 | 0.0057 |
+| multiple | 2 | 0.0057 |
+| net | 2 | 0.0057 |
+| networking | 2 | 0.0057 |
+| packages | 2 | 0.0057 |
+| runtime | 2 | 0.0057 |
+| security | 2 | 0.0057 |
+| serialization | 2 | 0.0057 |
+| services | 2 | 0.0057 |
+| spans | 2 | 0.0057 |
+| testing | 2 | 0.0057 |
+| unit | 2 | 0.0057 |
+| web | 2 | 0.0057 |
 | abstractions | 1 | 0.0028 |
 | access | 1 | 0.0028 |
 | allocation-aware | 1 | 0.0028 |
@@ -25,13 +62,13 @@ Total document words: 353
 | community | 1 | 0.0028 |
 | comprehensive | 1 | 0.0028 |
 | concerns | 1 | 0.0028 |
+| considerations | 1 | 0.0028 |
 | consistency | 1 | 0.0028 |
 | consistent | 1 | 0.0028 |
 | containers | 1 | 0.0028 |
 | cqrs | 1 | 0.0028 |
 | cross-cutting | 1 | 0.0028 |
 | cross-platform | 1 | 0.0028 |
-| data | 1 | 0.0028 |
 | database | 1 | 0.0028 |
 | design | 1 | 0.0028 |
 | designs | 1 | 0.0028 |
@@ -92,39 +129,3 @@ Total document words: 353
 | windows | 1 | 0.0028 |
 | work | 1 | 0.0028 |
 | xunit | 1 | 0.0028 |
-| api | 2 | 0.0057 |
-| apis | 2 | 0.0057 |
-| architecture | 2 | 0.0057 |
-| bcl | 2 | 0.0057 |
-| components | 2 | 0.0057 |
-| configuration | 2 | 0.0057 |
-| foundation | 2 | 0.0057 |
-| fundamental | 2 | 0.0057 |
-| logging | 2 | 0.0057 |
-| modern | 2 | 0.0057 |
-| multiple | 2 | 0.0057 |
-| net | 2 | 0.0057 |
-| networking | 2 | 0.0057 |
-| packages | 2 | 0.0057 |
-| runtime | 2 | 0.0057 |
-| security | 2 | 0.0057 |
-| serialization | 2 | 0.0057 |
-| services | 2 | 0.0057 |
-| spans | 2 | 0.0057 |
-| testing | 2 | 0.0057 |
-| unit | 2 | 0.0057 |
-| web | 2 | 0.0057 |
-| across | 3 | 0.0085 |
-| async | 3 | 0.0085 |
-| core | 3 | 0.0085 |
-| distributed | 3 | 0.0085 |
-| high-performance | 3 | 0.0085 |
-| nuget | 3 | 0.0085 |
-| patterns | 3 | 0.0085 |
-| third-party | 3 | 0.0085 |
-| application | 4 | 0.0113 |
-| asp | 4 | 0.0113 |
-| json | 4 | 0.0113 |
-| frameworks | 5 | 0.0142 |
-| system | 8 | 0.0227 |
-| libraries | 12 | 0.0340 |

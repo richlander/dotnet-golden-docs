@@ -1,12 +1,42 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 107
-Total word occurrences: 163
+Total unique words: 108
+Total word occurrences: 165
 Total document words: 298
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
+| build | 15 | 0.0503 |
+| configuration | 5 | 0.0168 |
+| ci | 4 | 0.0134 |
+| analysis | 3 | 0.0101 |
+| builds | 3 | 0.0101 |
+| code | 3 | 0.0101 |
+| commands | 3 | 0.0101 |
+| compilation | 3 | 0.0101 |
+| multiple | 3 | 0.0101 |
+| nuget | 3 | 0.0101 |
+| parallel | 3 | 0.0101 |
+| workflows | 3 | 0.0101 |
+| automation | 2 | 0.0067 |
+| binaries | 2 | 0.0067 |
+| caching | 2 | 0.0067 |
+| cd | 2 | 0.0067 |
+| common | 2 | 0.0067 |
+| configurations | 2 | 0.0067 |
+| engineers | 2 | 0.0067 |
+| executable | 2 | 0.0067 |
+| execution | 2 | 0.0067 |
+| incremental | 2 | 0.0067 |
+| integration | 2 | 0.0067 |
+| issues | 2 | 0.0067 |
+| local | 2 | 0.0067 |
+| multi-targeting | 2 | 0.0067 |
+| optimization | 2 | 0.0067 |
+| patterns | 2 | 0.0067 |
+| pipeline | 2 | 0.0067 |
+| strategies | 2 | 0.0067 |
 | across | 1 | 0.0034 |
 | advanced | 1 | 0.0034 |
 | artifact | 1 | 0.0034 |
@@ -85,32 +115,3 @@ Total document words: 298
 | versions | 1 | 0.0034 |
 | windows | 1 | 0.0034 |
 | works | 1 | 0.0034 |
-| automation | 2 | 0.0067 |
-| binaries | 2 | 0.0067 |
-| caching | 2 | 0.0067 |
-| cd | 2 | 0.0067 |
-| common | 2 | 0.0067 |
-| configurations | 2 | 0.0067 |
-| engineers | 2 | 0.0067 |
-| executable | 2 | 0.0067 |
-| execution | 2 | 0.0067 |
-| incremental | 2 | 0.0067 |
-| integration | 2 | 0.0067 |
-| issues | 2 | 0.0067 |
-| local | 2 | 0.0067 |
-| multi-targeting | 2 | 0.0067 |
-| optimization | 2 | 0.0067 |
-| pipeline | 2 | 0.0067 |
-| strategies | 2 | 0.0067 |
-| analysis | 3 | 0.0101 |
-| builds | 3 | 0.0101 |
-| code | 3 | 0.0101 |
-| commands | 3 | 0.0101 |
-| compilation | 3 | 0.0101 |
-| multiple | 3 | 0.0101 |
-| nuget | 3 | 0.0101 |
-| parallel | 3 | 0.0101 |
-| workflows | 3 | 0.0101 |
-| ci | 4 | 0.0134 |
-| configuration | 5 | 0.0168 |
-| build | 15 | 0.0503 |

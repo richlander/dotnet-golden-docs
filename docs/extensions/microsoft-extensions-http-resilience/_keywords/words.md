@@ -2,8 +2,8 @@
 
 Combined 5 compound terms and 175 single words
 Total unique terms: 179
-Terms with score ≥ 3.0: 35
-Total term occurrences: 356
+Terms with score ≥ 3.0: 36
+Total term occurrences: 359
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -22,11 +22,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | standard | single | 7 | 1.00x | 1.00x | 7.0 |
 | microsoft.extensions.http.resilience | compound | 3 | 1.50x | 1.50x | 6.8 |
 | monitoring | single | 6 | 1.00x | 1.00x | 6.0 |
+| patterns | single | 6 | 1.00x | 1.00x | 6.0 |
 | strategies | single | 6 | 1.00x | 1.00x | 6.0 |
 | built | single | 5 | 1.00x | 1.00x | 5.0 |
 | circuit | single | 5 | 1.00x | 1.00x | 5.0 |
 | extensions | single | 5 | 1.00x | 1.00x | 5.0 |
-| factory | single | 5 | 1.00x | 1.00x | 5.0 |
 | microsoft | single | 5 | 1.00x | 1.00x | 5.0 |
 | polly | single | 5 | 1.00x | 1.00x | 5.0 |
 | reliability | single | 5 | 1.00x | 1.00x | 5.0 |
@@ -43,6 +43,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | resource management | compound | 2 | 1.10x | 1.50x | 3.3 |
 | comprehensive | single | 3 | 1.00x | 1.00x | 3.0 |
 | essential | single | 3 | 1.00x | 1.00x | 3.0 |
+| factory | single | 3 | 1.00x | 1.00x | 3.0 |
 | failures | single | 3 | 1.00x | 1.00x | 3.0 |
 | integration | single | 3 | 1.00x | 1.00x | 3.0 |
 | providing | single | 3 | 1.00x | 1.00x | 3.0 |

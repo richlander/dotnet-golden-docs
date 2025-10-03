@@ -94,9 +94,9 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 | csharp | csharp/csharp-14-features | 0.6990 |
 | libraries | libraries | 0.6963 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6932 |
-| csharp | csharp/object-initialization | 0.6719 |
 | cli | cli/native-aot | 0.6697 |
 | cli | cli/build-and-compilation | 0.6689 |
+| csharp | csharp/object-initialization | 0.6333 |
 | extensions | extensions/microsoft-extensions-ai | 0.6293 |
 
 ## Authority Scores

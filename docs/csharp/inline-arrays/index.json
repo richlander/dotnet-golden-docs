@@ -2,6 +2,57 @@
   "id": "csharp/inline-arrays",
   "title": "Inline Arrays",
   "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers.",
+  "sim_hash": 957545229853003589,
+  "hashes": [
+    {
+      "name": "overview",
+      "kind": "minhash",
+      "weighted": false,
+      "path": "/csharp/inline-arrays/_hashes/overview.txt.minhash"
+    },
+    {
+      "name": "overview",
+      "kind": "minhash",
+      "weighted": true,
+      "path": "/csharp/inline-arrays/_hashes/overview.txt.minhash-weighted"
+    },
+    {
+      "name": "overview",
+      "kind": "simhash",
+      "weighted": false,
+      "path": "/csharp/inline-arrays/_hashes/overview.txt.simhash"
+    },
+    {
+      "name": "overview",
+      "kind": "simhash",
+      "weighted": true,
+      "path": "/csharp/inline-arrays/_hashes/overview.txt.simhash-weighted"
+    },
+    {
+      "name": "technical",
+      "kind": "minhash",
+      "weighted": false,
+      "path": "/csharp/inline-arrays/_hashes/technical.txt.minhash"
+    },
+    {
+      "name": "technical",
+      "kind": "minhash",
+      "weighted": true,
+      "path": "/csharp/inline-arrays/_hashes/technical.txt.minhash-weighted"
+    },
+    {
+      "name": "technical",
+      "kind": "simhash",
+      "weighted": false,
+      "path": "/csharp/inline-arrays/_hashes/technical.txt.simhash"
+    },
+    {
+      "name": "technical",
+      "kind": "simhash",
+      "weighted": true,
+      "path": "/csharp/inline-arrays/_hashes/technical.txt.simhash-weighted"
+    }
+  ],
   "keywords": null,
   "edges": null,
   "apis": null,
@@ -51,7 +102,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-01T15:27:16.2324882Z",
+    "generated": "2025-10-02T17:36:22.4578650Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

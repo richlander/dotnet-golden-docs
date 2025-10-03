@@ -132,9 +132,9 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | csharp | csharp | 0.8373 |
-| csharp | csharp/object-initialization | 0.8118 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7967 |
-| csharp | csharp/collection-initialization | 0.7800 |
+| csharp | csharp/object-initialization | 0.7591 |
+| csharp | csharp/collection-expressions | 0.7522 |
 | libraries | libraries | 0.7280 |
 | dotnet | dotnet | 0.7274 |
 | libraries | libraries/system-text-json | 0.7242 |

@@ -1,12 +1,64 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 236
+Total unique words: 237
 Total word occurrences: 331
 Total document words: 603
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
+| runtime | 11 | 0.0182 |
+| code | 7 | 0.0116 |
+| compilation | 7 | 0.0116 |
+| json | 7 | 0.0116 |
+| no | 6 | 0.0100 |
+| jit | 4 | 0.0066 |
+| reflection-based | 4 | 0.0066 |
+| serialization | 4 | 0.0066 |
+| supported | 4 | 0.0066 |
+| common | 3 | 0.0050 |
+| deployment | 3 | 0.0050 |
+| self-contained | 3 | 0.0050 |
+| smaller | 3 | 0.0050 |
+| startup | 3 | 0.0050 |
+| without | 3 | 0.0050 |
+| always | 2 | 0.0033 |
+| arm64 | 2 | 0.0033 |
+| available | 2 | 0.0033 |
+| constrained | 2 | 0.0033 |
+| critical | 2 | 0.0033 |
+| cross-compilation | 2 | 0.0033 |
+| during | 2 | 0.0033 |
+| essential | 2 | 0.0033 |
+| faster | 2 | 0.0033 |
+| generators | 2 | 0.0033 |
+| generic | 2 | 0.0033 |
+| images | 2 | 0.0033 |
+| limitations | 2 | 0.0033 |
+| limited | 2 | 0.0033 |
+| linux | 2 | 0.0033 |
+| machine | 2 | 0.0033 |
+| matching | 2 | 0.0033 |
+| metadata | 2 | 0.0033 |
+| method | 2 | 0.0033 |
+| needs | 2 | 0.0033 |
+| net | 2 | 0.0033 |
+| prohibited | 2 | 0.0033 |
+| publishing | 2 | 0.0033 |
+| reduced | 2 | 0.0033 |
+| requirements | 2 | 0.0033 |
+| see | 2 | 0.0033 |
+| setup | 2 | 0.0033 |
+| single-file | 2 | 0.0033 |
+| support | 2 | 0.0033 |
+| system | 2 | 0.0033 |
+| toolchain | 2 | 0.0033 |
+| usage | 2 | 0.0033 |
+| use | 2 | 0.0033 |
+| using | 2 | 0.0033 |
+| warnings | 2 | 0.0033 |
+| windows | 2 | 0.0033 |
+| work | 2 | 0.0033 |
 | ahead-of-time | 1 | 0.0017 |
 | analysis | 1 | 0.0017 |
 | analyzable | 1 | 0.0017 |
@@ -40,6 +92,7 @@ Total document words: 603
 | components | 1 | 0.0017 |
 | computing | 1 | 0.0017 |
 | configuration | 1 | 0.0017 |
+| considerations | 1 | 0.0017 |
 | console | 1 | 0.0017 |
 | container-optimized | 1 | 0.0017 |
 | containers | 1 | 0.0017 |
@@ -131,6 +184,7 @@ Total document words: 603
 | own | 1 | 0.0017 |
 | packages | 1 | 0.0017 |
 | particularly | 1 | 0.0017 |
+| patterns | 1 | 0.0017 |
 | peak | 1 | 0.0017 |
 | platform-dependent | 1 | 0.0017 |
 | platform-specific | 1 | 0.0017 |
@@ -190,56 +244,3 @@ Total document words: 603
 | works | 1 | 0.0017 |
 | xcode | 1 | 0.0017 |
 | you'll | 1 | 0.0017 |
-| always | 2 | 0.0033 |
-| arm64 | 2 | 0.0033 |
-| available | 2 | 0.0033 |
-| constrained | 2 | 0.0033 |
-| critical | 2 | 0.0033 |
-| cross-compilation | 2 | 0.0033 |
-| during | 2 | 0.0033 |
-| essential | 2 | 0.0033 |
-| faster | 2 | 0.0033 |
-| generators | 2 | 0.0033 |
-| generic | 2 | 0.0033 |
-| images | 2 | 0.0033 |
-| limitations | 2 | 0.0033 |
-| limited | 2 | 0.0033 |
-| linux | 2 | 0.0033 |
-| machine | 2 | 0.0033 |
-| matching | 2 | 0.0033 |
-| metadata | 2 | 0.0033 |
-| method | 2 | 0.0033 |
-| needs | 2 | 0.0033 |
-| net | 2 | 0.0033 |
-| prohibited | 2 | 0.0033 |
-| publishing | 2 | 0.0033 |
-| reduced | 2 | 0.0033 |
-| requirements | 2 | 0.0033 |
-| see | 2 | 0.0033 |
-| setup | 2 | 0.0033 |
-| single-file | 2 | 0.0033 |
-| size | 2 | 0.0033 |
-| support | 2 | 0.0033 |
-| system | 2 | 0.0033 |
-| toolchain | 2 | 0.0033 |
-| usage | 2 | 0.0033 |
-| use | 2 | 0.0033 |
-| using | 2 | 0.0033 |
-| warnings | 2 | 0.0033 |
-| windows | 2 | 0.0033 |
-| work | 2 | 0.0033 |
-| common | 3 | 0.0050 |
-| deployment | 3 | 0.0050 |
-| self-contained | 3 | 0.0050 |
-| smaller | 3 | 0.0050 |
-| startup | 3 | 0.0050 |
-| without | 3 | 0.0050 |
-| jit | 4 | 0.0066 |
-| reflection-based | 4 | 0.0066 |
-| serialization | 4 | 0.0066 |
-| supported | 4 | 0.0066 |
-| no | 6 | 0.0100 |
-| code | 7 | 0.0116 |
-| compilation | 7 | 0.0116 |
-| json | 7 | 0.0116 |
-| runtime | 11 | 0.0182 |

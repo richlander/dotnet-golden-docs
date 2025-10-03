@@ -1,7 +1,7 @@
 # Unified Local Analysis
 
-Combined 17 compound terms and 292 single words
-Total unique terms: 300
+Combined 17 compound terms and 291 single words
+Total unique terms: 299
 Terms with score ≥ 3.0: 88
 Total term occurrences: 725
 Header-based scoring: enabled
@@ -80,11 +80,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | both | single | 3 | 1.00x | 1.00x | 3.0 |
 | capabilities | single | 3 | 1.00x | 1.00x | 3.0 |
 | complex | single | 3 | 1.00x | 1.00x | 3.0 |
+| considerations | single | 3 | 1.00x | 1.00x | 3.0 |
 | directive | single | 3 | 1.00x | 1.00x | 3.0 |
 | dotnet-10 | single | 3 | 1.00x | 1.00x | 3.0 |
 | experimentation | single | 3 | 1.00x | 1.00x | 3.0 |
 | external | single | 3 | 1.00x | 1.00x | 3.0 |
-| handle | single | 3 | 1.00x | 1.00x | 3.0 |
 | input | single | 3 | 1.00x | 1.00x | 3.0 |
 | integration | single | 3 | 1.00x | 1.00x | 3.0 |
 | intellisense | single | 3 | 1.00x | 1.00x | 3.0 |

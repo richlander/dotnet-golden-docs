@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 7 compound terms and 99 single words
-Total unique terms: 105
-Terms with score ≥ 3.0: 18
-Total term occurrences: 161
+Combined 9 compound terms and 131 single words
+Total unique terms: 139
+Terms with score ≥ 3.0: 30
+Total term occurrences: 278
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,21 +14,33 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| object initialization | compound | 6 | 1.50x | 1.50x | 13.5 |
-| anonymous types | compound | 6 | 1.25x | 1.50x | 11.2 |
-| properties | single | 6 | 1.00x | 1.00x | 6.0 |
-| required members | compound | 3 | 1.25x | 1.50x | 5.6 |
-| use | single | 5 | 1.00x | 1.00x | 5.0 |
-| init properties | compound | 3 | 1.10x | 1.50x | 5.0 |
-| basic | single | 4 | 1.00x | 1.00x | 4.0 |
-| code | single | 4 | 1.00x | 1.00x | 4.0 |
-| constructor | single | 4 | 1.00x | 1.00x | 4.0 |
-| objects | single | 4 | 1.00x | 1.00x | 4.0 |
-| anti-patterns | compound | 2 | 1.25x | 1.50x | 3.8 |
-| collection initialization within objects | compound | 2 | 1.25x | 1.50x | 3.8 |
-| init-only properties | compound | 2 | 1.25x | 1.50x | 3.8 |
-| constructors | single | 3 | 1.00x | 1.00x | 3.0 |
-| immutable | single | 3 | 1.00x | 1.00x | 3.0 |
-| modern | single | 3 | 1.00x | 1.00x | 3.0 |
-| records | single | 3 | 1.00x | 1.00x | 3.0 |
-| required | single | 3 | 1.00x | 1.00x | 3.0 |
+| object initialization | compound | 9 | 1.50x | 1.50x | 20.2 |
+| anonymous types | compound | 8 | 1.25x | 1.50x | 15.0 |
+| collection properties | compound | 8 | 1.25x | 1.50x | 15.0 |
+| init properties | compound | 6 | 1.10x | 1.50x | 9.9 |
+| required members | compound | 5 | 1.25x | 1.50x | 9.4 |
+| use | single | 9 | 1.00x | 1.00x | 9.0 |
+| collection expressions | compound | 5 | 1.10x | 1.50x | 8.2 |
+| objects | single | 8 | 1.00x | 1.00x | 8.0 |
+| constructor | single | 7 | 1.00x | 1.00x | 7.0 |
+| initialization | single | 7 | 1.00x | 1.00x | 7.0 |
+| initializers | single | 7 | 1.00x | 1.00x | 7.0 |
+| properties | single | 7 | 1.00x | 1.00x | 7.0 |
+| init-only properties | compound | 3 | 1.25x | 1.50x | 5.6 |
+| constructors | single | 5 | 1.00x | 1.00x | 5.0 |
+| object | single | 5 | 1.00x | 1.00x | 5.0 |
+| patterns | single | 5 | 1.00x | 1.00x | 5.0 |
+| immutable | single | 4 | 1.00x | 1.00x | 4.0 |
+| parameters | single | 4 | 1.00x | 1.00x | 4.0 |
+| records | single | 4 | 1.00x | 1.00x | 4.0 |
+| required | single | 4 | 1.00x | 1.00x | 4.0 |
+| factory methods | compound | 2 | 1.10x | 1.50x | 3.3 |
+| creating | single | 3 | 1.00x | 1.00x | 3.0 |
+| during | single | 3 | 1.00x | 1.00x | 3.0 |
+| init-only | single | 3 | 1.00x | 1.00x | 3.0 |
+| initialize | single | 3 | 1.00x | 1.00x | 3.0 |
+| known | single | 3 | 1.00x | 1.00x | 3.0 |
+| nested | single | 3 | 1.00x | 1.00x | 3.0 |
+| pre-size | compound | 2 | 1.00x | 1.50x | 3.0 |
+| setting | single | 3 | 1.00x | 1.00x | 3.0 |
+| syntax | single | 3 | 1.00x | 1.00x | 3.0 |

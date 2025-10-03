@@ -74,7 +74,7 @@ Build and compilation encompasses the development-time workflow of transforming 
 | libraries | libraries/dotnet-10-library-improvements | 0.6622 |
 | csharp | csharp/csharp-14-features | 0.6456 |
 | csharp | csharp | 0.6385 |
-| csharp | csharp/object-initialization | 0.6156 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.5987 |
 | extensions | extensions/microsoft-extensions-ai | 0.5919 |
+| csharp | csharp/object-initialization | 0.5832 |
 

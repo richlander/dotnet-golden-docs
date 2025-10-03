@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 168 single words
-Total unique terms: 171
+Combined 11 compound terms and 170 single words
+Total unique terms: 173
 Terms with score ≥ 3.0: 37
-Total term occurrences: 354
+Total term occurrences: 355
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -20,12 +20,12 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | self-contained | compound | 7 | 1.10x | 1.50x | 11.6 |
 | publishing | single | 11 | 1.00x | 1.00x | 11.0 |
 | runtime | single | 10 | 1.00x | 1.00x | 10.0 |
-| size | single | 8 | 1.00x | 1.00x | 8.0 |
 | deployments | single | 7 | 1.00x | 1.00x | 7.0 |
 | startup | single | 7 | 1.00x | 1.00x | 7.0 |
 | benefits | single | 6 | 1.00x | 1.00x | 6.0 |
 | case | single | 6 | 1.00x | 1.00x | 6.0 |
 | readytorun | single | 6 | 1.00x | 1.00x | 6.0 |
+| size | single | 6 | 1.00x | 1.00x | 6.0 |
 | use | single | 6 | 1.00x | 1.00x | 6.0 |
 | container deployment | compound | 3 | 1.10x | 1.50x | 5.0 |
 | single-file | compound | 3 | 1.10x | 1.50x | 5.0 |

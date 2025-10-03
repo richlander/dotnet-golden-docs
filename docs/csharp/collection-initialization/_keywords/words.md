@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 10 compound terms and 144 single words
-Total unique terms: 154
-Terms with score ≥ 3.0: 24
-Total term occurrences: 230
+Combined 5 compound terms and 128 single words
+Total unique terms: 133
+Terms with score ≥ 3.0: 22
+Total term occurrences: 224
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,27 +14,25 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| collection initialization | compound | 6 | 1.50x | 1.50x | 13.5 |
-| use | single | 6 | 1.00x | 1.00x | 6.0 |
-| initialization patterns | compound | 3 | 1.25x | 1.50x | 5.6 |
-| target-typed | single | 5 | 1.00x | 1.00x | 5.0 |
-| collection type | compound | 3 | 1.10x | 1.50x | 5.0 |
-| code | single | 4 | 1.00x | 1.00x | 4.0 |
-| collections | single | 4 | 1.00x | 1.00x | 4.0 |
-| patterns | single | 4 | 1.00x | 1.00x | 4.0 |
-| 9.0 | compound | 2 | 1.25x | 1.50x | 3.8 |
+| collection expressions | compound | 12 | 1.25x | 1.50x | 22.5 |
+| syntax | single | 8 | 1.00x | 1.00x | 8.0 |
+| values | single | 8 | 1.00x | 1.00x | 8.0 |
+| collection initialization | compound | 3 | 1.50x | 1.50x | 6.8 |
+| collections | single | 6 | 1.00x | 1.00x | 6.0 |
+| target-typed new | compound | 3 | 1.25x | 1.50x | 5.6 |
+| patterns | single | 5 | 1.00x | 1.00x | 5.0 |
+| collection types | compound | 3 | 1.10x | 1.50x | 5.0 |
+| use | single | 4 | 1.00x | 1.00x | 4.0 |
 | collection initializer syntax | compound | 2 | 1.25x | 1.50x | 3.8 |
-| performance considerations | compound | 2 | 1.25x | 1.50x | 3.8 |
-| target-typed new | compound | 2 | 1.25x | 1.50x | 3.8 |
-| target-typed new expressions | compound | 2 | 1.25x | 1.50x | 3.8 |
-| data management | compound | 2 | 1.10x | 1.50x | 3.3 |
-| dictionary initializers | compound | 2 | 1.10x | 1.50x | 3.3 |
-| approach | single | 3 | 1.00x | 1.00x | 3.0 |
-| approaches | single | 3 | 1.00x | 1.00x | 3.0 |
-| different | single | 3 | 1.00x | 1.00x | 3.0 |
-| initializers | single | 3 | 1.00x | 1.00x | 3.0 |
-| modern | single | 3 | 1.00x | 1.00x | 3.0 |
-| right | single | 3 | 1.00x | 1.00x | 3.0 |
-| syntax | single | 3 | 1.00x | 1.00x | 3.0 |
-| understanding | single | 3 | 1.00x | 1.00x | 3.0 |
-| works | single | 3 | 1.00x | 1.00x | 3.0 |
+| capacity | single | 3 | 1.00x | 1.00x | 3.0 |
+| dictionaries | single | 3 | 1.00x | 1.00x | 3.0 |
+| dictionary | single | 3 | 1.00x | 1.00x | 3.0 |
+| elements | single | 3 | 1.00x | 1.00x | 3.0 |
+| existing | single | 3 | 1.00x | 1.00x | 3.0 |
+| know | single | 3 | 1.00x | 1.00x | 3.0 |
+| known | single | 3 | 1.00x | 1.00x | 3.0 |
+| method | single | 3 | 1.00x | 1.00x | 3.0 |
+| offer | single | 3 | 1.00x | 1.00x | 3.0 |
+| provide | single | 3 | 1.00x | 1.00x | 3.0 |
+| target-typed | single | 3 | 1.00x | 1.00x | 3.0 |
+| upfront | single | 3 | 1.00x | 1.00x | 3.0 |

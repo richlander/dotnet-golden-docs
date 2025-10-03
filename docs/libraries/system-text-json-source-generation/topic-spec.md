@@ -65,15 +65,15 @@ System.Text.Json source generation provides compile-time generation of serializa
 | aot applications | 4.55 |
 | aot compatibility | 4.54 |
 | aot compilation | 4.52 |
+| let source generation handle | 4.52 |
 | property naming policies | 4.52 |
+| source generation handle naming | 4.52 |
 | type-safe | 4.52 |
+| unconstrained generics | 4.52 |
 | reflection-based | 3.59 |
 | newtonsoft.json | 3.56 |
 | system.text.json source generation | 3.51 |
-| source generation | 3.24 |
 | native aot | 3.22 |
-| naming | 3.08 |
-| context | 3.06 |
 
 ## APIs
 
@@ -129,11 +129,11 @@ System.Text.Json source generation provides compile-time generation of serializa
 | libraries | libraries/dotnet-10-library-improvements | 0.6743 |
 | cli | cli/file-based-apps | 0.6693 |
 | csharp | csharp/csharp-14-features | 0.6648 |
-| csharp | csharp/object-initialization | 0.6641 |
 | cli | cli/publishing-and-deployment | 0.6453 |
 | cli | cli/assembly-trimming | 0.6435 |
-| csharp | csharp/collection-initialization | 0.6331 |
+| csharp | csharp | 0.6299 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6149 |
+| csharp | csharp/object-initialization | 0.6092 |
 
 ## Authority Scores
 

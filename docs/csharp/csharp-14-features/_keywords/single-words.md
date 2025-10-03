@@ -2,11 +2,50 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 145
-Total word occurrences: 210
+Total word occurrences: 215
 Total document words: 357
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
+| patterns | 7 | 0.0196 |
+| assignment | 6 | 0.0168 |
+| extension | 5 | 0.0140 |
+| support | 5 | 0.0140 |
+| code | 4 | 0.0112 |
+| enhanced | 4 | 0.0112 |
+| operations | 4 | 0.0112 |
+| zero-allocation | 4 | 0.0112 |
+| compile-time | 3 | 0.0084 |
+| extensions | 3 | 0.0084 |
+| first-class | 3 | 0.0084 |
+| keyword | 3 | 0.0084 |
+| lambda | 3 | 0.0084 |
+| partial | 3 | 0.0084 |
+| ref | 3 | 0.0084 |
+| syntax | 3 | 0.0084 |
+| async | 2 | 0.0056 |
+| boilerplate | 2 | 0.0056 |
+| common | 2 | 0.0056 |
+| compound | 2 | 0.0056 |
+| constructors | 2 | 0.0056 |
+| enables | 2 | 0.0056 |
+| events | 2 | 0.0056 |
+| features | 2 | 0.0056 |
+| modifiers | 2 | 0.0056 |
+| null-conditional | 2 | 0.0056 |
+| operators | 2 | 0.0056 |
+| optional | 2 | 0.0056 |
+| parameters | 2 | 0.0056 |
+| preview | 2 | 0.0056 |
+| reference | 2 | 0.0056 |
+| restrictions | 2 | 0.0056 |
+| rules | 2 | 0.0056 |
+| span | 2 | 0.0056 |
+| stack-only | 2 | 0.0056 |
+| string | 2 | 0.0056 |
+| unsafe | 2 | 0.0056 |
+| validation | 2 | 0.0056 |
+| without | 2 | 0.0056 |
 | accessors | 1 | 0.0028 |
 | additional | 1 | 0.0028 |
 | alternatives | 1 | 0.0028 |
@@ -113,42 +152,3 @@ Total document words: 357
 | versions | 1 | 0.0028 |
 | ways | 1 | 0.0028 |
 | work | 1 | 0.0028 |
-| async | 2 | 0.0056 |
-| boilerplate | 2 | 0.0056 |
-| common | 2 | 0.0056 |
-| compound | 2 | 0.0056 |
-| constructors | 2 | 0.0056 |
-| enables | 2 | 0.0056 |
-| events | 2 | 0.0056 |
-| features | 2 | 0.0056 |
-| modifiers | 2 | 0.0056 |
-| null-conditional | 2 | 0.0056 |
-| operators | 2 | 0.0056 |
-| optional | 2 | 0.0056 |
-| parameters | 2 | 0.0056 |
-| patterns | 2 | 0.0056 |
-| preview | 2 | 0.0056 |
-| reference | 2 | 0.0056 |
-| restrictions | 2 | 0.0056 |
-| rules | 2 | 0.0056 |
-| span | 2 | 0.0056 |
-| stack-only | 2 | 0.0056 |
-| string | 2 | 0.0056 |
-| unsafe | 2 | 0.0056 |
-| validation | 2 | 0.0056 |
-| without | 2 | 0.0056 |
-| compile-time | 3 | 0.0084 |
-| extensions | 3 | 0.0084 |
-| first-class | 3 | 0.0084 |
-| keyword | 3 | 0.0084 |
-| lambda | 3 | 0.0084 |
-| partial | 3 | 0.0084 |
-| ref | 3 | 0.0084 |
-| syntax | 3 | 0.0084 |
-| code | 4 | 0.0112 |
-| enhanced | 4 | 0.0112 |
-| operations | 4 | 0.0112 |
-| zero-allocation | 4 | 0.0112 |
-| extension | 5 | 0.0140 |
-| support | 5 | 0.0140 |
-| assignment | 6 | 0.0168 |

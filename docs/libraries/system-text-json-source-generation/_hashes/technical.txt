@@ -59,12 +59,12 @@ ErrorMessage | JSON source generation does not support the specified configurati
 Keyword | aot applications
 Keyword | aot compatibility
 Keyword | aot compilation
+Keyword | let source generation handle
 Keyword | property naming policies
+Keyword | source generation handle naming
 Keyword | type-safe
+Keyword | unconstrained generics
 Keyword | reflection-based
 Keyword | newtonsoft.json
 Keyword | system.text.json source generation
-Keyword | source generation
 Keyword | native aot
-Keyword | naming
-Keyword | context

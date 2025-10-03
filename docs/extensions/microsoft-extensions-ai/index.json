@@ -2,6 +2,57 @@
   "id": "extensions/microsoft-extensions-ai",
   "title": "Microsoft.Extensions.AI",
   "description": "Unified approach for .NET developers to integrate and interact with AI services through standardized interfaces and middleware patterns.",
+  "sim_hash": 13136320686020076342,
+  "hashes": [
+    {
+      "name": "overview",
+      "kind": "minhash",
+      "weighted": false,
+      "path": "/extensions/microsoft-extensions-ai/_hashes/overview.txt.minhash"
+    },
+    {
+      "name": "overview",
+      "kind": "minhash",
+      "weighted": true,
+      "path": "/extensions/microsoft-extensions-ai/_hashes/overview.txt.minhash-weighted"
+    },
+    {
+      "name": "overview",
+      "kind": "simhash",
+      "weighted": false,
+      "path": "/extensions/microsoft-extensions-ai/_hashes/overview.txt.simhash"
+    },
+    {
+      "name": "overview",
+      "kind": "simhash",
+      "weighted": true,
+      "path": "/extensions/microsoft-extensions-ai/_hashes/overview.txt.simhash-weighted"
+    },
+    {
+      "name": "technical",
+      "kind": "minhash",
+      "weighted": false,
+      "path": "/extensions/microsoft-extensions-ai/_hashes/technical.txt.minhash"
+    },
+    {
+      "name": "technical",
+      "kind": "minhash",
+      "weighted": true,
+      "path": "/extensions/microsoft-extensions-ai/_hashes/technical.txt.minhash-weighted"
+    },
+    {
+      "name": "technical",
+      "kind": "simhash",
+      "weighted": false,
+      "path": "/extensions/microsoft-extensions-ai/_hashes/technical.txt.simhash"
+    },
+    {
+      "name": "technical",
+      "kind": "simhash",
+      "weighted": true,
+      "path": "/extensions/microsoft-extensions-ai/_hashes/technical.txt.simhash-weighted"
+    }
+  ],
   "keywords": [
     {
       "name": "microsoft.extensions.ai",
@@ -56,64 +107,676 @@
     {
       "target": "/extensions/microsoft-extensions-ai-evaluation",
       "similarity": 0.8279,
-      "authority": null
+      "authority": null,
+      "sim_hash": 13141382836480540984,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/libraries",
       "similarity": 0.7133,
       "authority": {
         "dependency injection": 1.357
-      }
+      },
+      "sim_hash": 17751807665804640574,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/dotnet",
       "similarity": 0.7043,
-      "authority": null
+      "authority": null,
+      "sim_hash": 13135610419762635064,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/dotnet/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/dotnet/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/dotnet/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/dotnet/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/dotnet/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/dotnet/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/dotnet/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/dotnet/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/extensions/microsoft-extensions-http-resilience",
       "similarity": 0.6811,
-      "authority": null
+      "authority": null,
+      "sim_hash": 17753101773685129594,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/extensions/microsoft-extensions-http-resilience/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/extensions/microsoft-extensions-http-resilience/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/extensions/microsoft-extensions-http-resilience/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/extensions/microsoft-extensions-http-resilience/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/extensions/microsoft-extensions-http-resilience/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/extensions/microsoft-extensions-http-resilience/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/extensions/microsoft-extensions-http-resilience/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/extensions/microsoft-extensions-http-resilience/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/libraries/dotnet-10-library-improvements",
       "similarity": 0.665,
-      "authority": null
+      "authority": null,
+      "sim_hash": 17751806633804366128,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/dotnet-10-library-improvements/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/dotnet-10-library-improvements/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/dotnet-10-library-improvements/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/dotnet-10-library-improvements/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/dotnet-10-library-improvements/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/dotnet-10-library-improvements/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/dotnet-10-library-improvements/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/dotnet-10-library-improvements/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/cli",
       "similarity": 0.6615,
-      "authority": null
+      "authority": null,
+      "sim_hash": 13139559451064566576,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/cli/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/cli/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/cli/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/cli/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/cli/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/cli/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/cli/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/cli/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/csharp/csharp-14-features",
       "similarity": 0.6469,
-      "authority": null
+      "authority": null,
+      "sim_hash": 12991678435655811896,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/csharp/csharp-14-features/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/csharp/csharp-14-features/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/csharp/csharp-14-features/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/csharp/csharp-14-features/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/csharp/csharp-14-features/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/csharp/csharp-14-features/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/csharp/csharp-14-features/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/csharp/csharp-14-features/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/cli/file-based-apps",
       "similarity": 0.644,
-      "authority": null
+      "authority": null,
+      "sim_hash": 12997301872985833850,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/cli/file-based-apps/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/cli/file-based-apps/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/cli/file-based-apps/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/cli/file-based-apps/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/cli/file-based-apps/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/cli/file-based-apps/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/cli/file-based-apps/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/cli/file-based-apps/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/cli/native-aot",
       "similarity": 0.6401,
-      "authority": null
+      "authority": null,
+      "sim_hash": 17747989739326636922,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/cli/native-aot/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/cli/native-aot/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/cli/native-aot/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/cli/native-aot/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/cli/native-aot/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/cli/native-aot/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/cli/native-aot/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/cli/native-aot/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/libraries/system-commandline",
       "similarity": 0.6293,
-      "authority": null
+      "authority": null,
+      "sim_hash": 12996139705167217466,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/system-commandline/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/system-commandline/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/system-commandline/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/system-commandline/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/system-commandline/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/system-commandline/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/system-commandline/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/system-commandline/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
       "target": "/csharp",
       "similarity": 0.6054,
-      "authority": null
+      "authority": null,
+      "sim_hash": 3916324853298103158,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/csharp/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/csharp/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/csharp/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/csharp/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/csharp/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/csharp/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/csharp/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/csharp/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     },
     {
-      "target": "/csharp/object-initialization",
-      "similarity": 0.6001,
-      "authority": null
+      "target": "/cli/assembly-trimming",
+      "similarity": 0.5959,
+      "authority": null,
+      "sim_hash": 13140262573718774129,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/cli/assembly-trimming/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/cli/assembly-trimming/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/cli/assembly-trimming/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/cli/assembly-trimming/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/cli/assembly-trimming/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/cli/assembly-trimming/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/cli/assembly-trimming/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/cli/assembly-trimming/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
     }
   ],
   "apis": [
@@ -224,7 +887,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-01T15:27:16.2330587Z",
+    "generated": "2025-10-02T17:36:22.5727980Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

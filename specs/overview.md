@@ -4,15 +4,11 @@ A static knowledge graph system that transforms curated topic content into LLM-c
 
 ## Core Principles
 
-**Human effort:** Concentrate on golden documents. Everything else derives.
-
-**Quality incentives:** The system works on derived insight from quality content. Humans are incentivized to producing higher-quality content to make the tools work better. The tools are intended to be as simple as possible.
-
-**Insight storage:** Derived data normalizes into topic-spec.md. Single format enables uniform tooling.
-
-**Source/Consumption separation:** Source for authoring, consumption for LLM delivery. Same structure, different content, identical tooling.
-
-**Static architecture:** No runtime computation except prompt hashing. Graph navigation is pure numeric comparison of pre-computed scores.
+- **Human effort:** Concentrate on golden documents. Everything else derives.
+- **Quality incentives:** The system works on derived insight from quality content. Humans are incentivized to producing higher-quality content to make the tools work better. The tools are intended to be as simple as possible.
+- **Insight storage:** Derived data normalizes into topic-spec.md. Single format enables uniform tooling.
+- **Source/Consumption separation:** Source for authoring, consumption for LLM delivery. Same structure, different content, identical tooling.
+- **Static architecture:** No runtime computation except prompt hashing. Graph navigation is pure numeric comparison of pre-computed scores.
 
 ## Tool Development Pattern
 
@@ -66,7 +62,7 @@ All insights normalize into `topic-spec.md` within each topic. This creates unif
 
 Same tools run on both graphs. Same structure, different content.
 
-### Layer 5: Lexical Search
+### Layer 5: Topic Search
 
 **Static hash-based retrieval.** Search tool navigates both graphs equally:
 

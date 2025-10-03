@@ -1,3 +1,3 @@
 | Topic (csharp) | Neighbor (dotnet) | Similarity |
 |-------------|-------------------|------------|
-| csharp/object-initialization | dotnet | 0.6808 |
+| csharp/object-initialization | dotnet | 0.6188 |

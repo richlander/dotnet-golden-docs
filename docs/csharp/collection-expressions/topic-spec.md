@@ -62,12 +62,12 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | Keyword | Score |
 |---------|-------|
-| collection expressions | 4.72 |
-| collection types | 4.55 |
 | target type | 4.55 |
 | compile-time constants | 4.52 |
 | inline arrays | 4.52 |
 | spread element | 4.52 |
+| collection types | 3.56 |
+| collection expressions | 3.33 |
 | spread | 3.05 |
 | params | 3.04 |
 | combine | 3.03 |
@@ -97,9 +97,9 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
-| csharp | csharp/collection-initialization | 0.8672 |
+| csharp | csharp/collection-initialization | 0.8797 |
 | csharp | csharp/csharp-14-features | 0.7522 |
-| csharp | csharp/object-initialization | 0.7404 |
+| csharp | csharp | 0.7324 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6799 |
 | libraries | libraries/system-text-json | 0.6238 |
 | libraries | libraries/system-commandline | 0.6209 |
@@ -109,4 +109,11 @@ Collection expressions provide a concise syntax to create common collection valu
 | cli | cli | 0.5342 |
 | extensions | extensions/microsoft-extensions-ai | 0.5133 |
 | cli | cli/build-and-compilation | 0.5132 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp/collection-initialization | collection expressions | 1.375 |
+| csharp/collection-initialization | collection types | 1.356 |
 

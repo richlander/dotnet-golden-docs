@@ -1,12 +1,66 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 190
-Total word occurrences: 275
+Total unique words: 192
+Total word occurrences: 276
 Total document words: 419
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
+| trimming | 8 | 0.0191 |
+| code | 7 | 0.0167 |
+| analysis | 4 | 0.0095 |
+| deployment | 4 | 0.0095 |
+| reduced | 4 | 0.0095 |
+| test | 4 | 0.0095 |
+| application | 3 | 0.0072 |
+| common | 3 | 0.0072 |
+| disabled | 3 | 0.0072 |
+| faster | 3 | 0.0072 |
+| generators | 3 | 0.0072 |
+| readytorun | 3 | 0.0072 |
+| reduction | 3 | 0.0072 |
+| startup | 3 | 0.0072 |
+| support | 3 | 0.0072 |
+| trimmed | 3 | 0.0072 |
+| unused | 3 | 0.0072 |
+| alternatives | 2 | 0.0048 |
+| apis | 2 | 0.0048 |
+| applications | 2 | 0.0048 |
+| assemblies | 2 | 0.0048 |
+| assembly | 2 | 0.0048 |
+| automatically | 2 | 0.0048 |
+| cold | 2 | 0.0048 |
+| com | 2 | 0.0048 |
+| dependencies | 2 | 0.0048 |
+| due | 2 | 0.0048 |
+| enabled | 2 | 0.0048 |
+| feature | 2 | 0.0048 |
+| footprint | 2 | 0.0048 |
+| issues | 2 | 0.0048 |
+| limitations | 2 | 0.0048 |
+| metadata | 2 | 0.0048 |
+| minimal | 2 | 0.0048 |
+| particularly | 2 | 0.0048 |
+| patterns | 2 | 0.0048 |
+| removing | 2 | 0.0048 |
+| replace | 2 | 0.0048 |
+| requirements | 2 | 0.0048 |
+| scenarios | 2 | 0.0048 |
+| self-contained | 2 | 0.0048 |
+| significant | 2 | 0.0048 |
+| single-file | 2 | 0.0048 |
+| smaller | 2 | 0.0048 |
+| start | 2 | 0.0048 |
+| static | 2 | 0.0048 |
+| storage | 2 | 0.0048 |
+| strategies | 2 | 0.0048 |
+| thoroughly | 2 | 0.0048 |
+| times | 2 | 0.0048 |
+| trim | 2 | 0.0048 |
+| warning | 2 | 0.0048 |
+| warnings | 2 | 0.0048 |
+| works | 2 | 0.0048 |
 | accesses | 1 | 0.0024 |
 | activation | 1 | 0.0024 |
 | add | 1 | 0.0024 |
@@ -32,6 +86,7 @@ Total document words: 419
 | complex | 1 | 0.0024 |
 | complexity | 1 | 0.0024 |
 | configuration | 1 | 0.0024 |
+| considerations | 1 | 0.0024 |
 | constrained | 1 | 0.0024 |
 | costs | 1 | 0.0024 |
 | create | 1 | 0.0024 |
@@ -117,6 +172,7 @@ Total document words: 419
 | serverless | 1 | 0.0024 |
 | setup | 1 | 0.0024 |
 | several | 1 | 0.0024 |
+| size | 1 | 0.0024 |
 | sizes | 1 | 0.0024 |
 | slower | 1 | 0.0024 |
 | starts | 1 | 0.0024 |
@@ -143,57 +199,3 @@ Total document words: 419
 | well | 1 | 0.0024 |
 | windows | 1 | 0.0024 |
 | wpf | 1 | 0.0024 |
-| alternatives | 2 | 0.0048 |
-| apis | 2 | 0.0048 |
-| applications | 2 | 0.0048 |
-| assemblies | 2 | 0.0048 |
-| assembly | 2 | 0.0048 |
-| automatically | 2 | 0.0048 |
-| cold | 2 | 0.0048 |
-| com | 2 | 0.0048 |
-| dependencies | 2 | 0.0048 |
-| due | 2 | 0.0048 |
-| enabled | 2 | 0.0048 |
-| feature | 2 | 0.0048 |
-| footprint | 2 | 0.0048 |
-| issues | 2 | 0.0048 |
-| limitations | 2 | 0.0048 |
-| metadata | 2 | 0.0048 |
-| minimal | 2 | 0.0048 |
-| particularly | 2 | 0.0048 |
-| removing | 2 | 0.0048 |
-| replace | 2 | 0.0048 |
-| requirements | 2 | 0.0048 |
-| scenarios | 2 | 0.0048 |
-| self-contained | 2 | 0.0048 |
-| significant | 2 | 0.0048 |
-| single-file | 2 | 0.0048 |
-| smaller | 2 | 0.0048 |
-| start | 2 | 0.0048 |
-| static | 2 | 0.0048 |
-| storage | 2 | 0.0048 |
-| strategies | 2 | 0.0048 |
-| thoroughly | 2 | 0.0048 |
-| times | 2 | 0.0048 |
-| trim | 2 | 0.0048 |
-| warning | 2 | 0.0048 |
-| warnings | 2 | 0.0048 |
-| works | 2 | 0.0048 |
-| application | 3 | 0.0072 |
-| common | 3 | 0.0072 |
-| disabled | 3 | 0.0072 |
-| faster | 3 | 0.0072 |
-| generators | 3 | 0.0072 |
-| readytorun | 3 | 0.0072 |
-| reduction | 3 | 0.0072 |
-| size | 3 | 0.0072 |
-| startup | 3 | 0.0072 |
-| support | 3 | 0.0072 |
-| trimmed | 3 | 0.0072 |
-| unused | 3 | 0.0072 |
-| analysis | 4 | 0.0095 |
-| deployment | 4 | 0.0095 |
-| reduced | 4 | 0.0095 |
-| test | 4 | 0.0095 |
-| code | 7 | 0.0167 |
-| trimming | 8 | 0.0191 |

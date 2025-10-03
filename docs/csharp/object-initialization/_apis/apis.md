@@ -2,15 +2,15 @@
 
 Generated from: `golden-reference.md`, `qa-pairs.md`
 Total unique APIs: 20
-Total API references: 36
+Total API references: 34
 
 | API | Type | Count |
 |-----|------|-------|
 | Person | method | 6 |
-| Console.WriteLine | method | 4 |
 | PersonOld | method | 3 |
 | ArgumentException | method | 2 |
 | Build | method | 2 |
+| Console.WriteLine | method | 2 |
 | IsValidEmail | method | 2 |
 | Product | method | 2 |
 | WithAge | method | 2 |

@@ -97,14 +97,14 @@
 | csharp | csharp/csharp-14-features | 0.7274 |
 | extensions | extensions/microsoft-extensions-ai | 0.7043 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6825 |
-| csharp | csharp/object-initialization | 0.6808 |
+| csharp | csharp/object-initialization | 0.6188 |
 
 ### Similarity Metadata
 
 | Category | Threshold | Percentile | Total Pairs |
 |----------|-----------|------------|-------------|
 | cli | 0.7610 | P50 | 6 |
-| csharp | 0.6808 | P50 | 5 |
+| csharp | 0.6188 | P50 | 5 |
 | extensions | 0.6825 | P50 | 3 |
 | libraries | 0.7299 | P50 | 5 |
 

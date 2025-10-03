@@ -1,6 +1,5 @@
 Title | Object Initialization
 API | Person
-API | Console.WriteLine
 API | PersonOld
 Error | CS0200
 ErrorMessage | Property or indexer '{0}' cannot be assigned to -- it is read only
@@ -14,15 +13,15 @@ Error | CS8868
 ErrorMessage | A switch expression or with expression does not handle some possible values (it is not exhaustive)
 Error | CS0266
 ErrorMessage | Cannot implicitly convert type '{0}' to '{1}'. An explicit conversion exists (are you missing a cast?)
-Keyword | anonymous types
 Keyword | object initialization
+Keyword | anonymous types
+Keyword | collection properties
 Keyword | init properties
 Keyword | required members
-Keyword | anti-patterns
-Keyword | collection initialization within objects
 Keyword | init-only properties
-Keyword | properties
-Keyword | constructor
+Keyword | factory methods
+Keyword | pre-size
+Keyword | collection expressions
 Keyword | objects
-Keyword | constructors
-Keyword | immutable
+Keyword | constructor
+Keyword | initialization

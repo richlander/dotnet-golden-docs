@@ -99,7 +99,7 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 | cli | cli/native-aot | 0.6401 |
 | libraries | libraries/system-commandline | 0.6293 |
 | csharp | csharp | 0.6054 |
-| csharp | csharp/object-initialization | 0.6001 |
+| cli | cli/assembly-trimming | 0.5959 |
 
 ## Authority Scores
 

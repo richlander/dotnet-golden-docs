@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 121 single words
-Total unique terms: 131
-Terms with score ≥ 3.0: 24
-Total term occurrences: 213
+Combined 11 compound terms and 122 single words
+Total unique terms: 132
+Terms with score ≥ 3.0: 25
+Total term occurrences: 221
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,6 +15,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
 | libraries | single | 12 | 1.00x | 1.00x | 12.0 |
+| patterns | single | 8 | 1.00x | 1.00x | 8.0 |
 | system | single | 8 | 1.00x | 1.00x | 8.0 |
 | data access | compound | 3 | 1.25x | 1.50x | 5.6 |
 | library ecosystem | compound | 3 | 1.25x | 1.50x | 5.6 |
@@ -34,7 +35,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | async | single | 3 | 1.00x | 1.00x | 3.0 |
 | base class library | compound | 2 | 1.00x | 1.50x | 3.0 |
 | core | single | 3 | 1.00x | 1.00x | 3.0 |
+| data | single | 3 | 1.00x | 1.00x | 3.0 |
 | distributed | single | 3 | 1.00x | 1.00x | 3.0 |
 | high-performance | single | 3 | 1.00x | 1.00x | 3.0 |
 | nuget | single | 3 | 1.00x | 1.00x | 3.0 |
-| patterns | single | 3 | 1.00x | 1.00x | 3.0 |

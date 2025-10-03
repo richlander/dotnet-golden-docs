@@ -7,9 +7,9 @@ Total document words: 357
 
 | Compound Term | Count | Document Concentration |
 |---------------|-------|------------------------|
+| compile-time | 4 | 0.0112 |
+| zero-allocation | 3 | 0.0084 |
 | expression trees | 2 | 0.0056 |
 | first-class span | 2 | 0.0056 |
 | named arguments | 2 | 0.0056 |
 | stack-only | 2 | 0.0056 |
-| zero-allocation | 3 | 0.0084 |
-| compile-time | 4 | 0.0112 |

@@ -2,8 +2,8 @@
 
 Combined 8 compound terms and 319 single words
 Total unique terms: 325
-Terms with score ≥ 3.0: 59
-Total term occurrences: 589
+Terms with score ≥ 3.0: 61
+Total term occurrences: 596
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -25,6 +25,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | command-line | compound | 5 | 1.00x | 1.50x | 7.5 |
 | builds | single | 7 | 1.00x | 1.00x | 7.0 |
 | integration | single | 6 | 1.00x | 1.00x | 6.0 |
+| patterns | single | 6 | 1.00x | 1.00x | 6.0 |
 | projects | single | 6 | 1.00x | 1.00x | 6.0 |
 | consistent | single | 5 | 1.00x | 1.00x | 5.0 |
 | operations | single | 5 | 1.00x | 1.00x | 5.0 |
@@ -54,6 +55,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | caching | single | 3 | 1.00x | 1.00x | 3.0 |
 | ci | single | 3 | 1.00x | 1.00x | 3.0 |
 | configuration | single | 3 | 1.00x | 1.00x | 3.0 |
+| considerations | single | 3 | 1.00x | 1.00x | 3.0 |
 | downloads | single | 3 | 1.00x | 1.00x | 3.0 |
 | efficient | single | 3 | 1.00x | 1.00x | 3.0 |
 | experience | single | 3 | 1.00x | 1.00x | 3.0 |

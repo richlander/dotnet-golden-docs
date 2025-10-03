@@ -55,7 +55,7 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | Keyword | Score |
 |---------|-------|
 | newtonsoft.json | 3.56 |
-| source generation | 3.24 |
+| source generation | 3.21 |
 | default | 3.04 |
 | limits | 3.03 |
 | requires | 3.03 |
@@ -96,10 +96,10 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | dotnet | dotnet | 0.7299 |
 | csharp | csharp/csharp-14-features | 0.7242 |
 | libraries | libraries/system-commandline | 0.7216 |
-| csharp | csharp/object-initialization | 0.7000 |
 | csharp | csharp | 0.6981 |
 | cli | cli/native-aot | 0.6960 |
 | cli | cli/file-based-apps | 0.6947 |
+| csharp | csharp/object-initialization | 0.6575 |
 | cli | cli/assembly-trimming | 0.6477 |
 | cli | cli | 0.6320 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6286 |

@@ -62,8 +62,8 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | native aot | 3.22 |
 | benefits | 3.06 |
 | case | 3.06 |
+| size | 3.06 |
 | distribution | 3.04 |
-| optimization | 3.04 |
 
 ## Diagnostic Codes
 
@@ -101,7 +101,7 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | extensions | extensions/microsoft-extensions-ai | 0.5931 |
 | csharp | csharp/csharp-14-features | 0.5899 |
 | csharp | csharp | 0.5672 |
-| csharp | csharp/object-initialization | 0.5537 |
+| csharp | csharp/object-initialization | 0.5204 |
 
 ## Authority Scores
 

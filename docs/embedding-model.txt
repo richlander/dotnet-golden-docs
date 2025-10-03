@@ -1,1 +1,1 @@
-Ollama/nomic-embed-text:latest
+ollama/mxbai-embed-large

@@ -2,6 +2,57 @@
   "id": "extensions",
   "title": "Extensions",
   "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components.",
+  "sim_hash": 4094157115311198364,
+  "hashes": [
+    {
+      "name": "overview",
+      "kind": "minhash",
+      "weighted": false,
+      "path": "/extensions/_hashes/overview.txt.minhash"
+    },
+    {
+      "name": "overview",
+      "kind": "minhash",
+      "weighted": true,
+      "path": "/extensions/_hashes/overview.txt.minhash-weighted"
+    },
+    {
+      "name": "overview",
+      "kind": "simhash",
+      "weighted": false,
+      "path": "/extensions/_hashes/overview.txt.simhash"
+    },
+    {
+      "name": "overview",
+      "kind": "simhash",
+      "weighted": true,
+      "path": "/extensions/_hashes/overview.txt.simhash-weighted"
+    },
+    {
+      "name": "technical",
+      "kind": "minhash",
+      "weighted": false,
+      "path": "/extensions/_hashes/technical.txt.minhash"
+    },
+    {
+      "name": "technical",
+      "kind": "minhash",
+      "weighted": true,
+      "path": "/extensions/_hashes/technical.txt.minhash-weighted"
+    },
+    {
+      "name": "technical",
+      "kind": "simhash",
+      "weighted": false,
+      "path": "/extensions/_hashes/technical.txt.simhash"
+    },
+    {
+      "name": "technical",
+      "kind": "simhash",
+      "weighted": true,
+      "path": "/extensions/_hashes/technical.txt.simhash-weighted"
+    }
+  ],
   "keywords": null,
   "edges": null,
   "apis": null,
@@ -74,7 +125,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-10-01T15:27:16.2401485Z",
+    "generated": "2025-10-02T17:36:23.3980380Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

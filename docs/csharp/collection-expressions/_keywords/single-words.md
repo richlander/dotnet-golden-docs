@@ -1,12 +1,47 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 154
-Total word occurrences: 214
+Total unique words: 157
+Total word occurrences: 220
 Total document words: 423
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
+| syntax | 10 | 0.0236 |
+| collections | 6 | 0.0142 |
+| spread | 5 | 0.0118 |
+| familiar | 4 | 0.0095 |
+| params | 4 | 0.0095 |
+| patterns | 4 | 0.0095 |
+| use | 4 | 0.0095 |
+| combine | 3 | 0.0071 |
+| concise | 3 | 0.0071 |
+| javascript | 3 | 0.0071 |
+| provide | 3 | 0.0071 |
+| python | 3 | 0.0071 |
+| alternative | 2 | 0.0047 |
+| cannot | 2 | 0.0047 |
+| clear | 2 | 0.0047 |
+| code | 2 | 0.0047 |
+| common | 2 | 0.0047 |
+| compile-time | 2 | 0.0047 |
+| compiler | 2 | 0.0047 |
+| developers | 2 | 0.0047 |
+| elements | 2 | 0.0047 |
+| existing | 2 | 0.0047 |
+| inference | 2 | 0.0047 |
+| languages | 2 | 0.0047 |
+| mechanics | 2 | 0.0047 |
+| multiple | 2 | 0.0047 |
+| operator | 2 | 0.0047 |
+| rather | 2 | 0.0047 |
+| readable | 2 | 0.0047 |
+| rust | 2 | 0.0047 |
+| small | 2 | 0.0047 |
+| users | 2 | 0.0047 |
+| values | 2 | 0.0047 |
+| work | 2 | 0.0047 |
+| working | 2 | 0.0047 |
 | actual | 1 | 0.0024 |
 | aligns | 1 | 0.0024 |
 | allows | 1 | 0.0024 |
@@ -29,6 +64,7 @@ Total document words: 423
 | coming | 1 | 0.0024 |
 | complex | 1 | 0.0024 |
 | conditional | 1 | 0.0024 |
+| considerations | 1 | 0.0024 |
 | construction | 1 | 0.0024 |
 | constructor | 1 | 0.0024 |
 | conversions | 1 | 0.0024 |
@@ -120,6 +156,7 @@ Total document words: 423
 | support | 1 | 0.0024 |
 | swift | 1 | 0.0024 |
 | toward | 1 | 0.0024 |
+| type | 1 | 0.0024 |
 | understand | 1 | 0.0024 |
 | used | 1 | 0.0024 |
 | variable | 1 | 0.0024 |
@@ -127,37 +164,3 @@ Total document words: 423
 | very | 1 | 0.0024 |
 | want | 1 | 0.0024 |
 | way | 1 | 0.0024 |
-| alternative | 2 | 0.0047 |
-| cannot | 2 | 0.0047 |
-| clear | 2 | 0.0047 |
-| code | 2 | 0.0047 |
-| common | 2 | 0.0047 |
-| compile-time | 2 | 0.0047 |
-| compiler | 2 | 0.0047 |
-| developers | 2 | 0.0047 |
-| elements | 2 | 0.0047 |
-| existing | 2 | 0.0047 |
-| inference | 2 | 0.0047 |
-| languages | 2 | 0.0047 |
-| mechanics | 2 | 0.0047 |
-| multiple | 2 | 0.0047 |
-| operator | 2 | 0.0047 |
-| rather | 2 | 0.0047 |
-| readable | 2 | 0.0047 |
-| rust | 2 | 0.0047 |
-| small | 2 | 0.0047 |
-| users | 2 | 0.0047 |
-| values | 2 | 0.0047 |
-| work | 2 | 0.0047 |
-| working | 2 | 0.0047 |
-| combine | 3 | 0.0071 |
-| concise | 3 | 0.0071 |
-| javascript | 3 | 0.0071 |
-| provide | 3 | 0.0071 |
-| python | 3 | 0.0071 |
-| familiar | 4 | 0.0095 |
-| params | 4 | 0.0095 |
-| use | 4 | 0.0095 |
-| spread | 5 | 0.0118 |
-| collections | 6 | 0.0142 |
-| syntax | 10 | 0.0236 |

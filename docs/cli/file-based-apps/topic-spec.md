@@ -94,8 +94,8 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | csharp | csharp/csharp-14-features | 0.6828 |
 | csharp | csharp | 0.6755 |
 | extensions | extensions/microsoft-extensions-ai | 0.6440 |
-| csharp | csharp/object-initialization | 0.6336 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6092 |
+| csharp | csharp/object-initialization | 0.5879 |
 
 ## Authority Scores
 

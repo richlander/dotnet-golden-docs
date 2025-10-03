@@ -2,6 +2,8 @@
   "id": "",
   "title": ".NET Knowledge Graph",
   "description": "Root index of .NET documentation topics and categories",
+  "sim_hash": null,
+  "hashes": null,
   "keywords": null,
   "edges": null,
   "apis": null,
@@ -94,7 +96,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-10-01T15:27:16.2425232Z",
+    "generated": "2025-10-02T17:36:23.4853860Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

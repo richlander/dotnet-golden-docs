@@ -1,12 +1,48 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 151
-Total word occurrences: 220
+Total unique words: 153
+Total word occurrences: 222
 Total document words: 356
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
+| json | 15 | 0.0421 |
+| serialization | 7 | 0.0197 |
+| configuration | 4 | 0.0112 |
+| default | 4 | 0.0112 |
+| newtonsoft | 4 | 0.0112 |
+| apis | 3 | 0.0084 |
+| compile-time | 3 | 0.0084 |
+| limits | 3 | 0.0084 |
+| operations | 3 | 0.0084 |
+| requires | 3 | 0.0084 |
+| system | 3 | 0.0084 |
+| text | 3 | 0.0084 |
+| use | 3 | 0.0084 |
+| utf-8 | 3 | 0.0084 |
+| api | 2 | 0.0056 |
+| asp | 2 | 0.0056 |
+| attribute | 2 | 0.0056 |
+| behavior | 2 | 0.0056 |
+| built-in | 2 | 0.0056 |
+| code | 2 | 0.0056 |
+| common | 2 | 0.0056 |
+| constructor | 2 | 0.0056 |
+| depth | 2 | 0.0056 |
+| efficiency | 2 | 0.0056 |
+| high-performance | 2 | 0.0056 |
+| httpclient | 2 | 0.0056 |
+| large | 2 | 0.0056 |
+| limitations | 2 | 0.0056 |
+| migration | 2 | 0.0056 |
+| no | 2 | 0.0056 |
+| options | 2 | 0.0056 |
+| overhead | 2 | 0.0056 |
+| reuse | 2 | 0.0056 |
+| scenarios | 2 | 0.0056 |
+| security | 2 | 0.0056 |
+| web | 2 | 0.0056 |
 | adjusting | 1 | 0.0028 |
 | advanced | 1 | 0.0028 |
 | advantages | 1 | 0.0028 |
@@ -22,6 +58,7 @@ Total document words: 356
 | built | 1 | 0.0028 |
 | cases | 1 | 0.0028 |
 | consider | 1 | 0.0028 |
+| considerations | 1 | 0.0028 |
 | consumption | 1 | 0.0028 |
 | conversion | 1 | 0.0028 |
 | converters | 1 | 0.0028 |
@@ -82,6 +119,7 @@ Total document words: 356
 | names | 1 | 0.0028 |
 | namespace | 1 | 0.0028 |
 | nuget | 1 | 0.0028 |
+| objects | 1 | 0.0028 |
 | optimal | 1 | 0.0028 |
 | optimization | 1 | 0.0028 |
 | overview | 1 | 0.0028 |
@@ -122,39 +160,3 @@ Total document words: 356
 | vs | 1 | 0.0028 |
 | vulnerabilities | 1 | 0.0028 |
 | works | 1 | 0.0028 |
-| api | 2 | 0.0056 |
-| asp | 2 | 0.0056 |
-| attribute | 2 | 0.0056 |
-| behavior | 2 | 0.0056 |
-| built-in | 2 | 0.0056 |
-| code | 2 | 0.0056 |
-| common | 2 | 0.0056 |
-| constructor | 2 | 0.0056 |
-| depth | 2 | 0.0056 |
-| efficiency | 2 | 0.0056 |
-| high-performance | 2 | 0.0056 |
-| httpclient | 2 | 0.0056 |
-| large | 2 | 0.0056 |
-| limitations | 2 | 0.0056 |
-| migration | 2 | 0.0056 |
-| no | 2 | 0.0056 |
-| options | 2 | 0.0056 |
-| overhead | 2 | 0.0056 |
-| reuse | 2 | 0.0056 |
-| scenarios | 2 | 0.0056 |
-| security | 2 | 0.0056 |
-| web | 2 | 0.0056 |
-| apis | 3 | 0.0084 |
-| compile-time | 3 | 0.0084 |
-| limits | 3 | 0.0084 |
-| operations | 3 | 0.0084 |
-| requires | 3 | 0.0084 |
-| system | 3 | 0.0084 |
-| text | 3 | 0.0084 |
-| use | 3 | 0.0084 |
-| utf-8 | 3 | 0.0084 |
-| configuration | 4 | 0.0112 |
-| default | 4 | 0.0112 |
-| newtonsoft | 4 | 0.0112 |
-| serialization | 7 | 0.0197 |
-| json | 15 | 0.0421 |

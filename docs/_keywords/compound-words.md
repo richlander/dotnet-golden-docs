@@ -1,40 +1,39 @@
 # Global Compound Analysis with Entropy Scores
 
 Analyzed 20 documents
-Total unique compounds: 142
-Total compound occurrences: 569
+Total unique compounds: 139
+Total compound occurrences: 594
 
 | Compound Term | Total Count | Document Count | Simple Entropy | Weighted Entropy |
 |---------------|-------------|----------------|----------------|------------------|
-| collection expressions | 15 | 1 | 3.031 | 4.531 |
 | file-based apps | 13 | 1 | 3.009 | 4.309 |
+| object initialization | 9 | 1 | 3.016 | 3.916 |
+| anonymous types | 8 | 1 | 3.013 | 3.813 |
+| collection properties | 8 | 1 | 3.013 | 3.813 |
 | framework-dependent | 7 | 1 | 3.010 | 3.710 |
-| anonymous types | 6 | 1 | 3.017 | 3.617 |
-| object initialization | 6 | 1 | 3.017 | 3.617 |
-| collection initialization | 6 | 1 | 3.012 | 3.612 |
+| init properties | 6 | 1 | 3.009 | 3.609 |
 | system.commandline | 6 | 1 | 3.005 | 3.605 |
 | file-based-programs | 6 | 1 | 3.002 | 3.602 |
 | file-level | 6 | 1 | 3.002 | 3.602 |
+| required members | 5 | 1 | 3.007 | 3.507 |
 | microsoft.extensions.ai.evaluation | 5 | 1 | 3.004 | 3.504 |
 | microsoft.extensions.ai | 5 | 1 | 3.004 | 3.504 |
 | middleware composition | 5 | 1 | 3.004 | 3.504 |
 | open source | 5 | 1 | 3.000 | 3.500 |
 | open-source | 5 | 1 | 3.000 | 3.500 |
-| collection types | 4 | 1 | 3.005 | 3.405 |
 | target type | 4 | 1 | 3.005 | 3.405 |
 | safety evaluators | 4 | 1 | 3.002 | 3.402 |
 | function calling | 4 | 1 | 3.002 | 3.402 |
 | aot applications | 4 | 1 | 3.001 | 3.401 |
 | single file | 4 | 1 | 3.000 | 3.400 |
-| init properties | 3 | 1 | 3.006 | 3.306 |
-| required members | 3 | 1 | 3.006 | 3.306 |
 | span-based | 3 | 1 | 3.006 | 3.306 |
 | asp.net core | 3 | 1 | 3.004 | 3.304 |
 | data access | 3 | 1 | 3.004 | 3.304 |
 | library ecosystem | 3 | 1 | 3.004 | 3.304 |
 | zero-allocation | 3 | 1 | 3.004 | 3.304 |
-| collection type | 3 | 1 | 3.004 | 3.304 |
-| initialization patterns | 3 | 1 | 3.004 | 3.304 |
+| collection initialization | 3 | 1 | 3.004 | 3.304 |
+| target-typed new | 3 | 1 | 3.004 | 3.304 |
+| init-only properties | 3 | 1 | 3.002 | 3.302 |
 | circuit breaker | 3 | 1 | 3.002 | 3.302 |
 | microsoft.extensions.http.resilience | 3 | 1 | 3.002 | 3.302 |
 | pre-configured | 3 | 1 | 3.002 | 3.302 |
@@ -50,9 +49,6 @@ Total compound occurrences: 569
 | asynchronous programming | 3 | 1 | 2.998 | 3.298 |
 | language features | 3 | 1 | 2.998 | 3.298 |
 | memory-safety | 3 | 1 | 2.998 | 3.298 |
-| anti-patterns | 2 | 1 | 3.003 | 3.203 |
-| collection initialization within objects | 2 | 1 | 3.003 | 3.203 |
-| init-only properties | 2 | 1 | 3.003 | 3.203 |
 | build acceleration | 2 | 1 | 3.002 | 3.202 |
 | custom build configurations | 2 | 1 | 3.002 | 3.202 |
 | dependency resolution | 2 | 1 | 3.002 | 3.202 |
@@ -71,13 +67,7 @@ Total compound occurrences: 569
 | first-class span | 2 | 1 | 3.001 | 3.201 |
 | named arguments | 2 | 1 | 3.001 | 3.201 |
 | stack-only | 2 | 1 | 3.001 | 3.201 |
-| 9.0 | 2 | 1 | 3.001 | 3.201 |
 | collection initializer syntax | 2 | 1 | 3.001 | 3.201 |
-| data management | 2 | 1 | 3.001 | 3.201 |
-| dictionary initializers | 2 | 1 | 3.001 | 3.201 |
-| performance considerations | 2 | 1 | 3.001 | 3.201 |
-| target-typed new | 2 | 1 | 3.001 | 3.201 |
-| target-typed new expressions | 2 | 1 | 3.001 | 3.201 |
 | assembly trimming | 2 | 1 | 3.001 | 3.201 |
 | build-time | 2 | 1 | 3.001 | 3.201 |
 | desktop applications | 2 | 1 | 3.001 | 3.201 |
@@ -86,6 +76,8 @@ Total compound occurrences: 569
 | compile-time constants | 2 | 1 | 3.000 | 3.200 |
 | inline arrays | 2 | 1 | 3.000 | 3.200 |
 | spread element | 2 | 1 | 3.000 | 3.200 |
+| factory methods | 2 | 1 | 3.000 | 3.200 |
+| pre-size | 2 | 1 | 3.000 | 3.200 |
 | custom resilience | 2 | 1 | 3.000 | 3.200 |
 | resource management | 2 | 1 | 3.000 | 3.200 |
 | cloud-native | 2 | 1 | 3.000 | 3.200 |
@@ -108,8 +100,11 @@ Total compound occurrences: 569
 | strongly-typed | 2 | 1 | 2.999 | 3.199 |
 | tool invocation | 2 | 1 | 2.999 | 3.199 |
 | aot compilation | 2 | 1 | 2.999 | 3.199 |
+| let source generation handle | 2 | 1 | 2.999 | 3.199 |
 | property naming policies | 2 | 1 | 2.999 | 3.199 |
+| source generation handle naming | 2 | 1 | 2.999 | 3.199 |
 | type-safe | 2 | 1 | 2.999 | 3.199 |
+| unconstrained generics | 2 | 1 | 2.999 | 3.199 |
 | build performance | 2 | 1 | 2.998 | 3.198 |
 | command structure | 2 | 1 | 2.998 | 3.198 |
 | development environments | 2 | 1 | 2.998 | 3.198 |
@@ -130,10 +125,12 @@ Total compound occurrences: 569
 | platform-specific | 2 | 1 | 2.997 | 3.197 |
 | type system | 2 | 1 | 2.997 | 3.197 |
 | version compatibility | 2 | 1 | 2.997 | 3.197 |
-| source generation | 26 | 3 | 1.944 | 2.811 |
+| collection expressions | 32 | 3 | 1.975 | 3.041 |
 | native aot | 25 | 3 | 1.942 | 2.775 |
 | reflection-based | 9 | 2 | 2.316 | 2.766 |
+| source generation | 24 | 3 | 1.942 | 2.742 |
 | dependency injection | 8 | 2 | 2.319 | 2.719 |
+| collection types | 7 | 2 | 2.320 | 2.670 |
 | newtonsoft.json | 7 | 2 | 2.318 | 2.668 |
 | low-level | 7 | 2 | 2.308 | 2.658 |
 | object-oriented | 7 | 2 | 2.308 | 2.658 |

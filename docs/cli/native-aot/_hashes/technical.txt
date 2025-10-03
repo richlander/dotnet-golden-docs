@@ -19,7 +19,7 @@ ErrorMessage | 'target parameter' argument does not satisfy 'DynamicallyAccessed
 Keyword | generic methods
 Keyword | reflection-based
 Keyword | system.text.json source generation
-Keyword | source generation
 Keyword | native aot
+Keyword | source generation
 Keyword | jit
 Keyword | smaller

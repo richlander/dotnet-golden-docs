@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 6 compound terms and 244 single words
-Total unique terms: 248
-Terms with score ≥ 3.0: 41
-Total term occurrences: 413
+Combined 6 compound terms and 243 single words
+Total unique terms: 247
+Terms with score ≥ 3.0: 43
+Total term occurrences: 416
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -45,12 +45,14 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | built-in | single | 3 | 1.00x | 1.00x | 3.0 |
 | commands | single | 3 | 1.00x | 1.00x | 3.0 |
 | complex | single | 3 | 1.00x | 1.00x | 3.0 |
+| considerations | single | 3 | 1.00x | 1.00x | 3.0 |
 | conventions | single | 3 | 1.00x | 1.00x | 3.0 |
 | design | single | 3 | 1.00x | 1.00x | 3.0 |
 | errors | single | 3 | 1.00x | 1.00x | 3.0 |
 | expensive | single | 3 | 1.00x | 1.00x | 3.0 |
 | handler | single | 3 | 1.00x | 1.00x | 3.0 |
 | net | single | 3 | 1.00x | 1.00x | 3.0 |
+| patterns | single | 3 | 1.00x | 1.00x | 3.0 |
 | service-based | compound | 2 | 1.00x | 1.50x | 3.0 |
 | sethandler | single | 3 | 1.00x | 1.00x | 3.0 |
 | subcommands | single | 3 | 1.00x | 1.00x | 3.0 |

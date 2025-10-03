@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 8 compound terms and 190 single words
-Total unique terms: 194
-Terms with score ≥ 3.0: 26
-Total term occurrences: 285
+Combined 8 compound terms and 192 single words
+Total unique terms: 196
+Terms with score ≥ 3.0: 25
+Total term occurrences: 286
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -35,7 +35,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | reduction | single | 3 | 1.00x | 1.00x | 3.0 |
 | self-contained | compound | 2 | 1.00x | 1.50x | 3.0 |
 | single-file | compound | 2 | 1.00x | 1.50x | 3.0 |
-| size | single | 3 | 1.00x | 1.00x | 3.0 |
 | startup | single | 3 | 1.00x | 1.00x | 3.0 |
 | support | single | 3 | 1.00x | 1.00x | 3.0 |
 | trimmed | single | 3 | 1.00x | 1.00x | 3.0 |

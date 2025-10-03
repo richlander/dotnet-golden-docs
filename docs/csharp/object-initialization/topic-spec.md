@@ -66,25 +66,24 @@ Object initialization encompasses the various approaches for creating and initia
 
 | Keyword | Score |
 |---------|-------|
-| anonymous types | 4.58 |
-| object initialization | 4.58 |
-| init properties | 4.54 |
-| required members | 4.54 |
-| anti-patterns | 4.52 |
-| collection initialization within objects | 4.52 |
-| init-only properties | 4.52 |
-| properties | 3.06 |
-| constructor | 3.04 |
-| objects | 3.04 |
-| constructors | 3.03 |
-| immutable | 3.03 |
+| object initialization | 4.63 |
+| anonymous types | 4.61 |
+| collection properties | 4.61 |
+| init properties | 4.58 |
+| required members | 4.57 |
+| init-only properties | 4.54 |
+| factory methods | 4.52 |
+| pre-size | 4.52 |
+| collection expressions | 3.33 |
+| objects | 3.08 |
+| constructor | 3.07 |
+| initialization | 3.07 |
 
 ## APIs
 
 | API | Type | Count |
 |-----|------|-------|
 | Person | method | 6 |
-| Console.WriteLine | method | 4 |
 | PersonOld | method | 3 |
 
 ## Diagnostic Codes
@@ -101,16 +100,23 @@ Object initialization encompasses the various approaches for creating and initia
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
-| csharp | csharp/collection-initialization | 0.8825 |
-| csharp | csharp/csharp-14-features | 0.8118 |
-| csharp | csharp | 0.7932 |
-| libraries | libraries/dotnet-10-library-improvements | 0.7277 |
-| libraries | libraries/system-text-json | 0.7000 |
-| dotnet | dotnet | 0.6808 |
-| libraries | libraries | 0.6761 |
-| cli | cli/file-based-apps | 0.6336 |
-| cli | cli/assembly-trimming | 0.6252 |
-| cli | cli | 0.6195 |
-| cli | cli/build-and-compilation | 0.6156 |
-| extensions | extensions/microsoft-extensions-ai | 0.6001 |
+| csharp | csharp/collection-initialization | 0.8118 |
+| csharp | csharp/csharp-14-features | 0.7591 |
+| csharp | csharp/collection-expressions | 0.7142 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6824 |
+| libraries | libraries/system-text-json | 0.6575 |
+| libraries | libraries/system-commandline | 0.6333 |
+| dotnet | dotnet | 0.6188 |
+| cli | cli/file-based-apps | 0.5879 |
+| cli | cli/assembly-trimming | 0.5856 |
+| cli | cli/build-and-compilation | 0.5832 |
+| cli | cli | 0.5822 |
+| extensions | extensions/microsoft-extensions-ai | 0.5478 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp/collection-expressions | collection expressions | 1.375 |
+| csharp/collection-initialization | collection expressions | 1.375 |
 

@@ -81,14 +81,14 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | csharp | csharp | 0.7046 |
 | cli | cli/publishing-and-deployment | 0.6974 |
 | libraries | libraries/system-commandline | 0.6963 |
-| csharp | csharp/collection-initialization | 0.6949 |
+| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6506 |
 
 ### Similarity Metadata
 
 | Category | Threshold | Percentile | Total Pairs |
 |----------|-----------|------------|-------------|
 | cli | 0.6974 | P50 | 6 |
-| csharp | 0.6949 | P50 | 5 |
+| csharp | 0.6305 | P50 | 5 |
 | dotnet | 0.8198 | P50 | 1 |
 | extensions | 0.6506 | P50 | 3 |
 | libraries | 0.6963 | P50 | 4 |

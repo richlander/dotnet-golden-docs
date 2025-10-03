@@ -104,8 +104,8 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | libraries | libraries | 0.6762 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6727 |
 | libraries | libraries/system-text-json | 0.6477 |
-| csharp | csharp/collection-initialization | 0.6366 |
-| csharp | csharp/object-initialization | 0.6252 |
+| csharp | csharp | 0.6079 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6045 |
 | extensions | extensions/microsoft-extensions-ai | 0.5959 |
+| csharp | csharp/object-initialization | 0.5856 |
 

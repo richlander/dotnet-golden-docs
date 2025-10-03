@@ -3,12 +3,6 @@
 
 set -e
 
-# Add tools directory to PATH if not already present
-TOOLS_DIR="../dotnet-docs-llm-tools/_tools"
-if [ -d "$TOOLS_DIR" ]; then
-    export PATH="$PATH:$(realpath $TOOLS_DIR)"
-fi
-
 # Check if required tools exist in PATH
 TOPIC_SPEC_TOOL=$(command -v topic-spec)
 if [ -z "$TOPIC_SPEC_TOOL" ]; then

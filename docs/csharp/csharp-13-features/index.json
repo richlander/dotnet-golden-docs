@@ -2,6 +2,57 @@
   "id": "csharp/csharp-13-features",
   "title": "C# 13 Features",
   "description": "C# 13 introduces params collections, new lock semantics, ref struct improvements, partial properties, and enhanced syntax features for .NET 9.",
+  "sim_hash": 2365380689039924540,
+  "hashes": [
+    {
+      "name": "overview",
+      "kind": "minhash",
+      "weighted": false,
+      "path": "/csharp/csharp-13-features/_hashes/overview.txt.minhash"
+    },
+    {
+      "name": "overview",
+      "kind": "minhash",
+      "weighted": true,
+      "path": "/csharp/csharp-13-features/_hashes/overview.txt.minhash-weighted"
+    },
+    {
+      "name": "overview",
+      "kind": "simhash",
+      "weighted": false,
+      "path": "/csharp/csharp-13-features/_hashes/overview.txt.simhash"
+    },
+    {
+      "name": "overview",
+      "kind": "simhash",
+      "weighted": true,
+      "path": "/csharp/csharp-13-features/_hashes/overview.txt.simhash-weighted"
+    },
+    {
+      "name": "technical",
+      "kind": "minhash",
+      "weighted": false,
+      "path": "/csharp/csharp-13-features/_hashes/technical.txt.minhash"
+    },
+    {
+      "name": "technical",
+      "kind": "minhash",
+      "weighted": true,
+      "path": "/csharp/csharp-13-features/_hashes/technical.txt.minhash-weighted"
+    },
+    {
+      "name": "technical",
+      "kind": "simhash",
+      "weighted": false,
+      "path": "/csharp/csharp-13-features/_hashes/technical.txt.simhash"
+    },
+    {
+      "name": "technical",
+      "kind": "simhash",
+      "weighted": true,
+      "path": "/csharp/csharp-13-features/_hashes/technical.txt.simhash-weighted"
+    }
+  ],
   "keywords": null,
   "edges": null,
   "apis": null,
@@ -36,7 +87,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-01T15:27:16.2315474Z",
+    "generated": "2025-10-02T17:36:22.3301150Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

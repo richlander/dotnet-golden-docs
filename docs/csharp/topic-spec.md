@@ -74,10 +74,10 @@ C# is a modern, safe, and general purpose language that makes developers product
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | csharp | csharp/csharp-14-features | 0.8373 |
-| csharp | csharp/object-initialization | 0.7932 |
 | dotnet | dotnet | 0.7851 |
-| csharp | csharp/collection-initialization | 0.7500 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7352 |
+| csharp | csharp/collection-expressions | 0.7324 |
+| csharp | csharp/object-initialization | 0.7142 |
 | libraries | libraries | 0.7046 |
 | libraries | libraries/system-commandline | 0.6995 |
 | cli | cli/file-based-apps | 0.6755 |
@@ -91,7 +91,7 @@ C# is a modern, safe, and general purpose language that makes developers product
 | Category | Threshold | Percentile | Total Pairs |
 |----------|-----------|------------|-------------|
 | cli | 0.6385 | P50 | 6 |
-| csharp | 0.7500 | P50 | 4 |
+| csharp | 0.7142 | P50 | 4 |
 | dotnet | 0.7851 | P50 | 1 |
 | extensions | 0.5845 | P50 | 3 |
 | libraries | 0.6995 | P50 | 5 |

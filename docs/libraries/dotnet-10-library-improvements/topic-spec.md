@@ -82,9 +82,9 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | libraries | libraries/system-text-json | 0.7690 |
 | dotnet | dotnet | 0.7626 |
 | csharp | csharp | 0.7352 |
-| csharp | csharp/object-initialization | 0.7277 |
 | cli | cli/file-based-apps | 0.6961 |
 | libraries | libraries/system-commandline | 0.6932 |
+| csharp | csharp/object-initialization | 0.6824 |
 | cli | cli | 0.6809 |
 | cli | cli/assembly-trimming | 0.6727 |
 | extensions | extensions/microsoft-extensions-ai | 0.6650 |

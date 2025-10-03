@@ -9,6 +9,6 @@ Keyword | trade-offs
 Keyword | native aot
 Keyword | benefits
 Keyword | case
+Keyword | size
 Keyword | distribution
-Keyword | optimization
 Description | Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. This covers all publishing modes from framework-dependent to self-contained, single-file, Native AOT, and container deployment, along with the decision matrix for choosing appropriate deployment strategies.
