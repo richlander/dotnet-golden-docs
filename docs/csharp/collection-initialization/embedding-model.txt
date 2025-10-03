@@ -1,0 +1,1 @@
+Ollama/nomic-embed-text:latest
