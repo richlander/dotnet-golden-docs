@@ -10,5 +10,5 @@ Keyword | project structure
 Keyword | single file constraint
 Keyword | traditional project structure
 Keyword | docs
-Keyword | file-based
+Keyword | command-line
 Description | File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure. This feature streamlines simple scripting, prototyping, and automation tasks by eliminating project setup overhead while maintaining full .NET runtime capabilities.

@@ -62,18 +62,18 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | Keyword | Score |
 |---------|-------|
-| target type | 4.55 |
-| compile-time constants | 4.52 |
-| inline arrays | 4.52 |
-| spread element | 4.52 |
-| collection types | 3.56 |
-| collection expressions | 3.33 |
-| spread | 3.05 |
-| params | 3.04 |
-| combine | 3.03 |
-| concise | 3.03 |
-| javascript | 3.03 |
-| python | 3.03 |
+| target type | 4.70 |
+| compile-time constants | 4.67 |
+| inline arrays | 4.67 |
+| spread element | 4.67 |
+| collection types | 3.70 |
+| collection expressions | 3.47 |
+| spread | 3.14 |
+| params | 3.13 |
+| combine | 3.12 |
+| concise | 3.12 |
+| javascript | 3.12 |
+| python | 3.12 |
 
 ## APIs
 
@@ -100,15 +100,15 @@ Collection expressions provide a concise syntax to create common collection valu
 | csharp | csharp/collection-initialization | 0.8797 |
 | csharp | csharp/csharp-14-features | 0.7522 |
 | csharp | csharp | 0.7324 |
+| libraries | libraries/string-search-operations | 0.7014 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6799 |
+| libraries | libraries/system-buffers-searchvalues | 0.6790 |
 | libraries | libraries/system-text-json | 0.6238 |
-| libraries | libraries/system-commandline | 0.6209 |
 | dotnet | dotnet | 0.5787 |
 | cli | cli/file-based-apps | 0.5601 |
 | cli | cli/assembly-trimming | 0.5568 |
 | cli | cli | 0.5342 |
 | extensions | extensions/microsoft-extensions-ai | 0.5133 |
-| cli | cli/build-and-compilation | 0.5132 |
 
 ## Authority Scores
 

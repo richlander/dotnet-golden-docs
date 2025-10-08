@@ -53,13 +53,13 @@ Build and compilation encompasses the development-time workflow of transforming 
 
 | Keyword | Score |
 |---------|-------|
-| build acceleration | 4.52 |
-| custom build configurations | 4.52 |
-| dependency resolution | 4.52 |
-| msbuild integration | 4.52 |
-| performance optimization | 4.52 |
-| build | 3.15 |
-| parallel | 3.03 |
+| build acceleration | 4.67 |
+| custom build configurations | 4.67 |
+| dependency resolution | 4.67 |
+| msbuild integration | 4.67 |
+| performance optimization | 4.67 |
+| build | 3.24 |
+| parallel | 3.12 |
 
 ## Similarity Scores
 
@@ -74,7 +74,7 @@ Build and compilation encompasses the development-time workflow of transforming 
 | libraries | libraries/dotnet-10-library-improvements | 0.6622 |
 | csharp | csharp/csharp-14-features | 0.6456 |
 | csharp | csharp | 0.6385 |
+| libraries | libraries/system-text-json-source-generation | 0.6249 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.5987 |
 | extensions | extensions/microsoft-extensions-ai | 0.5919 |
-| csharp | csharp/object-initialization | 0.5832 |
 

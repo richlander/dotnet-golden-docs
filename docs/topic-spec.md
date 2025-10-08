@@ -48,12 +48,20 @@
 
 ## Keywords
 
-- .NET platform
-- cross-platform development
-- developer platform
-- .NET runtime
-- C# programming
-- modern applications
+| Keyword | Score |
+|---------|-------|
+| file-based apps | 13.00 |
+| object initialization | 9.00 |
+| anonymous types | 8.00 |
+| collection properties | 8.00 |
+| framework-dependent | 7.00 |
+| file-based-programs | 6.00 |
+| file-level | 6.00 |
+| init properties | 6.00 |
+| system.commandline | 6.00 |
+| microsoft.extensions.ai | 5.00 |
+| microsoft.extensions.ai.evaluation | 5.00 |
+| middleware composition | 5.00 |
 
 ## APIs
 

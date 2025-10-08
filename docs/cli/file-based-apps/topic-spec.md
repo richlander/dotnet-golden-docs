@@ -54,18 +54,18 @@ File-based apps allow developers to run and publish single .cs files directly wi
 
 | Keyword | Score |
 |---------|-------|
-| file-based apps | 4.69 |
-| file-based-programs | 4.58 |
-| file-level | 4.58 |
-| traditional project | 4.54 |
-| whats-new | 4.54 |
-| ascii art | 4.52 |
-| exit codes | 4.52 |
-| project structure | 4.52 |
-| single file constraint | 4.52 |
-| traditional project structure | 4.52 |
-| docs | 3.18 |
-| file-based | 3.15 |
+| file-based apps | 4.83 |
+| file-based-programs | 4.73 |
+| file-level | 4.73 |
+| traditional project | 4.68 |
+| whats-new | 4.68 |
+| ascii art | 4.67 |
+| exit codes | 4.67 |
+| project structure | 4.67 |
+| single file constraint | 4.67 |
+| traditional project structure | 4.67 |
+| docs | 3.27 |
+| command-line | 3.26 |
 
 ## APIs
 
@@ -91,11 +91,11 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | libraries | libraries | 0.7375 |
 | libraries | libraries/system-commandline | 0.7239 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6961 |
+| libraries | libraries/system-text-json | 0.6947 |
 | csharp | csharp/csharp-14-features | 0.6828 |
 | csharp | csharp | 0.6755 |
 | extensions | extensions/microsoft-extensions-ai | 0.6440 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6092 |
-| csharp | csharp/object-initialization | 0.5879 |
 
 ## Authority Scores
 

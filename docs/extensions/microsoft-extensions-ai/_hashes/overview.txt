@@ -1,4 +1,7 @@
 Title | Microsoft.Extensions.AI
+TypeName | Microsoft.Extensions.AI
+TypeName | Microsoft.Extensions
+TypeName | AI
 Keyword | microsoft.extensions.ai
 Keyword | middleware composition
 Keyword | function calling

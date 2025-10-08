@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 449
-Total word occurrences: 793
+Total unique words: 446
+Total word occurrences: 784
 Total document words: 1406
 
 | Word | Count | Document Concentration |
@@ -29,7 +29,6 @@ Total document words: 1406
 | developers | 5 | 0.0036 |
 | matching | 5 | 0.0036 |
 | object-oriented | 5 | 0.0036 |
-| pattern | 5 | 0.0036 |
 | patterns | 5 | 0.0036 |
 | reference | 5 | 0.0036 |
 | syntax | 5 | 0.0036 |
@@ -47,7 +46,6 @@ Total document words: 1406
 | low-level | 4 | 0.0028 |
 | multiple | 4 | 0.0028 |
 | offers | 4 | 0.0028 |
-| value | 4 | 0.0028 |
 | abstraction | 3 | 0.0021 |
 | common | 3 | 0.0021 |
 | constructs | 3 | 0.0021 |
@@ -60,7 +58,7 @@ Total document words: 1406
 | mainstream | 3 | 0.0021 |
 | many | 3 | 0.0021 |
 | modern | 3 | 0.0021 |
-| operations | 3 | 0.0021 |
+| pattern | 3 | 0.0021 |
 | provide | 3 | 0.0021 |
 | query | 3 | 0.0021 |
 | range | 3 | 0.0021 |
@@ -141,6 +139,7 @@ Total document words: 1406
 | supports | 2 | 0.0014 |
 | system | 2 | 0.0014 |
 | used | 2 | 0.0014 |
+| value | 2 | 0.0014 |
 | variable | 2 | 0.0014 |
 | via | 2 | 0.0014 |
 | visual | 2 | 0.0014 |
@@ -259,7 +258,6 @@ Total document words: 1406
 | fixed-length | 1 | 0.0007 |
 | focus | 1 | 0.0007 |
 | foundation | 1 | 0.0007 |
-| free | 1 | 0.0007 |
 | fuel | 1 | 0.0007 |
 | full | 1 | 0.0007 |
 | full-featured | 1 | 0.0007 |
@@ -416,7 +414,6 @@ Total document words: 1406
 | static | 1 | 0.0007 |
 | statically | 1 | 0.0007 |
 | strategy | 1 | 0.0007 |
-| string | 1 | 0.0007 |
 | structs | 1 | 0.0007 |
 | switch | 1 | 0.0007 |
 | symbiotic | 1 | 0.0007 |

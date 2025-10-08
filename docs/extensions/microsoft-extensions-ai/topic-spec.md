@@ -54,18 +54,18 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 
 | Keyword | Score |
 |---------|-------|
-| microsoft.extensions.ai | 4.57 |
-| middleware composition | 4.57 |
-| function calling | 4.55 |
-| embedding generation | 4.52 |
-| strongly-typed | 4.52 |
-| tool invocation | 4.52 |
-| dependency injection | 3.57 |
-| middleware | 3.11 |
-| services | 3.10 |
-| interfaces | 3.06 |
-| observability | 3.04 |
-| provider | 3.04 |
+| microsoft.extensions.ai | 4.71 |
+| middleware composition | 4.71 |
+| function calling | 4.70 |
+| embedding generation | 4.67 |
+| strongly-typed | 4.67 |
+| tool invocation | 4.67 |
+| dependency injection | 3.72 |
+| middleware | 3.20 |
+| services | 3.19 |
+| interfaces | 3.15 |
+| observability | 3.13 |
+| provider | 3.13 |
 
 ## APIs
 
@@ -98,8 +98,8 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 | cli | cli/file-based-apps | 0.6440 |
 | cli | cli/native-aot | 0.6401 |
 | libraries | libraries/system-commandline | 0.6293 |
+| libraries | libraries/system-text-json | 0.6256 |
 | csharp | csharp | 0.6054 |
-| cli | cli/assembly-trimming | 0.5959 |
 
 ## Authority Scores
 

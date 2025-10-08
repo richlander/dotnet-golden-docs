@@ -1,4 +1,7 @@
 Title | Microsoft.Extensions.Http.Resilience
+TypeName | Microsoft.Extensions.Http.Resilience
+TypeName | Microsoft.Extensions.Http
+TypeName | Resilience
 Keyword | circuit breaker
 Keyword | microsoft.extensions.http.resilience
 Keyword | pre-configured

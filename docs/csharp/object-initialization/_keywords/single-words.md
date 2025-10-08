@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 131
-Total word occurrences: 232
+Total unique words: 130
+Total word occurrences: 229
 Total document words: 452
 
 | Word | Count | Document Concentration |
@@ -20,7 +20,6 @@ Total document words: 452
 | parameters | 4 | 0.0088 |
 | records | 4 | 0.0088 |
 | required | 4 | 0.0088 |
-| creating | 3 | 0.0066 |
 | during | 3 | 0.0066 |
 | init-only | 3 | 0.0066 |
 | initialize | 3 | 0.0066 |
@@ -74,6 +73,7 @@ Total document words: 452
 | contain | 1 | 0.0022 |
 | containers | 1 | 0.0022 |
 | create | 1 | 0.0022 |
+| creating | 1 | 0.0022 |
 | creation | 1 | 0.0022 |
 | declare | 1 | 0.0022 |
 | deconstructed | 1 | 0.0022 |
@@ -108,7 +108,6 @@ Total document words: 452
 | once | 1 | 0.0022 |
 | overloads | 1 | 0.0022 |
 | overview | 1 | 0.0022 |
-| pattern | 1 | 0.0022 |
 | primary | 1 | 0.0022 |
 | problem | 1 | 0.0022 |
 | proliferation | 1 | 0.0022 |

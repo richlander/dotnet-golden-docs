@@ -1,4 +1,7 @@
 Title | System.CommandLine
+TypeName | System.CommandLine
+TypeName | System
+TypeName | CommandLine
 API | AddOption
 API | SetHandler
 API | AddArgument

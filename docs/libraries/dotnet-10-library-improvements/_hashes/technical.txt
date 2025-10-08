@@ -1,16 +1,17 @@
 Title | .NET 10 Libraries Features
+TypeName | .NET 10 Libraries Features
 API | StringComparer.Create
 API | WebSocketStream.Create
 API | WebSocketStream.CreateReadableMessageStream
-Keyword | span-based
 Keyword | high-performance text processing
 Keyword | net 10
 Keyword | post-quantum cryptography
 Keyword | quantum-resistant
-Keyword | string
+Keyword | span-based
 Keyword | improvements
 Keyword | algorithms
 Keyword | comparison
 Keyword | cryptography
 Keyword | duplicate
 Keyword | hex
+Keyword | numericordering

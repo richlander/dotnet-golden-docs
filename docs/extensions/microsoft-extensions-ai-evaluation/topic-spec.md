@@ -53,18 +53,18 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 
 | Keyword | Score |
 |---------|-------|
-| microsoft.extensions.ai.evaluation | 4.57 |
-| safety evaluators | 4.55 |
-| ai-generated | 4.52 |
-| automated quality | 4.52 |
-| automated quality gates | 4.52 |
-| custom evaluator implementation | 4.52 |
-| llm-based | 4.52 |
-| llm-based evaluators | 4.52 |
-| regression testing | 4.52 |
-| evaluation | 3.30 |
-| quality | 3.12 |
-| safety | 3.07 |
+| microsoft.extensions.ai.evaluation | 4.71 |
+| safety evaluators | 4.70 |
+| ai-generated | 4.67 |
+| automated quality | 4.67 |
+| automated quality gates | 4.67 |
+| custom evaluator implementation | 4.67 |
+| llm-based | 4.67 |
+| llm-based evaluators | 4.67 |
+| regression testing | 4.67 |
+| evaluation | 3.39 |
+| quality | 3.21 |
+| safety | 3.16 |
 
 ## APIs
 
@@ -93,10 +93,10 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 | libraries | libraries/system-text-json | 0.6286 |
 | csharp | csharp/csharp-14-features | 0.6285 |
 | cli | cli/native-aot | 0.6161 |
+| libraries | libraries/system-text-json-source-generation | 0.6149 |
 | cli | cli | 0.6142 |
 | cli | cli/file-based-apps | 0.6092 |
 | cli | cli/publishing-and-deployment | 0.5921 |
-| csharp | csharp | 0.5845 |
 
 ## Critical limitations
 

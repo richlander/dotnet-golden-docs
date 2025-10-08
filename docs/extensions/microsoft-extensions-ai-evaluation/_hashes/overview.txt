@@ -1,4 +1,7 @@
 Title | Microsoft.Extensions.AI.Evaluation
+TypeName | Microsoft.Extensions.AI.Evaluation
+TypeName | Microsoft.Extensions.AI
+TypeName | Evaluation
 Keyword | microsoft.extensions.ai.evaluation
 Keyword | safety evaluators
 Keyword | ai-generated

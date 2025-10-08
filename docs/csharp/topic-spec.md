@@ -56,18 +56,18 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 | Keyword | Score |
 |---------|-------|
-| asynchronous programming | 4.54 |
-| language features | 4.54 |
-| memory-safety | 4.54 |
-| cloud-native development | 4.52 |
-| language-integrated | 4.52 |
-| mobile applications | 4.52 |
-| pattern-based | 4.52 |
-| platform-specific | 4.52 |
-| type system | 4.52 |
-| version compatibility | 4.52 |
-| low-level | 3.56 |
-| object-oriented | 3.56 |
+| asynchronous programming | 4.68 |
+| language features | 4.68 |
+| memory-safety | 4.68 |
+| cloud-native development | 4.67 |
+| language-integrated | 4.67 |
+| mobile applications | 4.67 |
+| platform-specific | 4.67 |
+| type system | 4.67 |
+| version compatibility | 4.67 |
+| low-level | 3.70 |
+| object-oriented | 3.70 |
+| high-level | 3.69 |
 
 ## Similarity Scores
 
@@ -80,11 +80,11 @@ C# is a modern, safe, and general purpose language that makes developers product
 | csharp | csharp/object-initialization | 0.7142 |
 | libraries | libraries | 0.7046 |
 | libraries | libraries/system-commandline | 0.6995 |
+| libraries | libraries/system-text-json | 0.6981 |
 | cli | cli/file-based-apps | 0.6755 |
 | cli | cli/native-aot | 0.6473 |
 | cli | cli | 0.6447 |
 | cli | cli/build-and-compilation | 0.6385 |
-| extensions | extensions/microsoft-extensions-ai | 0.6054 |
 
 ### Similarity Metadata
 
@@ -94,7 +94,7 @@ C# is a modern, safe, and general purpose language that makes developers product
 | csharp | 0.7142 | P50 | 4 |
 | dotnet | 0.7851 | P50 | 1 |
 | extensions | 0.5845 | P50 | 3 |
-| libraries | 0.6995 | P50 | 5 |
+| libraries | 0.6981 | P50 | 7 |
 
 ## Authority Scores
 

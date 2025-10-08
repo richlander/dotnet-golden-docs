@@ -1,4 +1,7 @@
 Title | Microsoft.Extensions.AI
+TypeName | Microsoft.Extensions.AI
+TypeName | Microsoft.Extensions
+TypeName | AI
 API | GetResponseAsync
 API | ChatClientBuilder
 API | Build

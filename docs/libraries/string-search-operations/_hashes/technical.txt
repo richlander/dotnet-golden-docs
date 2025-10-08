@@ -1,0 +1,23 @@
+Title | String Search
+API | IndexOf
+API | Contains
+API | AsSpan
+API | IndexOfAny
+API | SearchValues.Create
+API | LastIndexOf
+API | Substring
+API | ContainsAny
+API | Math.Min
+API | StartsWith
+Keyword | string search operations
+Keyword | multi-value
+Keyword | string.contains
+Keyword | allocation-free
+Keyword | pattern-based
+Keyword | string
+Keyword | contains
+Keyword | indexof
+Keyword | repeated
+Keyword | regular
+Keyword | searchvalues
+Keyword | searches

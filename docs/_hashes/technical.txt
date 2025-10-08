@@ -1,4 +1,5 @@
 Title | .NET
+TypeName | .NET
 API | Console.WriteLine
 API | JsonSerializable
 API | JsonSerializer.Serialize
@@ -11,3 +12,15 @@ API | AddOption
 API | ChatClientBuilder
 API | Microsoft.Extensions
 API | System.Text.Json
+Keyword | file-based apps
+Keyword | object initialization
+Keyword | anonymous types
+Keyword | collection properties
+Keyword | framework-dependent
+Keyword | file-based-programs
+Keyword | file-level
+Keyword | init properties
+Keyword | system.commandline
+Keyword | microsoft.extensions.ai
+Keyword | microsoft.extensions.ai.evaluation
+Keyword | middleware composition

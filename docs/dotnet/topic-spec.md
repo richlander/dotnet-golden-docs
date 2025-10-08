@@ -69,18 +69,18 @@
 
 | Keyword | Score |
 |---------|-------|
-| open-source | 4.57 |
-| garbage collector | 4.54 |
-| industry standards | 4.54 |
-| higher-level | 4.52 |
-| low-cost | 4.52 |
-| self-tuning | 4.52 |
-| low-level | 3.56 |
-| object-oriented | 3.56 |
-| high-level | 3.54 |
-| community | 3.05 |
-| via | 3.05 |
-| components | 3.04 |
+| open-source | 4.71 |
+| garbage collector | 4.68 |
+| industry standards | 4.68 |
+| higher-level | 4.67 |
+| low-cost | 4.67 |
+| self-tuning | 4.67 |
+| low-level | 3.70 |
+| object-oriented | 3.70 |
+| high-level | 3.69 |
+| community | 3.14 |
+| via | 3.14 |
+| components | 3.13 |
 
 ## Similarity Scores
 
@@ -96,8 +96,8 @@
 | libraries | libraries/system-text-json | 0.7299 |
 | csharp | csharp/csharp-14-features | 0.7274 |
 | extensions | extensions/microsoft-extensions-ai | 0.7043 |
+| libraries | libraries/system-commandline | 0.7004 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6825 |
-| csharp | csharp/object-initialization | 0.6188 |
 
 ### Similarity Metadata
 
@@ -106,7 +106,7 @@
 | cli | 0.7610 | P50 | 6 |
 | csharp | 0.6188 | P50 | 5 |
 | extensions | 0.6825 | P50 | 3 |
-| libraries | 0.7299 | P50 | 5 |
+| libraries | 0.7004 | P50 | 7 |
 
 ## Authority Scores
 

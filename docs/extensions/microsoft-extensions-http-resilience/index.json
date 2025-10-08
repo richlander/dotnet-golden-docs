@@ -2,7 +2,7 @@
   "id": "extensions/microsoft-extensions-http-resilience",
   "title": "Microsoft.Extensions.Http.Resilience",
   "description": "Resilience mechanisms for HttpClient built on Polly framework with pre-configured patterns for retry, circuit breaking, hedging, and rate limiting.",
-  "sim_hash": 17753101773685129594,
+  "sim_hash": 13140852822484189562,
   "hashes": [
     {
       "name": "overview",
@@ -56,51 +56,51 @@
   "keywords": [
     {
       "name": "circuit breaker",
-      "score": 4.54
+      "score": 4.68
     },
     {
       "name": "microsoft.extensions.http.resilience",
-      "score": 4.54
+      "score": 4.68
     },
     {
       "name": "pre-configured",
-      "score": 4.54
+      "score": 4.68
     },
     {
       "name": "custom resilience",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "resource management",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "resilience",
-      "score": 3.25
+      "score": 3.34
     },
     {
       "name": "http",
-      "score": 3.09
+      "score": 3.18
     },
     {
       "name": "communication",
-      "score": 3.07
+      "score": 3.16
     },
     {
       "name": "httpclient",
-      "score": 3.07
+      "score": 3.16
     },
     {
       "name": "monitoring",
-      "score": 3.06
+      "score": 3.15
     },
     {
       "name": "strategies",
-      "score": 3.06
+      "score": 3.15
     },
     {
       "name": "built",
-      "score": 3.05
+      "score": 3.14
     }
   ],
   "edges": [
@@ -108,7 +108,7 @@
       "target": "/extensions/microsoft-extensions-ai",
       "similarity": 0.6811,
       "authority": null,
-      "sim_hash": 13136320686020076342,
+      "sim_hash": 13136320704273687348,
       "hashes": [
         {
           "name": "overview",
@@ -164,7 +164,7 @@
       "target": "/libraries",
       "similarity": 0.6457,
       "authority": null,
-      "sim_hash": 17751807665804640574,
+      "sim_hash": 17751807734524641598,
       "hashes": [
         {
           "name": "overview",
@@ -220,7 +220,7 @@
       "target": "/extensions/microsoft-extensions-ai-evaluation",
       "similarity": 0.6424,
       "authority": null,
-      "sim_hash": 13141382836480540984,
+      "sim_hash": 13140824422012592440,
       "hashes": [
         {
           "name": "overview",
@@ -276,7 +276,7 @@
       "target": "/dotnet",
       "similarity": 0.6271,
       "authority": null,
-      "sim_hash": 13135610419762635064,
+      "sim_hash": 13135052005294678328,
       "hashes": [
         {
           "name": "overview",
@@ -556,7 +556,7 @@
       "target": "/libraries/system-text-json",
       "similarity": 0.6027,
       "authority": null,
-      "sim_hash": 3768129774184505658,
+      "sim_hash": 12992064777635692858,
       "hashes": [
         {
           "name": "overview",
@@ -724,7 +724,7 @@
       "target": "/csharp",
       "similarity": 0.552,
       "authority": null,
-      "sim_hash": 3916324853298103158,
+      "sim_hash": 3916887803251590006,
       "hashes": [
         {
           "name": "overview",
@@ -865,7 +865,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-02T17:36:22.6979000Z",
+    "generated": "2025-10-08T00:33:03.2221580Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

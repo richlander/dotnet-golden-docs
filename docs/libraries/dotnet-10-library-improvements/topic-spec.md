@@ -52,18 +52,18 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | Keyword | Score |
 |---------|-------|
-| span-based | 4.54 |
-| high-performance text processing | 4.52 |
-| net 10 | 4.52 |
-| post-quantum cryptography | 4.52 |
-| quantum-resistant | 4.52 |
-| string | 3.05 |
-| improvements | 3.04 |
-| algorithms | 3.03 |
-| comparison | 3.03 |
-| cryptography | 3.03 |
-| duplicate | 3.03 |
-| hex | 3.03 |
+| high-performance text processing | 4.67 |
+| net 10 | 4.67 |
+| post-quantum cryptography | 4.67 |
+| quantum-resistant | 4.67 |
+| span-based | 3.67 |
+| improvements | 3.13 |
+| algorithms | 3.12 |
+| comparison | 3.12 |
+| cryptography | 3.12 |
+| duplicate | 3.12 |
+| hex | 3.12 |
+| numericordering | 3.12 |
 
 ## APIs
 
@@ -82,13 +82,13 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | libraries | libraries/system-text-json | 0.7690 |
 | dotnet | dotnet | 0.7626 |
 | csharp | csharp | 0.7352 |
+| libraries | libraries/string-search-operations | 0.7306 |
+| libraries | libraries/system-buffers-searchvalues | 0.7137 |
 | cli | cli/file-based-apps | 0.6961 |
-| libraries | libraries/system-commandline | 0.6932 |
 | csharp | csharp/object-initialization | 0.6824 |
 | cli | cli | 0.6809 |
 | cli | cli/assembly-trimming | 0.6727 |
 | extensions | extensions/microsoft-extensions-ai | 0.6650 |
-| cli | cli/build-and-compilation | 0.6622 |
 
 ## Critical limitations
 

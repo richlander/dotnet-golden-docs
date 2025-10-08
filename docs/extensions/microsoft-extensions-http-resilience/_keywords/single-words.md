@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 175
-Total word occurrences: 349
+Total unique words: 173
+Total word occurrences: 347
 Total document words: 496
 
 | Word | Count | Document Concentration |
@@ -104,7 +104,6 @@ Total document words: 496
 | construction | 1 | 0.0020 |
 | consume | 1 | 0.0020 |
 | control | 1 | 0.0020 |
-| creating | 1 | 0.0020 |
 | defaults | 1 | 0.0020 |
 | designed | 1 | 0.0020 |
 | developing | 1 | 0.0020 |
@@ -145,7 +144,6 @@ Total document words: 496
 | net's | 1 | 0.0020 |
 | network | 1 | 0.0020 |
 | operational | 1 | 0.0020 |
-| operations | 1 | 0.0020 |
 | opinionated | 1 | 0.0020 |
 | options | 1 | 0.0020 |
 | overhead | 1 | 0.0020 |

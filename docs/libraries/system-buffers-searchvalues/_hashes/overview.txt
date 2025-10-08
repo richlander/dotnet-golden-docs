@@ -1,0 +1,17 @@
+Title | System.Buffers.SearchValues
+TypeName | System.Buffers.SearchValues
+TypeName | System.Buffers
+TypeName | SearchValues
+Keyword | creating searchvalues
+Keyword | pre-computed
+Keyword | allocation-free
+Keyword | span-based
+Keyword | characters
+Keyword | once
+Keyword | searchvalues
+Keyword | searches
+Keyword | search
+Keyword | searching
+Keyword | character
+Keyword | operations
+Description | SearchValues<T> is a performance-focused type that provides optimized searching for specific sets of values within spans. It creates an immutable, pre-computed data structure that accelerates repeated searches for the same set of values using SIMD acceleration when possible, making it ideal for high-performance scenarios.

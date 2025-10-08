@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 394
-Total word occurrences: 721
+Total unique words: 391
+Total word occurrences: 717
 Total document words: 1212
 
 | Word | Count | Document Concentration |
@@ -95,7 +95,6 @@ Total document words: 1212
 | favored | 2 | 0.0017 |
 | following | 2 | 0.0017 |
 | forms | 2 | 0.0017 |
-| free | 2 | 0.0017 |
 | garbage | 2 | 0.0017 |
 | github | 2 | 0.0017 |
 | grpc | 2 | 0.0017 |
@@ -298,7 +297,6 @@ Total document words: 1212
 | often | 1 | 0.0008 |
 | ones | 1 | 0.0008 |
 | operation | 1 | 0.0008 |
-| operations | 1 | 0.0008 |
 | optimized | 1 | 0.0008 |
 | outside | 1 | 0.0008 |
 | overview | 1 | 0.0008 |
@@ -388,7 +386,6 @@ Total document words: 1212
 | user | 1 | 0.0008 |
 | users | 1 | 0.0008 |
 | utility | 1 | 0.0008 |
-| value | 1 | 0.0008 |
 | vast | 1 | 0.0008 |
 | very | 1 | 0.0008 |
 | virtual | 1 | 0.0008 |

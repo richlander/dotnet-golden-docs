@@ -3,8 +3,8 @@
 This report identifies shortened forms in the documentation that don't match known compound terms.
 These should be fixed in the source text rather than special-cased in the matching code.
 
-Total mismatches: 11
-Unique mismatch patterns: 6
+Total mismatches: 13
+Unique mismatch patterns: 7
 
 | Short Form | Long Form | Occurrences | Files |
 |------------|-----------|-------------|-------|
@@ -14,3 +14,4 @@ Unique mismatch patterns: 6
 | let source generation | let source generation handle | 2 | libraries/system-text-json-source-generation/golden-reference.md |
 | property naming | property naming policies | 1 | libraries/system-text-json-source-generation/golden-reference.md |
 | source generation handle | source generation handle naming | 2 | libraries/system-text-json-source-generation/golden-reference.md |
+| string search | string search operations | 2 | libraries/system-buffers-searchvalues/golden-reference.md, libraries/string-search-operations/golden-reference.md |

@@ -66,18 +66,18 @@ Object initialization encompasses the various approaches for creating and initia
 
 | Keyword | Score |
 |---------|-------|
-| object initialization | 4.63 |
-| anonymous types | 4.61 |
-| collection properties | 4.61 |
-| init properties | 4.58 |
-| required members | 4.57 |
-| init-only properties | 4.54 |
-| factory methods | 4.52 |
-| pre-size | 4.52 |
-| collection expressions | 3.33 |
-| objects | 3.08 |
-| constructor | 3.07 |
-| initialization | 3.07 |
+| object initialization | 4.77 |
+| anonymous types | 4.76 |
+| collection properties | 4.76 |
+| init properties | 4.73 |
+| required members | 4.71 |
+| init-only properties | 4.68 |
+| factory methods | 4.67 |
+| pre-size | 4.67 |
+| collection expressions | 3.47 |
+| objects | 3.17 |
+| constructor | 3.16 |
+| initialization | 3.16 |
 
 ## APIs
 
@@ -105,13 +105,13 @@ Object initialization encompasses the various approaches for creating and initia
 | csharp | csharp/collection-expressions | 0.7142 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6824 |
 | libraries | libraries/system-text-json | 0.6575 |
-| libraries | libraries/system-commandline | 0.6333 |
+| libraries | libraries/string-search-operations | 0.6522 |
+| libraries | libraries/system-buffers-searchvalues | 0.6416 |
 | dotnet | dotnet | 0.6188 |
 | cli | cli/file-based-apps | 0.5879 |
 | cli | cli/assembly-trimming | 0.5856 |
 | cli | cli/build-and-compilation | 0.5832 |
 | cli | cli | 0.5822 |
-| extensions | extensions/microsoft-extensions-ai | 0.5478 |
 
 ## Authority Scores
 

@@ -62,18 +62,18 @@ Collection initialization encompasses the traditional and modern approaches to c
 
 | Keyword | Score |
 |---------|-------|
-| collection initialization | 4.54 |
-| target-typed new | 4.54 |
-| collection initializer syntax | 4.52 |
-| collection types | 3.56 |
-| collection expressions | 3.33 |
-| capacity | 3.03 |
-| dictionaries | 3.03 |
-| dictionary | 3.03 |
-| elements | 3.03 |
-| existing | 3.03 |
-| know | 3.03 |
-| method | 3.03 |
+| collection initialization | 4.68 |
+| target-typed new | 4.68 |
+| collection initializer syntax | 4.67 |
+| collection types | 3.70 |
+| collection expressions | 3.47 |
+| capacity | 3.12 |
+| dictionaries | 3.12 |
+| dictionary | 3.12 |
+| elements | 3.12 |
+| existing | 3.12 |
+| know | 3.12 |
+| method | 3.12 |
 
 ## APIs
 
@@ -99,15 +99,15 @@ Collection initialization encompasses the traditional and modern approaches to c
 | csharp | csharp/collection-expressions | 0.8797 |
 | csharp | csharp/object-initialization | 0.8118 |
 | csharp | csharp/csharp-14-features | 0.7180 |
+| libraries | libraries/system-buffers-searchvalues | 0.6978 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6777 |
+| libraries | libraries/string-search-operations | 0.6635 |
 | libraries | libraries | 0.6305 |
-| libraries | libraries/system-text-json | 0.6242 |
 | dotnet | dotnet | 0.5751 |
 | cli | cli/assembly-trimming | 0.5656 |
 | cli | cli/file-based-apps | 0.5599 |
 | cli | cli/build-and-compilation | 0.5299 |
 | cli | cli | 0.5278 |
-| extensions | extensions/microsoft-extensions-ai | 0.5225 |
 
 ## Authority Scores
 

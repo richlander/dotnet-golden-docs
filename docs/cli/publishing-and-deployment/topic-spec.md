@@ -52,18 +52,18 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 
 | Keyword | Score |
 |---------|-------|
-| framework-dependent | 4.60 |
-| container deployment | 4.54 |
-| cloud-native | 4.52 |
-| deployment scenarios | 4.52 |
-| development-time | 4.52 |
-| distribution-time | 4.52 |
-| trade-offs | 4.52 |
-| native aot | 3.22 |
-| benefits | 3.06 |
-| case | 3.06 |
-| size | 3.06 |
-| distribution | 3.04 |
+| framework-dependent | 4.74 |
+| container deployment | 4.68 |
+| cloud-native | 4.67 |
+| deployment scenarios | 4.67 |
+| development-time | 4.67 |
+| distribution-time | 4.67 |
+| trade-offs | 4.67 |
+| native aot | 3.36 |
+| benefits | 3.15 |
+| case | 3.15 |
+| size | 3.15 |
+| distribution | 3.13 |
 
 ## Diagnostic Codes
 
@@ -98,10 +98,10 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | libraries | libraries/system-text-json-source-generation | 0.6453 |
 | libraries | libraries/system-commandline | 0.6301 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6171 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6169 |
 | extensions | extensions/microsoft-extensions-ai | 0.5931 |
 | csharp | csharp/csharp-14-features | 0.5899 |
 | csharp | csharp | 0.5672 |
-| csharp | csharp/object-initialization | 0.5204 |
 
 ## Authority Scores
 

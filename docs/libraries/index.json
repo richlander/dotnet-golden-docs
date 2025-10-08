@@ -2,7 +2,7 @@
   "id": "libraries",
   "title": ".NET Libraries",
   "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios.",
-  "sim_hash": 17751807665804640574,
+  "sim_hash": 17751807734524641598,
   "hashes": [
     {
       "name": "overview",
@@ -56,47 +56,51 @@
   "keywords": [
     {
       "name": "asp.net core",
-      "score": 4.54
+      "score": 4.68
     },
     {
       "name": "data access",
-      "score": 4.54
+      "score": 4.68
     },
     {
       "name": "library ecosystem",
-      "score": 4.54
+      "score": 4.68
     },
     {
       "name": "azure sdk",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "base class library",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "entity framework core",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "high-performance collections",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "third-party",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "dependency injection",
-      "score": 3.57
+      "score": 3.72
+    },
+    {
+      "name": "system.text.json",
+      "score": 3.12
     },
     {
       "name": "async",
-      "score": 3.03
+      "score": 3.12
     },
     {
       "name": "core",
-      "score": 3.03
+      "score": 3.12
     }
   ],
   "edges": [
@@ -104,7 +108,7 @@
       "target": "/dotnet",
       "similarity": 0.8198,
       "authority": null,
-      "sim_hash": 13135610419762635064,
+      "sim_hash": 13135052005294678328,
       "hashes": [
         {
           "name": "overview",
@@ -272,7 +276,7 @@
       "target": "/cli/file-based-apps",
       "similarity": 0.7375,
       "authority": null,
-      "sim_hash": 12997301872985833850,
+      "sim_hash": 12992798273358463354,
       "hashes": [
         {
           "name": "overview",
@@ -442,7 +446,7 @@
       "authority": {
         "dependency injection": 1.357
       },
-      "sim_hash": 13136320686020076342,
+      "sim_hash": 13136320704273687348,
       "hashes": [
         {
           "name": "overview",
@@ -498,7 +502,7 @@
       "target": "/libraries/system-text-json",
       "similarity": 0.7082,
       "authority": null,
-      "sim_hash": 3768129774184505658,
+      "sim_hash": 12992064777635692858,
       "hashes": [
         {
           "name": "overview",
@@ -554,7 +558,7 @@
       "target": "/csharp",
       "similarity": 0.7046,
       "authority": null,
-      "sim_hash": 3916324853298103158,
+      "sim_hash": 3916887803251590006,
       "hashes": [
         {
           "name": "overview",
@@ -666,7 +670,7 @@
       "target": "/libraries/system-commandline",
       "similarity": 0.6963,
       "authority": null,
-      "sim_hash": 12996139705167217466,
+      "sim_hash": 12995581154334049082,
       "hashes": [
         {
           "name": "overview",
@@ -719,58 +723,58 @@
       ]
     },
     {
-      "target": "/extensions/microsoft-extensions-ai-evaluation",
-      "similarity": 0.6506,
+      "target": "/libraries/string-search-operations",
+      "similarity": 0.6619,
       "authority": null,
-      "sim_hash": 13141382836480540984,
+      "sim_hash": 13140859488264749360,
       "hashes": [
         {
           "name": "overview",
           "kind": "minhash",
           "weighted": false,
-          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/overview.txt.minhash"
+          "path": "/libraries/string-search-operations/_hashes/overview.txt.minhash"
         },
         {
           "name": "overview",
           "kind": "minhash",
           "weighted": true,
-          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/overview.txt.minhash-weighted"
+          "path": "/libraries/string-search-operations/_hashes/overview.txt.minhash-weighted"
         },
         {
           "name": "overview",
           "kind": "simhash",
           "weighted": false,
-          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/overview.txt.simhash"
+          "path": "/libraries/string-search-operations/_hashes/overview.txt.simhash"
         },
         {
           "name": "overview",
           "kind": "simhash",
           "weighted": true,
-          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/overview.txt.simhash-weighted"
+          "path": "/libraries/string-search-operations/_hashes/overview.txt.simhash-weighted"
         },
         {
           "name": "technical",
           "kind": "minhash",
           "weighted": false,
-          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.minhash"
+          "path": "/libraries/string-search-operations/_hashes/technical.txt.minhash"
         },
         {
           "name": "technical",
           "kind": "minhash",
           "weighted": true,
-          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.minhash-weighted"
+          "path": "/libraries/string-search-operations/_hashes/technical.txt.minhash-weighted"
         },
         {
           "name": "technical",
           "kind": "simhash",
           "weighted": false,
-          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.simhash"
+          "path": "/libraries/string-search-operations/_hashes/technical.txt.simhash"
         },
         {
           "name": "technical",
           "kind": "simhash",
           "weighted": true,
-          "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.simhash-weighted"
+          "path": "/libraries/string-search-operations/_hashes/technical.txt.simhash-weighted"
         }
       ]
     }
@@ -802,7 +806,7 @@
   "complexity": 0.8,
   "priority": 1,
   "depth_below": 1,
-  "topic_count": 4,
+  "topic_count": 6,
   "introduced": {
     "version": "1.0",
     "year": "2016"
@@ -826,6 +830,20 @@
   },
   "_embedded": {
     "topics": [
+      {
+        "name": "string-search-operations",
+        "title": "String Search Operations",
+        "category": "Libraries",
+        "complexity": 0.4,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/string-search-operations",
+            "description": "Comprehensive set of methods for locating and checking text within strings, including Contains, IndexOf, StartsWith, EndsWith, and IndexOfAny with ordinal and culture-aware comparison support."
+          }
+        }
+      },
       {
         "name": "system-text-json",
         "title": "System.Text.Json",
@@ -851,6 +869,20 @@
             "name": "self",
             "href": "/libraries/dotnet-10-library-improvements",
             "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations."
+          }
+        }
+      },
+      {
+        "name": "system-buffers-searchvalues",
+        "title": "System.Buffers.SearchValues",
+        "category": "Libraries",
+        "complexity": 0.6,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-buffers-searchvalues",
+            "description": "SearchValues provides an immutable, read-only set of values optimized for efficient searching within spans using SIMD acceleration."
           }
         }
       },
@@ -885,7 +917,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-10-02T17:36:23.4358850Z",
+    "generated": "2025-10-08T00:33:03.2690120Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

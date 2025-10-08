@@ -1,4 +1,7 @@
 Title | System.Text.Json Source Generation
+TypeName | System.Text.Json Source Generation
+TypeName | System.Text
+TypeName | Json Source Generation
 Keyword | aot applications
 Keyword | aot compatibility
 Keyword | aot compilation

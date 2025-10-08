@@ -45,17 +45,18 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 | Keyword | Score |
 |---------|-------|
-| asp.net core | 4.54 |
-| data access | 4.54 |
-| library ecosystem | 4.54 |
-| azure sdk | 4.52 |
-| base class library | 4.52 |
-| entity framework core | 4.52 |
-| high-performance collections | 4.52 |
-| third-party | 4.52 |
-| dependency injection | 3.57 |
-| async | 3.03 |
-| core | 3.03 |
+| asp.net core | 4.68 |
+| data access | 4.68 |
+| library ecosystem | 4.68 |
+| azure sdk | 4.67 |
+| base class library | 4.67 |
+| entity framework core | 4.67 |
+| high-performance collections | 4.67 |
+| third-party | 4.67 |
+| dependency injection | 3.72 |
+| system.text.json | 3.12 |
+| async | 3.12 |
+| core | 3.12 |
 
 ## APIs
 
@@ -81,7 +82,7 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | csharp | csharp | 0.7046 |
 | cli | cli/publishing-and-deployment | 0.6974 |
 | libraries | libraries/system-commandline | 0.6963 |
-| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6506 |
+| libraries | libraries/string-search-operations | 0.6619 |
 
 ### Similarity Metadata
 
@@ -91,7 +92,7 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | csharp | 0.6305 | P50 | 5 |
 | dotnet | 0.8198 | P50 | 1 |
 | extensions | 0.6506 | P50 | 3 |
-| libraries | 0.6963 | P50 | 4 |
+| libraries | 0.6619 | P50 | 6 |
 
 ## Authority Scores
 

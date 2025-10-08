@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 319
-Total word occurrences: 582
+Total word occurrences: 579
 Total document words: 865
 
 | Word | Count | Document Concentration |
@@ -20,7 +20,6 @@ Total document words: 865
 | patterns | 6 | 0.0069 |
 | projects | 6 | 0.0069 |
 | consistent | 5 | 0.0058 |
-| operations | 5 | 0.0058 |
 | provides | 5 | 0.0058 |
 | sdk | 5 | 0.0058 |
 | support | 5 | 0.0058 |
@@ -92,6 +91,7 @@ Total document words: 865
 | manifests | 2 | 0.0023 |
 | models | 2 | 0.0023 |
 | network | 2 | 0.0023 |
+| operations | 2 | 0.0023 |
 | parallel | 2 | 0.0023 |
 | permission | 2 | 0.0023 |
 | platform-specific | 2 | 0.0023 |

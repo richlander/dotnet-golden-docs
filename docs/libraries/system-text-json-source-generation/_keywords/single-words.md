@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 228
-Total word occurrences: 399
+Total unique words: 226
+Total word occurrences: 394
 Total document words: 716
 
 | Word | Count | Document Concentration |
@@ -20,7 +20,6 @@ Total document words: 716
 | use | 5 | 0.0070 |
 | migration | 4 | 0.0056 |
 | newtonsoft | 4 | 0.0056 |
-| operations | 4 | 0.0056 |
 | overhead | 4 | 0.0056 |
 | system | 4 | 0.0056 |
 | text | 4 | 0.0056 |
@@ -120,7 +119,6 @@ Total document words: 716
 | consistency | 1 | 0.0014 |
 | consistent | 1 | 0.0014 |
 | conventions | 1 | 0.0014 |
-| creating | 1 | 0.0014 |
 | critical | 1 | 0.0014 |
 | design | 1 | 0.0014 |
 | determine | 1 | 0.0014 |
@@ -177,6 +175,7 @@ Total document words: 716
 | no | 1 | 0.0014 |
 | one | 1 | 0.0014 |
 | ones | 1 | 0.0014 |
+| operations | 1 | 0.0014 |
 | optimization | 1 | 0.0014 |
 | optimize | 1 | 0.0014 |
 | optimized | 1 | 0.0014 |
@@ -219,7 +218,6 @@ Total document words: 716
 | solutions | 1 | 0.0014 |
 | source-generated | 1 | 0.0014 |
 | starts | 1 | 0.0014 |
-| string | 1 | 0.0014 |
 | summary | 1 | 0.0014 |
 | synergistically | 1 | 0.0014 |
 | technology | 1 | 0.0014 |

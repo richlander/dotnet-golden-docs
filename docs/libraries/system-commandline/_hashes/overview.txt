@@ -1,4 +1,7 @@
 Title | System.CommandLine
+TypeName | System.CommandLine
+TypeName | System
+TypeName | CommandLine
 Keyword | system.commandline
 Keyword | response files
 Keyword | best practices

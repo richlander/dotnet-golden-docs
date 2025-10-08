@@ -1,4 +1,7 @@
 Title | Microsoft.Extensions.AI.Evaluation
+TypeName | Microsoft.Extensions.AI.Evaluation
+TypeName | Microsoft.Extensions.AI
+TypeName | Evaluation
 API | EvaluateAsync
 API | Microsoft.Extensions.AI.Evaluation
 API | Microsoft.Extensions

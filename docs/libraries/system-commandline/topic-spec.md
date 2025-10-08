@@ -1,4 +1,4 @@
-# System.CommandLine - Topic Specification
+# System.CommandLine
 
 ## Feature Description
 
@@ -57,18 +57,18 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 
 | Keyword | Score |
 |---------|-------|
-| system.commandline | 4.58 |
-| response files | 4.54 |
-| best practices | 4.52 |
-| model binding | 4.52 |
-| service-based | 4.52 |
-| command-line | 3.12 |
-| parsing | 3.09 |
-| option | 3.07 |
-| validation | 3.07 |
-| commandline | 3.06 |
-| binding | 3.04 |
-| completion | 3.04 |
+| system.commandline | 4.73 |
+| response files | 4.68 |
+| best practices | 4.67 |
+| model binding | 4.67 |
+| service-based | 4.67 |
+| command-line | 3.26 |
+| parsing | 3.18 |
+| option | 3.16 |
+| validation | 3.16 |
+| commandline | 3.15 |
+| binding | 3.13 |
+| completion | 3.13 |
 
 ## APIs
 
@@ -94,10 +94,10 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 | csharp | csharp/csharp-14-features | 0.6990 |
 | libraries | libraries | 0.6963 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6932 |
+| libraries | libraries/system-text-json-source-generation | 0.6746 |
 | cli | cli/native-aot | 0.6697 |
 | cli | cli/build-and-compilation | 0.6689 |
 | csharp | csharp/object-initialization | 0.6333 |
-| extensions | extensions/microsoft-extensions-ai | 0.6293 |
 
 ## Authority Scores
 

@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 138
-Total word occurrences: 223
+Total unique words: 137
+Total word occurrences: 216
 Total document words: 304
 
 | Word | Count | Document Concentration |
@@ -10,8 +10,6 @@ Total document words: 304
 | json | 9 | 0.0296 |
 | security | 9 | 0.0296 |
 | apis | 5 | 0.0164 |
-| operations | 5 | 0.0164 |
-| string | 5 | 0.0164 |
 | improvements | 4 | 0.0132 |
 | patterns | 4 | 0.0132 |
 | support | 4 | 0.0132 |
@@ -38,12 +36,14 @@ Total document words: 304
 | natural | 2 | 0.0066 |
 | normalization | 2 | 0.0066 |
 | numbers | 2 | 0.0066 |
+| operations | 2 | 0.0066 |
 | ordereddictionary | 2 | 0.0066 |
 | overhead | 2 | 0.0066 |
 | quantum-resistant | 2 | 0.0066 |
 | stable | 2 | 0.0066 |
 | streaming | 2 | 0.0066 |
 | strict | 2 | 0.0066 |
+| string | 2 | 0.0066 |
 | tensor | 2 | 0.0066 |
 | these | 2 | 0.0066 |
 | untrusted | 2 | 0.0066 |
@@ -128,7 +128,6 @@ Total document words: 304
 | requirements | 1 | 0.0033 |
 | requires | 1 | 0.0033 |
 | return | 1 | 0.0033 |
-| search | 1 | 0.0033 |
 | secure | 1 | 0.0033 |
 | security-first | 1 | 0.0033 |
 | see | 1 | 0.0033 |

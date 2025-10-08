@@ -54,13 +54,13 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 
 | Keyword | Score |
 |---------|-------|
-| generic methods | 4.52 |
-| reflection-based | 3.59 |
-| system.text.json source generation | 3.51 |
-| native aot | 3.22 |
-| source generation | 3.21 |
-| jit | 3.04 |
-| smaller | 3.03 |
+| generic methods | 4.67 |
+| reflection-based | 3.73 |
+| system.text.json source generation | 3.66 |
+| native aot | 3.36 |
+| source generation | 3.35 |
+| jit | 3.13 |
+| smaller | 3.12 |
 
 ## APIs
 
@@ -92,11 +92,11 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | cli | cli/build-and-compilation | 0.7450 |
 | libraries | libraries/system-text-json | 0.6960 |
 | libraries | libraries | 0.6828 |
+| libraries | libraries/system-commandline | 0.6697 |
 | csharp | csharp/csharp-14-features | 0.6593 |
 | csharp | csharp | 0.6473 |
 | extensions | extensions/microsoft-extensions-ai | 0.6401 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6161 |
-| csharp | csharp/object-initialization | 0.5373 |
 
 ## Authority Scores
 

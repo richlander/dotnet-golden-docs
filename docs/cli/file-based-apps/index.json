@@ -2,7 +2,7 @@
   "id": "cli/file-based-apps",
   "title": "File-based apps",
   "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure.",
-  "sim_hash": 12997301872985833850,
+  "sim_hash": 12992798273358463354,
   "hashes": [
     {
       "name": "overview",
@@ -56,51 +56,51 @@
   "keywords": [
     {
       "name": "file-based apps",
-      "score": 4.69
+      "score": 4.83
     },
     {
       "name": "file-based-programs",
-      "score": 4.58
+      "score": 4.73
     },
     {
       "name": "file-level",
-      "score": 4.58
+      "score": 4.73
     },
     {
       "name": "traditional project",
-      "score": 4.54
+      "score": 4.68
     },
     {
       "name": "whats-new",
-      "score": 4.54
+      "score": 4.68
     },
     {
       "name": "ascii art",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "exit codes",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "project structure",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "single file constraint",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "traditional project structure",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "docs",
-      "score": 3.18
+      "score": 3.27
     },
     {
-      "name": "file-based",
-      "score": 3.15
+      "name": "command-line",
+      "score": 3.26
     }
   ],
   "edges": [
@@ -278,7 +278,7 @@
       "target": "/dotnet",
       "similarity": 0.761,
       "authority": null,
-      "sim_hash": 13135610419762635064,
+      "sim_hash": 13135052005294678328,
       "hashes": [
         {
           "name": "overview",
@@ -334,7 +334,7 @@
       "target": "/libraries",
       "similarity": 0.7375,
       "authority": null,
-      "sim_hash": 17751807665804640574,
+      "sim_hash": 17751807734524641598,
       "hashes": [
         {
           "name": "overview",
@@ -392,7 +392,7 @@
       "authority": {
         "command-line": 1.312
       },
-      "sim_hash": 12996139705167217466,
+      "sim_hash": 12995581154334049082,
       "hashes": [
         {
           "name": "overview",
@@ -501,6 +501,62 @@
       ]
     },
     {
+      "target": "/libraries/system-text-json",
+      "similarity": 0.6947,
+      "authority": null,
+      "sim_hash": 12992064777635692858,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/system-text-json/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/system-text-json/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/system-text-json/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/system-text-json/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/system-text-json/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/system-text-json/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/system-text-json/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/system-text-json/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
+    },
+    {
       "target": "/csharp/csharp-14-features",
       "similarity": 0.6828,
       "authority": null,
@@ -560,7 +616,7 @@
       "target": "/csharp",
       "similarity": 0.6755,
       "authority": null,
-      "sim_hash": 3916324853298103158,
+      "sim_hash": 3916887803251590006,
       "hashes": [
         {
           "name": "overview",
@@ -616,7 +672,7 @@
       "target": "/extensions/microsoft-extensions-ai",
       "similarity": 0.644,
       "authority": null,
-      "sim_hash": 13136320686020076342,
+      "sim_hash": 13136320704273687348,
       "hashes": [
         {
           "name": "overview",
@@ -672,7 +728,7 @@
       "target": "/extensions/microsoft-extensions-ai-evaluation",
       "similarity": 0.6092,
       "authority": null,
-      "sim_hash": 13141382836480540984,
+      "sim_hash": 13140824422012592440,
       "hashes": [
         {
           "name": "overview",
@@ -721,62 +777,6 @@
           "kind": "simhash",
           "weighted": true,
           "path": "/extensions/microsoft-extensions-ai-evaluation/_hashes/technical.txt.simhash-weighted"
-        }
-      ]
-    },
-    {
-      "target": "/csharp/object-initialization",
-      "similarity": 0.5879,
-      "authority": null,
-      "sim_hash": 17751805102657176370,
-      "hashes": [
-        {
-          "name": "overview",
-          "kind": "minhash",
-          "weighted": false,
-          "path": "/csharp/object-initialization/_hashes/overview.txt.minhash"
-        },
-        {
-          "name": "overview",
-          "kind": "minhash",
-          "weighted": true,
-          "path": "/csharp/object-initialization/_hashes/overview.txt.minhash-weighted"
-        },
-        {
-          "name": "overview",
-          "kind": "simhash",
-          "weighted": false,
-          "path": "/csharp/object-initialization/_hashes/overview.txt.simhash"
-        },
-        {
-          "name": "overview",
-          "kind": "simhash",
-          "weighted": true,
-          "path": "/csharp/object-initialization/_hashes/overview.txt.simhash-weighted"
-        },
-        {
-          "name": "technical",
-          "kind": "minhash",
-          "weighted": false,
-          "path": "/csharp/object-initialization/_hashes/technical.txt.minhash"
-        },
-        {
-          "name": "technical",
-          "kind": "minhash",
-          "weighted": true,
-          "path": "/csharp/object-initialization/_hashes/technical.txt.minhash-weighted"
-        },
-        {
-          "name": "technical",
-          "kind": "simhash",
-          "weighted": false,
-          "path": "/csharp/object-initialization/_hashes/technical.txt.simhash"
-        },
-        {
-          "name": "technical",
-          "kind": "simhash",
-          "weighted": true,
-          "path": "/csharp/object-initialization/_hashes/technical.txt.simhash-weighted"
         }
       ]
     }
@@ -869,7 +869,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-02T17:36:21.8359900Z",
+    "generated": "2025-10-08T00:33:03.1895340Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 145
-Total word occurrences: 215
+Total unique words: 142
+Total word occurrences: 207
 Total document words: 357
 
 | Word | Count | Document Concentration |
@@ -13,7 +13,6 @@ Total document words: 357
 | support | 5 | 0.0140 |
 | code | 4 | 0.0112 |
 | enhanced | 4 | 0.0112 |
-| operations | 4 | 0.0112 |
 | zero-allocation | 4 | 0.0112 |
 | compile-time | 3 | 0.0084 |
 | extensions | 3 | 0.0084 |
@@ -40,9 +39,7 @@ Total document words: 357
 | reference | 2 | 0.0056 |
 | restrictions | 2 | 0.0056 |
 | rules | 2 | 0.0056 |
-| span | 2 | 0.0056 |
 | stack-only | 2 | 0.0056 |
-| string | 2 | 0.0056 |
 | unsafe | 2 | 0.0056 |
 | validation | 2 | 0.0056 |
 | without | 2 | 0.0056 |
@@ -113,6 +110,7 @@ Total document words: 357
 | null | 1 | 0.0028 |
 | null-safe | 1 | 0.0028 |
 | nullable | 1 | 0.0028 |
+| operations | 1 | 0.0028 |
 | optimizations | 1 | 0.0028 |
 | overload | 1 | 0.0028 |
 | overview | 1 | 0.0028 |
@@ -148,7 +146,6 @@ Total document words: 357
 | unbound | 1 | 0.0028 |
 | used | 1 | 0.0028 |
 | user-defined | 1 | 0.0028 |
-| value | 1 | 0.0028 |
 | versions | 1 | 0.0028 |
 | ways | 1 | 0.0028 |
 | work | 1 | 0.0028 |

@@ -1,4 +1,7 @@
 Title | System.Text.Json
+TypeName | System.Text.Json
+TypeName | System.Text
+TypeName | Json
 API | JsonSerializable
 API | JsonSerializer.Serialize
 API | JsonSerializer.SerializeAsync
@@ -35,5 +38,6 @@ ErrorMessage | JsonSerializerOptions.AddContext is obsolete. To register a JsonS
 Keyword | newtonsoft.json
 Keyword | source generation
 Keyword | default
+Keyword | system.text.json
 Keyword | limits
 Keyword | requires

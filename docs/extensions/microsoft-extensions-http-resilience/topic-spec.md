@@ -52,18 +52,18 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 
 | Keyword | Score |
 |---------|-------|
-| circuit breaker | 4.54 |
-| microsoft.extensions.http.resilience | 4.54 |
-| pre-configured | 4.54 |
-| custom resilience | 4.52 |
-| resource management | 4.52 |
-| resilience | 3.25 |
-| http | 3.09 |
-| communication | 3.07 |
-| httpclient | 3.07 |
-| monitoring | 3.06 |
-| strategies | 3.06 |
-| built | 3.05 |
+| circuit breaker | 4.68 |
+| microsoft.extensions.http.resilience | 4.68 |
+| pre-configured | 4.68 |
+| custom resilience | 4.67 |
+| resource management | 4.67 |
+| resilience | 3.34 |
+| http | 3.18 |
+| communication | 3.16 |
+| httpclient | 3.16 |
+| monitoring | 3.15 |
+| strategies | 3.15 |
+| built | 3.14 |
 
 ## APIs
 

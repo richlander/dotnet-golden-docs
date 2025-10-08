@@ -1,4 +1,7 @@
 Title | Microsoft.Extensions.Http.Resilience
+TypeName | Microsoft.Extensions.Http.Resilience
+TypeName | Microsoft.Extensions.Http
+TypeName | Resilience
 API | TimeSpan.FromSeconds
 API | GetAsync
 API | AddHttpClient

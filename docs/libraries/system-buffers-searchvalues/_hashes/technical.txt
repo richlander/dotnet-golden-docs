@@ -1,0 +1,23 @@
+Title | System.Buffers.SearchValues
+TypeName | System.Buffers.SearchValues
+TypeName | System.Buffers
+TypeName | SearchValues
+API | SearchValues.Create
+API | AsSpan
+API | ContainsAny
+API | Contains
+API | IndexOfAny
+API | IndexOf
+API | Slice
+Keyword | creating searchvalues
+Keyword | pre-computed
+Keyword | allocation-free
+Keyword | span-based
+Keyword | characters
+Keyword | once
+Keyword | searchvalues
+Keyword | searches
+Keyword | search
+Keyword | searching
+Keyword | character
+Keyword | operations

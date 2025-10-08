@@ -2,7 +2,7 @@
   "id": "extensions/microsoft-extensions-ai",
   "title": "Microsoft.Extensions.AI",
   "description": "Unified approach for .NET developers to integrate and interact with AI services through standardized interfaces and middleware patterns.",
-  "sim_hash": 13136320686020076342,
+  "sim_hash": 13136320704273687348,
   "hashes": [
     {
       "name": "overview",
@@ -56,51 +56,51 @@
   "keywords": [
     {
       "name": "microsoft.extensions.ai",
-      "score": 4.57
+      "score": 4.71
     },
     {
       "name": "middleware composition",
-      "score": 4.57
+      "score": 4.71
     },
     {
       "name": "function calling",
-      "score": 4.55
+      "score": 4.7
     },
     {
       "name": "embedding generation",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "strongly-typed",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "tool invocation",
-      "score": 4.52
+      "score": 4.67
     },
     {
       "name": "dependency injection",
-      "score": 3.57
+      "score": 3.72
     },
     {
       "name": "middleware",
-      "score": 3.11
+      "score": 3.2
     },
     {
       "name": "services",
-      "score": 3.1
+      "score": 3.19
     },
     {
       "name": "interfaces",
-      "score": 3.06
+      "score": 3.15
     },
     {
       "name": "observability",
-      "score": 3.04
+      "score": 3.13
     },
     {
       "name": "provider",
-      "score": 3.04
+      "score": 3.13
     }
   ],
   "edges": [
@@ -108,7 +108,7 @@
       "target": "/extensions/microsoft-extensions-ai-evaluation",
       "similarity": 0.8279,
       "authority": null,
-      "sim_hash": 13141382836480540984,
+      "sim_hash": 13140824422012592440,
       "hashes": [
         {
           "name": "overview",
@@ -166,7 +166,7 @@
       "authority": {
         "dependency injection": 1.357
       },
-      "sim_hash": 17751807665804640574,
+      "sim_hash": 17751807734524641598,
       "hashes": [
         {
           "name": "overview",
@@ -222,7 +222,7 @@
       "target": "/dotnet",
       "similarity": 0.7043,
       "authority": null,
-      "sim_hash": 13135610419762635064,
+      "sim_hash": 13135052005294678328,
       "hashes": [
         {
           "name": "overview",
@@ -278,7 +278,7 @@
       "target": "/extensions/microsoft-extensions-http-resilience",
       "similarity": 0.6811,
       "authority": null,
-      "sim_hash": 17753101773685129594,
+      "sim_hash": 13140852822484189562,
       "hashes": [
         {
           "name": "overview",
@@ -502,7 +502,7 @@
       "target": "/cli/file-based-apps",
       "similarity": 0.644,
       "authority": null,
-      "sim_hash": 12997301872985833850,
+      "sim_hash": 12992798273358463354,
       "hashes": [
         {
           "name": "overview",
@@ -614,7 +614,7 @@
       "target": "/libraries/system-commandline",
       "similarity": 0.6293,
       "authority": null,
-      "sim_hash": 12996139705167217466,
+      "sim_hash": 12995581154334049082,
       "hashes": [
         {
           "name": "overview",
@@ -667,10 +667,66 @@
       ]
     },
     {
+      "target": "/libraries/system-text-json",
+      "similarity": 0.6256,
+      "authority": null,
+      "sim_hash": 12992064777635692858,
+      "hashes": [
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/system-text-json/_hashes/overview.txt.minhash"
+        },
+        {
+          "name": "overview",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/system-text-json/_hashes/overview.txt.minhash-weighted"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/system-text-json/_hashes/overview.txt.simhash"
+        },
+        {
+          "name": "overview",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/system-text-json/_hashes/overview.txt.simhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": false,
+          "path": "/libraries/system-text-json/_hashes/technical.txt.minhash"
+        },
+        {
+          "name": "technical",
+          "kind": "minhash",
+          "weighted": true,
+          "path": "/libraries/system-text-json/_hashes/technical.txt.minhash-weighted"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": false,
+          "path": "/libraries/system-text-json/_hashes/technical.txt.simhash"
+        },
+        {
+          "name": "technical",
+          "kind": "simhash",
+          "weighted": true,
+          "path": "/libraries/system-text-json/_hashes/technical.txt.simhash-weighted"
+        }
+      ]
+    },
+    {
       "target": "/csharp",
       "similarity": 0.6054,
       "authority": null,
-      "sim_hash": 3916324853298103158,
+      "sim_hash": 3916887803251590006,
       "hashes": [
         {
           "name": "overview",
@@ -719,62 +775,6 @@
           "kind": "simhash",
           "weighted": true,
           "path": "/csharp/_hashes/technical.txt.simhash-weighted"
-        }
-      ]
-    },
-    {
-      "target": "/cli/assembly-trimming",
-      "similarity": 0.5959,
-      "authority": null,
-      "sim_hash": 13140262573718774129,
-      "hashes": [
-        {
-          "name": "overview",
-          "kind": "minhash",
-          "weighted": false,
-          "path": "/cli/assembly-trimming/_hashes/overview.txt.minhash"
-        },
-        {
-          "name": "overview",
-          "kind": "minhash",
-          "weighted": true,
-          "path": "/cli/assembly-trimming/_hashes/overview.txt.minhash-weighted"
-        },
-        {
-          "name": "overview",
-          "kind": "simhash",
-          "weighted": false,
-          "path": "/cli/assembly-trimming/_hashes/overview.txt.simhash"
-        },
-        {
-          "name": "overview",
-          "kind": "simhash",
-          "weighted": true,
-          "path": "/cli/assembly-trimming/_hashes/overview.txt.simhash-weighted"
-        },
-        {
-          "name": "technical",
-          "kind": "minhash",
-          "weighted": false,
-          "path": "/cli/assembly-trimming/_hashes/technical.txt.minhash"
-        },
-        {
-          "name": "technical",
-          "kind": "minhash",
-          "weighted": true,
-          "path": "/cli/assembly-trimming/_hashes/technical.txt.minhash-weighted"
-        },
-        {
-          "name": "technical",
-          "kind": "simhash",
-          "weighted": false,
-          "path": "/cli/assembly-trimming/_hashes/technical.txt.simhash"
-        },
-        {
-          "name": "technical",
-          "kind": "simhash",
-          "weighted": true,
-          "path": "/cli/assembly-trimming/_hashes/technical.txt.simhash-weighted"
         }
       ]
     }
@@ -887,7 +887,7 @@
     "topics": null
   },
   "metadata": {
-    "generated": "2025-10-02T17:36:22.5727980Z",
+    "generated": "2025-10-08T00:33:03.2168070Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

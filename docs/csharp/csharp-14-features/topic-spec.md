@@ -52,18 +52,18 @@ Collection topic covering key C# 14 language features including the `field` keyw
 
 | Keyword | Score |
 |---------|-------|
-| zero-allocation | 4.54 |
-| expression trees | 4.52 |
-| first-class span | 4.52 |
-| named arguments | 4.52 |
-| stack-only | 4.52 |
-| assignment | 3.06 |
-| extension | 3.05 |
-| enhanced | 3.04 |
-| first-class | 3.03 |
-| keyword | 3.03 |
-| lambda | 3.03 |
-| partial | 3.03 |
+| zero-allocation | 4.68 |
+| expression trees | 4.67 |
+| first-class span | 4.67 |
+| named arguments | 4.67 |
+| stack-only | 4.67 |
+| assignment | 3.15 |
+| extension | 3.14 |
+| enhanced | 3.13 |
+| first-class | 3.12 |
+| keyword | 3.12 |
+| lambda | 3.12 |
+| partial | 3.12 |
 
 ## APIs
 
@@ -135,6 +135,7 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | libraries | libraries/dotnet-10-library-improvements | 0.7967 |
 | csharp | csharp/object-initialization | 0.7591 |
 | csharp | csharp/collection-expressions | 0.7522 |
+| libraries | libraries/system-buffers-searchvalues | 0.7328 |
 | libraries | libraries | 0.7280 |
 | dotnet | dotnet | 0.7274 |
 | libraries | libraries/system-text-json | 0.7242 |
@@ -142,5 +143,4 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | cli | cli/file-based-apps | 0.6828 |
 | cli | cli/native-aot | 0.6593 |
 | extensions | extensions/microsoft-extensions-ai | 0.6469 |
-| cli | cli/build-and-compilation | 0.6456 |
 

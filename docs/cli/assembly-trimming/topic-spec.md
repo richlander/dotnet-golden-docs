@@ -53,18 +53,18 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 
 | Keyword | Score |
 |---------|-------|
-| assembly trimming | 4.52 |
-| build-time | 4.52 |
-| desktop applications | 4.52 |
-| framework integration | 4.52 |
-| library development | 4.52 |
-| trimming | 3.08 |
-| reduced | 3.04 |
-| test | 3.04 |
-| disabled | 3.03 |
-| faster | 3.03 |
-| generators | 3.03 |
-| reduction | 3.03 |
+| assembly trimming | 4.67 |
+| build-time | 4.67 |
+| desktop applications | 4.67 |
+| framework integration | 4.67 |
+| library development | 4.67 |
+| trimming | 3.17 |
+| reduced | 3.13 |
+| test | 3.13 |
+| disabled | 3.12 |
+| faster | 3.12 |
+| generators | 3.12 |
+| reduction | 3.12 |
 
 ## APIs
 
@@ -104,8 +104,8 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | libraries | libraries | 0.6762 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6727 |
 | libraries | libraries/system-text-json | 0.6477 |
+| libraries | libraries/system-text-json-source-generation | 0.6435 |
 | csharp | csharp | 0.6079 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6045 |
 | extensions | extensions/microsoft-extensions-ai | 0.5959 |
-| csharp | csharp/object-initialization | 0.5856 |
 

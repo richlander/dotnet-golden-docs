@@ -1,4 +1,5 @@
 Title | .NET Platform
+TypeName | .NET Platform
 Keyword | open-source
 Keyword | garbage collector
 Keyword | industry standards
