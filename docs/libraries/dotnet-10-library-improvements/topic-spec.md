@@ -37,6 +37,13 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | Version | 10.0 |
 | Year | 2025 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 17751807734389736240 |
+| technical | simhash | 17603750934576243000 |
+
 ## Relationships
 
 | Type | Target |
@@ -52,18 +59,18 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | Keyword | Score |
 |---------|-------|
-| high-performance text processing | 4.67 |
-| net 10 | 4.67 |
-| post-quantum cryptography | 4.67 |
-| quantum-resistant | 4.67 |
-| span-based | 3.67 |
-| improvements | 3.13 |
-| algorithms | 3.12 |
-| comparison | 3.12 |
-| cryptography | 3.12 |
-| duplicate | 3.12 |
-| hex | 3.12 |
-| numericordering | 3.12 |
+| security | 9.00 |
+| json | 9.00 |
+| net 10 | 2.00 |
+| span-based | 3.00 |
+| improvements | 4.00 |
+| apis | 5.00 |
+| high-performance text processing | 2.00 |
+| post-quantum cryptography | 2.00 |
+| algorithms | 3.00 |
+| comparison | 3.00 |
+| cryptography | 3.00 |
+| duplicate | 3.00 |
 
 ## APIs
 

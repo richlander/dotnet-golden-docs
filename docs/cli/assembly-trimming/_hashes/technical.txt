@@ -30,15 +30,15 @@ Error | NETSDK1195
 ErrorMessage | Trimming, or code compatibility analysis for trimming, single-file deployment, or ahead-of-time compilation is not supported for the target framework.
 Error | NETSDK1212
 ErrorMessage | IsTrimmable and EnableTrimAnalyzer are not supported for the target framework.
+Keyword | trimming
 Keyword | assembly trimming
-Keyword | build-time
+Keyword | analysis
+Keyword | reduced
+Keyword | test
+Keyword | code
 Keyword | desktop applications
 Keyword | framework integration
 Keyword | library development
-Keyword | trimming
-Keyword | reduced
-Keyword | test
+Keyword | deployment
+Keyword | build-time
 Keyword | disabled
-Keyword | faster
-Keyword | generators
-Keyword | reduction

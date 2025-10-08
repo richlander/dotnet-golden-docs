@@ -2,10 +2,16 @@ Title | System.Text.Json
 TypeName | System.Text.Json
 TypeName | System.Text
 TypeName | Json
-Keyword | newtonsoft.json
+Keyword | json
 Keyword | source generation
-Keyword | default
 Keyword | system.text.json
+Keyword | newtonsoft.json
+Keyword | serialization
+Keyword | default
+Keyword | newtonsoft
+Keyword | compile-time
 Keyword | limits
 Keyword | requires
+Keyword | text
+Keyword | apis
 Description | System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0+ that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). It emphasizes performance and low memory allocation over extensive features, with built-in UTF-8 support optimized for web and file operations.

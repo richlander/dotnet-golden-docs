@@ -52,6 +52,14 @@ Object initialization encompasses the various approaches for creating and initia
 | Version | 1.0 |
 | Year | 2000 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 7058325005360841626 |
+| overview | simhash | 17751804552900313392 |
+| technical | simhash | 17603925754777575800 |
+
 ## Relationships
 
 | Type | Target |
@@ -66,18 +74,18 @@ Object initialization encompasses the various approaches for creating and initia
 
 | Keyword | Score |
 |---------|-------|
-| object initialization | 4.77 |
-| anonymous types | 4.76 |
-| collection properties | 4.76 |
-| init properties | 4.73 |
-| required members | 4.71 |
-| init-only properties | 4.68 |
-| factory methods | 4.67 |
-| pre-size | 4.67 |
-| collection expressions | 3.47 |
-| objects | 3.17 |
-| constructor | 3.16 |
-| initialization | 3.16 |
+| object initialization | 9.00 |
+| anonymous types | 8.00 |
+| collection properties | 8.00 |
+| init properties | 6.00 |
+| required members | 5.00 |
+| objects | 8.00 |
+| constructor | 7.00 |
+| initialization | 7.00 |
+| initializers | 7.00 |
+| properties | 7.00 |
+| collection expressions | 5.00 |
+| init-only properties | 3.00 |
 
 ## APIs
 

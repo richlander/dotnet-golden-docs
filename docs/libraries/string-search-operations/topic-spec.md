@@ -41,6 +41,13 @@ String search operations provide a comprehensive set of methods for locating sub
 | Version | 1.0 (base methods), continuous enhancements |
 | Year | 2002 (initial), ongoing |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 13139733588357906744 |
+| technical | simhash | 17603926856436679036 |
+
 ## Relationships
 
 | Type | Target |
@@ -56,18 +63,18 @@ String search operations provide a comprehensive set of methods for locating sub
 
 | Keyword | Score |
 |---------|-------|
-| string search operations | 9.36 |
-| multi-value | 9.33 |
-| string.contains | 9.33 |
-| allocation-free | 7.40 |
-| pattern-based | 7.31 |
-| string | 6.46 |
-| contains | 6.30 |
-| indexof | 6.30 |
-| repeated | 6.28 |
-| regular | 6.24 |
-| searchvalues | 5.18 |
-| searches | 5.04 |
+| string | 14.00 |
+| searchvalues | 7.00 |
+| string search operations | 3.00 |
+| contains | 6.00 |
+| indexof | 6.00 |
+| searching | 6.00 |
+| repeated | 5.00 |
+| searches | 5.00 |
+| allocation-free | 3.00 |
+| character | 4.00 |
+| matching | 4.00 |
+| search | 4.00 |
 
 ## Similarity Scores
 

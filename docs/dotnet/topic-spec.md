@@ -60,6 +60,13 @@
 | Version | 1.0 |
 | Year | 2016 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 12995440279407100792 |
+| technical | simhash | 12995477800241332528 |
+
 ## Relationships
 
 | Type | Target |
@@ -69,18 +76,18 @@
 
 | Keyword | Score |
 |---------|-------|
-| open-source | 4.71 |
-| garbage collector | 4.68 |
-| industry standards | 4.68 |
-| higher-level | 4.67 |
-| low-cost | 4.67 |
-| self-tuning | 4.67 |
-| low-level | 3.70 |
-| object-oriented | 3.70 |
-| high-level | 3.69 |
-| community | 3.14 |
-| via | 3.14 |
-| components | 3.13 |
+| net | 35.00 |
+| libraries | 11.00 |
+| like | 10.00 |
+| while | 10.00 |
+| open-source | 5.00 |
+| memory management | 6.00 |
+| code | 14.00 |
+| runtime | 12.00 |
+| languages | 6.00 |
+| modern | 6.00 |
+| cross-platform | 7.00 |
+| apis | 7.00 |
 
 ## Similarity Scores
 

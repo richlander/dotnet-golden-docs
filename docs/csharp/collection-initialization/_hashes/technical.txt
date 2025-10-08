@@ -13,15 +13,15 @@ Error | CS0246
 ErrorMessage | The type or namespace name '{0}' could not be found
 Error | CS1729
 ErrorMessage | '{0}' does not contain a constructor that takes '{1}' arguments
-Keyword | collection initialization
-Keyword | target-typed new
-Keyword | collection initializer syntax
-Keyword | collection types
 Keyword | collection expressions
+Keyword | collection initialization
+Keyword | values
+Keyword | target-typed new
+Keyword | collection types
+Keyword | collections
+Keyword | syntax
+Keyword | collection initializer syntax
 Keyword | capacity
 Keyword | dictionaries
 Keyword | dictionary
 Keyword | elements
-Keyword | existing
-Keyword | know
-Keyword | method

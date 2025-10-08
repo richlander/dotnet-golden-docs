@@ -18,10 +18,10 @@ Keyword | anonymous types
 Keyword | collection properties
 Keyword | init properties
 Keyword | required members
-Keyword | init-only properties
-Keyword | factory methods
-Keyword | pre-size
-Keyword | collection expressions
 Keyword | objects
 Keyword | constructor
 Keyword | initialization
+Keyword | initializers
+Keyword | properties
+Keyword | collection expressions
+Keyword | init-only properties

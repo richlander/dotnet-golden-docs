@@ -1,8 +1,13 @@
 Title | Build and Compilation
+Keyword | build
 Keyword | build acceleration
+Keyword | performance optimization
 Keyword | custom build configurations
 Keyword | dependency resolution
 Keyword | msbuild integration
-Keyword | performance optimization
-Keyword | build
+Keyword | ci
+Keyword | analysis
+Keyword | builds
 Keyword | parallel
+Keyword | workflows
+Keyword | configuration

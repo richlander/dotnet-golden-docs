@@ -14,15 +14,15 @@ API | UseFunctionInvocation
 API | Description
 API | AIFunctionFactory.Create
 API | ChatMessage
+Keyword | ai
 Keyword | microsoft.extensions.ai
-Keyword | middleware composition
-Keyword | function calling
-Keyword | embedding generation
-Keyword | strongly-typed
-Keyword | tool invocation
-Keyword | dependency injection
 Keyword | middleware
 Keyword | services
+Keyword | dependency injection
+Keyword | middleware composition
+Keyword | function calling
+Keyword | net
 Keyword | interfaces
-Keyword | observability
-Keyword | provider
+Keyword | caching
+Keyword | familiar
+Keyword | functionality

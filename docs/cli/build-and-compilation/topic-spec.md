@@ -39,6 +39,13 @@ Build and compilation encompasses the development-time workflow of transforming 
 | Version | 1.0 |
 | Year | 2016 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 17751380007194919222 |
+| technical | simhash | 17751416359798309684 |
+
 ## Relationships
 
 | Type | Target |
@@ -53,13 +60,18 @@ Build and compilation encompasses the development-time workflow of transforming 
 
 | Keyword | Score |
 |---------|-------|
-| build acceleration | 4.67 |
-| custom build configurations | 4.67 |
-| dependency resolution | 4.67 |
-| msbuild integration | 4.67 |
-| performance optimization | 4.67 |
-| build | 3.24 |
-| parallel | 3.12 |
+| build | 15.00 |
+| build acceleration | 2.00 |
+| performance optimization | 2.00 |
+| custom build configurations | 2.00 |
+| dependency resolution | 2.00 |
+| msbuild integration | 2.00 |
+| ci | 4.00 |
+| analysis | 3.00 |
+| builds | 3.00 |
+| parallel | 3.00 |
+| workflows | 3.00 |
+| configuration | 5.00 |
 
 ## Similarity Scores
 

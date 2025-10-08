@@ -48,6 +48,14 @@ System.Text.Json source generation provides compile-time generation of serializa
 | Version | 6.0 |
 | Year | 2021 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 11224889504112485232 |
+| overview | simhash | 13172206494987756338 |
+| technical | simhash | 13154369331525460856 |
+
 ## Relationships
 
 | Type | Target |
@@ -62,18 +70,18 @@ System.Text.Json source generation provides compile-time generation of serializa
 
 | Keyword | Score |
 |---------|-------|
-| aot applications | 4.70 |
-| aot compatibility | 4.68 |
-| aot compilation | 4.67 |
-| let source generation handle | 4.67 |
-| property naming policies | 4.67 |
-| source generation handle naming | 4.67 |
-| type-safe | 4.67 |
-| unconstrained generics | 4.67 |
-| reflection-based | 3.73 |
-| newtonsoft.json | 3.70 |
-| system.text.json source generation | 3.66 |
-| native aot | 3.36 |
+| source generation | 13.00 |
+| json | 16.00 |
+| reflection-based | 5.00 |
+| serialization | 9.00 |
+| aot applications | 4.00 |
+| context | 6.00 |
+| errors | 6.00 |
+| naming | 6.00 |
+| newtonsoft.json | 3.00 |
+| scenarios | 5.00 |
+| aot compatibility | 3.00 |
+| system.text.json source generation | 2.00 |
 
 ## APIs
 

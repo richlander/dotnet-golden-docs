@@ -10,14 +10,14 @@ API | RootCommand
 API | AddCommand
 API | ProcessFile
 Keyword | system.commandline
-Keyword | response files
-Keyword | best practices
-Keyword | model binding
-Keyword | service-based
 Keyword | command-line
 Keyword | parsing
 Keyword | option
 Keyword | validation
 Keyword | commandline
+Keyword | response files
+Keyword | options
+Keyword | tools
+Keyword | use
+Keyword | automatic
 Keyword | binding
-Keyword | completion

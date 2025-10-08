@@ -47,6 +47,13 @@ C# is a modern, safe, and general purpose language that makes developers product
 | Version | 1.0 |
 | Year | 2000 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 12996144102274695986 |
+| technical | simhash | 12991112669277651760 |
+
 ## Relationships
 
 | Type | Target |
@@ -56,18 +63,18 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 | Keyword | Score |
 |---------|-------|
-| asynchronous programming | 4.68 |
-| language features | 4.68 |
-| memory-safety | 4.68 |
-| cloud-native development | 4.67 |
-| language-integrated | 4.67 |
-| mobile applications | 4.67 |
-| platform-specific | 4.67 |
-| type system | 4.67 |
-| version compatibility | 4.67 |
-| low-level | 3.70 |
-| object-oriented | 3.70 |
-| high-level | 3.69 |
+| language | 19.00 |
+| features | 13.00 |
+| net | 13.00 |
+| like | 11.00 |
+| compiler | 8.00 |
+| data | 8.00 |
+| programming | 8.00 |
+| object-oriented | 5.00 |
+| memory management | 6.00 |
+| libraries | 9.00 |
+| low-level | 4.00 |
+| language features | 3.00 |
 
 ## Similarity Scores
 

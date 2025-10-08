@@ -16,10 +16,15 @@ Error | IL2087
 ErrorMessage | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The return value of source method does not have matching annotations.
 Error | IL2091
 ErrorMessage | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The generic parameter does not have matching annotations.
-Keyword | generic methods
-Keyword | reflection-based
-Keyword | system.text.json source generation
 Keyword | native aot
+Keyword | no
+Keyword | reflection-based
+Keyword | runtime
+Keyword | compilation
+Keyword | json
 Keyword | source generation
 Keyword | jit
-Keyword | smaller
+Keyword | supported
+Keyword | code
+Keyword | self-contained
+Keyword | generic methods

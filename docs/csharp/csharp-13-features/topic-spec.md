@@ -40,6 +40,13 @@ C# 13 is the latest version of the C# programming language, released with .NET 9
 | Version | 13.0 |
 | Year | 2024 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 2365380689039924540 |
+| technical | simhash | 16206524861151939900 |
+
 ## Relationships
 
 | Type | Target |

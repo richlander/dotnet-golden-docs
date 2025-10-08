@@ -38,6 +38,14 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | Version | 1.0 |
 | Year | 2016 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 12199180378432432472 |
+| overview | simhash | 13140261422801224498 |
+| technical | simhash | 3913545822483915576 |
+
 ## Relationships
 
 | Type | Target |
@@ -52,18 +60,18 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 
 | Keyword | Score |
 |---------|-------|
-| framework-dependent | 4.74 |
-| container deployment | 4.68 |
-| cloud-native | 4.67 |
-| deployment scenarios | 4.67 |
-| development-time | 4.67 |
-| distribution-time | 4.67 |
-| trade-offs | 4.67 |
-| native aot | 3.36 |
-| benefits | 3.15 |
-| case | 3.15 |
-| size | 3.15 |
-| distribution | 3.13 |
+| deployment | 23.00 |
+| native aot | 13.00 |
+| framework-dependent | 7.00 |
+| publishing | 11.00 |
+| self-contained | 7.00 |
+| deployments | 7.00 |
+| benefits | 6.00 |
+| case | 6.00 |
+| readytorun | 6.00 |
+| size | 6.00 |
+| startup | 7.00 |
+| runtime | 10.00 |
 
 ## Diagnostic Codes
 

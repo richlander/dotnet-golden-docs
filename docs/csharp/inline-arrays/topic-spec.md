@@ -46,6 +46,14 @@ Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size
 | Version | 12.0 |
 | Year | 2023 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 17923769528747046492 |
+| overview | simhash | 957545229853003589 |
+| technical | simhash | 18041338146198546232 |
+
 ## Relationships
 
 | Type | Target |

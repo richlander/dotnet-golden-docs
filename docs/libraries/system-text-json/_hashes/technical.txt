@@ -35,9 +35,15 @@ Error | SYSLIB0020
 ErrorMessage | JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.
 Error | SYSLIB0049
 ErrorMessage | JsonSerializerOptions.AddContext is obsolete. To register a JsonSerializerContext, use either the TypeInfoResolver or TypeInfoResolverChain properties.
-Keyword | newtonsoft.json
+Keyword | json
 Keyword | source generation
-Keyword | default
 Keyword | system.text.json
+Keyword | newtonsoft.json
+Keyword | serialization
+Keyword | default
+Keyword | newtonsoft
+Keyword | compile-time
 Keyword | limits
 Keyword | requires
+Keyword | text
+Keyword | apis

@@ -33,15 +33,15 @@ Error | NETSDK1198
 ErrorMessage | A publish profile with the name '{0}' was not found in the project.
 Error | NETSDK1225
 ErrorMessage | Native compilation is not supported when invoking the Publish target directly.
-Keyword | framework-dependent
-Keyword | container deployment
-Keyword | cloud-native
-Keyword | deployment scenarios
-Keyword | development-time
-Keyword | distribution-time
-Keyword | trade-offs
+Keyword | deployment
 Keyword | native aot
+Keyword | framework-dependent
+Keyword | publishing
+Keyword | self-contained
+Keyword | deployments
 Keyword | benefits
 Keyword | case
+Keyword | readytorun
 Keyword | size
-Keyword | distribution
+Keyword | startup
+Keyword | runtime

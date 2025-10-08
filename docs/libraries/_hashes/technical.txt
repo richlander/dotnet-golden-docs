@@ -4,15 +4,15 @@ API | Equals
 API | GetAsync
 API | JsonSerializer.Serialize
 API | ProcessFileAsync
-Keyword | asp.net core
+Keyword | libraries
+Keyword | system
 Keyword | data access
 Keyword | library ecosystem
+Keyword | frameworks
+Keyword | asp.net core
+Keyword | dependency injection
+Keyword | patterns
+Keyword | asp
 Keyword | azure sdk
-Keyword | base class library
 Keyword | entity framework core
 Keyword | high-performance collections
-Keyword | third-party
-Keyword | dependency injection
-Keyword | system.text.json
-Keyword | async
-Keyword | core

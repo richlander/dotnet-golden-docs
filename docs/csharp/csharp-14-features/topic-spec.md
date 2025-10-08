@@ -37,6 +37,14 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Version | 14.0 |
 | Year | 2025 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 7262411006152912613 |
+| overview | simhash | 12991679535167505208 |
+| technical | simhash | 12704008810442662268 |
+
 ## Relationships
 
 | Type | Target |
@@ -52,18 +60,18 @@ Collection topic covering key C# 14 language features including the `field` keyw
 
 | Keyword | Score |
 |---------|-------|
-| zero-allocation | 4.68 |
-| expression trees | 4.67 |
-| first-class span | 4.67 |
-| named arguments | 4.67 |
-| stack-only | 4.67 |
-| assignment | 3.15 |
-| extension | 3.14 |
-| enhanced | 3.13 |
-| first-class | 3.12 |
-| keyword | 3.12 |
-| lambda | 3.12 |
-| partial | 3.12 |
+| assignment | 6.00 |
+| extension | 5.00 |
+| zero-allocation | 3.00 |
+| compile-time | 4.00 |
+| enhanced | 4.00 |
+| patterns | 7.00 |
+| expression trees | 2.00 |
+| first-class span | 2.00 |
+| named arguments | 2.00 |
+| first-class | 3.00 |
+| keyword | 3.00 |
+| lambda | 3.00 |
 
 ## APIs
 

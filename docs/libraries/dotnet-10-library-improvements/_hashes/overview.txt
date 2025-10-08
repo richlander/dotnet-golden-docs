@@ -1,15 +1,15 @@
 Title | .NET 10 Libraries Features
 TypeName | .NET 10 Libraries Features
-Keyword | high-performance text processing
+Keyword | security
+Keyword | json
 Keyword | net 10
-Keyword | post-quantum cryptography
-Keyword | quantum-resistant
 Keyword | span-based
 Keyword | improvements
+Keyword | apis
+Keyword | high-performance text processing
+Keyword | post-quantum cryptography
 Keyword | algorithms
 Keyword | comparison
 Keyword | cryptography
 Keyword | duplicate
-Keyword | hex
-Keyword | numericordering
 Description | Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios.

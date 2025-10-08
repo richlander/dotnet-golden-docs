@@ -48,6 +48,14 @@ Collection initialization encompasses the traditional and modern approaches to c
 | Version | 1.0 |
 | Year | 2000 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 13507085838896505194 |
+| overview | simhash | 13135758833430233394 |
+| technical | simhash | 17604488704731014524 |
+
 ## Relationships
 
 | Type | Target |
@@ -62,18 +70,18 @@ Collection initialization encompasses the traditional and modern approaches to c
 
 | Keyword | Score |
 |---------|-------|
-| collection initialization | 4.68 |
-| target-typed new | 4.68 |
-| collection initializer syntax | 4.67 |
-| collection types | 3.70 |
-| collection expressions | 3.47 |
-| capacity | 3.12 |
-| dictionaries | 3.12 |
-| dictionary | 3.12 |
-| elements | 3.12 |
-| existing | 3.12 |
-| know | 3.12 |
-| method | 3.12 |
+| collection expressions | 12.00 |
+| collection initialization | 3.00 |
+| values | 8.00 |
+| target-typed new | 3.00 |
+| collection types | 3.00 |
+| collections | 6.00 |
+| syntax | 8.00 |
+| collection initializer syntax | 2.00 |
+| capacity | 3.00 |
+| dictionaries | 3.00 |
+| dictionary | 3.00 |
+| elements | 3.00 |
 
 ## APIs
 

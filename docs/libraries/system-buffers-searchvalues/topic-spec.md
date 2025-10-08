@@ -40,6 +40,13 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 | Version | 8.0 (char/byte), 9.0 (string) |
 | Year | 2023 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 13140716481029145400 |
+| technical | simhash | 12992239188741849468 |
+
 ## Relationships
 
 | Type | Target |
@@ -54,18 +61,18 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 
 | Keyword | Score |
 |---------|-------|
-| creating searchvalues | 9.33 |
-| pre-computed | 9.33 |
-| allocation-free | 7.40 |
-| span-based | 7.34 |
-| characters | 6.26 |
-| once | 6.24 |
-| searchvalues | 5.18 |
-| searches | 5.04 |
-| search | 5.00 |
-| searching | 4.98 |
-| character | 4.94 |
-| operations | 4.94 |
+| searchvalues | 12.00 |
+| searches | 7.00 |
+| allocation-free | 4.00 |
+| search | 6.00 |
+| values | 7.00 |
+| characters | 4.00 |
+| operations | 4.00 |
+| multiple | 5.00 |
+| creating searchvalues | 2.00 |
+| character | 3.00 |
+| once | 3.00 |
+| pre-computed | 2.00 |
 
 ## Similarity Scores
 

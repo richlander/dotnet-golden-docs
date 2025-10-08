@@ -2,61 +2,6 @@
   "id": "extensions",
   "title": "Extensions",
   "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components.",
-  "sim_hash": 4094157115311198364,
-  "hashes": [
-    {
-      "name": "overview",
-      "kind": "minhash",
-      "weighted": false,
-      "path": "/extensions/_hashes/overview.txt.minhash"
-    },
-    {
-      "name": "overview",
-      "kind": "minhash",
-      "weighted": true,
-      "path": "/extensions/_hashes/overview.txt.minhash-weighted"
-    },
-    {
-      "name": "overview",
-      "kind": "simhash",
-      "weighted": false,
-      "path": "/extensions/_hashes/overview.txt.simhash"
-    },
-    {
-      "name": "overview",
-      "kind": "simhash",
-      "weighted": true,
-      "path": "/extensions/_hashes/overview.txt.simhash-weighted"
-    },
-    {
-      "name": "technical",
-      "kind": "minhash",
-      "weighted": false,
-      "path": "/extensions/_hashes/technical.txt.minhash"
-    },
-    {
-      "name": "technical",
-      "kind": "minhash",
-      "weighted": true,
-      "path": "/extensions/_hashes/technical.txt.minhash-weighted"
-    },
-    {
-      "name": "technical",
-      "kind": "simhash",
-      "weighted": false,
-      "path": "/extensions/_hashes/technical.txt.simhash"
-    },
-    {
-      "name": "technical",
-      "kind": "simhash",
-      "weighted": true,
-      "path": "/extensions/_hashes/technical.txt.simhash-weighted"
-    }
-  ],
-  "keywords": null,
-  "edges": null,
-  "apis": null,
-  "diagnostic_codes": null,
   "category": "Extensions",
   "complexity": 0.6,
   "priority": 1,
@@ -66,11 +11,31 @@
     "version": "1.0",
     "year": "2024"
   },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 4094157115311198364
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 17715425070702380348
+    }
+  },
+  "keywords": null,
+  "apis": null,
+  "diagnostic_codes": null,
   "_links": {
     "self": {
       "name": "self",
-      "href": "/extensions",
+      "href": "/extensions/index.json",
       "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/index.json",
+      "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
@@ -83,13 +48,25 @@
       {
         "name": "microsoft-extensions-ai",
         "title": "Microsoft.Extensions.AI",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13136320841712640308
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240838009299324
+          }
+        },
         "category": "Extensions",
         "complexity": 0.6,
         "priority": 1,
         "_links": {
           "self": {
             "name": "self",
-            "href": "/extensions/microsoft-extensions-ai",
+            "href": "/extensions/microsoft-extensions-ai/index.json",
             "description": "Unified approach for .NET developers to integrate and interact with AI services through standardized interfaces and middleware patterns."
           }
         }
@@ -97,13 +74,25 @@
       {
         "name": "microsoft-extensions-ai-evaluation",
         "title": "Microsoft.Extensions.AI.Evaluation",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12997269984866959672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741857660
+          }
+        },
         "category": "Extensions",
         "complexity": 0.8,
         "priority": 1,
         "_links": {
           "self": {
             "name": "self",
-            "href": "/extensions/microsoft-extensions-ai-evaluation",
+            "href": "/extensions/microsoft-extensions-ai-evaluation/index.json",
             "description": "Comprehensive set of libraries for evaluating AI software quality and safety through metrics, safety checks, and reporting tools."
           }
         }
@@ -111,13 +100,25 @@
       {
         "name": "microsoft-extensions-http-resilience",
         "title": "Microsoft.Extensions.Http.Resilience",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140852822484190074
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992238638986035580
+          }
+        },
         "category": "Extensions",
         "complexity": 0.7,
         "priority": 1,
         "_links": {
           "self": {
             "name": "self",
-            "href": "/extensions/microsoft-extensions-http-resilience",
+            "href": "/extensions/microsoft-extensions-http-resilience/index.json",
             "description": "Resilience mechanisms for HttpClient built on Polly framework with pre-configured patterns for retry, circuit breaking, hedging, and rate limiting."
           }
         }
@@ -125,7 +126,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-10-08T00:33:03.2659810Z",
+    "generated": "2025-10-08T22:51:50.7774427Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

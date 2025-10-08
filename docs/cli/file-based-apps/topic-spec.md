@@ -39,6 +39,13 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | Version | 10.0 |
 | Year | 2025 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 12991672373451620728 |
+| technical | simhash | 17603924657413423484 |
+
 ## Relationships
 
 | Type | Target |
@@ -54,18 +61,18 @@ File-based apps allow developers to run and publish single .cs files directly wi
 
 | Keyword | Score |
 |---------|-------|
-| file-based apps | 4.83 |
-| file-based-programs | 4.73 |
-| file-level | 4.73 |
-| traditional project | 4.68 |
-| whats-new | 4.68 |
-| ascii art | 4.67 |
-| exit codes | 4.67 |
-| project structure | 4.67 |
-| single file constraint | 4.67 |
-| traditional project structure | 4.67 |
-| docs | 3.27 |
-| command-line | 3.26 |
+| file-based apps | 13.00 |
+| docs | 18.00 |
+| file-based | 15.00 |
+| project | 14.00 |
+| dotnet | 12.00 |
+| scripts | 10.00 |
+| com | 9.00 |
+| description | 9.00 |
+| directives | 9.00 |
+| file-based-programs | 6.00 |
+| file-level | 6.00 |
+| githubusercontent | 9.00 |
 
 ## APIs
 

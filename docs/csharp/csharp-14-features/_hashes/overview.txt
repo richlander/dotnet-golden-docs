@@ -1,14 +1,14 @@
 Title | C# 14 Language Features
+Keyword | assignment
+Keyword | extension
 Keyword | zero-allocation
+Keyword | compile-time
+Keyword | enhanced
+Keyword | patterns
 Keyword | expression trees
 Keyword | first-class span
 Keyword | named arguments
-Keyword | stack-only
-Keyword | assignment
-Keyword | extension
-Keyword | enhanced
 Keyword | first-class
 Keyword | keyword
 Keyword | lambda
-Keyword | partial
 Description | Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax.

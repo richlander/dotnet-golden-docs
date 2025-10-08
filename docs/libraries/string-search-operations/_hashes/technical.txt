@@ -9,15 +9,15 @@ API | Substring
 API | ContainsAny
 API | Math.Min
 API | StartsWith
-Keyword | string search operations
-Keyword | multi-value
-Keyword | string.contains
-Keyword | allocation-free
-Keyword | pattern-based
 Keyword | string
+Keyword | searchvalues
+Keyword | string search operations
 Keyword | contains
 Keyword | indexof
+Keyword | searching
 Keyword | repeated
-Keyword | regular
-Keyword | searchvalues
 Keyword | searches
+Keyword | allocation-free
+Keyword | character
+Keyword | matching
+Keyword | search

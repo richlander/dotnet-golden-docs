@@ -40,6 +40,14 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | Version | 3.0 |
 | Year | 2019 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 16930982311004600425 |
+| overview | simhash | 12992064777769845050 |
+| technical | simhash | 3949010516359132025 |
+
 ## Relationships
 
 | Type | Target |
@@ -54,12 +62,18 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 | Keyword | Score |
 |---------|-------|
-| newtonsoft.json | 3.70 |
-| source generation | 3.35 |
-| default | 3.13 |
-| system.text.json | 3.12 |
-| limits | 3.12 |
-| requires | 3.12 |
+| json | 15.00 |
+| source generation | 7.00 |
+| system.text.json | 5.00 |
+| newtonsoft.json | 4.00 |
+| serialization | 7.00 |
+| default | 4.00 |
+| newtonsoft | 4.00 |
+| compile-time | 3.00 |
+| limits | 3.00 |
+| requires | 3.00 |
+| text | 3.00 |
+| apis | 3.00 |
 
 ## APIs
 

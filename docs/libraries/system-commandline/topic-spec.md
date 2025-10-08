@@ -43,6 +43,14 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 | Version | 2.0 |
 | Year | 2022 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 4477352130680084748 |
+| overview | simhash | 12995581154334049082 |
+| technical | simhash | 17603783919925068156 |
+
 ## Relationships
 
 | Type | Target |
@@ -57,18 +65,18 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 
 | Keyword | Score |
 |---------|-------|
-| system.commandline | 4.73 |
-| response files | 4.68 |
-| best practices | 4.67 |
-| model binding | 4.67 |
-| service-based | 4.67 |
-| command-line | 3.26 |
-| parsing | 3.18 |
-| option | 3.16 |
-| validation | 3.16 |
-| commandline | 3.15 |
-| binding | 3.13 |
-| completion | 3.13 |
+| system.commandline | 6.00 |
+| command-line | 10.00 |
+| parsing | 9.00 |
+| option | 7.00 |
+| validation | 7.00 |
+| commandline | 6.00 |
+| response files | 3.00 |
+| options | 6.00 |
+| tools | 6.00 |
+| use | 8.00 |
+| automatic | 4.00 |
+| binding | 4.00 |
 
 ## APIs
 

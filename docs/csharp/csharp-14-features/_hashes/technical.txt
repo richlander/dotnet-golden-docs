@@ -40,15 +40,15 @@ Error | CS9324
 ErrorMessage | Operator '{0}' is not valid for compound assignment with operands of type '{1}' and '{2}'.
 Error | CS9329
 ErrorMessage | Extension block collision with type '{0}'.
+Keyword | assignment
+Keyword | extension
 Keyword | zero-allocation
+Keyword | compile-time
+Keyword | enhanced
+Keyword | patterns
 Keyword | expression trees
 Keyword | first-class span
 Keyword | named arguments
-Keyword | stack-only
-Keyword | assignment
-Keyword | extension
-Keyword | enhanced
 Keyword | first-class
 Keyword | keyword
 Keyword | lambda
-Keyword | partial

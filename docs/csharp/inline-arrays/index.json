@@ -2,59 +2,33 @@
   "id": "csharp/inline-arrays",
   "title": "Inline Arrays",
   "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers.",
-  "sim_hash": 957545229853003589,
-  "hashes": [
-    {
-      "name": "overview",
-      "kind": "minhash",
-      "weighted": false,
-      "path": "/csharp/inline-arrays/_hashes/overview.txt.minhash"
+  "category": "C# Language",
+  "complexity": 0.7,
+  "priority": 3,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "12.0",
+    "year": "2023"
+  },
+  "hashes": {
+    "error-codes": {
+      "name": "error-codes",
+      "kind": "bloom",
+      "fingerprint": 17923769528747046492
     },
-    {
-      "name": "overview",
-      "kind": "minhash",
-      "weighted": true,
-      "path": "/csharp/inline-arrays/_hashes/overview.txt.minhash-weighted"
-    },
-    {
-      "name": "overview",
-      "kind": "simhash",
-      "weighted": false,
-      "path": "/csharp/inline-arrays/_hashes/overview.txt.simhash"
-    },
-    {
+    "overview": {
       "name": "overview",
       "kind": "simhash",
-      "weighted": true,
-      "path": "/csharp/inline-arrays/_hashes/overview.txt.simhash-weighted"
+      "fingerprint": 957545229853003589
     },
-    {
-      "name": "technical",
-      "kind": "minhash",
-      "weighted": false,
-      "path": "/csharp/inline-arrays/_hashes/technical.txt.minhash"
-    },
-    {
-      "name": "technical",
-      "kind": "minhash",
-      "weighted": true,
-      "path": "/csharp/inline-arrays/_hashes/technical.txt.minhash-weighted"
-    },
-    {
+    "technical": {
       "name": "technical",
       "kind": "simhash",
-      "weighted": false,
-      "path": "/csharp/inline-arrays/_hashes/technical.txt.simhash"
-    },
-    {
-      "name": "technical",
-      "kind": "simhash",
-      "weighted": true,
-      "path": "/csharp/inline-arrays/_hashes/technical.txt.simhash-weighted"
+      "fingerprint": 18041338146198546232
     }
-  ],
+  },
   "keywords": null,
-  "edges": null,
   "apis": null,
   "diagnostic_codes": [
     "CS9166",
@@ -72,24 +46,15 @@
     "CS9184",
     "CS9189"
   ],
-  "category": "C# Language",
-  "complexity": 0.7,
-  "priority": 3,
-  "depth_below": 0,
-  "topic_count": 0,
-  "introduced": {
-    "version": "12.0",
-    "year": "2023"
-  },
   "_links": {
     "self": {
       "name": "self",
-      "href": "/csharp/inline-arrays",
+      "href": "/csharp/inline-arrays/index.json",
       "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers."
     },
     "parent": {
       "name": "parent",
-      "href": "/csharp",
+      "href": "/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
@@ -99,10 +64,10 @@
     }
   },
   "_embedded": {
-    "topics": null
+    "topics": []
   },
   "metadata": {
-    "generated": "2025-10-08T00:33:03.2122370Z",
+    "generated": "2025-10-08T22:51:50.7406599Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

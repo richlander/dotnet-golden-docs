@@ -39,6 +39,13 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 | Version | 9.0 |
 | Year | 2024 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 13136320841712640308 |
+| technical | simhash | 12992240838009299324 |
+
 ## Relationships
 
 | Type | Target |
@@ -54,18 +61,18 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 
 | Keyword | Score |
 |---------|-------|
-| microsoft.extensions.ai | 4.71 |
-| middleware composition | 4.71 |
-| function calling | 4.70 |
-| embedding generation | 4.67 |
-| strongly-typed | 4.67 |
-| tool invocation | 4.67 |
-| dependency injection | 3.72 |
-| middleware | 3.20 |
-| services | 3.19 |
-| interfaces | 3.15 |
-| observability | 3.13 |
-| provider | 3.13 |
+| ai | 32.00 |
+| microsoft.extensions.ai | 5.00 |
+| middleware | 11.00 |
+| services | 10.00 |
+| dependency injection | 5.00 |
+| middleware composition | 5.00 |
+| function calling | 4.00 |
+| net | 8.00 |
+| interfaces | 6.00 |
+| caching | 6.00 |
+| familiar | 4.00 |
+| functionality | 4.00 |
 
 ## APIs
 

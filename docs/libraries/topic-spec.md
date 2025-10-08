@@ -39,24 +39,31 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | Version | 1.0 |
 | Year | 2016 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 17752933634431451450 |
+| technical | simhash | 12992064916140458364 |
+
 ## Relationships
 
 ## Keywords
 
 | Keyword | Score |
 |---------|-------|
-| asp.net core | 4.68 |
-| data access | 4.68 |
-| library ecosystem | 4.68 |
-| azure sdk | 4.67 |
-| base class library | 4.67 |
-| entity framework core | 4.67 |
-| high-performance collections | 4.67 |
-| third-party | 4.67 |
-| dependency injection | 3.72 |
-| system.text.json | 3.12 |
-| async | 3.12 |
-| core | 3.12 |
+| libraries | 12.00 |
+| system | 8.00 |
+| data access | 3.00 |
+| library ecosystem | 3.00 |
+| frameworks | 5.00 |
+| asp.net core | 3.00 |
+| dependency injection | 3.00 |
+| patterns | 8.00 |
+| asp | 4.00 |
+| azure sdk | 2.00 |
+| entity framework core | 2.00 |
+| high-performance collections | 2.00 |
 
 ## APIs
 

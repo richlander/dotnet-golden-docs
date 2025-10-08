@@ -39,6 +39,13 @@
 | Version | 1.0 |
 | Year | 2024 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 4094157115311198364 |
+| technical | simhash | 17715425070702380348 |
+
 ## Relationships
 
 | Type | Target |

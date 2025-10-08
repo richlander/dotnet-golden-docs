@@ -38,6 +38,13 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 | Version | 9.0 |
 | Year | 2024 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 12997269984866959672 |
+| technical | simhash | 12992239188741857660 |
+
 ## Relationships
 
 | Type | Target |
@@ -53,18 +60,18 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 
 | Keyword | Score |
 |---------|-------|
-| microsoft.extensions.ai.evaluation | 4.71 |
-| safety evaluators | 4.70 |
-| ai-generated | 4.67 |
-| automated quality | 4.67 |
-| automated quality gates | 4.67 |
-| custom evaluator implementation | 4.67 |
-| llm-based | 4.67 |
-| llm-based evaluators | 4.67 |
-| regression testing | 4.67 |
-| evaluation | 3.39 |
-| quality | 3.21 |
-| safety | 3.16 |
+| evaluation | 30.00 |
+| ai | 22.00 |
+| quality | 12.00 |
+| microsoft.extensions.ai.evaluation | 5.00 |
+| safety | 7.00 |
+| safety evaluators | 4.00 |
+| azure | 6.00 |
+| evaluators | 6.00 |
+| metrics | 6.00 |
+| extensions | 7.00 |
+| microsoft | 7.00 |
+| nlp | 5.00 |
 
 ## APIs
 

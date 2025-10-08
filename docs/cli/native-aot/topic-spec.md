@@ -40,6 +40,14 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | Version | 7.0 |
 | Year | 2022 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 128515531412412530 |
+| overview | simhash | 17746882522527531890 |
+| technical | simhash | 13136350303040708924 |
+
 ## Relationships
 
 | Type | Target |
@@ -54,13 +62,18 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 
 | Keyword | Score |
 |---------|-------|
-| generic methods | 4.67 |
-| reflection-based | 3.73 |
-| system.text.json source generation | 3.66 |
-| native aot | 3.36 |
-| source generation | 3.35 |
-| jit | 3.13 |
-| smaller | 3.12 |
+| native aot | 9.00 |
+| no | 6.00 |
+| reflection-based | 4.00 |
+| runtime | 11.00 |
+| compilation | 7.00 |
+| json | 7.00 |
+| source generation | 4.00 |
+| jit | 4.00 |
+| supported | 4.00 |
+| code | 7.00 |
+| self-contained | 3.00 |
+| generic methods | 2.00 |
 
 ## APIs
 

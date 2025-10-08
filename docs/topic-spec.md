@@ -36,6 +36,13 @@
 | Version | 1.0 |
 | Year | 2016 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 13140259292497977722 |
+| technical | simhash | 12992097901497688444 |
+
 ## Relationships
 
 | Type | Target |

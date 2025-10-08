@@ -39,6 +39,13 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | Version | 1.0 |
 | Year | 2016 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 13139554503262208824 |
+| technical | simhash | 13139588021186986364 |
+
 ## Relationships
 
 | Type | Target |
@@ -48,18 +55,18 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 
 | Keyword | Score |
 |---------|-------|
-| development workflow | 4.68 |
-| build performance | 4.67 |
-| command structure | 4.67 |
-| development environments | 4.67 |
-| net cli | 4.67 |
-| package restore | 4.67 |
-| cli | 3.32 |
-| command-line | 3.26 |
-| development | 3.19 |
-| consistent | 3.14 |
-| sdk | 3.14 |
-| cache | 3.13 |
+| cli | 23.00 |
+| package | 11.00 |
+| development | 10.00 |
+| tools | 13.00 |
+| global | 8.00 |
+| builds | 7.00 |
+| commands | 9.00 |
+| across | 8.00 |
+| projects | 6.00 |
+| command-line | 5.00 |
+| consistent | 5.00 |
+| sdk | 5.00 |
 
 ## Similarity Scores
 

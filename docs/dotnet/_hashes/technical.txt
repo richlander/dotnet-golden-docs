@@ -1,14 +1,14 @@
 Title | .NET Platform
 TypeName | .NET Platform
+Keyword | net
+Keyword | libraries
+Keyword | like
+Keyword | while
 Keyword | open-source
-Keyword | garbage collector
-Keyword | industry standards
-Keyword | higher-level
-Keyword | low-cost
-Keyword | self-tuning
-Keyword | low-level
-Keyword | object-oriented
-Keyword | high-level
-Keyword | community
-Keyword | via
-Keyword | components
+Keyword | memory management
+Keyword | code
+Keyword | runtime
+Keyword | languages
+Keyword | modern
+Keyword | cross-platform
+Keyword | apis

@@ -48,6 +48,14 @@ Collection expressions provide a concise syntax to create common collection valu
 | Version | 12.0 |
 | Year | 2023 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| error-codes | bloom | 455161043282583691 |
+| overview | simhash | 12992804884253057394 |
+| technical | simhash | 12997308484954235260 |
+
 ## Relationships
 
 | Type | Target |
@@ -62,18 +70,18 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | Keyword | Score |
 |---------|-------|
-| target type | 4.70 |
-| compile-time constants | 4.67 |
-| inline arrays | 4.67 |
-| spread element | 4.67 |
-| collection types | 3.70 |
-| collection expressions | 3.47 |
-| spread | 3.14 |
-| params | 3.13 |
-| combine | 3.12 |
-| concise | 3.12 |
-| javascript | 3.12 |
-| python | 3.12 |
+| collection expressions | 15.00 |
+| collection types | 4.00 |
+| target type | 4.00 |
+| syntax | 10.00 |
+| spread | 5.00 |
+| collections | 6.00 |
+| familiar | 4.00 |
+| params | 4.00 |
+| spread element | 2.00 |
+| compile-time constants | 2.00 |
+| inline arrays | 2.00 |
+| combine | 3.00 |
 
 ## APIs
 

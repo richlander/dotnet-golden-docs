@@ -59,15 +59,15 @@ Error | SYSLIB1223
 ErrorMessage | JsonConverterAttribute '{0}' is invalid.
 Error | SYSLIB1225
 ErrorMessage | JSON source generation does not support the specified configuration.
-Keyword | aot applications
-Keyword | aot compatibility
-Keyword | aot compilation
-Keyword | let source generation handle
-Keyword | property naming policies
-Keyword | source generation handle naming
-Keyword | type-safe
-Keyword | unconstrained generics
+Keyword | source generation
+Keyword | json
 Keyword | reflection-based
+Keyword | serialization
+Keyword | aot applications
+Keyword | context
+Keyword | errors
+Keyword | naming
 Keyword | newtonsoft.json
+Keyword | scenarios
+Keyword | aot compatibility
 Keyword | system.text.json source generation
-Keyword | native aot

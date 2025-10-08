@@ -1,24 +1,166 @@
 {
-  "id": "",
-  "title": ".NET Knowledge Graph",
-  "description": "Root index of .NET documentation topics and categories",
-  "sim_hash": null,
-  "hashes": null,
-  "keywords": null,
-  "edges": null,
-  "apis": null,
-  "diagnostic_codes": null,
-  "category": "Root",
-  "complexity": 0.5,
+  "id": ".",
+  "title": ".NET",
+  "description": "Comprehensive developer platform encompassing runtime, libraries, tools, languages, and deployment models for building modern applications across all scenarios.",
+  "category": "Platform",
+  "complexity": 0.8,
   "priority": 1,
   "depth_below": 2,
   "topic_count": 5,
-  "introduced": null,
+  "introduced": {
+    "version": "1.0",
+    "year": "2016"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 13140259292497977722
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 12992097901497688444
+    }
+  },
+  "keywords": [
+    {
+      "name": "file-based apps",
+      "score": 13
+    },
+    {
+      "name": "object initialization",
+      "score": 9
+    },
+    {
+      "name": "anonymous types",
+      "score": 8
+    },
+    {
+      "name": "collection properties",
+      "score": 8
+    },
+    {
+      "name": "framework-dependent",
+      "score": 7
+    },
+    {
+      "name": "file-based-programs",
+      "score": 6
+    },
+    {
+      "name": "file-level",
+      "score": 6
+    },
+    {
+      "name": "init properties",
+      "score": 6
+    },
+    {
+      "name": "system.commandline",
+      "score": 6
+    },
+    {
+      "name": "microsoft.extensions.ai",
+      "score": 5
+    },
+    {
+      "name": "microsoft.extensions.ai.evaluation",
+      "score": 5
+    },
+    {
+      "name": "middleware composition",
+      "score": 5
+    }
+  ],
+  "apis": [
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 63
+    },
+    {
+      "name": "JsonSerializable",
+      "type": "attribute",
+      "count": 38
+    },
+    {
+      "name": "JsonSerializer.Serialize",
+      "type": "method",
+      "count": 29
+    },
+    {
+      "name": "Build",
+      "type": "method",
+      "count": 25
+    },
+    {
+      "name": "Add",
+      "type": "method",
+      "count": 21
+    },
+    {
+      "name": "GetResponseAsync",
+      "type": "method",
+      "count": 21
+    },
+    {
+      "name": "JsonSourceGenerationOptions",
+      "type": "attribute",
+      "count": 21
+    },
+    {
+      "name": "EvaluateAsync",
+      "type": "method",
+      "count": 17
+    },
+    {
+      "name": "AddOption",
+      "type": "method",
+      "count": 14
+    },
+    {
+      "name": "ChatClientBuilder",
+      "type": "method",
+      "count": 14
+    },
+    {
+      "name": "Microsoft.Extensions",
+      "type": "namespace",
+      "count": 14
+    },
+    {
+      "name": "System.Text.Json",
+      "type": "namespace",
+      "count": 13
+    }
+  ],
+  "diagnostic_codes": null,
   "_links": {
     "self": {
       "name": "self",
-      "href": "/",
+      "href": "/./index.json",
+      "description": "Comprehensive developer platform encompassing runtime, libraries, tools, languages, and deployment models for building modern applications across all scenarios."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/index.json",
       "description": "Root knowledge graph"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/./topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "repos": {
+      "name": "repos",
+      "href": "/./repos.md",
+      "description": "repos"
+    },
+    "readme": {
+      "name": "README",
+      "href": "/./README.md",
+      "description": "README"
     }
   },
   "_embedded": {
@@ -26,13 +168,25 @@
       {
         "name": "cli",
         "title": "CLI",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13139554503262208824
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13139588021186986364
+          }
+        },
         "category": "CLI",
         "complexity": 0.4,
         "priority": 1,
         "_links": {
           "self": {
             "name": "self",
-            "href": "/cli",
+            "href": "/cli/index.json",
             "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications."
           }
         }
@@ -40,13 +194,25 @@
       {
         "name": "csharp",
         "title": "C# Language",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12996144102274695986
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12991112669277651760
+          }
+        },
         "category": "C# Language",
         "complexity": 0.8,
         "priority": 1,
         "_links": {
           "self": {
             "name": "self",
-            "href": "/csharp",
+            "href": "/csharp/index.json",
             "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code."
           }
         }
@@ -54,13 +220,25 @@
       {
         "name": "dotnet",
         "title": ".NET Platform",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12995440279407100792
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12995477800241332528
+          }
+        },
         "category": ".NET Platform",
         "complexity": 0.7,
         "priority": 1,
         "_links": {
           "self": {
             "name": "self",
-            "href": "/dotnet",
+            "href": "/dotnet/index.json",
             "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications."
           }
         }
@@ -68,13 +246,25 @@
       {
         "name": "extensions",
         "title": "Extensions",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4094157115311198364
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17715425070702380348
+          }
+        },
         "category": "Extensions",
         "complexity": 0.6,
         "priority": 1,
         "_links": {
           "self": {
             "name": "self",
-            "href": "/extensions",
+            "href": "/extensions/index.json",
             "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components."
           }
         }
@@ -82,13 +272,25 @@
       {
         "name": "libraries",
         "title": ".NET Libraries",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17752933634431451450
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992064916140458364
+          }
+        },
         "category": ".NET Libraries",
         "complexity": 0.8,
         "priority": 1,
         "_links": {
           "self": {
             "name": "self",
-            "href": "/libraries",
+            "href": "/libraries/index.json",
             "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios."
           }
         }
@@ -96,7 +298,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-10-08T00:33:03.2784170Z",
+    "generated": "2025-10-08T22:51:50.7670042Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

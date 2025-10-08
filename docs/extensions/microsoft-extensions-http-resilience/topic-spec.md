@@ -37,6 +37,13 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | Version | 9.0 |
 | Year | 2024 |
 
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 13140852822484190074 |
+| technical | simhash | 12992238638986035580 |
+
 ## Relationships
 
 | Type | Target |
@@ -52,18 +59,18 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 
 | Keyword | Score |
 |---------|-------|
-| circuit breaker | 4.68 |
-| microsoft.extensions.http.resilience | 4.68 |
-| pre-configured | 4.68 |
-| custom resilience | 4.67 |
-| resource management | 4.67 |
-| resilience | 3.34 |
-| http | 3.18 |
-| communication | 3.16 |
-| httpclient | 3.16 |
-| monitoring | 3.15 |
-| strategies | 3.15 |
-| built | 3.14 |
+| resilience | 25.00 |
+| http | 9.00 |
+| communication | 7.00 |
+| httpclient | 7.00 |
+| microsoft.extensions.http.resilience | 3.00 |
+| monitoring | 6.00 |
+| strategies | 6.00 |
+| standard | 7.00 |
+| built | 5.00 |
+| circuit | 5.00 |
+| polly | 5.00 |
+| reliability | 5.00 |
 
 ## APIs
 
