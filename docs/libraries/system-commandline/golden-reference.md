@@ -116,23 +116,6 @@ rangeOption.AddValidator(result =>
 });
 ```
 
-## Relationships & Integration
-
-System.CommandLine integrates with the broader .NET ecosystem:
-
-- **.NET CLI**: Powers the dotnet command-line interface
-- **Global Tools**: Ideal foundation for .NET global and local tools
-- **Dependency Injection**: Works with Microsoft.Extensions.DependencyInjection
-- **Hosting**: Integrates with Microsoft.Extensions.Hosting for service-based apps
-- **Native AOT**: Full compatibility with ahead-of-time compilation and trimming
-
-Migration from other command-line libraries typically involves:
-
-- Replacing CommandLineParser with System.CommandLine namespace
-- Converting option definitions to new Option<T> syntax
-- Updating handler methods to use SetHandler pattern
-- Leveraging built-in validation instead of custom attributes
-
 ## Common Scenarios
 
 ### Simple Console Tool
@@ -305,22 +288,14 @@ var parser = new CommandLineBuilder(rootCommand)
 ### Performance Considerations
 
 - Parser creation has overhead; cache when parsing multiple inputs
-- Reflection-based binding has modest performance cost compared to direct handlers
+- Reflection-based binding has a performance cost compared to direct handlers
 - Large command hierarchies may impact startup time
 - Validation runs before command execution; expensive validation affects parse time
 
 ### Common Pitfalls
 
 - Forgetting to call SetHandler results in no-op commands
-- Using wrong generic types on Option<T> causes runtime binding failures
-- Not handling async methods properly in SetHandler
+- Using wrong generic types on `Option<T>` causes runtime binding failures
+- Not handling `async` methods properly in SetHandler
 - Circular references in command hierarchies cause stack overflow
 - Case sensitivity differences between platforms can affect option matching
-
-## See Also
-
-- Command-line design guidance: Best practices for CLI application design
-- .NET Global Tools: Packaging and distribution of command-line tools
-- Microsoft.Extensions.Hosting: Service-based console application patterns
-- Native AOT: Deployment considerations for ahead-of-time compiled apps
-- Tab completion: Shell integration for enhanced user experience

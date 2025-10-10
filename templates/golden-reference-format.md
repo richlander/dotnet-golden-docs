@@ -2,6 +2,8 @@
 
 This document defines the format and quality standards for golden reference documents across all topics in the documentation set. Golden references serve as comprehensive validation baselines and primary source material for content generation.
 
+See [Examples are the best documentation](https://rakhim.exotext.com/examples-are-the-best-documentation) as a general framing on the format we want to achieve.
+
 ## Purpose
 
 Golden reference documents serve multiple critical functions:
@@ -15,7 +17,7 @@ Golden reference documents serve multiple critical functions:
 
 ### Document Title
 
-The H1 will be structured as: `# {Feature Name} - Golden Reference`
+The H1 will be structured as: `# {Feature Name}`
 
 ### Required Sections
 
@@ -91,72 +93,6 @@ Natural cross-references to related topics:
 - Alternative approaches: Different solutions to similar problems
 - Advanced topics: Deeper dives and specialized scenarios
 
-## Topic Metadata Requirements
-
-Each topic must include a metadata table with standardized properties for consistent organization and searchability:
-
-### Required Metadata Properties
-
-- Name: Display name of the topic
-- ID: Unique identifier (kebab-case)
-- Category: Primary category (CLI, C# Language, Libraries, Extensions, etc.)
-- Namespace: .NET namespace for code-related topics, "(none)" for concepts/features
-- Description: Brief description of the topic
-- Complexity: Numeric rating (0.0-1.0) indicating learning difficulty
-- Audience: Target developer audience
-- Priority: Importance ranking (1=highest, 2=medium, 3=lower)
-- Version: .NET version where introduced
-- Year: Year of introduction
-
-### Namespace Property Guidelines
-
-The Namespace property enables semantic distinction between code-focused topics and concept-focused topics:
-
-Use actual namespace for topics representing:
-- Class libraries and APIs (e.g., "System.Text.Json", "Microsoft.Extensions.AI")
-- Specific types and namespaces (e.g., "System.IO", "System.Threading.Tasks")
-- NuGet packages with primary namespaces
-
-Use "(none)" for topics representing:
-- Language features (e.g., collection expressions, pattern matching)
-- Tooling and CLI features (e.g., file-based apps, dotnet commands)
-- Deployment concepts (e.g., Native AOT, single-file deployment)
-- Development workflows and practices
-
-### Example Metadata Tables
-
-Code-focused topic:
-```markdown
-| Property | Value |
-| --- | --- |
-| Name | Microsoft.Extensions.AI |
-| ID | microsoft-extensions-ai |
-| Category | Extensions |
-| Namespace | Microsoft.Extensions.AI |
-| Description | Unified approach for .NET developers to integrate AI services |
-| Complexity | 0.6 |
-| Audience | AI developers, library authors |
-| Priority | 1 |
-| Version | 9.0 |
-| Year | 2024 |
-```
-
-Concept-focused topic:
-```markdown
-| Property | Value |
-| --- | --- |
-| Name | File-based apps |
-| ID | file-based-apps |
-| Category | CLI |
-| Namespace | (none) |
-| Description | Run single .cs files without project structure |
-| Complexity | 0.3 |
-| Audience | all developers, scripters |
-| Priority | 2 |
-| Version | 10.0 |
-| Year | 2025 |
-```
-
 ## Content Standards
 
 ### Storytelling Guidelines
@@ -165,6 +101,7 @@ Positive Narrative Focus: Golden reference documents should tell a positive stor
 
 - Focus on benefits and capabilities rather than problems with alternatives
 - Avoid "before/after" comparisons that emphasize how "terrible" the old way was
+- Avoid "Introduced in .NET 6" style historical framing. It generally isn't valuable and we don't want to maintain this data throughout the docset.
 - Present traditional syntax as valid alternatives rather than deprecated approaches
 - Use language like "provides", "enables", "offers" instead of "solves", "fixes", "improves"
 - When showing multiple approaches, frame them as "options" or "alternatives" rather than "old vs new"
