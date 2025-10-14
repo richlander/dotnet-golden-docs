@@ -175,7 +175,7 @@ var camelCaseOptions = new JsonSerializerOptions
 string camelCaseJson = JsonSerializer.Serialize(response, camelCaseOptions);
 // {"userId":123,"firstName":"Alice","lastName":"Smith"}
 
-// snake_case_lower naming policy (.NET 8+)
+// snake_case_lower naming policy
 var snakeCaseOptions = new JsonSerializerOptions
 {
     PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
@@ -183,7 +183,7 @@ var snakeCaseOptions = new JsonSerializerOptions
 string snakeCaseJson = JsonSerializer.Serialize(response, snakeCaseOptions);
 // {"user_id":123,"first_name":"Alice","last_name":"Smith"}
 
-// kebab-case-lower naming policy (.NET 8+)
+// kebab-case-lower naming policy
 var kebabCaseOptions = new JsonSerializerOptions
 {
     PropertyNamingPolicy = JsonNamingPolicy.KebabCaseLower

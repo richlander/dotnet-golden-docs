@@ -2,247 +2,440 @@
 
 ## Overview
 
-System.Text.Json is a JSON serialization library for .NET. It converts between .NET objects and JSON text. The library prioritizes speed and memory efficiency for modern cloud and web applications. System.Text.Json is built on high-performance primitives like `Span<T>` and vectorization. These primitives enable efficient JSON processing with minimal memory allocation.
+System.Text.Json is a high-performance JSON serialization library built into .NET. It provides a complete JSON processing stack from low-level UTF-8 readers/writers to high-level serialization APIs. The library serves as the default JSON handler for ASP.NET Core, HttpClient extensions, and configuration systems.
 
-The library provides two operations: serialize .NET objects to JSON strings or streams, and deserialize JSON back into strongly-typed .NET objects. `JsonSerializer.Serialize()` and `JsonSerializer.Deserialize<T>()` handle most scenarios. For performance-critical applications, source generation replaces runtime reflection with compile-time code generation, delivering significantly faster serialization with lower memory allocation.
+The library provides multiple APIs organized in layers, each serving different performance and flexibility needs:
 
-`System.Text.Json` serves as the default JSON serializer for ASP.NET Core web APIs, `HttpClient` JSON extension methods, and configuration systems. Its design emphasizes UTF-8 optimization, Native AOT compatibility, and security through controlled type resolution. The library supports streaming large JSON files, customizing serialization behavior through options, and strict validation for configuration scenarios.
+**High-level APIs** - Simple, strongly-typed operations:
+- `JsonSerializer` - Convert between .NET objects and JSON with minimal code
+- Supports reflection-based serialization and compile-time source generation
 
-Key capabilities:
+**Document Object Model (DOM)** - Dynamic JSON without defined types:
+- `JsonDocument` - Read-only DOM with pooled memory for minimal allocation
+- `JsonNode` - Mutable DOM for building and modifying JSON at runtime
 
-- High-performance serialization: 1.3-5x faster than reflection-based alternatives in most scenarios
-- Low memory allocation: UTF-8-optimized processing reduces garbage collection pressure
-- Source generation support: Compile-time code generation for maximum performance
-- Native AOT compatibility: Full support for trimmed and ahead-of-time compiled applications
-- Streaming APIs: Process large JSON files without loading entire documents into memory
-- Strict validation: Configurable options for configuration file parsing and data validation
-- Security hardening: Built-in depth limits and controlled type resolution
+**Low-level APIs** - Maximum control and performance:
+- `Utf8JsonReader` - Forward-only, zero-allocation JSON parsing
+- `Utf8JsonWriter` - Direct UTF-8 JSON writing with minimal overhead
 
-The library has three modes: reflection-based serialization for flexibility, source generation for performance, and DOM manipulation for dynamic JSON processing. Most applications use reflection-based serialization during development and source generation in production for optimal performance.
+Most applications use `JsonSerializer` for serialization/deserialization and occasionally drop to DOM APIs for dynamic scenarios. The low-level reader/writer APIs are primarily for library authors and custom serialization logic.
 
-| Scenario | Solution | Key Benefit |
-|----------|----------|-------------|
-| Basic JSON serialization | `JsonSerializer.Serialize/Deserialize<T>()` | Simple, works everywhere |
-| High-performance APIs | Source generation with `JsonSerializerContext` | 1.3-5x faster, AOT compatible |
-| Web API responses | Source generation + `ConfigureHttpJsonOptions()` | Automatic performance optimization |
-| Configuration files | `JsonSerializerOptions.Strict` | Catches malformed JSON early |
-| Large files (>100MB) | `JsonSerializer.DeserializeAsyncEnumerable<T>()` | Constant memory usage |
-| HTTP API calls | `GetFromJsonAsync<T>()` / `PostAsJsonAsync()` | Single-line HTTP + deserialization |
-| Unknown JSON structure | `JsonDocument` (read-only) | Fast, minimal allocation |
-| Modifying JSON structure | `JsonNode` (mutable) | Runtime flexibility for dynamic data |
-| Generic methods with AOT | `JsonTypeInfo<T>` parameter | Compile-time type safety |
-| AI/Chat structured responses | `GetResponseAsync<T>()` with source generation | Type-safe AI responses |
+**Design principles:**
+- **Performance first** - Built on `Span<T>`, UTF-8 operations, and vectorization
+- **AOT compatible** - Source generation eliminates reflection for Native AOT scenarios
+- **Secure by default** - Depth limits, controlled type resolution, no arbitrary code execution
+- **Web optimized** - UTF-8 native, streaming support, minimal allocation
 
-## Quick Start
+**Integration points:**
+- Default serializer for ASP.NET Core web APIs and Minimal APIs
+- Powers `HttpClient` JSON extension methods (`GetFromJsonAsync`, `PostAsJsonAsync`)
+- Configuration system JSON parsing (`appsettings.json`)
+- Microsoft.Extensions.AI structured chat responses
 
+## Quick Reference
+
+Common scenarios with minimal code examples. See component-specific documentation for detailed coverage.
+
+**Basic serialization:**
 ```csharp
 using System.Text.Json;
 
-// Define a type
-public record Product(int Id, string Name, decimal Price);
-
-// Serialize: Object → JSON
+// Object to JSON
 var product = new Product(1, "Laptop", 999.99m);
 string json = JsonSerializer.Serialize(product);
 
-// Deserialize: JSON → Object
-string jsonString = """{"Id":2,"Name":"Mouse","Price":24.99}""";
-Product mouse = JsonSerializer.Deserialize<Product>(jsonString)!;
+// JSON to object
+Product item = JsonSerializer.Deserialize<Product>(jsonString)!;
 ```
 
-## Serialization and Deserialization
-
-Converts .NET objects to JSON strings and deserialize JSON text back into strongly-typed objects. Supports both synchronous and asynchronous operations for file and network I/O.
-
+**Web API defaults (camelCase):**
 ```csharp
-// Serialize object to JSON string
-string json = JsonSerializer.Serialize(weatherForecast);
-
-// Deserialize JSON string to object
-WeatherForecast forecast = JsonSerializer.Deserialize<WeatherForecast>(json);
-
-// Async file operations
-await JsonSerializer.SerializeAsync(fileStream, weatherForecast);
-WeatherForecast forecast = await JsonSerializer.DeserializeAsync<WeatherForecast>(fileStream);
-```
-
-## JSON Source Generation
-
-Generate serialization code at compile time for optimal performance and Native AOT compatibility. Eliminates reflection overhead and enables trimming support.
-
-```csharp
-[JsonSerializable(typeof(WeatherForecast))]
-internal partial class SourceGenerationContext : JsonSerializerContext { }
-
-// Use with source generation
-string json = JsonSerializer.Serialize(weatherForecast, SourceGenerationContext.Default.WeatherForecast);
-WeatherForecast forecast = JsonSerializer.Deserialize(json, SourceGenerationContext.Default.WeatherForecast);
-```
-
-## Configuring Serialization
-
-Customize serialization behavior through `JsonSerializerOptions` including property naming policies, formatting, and handling of null values.
-
-```csharp
-var options = new JsonSerializerOptions
-{
-    PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
-    WriteIndented = true,
-    DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
-};
-
-string json = JsonSerializer.Serialize(obj, options);
-```
-
-## Using Web Defaults for Serialization
-
-Use preconfigured options matching ASP.NET Core conventions for web APIs. Applies camelCase naming and case-insensitive property matching.
-
-```csharp
-// Use ASP.NET Core default settings (camelCase, case-insensitive)
+// Use ASP.NET Core conventions
 string json = JsonSerializer.Serialize(obj, JsonSerializerOptions.Web);
 ```
 
-## Applying Nullable Annotations
-
-Enforce C# nullable reference type annotations during serialization and deserialization. Validates that non-nullable properties are present in JSON.
-
+**Source generation (maximum performance):**
 ```csharp
-// Enforce nullable reference type annotations during serialization
+[JsonSerializable(typeof(Product))]
+internal partial class AppJsonContext : JsonSerializerContext { }
+
+// Use generated code
+string json = JsonSerializer.Serialize(product, AppJsonContext.Default.Product);
+```
+
+**File I/O (async):**
+```csharp
+// Write to file
+await using var stream = File.Create("data.json");
+await JsonSerializer.SerializeAsync(stream, data);
+
+// Read from file
+await using var stream = File.OpenRead("data.json");
+var data = await JsonSerializer.DeserializeAsync<Data>(stream);
+```
+
+**HTTP client extensions:**
+```csharp
+// GET with deserialization
+var user = await httpClient.GetFromJsonAsync<User>("https://api.example.com/users/123");
+
+// POST with serialization
+await httpClient.PostAsJsonAsync("https://api.example.com/users", newUser);
+```
+
+**Dynamic JSON (read-only, minimal allocation):**
+```csharp
+using JsonDocument doc = JsonDocument.Parse(json);
+string name = doc.RootElement.GetProperty("name").GetString()!;
+```
+
+**Dynamic JSON (mutable):**
+```csharp
+JsonNode data = JsonNode.Parse(json)!;
+data["status"] = "updated";
+string modified = data.ToJsonString();
+```
+
+**Stream large arrays:**
+```csharp
+await using var stream = File.OpenRead("large-data.json");
+await foreach (var item in JsonSerializer.DeserializeAsyncEnumerable<Product>(stream))
+{
+    await ProcessAsync(item);
+}
+```
+
+**Custom naming (snake_case, camelCase):**
+```csharp
 var options = new JsonSerializerOptions
 {
-    RespectNullableAnnotations = true
+    PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
 };
-
 string json = JsonSerializer.Serialize(obj, options);
 ```
 
-## Strict JSON Validation
+**Configuration files (strict validation):**
+```csharp
+var config = JsonSerializer.Deserialize<AppConfig>(
+    configJson, 
+    JsonSerializerOptions.Strict);
+```
 
-Enable strict parsing mode for configuration files and trusted JSON sources. Rejects common issues like duplicate properties and trailing commas.
+## Choosing the Right API
+
+System.Text.Json provides multiple approaches optimized for different scenarios. Choose based on whether JSON structure is known at compile time, whether modification is needed, and performance requirements.
+
+### Decision tree
+
+1. **Is JSON structure known at compile time?**
+   - Use `JsonSerializer.Deserialize<T>()` with defined types
+
+2. **Do you need to modify the JSON?**
+   - Use `JsonNode` (mutable DOM)
+
+3. **Read-only access to dynamic JSON?**
+   - For most scenarios, use `JsonDocument` (read-only DOM, pooled memory)
+   - For custom serialization logic, use ``Utf8JsonReader` and `Utf8JsonReader` (forward-only)
+
+### API comparison
+
+| API | Use When | Performance | Memory | Mutability | Typing |
+|-----|----------|-------------|--------|------------|--------|
+| `JsonSerializer<T>` + source gen | Known types, max performance | Fastest | Minimal | Objects | Strong |
+| `JsonSerializer<T>` + reflection | Known types, development | Fast | Low | Objects | Strong |
+| `JsonDocument` | Read-only dynamic JSON | Fast | Minimal (pooled) | Read-only | Loose |
+| `JsonNode` | Mutable dynamic JSON | Moderate | Moderate | Mutable | Loose |
+| `Utf8JsonReader` | Custom parsing, streaming | Fastest | Minimal | N/A | Loose |
+| `Utf8JsonWriter` | Custom writing, streaming | Fastest | Minimal | N/A | Loose |
+
+### Code comparison
 
 ```csharp
-// Strict serialization options for configuration files
-var strictOptions = JsonSerializerOptions.Strict;
+// 1. Strongly-typed (fastest with source generation, type-safe)
+public record User(int Id, string Name, string Email);
 
-// Disallow duplicate properties
+[JsonSerializable(typeof(User))]
+partial class AppContext : JsonSerializerContext { }
+
+var user = JsonSerializer.Deserialize(json, AppContext.Default.User)!;
+// Pros: Type safety, IntelliSense, best performance, AOT compatible
+// Cons: Requires type definition, inflexible for changing schemas
+
+// 2. JsonDocument (read-only, minimal allocation)
+using JsonDocument doc = JsonDocument.Parse(json);
+string name = doc.RootElement.GetProperty("name").GetString()!;
+int id = doc.RootElement.GetProperty("id").GetInt32();
+// Pros: No types needed, fast, low allocation, pooled memory
+// Cons: Read-only, requires disposal, no modification
+
+// 3. JsonNode (mutable, flexible)
+JsonNode node = JsonNode.Parse(json)!;
+string name = node["name"]!.GetValue<string>();
+node["status"] = "updated";  // Can modify
+string modified = node.ToJsonString();
+// Pros: Can modify, no disposal, flexible
+// Cons: Higher allocation, slower, no type safety
+
+// 4. Utf8JsonReader (lowest level, maximum control)
+var reader = new Utf8JsonReader(utf8Json);
+while (reader.Read())
+{
+    if (reader.TokenType == JsonTokenType.PropertyName && 
+        reader.GetString() == "name")
+    {
+        reader.Read();
+        string name = reader.GetString()!;
+    }
+}
+// Pros: Zero allocation, maximum performance, streaming
+// Cons: Complex API, manual state management, forward-only
+```
+
+### Scenario recommendations
+
+| Scenario | Recommended API | Rationale |
+|----------|----------------|-----------|
+| Web API responses | `JsonSerializer<T>` + source gen | Known types, performance critical, AOT compatible |
+| Configuration loading | `JsonSerializer<T>` + strict mode | Known schema, early validation needed |
+| Webhook routing | `JsonDocument` | Extract event type without full deserialization |
+| Middleware/proxies | `JsonNode` | May need to modify, structure varies |
+| Large file processing | `DeserializeAsyncEnumerable<T>()` | Constant memory for large arrays |
+| Custom converters | `Utf8JsonReader`/`Utf8JsonWriter` | Fine control over format |
+| HTTP client calls | `GetFromJsonAsync<T>()` | Known response types, convenience |
+| Dynamic config merging | `JsonNode` | Runtime modification of JSON structure |
+| Log parsing | `JsonDocument` | Read-only extraction of specific fields |
+| Real-time APIs | `JsonSerializer<T>` + source gen | Lowest latency, minimal GC pressure |
+
+### Performance hierarchy (fastest to slowest)
+
+1. `JsonSerializer.Deserialize<T>()` with source generation
+2. `Utf8JsonReader` (manual parsing)
+3. `JsonDocument.Parse()` (read-only DOM)
+4. `JsonSerializer.Deserialize<T>()` with reflection
+5. `JsonNode.Parse()` (mutable DOM)
+
+## Component Documentation
+
+For detailed coverage of each API, see the component-specific documentation:
+
+- **[JsonSerializer](../system-text-json-jsonserializer/golden-reference.md)** - High-level serialization and deserialization with options, converters, and source generation
+- **[JsonDocument](../system-text-json-jsondocument/golden-reference.md)** - Read-only DOM with pooled memory for efficient navigation
+- **[JsonNode](../system-text-json-nodes/golden-reference.md)** - Mutable DOM for building and modifying JSON dynamically
+- **[Utf8JsonReader](../system-text-json-utf8jsonreader/golden-reference.md)** - Low-level forward-only reader for custom parsing
+- **[Utf8JsonWriter](../system-text-json-utf8jsonwriter/golden-reference.md)** - Low-level writer for custom JSON generation
+- **[Source Generation](../system-text-json-source-generation/golden-reference.md)** - Compile-time code generation for performance and AOT compatibility
+- **[Migration from Newtonsoft.Json](../system-text-json-migrate-from-newtonsoft/golden-reference.md)** - API mappings and migration guide
+
+## Source Generation
+
+Source generation produces JSON serialization code at compile time, eliminating reflection overhead and enabling Native AOT deployment. It's essential for high-performance scenarios and applications requiring ahead-of-time compilation.
+
+**How it works:**
+
+Define a `JsonSerializerContext` with all types you'll serialize:
+
+```csharp
+[JsonSerializable(typeof(User))]
+[JsonSerializable(typeof(Product))]
+[JsonSerializable(typeof(List<Order>))]
+internal partial class AppJsonContext : JsonSerializerContext { }
+```
+
+The source generator produces serialization code at compile time. Use the generated context when serializing:
+
+```csharp
+// Pass JsonTypeInfo<T> for type-safe operations
+string json = JsonSerializer.Serialize(user, AppJsonContext.Default.User);
+User user = JsonSerializer.Deserialize(json, AppJsonContext.Default.User)!;
+
+// Or configure options with the context
 var options = new JsonSerializerOptions
 {
-    AllowDuplicateProperties = false
+    TypeInfoResolver = AppJsonContext.Default
 };
+string json = JsonSerializer.Serialize(user, options);
 ```
 
-## Using HttpClient Extension Methods
+**Benefits:**
 
-`HttpClient` extension methods simplify JSON API consumption by combining HTTP requests with JSON deserialization in a single operation. This reduces boilerplate and applies consistent serialization settings across all HTTP operations.
+- **1.3-5x faster** than reflection-based serialization
+- **50-90% less memory** allocation during serialization
+- **Native AOT compatible** - enables ahead-of-time compilation
+- **Trim-friendly** - unused types are removed from published output
+- **Compile-time errors** - catches missing type registrations at build time
 
-```csharp
-// GET request with JSON deserialization
-var user = await httpClient.GetFromJsonAsync<User>("https://api.example.com/users/123");
+**When to use source generation:**
 
-// POST request with JSON serialization
-var response = await httpClient.PostAsJsonAsync("https://api.example.com/users", newUser);
+- ASP.NET Core web APIs (production deployments)
+- Native AOT applications
+- High-throughput services (>1000 req/sec)
+- Real-time APIs with latency requirements
+- Microservices optimizing cold start time
+- Applications with strict memory budgets
 
-// Custom options for specific requests
-var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-var data = await httpClient.GetFromJsonAsync<WeatherForecast>(url, options);
-```
+**When reflection is acceptable:**
 
-These extension methods integrate with source generation when configured at the `HttpClient` level through dependency injection, applying performance benefits automatically.
+- Development and prototyping
+- Low-traffic applications
+- Administrative tools and CLI apps
+- Unit tests and integration tests
+- Applications where startup time doesn't matter
 
-## Stream Processing
+**ASP.NET Core integration:**
 
-Deserialize large JSON arrays incrementally without loading entire documents into memory. Supports `PipeReader` for high-performance pipeline scenarios.
-
-```csharp
-// Process large JSON files without loading entire content
-await using var stream = File.OpenRead("products.json");
-var products = JsonSerializer.DeserializeAsyncEnumerable<Product>(stream);
-
-await foreach (var product in products)
-{
-    Console.WriteLine($"{product.Name}: ${product.Price}");
-}
-
-// PipeReader support for high-performance scenarios
-Product product = await JsonSerializer.DeserializeAsync<Product>(pipeReader);
-```
-
-## DOM Manipulation with JsonNode
-
-Parse and modify JSON dynamically when structure is unknown at compile time. Provides mutable document object model for building and transforming JSON.
+Configure source generation globally for all API responses:
 
 ```csharp
-// Parse JSON into mutable DOM
-JsonNode data = JsonNode.Parse(jsonString);
-
-// Read values
-string name = data["name"].GetValue<string>();
-int count = data["items"]["count"].GetValue<int>();
-
-// Modify values
-data["status"] = "updated";
-data["items"]["count"] = 42;
-
-// Serialize back to JSON
-string updatedJson = data.ToJsonString();
-```
-
-## Document Reading with JsonDocument
-
-Parse JSON into read-only document object model for efficient navigation and value extraction. Offers better performance than `JsonNode` for read-only scenarios.
-
-```csharp
-// Parse JSON into read-only DOM
-using JsonDocument doc = JsonDocument.Parse(jsonString);
-JsonElement root = doc.RootElement;
-
-// Navigate and read values
-string id = root.GetProperty("id").GetString();
-JsonElement items = root.GetProperty("items");
-
-foreach (JsonElement item in items.EnumerateArray())
-{
-    string itemName = item.GetProperty("name").GetString();
-}
-```
-
-## Using with ASP.NET Core
-
-Web APIs benefit significantly from source generation because response types are known at compile time. Source generation eliminates reflection overhead, reduces memory allocation, and enables Native AOT compilation for faster startup and lower memory footprint.
-
-Use source generation when building ASP.NET Core APIs with predictable response models. Define a `JsonSerializerContext` with all types the API will serialize, then configure the application to use that context. This approach provides the best performance while maintaining clean, readable code.
-
-```csharp
-[JsonSerializable(typeof(ApiResponse))]
-[JsonSerializable(typeof(List<User>))]
-[JsonSerializable(typeof(ErrorDetails))]
-internal partial class ApiContext : JsonSerializerContext { }
-
-// In Program.cs or Startup
+// In Program.cs
 services.ConfigureHttpJsonOptions(options =>
 {
-    options.SerializerOptions.TypeInfoResolver = ApiContext.Default;
+    options.SerializerOptions.TypeInfoResolver = AppJsonContext.Default;
 });
 
-// Controller methods automatically use source generation
-[HttpGet("/users")]
-public ActionResult<List<User>> GetUsers()
+// Controllers automatically use source generation
+[HttpGet("/users/{id}")]
+public ActionResult<User> GetUser(int id)
 {
-    return userService.GetAllUsers();
+    return userService.GetUser(id);
 }
 ```
 
-This pattern works seamlessly with ASP.NET Core's built-in JSON handling. The framework automatically uses the configured context for all API responses, applying source generation benefits across the entire application without changing controller code.
+**See:** [System.Text.Json Source Generation documentation](../system-text-json-source-generation/golden-reference.md)
 
-## Using with Configuration Files
+## ASP.NET Core Integration
 
-Configuration files require strict parsing to catch errors early and prevent runtime failures from malformed data. The strict serialization mode rejects common issues like duplicate properties, comments, and trailing commas that might indicate configuration problems.
+ASP.NET Core uses System.Text.Json as the default serializer for web APIs, Minimal APIs, and MVC. Source generation provides significant performance improvements for API responses since response types are known at compile time.
 
-Use `JsonSerializerOptions.Strict` when deserializing application configuration, feature flags, or deployment manifests. This catches configuration errors at load time rather than allowing invalid data to propagate through the application.
+**Configure globally:**
 
 ```csharp
-// Load configuration with strict validation
+// In Program.cs - applies to all API responses
+services.ConfigureHttpJsonOptions(options =>
+{
+    options.SerializerOptions.TypeInfoResolver = AppJsonContext.Default;
+    options.SerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+});
+```
+
+**Define serialization context:**
+
+```csharp
+[JsonSerializable(typeof(User))]
+[JsonSerializable(typeof(List<Product>))]
+[JsonSerializable(typeof(ApiResponse))]
+[JsonSerializable(typeof(ErrorDetails))]
+internal partial class AppJsonContext : JsonSerializerContext { }
+```
+
+**Controllers automatically use configuration:**
+
+```csharp
+[ApiController]
+[Route("api/[controller]")]
+public class UsersController : ControllerBase
+{
+    // Return type uses source generation automatically
+    [HttpGet("{id}")]
+    public ActionResult<User> GetUser(int id)
+    {
+        return userService.GetUser(id);
+    }
+
+    // Request body deserialization uses source generation
+    [HttpPost]
+    public ActionResult<User> CreateUser(User user)
+    {
+        return userService.Create(user);
+    }
+}
+```
+
+**Minimal APIs:**
+
+```csharp
+app.MapGet("/users/{id}", (int id, IUserService users) =>
+    Results.Ok(users.GetUser(id)));
+
+app.MapPost("/users", (User user, IUserService users) =>
+    Results.Created($"/users/{user.Id}", users.Create(user)));
+```
+
+Both controller and Minimal API endpoints automatically benefit from source generation configuration without code changes.
+
+**Web defaults:**
+
+Use `JsonSerializerOptions.Web` to match ASP.NET Core conventions outside of web API context:
+
+```csharp
+// Apply web conventions (camelCase, case-insensitive)
+string json = JsonSerializer.Serialize(data, JsonSerializerOptions.Web);
+```
+
+## HttpClient Extensions
+
+HttpClient JSON extension methods combine HTTP requests with JSON serialization/deserialization, reducing boilerplate for API calls. They support source generation when configured with `JsonSerializerOptions`.
+
+**Basic usage:**
+
+```csharp
+// GET with deserialization
+var user = await httpClient.GetFromJsonAsync<User>("https://api.example.com/users/123");
+
+// POST with serialization
+var response = await httpClient.PostAsJsonAsync("https://api.example.com/users", newUser);
+
+// PUT with serialization
+await httpClient.PutAsJsonAsync("https://api.example.com/users/123", updatedUser);
+
+// PATCH with serialization
+await httpClient.PatchAsJsonAsync("https://api.example.com/users/123", partialUpdate);
+```
+
+**With source generation:**
+
+```csharp
+// Configure HttpClient with source generation context
+services.AddHttpClient("ApiClient", client =>
+{
+    client.BaseAddress = new Uri("https://api.example.com");
+})
+.AddJsonHttpMessageConverter(options =>
+{
+    options.SerializerOptions.TypeInfoResolver = AppJsonContext.Default;
+});
+
+// Extension methods use source generation automatically
+var users = await httpClient.GetFromJsonAsync<List<User>>("/users");
+```
+
+**Per-request options:**
+
+```csharp
+var options = new JsonSerializerOptions 
+{ 
+    PropertyNameCaseInsensitive = true,
+    TypeInfoResolver = AppJsonContext.Default
+};
+
+var data = await httpClient.GetFromJsonAsync<Data>("/data", options);
+```
+
+**Direct JsonTypeInfo for compile-time safety:**
+
+```csharp
+// Type mismatch caught at compile time
+var user = await httpClient.GetFromJsonAsync(
+    "https://api.example.com/users/123",
+    AppJsonContext.Default.User);
+```
+
+## Configuration Files
+
+Configuration files require strict validation to catch malformed JSON early. Use `JsonSerializerOptions.Strict` when loading application configuration to reject common errors.
+
+**Strict mode validation:**
+
+```csharp
 var options = JsonSerializerOptions.Strict;
 AppConfig config;
 
@@ -254,25 +447,44 @@ try
 }
 catch (JsonException ex)
 {
-    // Handle malformed configuration
     logger.LogError(ex, "Invalid configuration file");
     throw;
 }
-
-// Configuration is guaranteed to be well-formed
-database.ConnectionString = config.Database.ConnectionString;
 ```
 
-Additional validation can be layered on top of deserialization through validators or required properties, but strict mode provides the first line of defense against common JSON issues.
+**What strict mode rejects:**
 
-## Using with Large File Streaming
+- Duplicate property names
+- Trailing commas in arrays/objects
+- Comments (`// ...` or `/* ... */`)
+- Leading/trailing whitespace inconsistencies
 
-Processing large JSON arrays without loading the entire file into memory prevents out-of-memory exceptions and reduces garbage collection pressure. The async enumerable API deserializes one item at a time, enabling processing of multi-gigabyte JSON files with minimal memory overhead.
-
-Use `DeserializeAsyncEnumerable<T>()` when processing large JSON arrays from files, network streams, or HTTP responses. This pattern works well for batch processing, ETL pipelines, and data migration scenarios.
+**Configuration model:**
 
 ```csharp
-// Process large JSON array incrementally
+public class AppConfig
+{
+    public DatabaseConfig Database { get; set; } = new();
+    public LoggingConfig Logging { get; set; } = new();
+    public required string Environment { get; set; }
+}
+
+public class DatabaseConfig
+{
+    public required string ConnectionString { get; set; }
+    public int MaxConnections { get; set; } = 100;
+}
+```
+
+Strict validation provides the first line of defense against configuration errors. Layer additional validation (required properties, value ranges) on top of JSON deserialization.
+
+## Large File Streaming
+
+Process large JSON arrays without loading entire files into memory using `DeserializeAsyncEnumerable<T>()`. This enables constant memory usage regardless of file size.
+
+**Streaming arrays:**
+
+```csharp
 await using var stream = File.OpenRead("large-dataset.json");
 var items = JsonSerializer.DeserializeAsyncEnumerable<DataItem>(stream);
 
@@ -289,282 +501,425 @@ await foreach (var item in items)
 }
 ```
 
-For extremely high-performance scenarios with custom data pipelines, `PipeReader` support provides zero-copy deserialization directly from network sockets or other streaming sources:
+**When to use streaming:**
+
+- JSON files larger than 100MB
+- Arrays with thousands of items
+- ETL and data migration pipelines
+- Batch processing scenarios
+- Memory-constrained environments
+
+**PipeReader integration:**
+
+For maximum performance with custom data pipelines:
 
 ```csharp
-// High-performance pipeline deserialization
 var reader = PipeReader.Create(networkStream);
-MyObject obj = await JsonSerializer.DeserializeAsync<MyObject>(reader);
+var obj = await JsonSerializer.DeserializeAsync<MyObject>(reader);
 ```
 
-## Document Object Model Navigation
+Streaming works with source generation for optimal performance on each deserialized item.
 
-When JSON structure is unknown at compile time or varies between requests, DOM-based approaches provide flexibility that strongly-typed deserialization cannot. `JsonNode` enables reading and modifying JSON dynamically, while `JsonDocument` offers read-only access with minimal allocation.
+## Performance Optimization
 
-Use `JsonNode` when you need to modify JSON structure, merge documents, or build JSON programmatically without defining types. This is common in middleware, proxy services, or applications that aggregate JSON from multiple sources.
+System.Text.Json is designed for high performance, but specific patterns unlock maximum throughput and minimal allocation.
+
+**Use source generation in production:**
+
+Source generation provides 1.3-5x speedup over reflection and 50-90% reduction in memory allocation. Always use it for production web APIs and high-throughput services.
 
 ```csharp
-// Modify JSON structure dynamically
-JsonNode config = JsonNode.Parse(configJson);
+// Define once
+[JsonSerializable(typeof(ApiResponse))]
+partial class AppContext : JsonSerializerContext { }
 
-// Add new properties
-config["environment"] = "production";
-config["timestamp"] = DateTime.UtcNow.ToString("O");
+// Use everywhere
+string json = JsonSerializer.Serialize(response, AppContext.Default.ApiResponse);
+```
 
-// Merge configuration from another source
-JsonNode overrides = JsonNode.Parse(overrideJson);
-foreach (var prop in overrides.AsObject())
+**Prefer UTF-8 operations:**
+
+Avoid string encoding overhead by working directly with UTF-8 bytes:
+
+```csharp
+// Faster - no string encoding
+byte[] utf8Json = JsonSerializer.SerializeToUtf8Bytes(data, AppContext.Default.Data);
+
+// Slower - must encode string to UTF-8
+string json = JsonSerializer.Serialize(data);
+byte[] utf8 = Encoding.UTF8.GetBytes(json);
+```
+
+**Reuse JsonSerializerOptions:**
+
+Creating `JsonSerializerOptions` on each call adds overhead. Reuse instances:
+
+```csharp
+// Good - reuse options
+private static readonly JsonSerializerOptions _options = new()
 {
-    config[prop.Key] = prop.Value?.DeepClone();
+    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+};
+
+string json = JsonSerializer.Serialize(data, _options);
+
+// Bad - creates new options every time
+string json = JsonSerializer.Serialize(data, new JsonSerializerOptions 
+{ 
+    PropertyNamingPolicy = JsonNamingPolicy.CamelCase 
+});
+```
+
+**Choose the right API for the job:**
+
+| Scenario | Best API | Why |
+|----------|----------|-----|
+| Known types | `JsonSerializer<T>` + source gen | Fastest, type-safe |
+| Read-only dynamic | `JsonDocument` | Minimal allocation |
+| Mutable dynamic | `JsonNode` | Only when modification needed |
+| Large arrays | `DeserializeAsyncEnumerable<T>` | Constant memory |
+| Custom logic | `Utf8JsonReader`/`Writer` | Zero allocation |
+
+**Stream large files:**
+
+Don't load entire files into memory:
+
+```csharp
+// Good - streams data
+await using var stream = File.OpenRead("data.json");
+var data = await JsonSerializer.DeserializeAsync<Data>(stream);
+
+// Bad - loads entire file
+string json = await File.ReadAllTextAsync("data.json");
+var data = JsonSerializer.Deserialize<Data>(json);
+```
+
+**Benchmark your scenarios:**
+
+Different JSON structures and access patterns affect performance differently. Use BenchmarkDotNet to measure your specific use cases.
+
+## Security Considerations
+
+System.Text.Json includes security hardening for processing untrusted JSON. Understanding these protections helps prevent security vulnerabilities.
+
+**Depth limits prevent stack overflow:**
+
+Default maximum depth is 64 levels to prevent deeply nested JSON from causing stack overflow attacks:
+
+```csharp
+// Default depth limit (64)
+var data = JsonSerializer.Deserialize<Data>(json);
+
+// Custom depth for trusted sources only
+var options = new JsonSerializerOptions { MaxDepth = 128 };
+var data = JsonSerializer.Deserialize<Data>(json, options);
+```
+
+Only increase depth limits when processing trusted JSON from known sources.
+
+**Source generation prevents unexpected type loading:**
+
+Reflection-based deserialization can potentially instantiate unexpected types. Source generation resolves all types at compile time:
+
+```csharp
+// Source generation - types known at compile time
+var data = JsonSerializer.Deserialize(json, AppContext.Default.Data);
+
+// Reflection - types discovered at runtime
+var data = JsonSerializer.Deserialize<Data>(json);
+```
+
+For untrusted JSON, source generation provides stronger security guarantees.
+
+**No built-in size limits:**
+
+System.Text.Json doesn't limit JSON size. For untrusted input, enforce size limits before deserialization:
+
+```csharp
+// Enforce size limit at stream level
+const int maxSize = 1024 * 1024; // 1MB
+using var limitedStream = new LimitedStream(networkStream, maxSize);
+var data = await JsonSerializer.DeserializeAsync<Data>(limitedStream);
+```
+
+**Type safety with known schemas:**
+
+When possible, use strongly-typed deserialization instead of DOM APIs. This prevents processing of unexpected data structures:
+
+```csharp
+// Good - validates against schema
+public record ExpectedData(string Id, int Value);
+var data = JsonSerializer.Deserialize<ExpectedData>(json);
+
+// Less safe - accepts any structure
+JsonNode node = JsonNode.Parse(json);
+```
+
+**Validate after deserialization:**
+
+Deserialization only validates JSON syntax. Add business logic validation:
+
+```csharp
+var user = JsonSerializer.Deserialize<User>(json)
+    ?? throw new InvalidDataException("Null user");
+
+if (string.IsNullOrWhiteSpace(user.Email))
+    throw new ValidationException("Email required");
+
+if (user.Age < 0 || user.Age > 150)
+    throw new ValidationException("Invalid age");
+```
+
+## Customization
+
+JsonSerializer behavior can be customized through `JsonSerializerOptions` and custom converters.
+
+**Common customizations:**
+
+```csharp
+var options = new JsonSerializerOptions
+{
+    // Property naming
+    PropertyNamingPolicy = JsonNamingPolicy.CamelCase,        // camelCase
+    PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,   // snake_case
+    PropertyNamingPolicy = JsonNamingPolicy.KebabCaseLower,   // kebab-case
+    
+    // Null handling
+    DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+    
+    // Formatting
+    WriteIndented = true,
+    
+    // Case sensitivity
+    PropertyNameCaseInsensitive = true,
+    
+    // Numbers as strings
+    NumberHandling = JsonNumberHandling.AllowReadingFromString,
+    
+    // Enum handling
+    Converters = { new JsonStringEnumConverter() },
+    
+    // Unknown properties
+    UnmappedMemberHandling = JsonUnmappedMemberHandling.Disallow
+};
+```
+
+**Custom converters:**
+
+Implement custom serialization logic for specific types:
+
+```csharp
+public class DateOnlyConverter : JsonConverter<DateOnly>
+{
+    public override DateOnly Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+        => DateOnly.Parse(reader.GetString()!);
+
+    public override void Write(Utf8JsonWriter writer, DateOnly value, JsonSerializerOptions options)
+        => writer.WriteStringValue(value.ToString("yyyy-MM-dd"));
 }
 
-// Serialize modified JSON
-string mergedConfig = config.ToJsonString(new JsonSerializerOptions { WriteIndented = true });
+// Register converter
+var options = new JsonSerializerOptions
+{
+    Converters = { new DateOnlyConverter() }
+};
 ```
 
-Use `JsonDocument` for read-only access to dynamic JSON when you need to extract specific values without deserializing the entire structure. `JsonDocument` is allocation-efficient and well-suited for filtering, routing, or extracting metadata from JSON payloads.
+**Attributes:**
+
+Control serialization with attributes on types and properties:
 
 ```csharp
-// Extract metadata without full deserialization
+public class User
+{
+    [JsonPropertyName("user_id")]
+    public int Id { get; set; }
+    
+    [JsonIgnore]
+    public string InternalField { get; set; }
+    
+    [JsonRequired]
+    public required string Email { get; set; }
+    
+    [JsonPropertyOrder(1)]
+    public string Name { get; set; }
+}
+```
+
+See [JsonSerializer documentation](../system-text-json-jsonserializer/golden-reference.md) for comprehensive customization options.
+
+## Installation and Setup
+
+System.Text.Json is included with the .NET runtime. Most projects require no explicit package reference.
+
+**Default (no package needed):**
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <!-- System.Text.Json included in-box -->
+</Project>
+```
+
+The in-box version matches your target framework (.NET 8 → System.Text.Json 8.x, .NET 9 → System.Text.Json 9.x).
+
+**When to add PackageReference:**
+
+Add an explicit package only to use newer library features than your target framework provides:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Use System.Text.Json 9.0 features on .NET 8 -->
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+  </ItemGroup>
+</Project>
+```
+
+**Package pruning (SDK 10+):**
+
+.NET 10 SDK and later show warning NU1510 when adding a PackageReference for the same or lower major version already in-box:
+
+```xml
+<!-- This triggers NU1510 on .NET 10+ SDK -->
+<PackageReference Include="System.Text.Json" Version="9.0.0" />
+```
+
+The warning indicates the reference is redundant and prevents applications from being incorrectly flagged for security vulnerabilities resolved by runtime updates.
+
+**Version selection guidance:**
+- **Most applications:** No PackageReference (use in-box version)
+- **Early feature adoption:** Add PackageReference for preview features
+- **LTS apps:** Add PackageReference for backported fixes while staying on LTS runtime
+- **Cross-targeting libraries:** Consider PackageReference for consistent behavior
+
+## Common Patterns
+
+**AI structured responses (Microsoft.Extensions.AI):**
+
+```csharp
+[JsonSerializable(typeof(WeatherForecast))]
+partial class AppContext : JsonSerializerContext { }
+
+IChatClient client = GetChatClient();
+var response = await client.GetResponseAsync<WeatherForecast>(
+    "What's the weather in Seattle?",
+    serializerOptions: AppContext.Default.Options);
+```
+
+**Generic methods with source generation:**
+
+```csharp
+// Direct JsonTypeInfo<T> (compile-time type safety)
+var data = await httpClient.GetFromJsonAsync(
+    "https://api.example.com/data",
+    AppJsonContext.Default.DataType);
+
+// Via options (more flexible)
+var options = new JsonSerializerOptions 
+{ 
+    TypeInfoResolver = AppJsonContext.Default 
+};
+var data = await httpClient.GetFromJsonAsync<DataType>(url, options);
+```
+
+**Dynamic JSON routing:**
+
+```csharp
+// Read event type without full deserialization
 using JsonDocument doc = JsonDocument.Parse(webhookPayload);
-JsonElement root = doc.RootElement;
+string eventType = doc.RootElement.GetProperty("event_type").GetString()!;
 
-string eventType = root.GetProperty("event_type").GetString();
-string timestamp = root.GetProperty("timestamp").GetString();
-
-// Route based on event type
+// Route and deserialize only relevant portion
 if (eventType == "order.created")
 {
-    // Deserialize only relevant portion
-    JsonElement orderData = root.GetProperty("data");
-    Order order = JsonSerializer.Deserialize<Order>(orderData.GetRawText());
+    var orderData = doc.RootElement.GetProperty("data");
+    Order order = JsonSerializer.Deserialize<Order>(orderData.GetRawText())!;
     await ProcessOrder(order);
 }
 ```
 
-For scenarios requiring both reading and writing, `JsonNode` provides more flexibility. For read-only scenarios, `JsonDocument` offers better performance. Neither approach benefits from source generation since types are resolved at runtime.
-
-## Enabling Source Generation with Generic Methods
-
-Generic methods that serialize or deserialize JSON require explicit type information when using source generation. The simplest pattern passes `JsonTypeInfo<T>` directly as a parameter, providing compile-time type safety and AOT compatibility without reflection.
-
-`HttpClient` JSON extensions demonstrate this pattern. The `GetFromJsonAsync` method takes a `JsonTypeInfo<T>` that is required to match the generic type parameter by the compiler.
+**Config merging:**
 
 ```csharp
-// Define response model and source generation context
-public class WeatherForecast
+JsonNode baseConfig = JsonNode.Parse(baseConfigJson)!;
+JsonNode overrides = JsonNode.Parse(overrideJson)!;
+
+foreach (var prop in overrides.AsObject())
 {
-    public string Location { get; set; } = string.Empty;
-    public int Temperature { get; set; }
-    public string Conditions { get; set; } = string.Empty;
+    baseConfig[prop.Key] = prop.Value?.DeepClone();
 }
 
-[JsonSerializable(typeof(WeatherForecast))]
-[JsonSerializable(typeof(User))]
-internal partial class AppJsonContext : JsonSerializerContext { }
-
-// Direct JsonTypeInfo<T> parameter provides compile-time type checking
-WeatherForecast forecast = await httpClient.GetFromJsonAsync(
-    "https://api.example.com/weather/seattle",
-    AppJsonContext.Default.WeatherForecast);
-
-// Compiler enforces type matching
-User user = await httpClient.GetFromJsonAsync(
-    "https://api.example.com/user/123",
-    AppJsonContext.Default.User);
-
-// Compiler error - type mismatch caught at compile time
-// WeatherForecast forecast = await httpClient.GetFromJsonAsync(
-//     "https://api.example.com/weather/seattle",
-//     AppJsonContext.Default.User); // error CS0029: Cannot implicitly convert type 'User' to 'WeatherForecast'
+string merged = baseConfig.ToJsonString();
 ```
 
-For scenarios requiring more flexibility, `HttpClient` methods also accept `JsonSerializerOptions` configured with a source generation context. The method retrieves `JsonTypeInfo<T>` internally by calling `GetTypeInfo(typeof(T))` on the options:
+## Migration from Newtonsoft.Json
 
+Key differences when migrating from Newtonsoft.Json:
+
+**Namespace changes:**
 ```csharp
-// Configure options with source generation context
-var options = new JsonSerializerOptions
-{
-    TypeInfoResolver = AppJsonContext.Default
-};
+// Old
+using Newtonsoft.Json;
 
-// HttpClient uses options to retrieve type information internally
-WeatherForecast forecast = await httpClient.GetFromJsonAsync<WeatherForecast>(
-    "https://api.example.com/weather/seattle",
-    options);
-
-User user = await httpClient.GetFromJsonAsync<User>(
-    "https://api.example.com/user/123",
-    options);
+// New
+using System.Text.Json;
 ```
 
-Both patterns enable AOT compatibility and eliminate reflection overhead. Direct `JsonTypeInfo<T>` provides stronger compile-time guarantees with type matching verified by the compiler. `JsonSerializerOptions` offers flexibility when the same configuration applies across multiple types, allowing one shared options instance for all serialization operations.
-
-## Using Source Generation with Structured Chat Responses
-
-Chat models can return structured JSON responses that deserialize into strongly-typed .NET objects. `Microsoft.Extensions.AI` provides source generation support for this pattern, enabling type-safe chat responses with full AOT compatibility.
-
-The `GetResponseAsync<T>()` method accepts `JsonSerializerOptions` configured with source generation, allowing chat responses to deserialize into domain models without reflection. This approach combines chat capabilities with type safety and performance.
-
+**API changes:**
 ```csharp
-// Define response model and source generation context
-public class WeatherForecast
-{
-    public string Location { get; set; } = string.Empty;
-    public int Temperature { get; set; }
-    public string Conditions { get; set; } = string.Empty;
-}
+// Old
+string json = JsonConvert.SerializeObject(obj);
+var obj = JsonConvert.DeserializeObject<MyType>(json);
 
-[JsonSerializable(typeof(WeatherForecast))]
-internal partial class AppJsonContext : JsonSerializerContext { }
-
-// Request structured output from AI
-IChatClient client = GetChatClient();
-
-var response = await client.GetResponseAsync<WeatherForecast>(
-    "What's the weather in Seattle?",
-    serializerOptions: AppJsonContext.Default.Options);
-
-// Response is strongly typed
-Console.WriteLine($"Location: {response.Result.Location}");
-Console.WriteLine($"Temperature: {response.Result.Temperature}°F");
-Console.WriteLine($"Conditions: {response.Result.Conditions}");
+// New
+string json = JsonSerializer.Serialize(obj);
+var obj = JsonSerializer.Deserialize<MyType>(json);
 ```
 
-When working with multiple AI response types, register them all in the source generation context:
-
+**Attribute changes:**
 ```csharp
-[JsonSerializable(typeof(WeatherForecast))]
-[JsonSerializable(typeof(ProductRecommendation))]
-[JsonSerializable(typeof(List<SearchResult>))]
-internal partial class AppJsonContext : JsonSerializerContext { }
+// Old
+[JsonProperty("user_name")]
+public string UserName { get; set; }
 
-// All types work with the same context
-var weather = await client.GetResponseAsync<WeatherForecast>(
-    "Weather in Toronto?",
-    serializerOptions: AppJsonContext.Default.Options);
-
-var products = await client.GetResponseAsync<List<SearchResult>>(
-    "Find relevant products for camping",
-    serializerOptions: AppJsonContext.Default.Options);
+// New
+[JsonPropertyName("user_name")]
+public string UserName { get; set; }
 ```
 
-This pattern provides compile-time type generation for chat responses, eliminating reflection overhead and enabling Native AOT deployment. The chat model generates JSON matching your schema, and source generation handles deserialization efficiently. Applications using chat features benefit from the same performance optimizations as traditional JSON APIs.
+**Key behavioral differences:**
+- DateTime uses ISO 8601 by default
+- No `ISerializable` support
+- Requires `[JsonConstructor]` for parameterized constructors
+- Polymorphism requires `[JsonDerivedType]` attributes
+- Custom converters have different implementation
 
-## Adding System.Text.Json to a project
-
-`System.Text.Json` is included with the .NET runtime and requires no explicit package reference in most scenarios. The library version matches your target framework, providing the appropriate feature set automatically.
-
-**Default behavior - no PackageReference needed:**
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-  </PropertyGroup>
-  <!-- No PackageReference needed - System.Text.Json included in-box -->
-</Project>
-```
-
-When targeting .NET 8, the in-box version provides all System.Text.Json 8.x features. When targeting .NET 9, you automatically get System.Text.Json 9.x features. This ensures version alignment between runtime and library capabilities.
-
-**When to add a PackageReference:**
-
-Add an explicit package reference only when you need newer library features than your target framework provides. This scenario occurs when using newer major version features on older frameworks:
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-  </PropertyGroup>
-  <ItemGroup>
-    <!-- Use System.Text.Json 9.0 features in a .NET 8 application -->
-    <PackageReference Include="System.Text.Json" Version="9.0.0" />
-  </ItemGroup>
-</Project>
-```
-
-This allows accessing new APIs and features from System.Text.Json 9.0 while running on the .NET 8 runtime. The NuGet package overrides the in-box version, providing the newer implementation.
-
-**Version selection guidance:**
-
-- **Most applications**: No PackageReference - use in-box version
-- **Early adopters**: Add PackageReference to use preview features before runtime upgrade
-- **Long-term support apps**: Add PackageReference to get bug fixes and performance improvements while staying on LTS runtime
-- **Cross-targeting libraries**: Consider adding PackageReference with appropriate version for consistent behavior across target frameworks
-
-### Package Pruning Behavior
-
-When using .NET 10 SDK (or later), adding a PackageReference to System.Text.Json with the same or lower major version [triggers a NU1510 warning](https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/nu1510-pruned-references) because the package is already included in-box:
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-  </PropertyGroup>
-  <ItemGroup>
-    <!-- This triggers NU1510 warning on .NET 10+ -->
-    <PackageReference Include="System.Text.Json" Version="9.0.0" />
-  </ItemGroup>
-</Project>
-```
-
-A major motivation for pruning is to avoid an application being incorrectly flagged for a security vulnerability in a package that is resolved by updating the runtime.
-
-**Warning output:**
-
-```text
-warning NU1510: PackageReference System.Text.Json will not be pruned.
-Consider removing this package from your dependencies, as it is likely unnecessary.
-```
-
-This warning indicates the PackageReference is redundant and can be removed.
-
-## Considerations
-
-### Serialization Differences and Migration
-
-`System.Text.Json` differs from `Newtonsoft.Json` in several key ways. It does not support `ISerializable` and requires `JsonConverter<T>` implementations for custom serialization logic. Types must have a parameterless constructor or use `[JsonConstructor]` to specify which constructor to use during deserialization.
-
-`DateTime` serialization uses ISO 8601 format by default, which differs from `Newtonsoft.Json`'s default format. Applications expecting specific date formats need custom converters or options configuration.
-
-Polymorphic serialization requires explicit type discriminators through `[JsonDerivedType]` attributes or custom converters. `System.Text.Json` does not infer type hierarchies automatically.
-
-When migrating from `Newtonsoft.Json`, expect to change namespaces from `using Newtonsoft.Json` to `using System.Text.Json`, replace `[JsonProperty]` attributes with `[JsonPropertyName]`, and update method calls from `JsonConvert.SerializeObject()` to `JsonSerializer.Serialize()`. Applications with complex polymorphic serialization or extensive custom converters require the most migration effort, as converter implementations differ significantly between the two libraries.
-
-### Performance Optimization
-
-Source generation provides the best performance for known types. Always use source generation in performance-critical code paths, especially for web APIs, real-time systems, and high-throughput services.
-
-UTF-8 operations through `JsonSerializer.SerializeToUtf8Bytes()` and `JsonSerializer.DeserializeFromUtf8Bytes()` avoid string encoding overhead when working with UTF-8 data sources. This matters most for web APIs where UTF-8 is the standard encoding.
-
-Reuse `JsonSerializerOptions` instances across serialization operations. Creating new options instances on each call adds unnecessary overhead from defaults resolution and configuration copying.
-
-For large JSON documents, streaming APIs prevent loading entire documents into memory. Use `JsonSerializer.DeserializeAsyncEnumerable<T>()` for arrays and consider implementing custom streaming logic for complex document structures.
-
-### Security Constraints
-
-Default maximum nesting depth is 64 levels to prevent stack overflow attacks from deeply nested JSON. Adjust through `JsonSerializerOptions.MaxDepth` only when processing trusted JSON sources.
-
-`System.Text.Json` provides no built-in memory consumption limits. For untrusted JSON, implement size limits at the stream level before deserialization.
-
-Source generation prevents unexpected type loading by resolving all types at compile time. This provides stronger security guarantees than reflection-based deserialization for applications processing untrusted JSON.
+See [Migration from Newtonsoft.Json guide](../system-text-json-migrate-from-newtonsoft/golden-reference.md) for comprehensive details.
 
 ## Related Concepts
 
-**Used by System.Text.Json:**
+**System.Text.Json uses:**
+- Source Generators - Enable compile-time `JsonSerializerContext` generation
+- `Span<T>` and `Memory<T>` - High-performance UTF-8 processing primitives
+- `PipeReader`/`PipeWriter` - Zero-copy I/O for streaming scenarios
 
-- Source Generators (enables `JsonSerializerContext`)
-- `Span<T>` and `Memory<T>` (high-performance UTF-8 processing)
+**System.Text.Json is used by:**
+- ASP.NET Core - Default serializer for web APIs, MVC, and Minimal APIs
+- HttpClient - JSON extension methods (`GetFromJsonAsync`, `PostAsJsonAsync`)
+- Configuration system - Parsing `appsettings.json` and config files
+- Microsoft.Extensions.AI - Structured chat responses deserialization
 
-**Uses System.Text.Json:**
+**System.Text.Json enables:**
+- Native AOT deployment - Via source generation with no reflection
+- High-performance APIs - Minimal allocation and fast serialization
+- Trim-friendly applications - Unused types removed from published output
 
-- ASP.NET Core web APIs and MVC (default serializer)
-- HttpClient JSON extension methods (`GetFromJsonAsync`, `PostAsJsonAsync`)
-- Configuration system (parsing appsettings.json)
-- Minimal APIs (automatic response serialization)
-- Microsoft.Extensions.AI (structured chat responses)
-
-**Enabled by System.Text.Json:**
-
-- Native AOT deployment (via source generation)
+**Alternatives:**
+- Newtonsoft.Json - Feature-rich, established library with broader compatibility
+- DataContractJsonSerializer - Legacy .NET Framework serializer
