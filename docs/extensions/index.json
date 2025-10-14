@@ -52,7 +52,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13136320841712640308
+            "fingerprint": 13136320824532771124
           },
           "technical": {
             "name": "technical",
@@ -78,7 +78,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997269984866959672
+            "fingerprint": 12997129247378506040
           },
           "technical": {
             "name": "technical",
@@ -126,7 +126,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-10-08T22:51:50.7774427Z",
+    "generated": "2025-10-14T05:30:35.6482747Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

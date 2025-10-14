@@ -1,20 +1,20 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 234
-Total word occurrences: 420
-Total document words: 636
+Total unique words: 221
+Total word occurrences: 399
+Total document words: 634
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| ai | 32 | 0.0503 |
-| middleware | 11 | 0.0173 |
-| services | 10 | 0.0157 |
+| ai | 32 | 0.0505 |
+| services | 10 | 0.0158 |
+| middleware | 9 | 0.0142 |
 | net | 8 | 0.0126 |
-| caching | 6 | 0.0094 |
-| interfaces | 6 | 0.0094 |
-| patterns | 6 | 0.0094 |
-| extensions | 5 | 0.0079 |
+| caching | 6 | 0.0095 |
+| interfaces | 6 | 0.0095 |
+| patterns | 6 | 0.0095 |
+| service | 6 | 0.0095 |
 | like | 5 | 0.0079 |
 | microsoft | 5 | 0.0079 |
 | support | 5 | 0.0079 |
@@ -23,15 +23,13 @@ Total document words: 636
 | observability | 4 | 0.0063 |
 | provider | 4 | 0.0063 |
 | providers | 4 | 0.0063 |
-| service | 4 | 0.0063 |
 | without | 4 | 0.0063 |
 | allowing | 3 | 0.0047 |
 | architecture | 3 | 0.0047 |
 | capabilities | 3 | 0.0047 |
 | changes | 3 | 0.0047 |
-| chat | 3 | 0.0047 |
 | code | 3 | 0.0047 |
-| configuration | 3 | 0.0047 |
+| extensions | 3 | 0.0047 |
 | function | 3 | 0.0047 |
 | implement | 3 | 0.0047 |
 | opentelemetry | 3 | 0.0047 |
@@ -39,55 +37,53 @@ Total document words: 636
 | standard | 3 | 0.0047 |
 | telemetry | 3 | 0.0047 |
 | vs | 3 | 0.0047 |
-| abstraction | 2 | 0.0031 |
-| abstractions | 2 | 0.0031 |
-| adds | 2 | 0.0031 |
-| application | 2 | 0.0031 |
-| around | 2 | 0.0031 |
-| between | 2 | 0.0031 |
-| builder | 2 | 0.0031 |
-| built-in | 2 | 0.0031 |
-| calling | 2 | 0.0031 |
-| considerations | 2 | 0.0031 |
-| conventions | 2 | 0.0031 |
-| cross-provider | 2 | 0.0031 |
-| design | 2 | 0.0031 |
-| different | 2 | 0.0031 |
-| direct | 2 | 0.0031 |
-| ecosystem | 2 | 0.0031 |
-| enables | 2 | 0.0031 |
-| enabling | 2 | 0.0031 |
-| following | 2 | 0.0031 |
-| functions | 2 | 0.0031 |
-| implementing | 2 | 0.0031 |
-| independence | 2 | 0.0031 |
-| integrates | 2 | 0.0031 |
-| interact | 2 | 0.0031 |
-| interoperability | 2 | 0.0031 |
-| key | 2 | 0.0031 |
-| layer | 2 | 0.0031 |
-| libraries | 2 | 0.0031 |
-| limiting | 2 | 0.0031 |
-| method | 2 | 0.0031 |
-| multiple | 2 | 0.0031 |
-| preview | 2 | 0.0031 |
-| proper | 2 | 0.0031 |
-| rate | 2 | 0.0031 |
-| responses | 2 | 0.0031 |
-| seamlessly | 2 | 0.0031 |
-| semantic | 2 | 0.0031 |
-| standardized | 2 | 0.0031 |
-| strategy | 2 | 0.0031 |
-| streaming | 2 | 0.0031 |
-| strongly-typed | 2 | 0.0031 |
-| switch | 2 | 0.0031 |
-| systems | 2 | 0.0031 |
-| through | 2 | 0.0031 |
-| use | 2 | 0.0031 |
-| uses | 2 | 0.0031 |
-| using | 2 | 0.0031 |
-| utilities | 2 | 0.0031 |
-| while | 2 | 0.0031 |
+| abstraction | 2 | 0.0032 |
+| abstractions | 2 | 0.0032 |
+| adds | 2 | 0.0032 |
+| application | 2 | 0.0032 |
+| around | 2 | 0.0032 |
+| best | 2 | 0.0032 |
+| between | 2 | 0.0032 |
+| builder | 2 | 0.0032 |
+| built-in | 2 | 0.0032 |
+| calling | 2 | 0.0032 |
+| considerations | 2 | 0.0032 |
+| conventions | 2 | 0.0032 |
+| cross-provider | 2 | 0.0032 |
+| design | 2 | 0.0032 |
+| different | 2 | 0.0032 |
+| direct | 2 | 0.0032 |
+| ecosystem | 2 | 0.0032 |
+| enables | 2 | 0.0032 |
+| enabling | 2 | 0.0032 |
+| following | 2 | 0.0032 |
+| functions | 2 | 0.0032 |
+| implementing | 2 | 0.0032 |
+| independence | 2 | 0.0032 |
+| integrates | 2 | 0.0032 |
+| interact | 2 | 0.0032 |
+| interoperability | 2 | 0.0032 |
+| key | 2 | 0.0032 |
+| layer | 2 | 0.0032 |
+| libraries | 2 | 0.0032 |
+| limiting | 2 | 0.0032 |
+| method | 2 | 0.0032 |
+| practices | 2 | 0.0032 |
+| preview | 2 | 0.0032 |
+| proper | 2 | 0.0032 |
+| rate | 2 | 0.0032 |
+| seamlessly | 2 | 0.0032 |
+| semantic | 2 | 0.0032 |
+| standardized | 2 | 0.0032 |
+| strategy | 2 | 0.0032 |
+| strongly-typed | 2 | 0.0032 |
+| switch | 2 | 0.0032 |
+| systems | 2 | 0.0032 |
+| through | 2 | 0.0032 |
+| use | 2 | 0.0032 |
+| uses | 2 | 0.0032 |
+| utilities | 2 | 0.0032 |
+| while | 2 | 0.0032 |
 | across | 1 | 0.0016 |
 | adapters | 1 | 0.0016 |
 | add | 1 | 0.0016 |
@@ -95,8 +91,6 @@ Total document words: 636
 | against | 1 | 0.0016 |
 | ai-invoked | 1 | 0.0016 |
 | alternative | 1 | 0.0016 |
-| api | 1 | 0.0016 |
-| apis | 1 | 0.0016 |
 | approach | 1 | 0.0016 |
 | approaches | 1 | 0.0016 |
 | arbitrary | 1 | 0.0016 |
@@ -109,7 +103,6 @@ Total document words: 636
 | breaking | 1 | 0.0016 |
 | bridging | 1 | 0.0016 |
 | broader | 1 | 0.0016 |
-| building | 1 | 0.0016 |
 | built | 1 | 0.0016 |
 | business | 1 | 0.0016 |
 | call | 1 | 0.0016 |
@@ -120,7 +113,6 @@ Total document words: 636
 | chatclientbuilder | 1 | 0.0016 |
 | clear | 1 | 0.0016 |
 | client | 1 | 0.0016 |
-| common | 1 | 0.0016 |
 | completion | 1 | 0.0016 |
 | components | 1 | 0.0016 |
 | composable | 1 | 0.0016 |
@@ -171,7 +163,6 @@ Total document words: 636
 | implementations | 1 | 0.0016 |
 | injected | 1 | 0.0016 |
 | integrate | 1 | 0.0016 |
-| integration | 1 | 0.0016 |
 | intelligence | 1 | 0.0016 |
 | interactions | 1 | 0.0016 |
 | interface | 1 | 0.0016 |
@@ -201,7 +192,6 @@ Total document words: 636
 | provider-specific | 1 | 0.0016 |
 | providing | 1 | 0.0016 |
 | rather | 1 | 0.0016 |
-| reference | 1 | 0.0016 |
 | register | 1 | 0.0016 |
 | registered | 1 | 0.0016 |
 | registration | 1 | 0.0016 |
@@ -210,12 +200,10 @@ Total document words: 636
 | request | 1 | 0.0016 |
 | require | 1 | 0.0016 |
 | requiring | 1 | 0.0016 |
-| scenarios | 1 | 0.0016 |
 | sdks | 1 | 0.0016 |
 | seamless | 1 | 0.0016 |
 | security | 1 | 0.0016 |
 | sensitivity | 1 | 0.0016 |
-| serialization | 1 | 0.0016 |
 | set | 1 | 0.0016 |
 | settings | 1 | 0.0016 |
 | signatures | 1 | 0.0016 |
@@ -223,7 +211,6 @@ Total document words: 636
 | similarity | 1 | 0.0016 |
 | sits | 1 | 0.0016 |
 | standardize | 1 | 0.0016 |
-| structured | 1 | 0.0016 |
 | switching | 1 | 0.0016 |
 | technology | 1 | 0.0016 |
 | test | 1 | 0.0016 |

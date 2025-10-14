@@ -15,7 +15,7 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 13140259292497977722
+      "fingerprint": 13140259290350363000
     },
     "technical": {
       "name": "technical",
@@ -26,11 +26,11 @@
   "keywords": [
     {
       "name": "file-based apps",
-      "score": 13
+      "score": 14
     },
     {
       "name": "object initialization",
-      "score": 9
+      "score": 10
     },
     {
       "name": "anonymous types",
@@ -45,6 +45,10 @@
       "score": 7
     },
     {
+      "name": "collection initialization",
+      "score": 6
+    },
+    {
       "name": "file-based-programs",
       "score": 6
     },
@@ -57,19 +61,15 @@
       "score": 6
     },
     {
-      "name": "system.commandline",
+      "name": "json documents",
+      "score": 6
+    },
+    {
+      "name": "system.text.json.nodes",
       "score": 6
     },
     {
       "name": "microsoft.extensions.ai",
-      "score": 5
-    },
-    {
-      "name": "microsoft.extensions.ai.evaluation",
-      "score": 5
-    },
-    {
-      "name": "middleware composition",
       "score": 5
     }
   ],
@@ -198,12 +198,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12996144102274695986
+            "fingerprint": 3772209114392757042
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12991112669277651760
+            "fingerprint": 12990971914609426736
           }
         },
         "category": "C# Language",
@@ -229,7 +229,7 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995477800241332528
+            "fingerprint": 12995475601218077040
           }
         },
         "category": ".NET Platform",
@@ -276,7 +276,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634431451450
+            "fingerprint": 17752933634430959930
           },
           "technical": {
             "name": "technical",
@@ -298,7 +298,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-10-08T22:51:50.7670042Z",
+    "generated": "2025-10-14T05:30:35.6388508Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

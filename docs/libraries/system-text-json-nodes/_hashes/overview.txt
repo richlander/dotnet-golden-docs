@@ -1,0 +1,5 @@
+Title | System.Text.Json.Nodes
+TypeName | System.Text.Json.Nodes
+TypeName | System.Text.Json
+TypeName | Nodes
+Description | System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing developers to navigate, query, and modify JSON structures dynamically without needing to define concrete types. It includes JsonNode, JsonObject, JsonArray, and JsonValue classes that represent JSON structures in memory.

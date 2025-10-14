@@ -4,11 +4,11 @@ Keyword | assembly trimming
 Keyword | analysis
 Keyword | reduced
 Keyword | test
-Keyword | code
 Keyword | desktop applications
-Keyword | framework integration
 Keyword | library development
+Keyword | using assembly trimming
+Keyword | code
+Keyword | framework integration
 Keyword | deployment
 Keyword | build-time
-Keyword | disabled
 Description | Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. The trimmer performs build-time analysis to identify and eliminate code that is not statically reachable, significantly reducing deployment size while maintaining application functionality.

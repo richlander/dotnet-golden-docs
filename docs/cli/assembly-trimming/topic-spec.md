@@ -44,7 +44,7 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 15867871635841552429 |
-| overview | simhash | 13139696325230338417 |
+| overview | simhash | 13139697424741966193 |
 | technical | simhash | 3773366901076271484 |
 
 ## Relationships
@@ -62,17 +62,17 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | Keyword | Score |
 |---------|-------|
 | trimming | 8.00 |
-| assembly trimming | 2.00 |
+| assembly trimming | 3.00 |
 | analysis | 4.00 |
 | reduced | 4.00 |
 | test | 4.00 |
-| code | 7.00 |
 | desktop applications | 2.00 |
-| framework integration | 2.00 |
 | library development | 2.00 |
+| using assembly trimming | 2.00 |
+| code | 7.00 |
+| framework integration | 2.00 |
 | deployment | 4.00 |
 | build-time | 2.00 |
-| disabled | 3.00 |
 
 ## APIs
 
@@ -111,9 +111,9 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | csharp | csharp/csharp-14-features | 0.6853 |
 | libraries | libraries | 0.6762 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6727 |
-| libraries | libraries/system-text-json | 0.6477 |
-| libraries | libraries/system-text-json-source-generation | 0.6435 |
+| libraries | libraries/system-text-json-source-generation | 0.6463 |
+| libraries | libraries/system-text-json | 0.6421 |
+| libraries | libraries/system-commandline | 0.6317 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6136 |
 | csharp | csharp | 0.6079 |
-| extensions | extensions/microsoft-extensions-http-resilience | 0.6045 |
-| extensions | extensions/microsoft-extensions-ai | 0.5959 |
 

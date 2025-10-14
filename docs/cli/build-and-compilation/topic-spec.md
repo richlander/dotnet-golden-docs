@@ -43,8 +43,8 @@ Build and compilation encompasses the development-time workflow of transforming 
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 17751380007194919222 |
-| technical | simhash | 17751416359798309684 |
+| overview | simhash | 17751379938475704630 |
+| technical | simhash | 13139692957975577396 |
 
 ## Relationships
 
@@ -61,8 +61,8 @@ Build and compilation encompasses the development-time workflow of transforming 
 | Keyword | Score |
 |---------|-------|
 | build | 15.00 |
+| compilation | 5.00 |
 | build acceleration | 2.00 |
-| performance optimization | 2.00 |
 | custom build configurations | 2.00 |
 | dependency resolution | 2.00 |
 | msbuild integration | 2.00 |
@@ -71,7 +71,7 @@ Build and compilation encompasses the development-time workflow of transforming 
 | builds | 3.00 |
 | parallel | 3.00 |
 | workflows | 3.00 |
-| configuration | 5.00 |
+| performance optimization | 2.00 |
 
 ## Similarity Scores
 
@@ -86,7 +86,7 @@ Build and compilation encompasses the development-time workflow of transforming 
 | libraries | libraries/dotnet-10-library-improvements | 0.6622 |
 | csharp | csharp/csharp-14-features | 0.6456 |
 | csharp | csharp | 0.6385 |
-| libraries | libraries/system-text-json-source-generation | 0.6249 |
-| extensions | extensions/microsoft-extensions-http-resilience | 0.5987 |
-| extensions | extensions/microsoft-extensions-ai | 0.5919 |
+| libraries | libraries/system-text-json-source-generation | 0.6282 |
+| libraries | libraries/system-text-json | 0.6227 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6163 |
 

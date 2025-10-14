@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 34
+Total headers: 33
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 8 headers (multiplier: 1.25x)
-- **H3**: 25 headers (multiplier: 1.1x)
+- **H2**: 10 headers (multiplier: 1.25x)
+- **H3**: 22 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -25,10 +25,9 @@ Total headers: 34
 | H3 | Performance Spectrum | 1.1x |
 | H3 | Method Interoperability | 1.1x |
 | H3 | Complementary APIs | 1.1x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | Input Validation | 1.1x |
-| H3 | Path Manipulation | 1.1x |
-| H3 | Parsing Structured Text | 1.1x |
+| H2 | Input Validation with String Search | 1.25x |
+| H2 | Path Manipulation with String Search | 1.25x |
+| H2 | Parsing Structured Text with String Search | 1.25x |
 | H3 | Security Filtering | 1.1x |
 | H3 | Multi-Format Searching | 1.1x |
 | H2 | Performance Characteristics | 1.25x |

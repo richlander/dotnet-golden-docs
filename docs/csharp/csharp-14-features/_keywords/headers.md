@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 25
+Total headers: 24
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 5 headers (multiplier: 1.25x)
-- **H3**: 19 headers (multiplier: 1.1x)
+- **H2**: 7 headers (multiplier: 1.25x)
+- **H3**: 16 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -25,10 +25,9 @@ Total headers: 25
 | H3 | Null-Conditional Assignment | 1.1x |
 | H3 | User-Defined Compound Assignment Operators | 1.1x |
 | H3 | Optional and Named Arguments in Expression Trees | 1.1x |
-| H2 | Common Patterns & Integration | 1.25x |
-| H3 | Property Validation Patterns | 1.1x |
-| H3 | Zero-Allocation String Processing | 1.1x |
-| H3 | Type-Safe Extension Patterns | 1.1x |
+| H2 | Property Validation Patterns with Field Keyword | 1.25x |
+| H2 | Zero-Allocation String Processing with Params Collections | 1.25x |
+| H2 | Type-Safe Extension Patterns | 1.25x |
 | H2 | Gotchas & Limitations | 1.25x |
 | H3 | Keyword Restrictions | 1.1x |
 | H3 | Span Lifetime Management | 1.1x |

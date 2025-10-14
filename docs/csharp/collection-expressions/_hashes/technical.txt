@@ -16,14 +16,14 @@ ErrorMessage | The CollectionBuilderAttribute method name is invalid.
 Error | CS9175
 ErrorMessage | An expression tree may not contain a collection expression.
 Keyword | collection expressions
+Keyword | syntax
 Keyword | collection types
 Keyword | target type
-Keyword | syntax
 Keyword | spread
-Keyword | collections
 Keyword | familiar
-Keyword | params
 Keyword | spread element
+Keyword | using collection expressions
 Keyword | compile-time constants
 Keyword | inline arrays
+Keyword | collections
 Keyword | combine

@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 8 compound terms and 319 single words
-Total unique terms: 325
-Terms with score ≥ 3.0: 60
-Total term occurrences: 593
+Combined 8 compound terms and 310 single words
+Total unique terms: 316
+Terms with score ≥ 3.0: 56
+Total term occurrences: 568
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -24,7 +24,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | runtime | single | 8 | 1.00x | 1.00x | 8.0 |
 | command-line | compound | 5 | 1.00x | 1.50x | 7.5 |
 | builds | single | 7 | 1.00x | 1.00x | 7.0 |
-| integration | single | 6 | 1.00x | 1.00x | 6.0 |
 | patterns | single | 6 | 1.00x | 1.00x | 6.0 |
 | projects | single | 6 | 1.00x | 1.00x | 6.0 |
 | consistent | single | 5 | 1.00x | 1.00x | 5.0 |
@@ -36,8 +35,8 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | net cli | compound | 2 | 1.50x | 1.50x | 4.5 |
 | cache | single | 4 | 1.00x | 1.00x | 4.0 |
 | code | single | 4 | 1.00x | 1.00x | 4.0 |
+| integration | single | 4 | 1.00x | 1.00x | 4.0 |
 | limitations | single | 4 | 1.00x | 1.00x | 4.0 |
-| multiple | single | 4 | 1.00x | 1.00x | 4.0 |
 | path | single | 4 | 1.00x | 1.00x | 4.0 |
 | solution | single | 4 | 1.00x | 1.00x | 4.0 |
 | system | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -50,17 +49,14 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | development environments | compound | 2 | 1.10x | 1.50x | 3.3 |
 | package restore | compound | 2 | 1.10x | 1.50x | 3.3 |
 | application | single | 3 | 1.00x | 1.00x | 3.0 |
-| building | single | 3 | 1.00x | 1.00x | 3.0 |
 | caching | single | 3 | 1.00x | 1.00x | 3.0 |
 | ci | single | 3 | 1.00x | 1.00x | 3.0 |
-| configuration | single | 3 | 1.00x | 1.00x | 3.0 |
 | considerations | single | 3 | 1.00x | 1.00x | 3.0 |
 | downloads | single | 3 | 1.00x | 1.00x | 3.0 |
 | efficient | single | 3 | 1.00x | 1.00x | 3.0 |
 | experience | single | 3 | 1.00x | 1.00x | 3.0 |
 | ide | single | 3 | 1.00x | 1.00x | 3.0 |
 | issues | single | 3 | 1.00x | 1.00x | 3.0 |
-| large | single | 3 | 1.00x | 1.00x | 3.0 |
 | like | single | 3 | 1.00x | 1.00x | 3.0 |
 | operating | single | 3 | 1.00x | 1.00x | 3.0 |
 | organization | single | 3 | 1.00x | 1.00x | 3.0 |

@@ -53,8 +53,8 @@ System.Text.Json source generation provides compile-time generation of serializa
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 11224889504112485232 |
-| overview | simhash | 13172206494987756338 |
-| technical | simhash | 13154369331525460856 |
+| overview | simhash | 17747863716396172082 |
+| technical | simhash | 13154369194086507384 |
 
 ## Relationships
 
@@ -70,34 +70,30 @@ System.Text.Json source generation provides compile-time generation of serializa
 
 | Keyword | Score |
 |---------|-------|
-| source generation | 13.00 |
-| json | 16.00 |
-| reflection-based | 5.00 |
-| serialization | 9.00 |
-| aot applications | 4.00 |
-| context | 6.00 |
-| errors | 6.00 |
-| naming | 6.00 |
-| newtonsoft.json | 3.00 |
-| scenarios | 5.00 |
+| source generation | 7.00 |
+| system.text.json source generation | 5.00 |
+| naming policies | 4.00 |
+| compile-time | 9.00 |
 | aot compatibility | 3.00 |
-| system.text.json source generation | 2.00 |
+| native aot applications | 3.00 |
+| aot-compatible | 3.00 |
+| generic methods | 3.00 |
+| runtime | 8.00 |
+| asp.net core web apis | 2.00 |
+| multiple contexts | 2.00 |
+| native aot | 3.00 |
 
 ## APIs
 
 | API | Type | Count |
 |-----|------|-------|
-| JsonSerializable | attribute | 24 |
-| JsonSourceGenerationOptions | attribute | 18 |
-| JsonSerializer.Serialize | method | 14 |
-| System.Text.Json | namespace | 11 |
-| System.Text | namespace | 7 |
-| JsonSerializer.Deserialize | method | 5 |
-| JsonTypeInfoResolver.Combine | method | 5 |
-| JsonPropertyName | attribute | 4 |
-| System.Text.Json.JsonSerializer | namespace | 4 |
-| System.Text.Json.JsonSerializer.Serialize | type | 4 |
-| GetFromJsonAsync | method | 3 |
+| JsonSerializable | attribute | 21 |
+| JsonSerializer.Serialize | method | 8 |
+| JsonSourceGenerationOptions | attribute | 4 |
+| JsonPropertyName | attribute | 3 |
+| JsonTypeInfoResolver.Combine | method | 3 |
+| System.Text.Json | type | 3 |
+| System.Text.Json.Serialization | type | 3 |
 
 ## Diagnostic Codes
 
@@ -130,18 +126,18 @@ System.Text.Json source generation provides compile-time generation of serializa
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
-| libraries | libraries/system-text-json | 0.8614 |
-| cli | cli/native-aot | 0.7595 |
-| dotnet | dotnet | 0.6763 |
-| libraries | libraries/system-commandline | 0.6746 |
-| libraries | libraries/dotnet-10-library-improvements | 0.6743 |
-| cli | cli/file-based-apps | 0.6693 |
-| csharp | csharp/csharp-14-features | 0.6648 |
-| cli | cli/publishing-and-deployment | 0.6453 |
-| cli | cli/assembly-trimming | 0.6435 |
-| csharp | csharp | 0.6299 |
-| libraries | libraries | 0.6262 |
-| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6149 |
+| libraries | libraries/system-text-json-jsonserializer | 0.8652 |
+| libraries | libraries/system-text-json | 0.8429 |
+| cli | cli/native-aot | 0.7720 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.7696 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7575 |
+| libraries | libraries/system-text-json-nodes | 0.7529 |
+| libraries | libraries/system-text-json-jsondocument | 0.7278 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.7151 |
+| dotnet | dotnet | 0.6816 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6809 |
+| csharp | csharp/csharp-14-features | 0.6765 |
+| cli | cli/file-based-apps | 0.6709 |
 
 ## Authority Scores
 

@@ -3,16 +3,16 @@
 Generated from: `golden-reference.md`
 Total unique compounds: 17
 Total compound occurrences: 92
-Total document words: 1012
+Total document words: 1013
 
 | Compound Term | Count | Document Concentration |
 |---------------|-------|------------------------|
-| file-based apps | 13 | 0.0128 |
+| file-based apps | 14 | 0.0138 |
 | file-based-programs | 6 | 0.0059 |
 | file-level | 6 | 0.0059 |
 | cross-platform | 5 | 0.0049 |
-| single file | 4 | 0.0040 |
-| single-file | 4 | 0.0040 |
+| single file | 4 | 0.0039 |
+| single-file | 4 | 0.0039 |
 | command line | 3 | 0.0030 |
 | command-line | 3 | 0.0030 |
 | traditional project | 3 | 0.0030 |

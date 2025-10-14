@@ -20,13 +20,17 @@
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 12995477800241332528
+      "fingerprint": 12995475601218077040
     }
   },
   "keywords": [
     {
       "name": "net",
-      "score": 35
+      "score": 38
+    },
+    {
+      "name": "cross-platform",
+      "score": 7
     },
     {
       "name": "libraries",
@@ -65,11 +69,7 @@
       "score": 6
     },
     {
-      "name": "cross-platform",
-      "score": 7
-    },
-    {
-      "name": "apis",
+      "name": "tools",
       "score": 7
     }
   ],
@@ -105,7 +105,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634431451450
+            "fingerprint": 17752933634430959930
           },
           "technical": {
             "name": "technical",
@@ -126,12 +126,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12996144102274695986
+            "fingerprint": 3772209114392757042
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12991112669277651760
+            "fingerprint": 12990971914609426736
           }
         }
       },
@@ -165,12 +165,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17746882522527531890
+            "fingerprint": 17748007322922713970
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13136350303040708924
+            "fingerprint": 13136350303040708988
           }
         }
       },
@@ -182,12 +182,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751807734389736240
+            "fingerprint": 17751806634878108464
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603750934576243000
+            "fingerprint": 17602622835646144888
           }
         }
       },
@@ -199,12 +199,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751380007194919222
+            "fingerprint": 17751379938475704630
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17751416359798309684
+            "fingerprint": 13139692957975577396
           }
         }
       },
@@ -228,7 +228,7 @@
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.7299,
+        "similarity": 0.7318,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -238,12 +238,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992064777769845050
+            "fingerprint": 12992627727723340090
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 3949010516359132025
+            "fingerprint": 13172382621933396857
           }
         }
       },
@@ -260,12 +260,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167505208
+            "fingerprint": 12991679535167439672
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008810442662268
+            "fingerprint": 12704008812590162300
           }
         }
       },
@@ -277,7 +277,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13136320841712640308
+            "fingerprint": 13136320824532771124
           },
           "technical": {
             "name": "technical",
@@ -299,29 +299,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12995581154334049082
+            "fingerprint": 13031609950279271226
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603783919925068156
+            "fingerprint": 17603784469680882044
           }
         }
       },
       {
-        "href": "/extensions/microsoft-extensions-ai-evaluation/index.json",
-        "title": "Microsoft.Extensions.AI.Evaluation",
-        "similarity": 0.6825,
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.6924,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997269984866959672
+            "fingerprint": 3087081535174783256
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992239188741857660
+            "fingerprint": 12992240880958973404
           }
         }
       }
@@ -331,7 +331,7 @@
     "topics": []
   },
   "metadata": {
-    "generated": "2025-10-08T22:51:50.7747609Z",
+    "generated": "2025-10-14T05:30:35.6456826Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

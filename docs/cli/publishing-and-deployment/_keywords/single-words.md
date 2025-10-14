@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 170
-Total word occurrences: 341
+Total unique words: 162
+Total word occurrences: 328
 Total document words: 504
 
 | Word | Count | Document Concentration |
@@ -19,13 +19,11 @@ Total document words: 504
 | readytorun | 6 | 0.0119 |
 | size | 6 | 0.0119 |
 | use | 6 | 0.0119 |
+| compilation | 5 | 0.0099 |
 | distribution | 4 | 0.0079 |
 | no | 4 | 0.0079 |
-| optimization | 4 | 0.0079 |
 | single-file | 4 | 0.0079 |
 | application | 3 | 0.0060 |
-| compilation | 3 | 0.0060 |
-| configuration | 3 | 0.0060 |
 | container | 3 | 0.0060 |
 | cross-platform | 3 | 0.0060 |
 | easy | 3 | 0.0060 |
@@ -59,7 +57,6 @@ Total document words: 504
 | microservices | 2 | 0.0040 |
 | mode | 2 | 0.0040 |
 | modes | 2 | 0.0040 |
-| multiple | 2 | 0.0040 |
 | overview | 2 | 0.0040 |
 | packaging | 2 | 0.0040 |
 | recommended | 2 | 0.0040 |
@@ -75,7 +72,6 @@ Total document words: 504
 | trimmed | 2 | 0.0040 |
 | ultimate | 2 | 0.0040 |
 | usage | 2 | 0.0040 |
-| web | 2 | 0.0040 |
 | advanced | 1 | 0.0020 |
 | analysis | 1 | 0.0020 |
 | approach | 1 | 0.0020 |
@@ -87,7 +83,6 @@ Total document words: 504
 | balanced | 1 | 0.0020 |
 | better | 1 | 0.0020 |
 | build-time | 1 | 0.0020 |
-| building | 1 | 0.0020 |
 | clutter | 1 | 0.0020 |
 | combinations | 1 | 0.0020 |
 | constraints | 1 | 0.0020 |
@@ -116,7 +111,6 @@ Total document words: 504
 | image | 1 | 0.0020 |
 | improved | 1 | 0.0020 |
 | independence | 1 | 0.0020 |
-| integration | 1 | 0.0020 |
 | into | 1 | 0.0020 |
 | isolated | 1 | 0.0020 |
 | issues | 1 | 0.0020 |
@@ -161,7 +155,6 @@ Total document words: 504
 | serverless | 1 | 0.0020 |
 | serves | 1 | 0.0020 |
 | services | 1 | 0.0020 |
-| simple | 1 | 0.0020 |
 | simplified | 1 | 0.0020 |
 | slower | 1 | 0.0020 |
 | smaller | 1 | 0.0020 |
@@ -169,7 +162,6 @@ Total document words: 504
 | support | 1 | 0.0020 |
 | techniques | 1 | 0.0020 |
 | transforms | 1 | 0.0020 |
-| trimming | 1 | 0.0020 |
 | troubleshooting | 1 | 0.0020 |
 | utility | 1 | 0.0020 |
 | verification | 1 | 0.0020 |

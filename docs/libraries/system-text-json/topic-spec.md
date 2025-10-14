@@ -45,8 +45,8 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 16930982311004600425 |
-| overview | simhash | 12992064777769845050 |
-| technical | simhash | 3949010516359132025 |
+| overview | simhash | 12992627727723340090 |
+| technical | simhash | 13172382621933396857 |
 
 ## Relationships
 
@@ -62,26 +62,35 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 | Keyword | Score |
 |---------|-------|
-| json | 15.00 |
-| source generation | 7.00 |
-| system.text.json | 5.00 |
-| newtonsoft.json | 4.00 |
-| serialization | 7.00 |
-| default | 4.00 |
-| newtonsoft | 4.00 |
-| compile-time | 3.00 |
-| limits | 3.00 |
-| requires | 3.00 |
-| text | 3.00 |
-| apis | 3.00 |
+| source generation | 27.00 |
+| json | 70.00 |
+| system.text.json | 20.00 |
+| apis | 22.00 |
+| read-only | 14.00 |
+| serialization | 21.00 |
+| use | 31.00 |
+| api | 14.00 |
+| scenarios | 14.00 |
+| minimal | 17.00 |
+| configuration | 12.00 |
+| asp.net core | 6.00 |
 
 ## APIs
 
 | API | Type | Count |
 |-----|------|-------|
-| JsonSerializable | attribute | 7 |
-| JsonSerializer.Serialize | method | 7 |
-| JsonSerializer.SerializeAsync | method | 3 |
+| JsonSerializable | attribute | 20 |
+| JsonSerializer.Serialize | method | 18 |
+| GetString | method | 9 |
+| File.OpenRead | method | 6 |
+| JsonNode.Parse | method | 6 |
+| System.Text | namespace | 6 |
+| System.Text.Json | type | 6 |
+| GetUser | method | 5 |
+| JsonDocument.Parse | method | 5 |
+| Console.WriteLine | method | 4 |
+| GetFromJsonAsync | method | 4 |
+| GetProperty | method | 4 |
 
 ## Diagnostic Codes
 
@@ -106,18 +115,18 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
-| libraries | libraries/system-text-json-source-generation | 0.8614 |
-| libraries | libraries/dotnet-10-library-improvements | 0.7690 |
-| dotnet | dotnet | 0.7299 |
-| csharp | csharp/csharp-14-features | 0.7242 |
-| libraries | libraries/system-commandline | 0.7216 |
-| libraries | libraries | 0.7082 |
+| libraries | libraries/system-text-json-jsonserializer | 0.9334 |
+| libraries | libraries/system-text-json-nodes | 0.8730 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.8663 |
+| libraries | libraries/system-text-json-jsondocument | 0.8591 |
+| libraries | libraries/system-text-json-source-generation | 0.8429 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.8391 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.8378 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7844 |
+| libraries | libraries | 0.7366 |
+| csharp | csharp/csharp-14-features | 0.7342 |
+| dotnet | dotnet | 0.7318 |
 | csharp | csharp | 0.6981 |
-| cli | cli/native-aot | 0.6960 |
-| cli | cli/file-based-apps | 0.6947 |
-| csharp | csharp/object-initialization | 0.6575 |
-| cli | cli/assembly-trimming | 0.6477 |
-| cli | cli | 0.6320 |
 
 ## Authority Scores
 

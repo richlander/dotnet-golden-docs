@@ -1,54 +1,49 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 173
-Total word occurrences: 347
-Total document words: 496
+Total unique words: 170
+Total word occurrences: 331
+Total document words: 494
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| resilience | 25 | 0.0504 |
-| http | 9 | 0.0181 |
-| communication | 7 | 0.0141 |
-| configuration | 7 | 0.0141 |
-| httpclient | 7 | 0.0141 |
-| standard | 7 | 0.0141 |
+| resilience | 25 | 0.0506 |
+| http | 9 | 0.0182 |
+| communication | 7 | 0.0142 |
+| standard | 7 | 0.0142 |
 | monitoring | 6 | 0.0121 |
 | patterns | 6 | 0.0121 |
 | strategies | 6 | 0.0121 |
 | built | 5 | 0.0101 |
 | circuit | 5 | 0.0101 |
-| extensions | 5 | 0.0101 |
+| httpclient | 5 | 0.0101 |
 | microsoft | 5 | 0.0101 |
 | polly | 5 | 0.0101 |
 | reliability | 5 | 0.0101 |
 | through | 5 | 0.0101 |
+| configuration | 4 | 0.0081 |
 | distributed | 4 | 0.0081 |
 | fault | 4 | 0.0081 |
 | hedging | 4 | 0.0081 |
 | microservices | 4 | 0.0081 |
 | pipeline | 4 | 0.0081 |
 | tolerance | 4 | 0.0081 |
-| comprehensive | 3 | 0.0060 |
-| essential | 3 | 0.0060 |
-| factory | 3 | 0.0060 |
-| failures | 3 | 0.0060 |
-| integration | 3 | 0.0060 |
-| pre-configured | 3 | 0.0060 |
-| providing | 3 | 0.0060 |
-| reliable | 3 | 0.0060 |
-| require | 3 | 0.0060 |
-| retry | 3 | 0.0060 |
+| comprehensive | 3 | 0.0061 |
+| essential | 3 | 0.0061 |
+| extensions | 3 | 0.0061 |
+| factory | 3 | 0.0061 |
+| failures | 3 | 0.0061 |
+| pre-configured | 3 | 0.0061 |
+| providing | 3 | 0.0061 |
+| reliable | 3 | 0.0061 |
+| require | 3 | 0.0061 |
+| retry | 3 | 0.0061 |
 | algorithms | 2 | 0.0040 |
-| api | 2 | 0.0040 |
-| apis | 2 | 0.0040 |
 | architecture | 2 | 0.0040 |
 | both | 2 | 0.0040 |
 | breaker | 2 | 0.0040 |
 | breakers | 2 | 0.0040 |
-| building | 2 | 0.0040 |
 | built-in | 2 | 0.0040 |
-| common | 2 | 0.0040 |
 | declarative | 2 | 0.0040 |
 | events | 2 | 0.0040 |
 | external | 2 | 0.0040 |
@@ -87,6 +82,7 @@ Total document words: 496
 | battle-tested | 1 | 0.0020 |
 | behavior | 1 | 0.0020 |
 | benefits | 1 | 0.0020 |
+| best | 1 | 0.0020 |
 | breaking | 1 | 0.0020 |
 | capabilities | 1 | 0.0020 |
 | careful | 1 | 0.0020 |
@@ -97,6 +93,7 @@ Total document words: 496
 | clients | 1 | 0.0020 |
 | combination | 1 | 0.0020 |
 | combine | 1 | 0.0020 |
+| common | 1 | 0.0020 |
 | component | 1 | 0.0020 |
 | configurable | 1 | 0.0020 |
 | considerations | 1 | 0.0020 |
@@ -119,11 +116,13 @@ Total document words: 496
 | fluent | 1 | 0.0020 |
 | gateway | 1 | 0.0020 |
 | gracefully | 1 | 0.0020 |
+| handle | 1 | 0.0020 |
 | http-based | 1 | 0.0020 |
 | http's | 1 | 0.0020 |
 | impact | 1 | 0.0020 |
 | including | 1 | 0.0020 |
 | infrastructure | 1 | 0.0020 |
+| integration | 1 | 0.0020 |
 | intelligent | 1 | 0.0020 |
 | inter-service | 1 | 0.0020 |
 | intersection | 1 | 0.0020 |
@@ -138,7 +137,6 @@ Total document words: 496
 | logging | 1 | 0.0020 |
 | logic | 1 | 0.0020 |
 | metrics | 1 | 0.0020 |
-| multiple | 1 | 0.0020 |
 | necessary | 1 | 0.0020 |
 | need | 1 | 0.0020 |
 | net's | 1 | 0.0020 |
@@ -153,6 +151,7 @@ Total document words: 496
 | policy | 1 | 0.0020 |
 | pools | 1 | 0.0020 |
 | positioning | 1 | 0.0020 |
+| practices | 1 | 0.0020 |
 | production-ready | 1 | 0.0020 |
 | proper | 1 | 0.0020 |
 | protection | 1 | 0.0020 |
@@ -160,13 +159,12 @@ Total document words: 496
 | readable | 1 | 0.0020 |
 | reduce | 1 | 0.0020 |
 | relationships | 1 | 0.0020 |
-| scenarios | 1 | 0.0020 |
 | seamless | 1 | 0.0020 |
 | selection | 1 | 0.0020 |
+| service | 1 | 0.0020 |
 | service-to-service | 1 | 0.0020 |
 | settings | 1 | 0.0020 |
 | setup | 1 | 0.0020 |
-| simple | 1 | 0.0020 |
 | simplified | 1 | 0.0020 |
 | sits | 1 | 0.0020 |
 | strict | 1 | 0.0020 |
@@ -175,7 +173,6 @@ Total document words: 496
 | timeouts | 1 | 0.0020 |
 | tracing | 1 | 0.0020 |
 | transient | 1 | 0.0020 |
-| values | 1 | 0.0020 |
 | visibility | 1 | 0.0020 |
 | while | 1 | 0.0020 |
 | work | 1 | 0.0020 |

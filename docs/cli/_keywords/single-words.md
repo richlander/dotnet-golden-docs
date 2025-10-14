@@ -1,53 +1,49 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 319
-Total word occurrences: 579
-Total document words: 865
+Total unique words: 310
+Total word occurrences: 554
+Total document words: 860
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| cli | 23 | 0.0266 |
-| tools | 13 | 0.0150 |
-| package | 11 | 0.0127 |
+| cli | 23 | 0.0267 |
+| tools | 13 | 0.0151 |
+| package | 11 | 0.0128 |
 | development | 10 | 0.0116 |
-| commands | 9 | 0.0104 |
-| across | 8 | 0.0092 |
-| global | 8 | 0.0092 |
-| runtime | 8 | 0.0092 |
+| commands | 9 | 0.0105 |
+| across | 8 | 0.0093 |
+| global | 8 | 0.0093 |
+| runtime | 8 | 0.0093 |
 | builds | 7 | 0.0081 |
-| integration | 6 | 0.0069 |
-| patterns | 6 | 0.0069 |
-| projects | 6 | 0.0069 |
+| patterns | 6 | 0.0070 |
+| projects | 6 | 0.0070 |
 | consistent | 5 | 0.0058 |
 | provides | 5 | 0.0058 |
 | sdk | 5 | 0.0058 |
 | support | 5 | 0.0058 |
-| cache | 4 | 0.0046 |
-| code | 4 | 0.0046 |
-| cross-platform | 4 | 0.0046 |
-| limitations | 4 | 0.0046 |
-| multiple | 4 | 0.0046 |
-| path | 4 | 0.0046 |
-| solution | 4 | 0.0046 |
-| system | 4 | 0.0046 |
-| team | 4 | 0.0046 |
-| tool | 4 | 0.0046 |
-| visual | 4 | 0.0046 |
-| windows | 4 | 0.0046 |
+| cache | 4 | 0.0047 |
+| code | 4 | 0.0047 |
+| cross-platform | 4 | 0.0047 |
+| integration | 4 | 0.0047 |
+| limitations | 4 | 0.0047 |
+| path | 4 | 0.0047 |
+| solution | 4 | 0.0047 |
+| system | 4 | 0.0047 |
+| team | 4 | 0.0047 |
+| tool | 4 | 0.0047 |
+| visual | 4 | 0.0047 |
+| windows | 4 | 0.0047 |
 | application | 3 | 0.0035 |
-| building | 3 | 0.0035 |
 | caching | 3 | 0.0035 |
 | ci | 3 | 0.0035 |
 | command-line | 3 | 0.0035 |
-| configuration | 3 | 0.0035 |
 | considerations | 3 | 0.0035 |
 | downloads | 3 | 0.0035 |
 | efficient | 3 | 0.0035 |
 | experience | 3 | 0.0035 |
 | ide | 3 | 0.0035 |
 | issues | 3 | 0.0035 |
-| large | 3 | 0.0035 |
 | like | 3 | 0.0035 |
 | operating | 3 | 0.0035 |
 | organization | 3 | 0.0035 |
@@ -67,7 +63,6 @@ Total document words: 865
 | case | 2 | 0.0023 |
 | cause | 2 | 0.0023 |
 | cd | 2 | 0.0023 |
-| common | 2 | 0.0023 |
 | customization | 2 | 0.0023 |
 | default | 2 | 0.0023 |
 | dependencies | 2 | 0.0023 |
@@ -77,28 +72,25 @@ Total document words: 865
 | enterprise | 2 | 0.0023 |
 | environment | 2 | 0.0023 |
 | executable | 2 | 0.0023 |
-| extensions | 2 | 0.0023 |
 | frameworks | 2 | 0.0023 |
 | graphs | 2 | 0.0023 |
 | hosting | 2 | 0.0023 |
 | incremental | 2 | 0.0023 |
 | installation | 2 | 0.0023 |
-| json | 2 | 0.0023 |
 | length | 2 | 0.0023 |
 | linux | 2 | 0.0023 |
 | lock | 2 | 0.0023 |
 | macos | 2 | 0.0023 |
 | manifests | 2 | 0.0023 |
 | models | 2 | 0.0023 |
+| multiple | 2 | 0.0023 |
 | network | 2 | 0.0023 |
-| operations | 2 | 0.0023 |
 | parallel | 2 | 0.0023 |
 | permission | 2 | 0.0023 |
 | platform-specific | 2 | 0.0023 |
 | platforms | 2 | 0.0023 |
 | publishing | 2 | 0.0023 |
 | related | 2 | 0.0023 |
-| scenarios | 2 | 0.0023 |
 | sensitivity | 2 | 0.0023 |
 | slow | 2 | 0.0023 |
 | targeting | 2 | 0.0023 |
@@ -108,7 +100,6 @@ Total document words: 865
 | testing | 2 | 0.0023 |
 | through | 2 | 0.0023 |
 | tooling | 2 | 0.0023 |
-| using | 2 | 0.0023 |
 | verification | 2 | 0.0023 |
 | verify | 2 | 0.0023 |
 | while | 2 | 0.0023 |
@@ -133,9 +124,9 @@ Total document words: 865
 | behavior | 1 | 0.0012 |
 | between | 1 | 0.0012 |
 | breaking | 1 | 0.0012 |
+| building | 1 | 0.0012 |
 | bulk | 1 | 0.0012 |
 | calls | 1 | 0.0012 |
-| cases | 1 | 0.0012 |
 | categories | 1 | 0.0012 |
 | central | 1 | 0.0012 |
 | changed | 1 | 0.0012 |
@@ -146,6 +137,7 @@ Total document words: 865
 | collaboration | 1 | 0.0012 |
 | collects | 1 | 0.0012 |
 | committing | 1 | 0.0012 |
+| common | 1 | 0.0012 |
 | community-developed | 1 | 0.0012 |
 | complex | 1 | 0.0012 |
 | composite | 1 | 0.0012 |
@@ -194,7 +186,6 @@ Total document words: 865
 | follows | 1 | 0.0012 |
 | format | 1 | 0.0012 |
 | formats | 1 | 0.0012 |
-| forward | 1 | 0.0012 |
 | full | 1 | 0.0012 |
 | full-featured | 1 | 0.0012 |
 | functionality | 1 | 0.0012 |
@@ -217,6 +208,7 @@ Total document words: 865
 | interface | 1 | 0.0012 |
 | jetbrains | 1 | 0.0012 |
 | key | 1 | 0.0012 |
+| large | 1 | 0.0012 |
 | leverages | 1 | 0.0012 |
 | libraries | 1 | 0.0012 |
 | lifecycle | 1 | 0.0012 |
@@ -275,6 +267,7 @@ Total document words: 865
 | run | 1 | 0.0012 |
 | runtimes | 1 | 0.0012 |
 | scaffolding | 1 | 0.0012 |
+| scenarios | 1 | 0.0012 |
 | sdk-based | 1 | 0.0012 |
 | sdk-style | 1 | 0.0012 |
 | seamlessly | 1 | 0.0012 |
@@ -311,7 +304,6 @@ Total document words: 865
 | unix-like | 1 | 0.0012 |
 | unnecessary | 1 | 0.0012 |
 | usage | 1 | 0.0012 |
-| use | 1 | 0.0012 |
 | used | 1 | 0.0012 |
 | user | 1 | 0.0012 |
 | uses | 1 | 0.0012 |
@@ -321,7 +313,6 @@ Total document words: 865
 | very | 1 | 0.0012 |
 | vs | 1 | 0.0012 |
 | watch-driven | 1 | 0.0012 |
-| web | 1 | 0.0012 |
 | work | 1 | 0.0012 |
 | workflow | 1 | 0.0012 |
 | workload | 1 | 0.0012 |

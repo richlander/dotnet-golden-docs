@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 30
+Total headers: 29
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 7 headers (multiplier: 1.25x)
-- **H3**: 22 headers (multiplier: 1.1x)
+- **H2**: 8 headers (multiplier: 1.25x)
+- **H3**: 20 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -22,9 +22,8 @@ Total headers: 30
 | H3 | NLP Metric Evaluation | 1.1x |
 | H3 | Batch Evaluation with Reporting | 1.1x |
 | H3 | Custom Evaluator Implementation | 1.1x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | Automated Quality Gates in CI/CD | 1.1x |
-| H3 | Regression Testing for Model Updates | 1.1x |
+| H2 | Automated Quality Gates in CI/CD | 1.25x |
+| H2 | Regression Testing for Model Updates | 1.25x |
 | H3 | Multi-Evaluator Analysis Pipeline | 1.1x |
 | H3 | Real-time Evaluation with Caching | 1.1x |
 | H2 | Alternative Syntax Options | 1.25x |

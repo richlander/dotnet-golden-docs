@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 17 compound terms and 446 single words
-Total unique terms: 453
-Terms with score ≥ 3.0: 76
-Total term occurrences: 807
+Combined 17 compound terms and 437 single words
+Total unique terms: 444
+Terms with score ≥ 3.0: 73
+Total term occurrences: 779
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -28,22 +28,17 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | programming | single | 8 | 1.00x | 1.00x | 8.0 |
 | provides | single | 8 | 1.00x | 1.00x | 8.0 |
 | object-oriented | compound | 5 | 1.00x | 1.50x | 7.5 |
-| collections | single | 7 | 1.00x | 1.00x | 7.0 |
-| using | single | 7 | 1.00x | 1.00x | 7.0 |
+| applications | single | 6 | 1.00x | 1.00x | 6.0 |
 | enables | single | 6 | 1.00x | 1.00x | 6.0 |
 | low-level | compound | 4 | 1.00x | 1.50x | 6.0 |
 | while | single | 6 | 1.00x | 1.00x | 6.0 |
 | language features | compound | 3 | 1.25x | 1.50x | 5.6 |
-| apis | single | 5 | 1.00x | 1.00x | 5.0 |
-| applications | single | 5 | 1.00x | 1.00x | 5.0 |
+| collections | single | 5 | 1.00x | 1.00x | 5.0 |
 | control | single | 5 | 1.00x | 1.00x | 5.0 |
 | developers | single | 5 | 1.00x | 1.00x | 5.0 |
 | matching | single | 5 | 1.00x | 1.00x | 5.0 |
 | patterns | single | 5 | 1.00x | 1.00x | 5.0 |
-| reference | single | 5 | 1.00x | 1.00x | 5.0 |
 | syntax | single | 5 | 1.00x | 1.00x | 5.0 |
-| types | single | 5 | 1.00x | 1.00x | 5.0 |
-| web | single | 5 | 1.00x | 1.00x | 5.0 |
 | windows | single | 5 | 1.00x | 1.00x | 5.0 |
 | asynchronous programming | compound | 3 | 1.10x | 1.50x | 5.0 |
 | compile-time | compound | 3 | 1.00x | 1.50x | 4.5 |
@@ -58,14 +53,13 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | functional | single | 4 | 1.00x | 1.00x | 4.0 |
 | introduce | single | 4 | 1.00x | 1.00x | 4.0 |
 | languages | single | 4 | 1.00x | 1.00x | 4.0 |
-| multiple | single | 4 | 1.00x | 1.00x | 4.0 |
 | offers | single | 4 | 1.00x | 1.00x | 4.0 |
-| cloud-native development | compound | 2 | 1.10x | 1.50x | 3.3 |
-| mobile applications | compound | 2 | 1.10x | 1.50x | 3.3 |
+| cloud-native development | compound | 2 | 1.25x | 1.50x | 3.8 |
+| mobile applications | compound | 2 | 1.25x | 1.50x | 3.8 |
 | type system | compound | 2 | 1.10x | 1.50x | 3.3 |
 | version compatibility | compound | 2 | 1.10x | 1.50x | 3.3 |
 | abstraction | single | 3 | 1.00x | 1.00x | 3.0 |
-| common | single | 3 | 1.00x | 1.00x | 3.0 |
+| apis | single | 3 | 1.00x | 1.00x | 3.0 |
 | constructs | single | 3 | 1.00x | 1.00x | 3.0 |
 | direct | single | 3 | 1.00x | 1.00x | 3.0 |
 | extensible | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -81,12 +75,15 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | provide | single | 3 | 1.00x | 1.00x | 3.0 |
 | query | single | 3 | 1.00x | 1.00x | 3.0 |
 | range | single | 3 | 1.00x | 1.00x | 3.0 |
+| reference | single | 3 | 1.00x | 1.00x | 3.0 |
 | run | single | 3 | 1.00x | 1.00x | 3.0 |
 | runtime | single | 3 | 1.00x | 1.00x | 3.0 |
 | through | single | 3 | 1.00x | 1.00x | 3.0 |
 | tools | single | 3 | 1.00x | 1.00x | 3.0 |
+| types | single | 3 | 1.00x | 1.00x | 3.0 |
 | understanding | single | 3 | 1.00x | 1.00x | 3.0 |
 | unsafe | single | 3 | 1.00x | 1.00x | 3.0 |
 | use | single | 3 | 1.00x | 1.00x | 3.0 |
-| values | single | 3 | 1.00x | 1.00x | 3.0 |
+| using | single | 3 | 1.00x | 1.00x | 3.0 |
+| web | single | 3 | 1.00x | 1.00x | 3.0 |
 | write | single | 3 | 1.00x | 1.00x | 3.0 |

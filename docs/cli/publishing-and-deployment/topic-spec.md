@@ -103,13 +103,13 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | cli | cli | 0.7850 |
 | dotnet | dotnet | 0.7094 |
 | libraries | libraries | 0.6974 |
-| libraries | libraries/system-text-json-source-generation | 0.6453 |
+| libraries | libraries/system-text-json-source-generation | 0.6462 |
 | libraries | libraries/system-commandline | 0.6301 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6171 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6169 |
+| libraries | libraries/system-text-json | 0.6106 |
 | extensions | extensions/microsoft-extensions-ai | 0.5931 |
 | csharp | csharp/csharp-14-features | 0.5899 |
-| csharp | csharp | 0.5672 |
 
 ## Authority Scores
 

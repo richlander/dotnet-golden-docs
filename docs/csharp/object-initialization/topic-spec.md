@@ -57,7 +57,7 @@ Object initialization encompasses the various approaches for creating and initia
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 7058325005360841626 |
-| overview | simhash | 17751804552900313392 |
+| overview | simhash | 17751804553974055728 |
 | technical | simhash | 17603925754777575800 |
 
 ## Relationships
@@ -74,18 +74,18 @@ Object initialization encompasses the various approaches for creating and initia
 
 | Keyword | Score |
 |---------|-------|
-| object initialization | 9.00 |
+| object initialization | 10.00 |
 | anonymous types | 8.00 |
 | collection properties | 8.00 |
 | init properties | 6.00 |
 | required members | 5.00 |
-| objects | 8.00 |
-| constructor | 7.00 |
-| initialization | 7.00 |
 | initializers | 7.00 |
-| properties | 7.00 |
 | collection expressions | 5.00 |
 | init-only properties | 3.00 |
+| constructors | 5.00 |
+| initialization | 5.00 |
+| properties | 5.00 |
+| use | 9.00 |
 
 ## APIs
 
@@ -111,15 +111,15 @@ Object initialization encompasses the various approaches for creating and initia
 | csharp | csharp/collection-initialization | 0.8118 |
 | csharp | csharp/csharp-14-features | 0.7591 |
 | csharp | csharp/collection-expressions | 0.7142 |
+| libraries | libraries/system-text-json-jsonserializer | 0.7033 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6899 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6824 |
-| libraries | libraries/system-text-json | 0.6575 |
+| libraries | libraries/system-text-json-nodes | 0.6729 |
+| libraries | libraries/system-text-json | 0.6585 |
 | libraries | libraries/string-search-operations | 0.6522 |
 | libraries | libraries/system-buffers-searchvalues | 0.6416 |
-| dotnet | dotnet | 0.6188 |
-| cli | cli/file-based-apps | 0.5879 |
-| cli | cli/assembly-trimming | 0.5856 |
-| cli | cli/build-and-compilation | 0.5832 |
-| cli | cli | 0.5822 |
+| libraries | libraries/system-text-json-jsondocument | 0.6371 |
+| libraries | libraries/system-commandline | 0.6333 |
 
 ## Authority Scores
 

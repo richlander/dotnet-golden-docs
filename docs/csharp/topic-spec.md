@@ -51,8 +51,8 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 12996144102274695986 |
-| technical | simhash | 12991112669277651760 |
+| overview | simhash | 3772209114392757042 |
+| technical | simhash | 12990971914609426736 |
 
 ## Relationships
 
@@ -68,12 +68,12 @@ C# is a modern, safe, and general purpose language that makes developers product
 | net | 13.00 |
 | like | 11.00 |
 | compiler | 8.00 |
-| data | 8.00 |
 | programming | 8.00 |
 | object-oriented | 5.00 |
 | memory management | 6.00 |
 | libraries | 9.00 |
-| low-level | 4.00 |
+| cross-platform | 5.00 |
+| data | 8.00 |
 | language features | 3.00 |
 
 ## Similarity Scores
@@ -85,13 +85,13 @@ C# is a modern, safe, and general purpose language that makes developers product
 | libraries | libraries/dotnet-10-library-improvements | 0.7352 |
 | csharp | csharp/collection-expressions | 0.7324 |
 | csharp | csharp/object-initialization | 0.7142 |
+| libraries | libraries/system-text-json-jsonserializer | 0.7075 |
 | libraries | libraries | 0.7046 |
 | libraries | libraries/system-commandline | 0.6995 |
 | libraries | libraries/system-text-json | 0.6981 |
+| libraries | libraries/string-search-operations | 0.6922 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6781 |
 | cli | cli/file-based-apps | 0.6755 |
-| cli | cli/native-aot | 0.6473 |
-| cli | cli | 0.6447 |
-| cli | cli/build-and-compilation | 0.6385 |
 
 ### Similarity Metadata
 
@@ -101,7 +101,7 @@ C# is a modern, safe, and general purpose language that makes developers product
 | csharp | 0.7142 | P50 | 4 |
 | dotnet | 0.7851 | P50 | 1 |
 | extensions | 0.5845 | P50 | 3 |
-| libraries | 0.6981 | P50 | 7 |
+| libraries | 0.6403 | P70 | 13 |
 
 ## Authority Scores
 

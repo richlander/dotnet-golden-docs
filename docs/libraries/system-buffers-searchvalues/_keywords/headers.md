@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 18
+Total headers: 17
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 8 headers (multiplier: 1.25x)
-- **H3**: 9 headers (multiplier: 1.1x)
+- **H2**: 11 headers (multiplier: 1.25x)
+- **H3**: 5 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -22,11 +22,10 @@ Total headers: 18
 | H3 | Common Use Cases | 1.1x |
 | H3 | Path Validation | 1.1x |
 | H2 | Relationships & Integration | 1.25x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | High-Performance Text Processing | 1.1x |
-| H3 | Protocol Parsing | 1.1x |
-| H3 | Input Validation | 1.1x |
-| H3 | URL/Path Processing | 1.1x |
+| H2 | High-Performance Text Processing with SearchValues | 1.25x |
+| H2 | Protocol Parsing with SearchValues | 1.25x |
+| H2 | Input Validation with SearchValues | 1.25x |
+| H2 | URL and Path Processing with SearchValues | 1.25x |
 | H2 | Performance Characteristics | 1.25x |
 | H2 | Best Practices | 1.25x |
 | H2 | Migration & Compatibility | 1.25x |

@@ -3,16 +3,12 @@ TypeName | System.Text.Json Source Generation
 TypeName | System.Text
 TypeName | Json Source Generation
 API | JsonSerializable
-API | JsonSourceGenerationOptions
 API | JsonSerializer.Serialize
-API | System.Text.Json
-API | System.Text
-API | JsonSerializer.Deserialize
-API | JsonTypeInfoResolver.Combine
+API | JsonSourceGenerationOptions
 API | JsonPropertyName
-API | System.Text.Json.JsonSerializer
-API | System.Text.Json.JsonSerializer.Serialize
-API | GetFromJsonAsync
+API | JsonTypeInfoResolver.Combine
+API | System.Text.Json
+API | System.Text.Json.Serialization
 Error | IL2026
 ErrorMessage | Using member which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. Use JsonTypeInfo overloads instead.
 Error | IL2055
@@ -60,14 +56,14 @@ ErrorMessage | JsonConverterAttribute '{0}' is invalid.
 Error | SYSLIB1225
 ErrorMessage | JSON source generation does not support the specified configuration.
 Keyword | source generation
-Keyword | json
-Keyword | reflection-based
-Keyword | serialization
-Keyword | aot applications
-Keyword | context
-Keyword | errors
-Keyword | naming
-Keyword | newtonsoft.json
-Keyword | scenarios
-Keyword | aot compatibility
 Keyword | system.text.json source generation
+Keyword | naming policies
+Keyword | compile-time
+Keyword | aot compatibility
+Keyword | native aot applications
+Keyword | aot-compatible
+Keyword | generic methods
+Keyword | runtime
+Keyword | asp.net core web apis
+Keyword | multiple contexts
+Keyword | native aot

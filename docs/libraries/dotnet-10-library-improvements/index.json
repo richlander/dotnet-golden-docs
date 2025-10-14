@@ -15,21 +15,17 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 17751807734389736240
+      "fingerprint": 17751806634878108464
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 17603750934576243000
+      "fingerprint": 17602622835646144888
     }
   },
   "keywords": [
     {
       "name": "security",
-      "score": 9
-    },
-    {
-      "name": "json",
       "score": 9
     },
     {
@@ -43,10 +39,6 @@
     {
       "name": "improvements",
       "score": 4
-    },
-    {
-      "name": "apis",
-      "score": 5
     },
     {
       "name": "high-performance text processing",
@@ -70,6 +62,14 @@
     },
     {
       "name": "duplicate",
+      "score": 3
+    },
+    {
+      "name": "hex",
+      "score": 3
+    },
+    {
+      "name": "numericordering",
       "score": 3
     }
   ],
@@ -136,19 +136,19 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167505208
+            "fingerprint": 12991679535167439672
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008810442662268
+            "fingerprint": 12704008812590162300
           }
         }
       },
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.769,
+        "similarity": 0.7844,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -158,12 +158,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992064777769845050
+            "fingerprint": 12992627727723340090
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 3949010516359132025
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.7658,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
           }
         }
       },
@@ -180,7 +197,24 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995477800241332528
+            "fingerprint": 12995475601218077040
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
+        "similarity": 0.7378,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 614095243011328414
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974224274836293980
           }
         }
       },
@@ -192,12 +226,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12996144102274695986
+            "fingerprint": 3772209114392757042
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12991112669277651760
+            "fingerprint": 12990971914609426736
           }
         }
       },
@@ -209,12 +243,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13139733588357906744
+            "fingerprint": 17752545506692137272
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 17603926856436679036
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-nodes/index.json",
+        "title": "System.Text.Json.Nodes",
+        "similarity": 0.7183,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 9860979202420835664
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703869732690724188
           }
         }
       },
@@ -226,12 +277,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13140716481029145400
+            "fingerprint": 13140681365376664376
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992239188741849468
+            "fingerprint": 12992238638986035580
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsondocument/index.json",
+        "title": "System.Text.Json.JsonDocument",
+        "similarity": 0.6973,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13460983673022227226
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703867533935911260
           }
         }
       },
@@ -251,84 +319,6 @@
             "fingerprint": 17603924657413423484
           }
         }
-      },
-      {
-        "href": "/csharp/object-initialization/index.json",
-        "title": "Object Initialization",
-        "similarity": 0.6824,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7058325005360841626
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 17751804552900313392
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603925754777575800
-          }
-        }
-      },
-      {
-        "href": "/cli/index.json",
-        "title": "CLI",
-        "similarity": 0.6809,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13139554503262208824
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 13139588021186986364
-          }
-        }
-      },
-      {
-        "href": "/cli/assembly-trimming/index.json",
-        "title": "Assembly Trimming",
-        "similarity": 0.6727,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 15867871635841552429
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13139696325230338417
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 3773366901076271484
-          }
-        }
-      },
-      {
-        "href": "/extensions/microsoft-extensions-ai/index.json",
-        "title": "Microsoft.Extensions.AI",
-        "similarity": 0.665,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13136320841712640308
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12992240838009299324
-          }
-        }
       }
     ]
   },
@@ -336,7 +326,7 @@
     "topics": []
   },
   "metadata": {
-    "generated": "2025-10-08T22:51:50.7518232Z",
+    "generated": "2025-10-14T05:30:35.6099198Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

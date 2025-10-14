@@ -1,23 +1,20 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 130
-Total word occurrences: 229
-Total document words: 452
+Total unique words: 123
+Total word occurrences: 195
+Total document words: 453
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | use | 9 | 0.0199 |
-| objects | 8 | 0.0177 |
-| constructor | 7 | 0.0155 |
-| initialization | 7 | 0.0155 |
 | initializers | 7 | 0.0155 |
-| properties | 7 | 0.0155 |
-| constructors | 5 | 0.0111 |
-| object | 5 | 0.0111 |
-| patterns | 5 | 0.0111 |
+| constructors | 5 | 0.0110 |
+| initialization | 5 | 0.0110 |
+| properties | 5 | 0.0110 |
+| constructor | 4 | 0.0088 |
 | immutable | 4 | 0.0088 |
-| parameters | 4 | 0.0088 |
+| patterns | 4 | 0.0088 |
 | records | 4 | 0.0088 |
 | required | 4 | 0.0088 |
 | during | 3 | 0.0066 |
@@ -30,16 +27,13 @@ Total document words: 452
 | after | 2 | 0.0044 |
 | capacity | 2 | 0.0044 |
 | code | 2 | 0.0044 |
-| collections | 2 | 0.0044 |
 | combine | 2 | 0.0044 |
-| conditional | 2 | 0.0044 |
-| configuration | 2 | 0.0044 |
 | construction | 2 | 0.0044 |
 | deconstruction | 2 | 0.0044 |
+| handle | 2 | 0.0044 |
 | initialized | 2 | 0.0044 |
 | linq | 2 | 0.0044 |
 | optional | 2 | 0.0044 |
-| pitfalls | 2 | 0.0044 |
 | pre-size | 2 | 0.0044 |
 | prefer | 2 | 0.0044 |
 | projections | 2 | 0.0044 |
@@ -47,14 +41,13 @@ Total document words: 452
 | provide | 2 | 0.0044 |
 | set | 2 | 0.0044 |
 | setters | 2 | 0.0044 |
-| simple | 2 | 0.0044 |
-| values | 2 | 0.0044 |
 | advanced | 1 | 0.0022 |
 | appropriate | 1 | 0.0022 |
 | attribute | 1 | 0.0022 |
 | automatically | 1 | 0.0022 |
 | avoid | 1 | 0.0022 |
 | basic | 1 | 0.0022 |
+| best | 1 | 0.0022 |
 | builder | 1 | 0.0022 |
 | builders | 1 | 0.0022 |
 | calls | 1 | 0.0022 |
@@ -63,7 +56,6 @@ Total document words: 452
 | clearest | 1 | 0.0022 |
 | combined | 1 | 0.0022 |
 | combining | 1 | 0.0022 |
-| common | 1 | 0.0022 |
 | commonly | 1 | 0.0022 |
 | complete | 1 | 0.0022 |
 | complex | 1 | 0.0022 |
@@ -103,11 +95,13 @@ Total document words: 452
 | matching | 1 | 0.0022 |
 | matters | 1 | 0.0022 |
 | modern | 1 | 0.0022 |
-| multiple | 1 | 0.0022 |
 | need | 1 | 0.0022 |
 | once | 1 | 0.0022 |
 | overloads | 1 | 0.0022 |
 | overview | 1 | 0.0022 |
+| parameters | 1 | 0.0022 |
+| pitfalls | 1 | 0.0022 |
+| practices | 1 | 0.0022 |
 | primary | 1 | 0.0022 |
 | problem | 1 | 0.0022 |
 | proliferation | 1 | 0.0022 |
@@ -130,7 +124,6 @@ Total document words: 452
 | temporary | 1 | 0.0022 |
 | their | 1 | 0.0022 |
 | them | 1 | 0.0022 |
-| using | 1 | 0.0022 |
 | validate | 1 | 0.0022 |
 | validation | 1 | 0.0022 |
 | validity | 1 | 0.0022 |

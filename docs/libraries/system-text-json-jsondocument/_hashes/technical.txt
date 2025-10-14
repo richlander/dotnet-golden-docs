@@ -1,0 +1,16 @@
+Title | System.Text.Json.JsonDocument
+TypeName | System.Text.Json.JsonDocument
+TypeName | System.Text.Json
+TypeName | JsonDocument
+API | GetProperty
+API | JsonDocument.Parse
+API | GetString
+API | TryGetProperty
+API | Console.WriteLine
+API | EnumerateArray
+API | GetInt32
+API | GetRawText
+API | EnumerateObject
+API | JsonDocument.ParseAsync
+API | GetBoolean
+API | Select

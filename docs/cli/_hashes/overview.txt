@@ -1,8 +1,8 @@
 Title | CLI
 Keyword | cli
-Keyword | package
 Keyword | development
 Keyword | tools
+Keyword | package
 Keyword | global
 Keyword | builds
 Keyword | commands

@@ -1,0 +1,16 @@
+Title | System.Text.Json.JsonSerializer
+TypeName | System.Text.Json.JsonSerializer
+TypeName | System.Text.Json
+TypeName | JsonSerializer
+API | JsonSerializer.Serialize
+API | System.Text.Json
+API | System.Text
+API | Console.WriteLine
+API | System.Text.Json.Serialization
+API | Description
+API | Product
+API | JsonConstructor
+API | JsonDerivedType
+API | JsonSerializable
+API | JsonSerializerOptions
+API | JsonStringEnumMemberName

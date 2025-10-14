@@ -43,7 +43,7 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13136320841712640308 |
+| overview | simhash | 13136320824532771124 |
 | technical | simhash | 12992240838009299324 |
 
 ## Relationships
@@ -63,16 +63,16 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 |---------|-------|
 | ai | 32.00 |
 | microsoft.extensions.ai | 5.00 |
-| middleware | 11.00 |
 | services | 10.00 |
+| middleware | 9.00 |
 | dependency injection | 5.00 |
 | middleware composition | 5.00 |
 | function calling | 4.00 |
 | net | 8.00 |
 | interfaces | 6.00 |
+| service | 6.00 |
 | caching | 6.00 |
 | familiar | 4.00 |
-| functionality | 4.00 |
 
 ## APIs
 
@@ -101,12 +101,12 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6811 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6650 |
 | cli | cli | 0.6615 |
+| libraries | libraries/system-text-json | 0.6579 |
 | csharp | csharp/csharp-14-features | 0.6469 |
 | cli | cli/file-based-apps | 0.6440 |
 | cli | cli/native-aot | 0.6401 |
 | libraries | libraries/system-commandline | 0.6293 |
-| libraries | libraries/system-text-json | 0.6256 |
-| csharp | csharp | 0.6054 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6258 |
 
 ## Authority Scores
 

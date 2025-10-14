@@ -37,3 +37,44 @@ System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) f
 | Priority | 2 (High) |
 | Version | 3.0 |
 | Year | 2019 |
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 13460983673022227226 |
+| technical | simhash | 12703867533935911260 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries/system-text-json-nodes | 0.9017 |
+| libraries | libraries/system-text-json | 0.8591 |
+| libraries | libraries/system-text-json-jsonserializer | 0.8164 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.8127 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.7693 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7494 |
+| libraries | libraries/system-text-json-source-generation | 0.7278 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6973 |
+| csharp | csharp/csharp-14-features | 0.6811 |
+| libraries | libraries/system-buffers-searchvalues | 0.6724 |
+| dotnet | dotnet | 0.6507 |
+| csharp | csharp/object-initialization | 0.6371 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| GetProperty | method | 39 |
+| JsonDocument.Parse | method | 24 |
+| GetString | method | 17 |
+| TryGetProperty | method | 15 |
+| Console.WriteLine | method | 10 |
+| EnumerateArray | method | 9 |
+| GetInt32 | method | 8 |
+| GetRawText | method | 7 |
+| EnumerateObject | method | 5 |
+| JsonDocument.ParseAsync | method | 5 |
+| GetBoolean | method | 4 |
+| Select | method | 4 |
+

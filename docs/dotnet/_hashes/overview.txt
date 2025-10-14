@@ -1,6 +1,7 @@
 Title | .NET Platform
 TypeName | .NET Platform
 Keyword | net
+Keyword | cross-platform
 Keyword | libraries
 Keyword | like
 Keyword | while
@@ -10,6 +11,5 @@ Keyword | code
 Keyword | runtime
 Keyword | languages
 Keyword | modern
-Keyword | cross-platform
-Keyword | apis
+Keyword | tools
 Description | .NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps.

@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 6 compound terms and 155 single words
-Total unique terms: 161
+Combined 7 compound terms and 151 single words
+Total unique terms: 158
 Terms with score ≥ 3.0: 18
-Total term occurrences: 247
+Total term occurrences: 238
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,21 +14,21 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| collection expressions | compound | 15 | 1.50x | 1.50x | 33.8 |
+| collection expressions | compound | 16 | 1.50x | 1.50x | 36.0 |
 | syntax | single | 10 | 1.00x | 1.00x | 10.0 |
 | collection types | compound | 4 | 1.10x | 1.50x | 6.6 |
 | target type | compound | 4 | 1.10x | 1.50x | 6.6 |
-| collections | single | 6 | 1.00x | 1.00x | 6.0 |
 | spread | single | 5 | 1.00x | 1.00x | 5.0 |
+| collections | single | 4 | 1.00x | 1.00x | 4.0 |
 | familiar | single | 4 | 1.00x | 1.00x | 4.0 |
-| params | single | 4 | 1.00x | 1.00x | 4.0 |
-| patterns | single | 4 | 1.00x | 1.00x | 4.0 |
 | use | single | 4 | 1.00x | 1.00x | 4.0 |
 | spread element | compound | 2 | 1.25x | 1.50x | 3.8 |
+| using collection expressions | compound | 2 | 1.25x | 1.50x | 3.8 |
 | compile-time constants | compound | 2 | 1.10x | 1.50x | 3.3 |
 | inline arrays | compound | 2 | 1.10x | 1.50x | 3.3 |
 | combine | single | 3 | 1.00x | 1.00x | 3.0 |
 | concise | single | 3 | 1.00x | 1.00x | 3.0 |
 | javascript | single | 3 | 1.00x | 1.00x | 3.0 |
+| patterns | single | 3 | 1.00x | 1.00x | 3.0 |
 | provide | single | 3 | 1.00x | 1.00x | 3.0 |
 | python | single | 3 | 1.00x | 1.00x | 3.0 |

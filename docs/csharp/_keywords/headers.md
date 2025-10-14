@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 30
+Total headers: 29
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 7 headers (multiplier: 1.25x)
-- **H3**: 22 headers (multiplier: 1.1x)
+- **H2**: 10 headers (multiplier: 1.25x)
+- **H3**: 18 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -25,11 +25,10 @@ Total headers: 30
 | H3 | .NET Ecosystem Integration | 1.1x |
 | H3 | Cross-Platform Development | 1.1x |
 | H3 | Application Frameworks | 1.1x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | Enterprise and Web Development | 1.1x |
-| H3 | Desktop and Mobile Applications | 1.1x |
-| H3 | Cloud-Native Development | 1.1x |
-| H3 | Performance-Critical Applications | 1.1x |
+| H2 | Using C# for Enterprise and Web Development | 1.25x |
+| H2 | Using C# for Desktop and Mobile Applications | 1.25x |
+| H2 | Using C# for Cloud-Native Development | 1.25x |
+| H2 | Using C# for Performance-Critical Applications | 1.25x |
 | H2 | Gotchas & Limitations | 1.25x |
 | H3 | Learning Curve | 1.1x |
 | H3 | Platform Dependencies | 1.1x |

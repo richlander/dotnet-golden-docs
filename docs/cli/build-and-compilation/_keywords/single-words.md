@@ -1,49 +1,45 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 108
-Total word occurrences: 165
-Total document words: 298
+Total unique words: 102
+Total word occurrences: 153
+Total document words: 293
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| build | 15 | 0.0503 |
-| configuration | 5 | 0.0168 |
-| ci | 4 | 0.0134 |
-| analysis | 3 | 0.0101 |
-| builds | 3 | 0.0101 |
-| code | 3 | 0.0101 |
-| commands | 3 | 0.0101 |
-| compilation | 3 | 0.0101 |
-| multiple | 3 | 0.0101 |
-| nuget | 3 | 0.0101 |
-| parallel | 3 | 0.0101 |
-| workflows | 3 | 0.0101 |
-| automation | 2 | 0.0067 |
-| binaries | 2 | 0.0067 |
-| caching | 2 | 0.0067 |
-| cd | 2 | 0.0067 |
-| common | 2 | 0.0067 |
-| configurations | 2 | 0.0067 |
-| engineers | 2 | 0.0067 |
-| executable | 2 | 0.0067 |
-| execution | 2 | 0.0067 |
-| incremental | 2 | 0.0067 |
-| integration | 2 | 0.0067 |
-| issues | 2 | 0.0067 |
-| local | 2 | 0.0067 |
-| multi-targeting | 2 | 0.0067 |
-| optimization | 2 | 0.0067 |
-| patterns | 2 | 0.0067 |
-| pipeline | 2 | 0.0067 |
-| strategies | 2 | 0.0067 |
+| build | 15 | 0.0512 |
+| compilation | 5 | 0.0171 |
+| ci | 4 | 0.0137 |
+| analysis | 3 | 0.0102 |
+| builds | 3 | 0.0102 |
+| code | 3 | 0.0102 |
+| commands | 3 | 0.0102 |
+| nuget | 3 | 0.0102 |
+| parallel | 3 | 0.0102 |
+| workflows | 3 | 0.0102 |
+| automation | 2 | 0.0068 |
+| binaries | 2 | 0.0068 |
+| caching | 2 | 0.0068 |
+| cd | 2 | 0.0068 |
+| configuration | 2 | 0.0068 |
+| configurations | 2 | 0.0068 |
+| engineers | 2 | 0.0068 |
+| executable | 2 | 0.0068 |
+| execution | 2 | 0.0068 |
+| incremental | 2 | 0.0068 |
+| issues | 2 | 0.0068 |
+| local | 2 | 0.0068 |
+| multi-targeting | 2 | 0.0068 |
+| patterns | 2 | 0.0068 |
+| pipeline | 2 | 0.0068 |
+| strategies | 2 | 0.0068 |
 | across | 1 | 0.0034 |
 | advanced | 1 | 0.0034 |
 | artifact | 1 | 0.0034 |
 | asset | 1 | 0.0034 |
 | audiences | 1 | 0.0034 |
-| cases | 1 | 0.0034 |
 | changed | 1 | 0.0034 |
+| common | 1 | 0.0034 |
 | complex | 1 | 0.0034 |
 | components | 1 | 0.0034 |
 | configuration-based | 1 | 0.0034 |
@@ -74,6 +70,7 @@ Total document words: 298
 | linux | 1 | 0.0034 |
 | macos | 1 | 0.0034 |
 | manages | 1 | 0.0034 |
+| multiple | 1 | 0.0034 |
 | optimized | 1 | 0.0034 |
 | orchestration | 1 | 0.0034 |
 | overview | 1 | 0.0034 |
@@ -86,8 +83,6 @@ Total document words: 298
 | provides | 1 | 0.0034 |
 | publishing | 1 | 0.0034 |
 | rebuild | 1 | 0.0034 |
-| reference | 1 | 0.0034 |
-| references | 1 | 0.0034 |
 | release | 1 | 0.0034 |
 | reproducible | 1 | 0.0034 |
 | resolution | 1 | 0.0034 |
@@ -110,7 +105,6 @@ Total document words: 298
 | transforms | 1 | 0.0034 |
 | troubleshooting | 1 | 0.0034 |
 | unified | 1 | 0.0034 |
-| use | 1 | 0.0034 |
 | utilize | 1 | 0.0034 |
 | versions | 1 | 0.0034 |
 | windows | 1 | 0.0034 |

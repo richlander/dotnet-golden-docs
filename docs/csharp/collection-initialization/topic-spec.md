@@ -71,13 +71,13 @@ Collection initialization encompasses the traditional and modern approaches to c
 | Keyword | Score |
 |---------|-------|
 | collection expressions | 12.00 |
-| collection initialization | 3.00 |
-| values | 8.00 |
+| collection initialization | 6.00 |
+| syntax | 8.00 |
 | target-typed new | 3.00 |
 | collection types | 3.00 |
-| collections | 6.00 |
-| syntax | 8.00 |
 | collection initializer syntax | 2.00 |
+| values | 6.00 |
+| collections | 4.00 |
 | capacity | 3.00 |
 | dictionaries | 3.00 |
 | dictionary | 3.00 |
@@ -110,12 +110,12 @@ Collection initialization encompasses the traditional and modern approaches to c
 | libraries | libraries/system-buffers-searchvalues | 0.6978 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6777 |
 | libraries | libraries/string-search-operations | 0.6635 |
+| libraries | libraries/system-text-json-nodes | 0.6523 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6426 |
 | libraries | libraries | 0.6305 |
-| dotnet | dotnet | 0.5751 |
-| cli | cli/assembly-trimming | 0.5656 |
-| cli | cli/file-based-apps | 0.5599 |
-| cli | cli/build-and-compilation | 0.5299 |
-| cli | cli | 0.5278 |
+| libraries | libraries/system-text-json | 0.6231 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6188 |
+| libraries | libraries/system-text-json-jsondocument | 0.6115 |
 
 ## Authority Scores
 

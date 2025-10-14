@@ -65,7 +65,7 @@
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | overview | simhash | 12995440279407100792 |
-| technical | simhash | 12995477800241332528 |
+| technical | simhash | 12995475601218077040 |
 
 ## Relationships
 
@@ -76,7 +76,8 @@
 
 | Keyword | Score |
 |---------|-------|
-| net | 35.00 |
+| net | 38.00 |
+| cross-platform | 7.00 |
 | libraries | 11.00 |
 | like | 10.00 |
 | while | 10.00 |
@@ -86,8 +87,7 @@
 | runtime | 12.00 |
 | languages | 6.00 |
 | modern | 6.00 |
-| cross-platform | 7.00 |
-| apis | 7.00 |
+| tools | 7.00 |
 
 ## Similarity Scores
 
@@ -100,11 +100,11 @@
 | libraries | libraries/dotnet-10-library-improvements | 0.7626 |
 | cli | cli/build-and-compilation | 0.7617 |
 | cli | cli/file-based-apps | 0.7610 |
-| libraries | libraries/system-text-json | 0.7299 |
+| libraries | libraries/system-text-json | 0.7318 |
 | csharp | csharp/csharp-14-features | 0.7274 |
 | extensions | extensions/microsoft-extensions-ai | 0.7043 |
 | libraries | libraries/system-commandline | 0.7004 |
-| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6825 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6924 |
 
 ### Similarity Metadata
 
@@ -113,7 +113,7 @@
 | cli | 0.7610 | P50 | 6 |
 | csharp | 0.6188 | P50 | 5 |
 | extensions | 0.6825 | P50 | 3 |
-| libraries | 0.7004 | P50 | 7 |
+| libraries | 0.6507 | P70 | 13 |
 
 ## Authority Scores
 

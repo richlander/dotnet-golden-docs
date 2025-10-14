@@ -1,0 +1,311 @@
+{
+  "id": "libraries/system-text-json-nodes",
+  "title": "System.Text.Json.Nodes",
+  "description": "System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing developers to navigate, query, and modify JSON structures dynamically without needing to define concrete types.",
+  "category": "Libraries",
+  "complexity": 0.6,
+  "priority": 2,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "6.0",
+    "year": "2021"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 9860979202420835664
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 12703869732690724188
+    }
+  },
+  "keywords": null,
+  "apis": [
+    {
+      "name": "JsonNode.Parse",
+      "type": "method",
+      "count": 20
+    },
+    {
+      "name": "AsObject",
+      "type": "method",
+      "count": 9
+    },
+    {
+      "name": "ToJsonString",
+      "type": "method",
+      "count": 6
+    },
+    {
+      "name": "AsArray",
+      "type": "method",
+      "count": 5
+    },
+    {
+      "name": "DateTime.UtcNow.ToString",
+      "type": "method",
+      "count": 4
+    },
+    {
+      "name": "DeepClone",
+      "type": "method",
+      "count": 4
+    },
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 3
+    },
+    {
+      "name": "JsonArray",
+      "type": "method",
+      "count": 3
+    }
+  ],
+  "diagnostic_codes": null,
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/libraries/system-text-json-nodes/index.json",
+      "description": "System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing developers to navigate, query, and modify JSON structures dynamically without needing to define concrete types."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/libraries/index.json",
+      "description": "Libraries category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/system-text-json-nodes/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/system-text-json-nodes/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "related": [
+      {
+        "href": "/libraries/system-text-json-jsondocument/index.json",
+        "title": "System.Text.Json.JsonDocument",
+        "similarity": 0.9017,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13460983673022227226
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703867533935911260
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.873,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.843,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "title": "System.Text.Json.Utf8JsonReader",
+        "similarity": 0.7954,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 2796080149753443096
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704010495948890620
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
+        "similarity": 0.7949,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 614095243011328414
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974224274836293980
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+        "title": "System.Text.Json.Utf8JsonWriter",
+        "similarity": 0.7544,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 469786640745173528
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603924666003358076
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-source-generation/index.json",
+        "title": "System.Text.Json Source Generation",
+        "similarity": 0.7529,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 11224889504112485232
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17747863716396172082
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13154369194086507384
+          }
+        }
+      },
+      {
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.7183,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751806634878108464
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17602622835646144888
+          }
+        }
+      },
+      {
+        "href": "/csharp/csharp-14-features/index.json",
+        "title": "C# 14 Language Features",
+        "similarity": 0.709,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7262411006152912613
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991679535167439672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008812590162300
+          }
+        }
+      },
+      {
+        "href": "/csharp/object-initialization/index.json",
+        "title": "Object Initialization",
+        "similarity": 0.6729,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7058325005360841626
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751804553974055728
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603925754777575800
+          }
+        }
+      },
+      {
+        "href": "/dotnet/index.json",
+        "title": ".NET Platform",
+        "similarity": 0.6702,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12995440279407100792
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12995475601218077040
+          }
+        }
+      }
+    ]
+  },
+  "_embedded": {
+    "topics": []
+  },
+  "metadata": {
+    "generated": "2025-10-14T05:30:35.6288207Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

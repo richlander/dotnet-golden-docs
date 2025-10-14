@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 121 single words
-Total unique terms: 131
-Terms with score ≥ 3.0: 25
-Total term occurrences: 220
+Combined 11 compound terms and 114 single words
+Total unique terms: 124
+Terms with score ≥ 3.0: 23
+Total term occurrences: 203
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -24,7 +24,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | dependency injection | compound | 3 | 1.10x | 1.50x | 5.0 |
 | application | single | 4 | 1.00x | 1.00x | 4.0 |
 | asp | single | 4 | 1.00x | 1.00x | 4.0 |
-| json | single | 4 | 1.00x | 1.00x | 4.0 |
 | memory management | compound | 2 | 1.25x | 1.50x | 3.8 |
 | azure sdk | compound | 2 | 1.10x | 1.50x | 3.3 |
 | entity framework core | compound | 2 | 1.10x | 1.50x | 3.3 |
@@ -34,7 +33,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | across | single | 3 | 1.00x | 1.00x | 3.0 |
 | async | single | 3 | 1.00x | 1.00x | 3.0 |
 | base class library | compound | 2 | 1.00x | 1.50x | 3.0 |
-| core | single | 3 | 1.00x | 1.00x | 3.0 |
 | data | single | 3 | 1.00x | 1.00x | 3.0 |
 | distributed | single | 3 | 1.00x | 1.00x | 3.0 |
 | high-performance | single | 3 | 1.00x | 1.00x | 3.0 |

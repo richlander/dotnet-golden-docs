@@ -1,0 +1,353 @@
+{
+  "id": "libraries/system-text-json-jsonserializer",
+  "title": "System.Text.Json.JsonSerializer",
+  "description": "System.Text.Json.JsonSerializer provides high-level APIs for converting between .NET objects and JSON text with support for serialization, deserialization, and advanced customization.",
+  "category": "Libraries",
+  "complexity": 0.5,
+  "priority": 1,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "3.0",
+    "year": "2019"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 3087081535174783256
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 12992240880958973404
+    }
+  },
+  "keywords": null,
+  "apis": [
+    {
+      "name": "JsonSerializer.Serialize",
+      "type": "method",
+      "count": 40
+    },
+    {
+      "name": "System.Text.Json",
+      "type": "type",
+      "count": 20
+    },
+    {
+      "name": "System.Text",
+      "type": "namespace",
+      "count": 18
+    },
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 16
+    },
+    {
+      "name": "System.Text.Json.Serialization",
+      "type": "type",
+      "count": 15
+    },
+    {
+      "name": "Description",
+      "type": "attribute",
+      "count": 8
+    },
+    {
+      "name": "Product",
+      "type": "method",
+      "count": 6
+    },
+    {
+      "name": "JsonConstructor",
+      "type": "attribute",
+      "count": 4
+    },
+    {
+      "name": "JsonDerivedType",
+      "type": "attribute",
+      "count": 4
+    },
+    {
+      "name": "JsonSerializable",
+      "type": "attribute",
+      "count": 4
+    },
+    {
+      "name": "JsonSerializerOptions",
+      "type": "method",
+      "count": 4
+    },
+    {
+      "name": "JsonStringEnumMemberName",
+      "type": "attribute",
+      "count": 4
+    }
+  ],
+  "diagnostic_codes": null,
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/libraries/system-text-json-jsonserializer/index.json",
+      "description": "System.Text.Json.JsonSerializer provides high-level APIs for converting between .NET objects and JSON text with support for serialization, deserialization, and advanced customization."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/libraries/index.json",
+      "description": "Libraries category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/system-text-json-jsonserializer/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/system-text-json-jsonserializer/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "related": [
+      {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.9334,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-source-generation/index.json",
+        "title": "System.Text.Json Source Generation",
+        "similarity": 0.8652,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 11224889504112485232
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17747863716396172082
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13154369194086507384
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-nodes/index.json",
+        "title": "System.Text.Json.Nodes",
+        "similarity": 0.843,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 9860979202420835664
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703869732690724188
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
+        "similarity": 0.8428,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 614095243011328414
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974224274836293980
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "title": "System.Text.Json.Utf8JsonReader",
+        "similarity": 0.8423,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 2796080149753443096
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704010495948890620
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+        "title": "System.Text.Json.Utf8JsonWriter",
+        "similarity": 0.8289,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 469786640745173528
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603924666003358076
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsondocument/index.json",
+        "title": "System.Text.Json.JsonDocument",
+        "similarity": 0.8164,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13460983673022227226
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703867533935911260
+          }
+        }
+      },
+      {
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.7658,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751806634878108464
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17602622835646144888
+          }
+        }
+      },
+      {
+        "href": "/csharp/csharp-14-features/index.json",
+        "title": "C# 14 Language Features",
+        "similarity": 0.7259,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7262411006152912613
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991679535167439672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008812590162300
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-commandline/index.json",
+        "title": "System.CommandLine",
+        "similarity": 0.7107,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 4477352130680084748
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13031609950279271226
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603784469680882044
+          }
+        }
+      },
+      {
+        "href": "/csharp/index.json",
+        "title": "C# Language",
+        "similarity": 0.7075,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3772209114392757042
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12990971914609426736
+          }
+        }
+      },
+      {
+        "href": "/csharp/object-initialization/index.json",
+        "title": "Object Initialization",
+        "similarity": 0.7033,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7058325005360841626
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751804553974055728
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603925754777575800
+          }
+        }
+      }
+    ]
+  },
+  "_embedded": {
+    "topics": []
+  },
+  "metadata": {
+    "generated": "2025-10-14T05:30:35.6237552Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

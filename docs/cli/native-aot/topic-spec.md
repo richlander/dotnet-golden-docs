@@ -45,8 +45,8 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 128515531412412530 |
-| overview | simhash | 17746882522527531890 |
-| technical | simhash | 13136350303040708924 |
+| overview | simhash | 17748007322922713970 |
+| technical | simhash | 13136350303040708988 |
 
 ## Relationships
 
@@ -62,18 +62,18 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 
 | Keyword | Score |
 |---------|-------|
-| native aot | 9.00 |
+| native aot | 10.00 |
+| compilation | 9.00 |
+| runtime | 11.00 |
+| source generation | 4.00 |
 | no | 6.00 |
 | reflection-based | 4.00 |
-| runtime | 11.00 |
-| compilation | 7.00 |
-| json | 7.00 |
-| source generation | 4.00 |
 | jit | 4.00 |
 | supported | 4.00 |
+| using native aot | 2.00 |
 | code | 7.00 |
 | self-contained | 3.00 |
-| generic methods | 2.00 |
+| system.text.json source generation | 2.00 |
 
 ## APIs
 
@@ -101,15 +101,15 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | cli | cli/publishing-and-deployment | 0.8261 |
 | cli | cli/file-based-apps | 0.7976 |
 | dotnet | dotnet | 0.7752 |
-| libraries | libraries/system-text-json-source-generation | 0.7595 |
+| libraries | libraries/system-text-json-source-generation | 0.7720 |
 | cli | cli/build-and-compilation | 0.7450 |
-| libraries | libraries/system-text-json | 0.6960 |
 | libraries | libraries | 0.6828 |
+| libraries | libraries/system-text-json | 0.6702 |
 | libraries | libraries/system-commandline | 0.6697 |
 | csharp | csharp/csharp-14-features | 0.6593 |
 | csharp | csharp | 0.6473 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6411 |
 | extensions | extensions/microsoft-extensions-ai | 0.6401 |
-| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6161 |
 
 ## Authority Scores
 

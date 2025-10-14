@@ -61,9 +61,9 @@ File-based apps allow developers to run and publish single .cs files directly wi
 
 | Keyword | Score |
 |---------|-------|
-| file-based apps | 13.00 |
+| file-based apps | 14.00 |
 | docs | 18.00 |
-| file-based | 15.00 |
+| file-based | 16.00 |
 | project | 14.00 |
 | dotnet | 12.00 |
 | scripts | 10.00 |
@@ -98,11 +98,11 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | libraries | libraries | 0.7375 |
 | libraries | libraries/system-commandline | 0.7239 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6961 |
-| libraries | libraries/system-text-json | 0.6947 |
+| libraries | libraries/system-text-json | 0.6849 |
 | csharp | csharp/csharp-14-features | 0.6828 |
 | csharp | csharp | 0.6755 |
-| extensions | extensions/microsoft-extensions-ai | 0.6440 |
-| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6092 |
+| libraries | libraries/system-text-json-source-generation | 0.6709 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6660 |
 
 ## Authority Scores
 

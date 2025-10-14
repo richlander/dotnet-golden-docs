@@ -8,49 +8,29 @@ Combined local and global scoring:
 
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
-| source generation | compound | 13 | 1.50x | 1.50x | 1.5x | 43.875 |
-| json | single | 16 | 1.00x | 1.00x | 1.5x | 24.000 |
-| reflection-based | compound | 5 | 1.00x | 1.50x | 2.0x | 15.000 |
-| serialization | single | 9 | 1.00x | 1.00x | 1.5x | 13.500 |
-| aot applications | compound | 4 | 1.10x | 1.50x | 2.0x | 13.200 |
-| context | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| errors | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| naming | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| newtonsoft.json | compound | 3 | 1.25x | 1.50x | 2.0x | 11.250 |
-| scenarios | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
+| source generation | compound | 7 | 1.50x | 1.50x | 1.5x | 23.625 |
+| system.text.json source generation | compound | 5 | 1.50x | 1.50x | 2.0x | 22.500 |
+| naming policies | compound | 4 | 1.25x | 1.50x | 2.0x | 15.000 |
+| compile-time | compound | 9 | 1.00x | 1.50x | 1.0x | 13.500 |
 | aot compatibility | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
-| system.text.json source generation | compound | 2 | 1.50x | 1.50x | 2.0x | 9.000 |
-| code | single | 8 | 1.00x | 1.00x | 1.0x | 8.000 |
+| native aot applications | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
+| aot-compatible | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
+| generic methods | compound | 3 | 1.25x | 1.50x | 1.5x | 8.438 |
 | runtime | single | 8 | 1.00x | 1.00x | 1.0x | 8.000 |
-| migration | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| newtonsoft | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| overhead | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| text | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| these | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| property naming policies | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
+| asp.net core web apis | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
+| multiple contexts | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | native aot | compound | 3 | 1.10x | 1.50x | 1.5x | 7.425 |
-| patterns | single | 7 | 1.00x | 1.00x | 1.0x | 7.000 |
-| compile-time | compound | 3 | 1.00x | 1.50x | 1.5x | 6.750 |
-| system.text.json | compound | 2 | 1.50x | 1.50x | 1.5x | 6.750 |
-| aot compilation | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| let source generation handle | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| source generation handle naming | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| unconstrained generics | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| system | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| reflection-based | compound | 3 | 1.00x | 1.50x | 1.5x | 6.750 |
+| code | single | 6 | 1.00x | 1.00x | 1.0x | 6.000 |
+| attributes | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| serialization | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | utf-8 | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
-| cannot | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| deployments | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| generic | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| jsonpropertyname | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| need | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| parameters | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| type-safe | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
-| usage | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| warnings | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| works | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| mandatory | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | use | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
-| common | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| enables | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| high-performance | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |
-| options | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| using | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| performance optimization | compound | 2 | 1.10x | 1.50x | 1.5x | 4.950 |
+| apis | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| asp | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| overhead | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| startup | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| system | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
+| text | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

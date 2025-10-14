@@ -41,8 +41,8 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 17751807734389736240 |
-| technical | simhash | 17603750934576243000 |
+| overview | simhash | 17751806634878108464 |
+| technical | simhash | 17602622835646144888 |
 
 ## Relationships
 
@@ -60,17 +60,17 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | Keyword | Score |
 |---------|-------|
 | security | 9.00 |
-| json | 9.00 |
 | net 10 | 2.00 |
 | span-based | 3.00 |
 | improvements | 4.00 |
-| apis | 5.00 |
 | high-performance text processing | 2.00 |
 | post-quantum cryptography | 2.00 |
 | algorithms | 3.00 |
 | comparison | 3.00 |
 | cryptography | 3.00 |
 | duplicate | 3.00 |
+| hex | 3.00 |
+| numericordering | 3.00 |
 
 ## APIs
 
@@ -86,16 +86,16 @@ Collection topic covering key .NET 10 library improvements including numeric str
 |----------|----------|------------|
 | csharp | csharp/csharp-14-features | 0.7967 |
 | libraries | libraries | 0.7945 |
-| libraries | libraries/system-text-json | 0.7690 |
+| libraries | libraries/system-text-json | 0.7844 |
+| libraries | libraries/system-text-json-jsonserializer | 0.7658 |
 | dotnet | dotnet | 0.7626 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7378 |
 | csharp | csharp | 0.7352 |
 | libraries | libraries/string-search-operations | 0.7306 |
+| libraries | libraries/system-text-json-nodes | 0.7183 |
 | libraries | libraries/system-buffers-searchvalues | 0.7137 |
+| libraries | libraries/system-text-json-jsondocument | 0.6973 |
 | cli | cli/file-based-apps | 0.6961 |
-| csharp | csharp/object-initialization | 0.6824 |
-| cli | cli | 0.6809 |
-| cli | cli/assembly-trimming | 0.6727 |
-| extensions | extensions/microsoft-extensions-ai | 0.6650 |
 
 ## Critical limitations
 

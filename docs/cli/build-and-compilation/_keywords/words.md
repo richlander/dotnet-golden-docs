@@ -9,8 +9,8 @@ Combined local and global scoring:
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | build | single | 15 | 1.00x | 1.00x | 2.0x | 30.000 |
+| compilation | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | build acceleration | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
-| performance optimization | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | custom build configurations | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | dependency resolution | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | msbuild integration | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
@@ -19,9 +19,7 @@ Combined local and global scoring:
 | builds | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | parallel | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | workflows | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| configuration | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
+| performance optimization | compound | 2 | 1.25x | 1.50x | 1.5x | 5.625 |
 | commands | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| compilation | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| multiple | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | nuget | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | code | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

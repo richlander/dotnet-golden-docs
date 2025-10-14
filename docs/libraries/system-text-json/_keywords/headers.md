@@ -1,12 +1,12 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 17
+Total headers: 28
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 6 headers (multiplier: 1.25x)
+- **H2**: 17 headers (multiplier: 1.25x)
 - **H3**: 10 headers (multiplier: 1.1x)
 
 ## All Headers
@@ -15,18 +15,29 @@ Total headers: 17
 |-------|------|------------|
 | H1 | System.Text.Json | 1.5x |
 | H2 | Overview | 1.25x |
-| H2 | Essential Syntax & Examples | 1.25x |
-| H3 | Basic Serialization/Deserialization | 1.1x |
-| H3 | Source Generation (Recommended for Performance) | 1.1x |
-| H3 | Configuration Options | 1.1x |
-| H3 | .NET 10 New Features | 1.1x |
-| H2 | Relationships & Integration | 1.25x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | High-Performance API Serialization | 1.1x |
-| H3 | Configuration File Processing | 1.1x |
-| H3 | Stream Processing for Large Files | 1.1x |
-| H2 | Gotchas & Limitations | 1.25x |
-| H3 | Critical Differences from Newtonsoft.Json | 1.1x |
-| H3 | Performance Considerations | 1.1x |
-| H3 | Security Limitations | 1.1x |
-| H2 | See Also | 1.25x |
+| H2 | Quick Reference | 1.25x |
+| H2 | Choosing the Right API | 1.25x |
+| H2 | Components | 1.25x |
+| H3 | JsonSerializer | 1.1x |
+| H3 | JsonDocument | 1.1x |
+| H3 | JsonNode | 1.1x |
+| H3 | Utf8JsonReader | 1.1x |
+| H3 | Utf8JsonWriter | 1.1x |
+| H3 | Migration from Newtonsoft.Json | 1.1x |
+| H2 | Source Generation | 1.25x |
+| H2 | ASP.NET Core Integration | 1.25x |
+| H2 | HttpClient Extensions | 1.25x |
+| H2 | Configuration Files | 1.25x |
+| H2 | Large File Streaming | 1.25x |
+| H2 | Performance Optimization | 1.25x |
+| H2 | Using with Large File Streaming | 1.25x |
+| H2 | Document Object Model Navigation | 1.25x |
+| H2 | Enabling Source Generation with Generic Methods | 1.25x |
+| H2 | Using Source Generation with Structured Chat Responses | 1.25x |
+| H2 | Adding System.Text.Json to a project | 1.25x |
+| H3 | Package Pruning Behavior | 1.1x |
+| H2 | Considerations | 1.25x |
+| H3 | Serialization Differences and Migration | 1.1x |
+| H3 | Performance Optimization | 1.1x |
+| H3 | Security Constraints | 1.1x |
+| H2 | Related Concepts | 1.25x |

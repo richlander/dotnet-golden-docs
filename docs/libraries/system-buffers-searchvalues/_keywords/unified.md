@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 5 compound terms and 154 single words
-Total unique terms: 155
-Terms with score ≥ 3.0: 19
-Total term occurrences: 250
+Combined 5 compound terms and 149 single words
+Total unique terms: 150
+Terms with score ≥ 3.0: 17
+Total term occurrences: 234
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,18 +14,16 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| searchvalues | single | 12 | 1.00x | 1.00x | 12.0 |
+| searchvalues | single | 16 | 1.00x | 1.00x | 16.0 |
 | searches | single | 7 | 1.00x | 1.00x | 7.0 |
-| values | single | 7 | 1.00x | 1.00x | 7.0 |
 | allocation-free | compound | 4 | 1.00x | 1.50x | 6.0 |
-| search | single | 6 | 1.00x | 1.00x | 6.0 |
-| multiple | single | 5 | 1.00x | 1.00x | 5.0 |
+| values | single | 5 | 1.00x | 1.00x | 5.0 |
 | characters | single | 4 | 1.00x | 1.00x | 4.0 |
-| operations | single | 4 | 1.00x | 1.00x | 4.0 |
 | provides | single | 4 | 1.00x | 1.00x | 4.0 |
+| high-performance | compound | 2 | 1.25x | 1.50x | 3.8 |
 | creating searchvalues | compound | 2 | 1.10x | 1.50x | 3.3 |
-| high-performance | compound | 2 | 1.10x | 1.50x | 3.3 |
 | character | single | 3 | 1.00x | 1.00x | 3.0 |
+| multiple | single | 3 | 1.00x | 1.00x | 3.0 |
 | once | single | 3 | 1.00x | 1.00x | 3.0 |
 | pre-computed | compound | 2 | 1.00x | 1.50x | 3.0 |
 | searching | single | 3 | 1.00x | 1.00x | 3.0 |

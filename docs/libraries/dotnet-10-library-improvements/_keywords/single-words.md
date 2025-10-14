@@ -1,19 +1,18 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 137
-Total word occurrences: 216
-Total document words: 304
+Total unique words: 132
+Total word occurrences: 195
+Total document words: 303
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| json | 9 | 0.0296 |
-| security | 9 | 0.0296 |
-| apis | 5 | 0.0164 |
+| security | 9 | 0.0297 |
 | improvements | 4 | 0.0132 |
 | patterns | 4 | 0.0132 |
 | support | 4 | 0.0132 |
 | algorithms | 3 | 0.0099 |
+| apis | 3 | 0.0099 |
 | comparison | 3 | 0.0099 |
 | cryptography | 3 | 0.0099 |
 | duplicate | 3 | 0.0099 |
@@ -23,11 +22,9 @@ Total document words: 304
 | options | 3 | 0.0099 |
 | post-quantum | 3 | 0.0099 |
 | processing | 3 | 0.0099 |
-| serialization | 3 | 0.0099 |
 | span-based | 3 | 0.0099 |
 | utf-8 | 3 | 0.0099 |
 | allocations | 2 | 0.0066 |
-| collections | 2 | 0.0066 |
 | conversion | 2 | 0.0066 |
 | cross-platform | 2 | 0.0066 |
 | detection | 2 | 0.0066 |
@@ -36,14 +33,11 @@ Total document words: 304
 | natural | 2 | 0.0066 |
 | normalization | 2 | 0.0066 |
 | numbers | 2 | 0.0066 |
-| operations | 2 | 0.0066 |
 | ordereddictionary | 2 | 0.0066 |
 | overhead | 2 | 0.0066 |
 | quantum-resistant | 2 | 0.0066 |
 | stable | 2 | 0.0066 |
-| streaming | 2 | 0.0066 |
 | strict | 2 | 0.0066 |
-| string | 2 | 0.0066 |
 | tensor | 2 | 0.0066 |
 | these | 2 | 0.0066 |
 | untrusted | 2 | 0.0066 |
@@ -59,10 +53,10 @@ Total document words: 304
 | areas | 1 | 0.0033 |
 | avoid | 1 | 0.0033 |
 | benefit | 1 | 0.0033 |
+| best | 1 | 0.0033 |
 | better | 1 | 0.0033 |
 | careful | 1 | 0.0033 |
 | cng | 1 | 0.0033 |
-| common | 1 | 0.0033 |
 | compared | 1 | 0.0033 |
 | compareoptions | 1 | 0.0033 |
 | complement | 1 | 0.0033 |
@@ -116,13 +110,13 @@ Total document words: 304
 | overview | 1 | 0.0033 |
 | parsing | 1 | 0.0033 |
 | pqc | 1 | 0.0033 |
+| practices | 1 | 0.0033 |
 | preset | 1 | 0.0033 |
 | prevent | 1 | 0.0033 |
 | productivity | 1 | 0.0033 |
 | protocols | 1 | 0.0033 |
 | rather | 1 | 0.0033 |
 | reduce | 1 | 0.0033 |
-| references | 1 | 0.0033 |
 | relationships | 1 | 0.0033 |
 | require | 1 | 0.0033 |
 | requirements | 1 | 0.0033 |
@@ -131,6 +125,7 @@ Total document words: 304
 | secure | 1 | 0.0033 |
 | security-first | 1 | 0.0033 |
 | see | 1 | 0.0033 |
+| serialization | 1 | 0.0033 |
 | simplifies | 1 | 0.0033 |
 | slh-dsa | 1 | 0.0033 |
 | sorting | 1 | 0.0033 |

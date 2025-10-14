@@ -6,7 +6,7 @@
   "complexity": 0.8,
   "priority": 1,
   "depth_below": 1,
-  "topic_count": 6,
+  "topic_count": 12,
   "introduced": {
     "version": "1.0",
     "year": "2016"
@@ -15,7 +15,7 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 17752933634431451450
+      "fingerprint": 17752933634430959930
     },
     "technical": {
       "name": "technical",
@@ -27,10 +27,6 @@
     {
       "name": "libraries",
       "score": 12
-    },
-    {
-      "name": "system",
-      "score": 8
     },
     {
       "name": "data access",
@@ -57,8 +53,8 @@
       "score": 8
     },
     {
-      "name": "asp",
-      "score": 4
+      "name": "system",
+      "score": 8
     },
     {
       "name": "azure sdk",
@@ -70,6 +66,10 @@
     },
     {
       "name": "high-performance collections",
+      "score": 2
+    },
+    {
+      "name": "third-party",
       "score": 2
     }
   ],
@@ -131,7 +131,7 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995477800241332528
+            "fingerprint": 12995475601218077040
           }
         }
       },
@@ -182,12 +182,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167505208
+            "fingerprint": 12991679535167439672
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008810442662268
+            "fingerprint": 12704008812590162300
           }
         }
       },
@@ -199,12 +199,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751380007194919222
+            "fingerprint": 17751379938475704630
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17751416359798309684
+            "fingerprint": 13139692957975577396
           }
         }
       },
@@ -219,7 +219,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13136320841712640308
+            "fingerprint": 13136320824532771124
           },
           "technical": {
             "name": "technical",
@@ -236,12 +236,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12996144102274695986
+            "fingerprint": 3772209114392757042
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12991112669277651760
+            "fingerprint": 12990971914609426736
           }
         }
       },
@@ -278,7 +278,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13139733588357906744
+            "fingerprint": 17752545506692137272
           },
           "technical": {
             "name": "technical",
@@ -309,12 +309,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992064777769845050
+            "fingerprint": 12992627727723340090
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 3949010516359132025
+            "fingerprint": 13172382621933396857
           }
         },
         "category": "Libraries",
@@ -329,18 +329,44 @@
         }
       },
       {
+        "name": "system-text-json-jsonserializer",
+        "title": "System.Text.Json.JsonSerializer",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.5,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-jsonserializer/index.json",
+            "description": "System.Text.Json.JsonSerializer provides high-level APIs for converting between .NET objects and JSON text with support for serialization, deserialization, and advanced customization."
+          }
+        }
+      },
+      {
         "name": "dotnet-10-library-improvements",
         "title": ".NET 10 Libraries Features",
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751807734389736240
+            "fingerprint": 17751806634878108464
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603750934576243000
+            "fingerprint": 17602622835646144888
           }
         },
         "category": "Libraries",
@@ -361,12 +387,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13140716481029145400
+            "fingerprint": 13140681365376664376
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992239188741849468
+            "fingerprint": 12992238638986035580
           }
         },
         "category": "Libraries",
@@ -392,12 +418,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12995581154334049082
+            "fingerprint": 13031609950279271226
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603783919925068156
+            "fingerprint": 17603784469680882044
           }
         },
         "category": "Libraries",
@@ -408,6 +434,84 @@
             "name": "self",
             "href": "/libraries/system-commandline/index.json",
             "description": "Command-line parsing library for .NET that provides strongly-typed argument and option parsing, automatic help generation, and tab completion."
+          }
+        }
+      },
+      {
+        "name": "system-text-json-jsondocument",
+        "title": "System.Text.Json.JsonDocument",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13460983673022227226
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703867533935911260
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.5,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-jsondocument/index.json",
+            "description": "System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) for JSON with minimal memory allocation, enabling high-performance JSON querying without defining concrete types."
+          }
+        }
+      },
+      {
+        "name": "system-text-json-migrate-from-newtonsoft",
+        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 614095243011328414
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974224274836293980
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.6,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+            "description": "Technical mapping between Newtonsoft.Json and System.Text.Json APIs for migration purposes."
+          }
+        }
+      },
+      {
+        "name": "system-text-json-nodes",
+        "title": "System.Text.Json.Nodes",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 9860979202420835664
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703869732690724188
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.6,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-nodes/index.json",
+            "description": "System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing developers to navigate, query, and modify JSON structures dynamically without needing to define concrete types."
           }
         }
       },
@@ -423,12 +527,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13172206494987756338
+            "fingerprint": 17747863716396172082
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13154369331525460856
+            "fingerprint": 13154369194086507384
           }
         },
         "category": "Libraries",
@@ -441,11 +545,63 @@
             "description": "Compile-time generation of JSON serialization code for high-performance, AOT-compatible operations with automatic property naming and type-safe generic support."
           }
         }
+      },
+      {
+        "name": "system-text-json-utf8jsonreader",
+        "title": "System.Text.Json.Utf8JsonReader",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 2796080149753443096
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704010495948890620
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.7,
+        "priority": 3,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+            "description": "System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-only reader for UTF-8 encoded JSON text, providing the lowest-level API for reading JSON with maximum control over parsing."
+          }
+        }
+      },
+      {
+        "name": "system-text-json-utf8jsonwriter",
+        "title": "System.Text.Json.Utf8JsonWriter",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 469786640745173528
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603924666003358076
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.6,
+        "priority": 3,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+            "description": "System.Text.Json.Utf8JsonWriter is a high-performance, low-allocation writer for UTF-8 encoded JSON text, providing direct control over JSON generation with minimal allocation."
+          }
+        }
       }
     ]
   },
   "metadata": {
-    "generated": "2025-10-08T22:51:50.7782602Z",
+    "generated": "2025-10-14T05:30:35.6491523Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

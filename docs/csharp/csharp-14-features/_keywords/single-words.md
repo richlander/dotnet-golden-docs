@@ -1,42 +1,38 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 142
-Total word occurrences: 207
-Total document words: 357
+Total unique words: 133
+Total word occurrences: 192
+Total document words: 360
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| patterns | 7 | 0.0196 |
-| assignment | 6 | 0.0168 |
-| extension | 5 | 0.0140 |
-| support | 5 | 0.0140 |
-| code | 4 | 0.0112 |
-| enhanced | 4 | 0.0112 |
-| zero-allocation | 4 | 0.0112 |
-| compile-time | 3 | 0.0084 |
-| extensions | 3 | 0.0084 |
-| first-class | 3 | 0.0084 |
-| keyword | 3 | 0.0084 |
-| lambda | 3 | 0.0084 |
-| partial | 3 | 0.0084 |
-| ref | 3 | 0.0084 |
-| syntax | 3 | 0.0084 |
+| assignment | 6 | 0.0167 |
+| patterns | 6 | 0.0167 |
+| extension | 5 | 0.0139 |
+| support | 5 | 0.0139 |
+| code | 4 | 0.0111 |
+| enhanced | 4 | 0.0111 |
+| keyword | 4 | 0.0111 |
+| zero-allocation | 4 | 0.0111 |
+| compile-time | 3 | 0.0083 |
+| first-class | 3 | 0.0083 |
+| lambda | 3 | 0.0083 |
+| partial | 3 | 0.0083 |
+| syntax | 3 | 0.0083 |
 | async | 2 | 0.0056 |
 | boilerplate | 2 | 0.0056 |
-| common | 2 | 0.0056 |
 | compound | 2 | 0.0056 |
 | constructors | 2 | 0.0056 |
 | enables | 2 | 0.0056 |
 | events | 2 | 0.0056 |
 | features | 2 | 0.0056 |
+| field | 2 | 0.0056 |
 | modifiers | 2 | 0.0056 |
 | null-conditional | 2 | 0.0056 |
 | operators | 2 | 0.0056 |
 | optional | 2 | 0.0056 |
-| parameters | 2 | 0.0056 |
 | preview | 2 | 0.0056 |
-| reference | 2 | 0.0056 |
 | restrictions | 2 | 0.0056 |
 | rules | 2 | 0.0056 |
 | stack-only | 2 | 0.0056 |
@@ -60,9 +56,9 @@ Total document words: 357
 | capabilities | 1 | 0.0028 |
 | careful | 1 | 0.0028 |
 | change | 1 | 0.0028 |
+| common | 1 | 0.0028 |
 | compiler-generated | 1 | 0.0028 |
 | complex | 1 | 0.0028 |
-| contexts | 1 | 0.0028 |
 | currently | 1 | 0.0028 |
 | declarations | 1 | 0.0028 |
 | define | 1 | 0.0028 |
@@ -82,8 +78,8 @@ Total document words: 357
 | expected | 1 | 0.0028 |
 | expression-bodied | 1 | 0.0028 |
 | extending | 1 | 0.0028 |
+| extensions | 1 | 0.0028 |
 | feature | 1 | 0.0028 |
-| field | 1 | 0.0028 |
 | follows | 1 | 0.0028 |
 | generators | 1 | 0.0028 |
 | gotchas | 1 | 0.0028 |
@@ -107,21 +103,18 @@ Total document words: 357
 | method | 1 | 0.0028 |
 | name | 1 | 0.0028 |
 | natural | 1 | 0.0028 |
-| null | 1 | 0.0028 |
 | null-safe | 1 | 0.0028 |
-| nullable | 1 | 0.0028 |
-| operations | 1 | 0.0028 |
 | optimizations | 1 | 0.0028 |
 | overload | 1 | 0.0028 |
 | overview | 1 | 0.0028 |
 | parameter | 1 | 0.0028 |
-| params | 1 | 0.0028 |
 | priority | 1 | 0.0028 |
 | productivity | 1 | 0.0028 |
 | property | 1 | 0.0028 |
 | provide | 1 | 0.0028 |
 | records | 1 | 0.0028 |
 | reducing | 1 | 0.0028 |
+| ref | 1 | 0.0028 |
 | related | 1 | 0.0028 |
 | safely | 1 | 0.0028 |
 | safer | 1 | 0.0028 |
@@ -131,10 +124,8 @@ Total document words: 357
 | short-circuit | 1 | 0.0028 |
 | significant | 1 | 0.0028 |
 | simd | 1 | 0.0028 |
-| simple | 1 | 0.0028 |
 | specifying | 1 | 0.0028 |
 | streamlined | 1 | 0.0028 |
-| struct | 1 | 0.0028 |
 | structures | 1 | 0.0028 |
 | subject | 1 | 0.0028 |
 | switch | 1 | 0.0028 |

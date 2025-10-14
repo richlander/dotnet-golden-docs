@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 36
+Total headers: 35
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 10 headers (multiplier: 1.25x)
-- **H3**: 25 headers (multiplier: 1.1x)
+- **H2**: 12 headers (multiplier: 1.25x)
+- **H3**: 22 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -36,10 +36,9 @@ Total headers: 36
 | H3 | Optimized CI Pipeline Commands | 1.1x |
 | H3 | Reproducible Build Configuration | 1.1x |
 | H3 | Build Artifact Management | 1.1x |
-| H2 | Common Scenarios and Use Cases | 1.25x |
-| H3 | Local Development Workflow | 1.1x |
-| H3 | Library Development and Packaging | 1.1x |
-| H3 | Enterprise and Team Development | 1.1x |
+| H2 | Local Development Workflow | 1.25x |
+| H2 | Library Development and Packaging | 1.25x |
+| H2 | Enterprise and Team Development | 1.25x |
 | H2 | Troubleshooting and Diagnostics | 1.25x |
 | H3 | Common Build Issues | 1.1x |
 | H3 | Build Performance Analysis | 1.1x |

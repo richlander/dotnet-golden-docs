@@ -8,7 +8,8 @@ Combined local and global scoring:
 
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
-| net | single | 35 | 1.00x | 1.00x | 1.5x | 52.500 |
+| net | single | 38 | 1.00x | 1.00x | 1.5x | 57.000 |
+| cross-platform | compound | 7 | 1.25x | 1.50x | 1.5x | 19.688 |
 | libraries | single | 11 | 1.00x | 1.00x | 1.5x | 16.500 |
 | like | single | 10 | 1.00x | 1.00x | 1.5x | 15.000 |
 | while | single | 10 | 1.00x | 1.00x | 1.5x | 15.000 |
@@ -18,38 +19,35 @@ Combined local and global scoring:
 | runtime | single | 12 | 1.00x | 1.00x | 1.0x | 12.000 |
 | languages | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | modern | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| cross-platform | compound | 7 | 1.10x | 1.50x | 1.0x | 11.550 |
-| apis | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
-| multiple | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
 | tools | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
 | windows | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
-| building | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | community | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | functionality | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | supported | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | via | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | industry standards | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
 | garbage collector | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
-| high-level | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
-| low-level | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | automatic | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | components | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | developers | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| features | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | linux | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | many | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | pillars | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | programming | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | set | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| web | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| apis | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | enables | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
+| multiple | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
+| high-level | compound | 3 | 1.00x | 1.50x | 1.5x | 6.750 |
+| low-level | compound | 3 | 1.00x | 1.50x | 1.5x | 6.750 |
 | provides | single | 6 | 1.00x | 1.00x | 1.0x | 6.000 |
 | across | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| features | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | actively | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | android | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | architecture | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| asp | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | been | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| building | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | chip | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | developer | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | enable | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -63,7 +61,6 @@ Combined local and global scoring:
 | macos | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | manual | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | object-oriented | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
-| offers | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | platforms | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | productivity | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | self-tuning | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
@@ -73,7 +70,7 @@ Combined local and global scoring:
 | unsafe | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | used | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | visual | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| common | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| asp | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | nuget | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| offers | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | run | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| using | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |

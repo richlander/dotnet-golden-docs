@@ -62,13 +62,13 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | resilience | 25.00 |
 | http | 9.00 |
 | communication | 7.00 |
-| httpclient | 7.00 |
 | microsoft.extensions.http.resilience | 3.00 |
 | monitoring | 6.00 |
 | strategies | 6.00 |
 | standard | 7.00 |
 | built | 5.00 |
 | circuit | 5.00 |
+| httpclient | 5.00 |
 | polly | 5.00 |
 | reliability | 5.00 |
 
@@ -94,15 +94,15 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | extensions | extensions/microsoft-extensions-ai | 0.6811 |
 | libraries | libraries | 0.6457 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6424 |
+| libraries | libraries/system-text-json | 0.6310 |
 | dotnet | dotnet | 0.6271 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6244 |
 | cli | cli/publishing-and-deployment | 0.6171 |
 | csharp | csharp/csharp-14-features | 0.6045 |
 | cli | cli/assembly-trimming | 0.6045 |
-| libraries | libraries/system-text-json | 0.6027 |
 | cli | cli/build-and-compilation | 0.5987 |
+| libraries | libraries/system-text-json-jsonserializer | 0.5962 |
 | cli | cli | 0.5916 |
-| csharp | csharp | 0.5520 |
 
 ## Critical limitations
 

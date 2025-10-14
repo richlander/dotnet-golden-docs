@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 121
-Total word occurrences: 197
+Total unique words: 114
+Total word occurrences: 180
 Total document words: 353
 
 | Word | Count | Document Concentration |
@@ -13,37 +13,30 @@ Total document words: 353
 | frameworks | 5 | 0.0142 |
 | application | 4 | 0.0113 |
 | asp | 4 | 0.0113 |
-| json | 4 | 0.0113 |
 | across | 3 | 0.0085 |
 | async | 3 | 0.0085 |
-| core | 3 | 0.0085 |
 | data | 3 | 0.0085 |
 | distributed | 3 | 0.0085 |
 | high-performance | 3 | 0.0085 |
 | nuget | 3 | 0.0085 |
 | third-party | 3 | 0.0085 |
-| api | 2 | 0.0057 |
-| apis | 2 | 0.0057 |
 | architecture | 2 | 0.0057 |
 | bcl | 2 | 0.0057 |
 | components | 2 | 0.0057 |
-| configuration | 2 | 0.0057 |
 | foundation | 2 | 0.0057 |
 | fundamental | 2 | 0.0057 |
 | logging | 2 | 0.0057 |
 | modern | 2 | 0.0057 |
-| multiple | 2 | 0.0057 |
 | net | 2 | 0.0057 |
 | networking | 2 | 0.0057 |
 | packages | 2 | 0.0057 |
+| practices | 2 | 0.0057 |
 | runtime | 2 | 0.0057 |
 | security | 2 | 0.0057 |
-| serialization | 2 | 0.0057 |
 | services | 2 | 0.0057 |
 | spans | 2 | 0.0057 |
 | testing | 2 | 0.0057 |
 | unit | 2 | 0.0057 |
-| web | 2 | 0.0057 |
 | abstractions | 1 | 0.0028 |
 | access | 1 | 0.0028 |
 | allocation-aware | 1 | 0.0028 |
@@ -52,6 +45,7 @@ Total document words: 353
 | assurance | 1 | 0.0028 |
 | authentication | 1 | 0.0028 |
 | authorization | 1 | 0.0028 |
+| best | 1 | 0.0028 |
 | broader | 1 | 0.0028 |
 | built-in | 1 | 0.0028 |
 | caching | 1 | 0.0028 |
@@ -104,7 +98,6 @@ Total document words: 353
 | namespace | 1 | 0.0028 |
 | object-relational | 1 | 0.0028 |
 | open-source | 1 | 0.0028 |
-| optimization | 1 | 0.0028 |
 | options | 1 | 0.0028 |
 | organization | 1 | 0.0028 |
 | overview | 1 | 0.0028 |

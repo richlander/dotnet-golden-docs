@@ -43,7 +43,7 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 17752933634431451450 |
+| overview | simhash | 17752933634430959930 |
 | technical | simhash | 12992064916140458364 |
 
 ## Relationships
@@ -53,17 +53,17 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | Keyword | Score |
 |---------|-------|
 | libraries | 12.00 |
-| system | 8.00 |
 | data access | 3.00 |
 | library ecosystem | 3.00 |
 | frameworks | 5.00 |
 | asp.net core | 3.00 |
 | dependency injection | 3.00 |
 | patterns | 8.00 |
-| asp | 4.00 |
+| system | 8.00 |
 | azure sdk | 2.00 |
 | entity framework core | 2.00 |
 | high-performance collections | 2.00 |
+| third-party | 2.00 |
 
 ## APIs
 
@@ -82,14 +82,14 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | libraries | libraries/dotnet-10-library-improvements | 0.7945 |
 | cli | cli | 0.7484 |
 | cli | cli/file-based-apps | 0.7375 |
+| libraries | libraries/system-text-json | 0.7366 |
 | csharp | csharp/csharp-14-features | 0.7280 |
 | cli | cli/build-and-compilation | 0.7280 |
 | extensions | extensions/microsoft-extensions-ai | 0.7133 |
-| libraries | libraries/system-text-json | 0.7082 |
 | csharp | csharp | 0.7046 |
 | cli | cli/publishing-and-deployment | 0.6974 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6972 |
 | libraries | libraries/system-commandline | 0.6963 |
-| libraries | libraries/string-search-operations | 0.6619 |
 
 ### Similarity Metadata
 
@@ -99,7 +99,7 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | csharp | 0.6305 | P50 | 5 |
 | dotnet | 0.8198 | P50 | 1 |
 | extensions | 0.6506 | P50 | 3 |
-| libraries | 0.6619 | P50 | 6 |
+| libraries | 0.6472 | P70 | 12 |
 
 ## Authority Scores
 

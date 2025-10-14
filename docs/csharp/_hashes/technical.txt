@@ -4,10 +4,10 @@ Keyword | features
 Keyword | net
 Keyword | like
 Keyword | compiler
-Keyword | data
 Keyword | programming
 Keyword | object-oriented
 Keyword | memory management
 Keyword | libraries
-Keyword | low-level
+Keyword | cross-platform
+Keyword | data
 Keyword | language features

@@ -4,14 +4,14 @@ API | StringComparer.Create
 API | WebSocketStream.Create
 API | WebSocketStream.CreateReadableMessageStream
 Keyword | security
-Keyword | json
 Keyword | net 10
 Keyword | span-based
 Keyword | improvements
-Keyword | apis
 Keyword | high-performance text processing
 Keyword | post-quantum cryptography
 Keyword | algorithms
 Keyword | comparison
 Keyword | cryptography
 Keyword | duplicate
+Keyword | hex
+Keyword | numericordering

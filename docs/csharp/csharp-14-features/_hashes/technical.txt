@@ -43,12 +43,12 @@ ErrorMessage | Extension block collision with type '{0}'.
 Keyword | assignment
 Keyword | extension
 Keyword | zero-allocation
-Keyword | compile-time
 Keyword | enhanced
-Keyword | patterns
+Keyword | keyword
+Keyword | params collections
 Keyword | expression trees
 Keyword | first-class span
 Keyword | named arguments
+Keyword | compile-time
+Keyword | patterns
 Keyword | first-class
-Keyword | keyword
-Keyword | lambda

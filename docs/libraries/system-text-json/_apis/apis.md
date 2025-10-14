@@ -1,31 +1,88 @@
 # API Analysis
 
 Generated from: `golden-reference.md`, `qa-pairs.md`
-Total unique APIs: 23
-Total API references: 43
+Total unique APIs: 80
+Total API references: 192
 
 | API | Type | Count |
 |-----|------|-------|
-| JsonSerializable | attribute | 7 |
-| JsonSerializer.Serialize | method | 7 |
+| JsonSerializable | attribute | 20 |
+| JsonSerializer.Serialize | method | 18 |
+| GetString | method | 9 |
+| File.OpenRead | method | 6 |
+| JsonNode.Parse | method | 6 |
+| System.Text | namespace | 6 |
+| System.Text.Json | type | 6 |
+| GetUser | method | 5 |
+| JsonDocument.Parse | method | 5 |
+| Console.WriteLine | method | 4 |
+| GetFromJsonAsync | method | 4 |
+| GetProperty | method | 4 |
+| Read | method | 4 |
+| ToJsonString | method | 4 |
+| JsonDerivedType | attribute | 3 |
+| JsonSerializer.Deserialize | method | 3 |
 | JsonSerializer.SerializeAsync | method | 3 |
-| File.OpenRead | method | 2 |
-| JsonDerivedType | attribute | 2 |
+| JsonSerializer.SerializeToUtf8Bytes | method | 3 |
+| PostAsJsonAsync | method | 3 |
+| RootElement.GetProperty | method | 3 |
+| Utf8JsonReader | method | 3 |
+| ConfigureHttpJsonOptions | method | 2 |
+| Create | method | 2 |
+| DateTime.UtcNow.ToString | method | 2 |
+| File.Create | method | 2 |
+| File.ReadAllTextAsync | method | 2 |
+| HttpGet | attribute | 2 |
 | JsonInclude | attribute | 2 |
-| JsonSerializer.Deserialize | method | 2 |
 | JsonSourceGenerationOptions | attribute | 2 |
-| ProcessItem | method | 2 |
-| ConfigureHttpJsonOptions | method | 1 |
-| Console.WriteLine | method | 1 |
+| LogInformation | method | 2 |
+| PipeReader.Create | method | 2 |
+| ProcessItemAsync | method | 2 |
+| AddHttpClient | method | 1 |
+| AddJsonHttpMessageConverter | method | 1 |
+| ApiController | attribute | 1 |
+| AsObject | method | 1 |
+| CreateUser | method | 1 |
 | DateTime.ParseExact | method | 1 |
-| File.Create | method | 1 |
-| GetString | method | 1 |
+| DeepClone | method | 1 |
+| Encoding.UTF8.GetBytes | method | 1 |
+| GetChatClient | method | 1 |
+| GetInt32 | method | 1 |
+| GetRawText | method | 1 |
+| GetTypeInfo | method | 1 |
+| HttpPost | attribute | 1 |
+| InvalidOperationException | method | 1 |
+| JsonConstructor | attribute | 1 |
+| JsonConvert.SerializeObject | method | 1 |
 | JsonConverter | attribute | 1 |
-| JsonSerializer.SerializeToUtf8Bytes | method | 1 |
+| JsonDocument | method | 1 |
+| JsonNode | method | 1 |
+| JsonProperty | attribute | 1 |
+| JsonPropertyName | attribute | 1 |
+| JsonSerializer.DeserializeFromUtf8Bytes | method | 1 |
 | JsonTypeInfoResolver.Combine | method | 1 |
-| PostAsJsonAsync | method | 1 |
-| Read | method | 1 |
+| LogError | method | 1 |
+| MapGet | method | 1 |
+| MapPost | method | 1 |
+| Microsoft.Extensions | namespace | 1 |
+| Microsoft.Extensions.AI | type | 1 |
+| PatchAsJsonAsync | method | 1 |
+| ProcessAsync | method | 1 |
+| ProcessItem | method | 1 |
+| ProcessOrder | method | 1 |
+| Product | method | 1 |
+| PutAsJsonAsync | method | 1 |
+| Results.Created | method | 1 |
+| Results.Ok | method | 1 |
+| Route | attribute | 1 |
 | Services.ConfigureHttpJsonOptions | method | 1 |
 | ToString | method | 1 |
+| Uri | method | 1 |
+| User | method | 1 |
+| Utf8JsonWriter | method | 1 |
 | Write | method | 1 |
+| WriteEndObject | method | 1 |
+| WriteNumber | method | 1 |
+| WriteStartObject | method | 1 |
+| WriteString | method | 1 |
 | WriteStringValue | method | 1 |

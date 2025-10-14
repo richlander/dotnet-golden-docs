@@ -1,0 +1,5 @@
+Title | System.Text.Json.Utf8JsonWriter
+TypeName | System.Text.Json.Utf8JsonWriter
+TypeName | System.Text.Json
+TypeName | Utf8JsonWriter
+Description | System.Text.Json.Utf8JsonWriter is a high-performance, low-allocation writer for UTF-8 encoded JSON text. It provides direct control over JSON generation, writing directly to UTF-8 bytes without intermediate string allocation. Utf8JsonWriter is designed for performance-critical scenarios requiring streaming output, minimal allocation, and complete control over JSON structure and formatting.

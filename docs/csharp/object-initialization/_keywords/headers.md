@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 37
+Total headers: 36
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 12 headers (multiplier: 1.25x)
-- **H3**: 24 headers (multiplier: 1.1x)
+- **H2**: 14 headers (multiplier: 1.25x)
+- **H3**: 21 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -46,7 +46,6 @@ Total headers: 37
 | H3 | Pattern Matching | 1.1x |
 | H3 | Deconstruction | 1.1x |
 | H2 | Best Practices | 1.25x |
-| H2 | Common Patterns and Pitfalls | 1.25x |
-| H3 | Good Patterns | 1.1x |
-| H3 | Pitfalls to Avoid | 1.1x |
-| H3 | Validation During Initialization | 1.1x |
+| H2 | Good Object Initialization Patterns | 1.25x |
+| H2 | Object Initialization Pitfalls to Avoid | 1.25x |
+| H2 | Validation During Object Initialization | 1.25x |

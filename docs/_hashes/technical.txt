@@ -17,10 +17,10 @@ Keyword | object initialization
 Keyword | anonymous types
 Keyword | collection properties
 Keyword | framework-dependent
+Keyword | collection initialization
 Keyword | file-based-programs
 Keyword | file-level
 Keyword | init properties
-Keyword | system.commandline
+Keyword | json documents
+Keyword | system.text.json.nodes
 Keyword | microsoft.extensions.ai
-Keyword | microsoft.extensions.ai.evaluation
-Keyword | middleware composition

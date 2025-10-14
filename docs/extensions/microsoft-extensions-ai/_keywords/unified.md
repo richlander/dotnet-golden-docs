@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 9 compound terms and 234 single words
-Total unique terms: 242
-Terms with score ≥ 3.0: 41
-Total term occurrences: 447
+Combined 9 compound terms and 221 single words
+Total unique terms: 229
+Terms with score ≥ 3.0: 39
+Total term occurrences: 426
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -16,16 +16,16 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 |------|------|-------|-------------|-----------|-------------|
 | ai | single | 32 | 1.00x | 1.00x | 32.0 |
 | microsoft.extensions.ai | compound | 5 | 1.50x | 1.50x | 11.2 |
-| middleware | single | 11 | 1.00x | 1.00x | 11.0 |
 | services | single | 10 | 1.00x | 1.00x | 10.0 |
+| middleware | single | 9 | 1.00x | 1.00x | 9.0 |
 | dependency injection | compound | 5 | 1.10x | 1.50x | 8.2 |
 | middleware composition | compound | 5 | 1.10x | 1.50x | 8.2 |
 | net | single | 8 | 1.00x | 1.00x | 8.0 |
-| function calling | compound | 4 | 1.10x | 1.50x | 6.6 |
+| function calling | compound | 4 | 1.25x | 1.50x | 7.5 |
 | caching | single | 6 | 1.00x | 1.00x | 6.0 |
 | interfaces | single | 6 | 1.00x | 1.00x | 6.0 |
 | patterns | single | 6 | 1.00x | 1.00x | 6.0 |
-| extensions | single | 5 | 1.00x | 1.00x | 5.0 |
+| service | single | 6 | 1.00x | 1.00x | 6.0 |
 | like | single | 5 | 1.00x | 1.00x | 5.0 |
 | microsoft | single | 5 | 1.00x | 1.00x | 5.0 |
 | support | single | 5 | 1.00x | 1.00x | 5.0 |
@@ -34,7 +34,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | observability | single | 4 | 1.00x | 1.00x | 4.0 |
 | provider | single | 4 | 1.00x | 1.00x | 4.0 |
 | providers | single | 4 | 1.00x | 1.00x | 4.0 |
-| service | single | 4 | 1.00x | 1.00x | 4.0 |
 | without | single | 4 | 1.00x | 1.00x | 4.0 |
 | embedding generation | compound | 2 | 1.10x | 1.50x | 3.3 |
 | error handling | compound | 2 | 1.10x | 1.50x | 3.3 |
@@ -44,9 +43,8 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | architecture | single | 3 | 1.00x | 1.00x | 3.0 |
 | capabilities | single | 3 | 1.00x | 1.00x | 3.0 |
 | changes | single | 3 | 1.00x | 1.00x | 3.0 |
-| chat | single | 3 | 1.00x | 1.00x | 3.0 |
 | code | single | 3 | 1.00x | 1.00x | 3.0 |
-| configuration | single | 3 | 1.00x | 1.00x | 3.0 |
+| extensions | single | 3 | 1.00x | 1.00x | 3.0 |
 | function | single | 3 | 1.00x | 1.00x | 3.0 |
 | implement | single | 3 | 1.00x | 1.00x | 3.0 |
 | opentelemetry | single | 3 | 1.00x | 1.00x | 3.0 |

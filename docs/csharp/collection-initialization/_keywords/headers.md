@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 28
+Total headers: 27
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 14 headers (multiplier: 1.25x)
-- **H3**: 13 headers (multiplier: 1.1x)
+- **H2**: 16 headers (multiplier: 1.25x)
+- **H3**: 10 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -32,10 +32,9 @@ Total headers: 28
 | H2 | Performance Considerations | 1.25x |
 | H3 | Collection Type Selection | 1.1x |
 | H3 | Capacity and Allocation | 1.1x |
-| H2 | Common Patterns | 1.25x |
-| H3 | Conditional Elements | 1.1x |
-| H3 | Method Returns | 1.1x |
-| H3 | LINQ Integration | 1.1x |
+| H2 | Conditional Elements in Collection Initialization | 1.25x |
+| H2 | Collection Initialization in Method Returns | 1.25x |
+| H2 | LINQ Integration with Collection Initialization | 1.25x |
 | H2 | Best Practices | 1.25x |
 | H2 | Common Pitfalls | 1.25x |
 | H3 | Null Reference Issues | 1.1x |

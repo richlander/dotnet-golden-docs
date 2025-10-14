@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 170 single words
-Total unique terms: 173
-Terms with score ≥ 3.0: 37
-Total term occurrences: 355
+Combined 11 compound terms and 162 single words
+Total unique terms: 165
+Terms with score ≥ 3.0: 35
+Total term occurrences: 342
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -27,17 +27,15 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | readytorun | single | 6 | 1.00x | 1.00x | 6.0 |
 | size | single | 6 | 1.00x | 1.00x | 6.0 |
 | use | single | 6 | 1.00x | 1.00x | 6.0 |
+| compilation | single | 5 | 1.00x | 1.00x | 5.0 |
 | container deployment | compound | 3 | 1.10x | 1.50x | 5.0 |
 | single-file | compound | 3 | 1.10x | 1.50x | 5.0 |
 | distribution | single | 4 | 1.00x | 1.00x | 4.0 |
 | no | single | 4 | 1.00x | 1.00x | 4.0 |
-| optimization | single | 4 | 1.00x | 1.00x | 4.0 |
 | deployment scenarios | compound | 2 | 1.25x | 1.50x | 3.8 |
 | cross-platform | compound | 2 | 1.10x | 1.50x | 3.3 |
 | application | single | 3 | 1.00x | 1.00x | 3.0 |
 | cloud-native | compound | 2 | 1.00x | 1.50x | 3.0 |
-| compilation | single | 3 | 1.00x | 1.00x | 3.0 |
-| configuration | single | 3 | 1.00x | 1.00x | 3.0 |
 | container | single | 3 | 1.00x | 1.00x | 3.0 |
 | development-time | compound | 2 | 1.00x | 1.50x | 3.0 |
 | distribution-time | compound | 2 | 1.00x | 1.50x | 3.0 |

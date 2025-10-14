@@ -2,14 +2,14 @@
 
 Generated from: `golden-reference.md`
 Total unique compounds: 17
-Total compound occurrences: 92
-Total document words: 1406
+Total compound occurrences: 91
+Total document words: 1412
 
 | Compound Term | Count | Document Concentration |
 |---------------|-------|------------------------|
-| memory management | 6 | 0.0043 |
-| cross-platform | 5 | 0.0036 |
-| object-oriented | 5 | 0.0036 |
+| memory management | 6 | 0.0042 |
+| cross-platform | 5 | 0.0035 |
+| object-oriented | 5 | 0.0035 |
 | low-level | 4 | 0.0028 |
 | asynchronous programming | 3 | 0.0021 |
 | compile-time | 3 | 0.0021 |

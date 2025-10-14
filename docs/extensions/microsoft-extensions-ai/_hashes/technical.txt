@@ -16,13 +16,13 @@ API | AIFunctionFactory.Create
 API | ChatMessage
 Keyword | ai
 Keyword | microsoft.extensions.ai
-Keyword | middleware
 Keyword | services
+Keyword | middleware
 Keyword | dependency injection
 Keyword | middleware composition
 Keyword | function calling
 Keyword | net
 Keyword | interfaces
+Keyword | service
 Keyword | caching
 Keyword | familiar
-Keyword | functionality

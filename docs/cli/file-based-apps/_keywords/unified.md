@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 17 compound terms and 290 single words
-Total unique terms: 298
-Terms with score ≥ 3.0: 88
-Total term occurrences: 724
+Combined 17 compound terms and 288 single words
+Total unique terms: 296
+Terms with score ≥ 3.0: 84
+Total term occurrences: 713
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,9 +14,9 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| file-based apps | compound | 13 | 1.50x | 1.50x | 29.2 |
+| file-based apps | compound | 14 | 1.50x | 1.50x | 31.5 |
 | docs | single | 18 | 1.00x | 1.00x | 18.0 |
-| file-based | single | 15 | 1.00x | 1.00x | 15.0 |
+| file-based | single | 16 | 1.00x | 1.00x | 16.0 |
 | project | single | 14 | 1.00x | 1.00x | 14.0 |
 | dotnet | single | 12 | 1.00x | 1.00x | 12.0 |
 | code | single | 10 | 1.00x | 1.00x | 10.0 |
@@ -50,7 +50,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | tutorials | single | 6 | 1.00x | 1.00x | 6.0 |
 | without | single | 6 | 1.00x | 1.00x | 6.0 |
 | create | single | 5 | 1.00x | 1.00x | 5.0 |
-| files | single | 5 | 1.00x | 1.00x | 5.0 |
 | nuget | single | 5 | 1.00x | 1.00x | 5.0 |
 | setup | single | 5 | 1.00x | 1.00x | 5.0 |
 | traditional project | compound | 3 | 1.10x | 1.50x | 5.0 |
@@ -60,16 +59,14 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | complexity | single | 4 | 1.00x | 1.00x | 4.0 |
 | direct | single | 4 | 1.00x | 1.00x | 4.0 |
 | migration | single | 4 | 1.00x | 1.00x | 4.0 |
-| reference | single | 4 | 1.00x | 1.00x | 4.0 |
 | run | single | 4 | 1.00x | 1.00x | 4.0 |
-| simple | single | 4 | 1.00x | 1.00x | 4.0 |
 | structures | single | 4 | 1.00x | 1.00x | 4.0 |
 | syntax | single | 4 | 1.00x | 1.00x | 4.0 |
 | team | single | 4 | 1.00x | 1.00x | 4.0 |
 | utilities | single | 4 | 1.00x | 1.00x | 4.0 |
 | while | single | 4 | 1.00x | 1.00x | 4.0 |
 | works | single | 4 | 1.00x | 1.00x | 4.0 |
-| ascii art | compound | 2 | 1.10x | 1.50x | 3.3 |
+| ascii art | compound | 2 | 1.25x | 1.50x | 3.8 |
 | error handling | compound | 2 | 1.10x | 1.50x | 3.3 |
 | exit codes | compound | 2 | 1.10x | 1.50x | 3.3 |
 | project structure | compound | 2 | 1.10x | 1.50x | 3.3 |
@@ -85,8 +82,8 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | dotnet-10 | single | 3 | 1.00x | 1.00x | 3.0 |
 | experimentation | single | 3 | 1.00x | 1.00x | 3.0 |
 | external | single | 3 | 1.00x | 1.00x | 3.0 |
+| handle | single | 3 | 1.00x | 1.00x | 3.0 |
 | input | single | 3 | 1.00x | 1.00x | 3.0 |
-| integration | single | 3 | 1.00x | 1.00x | 3.0 |
 | intellisense | single | 3 | 1.00x | 1.00x | 3.0 |
 | learning | single | 3 | 1.00x | 1.00x | 3.0 |
 | local | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -101,4 +98,3 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | standard | single | 3 | 1.00x | 1.00x | 3.0 |
 | transform | single | 3 | 1.00x | 1.00x | 3.0 |
 | unix | single | 3 | 1.00x | 1.00x | 3.0 |
-| using | single | 3 | 1.00x | 1.00x | 3.0 |

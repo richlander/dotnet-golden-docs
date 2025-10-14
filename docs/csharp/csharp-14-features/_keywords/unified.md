@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 6 compound terms and 142 single words
-Total unique terms: 145
-Terms with score ≥ 3.0: 19
-Total term occurrences: 213
+Combined 7 compound terms and 133 single words
+Total unique terms: 137
+Terms with score ≥ 3.0: 18
+Total term occurrences: 200
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,22 +14,21 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| patterns | single | 7 | 1.00x | 1.00x | 7.0 |
 | assignment | single | 6 | 1.00x | 1.00x | 6.0 |
 | compile-time | compound | 4 | 1.00x | 1.50x | 6.0 |
+| patterns | single | 6 | 1.00x | 1.00x | 6.0 |
+| zero-allocation | compound | 3 | 1.25x | 1.50x | 5.6 |
 | extension | single | 5 | 1.00x | 1.00x | 5.0 |
 | support | single | 5 | 1.00x | 1.00x | 5.0 |
-| zero-allocation | compound | 3 | 1.10x | 1.50x | 5.0 |
 | code | single | 4 | 1.00x | 1.00x | 4.0 |
 | enhanced | single | 4 | 1.00x | 1.00x | 4.0 |
+| keyword | single | 4 | 1.00x | 1.00x | 4.0 |
+| params collections | compound | 2 | 1.25x | 1.50x | 3.8 |
 | expression trees | compound | 2 | 1.10x | 1.50x | 3.3 |
 | first-class span | compound | 2 | 1.10x | 1.50x | 3.3 |
 | named arguments | compound | 2 | 1.10x | 1.50x | 3.3 |
-| extensions | single | 3 | 1.00x | 1.00x | 3.0 |
 | first-class | single | 3 | 1.00x | 1.00x | 3.0 |
-| keyword | single | 3 | 1.00x | 1.00x | 3.0 |
 | lambda | single | 3 | 1.00x | 1.00x | 3.0 |
 | partial | single | 3 | 1.00x | 1.00x | 3.0 |
-| ref | single | 3 | 1.00x | 1.00x | 3.0 |
 | stack-only | compound | 2 | 1.00x | 1.50x | 3.0 |
 | syntax | single | 3 | 1.00x | 1.00x | 3.0 |

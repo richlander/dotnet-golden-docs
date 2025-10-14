@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 35
+Total headers: 34
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 7 headers (multiplier: 1.25x)
-- **H3**: 27 headers (multiplier: 1.1x)
+- **H2**: 11 headers (multiplier: 1.25x)
+- **H3**: 22 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -24,12 +24,11 @@ Total headers: 35
 | H3 | Middleware Composition with ChatClientBuilder | 1.1x |
 | H3 | Dependency Injection Registration | 1.1x |
 | H3 | Custom Middleware Development | 1.1x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | Multi-Turn Conversation Management | 1.1x |
-| H3 | Structured Output with Function Calling | 1.1x |
-| H3 | Caching AI Responses | 1.1x |
-| H3 | Cross-Provider Switching | 1.1x |
-| H3 | Telemetry and Observability | 1.1x |
+| H2 | Multi-Turn Conversation Management | 1.25x |
+| H2 | Structured Output with Function Calling | 1.25x |
+| H2 | Caching AI Responses | 1.25x |
+| H2 | Cross-Provider Switching | 1.25x |
+| H2 | Telemetry and Observability | 1.25x |
 | H2 | Alternative Syntax Options | 1.25x |
 | H3 | Direct Implementation vs Abstraction | 1.1x |
 | H3 | Builder Pattern vs Direct Construction | 1.1x |

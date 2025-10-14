@@ -1,14 +1,14 @@
 Title | Native AOT
 Keyword | native aot
+Keyword | compilation
+Keyword | runtime
+Keyword | source generation
 Keyword | no
 Keyword | reflection-based
-Keyword | runtime
-Keyword | compilation
-Keyword | json
-Keyword | source generation
 Keyword | jit
 Keyword | supported
+Keyword | using native aot
 Keyword | code
 Keyword | self-contained
-Keyword | generic methods
+Keyword | system.text.json source generation
 Description | Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don't require the .NET runtime to be installed on the target machine.

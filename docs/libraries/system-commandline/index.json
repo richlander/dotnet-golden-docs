@@ -20,38 +20,26 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 12995581154334049082
+      "fingerprint": 13031609950279271226
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 17603783919925068156
+      "fingerprint": 17603784469680882044
     }
   },
   "keywords": [
     {
       "name": "system.commandline",
-      "score": 6
+      "score": 4
     },
     {
       "name": "command-line",
-      "score": 10
+      "score": 6
     },
     {
       "name": "parsing",
       "score": 9
-    },
-    {
-      "name": "option",
-      "score": 7
-    },
-    {
-      "name": "validation",
-      "score": 7
-    },
-    {
-      "name": "commandline",
-      "score": 6
     },
     {
       "name": "response files",
@@ -62,12 +50,8 @@
       "score": 6
     },
     {
-      "name": "tools",
+      "name": "validation",
       "score": 6
-    },
-    {
-      "name": "use",
-      "score": 8
     },
     {
       "name": "automatic",
@@ -75,6 +59,22 @@
     },
     {
       "name": "binding",
+      "score": 4
+    },
+    {
+      "name": "commandline",
+      "score": 4
+    },
+    {
+      "name": "handlers",
+      "score": 4
+    },
+    {
+      "name": "help",
+      "score": 4
+    },
+    {
+      "name": "hierarchies",
       "score": 4
     }
   ],
@@ -188,12 +188,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992064777769845050
+            "fingerprint": 12992627727723340090
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 3949010516359132025
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.7107,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
           }
         }
       },
@@ -210,7 +227,7 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995477800241332528
+            "fingerprint": 12995475601218077040
           }
         }
       },
@@ -222,12 +239,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12996144102274695986
+            "fingerprint": 3772209114392757042
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12991112669277651760
+            "fingerprint": 12990971914609426736
           }
         }
       },
@@ -244,12 +261,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167505208
+            "fingerprint": 12991679535167439672
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008810442662268
+            "fingerprint": 12704008812590162300
           }
         }
       },
@@ -261,34 +278,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751807734389736240
+            "fingerprint": 17751806634878108464
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603750934576243000
+            "fingerprint": 17602622835646144888
           }
         }
       },
       {
-        "href": "/libraries/system-text-json-source-generation/index.json",
-        "title": "System.Text.Json Source Generation",
-        "similarity": 0.6746,
+        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
+        "similarity": 0.6901,
         "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 11224889504112485232
-          },
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13172206494987756338
+            "fingerprint": 614095243011328414
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13154369331525460856
+            "fingerprint": 12974224274836293980
           }
         }
       },
@@ -305,12 +317,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17746882522527531890
+            "fingerprint": 17748007322922713970
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13136350303040708924
+            "fingerprint": 13136350303040708988
           }
         }
       },
@@ -322,34 +334,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751380007194919222
+            "fingerprint": 17751379938475704630
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17751416359798309684
-          }
-        }
-      },
-      {
-        "href": "/csharp/object-initialization/index.json",
-        "title": "Object Initialization",
-        "similarity": 0.6333,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7058325005360841626
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 17751804552900313392
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603925754777575800
+            "fingerprint": 13139692957975577396
           }
         }
       }
@@ -359,7 +349,7 @@
     "topics": []
   },
   "metadata": {
-    "generated": "2025-10-08T22:51:50.7587754Z",
+    "generated": "2025-10-14T05:30:35.6167209Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

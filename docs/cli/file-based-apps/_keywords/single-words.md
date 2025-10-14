@@ -1,16 +1,16 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 290
-Total word occurrences: 693
-Total document words: 1012
+Total unique words: 288
+Total word occurrences: 681
+Total document words: 1013
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | docs | 18 | 0.0178 |
-| file-based | 15 | 0.0148 |
+| file-based | 16 | 0.0158 |
 | project | 14 | 0.0138 |
-| dotnet | 12 | 0.0119 |
+| dotnet | 12 | 0.0118 |
 | code | 10 | 0.0099 |
 | scripts | 10 | 0.0099 |
 | com | 9 | 0.0089 |
@@ -41,22 +41,19 @@ Total document words: 1012
 | tutorials | 6 | 0.0059 |
 | without | 6 | 0.0059 |
 | create | 5 | 0.0049 |
-| files | 5 | 0.0049 |
 | nuget | 5 | 0.0049 |
 | setup | 5 | 0.0049 |
-| basic | 4 | 0.0040 |
-| complexity | 4 | 0.0040 |
-| direct | 4 | 0.0040 |
-| migration | 4 | 0.0040 |
-| reference | 4 | 0.0040 |
-| run | 4 | 0.0040 |
-| simple | 4 | 0.0040 |
-| structures | 4 | 0.0040 |
-| syntax | 4 | 0.0040 |
-| team | 4 | 0.0040 |
-| utilities | 4 | 0.0040 |
-| while | 4 | 0.0040 |
-| works | 4 | 0.0040 |
+| basic | 4 | 0.0039 |
+| complexity | 4 | 0.0039 |
+| direct | 4 | 0.0039 |
+| migration | 4 | 0.0039 |
+| run | 4 | 0.0039 |
+| structures | 4 | 0.0039 |
+| syntax | 4 | 0.0039 |
+| team | 4 | 0.0039 |
+| utilities | 4 | 0.0039 |
+| while | 4 | 0.0039 |
+| works | 4 | 0.0039 |
 | arguments | 3 | 0.0030 |
 | artifacts | 3 | 0.0030 |
 | both | 3 | 0.0030 |
@@ -67,8 +64,8 @@ Total document words: 1012
 | dotnet-10 | 3 | 0.0030 |
 | experimentation | 3 | 0.0030 |
 | external | 3 | 0.0030 |
+| handle | 3 | 0.0030 |
 | input | 3 | 0.0030 |
-| integration | 3 | 0.0030 |
 | intellisense | 3 | 0.0030 |
 | learning | 3 | 0.0030 |
 | local | 3 | 0.0030 |
@@ -82,7 +79,6 @@ Total document words: 1012
 | standard | 3 | 0.0030 |
 | transform | 3 | 0.0030 |
 | unix | 3 | 0.0030 |
-| using | 3 | 0.0030 |
 | whats-new | 3 | 0.0030 |
 | advanced | 2 | 0.0020 |
 | alternative | 2 | 0.0020 |
@@ -102,6 +98,7 @@ Total document words: 1012
 | executable | 2 | 0.0020 |
 | executables | 2 | 0.0020 |
 | explicit | 2 | 0.0020 |
+| files | 2 | 0.0020 |
 | flexibility | 2 | 0.0020 |
 | grows | 2 | 0.0020 |
 | host | 2 | 0.0020 |
@@ -121,14 +118,14 @@ Total document words: 1012
 | persistent | 2 | 0.0020 |
 | powershell | 2 | 0.0020 |
 | prototyping | 2 | 0.0020 |
-| references | 2 | 0.0020 |
+| reference | 2 | 0.0020 |
 | require | 2 | 0.0020 |
 | runtime | 2 | 0.0020 |
-| scenarios | 2 | 0.0020 |
 | script | 2 | 0.0020 |
 | seamless | 2 | 0.0020 |
 | self-contained | 2 | 0.0020 |
 | separator | 2 | 0.0020 |
+| simple | 2 | 0.0020 |
 | simplified | 2 | 0.0020 |
 | solution | 2 | 0.0020 |
 | temporary | 2 | 0.0020 |
@@ -149,24 +146,23 @@ Total document words: 1012
 | behavior | 1 | 0.0010 |
 | behind | 1 | 0.0010 |
 | benefits | 1 | 0.0010 |
+| best | 1 | 0.0010 |
 | better | 1 | 0.0010 |
 | between | 1 | 0.0010 |
 | bridging | 1 | 0.0010 |
 | builds | 1 | 0.0010 |
 | capable | 1 | 0.0010 |
 | classic | 1 | 0.0010 |
-| common | 1 | 0.0010 |
 | compared | 1 | 0.0010 |
+| compilation | 1 | 0.0010 |
 | complement | 1 | 0.0010 |
 | complete | 1 | 0.0010 |
 | config | 1 | 0.0010 |
-| configuration | 1 | 0.0010 |
 | conflict | 1 | 0.0010 |
 | consider | 1 | 0.0010 |
 | consistency | 1 | 0.0010 |
 | consistently | 1 | 0.0010 |
 | conversion | 1 | 0.0010 |
-| converters | 1 | 0.0010 |
 | cover | 1 | 0.0010 |
 | creation | 1 | 0.0010 |
 | creative | 1 | 0.0010 |
@@ -213,8 +209,8 @@ Total document words: 1012
 | individual | 1 | 0.0010 |
 | instead | 1 | 0.0010 |
 | integrates | 1 | 0.0010 |
+| integration | 1 | 0.0010 |
 | into | 1 | 0.0010 |
-| less | 1 | 0.0010 |
 | libraries | 1 | 0.0010 |
 | like | 1 | 0.0010 |
 | linux | 1 | 0.0010 |
@@ -242,6 +238,7 @@ Total document words: 1012
 | platform-specific | 1 | 0.0010 |
 | platforms | 1 | 0.0010 |
 | positioning | 1 | 0.0010 |
+| practices | 1 | 0.0010 |
 | processing | 1 | 0.0010 |
 | production | 1 | 0.0010 |
 | productivity | 1 | 0.0010 |
@@ -259,6 +256,7 @@ Total document words: 1012
 | replacing | 1 | 0.0010 |
 | requirements | 1 | 0.0010 |
 | return | 1 | 0.0010 |
+| scenarios | 1 | 0.0010 |
 | scenes | 1 | 0.0010 |
 | sdk | 1 | 0.0010 |
 | seamlessly | 1 | 0.0010 |

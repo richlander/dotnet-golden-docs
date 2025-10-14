@@ -5,13 +5,13 @@ TypeName | CommandLine
 Keyword | system.commandline
 Keyword | command-line
 Keyword | parsing
-Keyword | option
-Keyword | validation
-Keyword | commandline
 Keyword | response files
 Keyword | options
-Keyword | tools
-Keyword | use
+Keyword | validation
 Keyword | automatic
 Keyword | binding
+Keyword | commandline
+Keyword | handlers
+Keyword | help
+Keyword | hierarchies
 Description | System.CommandLine is a command-line parsing library for .NET that provides functionality commonly needed by command-line apps, such as parsing command-line input and displaying help text. It offers strongly-typed argument and option parsing, automatic help generation, tab completion, response files, and built-in validation according to POSIX or Windows conventions.

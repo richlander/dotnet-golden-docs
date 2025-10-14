@@ -1,0 +1,5 @@
+Title | Migrating from Newtonsoft.Json to System.Text.Json
+TypeName | Migrating from Newtonsoft.Json to System.Text.Json
+TypeName | Migrating from Newtonsoft.Json to System.Text
+TypeName | Json
+Description | This topic provides technical mapping between Newtonsoft.Json and System.Text.Json APIs. It covers API equivalents, attribute mappings, and required code changes for applications migrating from Newtonsoft.Json to System.Text.Json. The document focuses on mechanical conversion steps without comparing features or benefits.

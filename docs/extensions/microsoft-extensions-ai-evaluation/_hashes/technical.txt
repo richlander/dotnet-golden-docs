@@ -16,11 +16,11 @@ Keyword | evaluation
 Keyword | ai
 Keyword | quality
 Keyword | microsoft.extensions.ai.evaluation
-Keyword | safety
 Keyword | safety evaluators
 Keyword | azure
 Keyword | evaluators
 Keyword | metrics
-Keyword | extensions
 Keyword | microsoft
 Keyword | nlp
+Keyword | reporting
+Keyword | assurance

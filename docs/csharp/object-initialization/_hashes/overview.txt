@@ -4,11 +4,11 @@ Keyword | anonymous types
 Keyword | collection properties
 Keyword | init properties
 Keyword | required members
-Keyword | objects
-Keyword | constructor
-Keyword | initialization
 Keyword | initializers
-Keyword | properties
 Keyword | collection expressions
 Keyword | init-only properties
+Keyword | constructors
+Keyword | initialization
+Keyword | properties
+Keyword | use
 Description | Object initialization encompasses the various approaches for creating and initializing objects and their properties in C#, including constructor-based initialization, object initializer syntax, collection initializers within objects, anonymous types, init-only properties, and required members. This covers both object creation patterns and the initialization of collections as properties of those objects.

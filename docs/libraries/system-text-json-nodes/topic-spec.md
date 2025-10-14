@@ -37,3 +37,40 @@ System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing
 | Priority | 2 (High) |
 | Version | 6.0 |
 | Year | 2021 |
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 9860979202420835664 |
+| technical | simhash | 12703869732690724188 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries/system-text-json-jsondocument | 0.9017 |
+| libraries | libraries/system-text-json | 0.8730 |
+| libraries | libraries/system-text-json-jsonserializer | 0.8430 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.7954 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7949 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.7544 |
+| libraries | libraries/system-text-json-source-generation | 0.7529 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7183 |
+| csharp | csharp/csharp-14-features | 0.7090 |
+| libraries | libraries | 0.6828 |
+| csharp | csharp/object-initialization | 0.6729 |
+| dotnet | dotnet | 0.6702 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| JsonNode.Parse | method | 20 |
+| AsObject | method | 9 |
+| ToJsonString | method | 6 |
+| AsArray | method | 5 |
+| DateTime.UtcNow.ToString | method | 4 |
+| DeepClone | method | 4 |
+| Console.WriteLine | method | 3 |
+| JsonArray | method | 3 |
+

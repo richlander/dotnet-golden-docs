@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 5 compound terms and 108 single words
-Total unique terms: 113
-Terms with score ≥ 3.0: 17
-Total term occurrences: 175
+Combined 5 compound terms and 102 single words
+Total unique terms: 107
+Terms with score ≥ 3.0: 15
+Total term occurrences: 163
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,7 +15,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
 | build | single | 15 | 1.00x | 1.00x | 15.0 |
-| configuration | single | 5 | 1.00x | 1.00x | 5.0 |
+| compilation | single | 5 | 1.00x | 1.00x | 5.0 |
 | ci | single | 4 | 1.00x | 1.00x | 4.0 |
 | build acceleration | compound | 2 | 1.25x | 1.50x | 3.8 |
 | performance optimization | compound | 2 | 1.25x | 1.50x | 3.8 |
@@ -26,8 +26,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | builds | single | 3 | 1.00x | 1.00x | 3.0 |
 | code | single | 3 | 1.00x | 1.00x | 3.0 |
 | commands | single | 3 | 1.00x | 1.00x | 3.0 |
-| compilation | single | 3 | 1.00x | 1.00x | 3.0 |
-| multiple | single | 3 | 1.00x | 1.00x | 3.0 |
 | nuget | single | 3 | 1.00x | 1.00x | 3.0 |
 | parallel | single | 3 | 1.00x | 1.00x | 3.0 |
 | workflows | single | 3 | 1.00x | 1.00x | 3.0 |

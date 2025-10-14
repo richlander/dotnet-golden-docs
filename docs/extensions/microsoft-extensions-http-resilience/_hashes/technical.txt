@@ -15,12 +15,12 @@ API | Uri
 Keyword | resilience
 Keyword | http
 Keyword | communication
-Keyword | httpclient
 Keyword | microsoft.extensions.http.resilience
 Keyword | monitoring
 Keyword | strategies
 Keyword | standard
 Keyword | built
 Keyword | circuit
+Keyword | httpclient
 Keyword | polly
 Keyword | reliability

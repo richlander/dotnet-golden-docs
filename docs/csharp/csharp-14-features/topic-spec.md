@@ -42,8 +42,8 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 7262411006152912613 |
-| overview | simhash | 12991679535167505208 |
-| technical | simhash | 12704008810442662268 |
+| overview | simhash | 12991679535167439672 |
+| technical | simhash | 12704008812590162300 |
 
 ## Relationships
 
@@ -63,15 +63,15 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | assignment | 6.00 |
 | extension | 5.00 |
 | zero-allocation | 3.00 |
-| compile-time | 4.00 |
 | enhanced | 4.00 |
-| patterns | 7.00 |
+| keyword | 4.00 |
+| params collections | 2.00 |
 | expression trees | 2.00 |
 | first-class span | 2.00 |
 | named arguments | 2.00 |
+| compile-time | 4.00 |
+| patterns | 6.00 |
 | first-class | 3.00 |
-| keyword | 3.00 |
-| lambda | 3.00 |
 
 ## APIs
 
@@ -143,12 +143,12 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | libraries | libraries/dotnet-10-library-improvements | 0.7967 |
 | csharp | csharp/object-initialization | 0.7591 |
 | csharp | csharp/collection-expressions | 0.7522 |
+| libraries | libraries/system-text-json | 0.7342 |
 | libraries | libraries/system-buffers-searchvalues | 0.7328 |
 | libraries | libraries | 0.7280 |
 | dotnet | dotnet | 0.7274 |
-| libraries | libraries/system-text-json | 0.7242 |
-| cli | cli/assembly-trimming | 0.6853 |
-| cli | cli/file-based-apps | 0.6828 |
-| cli | cli/native-aot | 0.6593 |
-| extensions | extensions/microsoft-extensions-ai | 0.6469 |
+| libraries | libraries/system-text-json-jsonserializer | 0.7259 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7255 |
+| libraries | libraries/string-search-operations | 0.7160 |
+| libraries | libraries/system-text-json-nodes | 0.7090 |
 

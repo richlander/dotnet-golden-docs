@@ -48,8 +48,8 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 4477352130680084748 |
-| overview | simhash | 12995581154334049082 |
-| technical | simhash | 17603783919925068156 |
+| overview | simhash | 13031609950279271226 |
+| technical | simhash | 17603784469680882044 |
 
 ## Relationships
 
@@ -65,18 +65,18 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 
 | Keyword | Score |
 |---------|-------|
-| system.commandline | 6.00 |
-| command-line | 10.00 |
+| system.commandline | 4.00 |
+| command-line | 6.00 |
 | parsing | 9.00 |
-| option | 7.00 |
-| validation | 7.00 |
-| commandline | 6.00 |
 | response files | 3.00 |
 | options | 6.00 |
-| tools | 6.00 |
-| use | 8.00 |
+| validation | 6.00 |
 | automatic | 4.00 |
 | binding | 4.00 |
+| commandline | 4.00 |
+| handlers | 4.00 |
+| help | 4.00 |
+| hierarchies | 4.00 |
 
 ## APIs
 
@@ -97,15 +97,15 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 | cli | cli | 0.7970 |
 | cli | cli/file-based-apps | 0.7239 |
 | libraries | libraries/system-text-json | 0.7216 |
+| libraries | libraries/system-text-json-jsonserializer | 0.7107 |
 | dotnet | dotnet | 0.7004 |
 | csharp | csharp | 0.6995 |
 | csharp | csharp/csharp-14-features | 0.6990 |
 | libraries | libraries | 0.6963 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6932 |
-| libraries | libraries/system-text-json-source-generation | 0.6746 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6901 |
 | cli | cli/native-aot | 0.6697 |
 | cli | cli/build-and-compilation | 0.6689 |
-| csharp | csharp/object-initialization | 0.6333 |
 
 ## Authority Scores
 

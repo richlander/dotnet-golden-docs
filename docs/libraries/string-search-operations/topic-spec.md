@@ -45,7 +45,7 @@ String search operations provide a comprehensive set of methods for locating sub
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13139733588357906744 |
+| overview | simhash | 17752545506692137272 |
 | technical | simhash | 17603926856436679036 |
 
 ## Relationships
@@ -63,7 +63,8 @@ String search operations provide a comprehensive set of methods for locating sub
 
 | Keyword | Score |
 |---------|-------|
-| string | 14.00 |
+| string | 13.00 |
+| string search | 4.00 |
 | searchvalues | 7.00 |
 | string search operations | 3.00 |
 | contains | 6.00 |
@@ -72,9 +73,8 @@ String search operations provide a comprehensive set of methods for locating sub
 | repeated | 5.00 |
 | searches | 5.00 |
 | allocation-free | 3.00 |
+| best | 4.00 |
 | character | 4.00 |
-| matching | 4.00 |
-| search | 4.00 |
 
 ## Similarity Scores
 
@@ -85,13 +85,13 @@ String search operations provide a comprehensive set of methods for locating sub
 | csharp | csharp/csharp-14-features | 0.7160 |
 | csharp | csharp/collection-expressions | 0.7014 |
 | csharp | csharp | 0.6922 |
-| libraries | libraries/system-text-json | 0.6651 |
+| libraries | libraries/system-text-json | 0.6920 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.6903 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6886 |
+| libraries | libraries/system-text-json-nodes | 0.6731 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6665 |
 | libraries | libraries | 0.6619 |
-| dotnet | dotnet | 0.6550 |
-| cli | cli/file-based-apps | 0.6012 |
-| cli | cli/assembly-trimming | 0.5782 |
-| cli | cli | 0.5744 |
-| extensions | extensions/microsoft-extensions-ai-evaluation | 0.5720 |
+| libraries | libraries/system-commandline | 0.6562 |
 
 ## APIs
 

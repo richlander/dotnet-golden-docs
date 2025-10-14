@@ -1,0 +1,5 @@
+Title | System.Text.Json.JsonDocument
+TypeName | System.Text.Json.JsonDocument
+TypeName | System.Text.Json
+TypeName | JsonDocument
+Description | System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) for JSON with minimal memory allocation. It parses JSON into a pooled memory buffer and provides `JsonElement` for navigation, enabling high-performance JSON querying without defining concrete types. JsonDocument is designed for scenarios requiring temporary JSON access with predictable, low-allocation characteristics.

@@ -1,51 +1,50 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 127
-Total word occurrences: 199
-Total document words: 385
+Total unique words: 121
+Total word occurrences: 187
+Total document words: 392
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| syntax | 8 | 0.0208 |
-| values | 8 | 0.0208 |
-| collections | 6 | 0.0156 |
-| patterns | 5 | 0.0130 |
-| use | 4 | 0.0104 |
-| capacity | 3 | 0.0078 |
-| dictionaries | 3 | 0.0078 |
-| dictionary | 3 | 0.0078 |
-| elements | 3 | 0.0078 |
-| existing | 3 | 0.0078 |
-| know | 3 | 0.0078 |
-| known | 3 | 0.0078 |
-| method | 3 | 0.0078 |
-| offer | 3 | 0.0078 |
-| provide | 3 | 0.0078 |
-| target-typed | 3 | 0.0078 |
-| upfront | 3 | 0.0078 |
-| choose | 2 | 0.0052 |
-| clearest | 2 | 0.0052 |
-| common | 2 | 0.0052 |
-| construction | 2 | 0.0052 |
-| different | 2 | 0.0052 |
-| don't | 2 | 0.0052 |
-| imperative | 2 | 0.0052 |
-| information | 2 | 0.0052 |
-| initial | 2 | 0.0052 |
-| initializers | 2 | 0.0052 |
-| need | 2 | 0.0052 |
-| nested | 2 | 0.0052 |
-| one | 2 | 0.0052 |
-| operator | 2 | 0.0052 |
-| options | 2 | 0.0052 |
-| redundant | 2 | 0.0052 |
-| returns | 2 | 0.0052 |
-| set | 2 | 0.0052 |
-| sources | 2 | 0.0052 |
-| spans | 2 | 0.0052 |
-| support | 2 | 0.0052 |
-| their | 2 | 0.0052 |
+| syntax | 8 | 0.0204 |
+| values | 6 | 0.0153 |
+| collections | 4 | 0.0102 |
+| patterns | 4 | 0.0102 |
+| use | 4 | 0.0102 |
+| capacity | 3 | 0.0077 |
+| dictionaries | 3 | 0.0077 |
+| dictionary | 3 | 0.0077 |
+| elements | 3 | 0.0077 |
+| existing | 3 | 0.0077 |
+| know | 3 | 0.0077 |
+| known | 3 | 0.0077 |
+| method | 3 | 0.0077 |
+| offer | 3 | 0.0077 |
+| provide | 3 | 0.0077 |
+| target-typed | 3 | 0.0077 |
+| upfront | 3 | 0.0077 |
+| choose | 2 | 0.0051 |
+| clearest | 2 | 0.0051 |
+| construction | 2 | 0.0051 |
+| different | 2 | 0.0051 |
+| don't | 2 | 0.0051 |
+| imperative | 2 | 0.0051 |
+| information | 2 | 0.0051 |
+| initial | 2 | 0.0051 |
+| initializers | 2 | 0.0051 |
+| need | 2 | 0.0051 |
+| nested | 2 | 0.0051 |
+| one | 2 | 0.0051 |
+| operator | 2 | 0.0051 |
+| options | 2 | 0.0051 |
+| redundant | 2 | 0.0051 |
+| returns | 2 | 0.0051 |
+| set | 2 | 0.0051 |
+| sources | 2 | 0.0051 |
+| spans | 2 | 0.0051 |
+| support | 2 | 0.0051 |
+| their | 2 | 0.0051 |
 | added | 1 | 0.0026 |
 | adding | 1 | 0.0026 |
 | advanced | 1 | 0.0026 |
@@ -55,19 +54,19 @@ Total document words: 385
 | approximate | 1 | 0.0026 |
 | aren't | 1 | 0.0026 |
 | array | 1 | 0.0026 |
-| building | 1 | 0.0026 |
+| best | 1 | 0.0026 |
 | calls | 1 | 0.0026 |
 | characteristics | 1 | 0.0026 |
 | cleanly | 1 | 0.0026 |
 | code | 1 | 0.0026 |
 | combine | 1 | 0.0026 |
 | combining | 1 | 0.0026 |
+| common | 1 | 0.0026 |
 | complete | 1 | 0.0026 |
 | complex | 1 | 0.0026 |
 | compose | 1 | 0.0026 |
 | composing | 1 | 0.0026 |
 | comprehensive | 1 | 0.0026 |
-| conditional | 1 | 0.0026 |
 | considerations | 1 | 0.0026 |
 | coverage | 1 | 0.0026 |
 | created | 1 | 0.0026 |
@@ -90,7 +89,6 @@ Total document words: 385
 | instances | 1 | 0.0026 |
 | intent | 1 | 0.0026 |
 | issues | 1 | 0.0026 |
-| large | 1 | 0.0026 |
 | later | 1 | 0.0026 |
 | leverage | 1 | 0.0026 |
 | limitations | 1 | 0.0026 |
@@ -98,23 +96,19 @@ Total document words: 385
 | lists | 1 | 0.0026 |
 | match | 1 | 0.0026 |
 | matches | 1 | 0.0026 |
-| multiple | 1 | 0.0026 |
 | naturally | 1 | 0.0026 |
-| null | 1 | 0.0026 |
 | once | 1 | 0.0026 |
 | ones | 1 | 0.0026 |
 | overview | 1 | 0.0026 |
-| parameters | 1 | 0.0026 |
 | pitfalls | 1 | 0.0026 |
 | planning | 1 | 0.0026 |
 | populate | 1 | 0.0026 |
+| practices | 1 | 0.0026 |
 | pre-size | 1 | 0.0026 |
 | pre-sizing | 1 | 0.0026 |
 | preferred | 1 | 0.0026 |
 | primary | 1 | 0.0026 |
 | rather | 1 | 0.0026 |
-| reference | 1 | 0.0026 |
-| references | 1 | 0.0026 |
 | requirements | 1 | 0.0026 |
 | see | 1 | 0.0026 |
 | selection | 1 | 0.0026 |

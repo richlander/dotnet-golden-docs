@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 27
+Total headers: 26
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 6 headers (multiplier: 1.25x)
-- **H3**: 17 headers (multiplier: 1.1x)
+- **H2**: 8 headers (multiplier: 1.25x)
+- **H3**: 14 headers (multiplier: 1.1x)
 - **H4**: 3 headers (multiplier: 1.1x)
 
 ## All Headers
@@ -30,10 +30,9 @@ Total headers: 27
 | H4 | Setting Up Source Generation | 1.1x |
 | H4 | Enabling Source Generation for Generic Methods with JsonTypeInfo | 1.1x |
 | H4 | Common AOT Errors | 1.1x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | High-Performance Console Applications | 1.1x |
-| H3 | Microservice with Minimal API | 1.1x |
-| H3 | Container-Optimized Deployment | 1.1x |
+| H2 | Using Native AOT for High-Performance Console Applications | 1.25x |
+| H2 | Using Native AOT with Minimal API Microservices | 1.25x |
+| H2 | Container-Optimized Deployment with Native AOT | 1.25x |
 | H2 | Gotchas & Limitations | 1.25x |
 | H3 | Critical Limitations | 1.1x |
 | H3 | Platform-Specific Issues | 1.1x |

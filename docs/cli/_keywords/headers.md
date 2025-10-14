@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 39
+Total headers: 38
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 9 headers (multiplier: 1.25x)
-- **H3**: 29 headers (multiplier: 1.1x)
+- **H2**: 11 headers (multiplier: 1.25x)
+- **H3**: 26 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -38,10 +38,9 @@ Total headers: 39
 | H3 | Build Performance | 1.1x |
 | H3 | Package Restore Optimization | 1.1x |
 | H3 | Developer Productivity Tools | 1.1x |
-| H2 | Common Scenarios and Use Cases | 1.25x |
-| H3 | Team Development Patterns | 1.1x |
-| H3 | Project Template Customization | 1.1x |
-| H3 | Enterprise and Team Development | 1.1x |
+| H2 | Team Development Patterns | 1.25x |
+| H2 | Project Template Customization | 1.25x |
+| H2 | Enterprise and Team Development | 1.25x |
 | H2 | Gotchas and Limitations | 1.25x |
 | H3 | Version and Compatibility Management | 1.1x |
 | H3 | Performance Considerations | 1.1x |

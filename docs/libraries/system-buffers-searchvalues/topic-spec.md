@@ -44,8 +44,8 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13140716481029145400 |
-| technical | simhash | 12992239188741849468 |
+| overview | simhash | 13140681365376664376 |
+| technical | simhash | 12992238638986035580 |
 
 ## Relationships
 
@@ -61,18 +61,18 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 
 | Keyword | Score |
 |---------|-------|
-| searchvalues | 12.00 |
+| searchvalues | 16.00 |
 | searches | 7.00 |
 | allocation-free | 4.00 |
-| search | 6.00 |
-| values | 7.00 |
 | characters | 4.00 |
-| operations | 4.00 |
-| multiple | 5.00 |
 | creating searchvalues | 2.00 |
 | character | 3.00 |
 | once | 3.00 |
 | pre-computed | 2.00 |
+| searching | 3.00 |
+| set | 3.00 |
+| span-based | 2.00 |
+| substring | 3.00 |
 
 ## Similarity Scores
 
@@ -80,16 +80,16 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 |----------|----------|------------|
 | libraries | libraries/string-search-operations | 0.7956 |
 | csharp | csharp/csharp-14-features | 0.7328 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.7235 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7137 |
 | csharp | csharp/collection-initialization | 0.6978 |
-| libraries | libraries/system-text-json | 0.6862 |
+| libraries | libraries/system-text-json | 0.6938 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6797 |
+| libraries | libraries/system-text-json-nodes | 0.6792 |
 | csharp | csharp/collection-expressions | 0.6790 |
+| libraries | libraries/system-text-json-jsondocument | 0.6724 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.6637 |
 | libraries | libraries | 0.6616 |
-| dotnet | dotnet | 0.6581 |
-| cli | cli/file-based-apps | 0.5889 |
-| cli | cli/assembly-trimming | 0.5803 |
-| cli | cli/native-aot | 0.5636 |
-| extensions | extensions/microsoft-extensions-ai-evaluation | 0.5520 |
 
 ## APIs
 

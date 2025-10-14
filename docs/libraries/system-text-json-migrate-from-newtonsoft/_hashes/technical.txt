@@ -1,0 +1,16 @@
+Title | Migrating from Newtonsoft.Json to System.Text.Json
+TypeName | Migrating from Newtonsoft.Json to System.Text.Json
+TypeName | Migrating from Newtonsoft.Json to System.Text
+TypeName | Json
+API | System.Text.Json
+API | System.Text
+API | JsonProperty
+API | JsonIgnore
+API | JsonConvert.SerializeObject
+API | JsonRequired
+API | JsonSerializer.Serialize
+API | JsonConstructor
+API | JsonConverter
+API | JsonDerivedType
+API | JsonPropertyName
+API | Select

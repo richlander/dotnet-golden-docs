@@ -53,7 +53,7 @@ Collection expressions provide a concise syntax to create common collection valu
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 455161043282583691 |
-| overview | simhash | 12992804884253057394 |
+| overview | simhash | 12992804884252795250 |
 | technical | simhash | 12997308484954235260 |
 
 ## Relationships
@@ -70,17 +70,17 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | Keyword | Score |
 |---------|-------|
-| collection expressions | 15.00 |
+| collection expressions | 16.00 |
+| syntax | 10.00 |
 | collection types | 4.00 |
 | target type | 4.00 |
-| syntax | 10.00 |
 | spread | 5.00 |
-| collections | 6.00 |
 | familiar | 4.00 |
-| params | 4.00 |
 | spread element | 2.00 |
+| using collection expressions | 2.00 |
 | compile-time constants | 2.00 |
 | inline arrays | 2.00 |
+| collections | 4.00 |
 | combine | 3.00 |
 
 ## APIs
@@ -111,12 +111,12 @@ Collection expressions provide a concise syntax to create common collection valu
 | libraries | libraries/string-search-operations | 0.7014 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6799 |
 | libraries | libraries/system-buffers-searchvalues | 0.6790 |
-| libraries | libraries/system-text-json | 0.6238 |
-| dotnet | dotnet | 0.5787 |
-| cli | cli/file-based-apps | 0.5601 |
-| cli | cli/assembly-trimming | 0.5568 |
-| cli | cli | 0.5342 |
-| extensions | extensions/microsoft-extensions-ai | 0.5133 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6492 |
+| libraries | libraries/system-text-json-nodes | 0.6356 |
+| libraries | libraries/system-text-json | 0.6322 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6305 |
+| libraries | libraries/system-commandline | 0.6209 |
+| libraries | libraries | 0.6080 |
 
 ## Authority Scores
 

@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 23
+Total headers: 22
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
 - **H2**: 6 headers (multiplier: 1.25x)
-- **H3**: 16 headers (multiplier: 1.1x)
+- **H3**: 15 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -22,8 +22,7 @@ Total headers: 23
 | H3 | Custom Resilience Pipeline | 1.1x |
 | H3 | Configuration Through Options Pattern | 1.1x |
 | H3 | Resilience with Custom Logic | 1.1x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | Microservices Communication Reliability | 1.1x |
+| H2 | Microservices Communication Reliability | 1.25x |
 | H3 | API Gateway Resilience Pattern | 1.1x |
 | H3 | External API Integration with Fallbacks | 1.1x |
 | H3 | Circuit Breaker Monitoring and Health Checks | 1.1x |

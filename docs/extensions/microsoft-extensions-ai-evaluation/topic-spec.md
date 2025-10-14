@@ -42,7 +42,7 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 12997269984866959672 |
+| overview | simhash | 12997129247378506040 |
 | technical | simhash | 12992239188741857660 |
 
 ## Relationships
@@ -64,14 +64,14 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 | ai | 22.00 |
 | quality | 12.00 |
 | microsoft.extensions.ai.evaluation | 5.00 |
-| safety | 7.00 |
 | safety evaluators | 4.00 |
 | azure | 6.00 |
 | evaluators | 6.00 |
 | metrics | 6.00 |
-| extensions | 7.00 |
 | microsoft | 7.00 |
 | nlp | 5.00 |
+| reporting | 5.00 |
+| assurance | 4.00 |
 
 ## APIs
 
@@ -94,16 +94,16 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 |----------|----------|------------|
 | extensions | extensions/microsoft-extensions-ai | 0.8279 |
 | dotnet | dotnet | 0.6825 |
+| libraries | libraries/system-text-json | 0.6546 |
 | libraries | libraries | 0.6506 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6445 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6424 |
-| libraries | libraries/system-text-json | 0.6286 |
 | csharp | csharp/csharp-14-features | 0.6285 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6204 |
+| libraries | libraries/system-text-json-source-generation | 0.6188 |
 | cli | cli/native-aot | 0.6161 |
-| libraries | libraries/system-text-json-source-generation | 0.6149 |
 | cli | cli | 0.6142 |
 | cli | cli/file-based-apps | 0.6092 |
-| cli | cli/publishing-and-deployment | 0.5921 |
 
 ## Critical limitations
 

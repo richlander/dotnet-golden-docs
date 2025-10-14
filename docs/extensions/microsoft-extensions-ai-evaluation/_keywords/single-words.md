@@ -1,28 +1,26 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 218
-Total word occurrences: 402
-Total document words: 597
+Total unique words: 213
+Total word occurrences: 383
+Total document words: 595
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| evaluation | 30 | 0.0503 |
-| ai | 22 | 0.0369 |
-| quality | 12 | 0.0201 |
-| extensions | 7 | 0.0117 |
-| microsoft | 7 | 0.0117 |
-| safety | 7 | 0.0117 |
+| evaluation | 30 | 0.0504 |
+| ai | 22 | 0.0370 |
+| quality | 12 | 0.0202 |
+| microsoft | 7 | 0.0118 |
 | azure | 6 | 0.0101 |
 | evaluators | 6 | 0.0101 |
 | metrics | 6 | 0.0101 |
+| extensions | 5 | 0.0084 |
 | nlp | 5 | 0.0084 |
 | reporting | 5 | 0.0084 |
 | assurance | 4 | 0.0067 |
 | caching | 4 | 0.0067 |
 | content | 4 | 0.0067 |
 | llm-based | 4 | 0.0067 |
-| responses | 4 | 0.0067 |
 | vs | 4 | 0.0067 |
 | cd | 3 | 0.0050 |
 | ci | 3 | 0.0050 |
@@ -31,8 +29,8 @@ Total document words: 597
 | design | 3 | 0.0050 |
 | evaluations | 3 | 0.0050 |
 | foundry | 3 | 0.0050 |
-| integration | 3 | 0.0050 |
 | provides | 3 | 0.0050 |
+| safety | 3 | 0.0050 |
 | testing | 3 | 0.0050 |
 | through | 3 | 0.0050 |
 | use | 3 | 0.0050 |
@@ -49,7 +47,6 @@ Total document words: 597
 | built | 2 | 0.0034 |
 | capabilities | 2 | 0.0034 |
 | coherence | 2 | 0.0034 |
-| configuration | 2 | 0.0034 |
 | considerations | 2 | 0.0034 |
 | deployments | 2 | 0.0034 |
 | designed | 2 | 0.0034 |
@@ -62,10 +59,8 @@ Total document words: 597
 | implementing | 2 | 0.0034 |
 | leverage | 2 | 0.0034 |
 | measuring | 2 | 0.0034 |
-| model | 2 | 0.0034 |
 | models | 2 | 0.0034 |
 | modular | 2 | 0.0034 |
-| multiple | 2 | 0.0034 |
 | pipelines | 2 | 0.0034 |
 | preview | 2 | 0.0034 |
 | production | 2 | 0.0034 |
@@ -82,7 +77,6 @@ Total document words: 597
 | algorithms | 1 | 0.0017 |
 | alignment | 1 | 0.0017 |
 | alternative | 1 | 0.0017 |
-| api | 1 | 0.0017 |
 | approaches | 1 | 0.0017 |
 | assertions | 1 | 0.0017 |
 | assess | 1 | 0.0017 |
@@ -92,15 +86,14 @@ Total document words: 597
 | basic | 1 | 0.0017 |
 | behavior | 1 | 0.0017 |
 | benefits | 1 | 0.0017 |
+| best | 1 | 0.0017 |
 | bleu | 1 | 0.0017 |
 | both | 1 | 0.0017 |
 | builder | 1 | 0.0017 |
-| building | 1 | 0.0017 |
 | built-in | 1 | 0.0017 |
 | changes | 1 | 0.0017 |
 | checks | 1 | 0.0017 |
 | code-based | 1 | 0.0017 |
-| common | 1 | 0.0017 |
 | comparison | 1 | 0.0017 |
 | completeness | 1 | 0.0017 |
 | complexity | 1 | 0.0017 |
@@ -147,6 +140,7 @@ Total document words: 597
 | individual | 1 | 0.0017 |
 | instantiation | 1 | 0.0017 |
 | integrate | 1 | 0.0017 |
+| integration | 1 | 0.0017 |
 | intelligent | 1 | 0.0017 |
 | interface | 1 | 0.0017 |
 | intersection | 1 | 0.0017 |
@@ -179,6 +173,7 @@ Total document words: 597
 | planning | 1 | 0.0017 |
 | positioning | 1 | 0.0017 |
 | potential | 1 | 0.0017 |
+| practices | 1 | 0.0017 |
 | process | 1 | 0.0017 |
 | processing | 1 | 0.0017 |
 | production-ready | 1 | 0.0017 |
@@ -199,6 +194,7 @@ Total document words: 597
 | seamlessly | 1 | 0.0017 |
 | security | 1 | 0.0017 |
 | separate | 1 | 0.0017 |
+| service | 1 | 0.0017 |
 | set | 1 | 0.0017 |
 | settings | 1 | 0.0017 |
 | significant | 1 | 0.0017 |
@@ -221,7 +217,6 @@ Total document words: 597
 | unified | 1 | 0.0017 |
 | unit | 1 | 0.0017 |
 | updates | 1 | 0.0017 |
-| using | 1 | 0.0017 |
 | vulnerabilities | 1 | 0.0017 |
 | without | 1 | 0.0017 |
 | works | 1 | 0.0017 |

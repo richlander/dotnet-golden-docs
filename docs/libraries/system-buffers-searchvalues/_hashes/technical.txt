@@ -12,12 +12,12 @@ API | Slice
 Keyword | searchvalues
 Keyword | searches
 Keyword | allocation-free
-Keyword | search
-Keyword | values
 Keyword | characters
-Keyword | operations
-Keyword | multiple
 Keyword | creating searchvalues
 Keyword | character
 Keyword | once
 Keyword | pre-computed
+Keyword | searching
+Keyword | set
+Keyword | span-based
+Keyword | substring

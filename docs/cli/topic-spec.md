@@ -56,9 +56,9 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | Keyword | Score |
 |---------|-------|
 | cli | 23.00 |
-| package | 11.00 |
 | development | 10.00 |
 | tools | 13.00 |
+| package | 11.00 |
 | global | 8.00 |
 | builds | 7.00 |
 | commands | 9.00 |
@@ -80,10 +80,10 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | libraries | libraries | 0.7484 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6809 |
 | extensions | extensions/microsoft-extensions-ai | 0.6615 |
+| libraries | libraries/system-text-json | 0.6552 |
 | csharp | csharp | 0.6447 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6368 |
 | csharp | csharp/csharp-14-features | 0.6346 |
-| libraries | libraries/system-text-json | 0.6320 |
-| extensions | extensions/microsoft-extensions-ai-evaluation | 0.6142 |
 
 ### Similarity Metadata
 
@@ -93,7 +93,7 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | csharp | 0.5822 | P50 | 5 |
 | dotnet | 0.7804 | P50 | 1 |
 | extensions | 0.6142 | P50 | 3 |
-| libraries | 0.6320 | P50 | 7 |
+| libraries | 0.5576 | P70 | 13 |
 
 ## Authority Scores
 

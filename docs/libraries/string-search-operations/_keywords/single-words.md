@@ -1,59 +1,56 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 125
-Total word occurrences: 220
-Total document words: 319
+Total unique words: 117
+Total word occurrences: 209
+Total document words: 326
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| string | 14 | 0.0439 |
-| searchvalues | 7 | 0.0219 |
-| contains | 6 | 0.0188 |
-| indexof | 6 | 0.0188 |
-| searching | 6 | 0.0188 |
-| repeated | 5 | 0.0157 |
-| searches | 5 | 0.0157 |
-| character | 4 | 0.0125 |
-| complex | 4 | 0.0125 |
-| matching | 4 | 0.0125 |
-| search | 4 | 0.0125 |
-| use | 4 | 0.0125 |
-| allocation-free | 3 | 0.0094 |
-| code | 3 | 0.0094 |
-| operations | 3 | 0.0094 |
-| regular | 3 | 0.0094 |
-| substring | 3 | 0.0094 |
-| vs | 3 | 0.0094 |
-| best | 2 | 0.0063 |
-| check | 2 | 0.0063 |
-| culture | 2 | 0.0063 |
-| culture-aware | 2 | 0.0063 |
-| delimiters | 2 | 0.0063 |
-| endswith | 2 | 0.0063 |
-| existence | 2 | 0.0063 |
-| find | 2 | 0.0063 |
-| indexofany | 2 | 0.0063 |
-| instead | 2 | 0.0063 |
-| lastindexof | 2 | 0.0063 |
-| lookups | 2 | 0.0063 |
-| multi-value | 2 | 0.0063 |
-| occurrence | 2 | 0.0063 |
-| optimized | 2 | 0.0063 |
-| ordinal | 2 | 0.0063 |
-| pattern-based | 2 | 0.0063 |
-| regex | 2 | 0.0063 |
-| set | 2 | 0.0063 |
-| simple | 2 | 0.0063 |
-| span-based | 2 | 0.0063 |
-| split | 2 | 0.0063 |
-| startswith | 2 | 0.0063 |
-| stringcomparison | 2 | 0.0063 |
-| strings | 2 | 0.0063 |
-| substrings | 2 | 0.0063 |
+| string | 13 | 0.0399 |
+| searchvalues | 7 | 0.0215 |
+| contains | 6 | 0.0184 |
+| indexof | 6 | 0.0184 |
+| searching | 6 | 0.0184 |
+| repeated | 5 | 0.0153 |
+| searches | 5 | 0.0153 |
+| best | 4 | 0.0123 |
+| character | 4 | 0.0123 |
+| complex | 4 | 0.0123 |
+| matching | 4 | 0.0123 |
+| use | 4 | 0.0123 |
+| allocation-free | 3 | 0.0092 |
+| code | 3 | 0.0092 |
+| regular | 3 | 0.0092 |
+| search | 3 | 0.0092 |
+| substring | 3 | 0.0092 |
+| vs | 3 | 0.0092 |
+| check | 2 | 0.0061 |
+| culture | 2 | 0.0061 |
+| culture-aware | 2 | 0.0061 |
+| delimiters | 2 | 0.0061 |
+| endswith | 2 | 0.0061 |
+| existence | 2 | 0.0061 |
+| find | 2 | 0.0061 |
+| indexofany | 2 | 0.0061 |
+| instead | 2 | 0.0061 |
+| lastindexof | 2 | 0.0061 |
+| lookups | 2 | 0.0061 |
+| multi-value | 2 | 0.0061 |
+| occurrence | 2 | 0.0061 |
+| optimized | 2 | 0.0061 |
+| ordinal | 2 | 0.0061 |
+| pattern-based | 2 | 0.0061 |
+| regex | 2 | 0.0061 |
+| set | 2 | 0.0061 |
+| span-based | 2 | 0.0061 |
+| split | 2 | 0.0061 |
+| startswith | 2 | 0.0061 |
+| stringcomparison | 2 | 0.0061 |
+| strings | 2 | 0.0061 |
+| substrings | 2 | 0.0061 |
 | always | 1 | 0.0031 |
 | analyzer | 1 | 0.0031 |
-| apis | 1 | 0.0031 |
 | approach | 1 | 0.0031 |
 | basic | 1 | 0.0031 |
 | boundaries | 1 | 0.0031 |
@@ -61,13 +58,11 @@ Total document words: 319
 | characters | 1 | 0.0031 |
 | checks | 1 | 0.0031 |
 | choose | 1 | 0.0031 |
-| common | 1 | 0.0031 |
 | comparison | 1 | 0.0031 |
 | complementary | 1 | 0.0031 |
 | comprehensive | 1 | 0.0031 |
 | consider | 1 | 0.0031 |
 | considerations | 1 | 0.0031 |
-| critical | 1 | 0.0031 |
 | different | 1 | 0.0031 |
 | divides | 1 | 0.0031 |
 | dividing | 1 | 0.0031 |
@@ -75,7 +70,6 @@ Total document words: 319
 | efficient | 1 | 0.0031 |
 | essential | 1 | 0.0031 |
 | examples | 1 | 0.0031 |
-| extraction | 1 | 0.0031 |
 | filtering | 1 | 0.0031 |
 | form | 1 | 0.0031 |
 | found | 1 | 0.0031 |
@@ -105,6 +99,7 @@ Total document words: 319
 | patterns | 1 | 0.0031 |
 | position | 1 | 0.0031 |
 | practice | 1 | 0.0031 |
+| practices | 1 | 0.0031 |
 | pre-optimized | 1 | 0.0031 |
 | prefer | 1 | 0.0031 |
 | provide | 1 | 0.0031 |
@@ -113,13 +108,11 @@ Total document words: 319
 | relationships | 1 | 0.0031 |
 | replace | 1 | 0.0031 |
 | requirements | 1 | 0.0031 |
-| right | 1 | 0.0031 |
 | security | 1 | 0.0031 |
 | simplest | 1 | 0.0031 |
 | solutions | 1 | 0.0031 |
 | specify | 1 | 0.0031 |
 | spectrum | 1 | 0.0031 |
-| structured | 1 | 0.0031 |
 | substitutes | 1 | 0.0031 |
 | text | 1 | 0.0031 |
 | these | 1 | 0.0031 |
@@ -131,4 +124,3 @@ Total document words: 319
 | various | 1 | 0.0031 |
 | way | 1 | 0.0031 |
 | within | 1 | 0.0031 |
-| writing | 1 | 0.0031 |

@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 26
+Total headers: 23
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
 - **H2**: 8 headers (multiplier: 1.25x)
-- **H3**: 17 headers (multiplier: 1.1x)
+- **H3**: 14 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -20,11 +20,9 @@ Total headers: 26
 | H3 | Subcommands and Hierarchies | 1.1x |
 | H3 | Model Binding | 1.1x |
 | H3 | Advanced Validation | 1.1x |
-| H2 | Relationships & Integration | 1.25x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | Simple Console Tool | 1.1x |
-| H3 | Multi-Command Application | 1.1x |
-| H3 | Complex Type Binding | 1.1x |
+| H2 | Building Simple Console Tools | 1.25x |
+| H2 | Building Multi-Command Applications | 1.25x |
+| H2 | Complex Type Binding | 1.25x |
 | H2 | Alternative Syntax Options | 1.25x |
 | H3 | Handler Functions vs Lambda Expressions | 1.1x |
 | H3 | Argument vs Option Patterns | 1.1x |
@@ -38,4 +36,3 @@ Total headers: 26
 | H3 | Technical Constraints | 1.1x |
 | H3 | Performance Considerations | 1.1x |
 | H3 | Common Pitfalls | 1.1x |
-| H2 | See Also | 1.25x |

@@ -1,13 +1,13 @@
 # Header Analysis
 
 Generated from: `golden-reference.md`
-Total headers: 19
+Total headers: 18
 
 ## Headers by Level
 
 - **H1**: 1 headers (multiplier: 1.5x)
-- **H2**: 6 headers (multiplier: 1.25x)
-- **H3**: 12 headers (multiplier: 1.1x)
+- **H2**: 9 headers (multiplier: 1.25x)
+- **H3**: 8 headers (multiplier: 1.1x)
 
 ## All Headers
 
@@ -25,10 +25,9 @@ Total headers: 19
 | H3 | High-Performance Text Processing (UTF-8 Hex) | 1.1x |
 | H3 | Tensor Operations (Stable APIs) | 1.1x |
 | H2 | Relationships & Integration | 1.25x |
-| H2 | Common Scenarios | 1.25x |
-| H3 | File/Version Sorting | 1.1x |
-| H3 | Security-First JSON Processing | 1.1x |
-| H3 | Future-Proof Cryptography | 1.1x |
-| H3 | High-Performance Text Processing | 1.1x |
+| H2 | File and Version Sorting | 1.25x |
+| H2 | Security-First JSON Processing | 1.25x |
+| H2 | Future-Proof Cryptography | 1.25x |
+| H2 | High-Performance Text Processing | 1.25x |
 | H2 | Gotchas & Limitations | 1.25x |
 | H2 | See Also | 1.25x |
