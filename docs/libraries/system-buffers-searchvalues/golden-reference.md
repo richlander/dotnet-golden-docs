@@ -120,9 +120,7 @@ if (text.AsSpan().ContainsAny(s_vowels))
 }
 ```
 
-## Common Scenarios
-
-### High-Performance Text Processing
+## High-Performance Text Processing with SearchValues
 
 When parsing or validating text repeatedly with the same character set:
 
@@ -139,7 +137,7 @@ public ReadOnlySpan<char> TrimStart(ReadOnlySpan<char> text)
 }
 ```
 
-### Protocol Parsing
+## Protocol Parsing with SearchValues
 
 Searching for protocol-specific delimiters or special characters:
 
@@ -154,7 +152,7 @@ public void ParseHttpHeader(ReadOnlySpan<byte> header)
 }
 ```
 
-### Input Validation
+## Input Validation with SearchValues
 
 Efficiently checking for invalid characters in user input:
 
@@ -168,7 +166,7 @@ public bool IsSafeInput(string userInput)
 }
 ```
 
-### URL/Path Processing
+## URL and Path Processing with SearchValues
 
 Finding special characters in URLs or file paths:
 

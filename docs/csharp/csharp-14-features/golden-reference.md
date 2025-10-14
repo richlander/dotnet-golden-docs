@@ -204,9 +204,7 @@ var compiled = expr.Compile();
 compiled(); // "[Info] App: Hello"
 ```
 
-## Common Patterns & Integration
-
-### Property Validation Patterns
+## Property Validation Patterns with Field Keyword
 
 The `field` keyword enables common validation patterns without boilerplate.
 
@@ -228,7 +226,7 @@ public class ValidationExample
 }
 ```
 
-### Zero-Allocation String Processing
+## Zero-Allocation String Processing with Params Collections
 
 First-class Span support enables efficient string operations.
 
@@ -249,7 +247,7 @@ public static class StringUtils
 }
 ```
 
-### Type-Safe Extension Patterns
+## Type-Safe Extension Patterns
 
 Extensions provide safer alternatives to traditional extension methods.
 

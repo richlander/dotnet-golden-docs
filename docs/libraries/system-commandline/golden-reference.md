@@ -116,9 +116,7 @@ rangeOption.AddValidator(result =>
 });
 ```
 
-## Common Scenarios
-
-### Simple Console Tool
+## Building Simple Console Tools
 
 For basic file processing tools with options and validation:
 
@@ -140,7 +138,7 @@ rootCommand.SetHandler((file, output, verbose) =>
 return await rootCommand.InvokeAsync(args);
 ```
 
-### Multi-Command Application
+## Building Multi-Command Applications
 
 For tools with subcommands like git, npm, or dotnet:
 
@@ -165,7 +163,7 @@ rootCommand.AddCommand(addCommand);
 rootCommand.AddCommand(removeCommand);
 ```
 
-### Complex Type Binding
+## Complex Type Binding
 
 For applications with rich configuration objects:
 

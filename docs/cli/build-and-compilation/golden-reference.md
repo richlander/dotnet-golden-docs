@@ -282,9 +282,7 @@ dotnet build -p:VersionSuffix=beta       # Add version suffix
 dotnet build -p:AssemblyVersion=1.0.0    # Override assembly version
 ```
 
-## Common Scenarios and Use Cases
-
-### Local Development Workflow
+## Local Development Workflow
 
 ```bash
 # Typical development cycle
@@ -295,7 +293,7 @@ dotnet build                             # Incremental compilation
 dotnet run                              # Test changes
 ```
 
-### Library Development and Packaging
+## Library Development and Packaging
 
 ```bash
 # Multi-target library build
@@ -304,7 +302,7 @@ dotnet pack -c Release                   # Create NuGet package
 dotnet pack --include-symbols            # Include debugging symbols
 ```
 
-### Enterprise and Team Development
+## Enterprise and Team Development
 
 ```bash
 # Centralized build configuration

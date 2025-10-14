@@ -206,9 +206,7 @@ Use System.Text.Json source generation for native AOT applications.
 
 These warnings indicate runtime failures in AOT scenarios. Always use source generation overloads.
 
-## Common Scenarios
-
-### High-Performance Console Applications
+## Using Native AOT for High-Performance Console Applications
 
 ```csharp
 // Program optimized for Native AOT
@@ -222,7 +220,7 @@ Console.WriteLine(JsonSerializer.Serialize(data, AppContext.Default.Object));
 internal partial class AppContext : JsonSerializerContext { }
 ```
 
-### Microservice with Minimal API
+## Using Native AOT with Minimal API Microservices
 
 ```csharp
 var builder = WebApplication.CreateSlimBuilder(args);
@@ -237,7 +235,7 @@ app.Run();
 public record DataModel(int Value);
 ```
 
-### Container-Optimized Deployment
+## Container-Optimized Deployment with Native AOT
 
 ```dockerfile
 FROM mcr.microsoft.com/dotnet/runtime-deps:8.0-alpine

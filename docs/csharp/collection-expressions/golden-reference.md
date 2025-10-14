@@ -222,9 +222,7 @@ int[] second = [4, 5, 6];
 int[] combined = [..first, ..second];  // Single allocation for result
 ```
 
-## Common Patterns
-
-### Method Returns
+## Using Collection Expressions in Method Returns
 
 ```csharp
 public int[] GetFibonacci(int count)
@@ -243,7 +241,7 @@ public int[] GetFibonacci(int count)
 }
 ```
 
-### Conditional Elements
+## Conditional Elements in Collection Expressions
 
 ```csharp
 bool includeZero = true;
@@ -254,7 +252,7 @@ int[] baseNumbers = [1, 2, 3];
 int[] extended = includeZero ? [0, ..baseNumbers] : baseNumbers;
 ```
 
-### LINQ Integration
+## Using Collection Expressions with LINQ
 
 ```csharp
 int[] numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

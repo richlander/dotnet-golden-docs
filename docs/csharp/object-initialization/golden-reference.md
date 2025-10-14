@@ -599,9 +599,7 @@ var (x, y) = point;
 6. **Consider records for data objects**: Use records with init properties for simple data containers
 7. **Use anonymous types for temporary data**: Leverage anonymous types for short-lived projections
 
-## Common Patterns and Pitfalls
-
-### Good Patterns
+## Good Object Initialization Patterns
 
 ```csharp
 // Good: Clear intent, immutable after construction
@@ -621,7 +619,7 @@ var user = new User
 };
 ```
 
-### Pitfalls to Avoid
+## Object Initialization Pitfalls to Avoid
 
 ```csharp
 // Avoid: Mutable objects with no validation
@@ -649,7 +647,7 @@ var complexObject = new ComplexObject
 };
 ```
 
-### Validation During Initialization
+## Validation During Object Initialization
 
 Property setters can validate during initialization:
 

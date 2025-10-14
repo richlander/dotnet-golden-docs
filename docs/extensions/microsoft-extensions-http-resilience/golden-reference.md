@@ -184,9 +184,7 @@ public class SmartResilienceHandler : DelegatingHandler
 }
 ```
 
-## Common Scenarios
-
-### Microservices Communication Reliability
+## Microservices Communication Reliability
 
 ```csharp
 public class OrderService

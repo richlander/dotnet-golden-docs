@@ -355,9 +355,7 @@ int[] small = [1, 2, 3];
 List<int> growing = new();  // Will resize as it grows
 ```
 
-## Common Patterns
-
-### Conditional Elements
+## Conditional Elements in Collection Initialization
 
 ```csharp
 bool includeZero = true;
@@ -370,7 +368,7 @@ int[] baseNumbers = [1, 2, 3];
 int[] extended = includeZero ? [0, ..baseNumbers] : baseNumbers;
 ```
 
-### Method Returns
+## Collection Initialization in Method Returns
 
 ```csharp
 public int[] GetValues(bool empty)
@@ -389,7 +387,7 @@ public Dictionary<string, int> GetLookup()
 }
 ```
 
-### LINQ Integration
+## LINQ Integration with Collection Initialization
 
 ```csharp
 List<string> names = ["Alice", "Bob", "Charlie"];

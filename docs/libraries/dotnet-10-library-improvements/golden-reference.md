@@ -125,21 +125,19 @@ These features integrate with existing .NET patterns:
 - Cryptography: Post-quantum algorithms follow established patterns for key generation/import
 - Collections: OrderedDictionary performance improvements benefit JSON processing
 
-## Common Scenarios
-
-### File/Version Sorting
+## File and Version Sorting
 
 Natural ordering for filenames, version numbers, and mixed alphanumeric content.
 
-### Security-First JSON Processing
+## Security-First JSON Processing
 
 Strict validation and duplicate detection for untrusted JSON inputs.
 
-### Future-Proof Cryptography
+## Future-Proof Cryptography
 
 Quantum-resistant algorithms for long-term security requirements.
 
-### High-Performance Text Processing
+## High-Performance Text Processing
 
 Span-based normalization and UTF-8 operations without string allocations.
 

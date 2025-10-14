@@ -2,9 +2,9 @@
 
 ## Overview
 
-System.Text.Json is a high-performance JSON serialization library that converts between .NET objects and JSON text, prioritizing speed and memory efficiency for modern cloud and web applications. The library is built on high-performance .NET primitives like `Span<T>` and vectorization, enabling efficient processing of JSON data with minimal memory allocation.
+System.Text.Json is a JSON serialization library for .NET. It converts between .NET objects and JSON text. The library prioritizes speed and memory efficiency for modern cloud and web applications. System.Text.Json is built on high-performance primitives like `Span<T>` and vectorization. These primitives enable efficient JSON processing with minimal memory allocation.
 
-The library operates through two fundamental patterns: serialize .NET objects to JSON strings or streams, and deserialize JSON data back into strongly-typed .NET objects. For basic usage, `JsonSerializer.Serialize()` and `JsonSerializer.Deserialize<T>()` handle most scenarios. For performance-critical applications, source generation replaces runtime reflection with compile-time code generation, delivering significantly faster serialization with lower memory allocation.
+The library provides two operations: serialize .NET objects to JSON strings or streams, and deserialize JSON back into strongly-typed .NET objects. `JsonSerializer.Serialize()` and `JsonSerializer.Deserialize<T>()` handle most scenarios. For performance-critical applications, source generation replaces runtime reflection with compile-time code generation, delivering significantly faster serialization with lower memory allocation.
 
 `System.Text.Json` serves as the default JSON serializer for ASP.NET Core web APIs, `HttpClient` JSON extension methods, and configuration systems. Its design emphasizes UTF-8 optimization, Native AOT compatibility, and security through controlled type resolution. The library supports streaming large JSON files, customizing serialization behavior through options, and strict validation for configuration scenarios.
 
@@ -18,7 +18,7 @@ Key capabilities:
 - Strict validation: Configurable options for configuration file parsing and data validation
 - Security hardening: Built-in depth limits and controlled type resolution
 
-The library provides three operational modes: reflection-based serialization for flexibility, source generation for performance, and DOM manipulation for dynamic JSON processing. Most applications use reflection-based serialization during development and source generation in production for optimal performance.
+The library has three modes: reflection-based serialization for flexibility, source generation for performance, and DOM manipulation for dynamic JSON processing. Most applications use reflection-based serialization during development and source generation in production for optimal performance.
 
 | Scenario | Solution | Key Benefit |
 |----------|----------|-------------|
@@ -50,11 +50,9 @@ string jsonString = """{"Id":2,"Name":"Mouse","Price":24.99}""";
 Product mouse = JsonSerializer.Deserialize<Product>(jsonString)!;
 ```
 
-## Usage
+## Serialization and Deserialization
 
-### Basic Serialization and Deserialization
-
-Convert .NET objects to JSON strings and deserialize JSON text back into strongly-typed objects. Supports both synchronous and asynchronous operations for file I/O.
+Converts .NET objects to JSON strings and deserialize JSON text back into strongly-typed objects. Supports both synchronous and asynchronous operations for file and network I/O.
 
 ```csharp
 // Serialize object to JSON string
@@ -68,7 +66,7 @@ await JsonSerializer.SerializeAsync(fileStream, weatherForecast);
 WeatherForecast forecast = await JsonSerializer.DeserializeAsync<WeatherForecast>(fileStream);
 ```
 
-### Source Generation
+## JSON Source Generation
 
 Generate serialization code at compile time for optimal performance and Native AOT compatibility. Eliminates reflection overhead and enables trimming support.
 
@@ -81,7 +79,7 @@ string json = JsonSerializer.Serialize(weatherForecast, SourceGenerationContext.
 WeatherForecast forecast = JsonSerializer.Deserialize(json, SourceGenerationContext.Default.WeatherForecast);
 ```
 
-### Serialization Options
+## Configuring Serialization
 
 Customize serialization behavior through `JsonSerializerOptions` including property naming policies, formatting, and handling of null values.
 
@@ -96,7 +94,7 @@ var options = new JsonSerializerOptions
 string json = JsonSerializer.Serialize(obj, options);
 ```
 
-### Web Defaults
+## Using Web Defaults for Serialization
 
 Use preconfigured options matching ASP.NET Core conventions for web APIs. Applies camelCase naming and case-insensitive property matching.
 
@@ -105,7 +103,7 @@ Use preconfigured options matching ASP.NET Core conventions for web APIs. Applie
 string json = JsonSerializer.Serialize(obj, JsonSerializerOptions.Web);
 ```
 
-### Nullable Annotations
+## Applying Nullable Annotations
 
 Enforce C# nullable reference type annotations during serialization and deserialization. Validates that non-nullable properties are present in JSON.
 
@@ -119,7 +117,7 @@ var options = new JsonSerializerOptions
 string json = JsonSerializer.Serialize(obj, options);
 ```
 
-### Strict Validation
+## Strict JSON Validation
 
 Enable strict parsing mode for configuration files and trusted JSON sources. Rejects common issues like duplicate properties and trailing commas.
 
@@ -134,7 +132,25 @@ var options = new JsonSerializerOptions
 };
 ```
 
-### Stream Processing
+## Using HttpClient Extension Methods
+
+`HttpClient` extension methods simplify JSON API consumption by combining HTTP requests with JSON deserialization in a single operation. This reduces boilerplate and applies consistent serialization settings across all HTTP operations.
+
+```csharp
+// GET request with JSON deserialization
+var user = await httpClient.GetFromJsonAsync<User>("https://api.example.com/users/123");
+
+// POST request with JSON serialization
+var response = await httpClient.PostAsJsonAsync("https://api.example.com/users", newUser);
+
+// Custom options for specific requests
+var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+var data = await httpClient.GetFromJsonAsync<WeatherForecast>(url, options);
+```
+
+These extension methods integrate with source generation when configured at the `HttpClient` level through dependency injection, applying performance benefits automatically.
+
+## Stream Processing
 
 Deserialize large JSON arrays incrementally without loading entire documents into memory. Supports `PipeReader` for high-performance pipeline scenarios.
 
@@ -152,7 +168,7 @@ await foreach (var product in products)
 Product product = await JsonSerializer.DeserializeAsync<Product>(pipeReader);
 ```
 
-### DOM Manipulation with JsonNode
+## DOM Manipulation with JsonNode
 
 Parse and modify JSON dynamically when structure is unknown at compile time. Provides mutable document object model for building and transforming JSON.
 
@@ -172,7 +188,7 @@ data["items"]["count"] = 42;
 string updatedJson = data.ToJsonString();
 ```
 
-### Document Reading with JsonDocument
+## Document Reading with JsonDocument
 
 Parse JSON into read-only document object model for efficient navigation and value extraction. Offers better performance than `JsonNode` for read-only scenarios.
 
@@ -191,9 +207,7 @@ foreach (JsonElement item in items.EnumerateArray())
 }
 ```
 
-## Common Scenarios
-
-### High-Performance Web API Serialization
+## Using with ASP.NET Core
 
 Web APIs benefit significantly from source generation because response types are known at compile time. Source generation eliminates reflection overhead, reduces memory allocation, and enables Native AOT compilation for faster startup and lower memory footprint.
 
@@ -221,7 +235,7 @@ public ActionResult<List<User>> GetUsers()
 
 This pattern works seamlessly with ASP.NET Core's built-in JSON handling. The framework automatically uses the configured context for all API responses, applying source generation benefits across the entire application without changing controller code.
 
-### Configuration File Processing with Validation
+## Using with Configuration Files
 
 Configuration files require strict parsing to catch errors early and prevent runtime failures from malformed data. The strict serialization mode rejects common issues like duplicate properties, comments, and trailing commas that might indicate configuration problems.
 
@@ -251,7 +265,7 @@ database.ConnectionString = config.Database.ConnectionString;
 
 Additional validation can be layered on top of deserialization through validators or required properties, but strict mode provides the first line of defense against common JSON issues.
 
-### Large File Streaming
+## Using with Large File Streaming
 
 Processing large JSON arrays without loading the entire file into memory prevents out-of-memory exceptions and reduces garbage collection pressure. The async enumerable API deserializes one item at a time, enabling processing of multi-gigabyte JSON files with minimal memory overhead.
 
@@ -283,25 +297,7 @@ var reader = PipeReader.Create(networkStream);
 MyObject obj = await JsonSerializer.DeserializeAsync<MyObject>(reader);
 ```
 
-### HttpClient JSON Operations
-
-`HttpClient` extension methods simplify JSON API consumption by combining HTTP requests with JSON deserialization in a single operation. This reduces boilerplate and applies consistent serialization settings across all HTTP operations.
-
-```csharp
-// GET request with JSON deserialization
-var user = await httpClient.GetFromJsonAsync<User>("https://api.example.com/users/123");
-
-// POST request with JSON serialization
-var response = await httpClient.PostAsJsonAsync("https://api.example.com/users", newUser);
-
-// Custom options for specific requests
-var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-var data = await httpClient.GetFromJsonAsync<WeatherForecast>(url, options);
-```
-
-These extension methods integrate with source generation when configured at the `HttpClient` level through dependency injection, applying performance benefits automatically.
-
-### Dynamic JSON Processing
+## Document Object Model Navigation
 
 When JSON structure is unknown at compile time or varies between requests, DOM-based approaches provide flexibility that strongly-typed deserialization cannot. `JsonNode` enables reading and modifying JSON dynamically, while `JsonDocument` offers read-only access with minimal allocation.
 
@@ -348,7 +344,7 @@ if (eventType == "order.created")
 
 For scenarios requiring both reading and writing, `JsonNode` provides more flexibility. For read-only scenarios, `JsonDocument` offers better performance. Neither approach benefits from source generation since types are resolved at runtime.
 
-### Generic Methods with Source Generation
+## Enabling Source Generation with Generic Methods
 
 Generic methods that serialize or deserialize JSON require explicit type information when using source generation. The simplest pattern passes `JsonTypeInfo<T>` directly as a parameter, providing compile-time type safety and AOT compatibility without reflection.
 
@@ -404,7 +400,7 @@ User user = await httpClient.GetFromJsonAsync<User>(
 
 Both patterns enable AOT compatibility and eliminate reflection overhead. Direct `JsonTypeInfo<T>` provides stronger compile-time guarantees with type matching verified by the compiler. `JsonSerializerOptions` offers flexibility when the same configuration applies across multiple types, allowing one shared options instance for all serialization operations.
 
-### Structured Chat Responses with Source Generation
+## Using Source Generation with Structured Chat Responses
 
 Chat models can return structured JSON responses that deserialize into strongly-typed .NET objects. `Microsoft.Extensions.AI` provides source generation support for this pattern, enabling type-safe chat responses with full AOT compatibility.
 
@@ -455,7 +451,7 @@ var products = await client.GetResponseAsync<List<SearchResult>>(
 
 This pattern provides compile-time type generation for chat responses, eliminating reflection overhead and enabling Native AOT deployment. The chat model generates JSON matching your schema, and source generation handles deserialization efficiently. Applications using chat features benefit from the same performance optimizations as traditional JSON APIs.
 
-## Installation and Versioning
+## Adding System.Text.Json to a project
 
 `System.Text.Json` is included with the .NET runtime and requires no explicit package reference in most scenarios. The library version matches your target framework, providing the appropriate feature set automatically.
 
@@ -524,11 +520,11 @@ Consider removing this package from your dependencies, as it is likely unnecessa
 
 This warning indicates the PackageReference is redundant and can be removed.
 
-## Limitations and Considerations
+## Considerations
 
 ### Serialization Differences and Migration
 
-`System.Text.Json` differs from `Newtonsoft.Json` in several fundamental ways. It does not support `ISerializable` and requires `JsonConverter<T>` implementations for custom serialization logic. Types must have a parameterless constructor or use `[JsonConstructor]` to specify which constructor to use during deserialization.
+`System.Text.Json` differs from `Newtonsoft.Json` in several key ways. It does not support `ISerializable` and requires `JsonConverter<T>` implementations for custom serialization logic. Types must have a parameterless constructor or use `[JsonConstructor]` to specify which constructor to use during deserialization.
 
 `DateTime` serialization uses ISO 8601 format by default, which differs from `Newtonsoft.Json`'s default format. Applications expecting specific date formats need custom converters or options configuration.
 

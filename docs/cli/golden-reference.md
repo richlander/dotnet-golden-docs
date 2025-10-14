@@ -350,9 +350,7 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
 
-## Common Scenarios and Use Cases
-
-### Team Development Patterns
+## Team Development Patterns
 
 CLI usage patterns that support team collaboration:
 
@@ -360,7 +358,7 @@ CLI usage patterns that support team collaboration:
 - Tool Manifests: Committing tool manifests to ensure consistent tooling across team members
 - Global.json: Pinning SDK versions for consistent builds across development machines
 
-### Project Template Customization
+## Project Template Customization
 
 ```bash
 # Custom template creation and usage
@@ -369,7 +367,7 @@ dotnet new mytemplate -n NewProject # Use custom template
 dotnet new uninstall MyTemplate     # Remove custom template
 ```
 
-### Enterprise and Team Development
+## Enterprise and Team Development
 
 ```bash
 # Centralized package management

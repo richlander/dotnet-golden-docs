@@ -195,9 +195,7 @@ public class CustomDomainEvaluator : IEvaluator<string, string>
 }
 ```
 
-## Common Scenarios
-
-### Automated Quality Gates in CI/CD
+## Automated Quality Gates in CI/CD
 
 ```csharp
 // Integration test with evaluation assertions
@@ -227,7 +225,7 @@ public async Task AI_Response_Quality_MeetsStandards()
 }
 ```
 
-### Regression Testing for Model Updates
+## Regression Testing for Model Updates
 
 ```csharp
 public class ModelRegressionTests

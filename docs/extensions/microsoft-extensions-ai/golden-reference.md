@@ -166,9 +166,7 @@ public class RateLimitingChatClient : DelegatingChatClient
 }
 ```
 
-## Common Scenarios
-
-### Multi-Turn Conversation Management
+## Multi-Turn Conversation Management
 
 ```csharp
 var messages = new List<ChatMessage>();
@@ -189,7 +187,7 @@ while (true)
 }
 ```
 
-### Structured Output with Function Calling
+## Structured Output with Function Calling
 
 ```csharp
 public record WeatherInfo(string Location, int Temperature, string Conditions);
@@ -211,7 +209,7 @@ var response = await client.GetResponseAsync(
 );
 ```
 
-### Caching AI Responses
+## Caching AI Responses
 
 ```csharp
 services.AddMemoryCache();
@@ -227,7 +225,7 @@ services.AddSingleton<IChatClient>(serviceProvider =>
 });
 ```
 
-### Cross-Provider Switching
+## Cross-Provider Switching
 
 ```csharp
 // Configuration-driven provider selection
@@ -243,7 +241,7 @@ IChatClient client = configuration["AIProvider"] switch
 var response = await client.GetResponseAsync("Hello, world!");
 ```
 
-### Telemetry and Observability
+## Telemetry and Observability
 
 ```csharp
 services.AddOpenTelemetry()

@@ -76,17 +76,15 @@ There are multiple variants of .NET, each supporting different types of applicat
 
 Higher-level components like .NET tools and app stacks (ASP.NET Core, MAUI, Windows Forms, WPF) build on top of the core pillars. NuGet is the package manager containing hundreds of thousands of packages. The SDK enables a modern developer experience with tools that can build, analyze, and test code, often with a single `dotnet build` command.
 
-## Common Scenarios
-
-### Enterprise and Cloud Applications
+## Using .NET for Enterprise and Cloud Applications
 
 .NET excels in building scalable web services, APIs, and cloud-native applications. The runtime's performance characteristics and extensive library ecosystem make it well-suited for high-throughput server applications.
 
-### Cross-Platform Desktop and Mobile
+## Using .NET for Cross-Platform Desktop and Mobile
 
 With .NET MAUI and Avalonia, developers can build applications that run across Windows, macOS, Linux, iOS, and Android from a single codebase.
 
-### High-Performance Computing
+## Using .NET for High-Performance Computing
 
 Low-level features like Span<T>, hardware intrinsics, and unsafe code enable manual optimizations for performance-critical paths while maintaining the safety and productivity of the managed environment.
 

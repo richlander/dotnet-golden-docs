@@ -177,9 +177,7 @@ if (text.Contains("error", StringComparison.OrdinalIgnoreCase))
 - **SearchValues**: Optimized multi-value searching
 - **Span methods**: Allocation-free searching
 
-## Common Scenarios
-
-### Input Validation
+## Input Validation with String Search
 
 ```csharp
 public bool IsValidEmail(string email)
@@ -196,7 +194,7 @@ public bool IsValidEmail(string email)
 }
 ```
 
-### Path Manipulation
+## Path Manipulation with String Search
 
 ```csharp
 public string GetFileNameWithoutExtension(string filePath)
@@ -214,7 +212,7 @@ public string GetFileNameWithoutExtension(string filePath)
 }
 ```
 
-### Parsing Structured Text
+## Parsing Structured Text with String Search
 
 ```csharp
 public Dictionary<string, string> ParseKeyValuePairs(string input)

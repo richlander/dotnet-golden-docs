@@ -231,9 +231,7 @@ string mode = args.Length > 0 ? args[0] : "interactive";
 Console.WriteLine($"Running in {mode} mode");
 ```
 
-## Common Scenarios
-
-### ASCII Art Generator
+## ASCII Art Generator with File-Based Apps
 
 File-based apps excel for creative utilities like text-to-ASCII art converters using external packages:
 

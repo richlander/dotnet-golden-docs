@@ -146,9 +146,7 @@ public object CreateInstance(Type type)
 }
 ```
 
-## Common Scenarios
-
-### Cloud-Native Applications
+## Using Assembly Trimming for Cloud-Native Applications
 
 ```xml
 <!-- Optimized for container deployment -->
@@ -160,7 +158,7 @@ public object CreateInstance(Type type)
 </PropertyGroup>
 ```
 
-### Desktop Applications
+## Using Assembly Trimming for Desktop Applications
 
 ```xml
 <!-- Balanced approach for desktop apps -->
@@ -172,7 +170,7 @@ public object CreateInstance(Type type)
 </PropertyGroup>
 ```
 
-### Library Development
+## Assembly Trimming for Library Development
 
 ```csharp
 // Example trim-compatible library code
