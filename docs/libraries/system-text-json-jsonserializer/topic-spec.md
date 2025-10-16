@@ -4,18 +4,16 @@
 
 System.Text.Json.JsonSerializer provides high-level APIs for converting between .NET objects and JSON text. It offers simple static methods for serialization and deserialization, supporting both synchronous and asynchronous operations. JsonSerializer abstracts the complexity of JSON parsing and generation, providing a straightforward API for common JSON operations while supporting advanced features like custom converters, naming policies, and source generation.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/how-to | rendered | JsonSerializer how-to documentation | |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/docs | docs/standard/serialization/system-text-json/how-to.md | JsonSerializer usage documentation | |
 | dotnet/runtime | src/libraries/System.Text.Json/README.md | System.Text.Json library README | |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/how-to | rendered | JsonSerializer how-to documentation | |
 
 ## Secondary Sources
 

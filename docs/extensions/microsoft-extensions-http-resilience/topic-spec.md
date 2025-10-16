@@ -4,18 +4,16 @@
 
 Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClient built on the Polly framework. It offers pre-configured resilience patterns including retry policies, circuit breakers, hedging strategies, rate limiting, and timeouts to ensure reliable HTTP communication in production applications.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://www.nuget.org/packages/Microsoft.Extensions.Http.Resilience | rendered | Official NuGet package page | 2025-09-21 |
-| https://www.pollydocs.org/ | rendered | Polly framework documentation | 2025-09-21 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/extensions | src/Libraries/Microsoft.Extensions.Http.Resilience/README.md | HTTP resilience library documentation | 2025-09-21 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://www.nuget.org/packages/Microsoft.Extensions.Http.Resilience | rendered | Official NuGet package page | 2025-09-21 |
+| https://www.pollydocs.org/ | rendered | Polly framework documentation | 2025-09-21 |
 
 ## Secondary Sources
 

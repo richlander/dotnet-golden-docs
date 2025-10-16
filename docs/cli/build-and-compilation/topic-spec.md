@@ -4,13 +4,6 @@
 
 Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment. This includes the core commands `dotnet build`, `dotnet restore`, `dotnet clean`, along with MSBuild integration, multi-targeting, and build optimization strategies.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/tools/dotnet-build | rendered | Main dotnet build command documentation | 2025-09-20 |
-| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | 2025-09-20 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -18,6 +11,11 @@ Build and compilation encompasses the development-time workflow of transforming 
 | dotnet/docs | docs/core/tools/dotnet-build.md | dotnet build command documentation | 0249c38f27 |
 | dotnet/docs | docs/core/tools/dotnet-restore.md | dotnet restore command documentation | 0249c38f27 |
 | dotnet/docs | docs/core/tools/dotnet-clean.md | dotnet clean command documentation | 0249c38f27 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/core/tools/dotnet-build | rendered | Main dotnet build command documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/ | rendered | Official .NET Core 1.0 announcement | 2025-09-20 |
 
 ## Secondary Sources
 

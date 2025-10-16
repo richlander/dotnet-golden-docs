@@ -4,7 +4,14 @@
 
 .NET is a free, cross-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular. It relies on a high-performance runtime that is used in production by many high-scale apps.
 
-## Official Sources
+## Primary Sources
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+| dotnet/docs | docs/index.yml | .NET documentation index | 0249c38f27 |
+| dotnet/core | README.md | .NET Core repository overview | 4c489a6a |
+| dotnet/runtime | README.md | .NET runtime repository overview | 80fb00f580f |
+| dotnet/core | release-notes/README.md | .NET release notes overview | 4c489a6a |
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
@@ -31,15 +38,6 @@
 | https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-9/ | rendered | .NET 9 performance improvements | 2025-09-20 |
 | https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-10/ | rendered | .NET 10 performance improvements | 2025-09-20 |
 | https://github.com/dotnet/announcements/issues | rendered | .NET announcements | 2025-09-20 |
-
-## Primary Sources
-
-| Repo | Path | Description | Last Verified |
-| --- | --- | --- | --- |
-| dotnet/docs | docs/index.yml | .NET documentation index | 0249c38f27 |
-| dotnet/core | README.md | .NET Core repository overview | 4c489a6a |
-| dotnet/runtime | README.md | .NET runtime repository overview | 80fb00f580f |
-| dotnet/core | release-notes/README.md | .NET release notes overview | 4c489a6a |
 
 ## Secondary Sources
 

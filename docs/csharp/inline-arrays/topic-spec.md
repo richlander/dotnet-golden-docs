@@ -4,13 +4,6 @@
 
 Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the `InlineArrayAttribute`. This C# 12 feature enables developers to create custom buffer types with compile-time known sizes, offering a safe alternative to unsafe fixed-size buffers while maintaining performance characteristics similar to arrays with full GC tracking and bounds checking.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/language-reference/builtin-types/struct#inline-arrays | rendered | Main inline arrays documentation | 2025-09-21 |
-| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with inline arrays | 2025-09-21 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -21,6 +14,8 @@ Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/csharp/language-reference/builtin-types/struct#inline-arrays | rendered | Main inline arrays documentation | 2025-09-21 |
+| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with inline arrays | 2025-09-21 |
 | https://github.com/dotnet/csharplang/issues/7431 | rendered | Inline arrays champion issue | 2025-09-21 |
 | https://github.com/dotnet/runtime/issues/61135 | rendered | Runtime InlineArrayAttribute issue | 2025-09-21 |
 

@@ -4,19 +4,17 @@
 
 Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries designed to support building evaluation processes for AI software quality and safety. It provides abstractions, evaluators, and reporting tools to assess AI responses across multiple dimensions including quality metrics (relevance, fluency, coherence), safety evaluations (harmful content detection), and NLP metrics (BLEU, F1 scores).
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://www.nuget.org/packages/Microsoft.Extensions.AI.Evaluation | rendered | Core evaluation package | 2025-09-21 |
-| https://github.com/dotnet/ai-samples/tree/main/src/microsoft-extensions-ai-evaluation | rendered | Comprehensive API usage examples | 2025-09-21 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/extensions | src/Libraries/Microsoft.Extensions.AI.Evaluation/README.md | Main evaluation library documentation | 2025-09-21 |
 | dotnet/ai-samples | src/microsoft-extensions-ai-evaluation/api/ | API usage examples and tutorials | 2025-09-21 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://www.nuget.org/packages/Microsoft.Extensions.AI.Evaluation | rendered | Core evaluation package | 2025-09-21 |
+| https://github.com/dotnet/ai-samples/tree/main/src/microsoft-extensions-ai-evaluation | rendered | Comprehensive API usage examples | 2025-09-21 |
 
 ## Secondary Sources
 

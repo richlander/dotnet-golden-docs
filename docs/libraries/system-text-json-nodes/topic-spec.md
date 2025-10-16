@@ -4,18 +4,16 @@
 
 System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing developers to navigate, query, and modify JSON structures dynamically without needing to define concrete types. It includes JsonNode, JsonObject, JsonArray, and JsonValue classes that represent JSON structures in memory.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/use-dom | rendered | Main System.Text.Json.Nodes documentation | |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/docs | docs/standard/serialization/system-text-json/use-dom.md | System.Text.Json.Nodes DOM documentation | |
 | dotnet/runtime | src/libraries/System.Text.Json/README.md | System.Text.Json library README | |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/use-dom | rendered | Main System.Text.Json.Nodes documentation | |
 
 ## Secondary Sources
 

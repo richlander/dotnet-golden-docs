@@ -4,13 +4,6 @@
 
 System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0+ that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON). It emphasizes performance and low memory allocation over extensive features, with built-in UTF-8 support optimized for web and file operations.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/ | rendered | Main System.Text.Json documentation | 404 |
-| https://devblogs.microsoft.com/dotnet/try-the-new-system-text-json-apis/ | rendered | Official System.Text.Json APIs announcement | 2025-09-20 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -18,6 +11,11 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | dotnet/docs | docs/standard/serialization/system-text-json/overview.md | System.Text.Json overview documentation | 0249c38f27 |
 | dotnet/runtime | src/libraries/System.Text.Json/README.md | System.Text.Json library README | 80fb00f580f |
 | dotnet/docs | docs/core/whats-new/dotnet-10/libraries.md | .NET 10 library improvements documentation | 0249c38f27 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/ | rendered | Main System.Text.Json documentation | 404 |
+| https://devblogs.microsoft.com/dotnet/try-the-new-system-text-json-apis/ | rendered | Official System.Text.Json APIs announcement | 2025-09-20 |
 
 ## Secondary Sources
 
@@ -136,3 +134,24 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | libraries/system-text-json-source-generation | newtonsoft.json | 1.356 |
 | libraries/system-text-json-source-generation | source generation | 1.324 |
 
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 11
+**Baseline (Conceptual)**: Chunk 0
+**Baseline (Technical)**: Chunk 1
+
+| Index | Title | Code | Similarity (Conceptual) | Similarity (Technical) |
+|-------|-------|------|-------------------------|------------------------|
+| 0 | Overview |  | 1.000 | 0.657 |
+| 1 | Quick Reference | ✓ | 0.657 | 1.000 |
+| 2 | API comparison |  | 0.668 | 0.597 |
+| 3 | Scenario recommendations | ✓ | 0.648 | 0.680 |
+| 4 | Performance hierarchy (fastest to slowest) |  | 0.654 | 0.619 |
+| 5 | HttpClient Extensions | ✓ | 0.647 | 0.707 |
+| 6 | Large File Streaming | ✓ | 0.581 | 0.618 |
+| 7 | Performance Optimization | ✓ | 0.668 | 0.674 |
+| 8 | Security Considerations | ✓ | 0.603 | 0.599 |
+| 9 | Installation and Setup | ✓ | 0.584 | 0.630 |
+| 10 | Migration from Newtonsoft.Json | ✓ | 0.597 | 0.660 |

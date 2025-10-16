@@ -4,14 +4,6 @@
 
 String search operations provide a comprehensive set of methods for locating substrings, characters, and patterns within text. These operations include Contains, IndexOf, LastIndexOf, StartsWith, EndsWith, and IndexOfAny, offering solutions ranging from simple existence checks to position-based extraction with both ordinal and culture-aware comparison modes.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://learn.microsoft.com/dotnet/api/system.string | rendered | Official String class API documentation | - |
-| https://learn.microsoft.com/dotnet/standard/base-types/best-practices-strings | rendered | Best practices for using strings in .NET | - |
-| https://learn.microsoft.com/dotnet/standard/base-types/string-comparison-net-5-plus | rendered | String comparison behavior changes | - |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -19,6 +11,12 @@ String search operations provide a comprehensive set of methods for locating sub
 | dotnet/docs | docs/standard/base-types/string-comparison-net-5-plus.md | String comparison behavior and best practices | - |
 | dotnet/docs | docs/fundamentals/code-analysis/quality-rules/ca2249.md | CA2249: Use String.Contains instead of String.IndexOf | - |
 | dotnet/docs | docs/fundamentals/code-analysis/quality-rules/ca1307.md | CA1307: Specify StringComparison for clarity | - |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://learn.microsoft.com/dotnet/api/system.string | rendered | Official String class API documentation | - |
+| https://learn.microsoft.com/dotnet/standard/base-types/best-practices-strings | rendered | Best practices for using strings in .NET | - |
+| https://learn.microsoft.com/dotnet/standard/base-types/string-comparison-net-5-plus | rendered | String comparison behavior changes | - |
 
 ## Secondary Sources
 

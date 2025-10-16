@@ -44,6 +44,29 @@ The following guidelines are adapted from the [Microsoft Writing Style Guide](ht
 - "leverage/leveraging" → "use/using"
 - "fundamental ways" → "key ways" or "important ways"
 
+**Avoid vague temporal terms that age quickly:**
+
+- **Don't use "modern"** - What is "modern" changes constantly. Don't write "modern .NET", "modern C#", "modern approaches", etc. Instead, be specific about what you mean or describe the actual characteristic (e.g., "asynchronous", "allocation-free", "strongly-typed").
+- **Don't use "current"** - Similar to "modern", this is a temporal qualifier. Just describe the platform as it is. Instead of "current .NET", just say ".NET" or be specific: ".NET 8 and later".
+- **Don't use "new"** - Like "modern", this becomes outdated. Instead of "new async APIs", say "asynchronous APIs" or "async APIs added in .NET X".
+- **Don't use "recent" or "recently"** - Be specific: ".NET 10 introduces..." or "Starting in .NET 9..." instead of "recent versions".
+
+**Examples:**
+
+❌ **Avoid:**
+- "modern .NET applications"
+- "current .NET"
+- "modern C# features"
+- "modern JSON serialization"
+- "new performance improvements"
+
+✅ **Prefer:**
+- ".NET applications" or ".NET 8 and later" (when version matters)
+- ".NET" or ".NET 8 and later"
+- "C# 12 features" or "language features"
+- "System.Text.Json" or "recommended JSON serialization"
+- "performance improvements in .NET 10" or "performance optimizations"
+
 **Break complex sentences into shorter ones.** Each sentence should express one clear idea. This improves both comprehension and retrieval scoring.
 
 ❌ **Avoid:**
@@ -104,3 +127,66 @@ In this structure, "Using with ASP.NET Core" provides semantic context for its c
 - ❌ **Avoid:** Generic containers ("Common Scenarios", "Usage", "Examples")
 - ✅ **Prefer:** Specific task headings ("Creating a JsonSerializerContext", "Naming Policies")
 - ✅ **Prefer:** Domain-specific integration headings ("Using with ASP.NET Core", "Using with HttpClient")
+
+## Topic Segmentation
+
+**Create topics at the right granularity for optimal embeddings.** Topic size directly impacts retrieval quality. Very small topics create weak semantic signals, while overly broad topics dilute meaning and reduce precision.
+
+**Target the 500-1500 token range for themed groupings.** This provides enough context for strong embeddings while maintaining focused semantic meaning.
+
+### Topic Types
+
+Understanding different topic types helps create coherent documentation architecture:
+
+#### Feature Topics
+
+The primary role of topics is to describe a feature, like "collection-expressions" or "system-text-json-jsonserializer". These topics focus on a single API, type, or language feature and explain how to use it.
+
+#### Intersection Topics
+
+Intersection topics describe how multiple features work together. For example, "system-text-json-source-generation" is an intersection topic that includes significant mention of Native AOT, showing how source generation and AOT compilation interact.
+
+#### Family Topics
+
+If a feature area is large, it can be broken into multiple topics, as has been done for System.Text.Json. When that happens, the topics are dedicated to specific features or APIs. The family topic, like "system-text-json", should focus on introducing the area and explaining what the various other features are for or how to choose among different API paths. The family topic should typically not be the largest topic within the family—it's an orientation guide, not comprehensive documentation.
+
+#### Thematic Grouping Topics
+
+It often doesn't make sense to describe every aspect or small API in a feature topic, like for JsonSerializer. Instead, thematic groupings should be selected that provide coherence (in both a thinking and documentation sense). An example would be "JSON Validation and Security" or "Collections Performance". These topics group related features by purpose or use case rather than by API surface area.
+
+#### Version Topics
+
+This topic type is intended to be used the most sparingly. The primary purpose of this topic type is to ship in NuGet packages or other vehicles where we want to share the latest features. We can create version topics for .NET 10 or C# 14. A copy of these topics may be in code repos (like dotnet/runtime) so that they can be included in a NuGet package.
+
+**Version topics are ephemeral.** Once .NET 11 ships, the .NET 10 topic should be deleted and a new .NET 11 version (or C# 15) should be created. The intent is that new features are also included in the other topic types (feature, intersection, thematic grouping) so that when the version-specific topics are deleted, no valuable information is lost.
+
+### Good Topic Scopes
+
+**Major areas** define the primary namespace or technology:
+- `System.Text.Json`
+- `ASP.NET Core Minimal APIs`
+
+**Major features** focus on a single significant API or capability:
+- `System.Text.Json.JsonSerializer`
+- `HttpClient`
+
+**Thematic groupings** combine related small features by shared purpose:
+- `System.Text.Json Serialization Customization` (custom converters, naming policies, resolver patterns)
+- `System.Text.Json Performance Features` (streaming, ref handling, buffer sizing)
+- `System.Text.Json Configuration & Options` (JsonSerializerOptions deep dive)
+
+**Functional groupings** organize by integration or scenario:
+- `Using System.Text.Json with Native AOT`
+- `Using HttpClient with Dependency Injection`
+
+### Poor Topic Scopes
+
+❌ **Avoid large encompassing documents** that try to cover everything about a technology. A 10,000 token "everything about System.Text.Json" document creates embeddings that represent too many concepts, reducing retrieval precision.
+
+❌ **Avoid release-specific documents** like ".NET 10 Features" that group unrelated features by version. These create weak semantic relationships and poor retrieval.
+
+❌ **Avoid very small topics** (< 200 tokens) that lack sufficient context for meaningful embeddings. Combine related small features into themed documents instead.
+
+### Why This Matters for Embeddings
+
+Very small documents (< 200 tokens) often create poor embeddings because they lack enough semantic signal to be distinctive. Large catch-all documents dilute semantic meaning—the embedding represents "everything" rather than specific concepts, leading to poor retrieval. Themed groupings in the 500-1500 token range hit the sweet spot with enough context for good embeddings while remaining focused enough for precision.

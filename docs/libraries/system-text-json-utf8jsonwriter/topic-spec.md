@@ -4,18 +4,16 @@
 
 System.Text.Json.Utf8JsonWriter is a high-performance, low-allocation writer for UTF-8 encoded JSON text. It provides direct control over JSON generation, writing directly to UTF-8 bytes without intermediate string allocation. Utf8JsonWriter is designed for performance-critical scenarios requiring streaming output, minimal allocation, and complete control over JSON structure and formatting.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/use-utf8jsonwriter | rendered | Utf8JsonWriter documentation | |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/docs | docs/standard/serialization/system-text-json/use-utf8jsonwriter.md | Utf8JsonWriter usage documentation | |
 | dotnet/runtime | src/libraries/System.Text.Json/README.md | System.Text.Json library README | |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/use-utf8jsonwriter | rendered | Utf8JsonWriter documentation | |
 
 ## Secondary Sources
 

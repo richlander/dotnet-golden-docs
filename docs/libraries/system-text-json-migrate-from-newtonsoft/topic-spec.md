@@ -4,17 +4,15 @@
 
 This topic provides technical mapping between Newtonsoft.Json and System.Text.Json APIs. It covers API equivalents, attribute mappings, and required code changes for applications migrating from Newtonsoft.Json to System.Text.Json. The document focuses on mechanical conversion steps without comparing features or benefits.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft | rendered | Migration guide documentation | |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/docs | docs/standard/serialization/system-text-json/migrate-from-newtonsoft.md | Migration guide | |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft | rendered | Migration guide documentation | |
 
 ## Secondary Sources
 

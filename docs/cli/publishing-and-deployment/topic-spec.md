@@ -4,12 +4,6 @@
 
 Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. This covers all publishing modes from framework-dependent to self-contained, single-file, Native AOT, and container deployment, along with the decision matrix for choosing appropriate deployment strategies.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/tools/dotnet-publish | rendered | Main dotnet publish command documentation | 2025-09-20 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -17,6 +11,10 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | dotnet/docs | docs/core/tools/dotnet-publish.md | dotnet publish command documentation | 0249c38f27 |
 | dotnet/docs | docs/core/deploying/index.md | .NET Core deployment overview | 0249c38f27 |
 | dotnet/docs | docs/core/rid-catalog.md | Runtime identifier catalog | 0249c38f27 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/core/tools/dotnet-publish | rendered | Main dotnet publish command documentation | 2025-09-20 |
 
 ## Secondary Sources
 

@@ -4,13 +4,6 @@
 
 Collection expressions provide a concise syntax to create common collection values using square bracket notation. This feature combines collection expressions (introduced in C# 12) and params collection expressions (introduced in C# 13) to offer a unified, simplified approach to collection initialization and manipulation, replacing more verbose traditional syntax.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/language-reference/operators/collection-expressions | rendered | Main collection expressions documentation | 2025-09-20 |
-| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with collection expressions | 2025-09-20 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -21,6 +14,8 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/csharp/language-reference/operators/collection-expressions | rendered | Main collection expressions documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 announcement with collection expressions | 2025-09-20 |
 | https://github.com/dotnet/csharplang/issues/5354 | rendered | Collection expressions language proposal | 2025-09-20 |
 | https://github.com/dotnet/csharplang/issues/7700 | rendered | Params collections language proposal | 2025-09-20 |
 

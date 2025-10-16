@@ -4,13 +4,6 @@
 
 SearchValues<T> is a performance-focused type that provides optimized searching for specific sets of values within spans. It creates an immutable, pre-computed data structure that accelerates repeated searches for the same set of values using SIMD acceleration when possible, making it ideal for high-performance scenarios.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://learn.microsoft.com/dotnet/api/system.buffers.searchvalues-1 | rendered | Official API documentation for SearchValues<T> | - |
-| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/ | rendered | Performance improvements in .NET 8 (includes SearchValues) | - |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -18,6 +11,11 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 | dotnet/runtime | src/libraries/System.Private.CoreLib/src/System/SearchValues/SearchValues.T.cs | SearchValues<T> implementation | - |
 | dotnet/docs | docs/core/whats-new/dotnet-8/runtime.md | .NET 8 runtime features including SearchValues | - |
 | dotnet/docs | docs/core/whats-new/dotnet-9/libraries.md | .NET 9 SearchValues enhancements (substring search) | - |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://learn.microsoft.com/dotnet/api/system.buffers.searchvalues-1 | rendered | Official API documentation for SearchValues<T> | - |
+| https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/ | rendered | Performance improvements in .NET 8 (includes SearchValues) | - |
 
 ## Secondary Sources
 

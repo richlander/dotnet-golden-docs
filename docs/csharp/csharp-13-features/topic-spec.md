@@ -4,13 +4,6 @@
 
 C# 13 is the latest version of the C# programming language, released with .NET 9 in November 2024. It introduces significant enhancements to the params modifier with collection support, new lock object semantics, ref struct improvements, partial members expansion, and several syntax improvements that enhance developer productivity and performance.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-13 | rendered | Official C# 13 features documentation | - |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/ | rendered | .NET 9 and C# 13 announcement | - |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -19,6 +12,11 @@ C# 13 is the latest version of the C# programming language, released with .NET 9
 | dotnet/csharplang | proposals/csharp-13.0/params-collections.md | Params collections proposal | - |
 | dotnet/csharplang | proposals/csharp-13.0/lock-object.md | New lock object proposal | - |
 | dotnet/csharplang | proposals/csharp-13.0/method-group-natural-type-improvements.md | Method group natural type improvements | - |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-13 | rendered | Official C# 13 features documentation | - |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/ | rendered | .NET 9 and C# 13 announcement | - |
 
 ## Secondary Sources
 

@@ -4,20 +4,18 @@
 
 Microsoft.Extensions.AI provides a unified approach for .NET developers to integrate and interact with artificial intelligence (AI) services in their applications. It offers standardized interfaces and higher-level utilities for working with generative AI components, enabling seamless integration and interoperability with various AI services through familiar dependency injection and middleware patterns.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://learn.microsoft.com/dotnet/ai/microsoft-extensions-ai | rendered | Official Microsoft Learn documentation | 2025-09-21 |
-| https://www.nuget.org/packages/Microsoft.Extensions.AI | rendered | Official NuGet package page | 2025-09-21 |
-| https://devblogs.microsoft.com/dotnet/introducing-microsoft-extensions-ai-preview/ | rendered | Introducing Microsoft.Extensions.AI Preview blog post | 2025-09-21 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/docs | docs/ai/microsoft-extensions-ai.md | Microsoft.Extensions.AI libraries documentation | 2025-09-21 |
 | dotnet/extensions | src/Libraries/Microsoft.Extensions.AI/README.md | Official repository README | 2025-09-21 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://learn.microsoft.com/dotnet/ai/microsoft-extensions-ai | rendered | Official Microsoft Learn documentation | 2025-09-21 |
+| https://www.nuget.org/packages/Microsoft.Extensions.AI | rendered | Official NuGet package page | 2025-09-21 |
+| https://devblogs.microsoft.com/dotnet/introducing-microsoft-extensions-ai-preview/ | rendered | Introducing Microsoft.Extensions.AI Preview blog post | 2025-09-21 |
 
 ## Secondary Sources
 

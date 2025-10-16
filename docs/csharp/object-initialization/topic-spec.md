@@ -4,14 +4,6 @@
 
 Object initialization encompasses the various approaches for creating and initializing objects and their properties in C#, including constructor-based initialization, object initializer syntax, collection initializers within objects, anonymous types, init-only properties, and required members. This covers both object creation patterns and the initialization of collections as properties of those objects.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers | rendered | Object and collection initializers guide | 2025-09-20 |
-| https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/how-to-initialize-objects-by-using-an-object-initializer | rendered | Object initialization patterns | 2025-09-20 |
-| https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/init | rendered | Init-only properties | 2025-09-20 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -26,6 +18,9 @@ Object initialization encompasses the various approaches for creating and initia
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers | rendered | Object and collection initializers guide | 2025-09-20 |
+| https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/how-to-initialize-objects-by-using-an-object-initializer | rendered | Object initialization patterns | 2025-09-20 |
+| https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/init | rendered | Init-only properties | 2025-09-20 |
 | https://github.com/dotnet/csharplang/issues/3630 | rendered | Init-only properties proposal | 2025-09-20 |
 | https://github.com/dotnet/csharplang/issues/3793 | rendered | Required members proposal | 2025-09-20 |
 

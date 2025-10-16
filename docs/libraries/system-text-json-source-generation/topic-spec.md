@@ -4,13 +4,6 @@
 
 System.Text.Json source generation provides compile-time generation of serialization code to enable high-performance, AOT-compatible JSON operations. It eliminates runtime reflection by generating typed serialization logic at compile time, making it essential for Native AOT deployments and high-performance applications. Source generation supports type-safe operations with unconstrained generics and automatic property naming policies, reducing the need for manual JsonPropertyName attributes.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/source-generation | rendered | System.Text.Json source generation guide | 2025-09-24 |
-| https://docs.microsoft.com/dotnet/core/deploying/native-aot/#system-text-json | rendered | Native AOT and JSON serialization | 2025-09-24 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -23,6 +16,8 @@ System.Text.Json source generation provides compile-time generation of serializa
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/standard/serialization/system-text-json/source-generation | rendered | System.Text.Json source generation guide | 2025-09-24 |
+| https://docs.microsoft.com/dotnet/core/deploying/native-aot/#system-text-json | rendered | Native AOT and JSON serialization | 2025-09-24 |
 | https://github.com/dotnet/designs/blob/main/accepted/2020/serializer-reliability.md | rendered | JSON serializer reliability design | 2025-09-24 |
 
 ## Secondary Sources

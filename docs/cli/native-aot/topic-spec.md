@@ -4,14 +4,6 @@
 
 Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime. This results in faster startup times, reduced memory footprint, and self-contained executables that don't require the .NET runtime to be installed on the target machine.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/deploying/native-aot/ | rendered | Main Native AOT documentation | 2025-09-20 |
-| https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/ | rendered | .NET 7 Preview 3 announcement with Native AOT | 2025-09-20 |
-| https://devblogs.microsoft.com/dotnet/creating-aot-compatible-libraries/ | rendered | How to make libraries compatible with native AOT | - |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -19,6 +11,12 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 | dotnet/docs | docs/core/deploying/native-aot/index.md | Native AOT overview documentation | 0249c38f27 |
 | dotnet/docs | docs/core/deploying/native-aot/cross-compile.md | Native AOT cross-compilation guide | 0249c38f27 |
 | dotnet/core | release-notes/7.0/7.0.0/7.0.0.md | .NET 7.0.0 release notes | 4c489a6a |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/core/deploying/native-aot/ | rendered | Main Native AOT documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/ | rendered | .NET 7 Preview 3 announcement with Native AOT | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/creating-aot-compatible-libraries/ | rendered | How to make libraries compatible with native AOT | - |
 
 ## Secondary Sources
 

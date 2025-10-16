@@ -4,19 +4,17 @@
 
 .NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components. This category encompasses libraries that extend .NET's capabilities in areas like AI integration, dependency injection, configuration, logging, caching, and other cross-cutting concerns using familiar .NET patterns and conventions.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://github.com/dotnet/extensions | rendered | Official .NET extensions repository | 2025-09-21 |
-| https://devblogs.microsoft.com/dotnet/introducing-microsoft-extensions-ai-preview/ | rendered | Microsoft.Extensions.AI announcement | 2025-09-21 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/extensions | README.md | Main extensions repository overview | 2025-09-21 |
 | dotnet/docs | docs/ai/microsoft-extensions-ai.md | Extensions AI documentation | 2025-09-21 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://github.com/dotnet/extensions | rendered | Official .NET extensions repository | 2025-09-21 |
+| https://devblogs.microsoft.com/dotnet/introducing-microsoft-extensions-ai-preview/ | rendered | Microsoft.Extensions.AI announcement | 2025-09-21 |
 
 ## Secondary Sources
 

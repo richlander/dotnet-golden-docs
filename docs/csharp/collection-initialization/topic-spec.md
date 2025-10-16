@@ -4,13 +4,6 @@
 
 Collection initialization encompasses the traditional and modern approaches to creating and initializing collections in C#, including constructor-based initialization, target-typed constructors, and collection initializer syntax. This covers the foundational patterns for working with collections before the introduction of collection expressions, and represents the established, widely-compatible approaches to collection creation.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/collection-initializers | rendered | Collection initializers programming guide | 2025-09-20 |
-| https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/how-to-initialize-objects-by-using-an-object-initializer | rendered | Object and collection initialization | 2025-09-20 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -23,6 +16,8 @@ Collection initialization encompasses the traditional and modern approaches to c
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/collection-initializers | rendered | Collection initializers programming guide | 2025-09-20 |
+| https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/how-to-initialize-objects-by-using-an-object-initializer | rendered | Object and collection initialization | 2025-09-20 |
 | https://github.com/dotnet/csharplang/issues/100 | rendered | Target-typed new expressions proposal | 2025-09-20 |
 
 ## Secondary Sources

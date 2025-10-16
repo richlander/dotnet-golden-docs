@@ -4,18 +4,16 @@
 
 Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-14 | rendered | Main C# 14 features documentation | 2025-09-20 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
 | --- | --- | --- | --- |
 | dotnet/docs | docs/csharp/whats-new/csharp-14.md | C# 14 what's new documentation | 0249c38f27 |
 | dotnet/csharplang | proposals/csharp-14.0/ | C# 14 language proposals overview | 86c78a07 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-14 | rendered | Main C# 14 features documentation | 2025-09-20 |
 
 ## Secondary Sources
 

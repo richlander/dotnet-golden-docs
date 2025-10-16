@@ -4,13 +4,6 @@
 
 Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies. The trimmer performs build-time analysis to identify and eliminate code that is not statically reachable, significantly reducing deployment size while maintaining application functionality.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://docs.microsoft.com/dotnet/core/deploying/trimming/trim-self-contained | rendered | Main assembly trimming documentation | 2025-09-20 |
-| https://devblogs.microsoft.com/dotnet/announcing-net-6/ | rendered | .NET 6 announcement with trimming features | 2025-09-20 |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -18,6 +11,11 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | dotnet/docs | docs/core/deploying/trimming/trim-self-contained.md | Trim self-contained deployments documentation | 0249c38f27 |
 | dotnet/docs | docs/core/deploying/trimming/trimming-options.md | Trimming options and configuration | 0249c38f27 |
 | dotnet/docs | docs/core/deploying/trimming/incompatibilities.md | Trimming incompatibilities documentation | 0249c38f27 |
+
+| URL | Type | Description | Last Verified |
+| --- | --- | --- | --- |
+| https://docs.microsoft.com/dotnet/core/deploying/trimming/trim-self-contained | rendered | Main assembly trimming documentation | 2025-09-20 |
+| https://devblogs.microsoft.com/dotnet/announcing-net-6/ | rendered | .NET 6 announcement with trimming features | 2025-09-20 |
 
 ## Secondary Sources
 

@@ -4,13 +4,6 @@
 
 System.CommandLine is a command-line parsing library for .NET that provides functionality commonly needed by command-line apps, such as parsing command-line input and displaying help text. It offers strongly-typed argument and option parsing, automatic help generation, tab completion, response files, and built-in validation according to POSIX or Windows conventions.
 
-## Official Sources
-
-| URL | Type | Description | Last Verified |
-| --- | --- | --- | --- |
-| https://www.nuget.org/packages/System.CommandLine | rendered | Official NuGet package page | - |
-| https://learn.microsoft.com/dotnet/standard/commandline/ | rendered | Official Microsoft Learn documentation | - |
-
 ## Primary Sources
 
 | Repo | Path | Description | Last Verified |
@@ -21,6 +14,8 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
+| https://www.nuget.org/packages/System.CommandLine | rendered | Official NuGet package page | - |
+| https://learn.microsoft.com/dotnet/standard/commandline/ | rendered | Official Microsoft Learn documentation | - |
 | https://github.com/dotnet/command-line-api | rendered | Official repository for System.CommandLine | - |
 
 ## Secondary Sources

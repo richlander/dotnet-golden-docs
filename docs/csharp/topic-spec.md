@@ -4,7 +4,13 @@
 
 C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code. The C# language is the most popular language for the .NET platform, a free, cross-platform, open source development environment.
 
-## Official Sources
+## Primary Sources
+
+| Repo | Path | Description | Last Verified |
+| --- | --- | --- | --- |
+| dotnet/docs | docs/csharp/index.yml | C# documentation index | 0249c38f27 |
+| dotnet/csharplang | README.md | C# language design repository | 86c78a07 |
+| dotnet/roslyn | docs/Language Feature Status.md | Feature status tracking | a4d213a6997 |
 
 | URL | Type | Description | Last Verified |
 | --- | --- | --- | --- |
@@ -17,14 +23,6 @@ C# is a modern, safe, and general purpose language that makes developers product
 | https://devblogs.microsoft.com/dotnet/welcome-to-csharp-10/ | rendered | C# 10 release announcement | 2025-09-20 |
 | https://devblogs.microsoft.com/dotnet/welcome-to-csharp-11/ | rendered | C# 11 release announcement | 2025-09-20 |
 | https://devblogs.microsoft.com/dotnet/announcing-csharp-12/ | rendered | C# 12 release announcement | 2025-09-20 |
-
-## Primary Sources
-
-| Repo | Path | Description | Last Verified |
-| --- | --- | --- | --- |
-| dotnet/docs | docs/csharp/index.yml | C# documentation index | 0249c38f27 |
-| dotnet/csharplang | README.md | C# language design repository | 86c78a07 |
-| dotnet/roslyn | docs/Language Feature Status.md | Feature status tracking | a4d213a6997 |
 
 ## Secondary Sources
 
