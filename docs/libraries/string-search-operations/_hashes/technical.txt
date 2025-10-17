@@ -9,7 +9,6 @@ API | Substring
 API | ContainsAny
 API | Math.Min
 API | StartsWith
-Keyword | string
 Keyword | string search
 Keyword | searchvalues
 Keyword | string search operations
@@ -19,5 +18,6 @@ Keyword | searching
 Keyword | repeated
 Keyword | searches
 Keyword | allocation-free
-Keyword | best
 Keyword | character
+Keyword | string.contains
+Keyword | complex

@@ -26,22 +26,22 @@
   "keywords": [
     {
       "name": "net",
-      "score": 38
-    },
-    {
-      "name": "cross-platform",
-      "score": 7
+      "score": 29
     },
     {
       "name": "libraries",
       "score": 11
     },
     {
-      "name": "like",
+      "name": "while",
       "score": 10
     },
     {
-      "name": "while",
+      "name": "cross-platform",
+      "score": 7
+    },
+    {
+      "name": "like",
       "score": 10
     },
     {
@@ -51,10 +51,6 @@
     {
       "name": "memory management",
       "score": 6
-    },
-    {
-      "name": "code",
-      "score": 14
     },
     {
       "name": "runtime",
@@ -67,6 +63,10 @@
     {
       "name": "modern",
       "score": 6
+    },
+    {
+      "name": "code",
+      "score": 11
     },
     {
       "name": "tools",
@@ -105,12 +105,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
           }
         }
       },
@@ -126,12 +126,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3772209114392757042
+            "fingerprint": 13140259840106365750
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12990971914609426736
+            "fingerprint": 12995581704090288436
           }
         }
       },
@@ -165,7 +165,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748007322922713970
+            "fingerprint": 17748008422434374514
           },
           "technical": {
             "name": "technical",
@@ -182,12 +182,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
           }
         }
       },
@@ -204,7 +204,7 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13139692957975577396
+            "fingerprint": 13139693507731391284
           }
         }
       },
@@ -226,9 +226,26 @@
         }
       },
       {
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.7386,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135792371890684214
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.7318,
+        "similarity": 0.7382,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -244,6 +261,23 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/collections-performance/index.json",
+        "title": "Collections Performance",
+        "similarity": 0.7286,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3088699778205288848
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713016054776726876
           }
         }
       },
@@ -285,53 +319,76 @@
             "fingerprint": 12992240838009299324
           }
         }
-      },
-      {
-        "href": "/libraries/system-commandline/index.json",
-        "title": "System.CommandLine",
-        "similarity": 0.7004,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 4477352130680084748
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13031609950279271226
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603784469680882044
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
-        "title": "System.Text.Json.JsonSerializer",
-        "similarity": 0.6924,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 3087081535174783256
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12992240880958973404
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 5,
+        "baseline_conceptual": 0,
+        "baseline_technical": null,
+        "stripe_order": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "stripe_order_technical": null,
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "The Three Pillars of .NET",
+            "is_code": false,
+            "similarity_conceptual": 0.613,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": ".NET Ecosystem and Variants",
+            "is_code": false,
+            "similarity_conceptual": 0.633,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Development Ecosystem",
+            "is_code": false,
+            "similarity_conceptual": 0.658,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Core Concepts",
+            "is_code": false,
+            "similarity_conceptual": 0.679,
+            "similarity_technical": null,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6456826Z",
+    "generated": "2025-10-17T20:16:12.6513840Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

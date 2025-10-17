@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 114 single words
-Total unique terms: 124
-Terms with score ≥ 3.0: 23
-Total term occurrences: 203
+Combined 11 compound terms and 102 single words
+Total unique terms: 112
+Terms with score ≥ 3.0: 21
+Total term occurrences: 184
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -31,9 +31,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | system.text.json | compound | 2 | 1.10x | 1.50x | 3.3 |
 | third-party | compound | 2 | 1.10x | 1.50x | 3.3 |
 | across | single | 3 | 1.00x | 1.00x | 3.0 |
-| async | single | 3 | 1.00x | 1.00x | 3.0 |
 | base class library | compound | 2 | 1.00x | 1.50x | 3.0 |
-| data | single | 3 | 1.00x | 1.00x | 3.0 |
 | distributed | single | 3 | 1.00x | 1.00x | 3.0 |
 | high-performance | single | 3 | 1.00x | 1.00x | 3.0 |
 | nuget | single | 3 | 1.00x | 1.00x | 3.0 |

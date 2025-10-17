@@ -66,11 +66,11 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 | dependency injection | 5.00 |
 | middleware composition | 5.00 |
 | function calling | 4.00 |
-| net | 8.00 |
+| caching | 6.00 |
 | interfaces | 6.00 |
 | service | 6.00 |
-| caching | 6.00 |
 | familiar | 4.00 |
+| functionality | 4.00 |
 
 ## APIs
 
@@ -99,7 +99,7 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6811 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6650 |
 | cli | cli | 0.6615 |
-| libraries | libraries/system-text-json | 0.6579 |
+| libraries | libraries/system-text-json | 0.6575 |
 | csharp | csharp/csharp-14-features | 0.6469 |
 | cli | cli/file-based-apps | 0.6440 |
 | cli | cli/native-aot | 0.6401 |
@@ -140,3 +140,20 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 - Not leveraging dependency injection patterns
 - Mixing multiple AI providers without abstraction layer
 - Missing telemetry and observability integration
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 7
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.585 |
+| 1 | Streaming Chat Responses | 0.718 | 0.597 |
+| 2 | Custom Middleware Development | 0.585 | 1.000 |
+| 3 | Telemetry and Observability | 0.567 | 0.733 |
+| 4 | Interface Implementation Guidelines | 0.631 | 0.644 |
+| 5 | Configuration Management | 0.571 | 0.630 |
+| 6 | Performance Considerations | 0.540 | 0.664 |

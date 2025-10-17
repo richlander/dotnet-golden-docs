@@ -8,7 +8,6 @@ Combined local and global scoring:
 
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
-| string | single | 13 | 1.00x | 1.00x | 2.0x | 26.000 |
 | string search | compound | 4 | 1.50x | 1.50x | 2.0x | 18.000 |
 | searchvalues | single | 7 | 1.00x | 1.00x | 2.0x | 14.000 |
 | string search operations | compound | 3 | 1.50x | 1.50x | 2.0x | 13.500 |
@@ -18,9 +17,7 @@ Combined local and global scoring:
 | repeated | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | searches | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | allocation-free | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
-| best | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | character | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| matching | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | string.contains | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | complex | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | multi-value | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
@@ -30,4 +27,3 @@ Combined local and global scoring:
 | substring | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | vs | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | use | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
-| code | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

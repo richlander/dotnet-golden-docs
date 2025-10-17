@@ -39,8 +39,8 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 17751806634878108464 |
-| technical | simhash | 17602622835646144888 |
+| overview | simhash | 17751806565084889904 |
+| technical | simhash | 17602625034669392248 |
 
 ## Relationships
 
@@ -57,7 +57,7 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | Keyword | Score |
 |---------|-------|
-| security | 9.00 |
+| security | 7.00 |
 | net 10 | 2.00 |
 | span-based | 3.00 |
 | improvements | 4.00 |
@@ -66,9 +66,9 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | algorithms | 3.00 |
 | comparison | 3.00 |
 | cryptography | 3.00 |
-| duplicate | 3.00 |
-| hex | 3.00 |
 | numericordering | 3.00 |
+| post-quantum | 3.00 |
+| quantum-resistant | 2.00 |
 
 ## APIs
 
@@ -82,18 +82,18 @@ Collection topic covering key .NET 10 library improvements including numeric str
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
+| libraries | libraries/system-text-json-dotnet-10 | 0.8676 |
 | csharp | csharp/csharp-14-features | 0.7967 |
 | libraries | libraries | 0.7945 |
-| libraries | libraries/system-text-json | 0.7844 |
+| libraries | libraries/system-text-json | 0.7881 |
+| libraries | libraries/json-validation-security | 0.7661 |
 | libraries | libraries/system-text-json-jsonserializer | 0.7658 |
 | dotnet | dotnet | 0.7626 |
+| libraries | libraries/collections-performance | 0.7552 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7378 |
 | csharp | csharp | 0.7352 |
 | libraries | libraries/string-search-operations | 0.7306 |
-| libraries | libraries/system-text-json-nodes | 0.7183 |
-| libraries | libraries/system-buffers-searchvalues | 0.7137 |
-| libraries | libraries/system-text-json-jsondocument | 0.6973 |
-| cli | cli/file-based-apps | 0.6961 |
+| libraries | libraries/system-collections-generic-ienumerable | 0.7206 |
 
 ## Critical limitations
 
@@ -119,3 +119,16 @@ Collection topic covering key .NET 10 library improvements including numeric str
 - Ignoring security implications of duplicate JSON properties
 - Manual span lifetime management errors
 - Platform assumptions for post-quantum crypto availability
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 3
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.498 |
+| 1 | Tensor Operations (Stable APIs) | 0.532 | 0.635 |
+| 2 | WebSocket Streaming (WebSocketStream) | 0.498 | 1.000 |

@@ -31,73 +31,68 @@
   "keywords": [
     {
       "name": "source generation",
-      "score": 27
-    },
-    {
-      "name": "json",
-      "score": 70
+      "score": 23
     },
     {
       "name": "system.text.json",
-      "score": 20
-    },
-    {
-      "name": "apis",
-      "score": 22
-    },
-    {
-      "name": "read-only",
       "score": 14
     },
     {
-      "name": "serialization",
-      "score": 21
+      "name": "json",
+      "score": 29
     },
     {
-      "name": "use",
-      "score": 31
+      "name": "minimal",
+      "score": 19
     },
     {
       "name": "api",
       "score": 14
     },
     {
-      "name": "scenarios",
+      "name": "apis",
       "score": 14
     },
     {
-      "name": "minimal",
-      "score": 17
+      "name": "compile-time",
+      "score": 11
     },
     {
-      "name": "configuration",
+      "name": "read-only",
+      "score": 10
+    },
+    {
+      "name": "dynamic",
+      "score": 11
+    },
+    {
+      "name": "use",
+      "score": 19
+    },
+    {
+      "name": "newtonsoft.json",
+      "score": 5
+    },
+    {
+      "name": "text",
       "score": 12
-    },
-    {
-      "name": "asp.net core",
-      "score": 6
     }
   ],
   "apis": [
     {
-      "name": "JsonSerializable",
-      "type": "attribute",
-      "count": 20
-    },
-    {
       "name": "JsonSerializer.Serialize",
       "type": "method",
-      "count": 18
+      "count": 16
+    },
+    {
+      "name": "JsonSerializable",
+      "type": "attribute",
+      "count": 15
     },
     {
       "name": "GetString",
       "type": "method",
-      "count": 9
-    },
-    {
-      "name": "File.OpenRead",
-      "type": "method",
-      "count": 6
+      "count": 7
     },
     {
       "name": "JsonNode.Parse",
@@ -105,14 +100,9 @@
       "count": 6
     },
     {
-      "name": "System.Text",
-      "type": "namespace",
-      "count": 6
-    },
-    {
-      "name": "System.Text.Json",
-      "type": "type",
-      "count": 6
+      "name": "File.OpenRead",
+      "type": "method",
+      "count": 5
     },
     {
       "name": "GetUser",
@@ -120,24 +110,34 @@
       "count": 5
     },
     {
-      "name": "JsonDocument.Parse",
+      "name": "RootElement.GetProperty",
       "type": "method",
       "count": 5
     },
     {
-      "name": "Console.WriteLine",
+      "name": "JsonDocument.Parse",
       "type": "method",
       "count": 4
     },
     {
-      "name": "GetFromJsonAsync",
+      "name": "JsonSerializer.Deserialize",
       "type": "method",
       "count": 4
     },
     {
-      "name": "GetProperty",
+      "name": "Read",
       "type": "method",
       "count": 4
+    },
+    {
+      "name": "JsonDerivedType",
+      "type": "attribute",
+      "count": 3
+    },
+    {
+      "name": "JsonSerializer.SerializeAsync",
+      "type": "method",
+      "count": 3
     }
   ],
   "diagnostic_codes": [
@@ -185,7 +185,7 @@
       {
         "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
-        "similarity": 0.9334,
+        "similarity": 0.9393,
         "hashes": {
           "overview": {
             "name": "overview",
@@ -202,7 +202,7 @@
       {
         "href": "/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
-        "similarity": 0.873,
+        "similarity": 0.8745,
         "hashes": {
           "overview": {
             "name": "overview",
@@ -217,9 +217,26 @@
         }
       },
       {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.8743,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
+          }
+        }
+      },
+      {
         "href": "/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
-        "similarity": 0.8663,
+        "similarity": 0.8694,
         "hashes": {
           "overview": {
             "name": "overview",
@@ -236,7 +253,7 @@
       {
         "href": "/libraries/system-text-json-jsondocument/index.json",
         "title": "System.Text.Json.JsonDocument",
-        "similarity": 0.8591,
+        "similarity": 0.8594,
         "hashes": {
           "overview": {
             "name": "overview",
@@ -253,7 +270,7 @@
       {
         "href": "/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
-        "similarity": 0.8429,
+        "similarity": 0.8434,
         "authority": {
           "newtonsoft.json": 1.356,
           "source generation": 1.324
@@ -279,7 +296,7 @@
       {
         "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
         "title": "System.Text.Json.Utf8JsonWriter",
-        "similarity": 0.8391,
+        "similarity": 0.8408,
         "hashes": {
           "overview": {
             "name": "overview",
@@ -296,7 +313,7 @@
       {
         "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
-        "similarity": 0.8378,
+        "similarity": 0.8369,
         "hashes": {
           "overview": {
             "name": "overview",
@@ -311,48 +328,60 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
-        "title": ".NET 10 Libraries Features",
-        "similarity": 0.7844,
+        "href": "/libraries/json-streaming-io/index.json",
+        "title": "JSON Streaming and I/O",
+        "similarity": 0.7999,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 5373223288336521872
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 12713018245211120108
           }
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
-        "title": "C# 14 Language Features",
-        "similarity": 0.7342,
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.7881,
         "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7262411006152912613
-          },
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-validation-security/index.json",
+        "title": "JSON Validation and Security",
+        "similarity": 0.7859,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4220134623093668640
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12694860369024133596
           }
         }
       },
       {
         "href": "/dotnet/index.json",
         "title": ".NET Platform",
-        "similarity": 0.7318,
+        "similarity": 0.7382,
         "hashes": {
           "overview": {
             "name": "overview",
@@ -363,23 +392,6 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 12995475601218077040
-          }
-        }
-      },
-      {
-        "href": "/csharp/index.json",
-        "title": "C# Language",
-        "similarity": 0.6981,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 3772209114392757042
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12990971914609426736
           }
         }
       },
@@ -399,7 +411,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748007322922713970
+            "fingerprint": 17748008422434374514
           },
           "technical": {
             "name": "technical",
@@ -411,10 +423,143 @@
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 11,
+        "baseline_conceptual": 0,
+        "baseline_technical": 3,
+        "stripe_order": [
+          1,
+          2,
+          8,
+          6,
+          7,
+          4,
+          10,
+          3,
+          5,
+          9
+        ],
+        "stripe_order_technical": [
+          5,
+          10,
+          2,
+          1,
+          4,
+          0,
+          6,
+          7,
+          9,
+          8
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.657,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "API comparison",
+            "is_code": true,
+            "similarity_conceptual": 0.668,
+            "similarity_technical": 0.597,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Performance hierarchy (fastest to slowest)",
+            "is_code": false,
+            "similarity_conceptual": 0.654,
+            "similarity_technical": 0.618,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Quick Reference",
+            "is_code": true,
+            "similarity_conceptual": 0.657,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Scenario recommendations",
+            "is_code": false,
+            "similarity_conceptual": 0.648,
+            "similarity_technical": 0.681,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "HttpClient Extensions",
+            "is_code": true,
+            "similarity_conceptual": 0.647,
+            "similarity_technical": 0.706,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "Large File Streaming",
+            "is_code": true,
+            "similarity_conceptual": 0.581,
+            "similarity_technical": 0.618,
+            "keywords": null
+          },
+          {
+            "index": 7,
+            "href": "_chunks/golden-reference-7.md",
+            "title": "Performance Optimization",
+            "is_code": true,
+            "similarity_conceptual": 0.668,
+            "similarity_technical": 0.674,
+            "keywords": null
+          },
+          {
+            "index": 8,
+            "href": "_chunks/golden-reference-8.md",
+            "title": "Security Considerations",
+            "is_code": true,
+            "similarity_conceptual": 0.604,
+            "similarity_technical": 0.6,
+            "keywords": null
+          },
+          {
+            "index": 9,
+            "href": "_chunks/golden-reference-9.md",
+            "title": "Installation and Setup",
+            "is_code": true,
+            "similarity_conceptual": 0.584,
+            "similarity_technical": 0.63,
+            "keywords": null
+          },
+          {
+            "index": 10,
+            "href": "_chunks/golden-reference-10.md",
+            "title": "Migration from Newtonsoft.Json",
+            "is_code": true,
+            "similarity_conceptual": 0.597,
+            "similarity_technical": 0.66,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6188850Z",
+    "generated": "2025-10-17T20:16:12.5274580Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

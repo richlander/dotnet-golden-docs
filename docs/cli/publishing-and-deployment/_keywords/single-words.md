@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 162
-Total word occurrences: 328
+Total unique words: 152
+Total word occurrences: 315
 Total document words: 504
 
 | Word | Count | Document Concentration |
@@ -17,12 +17,12 @@ Total document words: 504
 | benefits | 6 | 0.0119 |
 | case | 6 | 0.0119 |
 | readytorun | 6 | 0.0119 |
-| size | 6 | 0.0119 |
 | use | 6 | 0.0119 |
 | compilation | 5 | 0.0099 |
 | distribution | 4 | 0.0079 |
 | no | 4 | 0.0079 |
 | single-file | 4 | 0.0079 |
+| size | 4 | 0.0079 |
 | application | 3 | 0.0060 |
 | container | 3 | 0.0060 |
 | cross-platform | 3 | 0.0060 |
@@ -32,7 +32,6 @@ Total document words: 504
 | larger | 3 | 0.0060 |
 | minimal | 3 | 0.0060 |
 | optimized | 3 | 0.0060 |
-| security | 3 | 0.0060 |
 | shared | 3 | 0.0060 |
 | updates | 3 | 0.0060 |
 | cd | 2 | 0.0040 |
@@ -57,6 +56,7 @@ Total document words: 504
 | microservices | 2 | 0.0040 |
 | mode | 2 | 0.0040 |
 | modes | 2 | 0.0040 |
+| optimization | 2 | 0.0040 |
 | overview | 2 | 0.0040 |
 | packaging | 2 | 0.0040 |
 | recommended | 2 | 0.0040 |
@@ -73,11 +73,9 @@ Total document words: 504
 | ultimate | 2 | 0.0040 |
 | usage | 2 | 0.0040 |
 | advanced | 1 | 0.0020 |
-| analysis | 1 | 0.0020 |
 | approach | 1 | 0.0020 |
 | artifacts | 1 | 0.0020 |
 | assurance | 1 | 0.0020 |
-| automatic | 1 | 0.0020 |
 | automation | 1 | 0.0020 |
 | awareness | 1 | 0.0020 |
 | balanced | 1 | 0.0020 |
@@ -91,16 +89,12 @@ Total document words: 504
 | creation | 1 | 0.0020 |
 | debugging | 1 | 0.0020 |
 | decision | 1 | 0.0020 |
-| default | 1 | 0.0020 |
-| developer | 1 | 0.0020 |
 | diagnostics | 1 | 0.0020 |
 | different | 1 | 0.0020 |
 | differs | 1 | 0.0020 |
-| direct | 1 | 0.0020 |
 | dockerfile | 1 | 0.0020 |
 | environments | 1 | 0.0020 |
 | experience | 1 | 0.0020 |
-| fast | 1 | 0.0020 |
 | faster | 1 | 0.0020 |
 | feature | 1 | 0.0020 |
 | first-run | 1 | 0.0020 |
@@ -113,7 +107,6 @@ Total document words: 504
 | independence | 1 | 0.0020 |
 | into | 1 | 0.0020 |
 | isolated | 1 | 0.0020 |
-| issues | 1 | 0.0020 |
 | jit | 1 | 0.0020 |
 | limitations | 1 | 0.0020 |
 | limited | 1 | 0.0020 |
@@ -128,7 +121,6 @@ Total document words: 504
 | optimal | 1 | 0.0020 |
 | optimizations | 1 | 0.0020 |
 | output | 1 | 0.0020 |
-| overhead | 1 | 0.0020 |
 | patterns | 1 | 0.0020 |
 | pipeline | 1 | 0.0020 |
 | platform-specific | 1 | 0.0020 |
@@ -150,7 +142,7 @@ Total document words: 504
 | runtimes | 1 | 0.0020 |
 | scalability | 1 | 0.0020 |
 | scalable | 1 | 0.0020 |
-| scenarios | 1 | 0.0020 |
+| security | 1 | 0.0020 |
 | see | 1 | 0.0020 |
 | serverless | 1 | 0.0020 |
 | serves | 1 | 0.0020 |
@@ -159,7 +151,6 @@ Total document words: 504
 | slower | 1 | 0.0020 |
 | smaller | 1 | 0.0020 |
 | specification | 1 | 0.0020 |
-| support | 1 | 0.0020 |
 | techniques | 1 | 0.0020 |
 | transforms | 1 | 0.0020 |
 | troubleshooting | 1 | 0.0020 |
@@ -167,5 +158,4 @@ Total document words: 504
 | verification | 1 | 0.0020 |
 | versions | 1 | 0.0020 |
 | vs | 1 | 0.0020 |
-| without | 1 | 0.0020 |
 | workflows | 1 | 0.0020 |

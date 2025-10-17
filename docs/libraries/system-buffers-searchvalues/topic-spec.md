@@ -42,7 +42,7 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13140681365376664376 |
+| overview | simhash | 13140681365376533304 |
 | technical | simhash | 12992238638986035580 |
 
 ## Relationships
@@ -63,6 +63,7 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 | searches | 7.00 |
 | allocation-free | 4.00 |
 | characters | 4.00 |
+| values | 5.00 |
 | creating searchvalues | 2.00 |
 | character | 3.00 |
 | once | 3.00 |
@@ -70,24 +71,23 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 | searching | 3.00 |
 | set | 3.00 |
 | span-based | 2.00 |
-| substring | 3.00 |
 
 ## Similarity Scores
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | libraries | libraries/string-search-operations | 0.7956 |
+| libraries | libraries/span-based-string-processing | 0.7916 |
+| libraries | libraries/collections-performance | 0.7535 |
 | csharp | csharp/csharp-14-features | 0.7328 |
 | libraries | libraries/system-text-json-utf8jsonreader | 0.7235 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7137 |
+| libraries | libraries/system-collections-generic-ienumerable | 0.7075 |
+| libraries | libraries/system-collections-generic-iasyncenumerable | 0.7026 |
+| libraries | libraries/system-text-json | 0.6987 |
 | csharp | csharp/collection-initialization | 0.6978 |
-| libraries | libraries/system-text-json | 0.6938 |
 | libraries | libraries/system-text-json-jsonserializer | 0.6797 |
 | libraries | libraries/system-text-json-nodes | 0.6792 |
-| csharp | csharp/collection-expressions | 0.6790 |
-| libraries | libraries/system-text-json-jsondocument | 0.6724 |
-| libraries | libraries/system-text-json-utf8jsonwriter | 0.6637 |
-| libraries | libraries | 0.6616 |
 
 ## APIs
 
@@ -108,3 +108,17 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 | libraries | searchvalues | 2.145 |
 | libraries | simd acceleration | 1.523 |
 | libraries | pre-computed optimization | 1.412 |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 4
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.573 |
+| 1 | Path Validation | 0.573 | 1.000 |
+| 2 | Protocol Parsing with SearchValues | 0.622 | 0.678 |
+| 3 | Migration & Compatibility | 0.665 | 0.674 |

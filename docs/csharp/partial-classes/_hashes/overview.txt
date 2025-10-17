@@ -1,0 +1,2 @@
+Title | Partial Classes
+Description | Partial classes split the definition of a type (class, struct, or interface) and its members across multiple source files. This enables separation between generated code and developer-written code, platform-specific implementations, and source generator integration. Partial types can contain partial members where the signature is declared in one file and the implementation in another.

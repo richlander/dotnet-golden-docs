@@ -20,42 +20,30 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 13031609950279271226
+      "fingerprint": 13027106350651900730
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 17603784469680882044
+      "fingerprint": 17603786118948323708
     }
   },
   "keywords": [
-    {
-      "name": "system.commandline",
-      "score": 4
-    },
     {
       "name": "command-line",
       "score": 6
     },
     {
+      "name": "system.commandline",
+      "score": 4
+    },
+    {
       "name": "parsing",
-      "score": 9
+      "score": 7
     },
     {
       "name": "response files",
       "score": 3
-    },
-    {
-      "name": "options",
-      "score": 6
-    },
-    {
-      "name": "validation",
-      "score": 6
-    },
-    {
-      "name": "automatic",
-      "score": 4
     },
     {
       "name": "binding",
@@ -66,16 +54,28 @@
       "score": 4
     },
     {
-      "name": "handlers",
-      "score": 4
-    },
-    {
       "name": "help",
       "score": 4
     },
     {
       "name": "hierarchies",
       "score": 4
+    },
+    {
+      "name": "option",
+      "score": 4
+    },
+    {
+      "name": "use",
+      "score": 7
+    },
+    {
+      "name": "model binding",
+      "score": 2
+    },
+    {
+      "name": "arguments",
+      "score": 3
     }
   ],
   "apis": [
@@ -159,26 +159,9 @@
         }
       },
       {
-        "href": "/cli/file-based-apps/index.json",
-        "title": "File-based apps",
-        "similarity": 0.7239,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12991672373451620728
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603924657413423484
-          }
-        }
-      },
-      {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.7216,
+        "similarity": 0.7253,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -194,6 +177,23 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/cli/file-based-apps/index.json",
+        "title": "File-based apps",
+        "similarity": 0.7239,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991672373451620728
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603924657413423484
           }
         }
       },
@@ -239,12 +239,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3772209114392757042
+            "fingerprint": 13140259840106365750
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12990971914609426736
+            "fingerprint": 12995581704090288436
           }
         }
       },
@@ -278,12 +278,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.6925,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
           }
         }
       },
@@ -305,51 +322,85 @@
         }
       },
       {
-        "href": "/cli/native-aot/index.json",
-        "title": "Native AOT",
-        "similarity": 0.6697,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 128515531412412530
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 17748007322922713970
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 13136350303040708988
-          }
-        }
-      },
-      {
-        "href": "/cli/build-and-compilation/index.json",
-        "title": "Build and Compilation",
-        "similarity": 0.6689,
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.6846,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751379938475704630
+            "fingerprint": 13135792371890684214
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13139692957975577396
+            "fingerprint": 12992239188741849468
           }
         }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 4,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          3,
+          1,
+          2
+        ],
+        "stripe_order_technical": [
+          2,
+          3,
+          0
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.569,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Advanced Validation",
+            "is_code": true,
+            "similarity_conceptual": 0.569,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Complex Type Binding",
+            "is_code": true,
+            "similarity_conceptual": 0.569,
+            "similarity_technical": 0.701,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Error Handling Guidance",
+            "is_code": true,
+            "similarity_conceptual": 0.6,
+            "similarity_technical": 0.67,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6167209Z",
+    "generated": "2025-10-17T20:16:12.5197780Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

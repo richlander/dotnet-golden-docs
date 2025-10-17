@@ -38,3 +38,55 @@ JSON validation and security features in System.Text.Json help ensure that deser
 | Priority | 2 (High - important for secure applications) |
 | Version | Current |
 | Year | N/A |
+
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 4220134623093668640 |
+| technical | simhash | 12694860369024133596 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries/system-text-json-dotnet-10 | 0.8830 |
+| libraries | libraries/system-text-json-jsonserializer | 0.8098 |
+| libraries | libraries/system-text-json | 0.7859 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7661 |
+| libraries | libraries/system-text-json-nodes | 0.7507 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7453 |
+| libraries | libraries/system-text-json-jsondocument | 0.7441 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.7324 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.7223 |
+| csharp | csharp/csharp-14-features | 0.7125 |
+| libraries | libraries/json-streaming-io | 0.6982 |
+| csharp | csharp/properties-backing-fields | 0.6862 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| System.Text.Json | type | 13 |
+| System.Text | namespace | 10 |
+| Console.WriteLine | method | 7 |
+| BadRequest | method | 3 |
+| JsonSerializerOptions | method | 3 |
+| JsonUnmappedMemberHandling | attribute | 3 |
+| LogWarning | method | 3 |
+| System.Text.Json.Serialization | type | 3 |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 5
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.659 |
+| 1 | Handling Unmapped Properties | 0.659 | 1.000 |
+| 2 | Combining Validation Features | 0.664 | 0.693 |
+| 3 | API Security Best Practices | 0.632 | 0.699 |
+| 4 | Best Practices | 0.693 | 0.662 |

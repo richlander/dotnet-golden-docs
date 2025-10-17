@@ -13,6 +13,7 @@ Keyword | searchvalues
 Keyword | searches
 Keyword | allocation-free
 Keyword | characters
+Keyword | values
 Keyword | creating searchvalues
 Keyword | character
 Keyword | once
@@ -20,4 +21,3 @@ Keyword | pre-computed
 Keyword | searching
 Keyword | set
 Keyword | span-based
-Keyword | substring

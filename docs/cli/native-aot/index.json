@@ -20,7 +20,7 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 17748007322922713970
+      "fingerprint": 17748008422434374514
     },
     "technical": {
       "name": "technical",
@@ -66,12 +66,12 @@
       "score": 2
     },
     {
-      "name": "code",
-      "score": 7
-    },
-    {
       "name": "self-contained",
       "score": 3
+    },
+    {
+      "name": "generic methods",
+      "score": 2
     },
     {
       "name": "system.text.json source generation",
@@ -230,7 +230,7 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13139692957975577396
+            "fingerprint": 13139693507731391284
           }
         }
       },
@@ -242,19 +242,41 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-commandline/index.json",
+        "title": "System.CommandLine",
+        "similarity": 0.6697,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 4477352130680084748
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13027106350651900730
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603786118948323708
           }
         }
       },
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.6702,
+        "similarity": 0.6683,
         "authority": {
           "source generation": 1.324
         },
@@ -273,28 +295,6 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 13172382621933396857
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-commandline/index.json",
-        "title": "System.CommandLine",
-        "similarity": 0.6697,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 4477352130680084748
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13031609950279271226
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603784469680882044
           }
         }
       },
@@ -328,12 +328,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3772209114392757042
+            "fingerprint": 13140259840106365750
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12990971914609426736
+            "fingerprint": 12995581704090288436
           }
         }
       },
@@ -345,12 +345,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
           }
         }
       },
@@ -374,10 +374,77 @@
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 5,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          4,
+          2,
+          1,
+          3
+        ],
+        "stripe_order_technical": [
+          4,
+          2,
+          0,
+          3
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.543,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Complementary Technologies",
+            "is_code": true,
+            "similarity_conceptual": 0.543,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Setting Up Source Generation",
+            "is_code": true,
+            "similarity_conceptual": 0.548,
+            "similarity_technical": 0.605,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Common AOT Errors",
+            "is_code": true,
+            "similarity_conceptual": 0.515,
+            "similarity_technical": 0.521,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Common Troubleshooting",
+            "is_code": true,
+            "similarity_conceptual": 0.614,
+            "similarity_technical": 0.637,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.5837639Z",
+    "generated": "2025-10-17T20:16:12.3095400Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -67,16 +67,16 @@ System.Text.Json source generation provides compile-time generation of serializa
 |---------|-------|
 | source generation | 7.00 |
 | system.text.json source generation | 5.00 |
-| naming policies | 4.00 |
 | compile-time | 9.00 |
+| naming policies | 4.00 |
+| generic methods | 3.00 |
 | aot compatibility | 3.00 |
+| native aot | 3.00 |
 | native aot applications | 3.00 |
 | aot-compatible | 3.00 |
-| generic methods | 3.00 |
 | runtime | 8.00 |
 | asp.net core web apis | 2.00 |
 | multiple contexts | 2.00 |
-| native aot | 3.00 |
 
 ## APIs
 
@@ -122,17 +122,17 @@ System.Text.Json source generation provides compile-time generation of serializa
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | libraries | libraries/system-text-json-jsonserializer | 0.8652 |
-| libraries | libraries/system-text-json | 0.8429 |
+| libraries | libraries/system-text-json | 0.8434 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.7817 |
 | cli | cli/native-aot | 0.7720 |
 | libraries | libraries/system-text-json-utf8jsonwriter | 0.7696 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7575 |
 | libraries | libraries/system-text-json-nodes | 0.7529 |
 | libraries | libraries/system-text-json-jsondocument | 0.7278 |
 | libraries | libraries/system-text-json-utf8jsonreader | 0.7151 |
+| libraries | libraries/json-streaming-io | 0.6908 |
+| libraries | libraries/json-validation-security | 0.6843 |
 | dotnet | dotnet | 0.6816 |
-| libraries | libraries/dotnet-10-library-improvements | 0.6809 |
-| csharp | csharp/csharp-14-features | 0.6765 |
-| cli | cli/file-based-apps | 0.6709 |
 
 ## Authority Scores
 
@@ -146,3 +146,17 @@ System.Text.Json source generation provides compile-time generation of serializa
 | libraries/system-text-json | newtonsoft.json | 1.356 |
 | libraries/system-text-json | source generation | 1.324 |
 
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 4
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.618 |
+| 1 | Generic Methods with JsonTypeInfo | 0.618 | 1.000 |
+| 2 | AI Structured Responses | 0.565 | 0.697 |
+| 3 | Performance Optimization | 0.687 | 0.607 |

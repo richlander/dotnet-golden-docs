@@ -15,10 +15,9 @@ Combined local and global scoring:
 | dependency injection | compound | 5 | 1.10x | 1.50x | 2.0x | 16.500 |
 | middleware composition | compound | 5 | 1.10x | 1.50x | 2.0x | 16.500 |
 | function calling | compound | 4 | 1.25x | 1.50x | 2.0x | 15.000 |
-| net | single | 8 | 1.00x | 1.00x | 1.5x | 12.000 |
+| caching | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | interfaces | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | service | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| caching | single | 6 | 1.00x | 1.00x | 1.5x | 9.000 |
 | familiar | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | functionality | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | observability | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -32,18 +31,16 @@ Combined local and global scoring:
 | allowing | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | architecture | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | changes | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| chat | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | function | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | implement | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | opentelemetry | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| standard | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | telemetry | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| support | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
 | error handling | compound | 2 | 1.10x | 1.50x | 1.5x | 4.950 |
 | memory management | compound | 2 | 1.10x | 1.50x | 1.5x | 4.950 |
 | capabilities | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | extensions | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| standard | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | strongly-typed | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |
 | vs | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| without | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
-| code | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
 | provides | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

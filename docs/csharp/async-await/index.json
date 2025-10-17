@@ -1,0 +1,519 @@
+{
+  "id": "csharp/async-await",
+  "title": "Async and Await",
+  "description": "Language keywords enabling asynchronous programming with non-blocking I/O operations and improved scalability through the Task-based Asynchronous Pattern.",
+  "category": "C# Language",
+  "complexity": 0.4,
+  "priority": 1,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "5.0 (async/await introduced)",
+    "year": "2012"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 17748041905982472506
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 12992239188741849468
+    }
+  },
+  "keywords": [
+    {
+      "name": "async",
+      "score": 26
+    },
+    {
+      "name": "use",
+      "score": 29
+    },
+    {
+      "name": "async operations",
+      "score": 8
+    },
+    {
+      "name": "await",
+      "score": 11
+    },
+    {
+      "name": "operations",
+      "score": 11
+    },
+    {
+      "name": "task",
+      "score": 7
+    },
+    {
+      "name": "async methods",
+      "score": 4
+    },
+    {
+      "name": "considerations",
+      "score": 8
+    },
+    {
+      "name": "async code",
+      "score": 3
+    },
+    {
+      "name": "avoid",
+      "score": 6
+    },
+    {
+      "name": "code",
+      "score": 8
+    },
+    {
+      "name": "threads",
+      "score": 4
+    }
+  ],
+  "apis": [
+    {
+      "name": "FetchDataAsync",
+      "type": "method",
+      "count": 20
+    },
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 18
+    },
+    {
+      "name": "HttpClient",
+      "type": "method",
+      "count": 14
+    },
+    {
+      "name": "Task.Delay",
+      "type": "method",
+      "count": 11
+    },
+    {
+      "name": "ConfigureAwait",
+      "type": "method",
+      "count": 10
+    },
+    {
+      "name": "GetDataAsync",
+      "type": "method",
+      "count": 10
+    },
+    {
+      "name": "GetStringAsync",
+      "type": "method",
+      "count": 10
+    },
+    {
+      "name": "Task.Run",
+      "type": "method",
+      "count": 9
+    },
+    {
+      "name": "CalculateAsync",
+      "type": "method",
+      "count": 8
+    },
+    {
+      "name": "LoadDataAsync",
+      "type": "method",
+      "count": 8
+    },
+    {
+      "name": "ProcessDataAsync",
+      "type": "method",
+      "count": 8
+    },
+    {
+      "name": "SaveDataAsync",
+      "type": "method",
+      "count": 8
+    }
+  ],
+  "diagnostic_codes": null,
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/csharp/async-await/index.json",
+      "description": "Language keywords enabling asynchronous programming with non-blocking I/O operations and improved scalability through the Task-based Asynchronous Pattern."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/csharp/index.json",
+      "description": "Csharp category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/csharp/async-await/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/csharp/async-await/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/csharp/async-await/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "related": [
+      {
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.8707,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135792371890684214
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.8273,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991642545835409712
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603926856436687228
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.7291,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140261422667071802
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240838009291132
+          }
+        }
+      },
+      {
+        "href": "/csharp/lambda-expressions/index.json",
+        "title": "Lambda Expressions",
+        "similarity": 0.727,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13789395562491052844
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974085684805370156
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-streaming-io/index.json",
+        "title": "JSON Streaming and I/O",
+        "similarity": 0.7119,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 5373223288336521872
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713018245211120108
+          }
+        }
+      },
+      {
+        "href": "/libraries/collections-performance/index.json",
+        "title": "Collections Performance",
+        "similarity": 0.7065,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3088699778205288848
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713016054776726876
+          }
+        }
+      },
+      {
+        "href": "/csharp/csharp-14-features/index.json",
+        "title": "C# 14 Language Features",
+        "similarity": 0.7049,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7262411006152912613
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991679535167439672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008812590162300
+          }
+        }
+      },
+      {
+        "href": "/dotnet/index.json",
+        "title": ".NET Platform",
+        "similarity": 0.7034,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12995440279407100792
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12995475601218077040
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.6964,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.685,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751806565084889904
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.6825,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
+          }
+        }
+      }
+    ]
+  },
+  "_embedded": {
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 12,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          1,
+          9,
+          5,
+          6,
+          2,
+          11,
+          8,
+          3,
+          4,
+          7,
+          10
+        ],
+        "stripe_order_technical": [
+          0,
+          4,
+          11,
+          10,
+          7,
+          5,
+          6,
+          3,
+          9,
+          2,
+          8
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Main Approaches",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.695,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Concurrent Async Operations",
+            "is_code": true,
+            "similarity_conceptual": 0.695,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Task and Task\u0026lt;T\u0026gt;",
+            "is_code": true,
+            "similarity_conceptual": 0.669,
+            "similarity_technical": 0.659,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "ASP.NET Core Integration",
+            "is_code": true,
+            "similarity_conceptual": 0.61,
+            "similarity_technical": 0.605,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Web API Request with Error Handling",
+            "is_code": true,
+            "similarity_conceptual": 0.668,
+            "similarity_technical": 0.669,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Async Initialization Pattern",
+            "is_code": true,
+            "similarity_conceptual": 0.634,
+            "similarity_technical": 0.661,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "Async Lock Pattern",
+            "is_code": true,
+            "similarity_conceptual": 0.62,
+            "similarity_technical": 0.645,
+            "keywords": null
+          },
+          {
+            "index": 7,
+            "href": "_chunks/golden-reference-7.md",
+            "title": "Task.FromResult for Sync Returns",
+            "is_code": true,
+            "similarity_conceptual": 0.642,
+            "similarity_technical": 0.69,
+            "keywords": null
+          },
+          {
+            "index": 8,
+            "href": "_chunks/golden-reference-8.md",
+            "title": "Use ConfigureAwait(false) in Libraries",
+            "is_code": true,
+            "similarity_conceptual": 0.634,
+            "similarity_technical": 0.641,
+            "keywords": null
+          },
+          {
+            "index": 9,
+            "href": "_chunks/golden-reference-9.md",
+            "title": "Async Methods Have Overhead",
+            "is_code": true,
+            "similarity_conceptual": 0.661,
+            "similarity_technical": 0.671,
+            "keywords": null
+          },
+          {
+            "index": 10,
+            "href": "_chunks/golden-reference-10.md",
+            "title": "Can\u0027t Use Await in Lock Statements",
+            "is_code": true,
+            "similarity_conceptual": 0.621,
+            "similarity_technical": 0.61,
+            "keywords": null
+          },
+          {
+            "index": 11,
+            "href": "_chunks/golden-reference-11.md",
+            "title": "Exceptions in Task.WhenAll",
+            "is_code": true,
+            "similarity_conceptual": 0.648,
+            "similarity_technical": 0.655,
+            "keywords": null
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generated": "2025-10-17T20:16:12.3261070Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

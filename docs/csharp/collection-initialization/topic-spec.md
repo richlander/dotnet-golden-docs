@@ -48,7 +48,7 @@ Collection initialization encompasses the traditional and modern approaches to c
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 13507085838896505194 |
-| overview | simhash | 13135758833430233394 |
+| overview | simhash | 13135758833431281974 |
 | technical | simhash | 17604488704731014524 |
 
 ## Relationships
@@ -67,16 +67,16 @@ Collection initialization encompasses the traditional and modern approaches to c
 |---------|-------|
 | collection expressions | 12.00 |
 | collection initialization | 6.00 |
-| syntax | 8.00 |
 | target-typed new | 3.00 |
 | collection types | 3.00 |
-| collection initializer syntax | 2.00 |
 | values | 6.00 |
-| collections | 4.00 |
+| syntax | 4.00 |
+| collection initializer syntax | 2.00 |
 | capacity | 3.00 |
 | dictionaries | 3.00 |
 | dictionary | 3.00 |
 | elements | 3.00 |
+| existing | 3.00 |
 
 ## APIs
 
@@ -101,16 +101,16 @@ Collection initialization encompasses the traditional and modern approaches to c
 |----------|----------|------------|
 | csharp | csharp/collection-expressions | 0.8797 |
 | csharp | csharp/object-initialization | 0.8118 |
+| libraries | libraries/collections-performance | 0.7736 |
+| libraries | libraries/system-collections-generic-ienumerable | 0.7294 |
 | csharp | csharp/csharp-14-features | 0.7180 |
 | libraries | libraries/system-buffers-searchvalues | 0.6978 |
+| csharp | csharp/properties-backing-fields | 0.6805 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6777 |
+| csharp | csharp/lambda-expressions | 0.6759 |
+| csharp | csharp | 0.6670 |
 | libraries | libraries/string-search-operations | 0.6635 |
-| libraries | libraries/system-text-json-nodes | 0.6523 |
-| libraries | libraries/system-text-json-jsonserializer | 0.6426 |
-| libraries | libraries | 0.6305 |
-| libraries | libraries/system-text-json | 0.6231 |
-| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6188 |
-| libraries | libraries/system-text-json-jsondocument | 0.6115 |
+| libraries | libraries/system-collections-generic-iasyncenumerable | 0.6623 |
 
 ## Authority Scores
 

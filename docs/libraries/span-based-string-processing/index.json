@@ -1,0 +1,427 @@
+{
+  "id": "libraries/span-based-string-processing",
+  "title": "Span-Based String Processing",
+  "description": "High-performance text operations using \u0060Span\u003Cchar\u003E\u0060 and \u0060ReadOnlySpan\u003Cchar\u003E\u0060 including UTF-8 processing, string normalization, hex conversion, and pattern matching without allocations.",
+  "category": ".NET Libraries",
+  "complexity": 0.8,
+  "priority": 2,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "Current",
+    "year": "N/A"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 3500403042930203010
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 13001107333850221004
+    }
+  },
+  "keywords": null,
+  "apis": [
+    {
+      "name": "Slice",
+      "type": "method",
+      "count": 16
+    },
+    {
+      "name": "AsSpan",
+      "type": "method",
+      "count": 10
+    },
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 7
+    },
+    {
+      "name": "System.Text",
+      "type": "namespace",
+      "count": 6
+    },
+    {
+      "name": "IsNormalized",
+      "type": "method",
+      "count": 4
+    },
+    {
+      "name": "StartsWith",
+      "type": "method",
+      "count": 4
+    },
+    {
+      "name": "Encoding.UTF8.GetBytes",
+      "type": "method",
+      "count": 3
+    },
+    {
+      "name": "File.ReadAllBytes",
+      "type": "method",
+      "count": 3
+    },
+    {
+      "name": "GetFileExtension",
+      "type": "method",
+      "count": 3
+    },
+    {
+      "name": "IndexOf",
+      "type": "method",
+      "count": 3
+    },
+    {
+      "name": "IsValidCommand",
+      "type": "method",
+      "count": 3
+    },
+    {
+      "name": "LastIndexOf",
+      "type": "method",
+      "count": 3
+    }
+  ],
+  "diagnostic_codes": null,
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/libraries/span-based-string-processing/index.json",
+      "description": "High-performance text operations using \u0060Span\u003Cchar\u003E\u0060 and \u0060ReadOnlySpan\u003Cchar\u003E\u0060 including UTF-8 processing, string normalization, hex conversion, and pattern matching without allocations."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/libraries/index.json",
+      "description": "Libraries category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/span-based-string-processing/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/span-based-string-processing/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "related": [
+      {
+        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "title": "System.Text.Json.Utf8JsonReader",
+        "similarity": 0.8072,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 2796080149753443096
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704010495948890620
+          }
+        }
+      },
+      {
+        "href": "/libraries/string-search-operations/index.json",
+        "title": "String Search Operations",
+        "similarity": 0.7976,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140859488264749368
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603926856436679036
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "title": "System.Buffers.SearchValues",
+        "similarity": 0.7916,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140681365376533304
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992238638986035580
+          }
+        }
+      },
+      {
+        "href": "/csharp/csharp-14-features/index.json",
+        "title": "C# 14 Language Features",
+        "similarity": 0.7413,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7262411006152912613
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991679535167439672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008812590162300
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.7374,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+        "title": "System.Text.Json.Utf8JsonWriter",
+        "similarity": 0.7134,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 469786640745173528
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603924666003358076
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.7116,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
+          }
+        }
+      },
+      {
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.7018,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751806565084889904
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-nodes/index.json",
+        "title": "System.Text.Json.Nodes",
+        "similarity": 0.6924,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 9860979202420835664
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703869732690724188
+          }
+        }
+      },
+      {
+        "href": "/libraries/collections-performance/index.json",
+        "title": "Collections Performance",
+        "similarity": 0.6919,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3088699778205288848
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713016054776726876
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsondocument/index.json",
+        "title": "System.Text.Json.JsonDocument",
+        "similarity": 0.6896,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13460983673022227226
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703867533935911260
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-streaming-io/index.json",
+        "title": "JSON Streaming and I/O",
+        "similarity": 0.6894,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 5373223288336521872
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713018245211120108
+          }
+        }
+      }
+    ]
+  },
+  "_embedded": {
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 7,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          2,
+          6,
+          1,
+          4,
+          5,
+          3
+        ],
+        "stripe_order_technical": [
+          2,
+          4,
+          3,
+          0,
+          6,
+          5
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.654,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Pattern Matching on \u0060ReadOnlySpan\u003Cchar\u003E\u0060",
+            "is_code": true,
+            "similarity_conceptual": 0.654,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Relationships \u0026 Integration",
+            "is_code": true,
+            "similarity_conceptual": 0.685,
+            "similarity_technical": 0.699,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Finding PEM Data in UTF-8 Files",
+            "is_code": true,
+            "similarity_conceptual": 0.614,
+            "similarity_technical": 0.689,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "String Normalization Patterns",
+            "is_code": true,
+            "similarity_conceptual": 0.653,
+            "similarity_technical": 0.699,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Processing Speed",
+            "is_code": true,
+            "similarity_conceptual": 0.625,
+            "similarity_technical": 0.623,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "Adopting Span-Based String Processing",
+            "is_code": true,
+            "similarity_conceptual": 0.681,
+            "similarity_technical": 0.653,
+            "keywords": null
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generated": "2025-10-17T20:16:12.4763590Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

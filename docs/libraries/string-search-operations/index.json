@@ -15,7 +15,7 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 17752545506692137272
+      "fingerprint": 13140859488264749368
     },
     "technical": {
       "name": "technical",
@@ -24,10 +24,6 @@
     }
   },
   "keywords": [
-    {
-      "name": "string",
-      "score": 13
-    },
     {
       "name": "string search",
       "score": 4
@@ -65,11 +61,15 @@
       "score": 3
     },
     {
-      "name": "best",
+      "name": "character",
       "score": 4
     },
     {
-      "name": "character",
+      "name": "string.contains",
+      "score": 2
+    },
+    {
+      "name": "complex",
       "score": 4
     }
   ],
@@ -149,6 +149,23 @@
     },
     "related": [
       {
+        "href": "/libraries/span-based-string-processing/index.json",
+        "title": "Span-Based String Processing",
+        "similarity": 0.7976,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3500403042930203010
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13001107333850221004
+          }
+        }
+      },
+      {
         "href": "/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.7956,
@@ -156,7 +173,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13140681365376664376
+            "fingerprint": 13140681365376533304
           },
           "technical": {
             "name": "technical",
@@ -173,12 +190,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
           }
         }
       },
@@ -205,6 +222,23 @@
         }
       },
       {
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.7019,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140261422667071802
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240838009291132
+          }
+        }
+      },
+      {
         "href": "/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.7014,
@@ -217,7 +251,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992804884252795250
+            "fingerprint": 12997308483880165746
           },
           "technical": {
             "name": "technical",
@@ -227,26 +261,9 @@
         }
       },
       {
-        "href": "/csharp/index.json",
-        "title": "C# Language",
-        "similarity": 0.6922,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 3772209114392757042
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12990971914609426736
-          }
-        }
-      },
-      {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.692,
+        "similarity": 0.7004,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -262,6 +279,40 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.6953,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
+          }
+        }
+      },
+      {
+        "href": "/csharp/index.json",
+        "title": "C# Language",
+        "similarity": 0.6922,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140259840106365750
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12995581704090288436
           }
         }
       },
@@ -283,6 +334,23 @@
         }
       },
       {
+        "href": "/libraries/collections-performance/index.json",
+        "title": "Collections Performance",
+        "similarity": 0.6896,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3088699778205288848
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713016054776726876
+          }
+        }
+      },
+      {
         "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.6886,
@@ -298,70 +366,92 @@
             "fingerprint": 12992240880958973404
           }
         }
-      },
-      {
-        "href": "/libraries/system-text-json-nodes/index.json",
-        "title": "System.Text.Json.Nodes",
-        "similarity": 0.6731,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 9860979202420835664
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12703869732690724188
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
-        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
-        "similarity": 0.6665,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 614095243011328414
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12974224274836293980
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-commandline/index.json",
-        "title": "System.CommandLine",
-        "similarity": 0.6562,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 4477352130680084748
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13031609950279271226
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603784469680882044
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 6,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          5,
+          2,
+          1,
+          4,
+          3
+        ],
+        "stripe_order_technical": [
+          5,
+          2,
+          4,
+          3,
+          0
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.612,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "String.LastIndexOf",
+            "is_code": true,
+            "similarity_conceptual": 0.612,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Method Interoperability",
+            "is_code": true,
+            "similarity_conceptual": 0.621,
+            "similarity_technical": 0.664,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Security Filtering",
+            "is_code": true,
+            "similarity_conceptual": 0.584,
+            "similarity_technical": 0.631,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "SearchValues Optimization",
+            "is_code": true,
+            "similarity_conceptual": 0.593,
+            "similarity_technical": 0.649,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "5. Consider Culture for User-Facing Text",
+            "is_code": true,
+            "similarity_conceptual": 0.641,
+            "similarity_technical": 0.672,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6121880Z",
+    "generated": "2025-10-17T20:16:12.4854000Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

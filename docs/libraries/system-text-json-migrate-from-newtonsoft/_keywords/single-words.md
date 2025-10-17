@@ -1,18 +1,17 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 146
-Total word occurrences: 278
+Total unique words: 129
+Total word occurrences: 237
 Total document words: 434
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| json | 24 | 0.0553 |
 | newtonsoft | 16 | 0.0369 |
 | system | 16 | 0.0369 |
 | text | 15 | 0.0346 |
+| json | 12 | 0.0276 |
 | configurable | 6 | 0.0138 |
-| serialization | 6 | 0.0138 |
 | attributes | 5 | 0.0115 |
 | different | 4 | 0.0092 |
 | dom | 4 | 0.0092 |
@@ -29,30 +28,22 @@ Total document words: 434
 | allowed | 2 | 0.0046 |
 | api | 2 | 0.0046 |
 | case-insensitive | 2 | 0.0046 |
-| classes | 2 | 0.0046 |
-| code | 2 | 0.0046 |
-| comments | 2 | 0.0046 |
 | customizes | 2 | 0.0046 |
 | date | 2 | 0.0046 |
-| default | 2 | 0.0046 |
-| direct | 2 | 0.0046 |
 | double | 2 | 0.0046 |
 | ignored | 2 | 0.0046 |
 | name | 2 | 0.0046 |
 | no | 2 | 0.0046 |
 | non-string | 2 | 0.0046 |
 | numbers | 2 | 0.0046 |
-| property | 2 | 0.0046 |
 | read-only | 2 | 0.0046 |
 | settings | 2 | 0.0046 |
 | test | 2 | 0.0046 |
 | use | 2 | 0.0046 |
-| without | 2 | 0.0046 |
 | accepted | 1 | 0.0023 |
 | affect | 1 | 0.0023 |
 | allowing | 1 | 0.0023 |
 | alternative | 1 | 0.0023 |
-| apis | 1 | 0.0023 |
 | approaches | 1 | 0.0023 |
 | attribute | 1 | 0.0023 |
 | base | 1 | 0.0023 |
@@ -79,14 +70,10 @@ Total document words: 434
 | does | 1 | 0.0023 |
 | enum | 1 | 0.0023 |
 | equivalents | 1 | 0.0023 |
-| events | 1 | 0.0023 |
 | examples | 1 | 0.0023 |
-| exception | 1 | 0.0023 |
 | exist | 1 | 0.0023 |
 | explicit | 1 | 0.0023 |
 | extensibility | 1 | 0.0023 |
-| field | 1 | 0.0023 |
-| fields | 1 | 0.0023 |
 | format | 1 | 0.0023 |
 | formats | 1 | 0.0023 |
 | hierarchies | 1 | 0.0023 |
@@ -111,13 +98,11 @@ Total document words: 434
 | jtoken | 1 | 0.0023 |
 | keys | 1 | 0.0023 |
 | libraries | 1 | 0.0023 |
-| linq | 1 | 0.0023 |
 | logs | 1 | 0.0023 |
 | loops | 1 | 0.0023 |
 | map | 1 | 0.0023 |
 | maps | 1 | 0.0023 |
 | maximum | 1 | 0.0023 |
-| method | 1 | 0.0023 |
 | migrating | 1 | 0.0023 |
 | mutable | 1 | 0.0023 |
 | namespace | 1 | 0.0023 |
@@ -129,7 +114,6 @@ Total document words: 434
 | populating | 1 | 0.0023 |
 | private | 1 | 0.0023 |
 | recognizes | 1 | 0.0023 |
-| reference | 1 | 0.0023 |
 | related | 1 | 0.0023 |
 | rewrite | 1 | 0.0023 |
 | runtime | 1 | 0.0023 |
@@ -142,7 +126,6 @@ Total document words: 434
 | step | 1 | 0.0023 |
 | stores | 1 | 0.0023 |
 | strings | 1 | 0.0023 |
-| support | 1 | 0.0023 |
 | their | 1 | 0.0023 |
 | these | 1 | 0.0023 |
 | topics | 1 | 0.0023 |

@@ -35,6 +35,7 @@ System.Text.Json.JsonSerializer provides high-level APIs for converting between 
 | Priority | 1 (Critical) |
 | Version | 3.0 |
 | Year | 2019 |
+
 ## Hashes
 
 | Name | Kind | Fingerprint |
@@ -46,18 +47,18 @@ System.Text.Json.JsonSerializer provides high-level APIs for converting between 
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
-| libraries | libraries/system-text-json | 0.9334 |
+| libraries | libraries/system-text-json | 0.9393 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.8727 |
 | libraries | libraries/system-text-json-source-generation | 0.8652 |
 | libraries | libraries/system-text-json-nodes | 0.8430 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.8428 |
 | libraries | libraries/system-text-json-utf8jsonreader | 0.8423 |
 | libraries | libraries/system-text-json-utf8jsonwriter | 0.8289 |
 | libraries | libraries/system-text-json-jsondocument | 0.8164 |
+| libraries | libraries/json-validation-security | 0.8098 |
+| libraries | libraries/json-streaming-io | 0.7811 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7658 |
 | csharp | csharp/csharp-14-features | 0.7259 |
-| libraries | libraries/system-commandline | 0.7107 |
-| csharp | csharp | 0.7075 |
-| csharp | csharp/object-initialization | 0.7033 |
 
 ## APIs
 
@@ -76,3 +77,33 @@ System.Text.Json.JsonSerializer provides high-level APIs for converting between 
 | JsonSerializerOptions | method | 4 |
 | JsonStringEnumMemberName | attribute | 4 |
 
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 21
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.590 |
+| 1 | Deserializing Objects | 0.590 | 1.000 |
+| 2 | Configuring Naming Policies | 0.615 | 0.655 |
+| 3 | Custom Property Names | 0.635 | 0.678 |
+| 4 | Working with Records | 0.601 | 0.716 |
+| 5 | Deserializing with Constructors | 0.615 | 0.677 |
+| 6 | UTF-8 Operations | 0.609 | 0.681 |
+| 7 | Custom Converters | 0.648 | 0.653 |
+| 8 | Handling Large Numbers | 0.628 | 0.668 |
+| 9 | Reusing JsonSerializerOptions | 0.633 | 0.683 |
+| 10 | Circular References | 0.648 | 0.642 |
+| 11 | Thread Safety | 0.608 | 0.678 |
+| 12 | Indentation Customization | 0.638 | 0.656 |
+| 13 | Freezing JsonSerializerOptions | 0.589 | 0.668 |
+| 14 | Generating JSON Schema | 0.590 | 0.645 |
+| 15 | Adding Documentation to JSON Schema | 0.593 | 0.643 |
+| 16 | Documenting Constructor Parameters in Schema | 0.578 | 0.672 |
+| 17 | Out-of-Order Metadata Deserialization | 0.607 | 0.627 |
+| 18 | Required Constructor Parameters | 0.618 | 0.672 |
+| 19 | Using with PipeReader and PipeWriter | 0.600 | 0.679 |
+| 20 | Chaining Type Resolvers | 0.606 | 0.640 |

@@ -161,7 +161,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748007322922713970
+            "fingerprint": 17748008422434374514
           },
           "technical": {
             "name": "technical",
@@ -183,7 +183,7 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13139692957975577396
+            "fingerprint": 13139693507731391284
           }
         }
       },
@@ -212,12 +212,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
           }
         }
       },
@@ -237,12 +237,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13031609950279271226
+            "fingerprint": 13027106350651900730
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603784469680882044
+            "fingerprint": 17603786118948323708
           }
         }
       },
@@ -254,34 +254,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json/index.json",
-        "title": "System.Text.Json",
-        "similarity": 0.6849,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 16930982311004600425
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12992627727723340090
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 13172382621933396857
+            "fingerprint": 17602625034669392248
           }
         }
       },
@@ -308,6 +286,28 @@
         }
       },
       {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.6786,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
         "href": "/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.6755,
@@ -315,12 +315,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3772209114392757042
+            "fingerprint": 13140259840106365750
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12990971914609426736
+            "fingerprint": 12995581704090288436
           }
         }
       },
@@ -366,10 +366,99 @@
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 7,
+        "baseline_conceptual": 0,
+        "baseline_technical": 2,
+        "stripe_order": [
+          1,
+          6,
+          5,
+          2,
+          4,
+          3
+        ],
+        "stripe_order_technical": [
+          4,
+          3,
+          5,
+          0,
+          1,
+          6
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.605,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Relationships \u0026 Integration",
+            "is_code": false,
+            "similarity_conceptual": 0.705,
+            "similarity_technical": 0.559,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Essential Syntax \u0026 Examples",
+            "is_code": true,
+            "similarity_conceptual": 0.605,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "File Path Detection at Runtime",
+            "is_code": true,
+            "similarity_conceptual": 0.542,
+            "similarity_technical": 0.627,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "File-based App Equivalent",
+            "is_code": true,
+            "similarity_conceptual": 0.598,
+            "similarity_technical": 0.703,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Error Handling and Exit Codes",
+            "is_code": true,
+            "similarity_conceptual": 0.612,
+            "similarity_technical": 0.612,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "Directive Syntax Requirements",
+            "is_code": true,
+            "similarity_conceptual": 0.631,
+            "similarity_technical": 0.527,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.5807658Z",
+    "generated": "2025-10-17T20:16:12.3014570Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

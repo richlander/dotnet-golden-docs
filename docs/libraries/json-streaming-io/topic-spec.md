@@ -38,3 +38,59 @@ JSON streaming and I/O capabilities in System.Text.Json enable efficient process
 | Priority | 2 (High - important for high-performance applications) |
 | Version | Current |
 | Year | N/A |
+
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 5373223288336521872 |
+| technical | simhash | 12713018245211120108 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries/system-text-json | 0.7999 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.7854 |
+| libraries | libraries/system-text-json-jsonserializer | 0.7811 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.7638 |
+| libraries | libraries/system-collections-generic-iasyncenumerable | 0.7473 |
+| libraries | libraries/system-text-json-jsondocument | 0.7461 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.7437 |
+| libraries | libraries/system-text-json-nodes | 0.7200 |
+| csharp | csharp/async-await | 0.7119 |
+| libraries | libraries/system-threading-tasks-task | 0.6994 |
+| libraries | libraries/json-validation-security | 0.6982 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6909 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| System.Text | namespace | 12 |
+| System.Text.Json | type | 12 |
+| System.IO | namespace | 6 |
+| System.IO.Pipelines | type | 6 |
+| Console.WriteLine | method | 4 |
+| FlushAsync | method | 4 |
+| MyData | method | 4 |
+| CompleteAsync | method | 3 |
+| File.OpenRead | method | 3 |
+| JsonSerializer.SerializeAsync | method | 3 |
+| Message | method | 3 |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 6
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.653 |
+| 1 | Adopting Streaming APIs | 0.719 | 0.628 |
+| 2 | Producer-Consumer Pipeline | 0.653 | 1.000 |
+| 3 | HTTP Response Streaming | 0.642 | 0.683 |
+| 4 | Memory-Efficient Parsing | 0.615 | 0.637 |
+| 5 | Large File Processing | 0.653 | 0.699 |

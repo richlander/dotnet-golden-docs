@@ -15,7 +15,7 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 13140681365376664376
+      "fingerprint": 13140681365376533304
     },
     "technical": {
       "name": "technical",
@@ -39,6 +39,10 @@
     {
       "name": "characters",
       "score": 4
+    },
+    {
+      "name": "values",
+      "score": 5
     },
     {
       "name": "creating searchvalues",
@@ -67,10 +71,6 @@
     {
       "name": "span-based",
       "score": 2
-    },
-    {
-      "name": "substring",
-      "score": 3
     }
   ],
   "apis": [
@@ -141,12 +141,46 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752545506692137272
+            "fingerprint": 13140859488264749368
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 17603926856436679036
+          }
+        }
+      },
+      {
+        "href": "/libraries/span-based-string-processing/index.json",
+        "title": "Span-Based String Processing",
+        "similarity": 0.7916,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3500403042930203010
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13001107333850221004
+          }
+        }
+      },
+      {
+        "href": "/libraries/collections-performance/index.json",
+        "title": "Collections Performance",
+        "similarity": 0.7535,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3088699778205288848
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713016054776726876
           }
         }
       },
@@ -197,12 +231,68 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.7075,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140261422667071802
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240838009291132
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.7026,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991642545835409712
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603926856436687228
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.6987,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
           }
         }
       },
@@ -219,34 +309,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135758833430233394
+            "fingerprint": 13135758833431281974
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 17604488704731014524
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json/index.json",
-        "title": "System.Text.Json",
-        "similarity": 0.6938,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 16930982311004600425
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12992627727723340090
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 13172382621933396857
           }
         }
       },
@@ -283,70 +351,70 @@
             "fingerprint": 12703869732690724188
           }
         }
-      },
-      {
-        "href": "/csharp/collection-expressions/index.json",
-        "title": "Collection Expressions",
-        "similarity": 0.679,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 455161043282583691
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12992804884252795250
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12997308484954235260
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json-jsondocument/index.json",
-        "title": "System.Text.Json.JsonDocument",
-        "similarity": 0.6724,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13460983673022227226
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12703867533935911260
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
-        "title": "System.Text.Json.Utf8JsonWriter",
-        "similarity": 0.6637,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 469786640745173528
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603924666003358076
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 4,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          3,
+          2,
+          1
+        ],
+        "stripe_order_technical": [
+          2,
+          3,
+          0
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.573,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Path Validation",
+            "is_code": true,
+            "similarity_conceptual": 0.573,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Protocol Parsing with SearchValues",
+            "is_code": true,
+            "similarity_conceptual": 0.622,
+            "similarity_technical": 0.678,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Migration \u0026 Compatibility",
+            "is_code": true,
+            "similarity_conceptual": 0.665,
+            "similarity_technical": 0.674,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6145489Z",
+    "generated": "2025-10-17T20:16:12.4933860Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -29,6 +29,10 @@
       "score": 23
     },
     {
+      "name": "package",
+      "score": 11
+    },
+    {
       "name": "development",
       "score": 10
     },
@@ -37,20 +41,20 @@
       "score": 13
     },
     {
-      "name": "package",
-      "score": 11
+      "name": "commands",
+      "score": 9
     },
     {
       "name": "global",
       "score": 8
     },
     {
-      "name": "builds",
-      "score": 7
+      "name": "command-line",
+      "score": 5
     },
     {
-      "name": "commands",
-      "score": 9
+      "name": "builds",
+      "score": 7
     },
     {
       "name": "across",
@@ -59,10 +63,6 @@
     {
       "name": "projects",
       "score": 6
-    },
-    {
-      "name": "command-line",
-      "score": 5
     },
     {
       "name": "consistent",
@@ -118,12 +118,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13031609950279271226
+            "fingerprint": 13027106350651900730
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603784469680882044
+            "fingerprint": 17603786118948323708
           }
         }
       },
@@ -152,12 +152,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
           }
         }
       },
@@ -169,12 +169,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.6661,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135792371890684214
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
           }
         }
       },
@@ -198,7 +215,7 @@
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.6552,
+        "similarity": 0.6554,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -225,12 +242,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3772209114392757042
+            "fingerprint": 13140259840106365750
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12990971914609426736
+            "fingerprint": 12995581704090288436
           }
         }
       },
@@ -250,28 +267,6 @@
             "fingerprint": 12974224274836293980
           }
         }
-      },
-      {
-        "href": "/csharp/csharp-14-features/index.json",
-        "title": "C# 14 Language Features",
-        "similarity": 0.6346,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7262411006152912613
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12991679535167439672
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12704008812590162300
-          }
-        }
       }
     ]
   },
@@ -289,7 +284,7 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13139692957975577396
+            "fingerprint": 13139693507731391284
           }
         },
         "category": "CLI",
@@ -346,7 +341,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13139697424741966193
+            "fingerprint": 13139699555045745009
           },
           "technical": {
             "name": "technical",
@@ -403,7 +398,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748007322922713970
+            "fingerprint": 17748008422434374514
           },
           "technical": {
             "name": "technical",
@@ -422,10 +417,121 @@
           }
         }
       }
-    ]
+    ],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 9,
+        "baseline_conceptual": 0,
+        "baseline_technical": 7,
+        "stripe_order": [
+          8,
+          5,
+          1,
+          4,
+          2,
+          6,
+          3,
+          7
+        ],
+        "stripe_order_technical": [
+          2,
+          8,
+          6,
+          3,
+          1,
+          0,
+          5,
+          4
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.521,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Tool and Workload Management",
+            "is_code": true,
+            "similarity_conceptual": 0.505,
+            "similarity_technical": 0.569,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Solution Management",
+            "is_code": false,
+            "similarity_conceptual": 0.527,
+            "similarity_technical": 0.653,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Integration Patterns",
+            "is_code": false,
+            "similarity_conceptual": 0.565,
+            "similarity_technical": 0.609,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Package Restore Optimization",
+            "is_code": false,
+            "similarity_conceptual": 0.569,
+            "similarity_technical": 0.569,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Version and Compatibility Management",
+            "is_code": true,
+            "similarity_conceptual": 0.534,
+            "similarity_technical": 0.586,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "Security and Trust Considerations",
+            "is_code": false,
+            "similarity_conceptual": 0.479,
+            "similarity_technical": 0.542,
+            "keywords": null
+          },
+          {
+            "index": 7,
+            "href": "_chunks/golden-reference-7.md",
+            "title": "Package and Dependency Management",
+            "is_code": false,
+            "similarity_conceptual": 0.521,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 8,
+            "href": "_chunks/golden-reference-8.md",
+            "title": "CI/CD Pipeline Integration",
+            "is_code": false,
+            "similarity_conceptual": 0.6,
+            "similarity_technical": 0.573,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6398922Z",
+    "generated": "2025-10-17T20:16:12.6324300Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -1,13 +1,13 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 207
-Total word occurrences: 394
+Total unique words: 187
+Total word occurrences: 340
 Total document words: 643
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| parsing | 19 | 0.0295 |
+| parsing | 17 | 0.0264 |
 | utf8jsonreader | 12 | 0.0187 |
 | utf-8 | 9 | 0.0140 |
 | values | 9 | 0.0140 |
@@ -15,28 +15,21 @@ Total document words: 643
 | use | 7 | 0.0109 |
 | during | 6 | 0.0093 |
 | process | 6 | 0.0093 |
-| processing | 6 | 0.0093 |
 | reader | 6 | 0.0093 |
-| streaming | 6 | 0.0093 |
-| without | 6 | 0.0093 |
-| data | 5 | 0.0078 |
 | forward-only | 5 | 0.0078 |
-| json | 5 | 0.0078 |
 | system | 5 | 0.0078 |
 | text | 5 | 0.0078 |
 | token | 5 | 0.0078 |
-| access | 4 | 0.0062 |
 | constant | 4 | 0.0062 |
 | dom | 4 | 0.0062 |
 | network | 4 | 0.0062 |
 | tokens | 4 | 0.0062 |
-| validation | 4 | 0.0062 |
+| without | 4 | 0.0062 |
 | arrives | 3 | 0.0047 |
 | cannot | 3 | 0.0047 |
-| direct | 3 | 0.0047 |
+| data | 3 | 0.0047 |
 | instead | 3 | 0.0047 |
 | logic | 3 | 0.0047 |
-| method | 3 | 0.0047 |
 | multi-segment | 3 | 0.0047 |
 | needed | 3 | 0.0047 |
 | parse | 3 | 0.0047 |
@@ -44,9 +37,8 @@ Total document words: 643
 | selective | 3 | 0.0047 |
 | skip | 3 | 0.0047 |
 | through | 3 | 0.0047 |
+| using | 3 | 0.0047 |
 | advance | 2 | 0.0031 |
-| array | 2 | 0.0031 |
-| async | 2 | 0.0031 |
 | buffering | 2 | 0.0031 |
 | byte | 2 | 0.0031 |
 | control | 2 | 0.0031 |
@@ -63,13 +55,9 @@ Total document words: 643
 | navigate | 2 | 0.0031 |
 | nested | 2 | 0.0031 |
 | operates | 2 | 0.0031 |
-| options | 2 | 0.0031 |
 | position | 2 | 0.0031 |
 | protocol | 2 | 0.0031 |
-| random | 2 | 0.0031 |
 | rest | 2 | 0.0031 |
-| stream | 2 | 0.0031 |
-| support | 2 | 0.0031 |
 | them | 2 | 0.0031 |
 | transformation | 2 | 0.0031 |
 | usage | 2 | 0.0031 |
@@ -84,7 +72,6 @@ Total document words: 643
 | behavior | 1 | 0.0016 |
 | being | 1 | 0.0016 |
 | benefit | 1 | 0.0016 |
-| best | 1 | 0.0016 |
 | between | 1 | 0.0016 |
 | bottom | 1 | 0.0016 |
 | buffer | 1 | 0.0016 |
@@ -94,7 +81,6 @@ Total document words: 643
 | captured | 1 | 0.0016 |
 | check | 1 | 0.0016 |
 | checking | 1 | 0.0016 |
-| code | 1 | 0.0016 |
 | complete | 1 | 0.0016 |
 | complexity | 1 | 0.0016 |
 | concepts | 1 | 0.0016 |
@@ -102,11 +88,10 @@ Total document words: 643
 | considerations | 1 | 0.0016 |
 | constraints | 1 | 0.0016 |
 | context | 1 | 0.0016 |
-| conversion | 1 | 0.0016 |
 | convert | 1 | 0.0016 |
 | current | 1 | 0.0016 |
 | design | 1 | 0.0016 |
-| detection | 1 | 0.0016 |
+| direct | 1 | 0.0016 |
 | each | 1 | 0.0016 |
 | earlier | 1 | 0.0016 |
 | early | 1 | 0.0016 |
@@ -121,7 +106,6 @@ Total document words: 643
 | exposing | 1 | 0.0016 |
 | extracting | 1 | 0.0016 |
 | fastest | 1 | 0.0016 |
-| fields | 1 | 0.0016 |
 | full | 1 | 0.0016 |
 | gains | 1 | 0.0016 |
 | helper | 1 | 0.0016 |
@@ -136,7 +120,6 @@ Total document words: 643
 | internally | 1 | 0.0016 |
 | justified | 1 | 0.0016 |
 | known | 1 | 0.0016 |
-| lambdas | 1 | 0.0016 |
 | limitation | 1 | 0.0016 |
 | low-allocation | 1 | 0.0016 |
 | lowest-level | 1 | 0.0016 |
@@ -146,6 +129,7 @@ Total document words: 643
 | manually | 1 | 0.0016 |
 | maximize | 1 | 0.0016 |
 | means | 1 | 0.0016 |
+| method | 1 | 0.0016 |
 | minimal | 1 | 0.0016 |
 | minimized | 1 | 0.0016 |
 | modification | 1 | 0.0016 |
@@ -163,7 +147,6 @@ Total document words: 643
 | pipeline | 1 | 0.0016 |
 | pipereader | 1 | 0.0016 |
 | pipes | 1 | 0.0016 |
-| practices | 1 | 0.0016 |
 | prevents | 1 | 0.0016 |
 | previous | 1 | 0.0016 |
 | processors | 1 | 0.0016 |
@@ -184,7 +167,6 @@ Total document words: 643
 | revisited | 1 | 0.0016 |
 | scenario | 1 | 0.0016 |
 | segments | 1 | 0.0016 |
-| sequences | 1 | 0.0016 |
 | sequential | 1 | 0.0016 |
 | single-pass | 1 | 0.0016 |
 | sits | 1 | 0.0016 |
@@ -193,12 +175,11 @@ Total document words: 643
 | span-based | 1 | 0.0016 |
 | specialized | 1 | 0.0016 |
 | start | 1 | 0.0016 |
-| state | 1 | 0.0016 |
 | store | 1 | 0.0016 |
 | stored | 1 | 0.0016 |
+| streaming | 1 | 0.0016 |
 | streams | 1 | 0.0016 |
 | strongly-typed | 1 | 0.0016 |
-| struct | 1 | 0.0016 |
 | structural | 1 | 0.0016 |
 | structures | 1 | 0.0016 |
 | synchronously | 1 | 0.0016 |
@@ -209,7 +190,6 @@ Total document words: 643
 | transform | 1 | 0.0016 |
 | type-specific | 1 | 0.0016 |
 | uses | 1 | 0.0016 |
-| using | 1 | 0.0016 |
 | value | 1 | 0.0016 |
 | working | 1 | 0.0016 |
 | works | 1 | 0.0016 |

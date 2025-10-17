@@ -1,0 +1,25 @@
+Title | IAsyncEnumerable&lt;T&gt;
+API | Console.WriteLine
+API | GetNumbersAsync
+API | Where
+API | Task.Delay
+API | EnumeratorCancellation
+API | System.Linq
+API | ToListAsync
+API | System.Linq.Async
+API | ConfigureAwait
+API | CountAsync
+API | FetchCustomerAsync
+API | GetItemsAsync
+Keyword | async linq
+Keyword | use
+Keyword | data
+Keyword | iteration
+Keyword | iasyncenumerable
+Keyword | deferred execution
+Keyword | async
+Keyword | consider
+Keyword | each
+Keyword | enumeration
+Keyword | considerations
+Keyword | loading

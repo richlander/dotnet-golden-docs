@@ -8,7 +8,7 @@ Combined local and global scoring:
 
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
-| security | single | 9 | 1.00x | 1.00x | 1.5x | 13.500 |
+| security | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
 | net 10 | compound | 2 | 1.50x | 1.50x | 2.0x | 9.000 |
 | span-based | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | improvements | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -17,16 +17,10 @@ Combined local and global scoring:
 | algorithms | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | comparison | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | cryptography | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| duplicate | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| hex | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | numericordering | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | post-quantum | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | quantum-resistant | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
-| apis | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | cross-platform | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |
-| high-performance | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| options | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| processing | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | utf-8 | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | patterns | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
-| support | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
+| high-performance | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

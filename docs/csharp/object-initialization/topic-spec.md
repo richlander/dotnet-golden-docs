@@ -52,7 +52,7 @@ Object initialization encompasses the various approaches for creating and initia
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 7058325005360841626 |
-| overview | simhash | 17751804553974055728 |
+| overview | simhash | 17751945841218224944 |
 | technical | simhash | 17603925754777575800 |
 
 ## Relationships
@@ -74,13 +74,13 @@ Object initialization encompasses the various approaches for creating and initia
 | collection properties | 8.00 |
 | init properties | 6.00 |
 | required members | 5.00 |
-| initializers | 7.00 |
 | collection expressions | 5.00 |
+| initializers | 7.00 |
 | init-only properties | 3.00 |
-| constructors | 5.00 |
-| initialization | 5.00 |
-| properties | 5.00 |
 | use | 9.00 |
+| constructor | 4.00 |
+| immutable | 4.00 |
+| records | 4.00 |
 
 ## APIs
 
@@ -104,17 +104,17 @@ Object initialization encompasses the various approaches for creating and initia
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | csharp | csharp/collection-initialization | 0.8118 |
+| csharp | csharp/properties-backing-fields | 0.7891 |
 | csharp | csharp/csharp-14-features | 0.7591 |
 | csharp | csharp/collection-expressions | 0.7142 |
+| csharp | csharp | 0.7142 |
 | libraries | libraries/system-text-json-jsonserializer | 0.7033 |
+| csharp | csharp/partial-classes | 0.6913 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6899 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.6883 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6824 |
+| libraries | libraries/json-validation-security | 0.6788 |
 | libraries | libraries/system-text-json-nodes | 0.6729 |
-| libraries | libraries/system-text-json | 0.6585 |
-| libraries | libraries/string-search-operations | 0.6522 |
-| libraries | libraries/system-buffers-searchvalues | 0.6416 |
-| libraries | libraries/system-text-json-jsondocument | 0.6371 |
-| libraries | libraries/system-commandline | 0.6333 |
 
 ## Authority Scores
 

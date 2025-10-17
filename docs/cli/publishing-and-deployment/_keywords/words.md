@@ -8,8 +8,8 @@ Combined local and global scoring:
 
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
-| deployment | single | 23 | 1.00x | 1.00x | 1.5x | 34.500 |
-| native aot | compound | 13 | 1.10x | 1.50x | 1.5x | 32.175 |
+| deployment | single | 23 | 1.00x | 1.00x | 2.0x | 46.000 |
+| native aot | compound | 13 | 1.10x | 1.50x | 2.0x | 42.900 |
 | framework-dependent | compound | 7 | 1.10x | 1.50x | 2.0x | 23.100 |
 | publishing | single | 11 | 1.00x | 1.00x | 2.0x | 22.000 |
 | self-contained | compound | 7 | 1.10x | 1.50x | 1.5x | 17.325 |
@@ -17,12 +17,12 @@ Combined local and global scoring:
 | benefits | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | case | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | readytorun | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| size | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | startup | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
 | runtime | single | 10 | 1.00x | 1.00x | 1.0x | 10.000 |
+| compilation | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | container deployment | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
 | distribution | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| compilation | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
+| size | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | deployment scenarios | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | single-file | compound | 3 | 1.10x | 1.50x | 1.5x | 7.425 |
 | use | single | 6 | 1.00x | 1.00x | 1.0x | 6.000 |
@@ -35,11 +35,10 @@ Combined local and global scoring:
 | enterprise | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | fastest | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | larger | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| minimal | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | optimized | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | shared | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | trade-offs | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | updates | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | cross-platform | compound | 2 | 1.10x | 1.50x | 1.5x | 4.950 |
 | application | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| minimal | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| security | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |

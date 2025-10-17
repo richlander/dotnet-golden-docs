@@ -1,0 +1,2 @@
+Title | Properties and Backing Fields
+Description | Properties provide a flexible mechanism to read, write, or compute values using accessor methods while appearing as public data members. The compiler can auto-generate backing fields, or developers can use the `field` keyword to access compiler-synthesized backing fields for custom logic. Properties support auto-implementation, init-only accessors, required initialization, read-only patterns, and computed values.

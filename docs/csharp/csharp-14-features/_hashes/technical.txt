@@ -42,6 +42,7 @@ Error | CS9329
 ErrorMessage | Extension block collision with type '{0}'.
 Keyword | assignment
 Keyword | extension
+Keyword | compile-time
 Keyword | zero-allocation
 Keyword | enhanced
 Keyword | keyword
@@ -49,6 +50,5 @@ Keyword | params collections
 Keyword | expression trees
 Keyword | first-class span
 Keyword | named arguments
-Keyword | compile-time
 Keyword | patterns
 Keyword | first-class

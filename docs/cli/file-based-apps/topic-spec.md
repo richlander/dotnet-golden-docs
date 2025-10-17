@@ -96,8 +96,8 @@ File-based apps allow developers to run and publish single .cs files directly wi
 | libraries | libraries | 0.7375 |
 | libraries | libraries/system-commandline | 0.7239 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6961 |
-| libraries | libraries/system-text-json | 0.6849 |
 | csharp | csharp/csharp-14-features | 0.6828 |
+| libraries | libraries/system-text-json | 0.6786 |
 | csharp | csharp | 0.6755 |
 | libraries | libraries/system-text-json-source-generation | 0.6709 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6660 |
@@ -132,3 +132,20 @@ File-based apps allow developers to run and publish single .cs files directly wi
 - Suggesting .csx files for scenarios where .cs works better
 - Missing `--` separator in command-line examples for aguments that overlap with `dotnet run`
 - Incomplete migration guidance from legacy approaches
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 7
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.605 |
+| 1 | Relationships & Integration | 0.705 | 0.559 |
+| 2 | Essential Syntax & Examples | 0.605 | 1.000 |
+| 3 | File Path Detection at Runtime | 0.542 | 0.627 |
+| 4 | File-based App Equivalent | 0.598 | 0.703 |
+| 5 | Error Handling and Exit Codes | 0.612 | 0.612 |
+| 6 | Directive Syntax Requirements | 0.631 | 0.527 |

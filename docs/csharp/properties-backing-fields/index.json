@@ -1,0 +1,359 @@
+{
+  "id": "csharp/properties-backing-fields",
+  "title": "Properties and Backing Fields",
+  "description": "Properties provide flexible data access through accessor methods, with support for auto-implementation, field keyword access, init-only setters, and required initialization.",
+  "category": "C# Language",
+  "complexity": 0.3,
+  "priority": 1,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "Multiple (auto-properties in 3.0, init in 9.0, required in 11.0, field in 14.0)",
+    "year": "2024"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 8792651860460152757
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 17603783919925071324
+    }
+  },
+  "keywords": null,
+  "apis": [
+    {
+      "name": "Customer",
+      "type": "method",
+      "count": 5
+    },
+    {
+      "name": "ArgumentException",
+      "type": "method",
+      "count": 3
+    },
+    {
+      "name": "Product",
+      "type": "method",
+      "count": 3
+    }
+  ],
+  "diagnostic_codes": null,
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/csharp/properties-backing-fields/index.json",
+      "description": "Properties provide flexible data access through accessor methods, with support for auto-implementation, field keyword access, init-only setters, and required initialization."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/csharp/index.json",
+      "description": "Csharp category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/csharp/properties-backing-fields/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/csharp/properties-backing-fields/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "related": [
+      {
+        "href": "/csharp/csharp-14-features/index.json",
+        "title": "C# 14 Language Features",
+        "similarity": 0.8054,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7262411006152912613
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991679535167439672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008812590162300
+          }
+        }
+      },
+      {
+        "href": "/csharp/object-initialization/index.json",
+        "title": "Object Initialization",
+        "similarity": 0.7891,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7058325005360841626
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751945841218224944
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603925754777575800
+          }
+        }
+      },
+      {
+        "href": "/csharp/partial-classes/index.json",
+        "title": "Partial Classes",
+        "similarity": 0.6888,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3375945098908056738
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239223101612492
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-validation-security/index.json",
+        "title": "JSON Validation and Security",
+        "similarity": 0.6862,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4220134623093668640
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12694860369024133596
+          }
+        }
+      },
+      {
+        "href": "/csharp/lambda-expressions/index.json",
+        "title": "Lambda Expressions",
+        "similarity": 0.684,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13789395562491052844
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974085684805370156
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.6837,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
+          }
+        }
+      },
+      {
+        "href": "/csharp/collection-expressions/index.json",
+        "title": "Collection Expressions",
+        "similarity": 0.6825,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 455161043282583691
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12997308483880165746
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12997308484954235260
+          }
+        }
+      },
+      {
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.6796,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751806565084889904
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/collections-performance/index.json",
+        "title": "Collections Performance",
+        "similarity": 0.6777,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3088699778205288848
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713016054776726876
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "title": "System.Buffers.SearchValues",
+        "similarity": 0.6741,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140681365376533304
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992238638986035580
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.674,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140261422667071802
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240838009291132
+          }
+        }
+      }
+    ]
+  },
+  "_embedded": {
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 6,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          5,
+          1,
+          2,
+          4,
+          3
+        ],
+        "stripe_order_technical": [
+          2,
+          4,
+          5,
+          3,
+          0
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.632,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Auto-Implemented Properties",
+            "is_code": true,
+            "similarity_conceptual": 0.632,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Init-Only Properties",
+            "is_code": true,
+            "similarity_conceptual": 0.624,
+            "similarity_technical": 0.708,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Required Properties",
+            "is_code": true,
+            "similarity_conceptual": 0.536,
+            "similarity_technical": 0.654,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Computed Properties",
+            "is_code": true,
+            "similarity_conceptual": 0.617,
+            "similarity_technical": 0.687,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Considerations",
+            "is_code": true,
+            "similarity_conceptual": 0.646,
+            "similarity_technical": 0.684,
+            "keywords": null
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generated": "2025-10-17T20:16:12.3839440Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

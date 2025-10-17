@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 13 compound terms and 152 single words
-Total unique terms: 162
-Terms with score ≥ 3.0: 26
-Total term occurrences: 265
+Combined 13 compound terms and 146 single words
+Total unique terms: 156
+Terms with score ≥ 3.0: 24
+Total term occurrences: 250
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -19,7 +19,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | system.text.json source generation | compound | 5 | 1.50x | 1.50x | 11.2 |
 | runtime | single | 8 | 1.00x | 1.00x | 8.0 |
 | naming policies | compound | 4 | 1.25x | 1.50x | 7.5 |
-| code | single | 6 | 1.00x | 1.00x | 6.0 |
 | generic methods | compound | 3 | 1.25x | 1.50x | 5.6 |
 | use | single | 5 | 1.00x | 1.00x | 5.0 |
 | aot compatibility | compound | 3 | 1.10x | 1.50x | 5.0 |
@@ -28,15 +27,14 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | aot-compatible | compound | 3 | 1.00x | 1.50x | 4.5 |
 | reflection-based | compound | 3 | 1.00x | 1.50x | 4.5 |
 | attributes | single | 4 | 1.00x | 1.00x | 4.0 |
-| serialization | single | 4 | 1.00x | 1.00x | 4.0 |
+| responses | single | 4 | 1.00x | 1.00x | 4.0 |
 | utf-8 | single | 4 | 1.00x | 1.00x | 4.0 |
 | asp.net core web apis | compound | 2 | 1.25x | 1.50x | 3.8 |
 | multiple contexts | compound | 2 | 1.25x | 1.50x | 3.8 |
 | performance optimization | compound | 2 | 1.10x | 1.50x | 3.3 |
-| apis | single | 3 | 1.00x | 1.00x | 3.0 |
 | asp | single | 3 | 1.00x | 1.00x | 3.0 |
+| code | single | 3 | 1.00x | 1.00x | 3.0 |
 | mandatory | single | 3 | 1.00x | 1.00x | 3.0 |
-| overhead | single | 3 | 1.00x | 1.00x | 3.0 |
 | startup | single | 3 | 1.00x | 1.00x | 3.0 |
 | system | single | 3 | 1.00x | 1.00x | 3.0 |
 | text | single | 3 | 1.00x | 1.00x | 3.0 |

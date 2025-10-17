@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 216 single words
-Total unique terms: 223
-Terms with score ≥ 3.0: 60
-Total term occurrences: 466
+Combined 11 compound terms and 196 single words
+Total unique terms: 203
+Terms with score ≥ 3.0: 55
+Total term occurrences: 409
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,30 +15,26 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
 | jsondocument | single | 20 | 1.00x | 1.00x | 20.0 |
-| json | single | 15 | 1.00x | 1.00x | 15.0 |
 | system.text.json.jsondocument | compound | 5 | 1.50x | 1.50x | 11.2 |
 | read-only | compound | 5 | 1.10x | 1.50x | 8.2 |
 | jsonelement | single | 8 | 1.00x | 1.00x | 8.0 |
-| without | single | 8 | 1.00x | 1.00x | 8.0 |
 | metadata extraction | compound | 4 | 1.25x | 1.50x | 7.5 |
 | strongly-typed objects | compound | 4 | 1.25x | 1.50x | 7.5 |
-| access | single | 7 | 1.00x | 1.00x | 7.0 |
 | deserialization | single | 7 | 1.00x | 1.00x | 7.0 |
 | use | single | 6 | 1.00x | 1.00x | 6.0 |
 | value | single | 6 | 1.00x | 1.00x | 6.0 |
+| without | single | 6 | 1.00x | 1.00x | 6.0 |
 | conditional deserialization | compound | 3 | 1.25x | 1.50x | 5.6 |
 | json arrays | compound | 3 | 1.25x | 1.50x | 5.6 |
 | webhook routing | compound | 3 | 1.25x | 1.50x | 5.6 |
+| document | single | 5 | 1.00x | 1.00x | 5.0 |
 | extract | single | 5 | 1.00x | 1.00x | 5.0 |
 | into | single | 5 | 1.00x | 1.00x | 5.0 |
 | jsonnode | single | 5 | 1.00x | 1.00x | 5.0 |
 | modification | single | 5 | 1.00x | 1.00x | 5.0 |
-| parsing | single | 5 | 1.00x | 1.00x | 5.0 |
 | pooled | single | 5 | 1.00x | 1.00x | 5.0 |
-| property | single | 5 | 1.00x | 1.00x | 5.0 |
 | provides | single | 5 | 1.00x | 1.00x | 5.0 |
 | text | single | 5 | 1.00x | 1.00x | 5.0 |
-| validation | single | 5 | 1.00x | 1.00x | 5.0 |
 | values | single | 5 | 1.00x | 1.00x | 5.0 |
 | forward-only | compound | 3 | 1.00x | 1.50x | 4.5 |
 | checking | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -48,19 +44,17 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | process | single | 4 | 1.00x | 1.00x | 4.0 |
 | object properties | compound | 2 | 1.25x | 1.50x | 3.8 |
 | strongly-typed | compound | 2 | 1.25x | 1.50x | 3.8 |
-| array | single | 3 | 1.00x | 1.00x | 3.0 |
 | before | single | 3 | 1.00x | 1.00x | 3.0 |
 | better | single | 3 | 1.00x | 1.00x | 3.0 |
 | check | single | 3 | 1.00x | 1.00x | 3.0 |
 | disposal | single | 3 | 1.00x | 1.00x | 3.0 |
 | disposed | single | 3 | 1.00x | 1.00x | 3.0 |
-| event | single | 3 | 1.00x | 1.00x | 3.0 |
 | faster | single | 3 | 1.00x | 1.00x | 3.0 |
-| field | single | 3 | 1.00x | 1.00x | 3.0 |
 | full | single | 3 | 1.00x | 1.00x | 3.0 |
 | instead | single | 3 | 1.00x | 1.00x | 3.0 |
 | iterate | single | 3 | 1.00x | 1.00x | 3.0 |
 | iteration | single | 3 | 1.00x | 1.00x | 3.0 |
+| json | single | 3 | 1.00x | 1.00x | 3.0 |
 | large | single | 3 | 1.00x | 1.00x | 3.0 |
 | lifetime | single | 3 | 1.00x | 1.00x | 3.0 |
 | metadata | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -68,6 +62,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | need | single | 3 | 1.00x | 1.00x | 3.0 |
 | nested | single | 3 | 1.00x | 1.00x | 3.0 |
 | offers | single | 3 | 1.00x | 1.00x | 3.0 |
+| parsing | single | 3 | 1.00x | 1.00x | 3.0 |
 | requires | single | 3 | 1.00x | 1.00x | 3.0 |
 | routing | single | 3 | 1.00x | 1.00x | 3.0 |
 | runtime | single | 3 | 1.00x | 1.00x | 3.0 |

@@ -1,0 +1,343 @@
+{
+  "id": "csharp/lambda-expressions",
+  "title": "Lambda Expressions",
+  "description": "Lambda expressions create anonymous functions with expression or statement bodies, supporting natural type inference, parameter modifiers, default parameters, static lambdas, and async operations.",
+  "category": "C# Language",
+  "complexity": 0.4,
+  "priority": 1,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "Multiple (3.0 base, 9.0 static, 10.0 natural type, 12.0 defaults, 14.0 modifiers)",
+    "year": "2024"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 13789395562491052844
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 12974085684805370156
+    }
+  },
+  "keywords": null,
+  "apis": [
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 12
+    },
+    {
+      "name": "Parse",
+      "type": "method",
+      "count": 4
+    }
+  ],
+  "diagnostic_codes": null,
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/csharp/lambda-expressions/index.json",
+      "description": "Lambda expressions create anonymous functions with expression or statement bodies, supporting natural type inference, parameter modifiers, default parameters, static lambdas, and async operations."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/csharp/index.json",
+      "description": "Csharp category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/csharp/lambda-expressions/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/csharp/lambda-expressions/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "related": [
+      {
+        "href": "/csharp/csharp-14-features/index.json",
+        "title": "C# 14 Language Features",
+        "similarity": 0.76,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7262411006152912613
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991679535167439672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008812590162300
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.7338,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140261422667071802
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240838009291132
+          }
+        }
+      },
+      {
+        "href": "/csharp/async-await/index.json",
+        "title": "Async and Await",
+        "similarity": 0.727,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17748041905982472506
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
+        "href": "/csharp/collection-expressions/index.json",
+        "title": "Collection Expressions",
+        "similarity": 0.727,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 455161043282583691
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12997308483880165746
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12997308484954235260
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.7124,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135792371890684214
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.7111,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991642545835409712
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603926856436687228
+          }
+        }
+      },
+      {
+        "href": "/csharp/properties-backing-fields/index.json",
+        "title": "Properties and Backing Fields",
+        "similarity": 0.684,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 8792651860460152757
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603783919925071324
+          }
+        }
+      },
+      {
+        "href": "/libraries/string-search-operations/index.json",
+        "title": "String Search Operations",
+        "similarity": 0.6821,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140859488264749368
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603926856436679036
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.6768,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
+          }
+        }
+      },
+      {
+        "href": "/csharp/collection-initialization/index.json",
+        "title": "Collection Initialization",
+        "similarity": 0.6759,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 13507085838896505194
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135758833431281974
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17604488704731014524
+          }
+        }
+      },
+      {
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.675,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751806565084889904
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17602625034669392248
+          }
+        }
+      }
+    ]
+  },
+  "_embedded": {
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 5,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "stripe_order_technical": [
+          4,
+          2,
+          0,
+          3
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.713,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Expression Lambdas",
+            "is_code": true,
+            "similarity_conceptual": 0.713,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Parameter Modifiers",
+            "is_code": true,
+            "similarity_conceptual": 0.698,
+            "similarity_technical": 0.717,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Async Lambdas",
+            "is_code": true,
+            "similarity_conceptual": 0.645,
+            "similarity_technical": 0.695,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Type Inference",
+            "is_code": true,
+            "similarity_conceptual": 0.697,
+            "similarity_technical": 0.731,
+            "keywords": null
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generated": "2025-10-17T20:16:12.3626710Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

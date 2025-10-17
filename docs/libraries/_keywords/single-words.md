@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 114
-Total word occurrences: 180
+Total unique words: 102
+Total word occurrences: 161
 Total document words: 353
 
 | Word | Count | Document Concentration |
@@ -14,8 +14,6 @@ Total document words: 353
 | application | 4 | 0.0113 |
 | asp | 4 | 0.0113 |
 | across | 3 | 0.0085 |
-| async | 3 | 0.0085 |
-| data | 3 | 0.0085 |
 | distributed | 3 | 0.0085 |
 | high-performance | 3 | 0.0085 |
 | nuget | 3 | 0.0085 |
@@ -27,25 +25,20 @@ Total document words: 353
 | fundamental | 2 | 0.0057 |
 | logging | 2 | 0.0057 |
 | modern | 2 | 0.0057 |
-| net | 2 | 0.0057 |
 | networking | 2 | 0.0057 |
 | packages | 2 | 0.0057 |
-| practices | 2 | 0.0057 |
 | runtime | 2 | 0.0057 |
-| security | 2 | 0.0057 |
 | services | 2 | 0.0057 |
 | spans | 2 | 0.0057 |
 | testing | 2 | 0.0057 |
 | unit | 2 | 0.0057 |
 | abstractions | 1 | 0.0028 |
-| access | 1 | 0.0028 |
 | allocation-aware | 1 | 0.0028 |
 | architectural | 1 | 0.0028 |
 | areas | 1 | 0.0028 |
 | assurance | 1 | 0.0028 |
 | authentication | 1 | 0.0028 |
 | authorization | 1 | 0.0028 |
-| best | 1 | 0.0028 |
 | broader | 1 | 0.0028 |
 | built-in | 1 | 0.0028 |
 | caching | 1 | 0.0028 |
@@ -63,6 +56,7 @@ Total document words: 353
 | cqrs | 1 | 0.0028 |
 | cross-cutting | 1 | 0.0028 |
 | cross-platform | 1 | 0.0028 |
+| data | 1 | 0.0028 |
 | database | 1 | 0.0028 |
 | design | 1 | 0.0028 |
 | designs | 1 | 0.0028 |
@@ -87,7 +81,6 @@ Total document words: 353
 | key | 1 | 0.0028 |
 | learning | 1 | 0.0028 |
 | linux | 1 | 0.0028 |
-| machine | 1 | 0.0028 |
 | macos | 1 | 0.0028 |
 | mapping | 1 | 0.0028 |
 | maui | 1 | 0.0028 |
@@ -98,7 +91,6 @@ Total document words: 353
 | namespace | 1 | 0.0028 |
 | object-relational | 1 | 0.0028 |
 | open-source | 1 | 0.0028 |
-| options | 1 | 0.0028 |
 | organization | 1 | 0.0028 |
 | overview | 1 | 0.0028 |
 | paradigms | 1 | 0.0028 |
@@ -114,10 +106,6 @@ Total document words: 353
 | serverless | 1 | 0.0028 |
 | serves | 1 | 0.0028 |
 | specialized | 1 | 0.0028 |
-| state | 1 | 0.0028 |
-| support | 1 | 0.0028 |
 | threading | 1 | 0.0028 |
 | via | 1 | 0.0028 |
-| windows | 1 | 0.0028 |
-| work | 1 | 0.0028 |
 | xunit | 1 | 0.0028 |

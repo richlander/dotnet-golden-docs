@@ -8,31 +8,26 @@ Combined local and global scoring:
 
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
-| json | single | 24 | 1.00x | 1.00x | 1.0x | 24.000 |
-| serialization | single | 16 | 1.00x | 1.00x | 1.5x | 24.000 |
 | system.text.json.jsonserializer | compound | 5 | 1.50x | 1.50x | 2.0x | 22.500 |
+| serialization | single | 10 | 1.00x | 1.00x | 2.0x | 20.000 |
 | source generation | compound | 7 | 1.25x | 1.50x | 1.5x | 19.688 |
 | deserialization | single | 13 | 1.00x | 1.00x | 1.5x | 19.500 |
+| json | single | 12 | 1.00x | 1.00x | 1.5x | 18.000 |
 | jsonserializer | single | 9 | 1.00x | 1.00x | 2.0x | 18.000 |
 | serialize | single | 8 | 1.00x | 1.00x | 2.0x | 16.000 |
+| compile-time | compound | 6 | 1.00x | 1.50x | 1.5x | 13.500 |
 | constructor parameters | compound | 3 | 1.25x | 1.50x | 2.0x | 11.250 |
 | utf-8 operations | compound | 3 | 1.25x | 1.50x | 2.0x | 11.250 |
 | use | single | 11 | 1.00x | 1.00x | 1.0x | 11.000 |
 | control | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
-| default | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
+| output | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | circular references | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
-| compile-time | compound | 6 | 1.00x | 1.50x | 1.0x | 9.000 |
 | constructor | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | customization | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | deserialize | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| handle | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | names | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| operations | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | during | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
-| net | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
-| options | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
-| output | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
-| property | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
+| text | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | custom converters | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | json schema | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | naming policies | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
@@ -40,34 +35,26 @@ Combined local and global scoring:
 | property names | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | null handling | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | system | single | 6 | 1.00x | 1.00x | 1.0x | 6.000 |
-| apis | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
-| asp | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | logic | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
-| overhead | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | utf-8 | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | after | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | annotations | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | api | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| behavior | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | configure | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | deserializing | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| dynamic | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | enforce | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | jsonserializeroptions | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| nullable | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| maximum | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | prevent | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | serializer | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | serializing | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | strings | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| code | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
-| text | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
-| async | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| behavior | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| web | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | dom | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| dynamic | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | instead | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| maximum | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| parsing | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | reflection-based | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| web | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| values | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| asp | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
 | runtime | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
-| values | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
-| without | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

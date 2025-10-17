@@ -11,10 +11,10 @@ Combined local and global scoring:
 | resilience | single | 25 | 1.00x | 1.00x | 2.0x | 50.000 |
 | http | single | 9 | 1.00x | 1.00x | 2.0x | 18.000 |
 | communication | single | 7 | 1.00x | 1.00x | 2.0x | 14.000 |
+| standard | single | 7 | 1.00x | 1.00x | 2.0x | 14.000 |
 | microsoft.extensions.http.resilience | compound | 3 | 1.50x | 1.50x | 2.0x | 13.500 |
 | monitoring | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | strategies | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| standard | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
 | built | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | circuit | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | httpclient | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
@@ -40,6 +40,6 @@ Combined local and global scoring:
 | failures | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | providing | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | reliable | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| require | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | retry | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | extensions | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| require | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |

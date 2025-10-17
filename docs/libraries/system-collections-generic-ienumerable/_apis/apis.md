@@ -1,0 +1,87 @@
+# API Analysis
+
+Generated from: `golden-reference.md`, `qa-pairs.md`
+Total unique APIs: 79
+Total API references: 292
+
+| API | Type | Count |
+|-----|------|-------|
+| Console.WriteLine | method | 34 |
+| Where | method | 30 |
+| Select | method | 22 |
+| ToList | method | 17 |
+| Count | method | 12 |
+| Sum | method | 11 |
+| Take | method | 11 |
+| Add | method | 9 |
+| Enumerable.Range | method | 9 |
+| GetNumbers | method | 9 |
+| O | method | 6 |
+| ToArray | method | 6 |
+| Any | method | 5 |
+| OrderBy | method | 5 |
+| GetInfiniteSequence | method | 4 |
+| GetNumbersAsync | method | 4 |
+| DbContext | method | 3 |
+| First | method | 3 |
+| FirstOrDefault | method | 3 |
+| GroupBy | method | 3 |
+| OrderByDescending | method | 3 |
+| ProcessItems | method | 3 |
+| StreamReader | method | 3 |
+| System.Text | namespace | 3 |
+| System.Text.Json | type | 3 |
+| Average | method | 2 |
+| Customers.Where | method | 2 |
+| Distinct | method | 2 |
+| ExpensiveOperation | method | 2 |
+| GenerateFibonacci | method | 2 |
+| GetActiveProducts | method | 2 |
+| GetAllUsers | method | 2 |
+| GetBusinessDays | method | 2 |
+| GetCustomers | method | 2 |
+| GetDiscountedProducts | method | 2 |
+| GetEnumerator | method | 2 |
+| JsonSerializer.Serialize | method | 2 |
+| NumberRange | method | 2 |
+| ReadLargeFile | method | 2 |
+| ReadLine | method | 2 |
+| Task.Delay | method | 2 |
+| ToHashSet | method | 2 |
+| AddDays | method | 1 |
+| AddRange | method | 1 |
+| AsAsyncEnumerable | method | 1 |
+| ComplexFilter | method | 1 |
+| Contains | method | 1 |
+| Dictionaries | method | 1 |
+| ElementAt | method | 1 |
+| Enumerable.Repeat | method | 1 |
+| ExpensiveFilter | method | 1 |
+| ExpensiveTransform | method | 1 |
+| FetchUserFromApi | method | 1 |
+| GetActiveUserIds | method | 1 |
+| GetCustomersAsync | method | 1 |
+| GetData | method | 1 |
+| GetMutableNames | method | 1 |
+| GetNames | method | 1 |
+| GetNamesArray | method | 1 |
+| GetProducts | method | 1 |
+| GetReadOnlyNames | method | 1 |
+| GetRecords | method | 1 |
+| GetSales | method | 1 |
+| IEnumerable.GetEnumerator | method | 1 |
+| Max | method | 1 |
+| MyDbContext | method | 1 |
+| Parallel.ForEach | method | 1 |
+| ProcessError | method | 1 |
+| ReadLineAsync | method | 1 |
+| ReadLines | method | 1 |
+| ReadLinesAsync | method | 1 |
+| Remove | method | 1 |
+| Skip | method | 1 |
+| System.Collections | namespace | 1 |
+| System.Linq | namespace | 1 |
+| System.Text.Json.JsonSerializer | type | 1 |
+| ToString | method | 1 |
+| Transform | method | 1 |
+| Trim | method | 1 |

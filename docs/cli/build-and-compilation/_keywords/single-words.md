@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 102
-Total word occurrences: 153
+Total unique words: 96
+Total word occurrences: 141
 Total document words: 293
 
 | Word | Count | Document Concentration |
@@ -10,9 +10,7 @@ Total document words: 293
 | build | 15 | 0.0512 |
 | compilation | 5 | 0.0171 |
 | ci | 4 | 0.0137 |
-| analysis | 3 | 0.0102 |
 | builds | 3 | 0.0102 |
-| code | 3 | 0.0102 |
 | commands | 3 | 0.0102 |
 | nuget | 3 | 0.0102 |
 | parallel | 3 | 0.0102 |
@@ -25,9 +23,7 @@ Total document words: 293
 | configurations | 2 | 0.0068 |
 | engineers | 2 | 0.0068 |
 | executable | 2 | 0.0068 |
-| execution | 2 | 0.0068 |
 | incremental | 2 | 0.0068 |
-| issues | 2 | 0.0068 |
 | local | 2 | 0.0068 |
 | multi-targeting | 2 | 0.0068 |
 | patterns | 2 | 0.0068 |
@@ -35,6 +31,7 @@ Total document words: 293
 | strategies | 2 | 0.0068 |
 | across | 1 | 0.0034 |
 | advanced | 1 | 0.0034 |
+| analysis | 1 | 0.0034 |
 | artifact | 1 | 0.0034 |
 | asset | 1 | 0.0034 |
 | audiences | 1 | 0.0034 |
@@ -46,7 +43,6 @@ Total document words: 293
 | consistently | 1 | 0.0034 |
 | cores | 1 | 0.0034 |
 | coverage | 1 | 0.0034 |
-| cpu | 1 | 0.0034 |
 | create | 1 | 0.0034 |
 | cross-platform | 1 | 0.0034 |
 | debug | 1 | 0.0034 |
@@ -95,7 +91,6 @@ Total document words: 293
 | solution | 1 | 0.0034 |
 | stages | 1 | 0.0034 |
 | standard | 1 | 0.0034 |
-| support | 1 | 0.0034 |
 | team | 1 | 0.0034 |
 | test | 1 | 0.0034 |
 | testing | 1 | 0.0034 |
@@ -107,5 +102,4 @@ Total document words: 293
 | unified | 1 | 0.0034 |
 | utilize | 1 | 0.0034 |
 | versions | 1 | 0.0034 |
-| windows | 1 | 0.0034 |
 | works | 1 | 0.0034 |

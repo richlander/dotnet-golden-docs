@@ -60,6 +60,7 @@ Collection topic covering key C# 14 language features including the `field` keyw
 |---------|-------|
 | assignment | 6.00 |
 | extension | 5.00 |
+| compile-time | 4.00 |
 | zero-allocation | 3.00 |
 | enhanced | 4.00 |
 | keyword | 4.00 |
@@ -67,7 +68,6 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | expression trees | 2.00 |
 | first-class span | 2.00 |
 | named arguments | 2.00 |
-| compile-time | 4.00 |
 | patterns | 6.00 |
 | first-class | 3.00 |
 
@@ -138,15 +138,29 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | csharp | csharp | 0.8373 |
+| csharp | csharp/properties-backing-fields | 0.8054 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7967 |
+| csharp | csharp/lambda-expressions | 0.7600 |
 | csharp | csharp/object-initialization | 0.7591 |
 | csharp | csharp/collection-expressions | 0.7522 |
-| libraries | libraries/system-text-json | 0.7342 |
+| libraries | libraries/system-collections-generic-ienumerable | 0.7485 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.7483 |
+| libraries | libraries/collections-performance | 0.7482 |
+| libraries | libraries/span-based-string-processing | 0.7413 |
+| libraries | libraries/system-text-json | 0.7329 |
 | libraries | libraries/system-buffers-searchvalues | 0.7328 |
-| libraries | libraries | 0.7280 |
-| dotnet | dotnet | 0.7274 |
-| libraries | libraries/system-text-json-jsonserializer | 0.7259 |
-| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7255 |
-| libraries | libraries/string-search-operations | 0.7160 |
-| libraries | libraries/system-text-json-nodes | 0.7090 |
 
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 5
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.564 |
+| 1 | Null-Conditional Assignment Scope | 0.539 | 0.620 |
+| 2 | Unbound Generic Types in `nameof` | 0.564 | 1.000 |
+| 3 | Extensions | 0.585 | 0.653 |
+| 4 | Optional and Named Arguments in Expression Trees | 0.542 | 0.677 |

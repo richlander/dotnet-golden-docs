@@ -35,6 +35,7 @@ System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing
 | Priority | 2 (High) |
 | Version | 6.0 |
 | Year | 2021 |
+
 ## Hashes
 
 | Name | Kind | Fingerprint |
@@ -47,17 +48,17 @@ System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | libraries | libraries/system-text-json-jsondocument | 0.9017 |
-| libraries | libraries/system-text-json | 0.8730 |
+| libraries | libraries/system-text-json | 0.8745 |
 | libraries | libraries/system-text-json-jsonserializer | 0.8430 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.7972 |
 | libraries | libraries/system-text-json-utf8jsonreader | 0.7954 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7949 |
 | libraries | libraries/system-text-json-utf8jsonwriter | 0.7544 |
 | libraries | libraries/system-text-json-source-generation | 0.7529 |
+| libraries | libraries/json-validation-security | 0.7507 |
+| libraries | libraries/json-streaming-io | 0.7200 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7183 |
 | csharp | csharp/csharp-14-features | 0.7090 |
-| libraries | libraries | 0.6828 |
-| csharp | csharp/object-initialization | 0.6729 |
-| dotnet | dotnet | 0.6702 |
 
 ## APIs
 
@@ -72,3 +73,19 @@ System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing
 | Console.WriteLine | method | 3 |
 | JsonArray | method | 3 |
 
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 7
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.677 |
+| 1 | Type Safety | 0.717 | 0.621 |
+| 2 | Reading Values from JsonArray | 0.677 | 1.000 |
+| 3 | Navigating Nested Structures | 0.642 | 0.729 |
+| 4 | Type Checking and Conversion | 0.663 | 0.684 |
+| 5 | Using with Configuration Merging | 0.608 | 0.713 |
+| 6 | Choosing Between JsonNode and JsonDocument | 0.615 | 0.639 |

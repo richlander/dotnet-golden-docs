@@ -9,7 +9,7 @@ Keyword | post-quantum cryptography
 Keyword | algorithms
 Keyword | comparison
 Keyword | cryptography
-Keyword | duplicate
-Keyword | hex
 Keyword | numericordering
+Keyword | post-quantum
+Keyword | quantum-resistant
 Description | Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations. Each feature gets concise treatment with practical examples for common scenarios.

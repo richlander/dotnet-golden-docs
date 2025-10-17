@@ -12,6 +12,7 @@ Combined local and global scoring:
 | searches | single | 7 | 1.00x | 1.00x | 2.0x | 14.000 |
 | allocation-free | compound | 4 | 1.00x | 1.50x | 2.0x | 12.000 |
 | characters | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| values | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | creating searchvalues | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | character | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | once | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -21,7 +22,6 @@ Combined local and global scoring:
 | span-based | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | substring | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | used | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| high-performance | compound | 2 | 1.25x | 1.50x | 1.5x | 5.625 |
-| values | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
 | multiple | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | provides | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
+| high-performance | compound | 2 | 1.25x | 1.50x | 1.0x | 3.750 |

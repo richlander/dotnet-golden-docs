@@ -66,16 +66,16 @@
       "score": 6
     },
     {
-      "name": "size",
-      "score": 6
-    },
-    {
       "name": "startup",
       "score": 7
     },
     {
       "name": "runtime",
       "score": 10
+    },
+    {
+      "name": "compilation",
+      "score": 5
     }
   ],
   "apis": null,
@@ -123,7 +123,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748007322922713970
+            "fingerprint": 17748008422434374514
           },
           "technical": {
             "name": "technical",
@@ -145,7 +145,7 @@
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13139692957975577396
+            "fingerprint": 13139693507731391284
           }
         }
       },
@@ -174,12 +174,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
           }
         }
       },
@@ -221,12 +221,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13031609950279271226
+            "fingerprint": 13027106350651900730
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603784469680882044
+            "fingerprint": 17603786118948323708
           }
         }
       },
@@ -255,19 +255,19 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
           }
         }
       },
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.6106,
+        "similarity": 0.6075,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -287,6 +287,23 @@
         }
       },
       {
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.5939,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135792371890684214
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
         "href": "/extensions/microsoft-extensions-ai/index.json",
         "title": "Microsoft.Extensions.AI",
         "similarity": 0.5931,
@@ -302,36 +319,92 @@
             "fingerprint": 12992240838009299324
           }
         }
-      },
-      {
-        "href": "/csharp/csharp-14-features/index.json",
-        "title": "C# 14 Language Features",
-        "similarity": 0.5899,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7262411006152912613
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12991679535167439672
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12704008812590162300
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 6,
+        "baseline_conceptual": 0,
+        "baseline_technical": 3,
+        "stripe_order": [
+          2,
+          1,
+          5,
+          3,
+          4
+        ],
+        "stripe_order_technical": [
+          4,
+          1,
+          5,
+          2,
+          0
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.588,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "ReadyToRun Compilation",
+            "is_code": false,
+            "similarity_conceptual": 0.623,
+            "similarity_technical": 0.633,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "By Performance Requirements",
+            "is_code": false,
+            "similarity_conceptual": 0.634,
+            "similarity_technical": 0.6,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Runtime Configuration",
+            "is_code": true,
+            "similarity_conceptual": 0.588,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Microservice Deployment",
+            "is_code": true,
+            "similarity_conceptual": 0.587,
+            "similarity_technical": 0.65,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Publishing Profile Management",
+            "is_code": true,
+            "similarity_conceptual": 0.6,
+            "similarity_technical": 0.617,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.5869901Z",
+    "generated": "2025-10-17T20:16:12.3176180Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

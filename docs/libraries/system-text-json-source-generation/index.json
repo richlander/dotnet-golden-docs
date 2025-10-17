@@ -38,15 +38,23 @@
       "score": 5
     },
     {
-      "name": "naming policies",
-      "score": 4
-    },
-    {
       "name": "compile-time",
       "score": 9
     },
     {
+      "name": "naming policies",
+      "score": 4
+    },
+    {
+      "name": "generic methods",
+      "score": 3
+    },
+    {
       "name": "aot compatibility",
+      "score": 3
+    },
+    {
+      "name": "native aot",
       "score": 3
     },
     {
@@ -55,10 +63,6 @@
     },
     {
       "name": "aot-compatible",
-      "score": 3
-    },
-    {
-      "name": "generic methods",
       "score": 3
     },
     {
@@ -72,10 +76,6 @@
     {
       "name": "multiple contexts",
       "score": 2
-    },
-    {
-      "name": "native aot",
-      "score": 3
     }
   ],
   "apis": [
@@ -187,7 +187,7 @@
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.8429,
+        "similarity": 0.8434,
         "authority": {
           "newtonsoft.json": 1.356,
           "source generation": 1.324
@@ -211,6 +211,23 @@
         }
       },
       {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.7817,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
+          }
+        }
+      },
+      {
         "href": "/cli/native-aot/index.json",
         "title": "Native AOT",
         "similarity": 0.772,
@@ -229,7 +246,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748007322922713970
+            "fingerprint": 17748008422434374514
           },
           "technical": {
             "name": "technical",
@@ -324,6 +341,40 @@
         }
       },
       {
+        "href": "/libraries/json-streaming-io/index.json",
+        "title": "JSON Streaming and I/O",
+        "similarity": 0.6908,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 5373223288336521872
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713018245211120108
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-validation-security/index.json",
+        "title": "JSON Validation and Security",
+        "similarity": 0.6843,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4220134623093668640
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12694860369024133596
+          }
+        }
+      },
+      {
         "href": "/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.6816,
@@ -337,62 +388,6 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 12995475601218077040
-          }
-        }
-      },
-      {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
-        "title": ".NET 10 Libraries Features",
-        "similarity": 0.6809,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 17751806634878108464
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17602622835646144888
-          }
-        }
-      },
-      {
-        "href": "/csharp/csharp-14-features/index.json",
-        "title": "C# 14 Language Features",
-        "similarity": 0.6765,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7262411006152912613
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12991679535167439672
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12704008812590162300
-          }
-        }
-      },
-      {
-        "href": "/cli/file-based-apps/index.json",
-        "title": "File-based apps",
-        "similarity": 0.6709,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12991672373451620728
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603924657413423484
           }
         }
       },
@@ -424,10 +419,66 @@
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 4,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          3,
+          1,
+          2
+        ],
+        "stripe_order_technical": [
+          2,
+          0,
+          3
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.618,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Generic Methods with JsonTypeInfo",
+            "is_code": true,
+            "similarity_conceptual": 0.618,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "AI Structured Responses",
+            "is_code": true,
+            "similarity_conceptual": 0.565,
+            "similarity_technical": 0.697,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Performance Optimization",
+            "is_code": true,
+            "similarity_conceptual": 0.687,
+            "similarity_technical": 0.607,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6312236Z",
+    "generated": "2025-10-17T20:16:12.5840590Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

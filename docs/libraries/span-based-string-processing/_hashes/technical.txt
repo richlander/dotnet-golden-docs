@@ -1,0 +1,13 @@
+Title | Span-Based String Processing
+API | Slice
+API | AsSpan
+API | Console.WriteLine
+API | System.Text
+API | IsNormalized
+API | StartsWith
+API | Encoding.UTF8.GetBytes
+API | File.ReadAllBytes
+API | GetFileExtension
+API | IndexOf
+API | IsValidCommand
+API | LastIndexOf

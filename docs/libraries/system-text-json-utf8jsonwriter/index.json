@@ -129,7 +129,7 @@
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.8391,
+        "similarity": 0.8408,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -162,6 +162,23 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 12992240880958973404
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.7766,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
           }
         }
       },
@@ -205,6 +222,23 @@
         }
       },
       {
+        "href": "/libraries/json-streaming-io/index.json",
+        "title": "JSON Streaming and I/O",
+        "similarity": 0.7638,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 5373223288336521872
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713018245211120108
+          }
+        }
+      },
+      {
         "href": "/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.7544,
@@ -218,6 +252,23 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 12703869732690724188
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-validation-security/index.json",
+        "title": "JSON Validation and Security",
+        "similarity": 0.7324,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4220134623093668640
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12694860369024133596
           }
         }
       },
@@ -239,6 +290,23 @@
         }
       },
       {
+        "href": "/libraries/span-based-string-processing/index.json",
+        "title": "Span-Based String Processing",
+        "similarity": 0.7134,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3500403042930203010
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13001107333850221004
+          }
+        }
+      },
+      {
         "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6736,
@@ -246,95 +314,122 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-buffers-searchvalues/index.json",
-        "title": "System.Buffers.SearchValues",
-        "similarity": 0.6637,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13140681365376664376
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12992238638986035580
-          }
-        }
-      },
-      {
-        "href": "/csharp/csharp-14-features/index.json",
-        "title": "C# 14 Language Features",
-        "similarity": 0.6564,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7262411006152912613
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12991679535167439672
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12704008812590162300
-          }
-        }
-      },
-      {
-        "href": "/csharp/index.json",
-        "title": "C# Language",
-        "similarity": 0.6305,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 3772209114392757042
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12990971914609426736
-          }
-        }
-      },
-      {
-        "href": "/dotnet/index.json",
-        "title": ".NET Platform",
-        "similarity": 0.6218,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12995440279407100792
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12995475601218077040
+            "fingerprint": 17602625034669392248
           }
         }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 8,
+        "baseline_conceptual": 0,
+        "baseline_technical": 2,
+        "stripe_order": [
+          1,
+          4,
+          7,
+          6,
+          5,
+          2,
+          3
+        ],
+        "stripe_order_technical": [
+          6,
+          3,
+          4,
+          5,
+          7,
+          1,
+          0
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.616,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Performance vs Convenience",
+            "is_code": true,
+            "similarity_conceptual": 0.707,
+            "similarity_technical": 0.652,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Writing with Formatting Options",
+            "is_code": true,
+            "similarity_conceptual": 0.616,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Writing Different Number Types",
+            "is_code": true,
+            "similarity_conceptual": 0.613,
+            "similarity_technical": 0.731,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Using with HTTP Response Streams",
+            "is_code": true,
+            "similarity_conceptual": 0.671,
+            "similarity_technical": 0.696,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Custom Serialization Logic",
+            "is_code": true,
+            "similarity_conceptual": 0.624,
+            "similarity_technical": 0.693,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "Validation and Error Handling",
+            "is_code": true,
+            "similarity_conceptual": 0.661,
+            "similarity_technical": 0.733,
+            "keywords": null
+          },
+          {
+            "index": 7,
+            "href": "_chunks/golden-reference-7.md",
+            "title": "Manual Structure Validation",
+            "is_code": false,
+            "similarity_conceptual": 0.665,
+            "similarity_technical": 0.662,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6361865Z",
+    "generated": "2025-10-17T20:16:12.5997270Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

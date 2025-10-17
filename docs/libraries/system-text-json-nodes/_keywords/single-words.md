@@ -1,17 +1,16 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 209
-Total word occurrences: 400
+Total unique words: 200
+Total word occurrences: 363
 Total document words: 703
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| json | 32 | 0.0455 |
+| json | 20 | 0.0284 |
 | nodes | 10 | 0.0142 |
 | runtime | 10 | 0.0142 |
 | strongly-typed | 10 | 0.0142 |
-| access | 7 | 0.0100 |
 | use | 7 | 0.0100 |
 | read-only | 6 | 0.0085 |
 | text | 6 | 0.0085 |
@@ -23,16 +22,13 @@ Total document words: 703
 | parse | 5 | 0.0071 |
 | provides | 5 | 0.0071 |
 | values | 5 | 0.0071 |
-| without | 5 | 0.0071 |
 | indexer | 4 | 0.0057 |
 | merging | 4 | 0.0057 |
 | modify | 4 | 0.0057 |
 | mutable | 4 | 0.0057 |
-| property | 4 | 0.0057 |
 | structure | 4 | 0.0057 |
 | system | 4 | 0.0057 |
 | unknown | 4 | 0.0057 |
-| code | 3 | 0.0043 |
 | construction | 3 | 0.0043 |
 | dom | 3 | 0.0043 |
 | known | 3 | 0.0043 |
@@ -43,17 +39,16 @@ Total document words: 703
 | structures | 3 | 0.0043 |
 | tree | 3 | 0.0043 |
 | type-safe | 3 | 0.0043 |
-| allocates | 2 | 0.0028 |
+| without | 3 | 0.0043 |
 | api | 2 | 0.0028 |
 | combine | 2 | 0.0028 |
 | concatenation | 2 | 0.0028 |
-| conversion | 2 | 0.0028 |
 | defining | 2 | 0.0028 |
 | definitions | 2 | 0.0028 |
 | deserialization | 2 | 0.0028 |
+| document | 2 | 0.0028 |
 | documents | 2 | 0.0028 |
 | existing | 2 | 0.0028 |
-| indexers | 2 | 0.0028 |
 | instead | 2 | 0.0028 |
 | key | 2 | 0.0028 |
 | mergers | 2 | 0.0028 |
@@ -63,7 +58,6 @@ Total document words: 703
 | navigation | 2 | 0.0028 |
 | nested | 2 | 0.0028 |
 | node | 2 | 0.0028 |
-| parsing | 2 | 0.0028 |
 | programmatically | 2 | 0.0028 |
 | proxies | 2 | 0.0028 |
 | querying | 2 | 0.0028 |
@@ -72,6 +66,7 @@ Total document words: 703
 | requires | 2 | 0.0028 |
 | serialize | 2 | 0.0028 |
 | transform | 2 | 0.0028 |
+| access | 1 | 0.0014 |
 | add | 1 | 0.0014 |
 | aggregate | 1 | 0.0014 |
 | allows | 1 | 0.0014 |
@@ -111,25 +106,21 @@ Total document words: 703
 | convert | 1 | 0.0014 |
 | converting | 1 | 0.0014 |
 | copies | 1 | 0.0014 |
-| copy | 1 | 0.0014 |
 | copying | 1 | 0.0014 |
 | create | 1 | 0.0014 |
 | deep | 1 | 0.0014 |
 | deeply | 1 | 0.0014 |
 | deserialize | 1 | 0.0014 |
 | determine | 1 | 0.0014 |
-| direct | 1 | 0.0014 |
 | each | 1 | 0.0014 |
 | enumeration | 1 | 0.0014 |
 | errors | 1 | 0.0014 |
 | essential | 1 | 0.0014 |
 | every | 1 | 0.0014 |
-| exceptions | 1 | 0.0014 |
 | exists | 1 | 0.0014 |
 | extract | 1 | 0.0014 |
 | extracting | 1 | 0.0014 |
 | faster | 1 | 0.0014 |
-| fields | 1 | 0.0014 |
 | fills | 1 | 0.0014 |
 | form | 1 | 0.0014 |
 | forward-only | 1 | 0.0014 |
@@ -190,12 +181,12 @@ Total document words: 703
 | representation | 1 | 0.0014 |
 | representations | 1 | 0.0014 |
 | resolved | 1 | 0.0014 |
+| responses | 1 | 0.0014 |
 | result | 1 | 0.0014 |
 | returns | 1 | 0.0014 |
 | sacrifices | 1 | 0.0014 |
 | scenario | 1 | 0.0014 |
 | schema-less | 1 | 0.0014 |
-| sequences | 1 | 0.0014 |
 | significantly | 1 | 0.0014 |
 | solution | 1 | 0.0014 |
 | start | 1 | 0.0014 |
@@ -210,9 +201,9 @@ Total document words: 703
 | updates | 1 | 0.0014 |
 | used | 1 | 0.0014 |
 | uses | 1 | 0.0014 |
+| using | 1 | 0.0014 |
 | value | 1 | 0.0014 |
 | varies | 1 | 0.0014 |
 | view | 1 | 0.0014 |
 | vs | 1 | 0.0014 |
-| work | 1 | 0.0014 |
 | working | 1 | 0.0014 |

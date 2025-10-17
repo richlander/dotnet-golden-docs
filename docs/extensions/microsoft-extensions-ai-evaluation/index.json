@@ -195,7 +195,7 @@
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.6546,
+        "similarity": 0.6529,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -222,12 +222,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
           }
         }
       },
@@ -239,12 +239,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
           }
         }
       },
@@ -262,6 +262,23 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 12992238638986035580
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.6371,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
           }
         }
       },
@@ -339,7 +356,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748007322922713970
+            "fingerprint": 17748008422434374514
           },
           "technical": {
             "name": "technical",
@@ -364,31 +381,114 @@
             "fingerprint": 13139588021186986364
           }
         }
-      },
-      {
-        "href": "/cli/file-based-apps/index.json",
-        "title": "File-based apps",
-        "similarity": 0.6092,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12991672373451620728
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603924657413423484
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 8,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          1,
+          2,
+          3,
+          7,
+          4,
+          5,
+          6
+        ],
+        "stripe_order_technical": [
+          0,
+          2,
+          7,
+          3,
+          4,
+          5,
+          6
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.689,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Basic Quality Evaluation Setup",
+            "is_code": true,
+            "similarity_conceptual": 0.689,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Batch Evaluation with Reporting",
+            "is_code": true,
+            "similarity_conceptual": 0.653,
+            "similarity_technical": 0.648,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Custom Evaluator Implementation",
+            "is_code": true,
+            "similarity_conceptual": 0.63,
+            "similarity_technical": 0.608,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Fluent Builder vs Direct Instantiation",
+            "is_code": true,
+            "similarity_conceptual": 0.608,
+            "similarity_technical": 0.6,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Performance Optimization",
+            "is_code": true,
+            "similarity_conceptual": 0.583,
+            "similarity_technical": 0.58,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "Configuration Management",
+            "is_code": true,
+            "similarity_conceptual": 0.576,
+            "similarity_technical": 0.572,
+            "keywords": null
+          },
+          {
+            "index": 7,
+            "href": "_chunks/golden-reference-7.md",
+            "title": "Cost Considerations",
+            "is_code": true,
+            "similarity_conceptual": 0.629,
+            "similarity_technical": 0.616,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6041511Z",
+    "generated": "2025-10-17T20:16:12.4068250Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

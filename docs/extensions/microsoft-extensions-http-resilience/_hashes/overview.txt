@@ -5,10 +5,10 @@ TypeName | Resilience
 Keyword | resilience
 Keyword | http
 Keyword | communication
+Keyword | standard
 Keyword | microsoft.extensions.http.resilience
 Keyword | monitoring
 Keyword | strategies
-Keyword | standard
 Keyword | built
 Keyword | circuit
 Keyword | httpclient

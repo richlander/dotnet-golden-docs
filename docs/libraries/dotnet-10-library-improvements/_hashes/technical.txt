@@ -12,6 +12,6 @@ Keyword | post-quantum cryptography
 Keyword | algorithms
 Keyword | comparison
 Keyword | cryptography
-Keyword | duplicate
-Keyword | hex
 Keyword | numericordering
+Keyword | post-quantum
+Keyword | quantum-resistant

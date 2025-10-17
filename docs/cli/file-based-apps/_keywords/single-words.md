@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 288
-Total word occurrences: 681
+Total unique words: 266
+Total word occurrences: 630
 Total document words: 1013
 
 | Word | Count | Document Concentration |
@@ -11,7 +11,6 @@ Total document words: 1013
 | file-based | 16 | 0.0158 |
 | project | 14 | 0.0138 |
 | dotnet | 12 | 0.0118 |
-| code | 10 | 0.0099 |
 | scripts | 10 | 0.0099 |
 | com | 9 | 0.0089 |
 | description | 9 | 0.0089 |
@@ -24,6 +23,7 @@ Total document words: 1013
 | title | 9 | 0.0089 |
 | full | 8 | 0.0079 |
 | language | 8 | 0.0079 |
+| code | 7 | 0.0069 |
 | fundamentals | 7 | 0.0069 |
 | package | 7 | 0.0069 |
 | projects | 7 | 0.0069 |
@@ -32,27 +32,23 @@ Total document words: 1013
 | cross-platform | 6 | 0.0059 |
 | csharp | 6 | 0.0059 |
 | debugging | 6 | 0.0059 |
-| execution | 6 | 0.0059 |
 | file-based-programs | 6 | 0.0059 |
 | file-level | 6 | 0.0059 |
 | packages | 6 | 0.0059 |
 | scripting | 6 | 0.0059 |
-| support | 6 | 0.0059 |
 | tutorials | 6 | 0.0059 |
-| without | 6 | 0.0059 |
 | create | 5 | 0.0049 |
 | nuget | 5 | 0.0049 |
 | setup | 5 | 0.0049 |
 | basic | 4 | 0.0039 |
 | complexity | 4 | 0.0039 |
-| direct | 4 | 0.0039 |
 | migration | 4 | 0.0039 |
 | run | 4 | 0.0039 |
 | structures | 4 | 0.0039 |
-| syntax | 4 | 0.0039 |
 | team | 4 | 0.0039 |
 | utilities | 4 | 0.0039 |
 | while | 4 | 0.0039 |
+| without | 4 | 0.0039 |
 | works | 4 | 0.0039 |
 | arguments | 3 | 0.0030 |
 | artifacts | 3 | 0.0030 |
@@ -64,12 +60,10 @@ Total document words: 1013
 | dotnet-10 | 3 | 0.0030 |
 | experimentation | 3 | 0.0030 |
 | external | 3 | 0.0030 |
-| handle | 3 | 0.0030 |
 | input | 3 | 0.0030 |
 | intellisense | 3 | 0.0030 |
 | learning | 3 | 0.0030 |
 | local | 3 | 0.0030 |
-| options | 3 | 0.0030 |
 | path | 3 | 0.0030 |
 | proper | 3 | 0.0030 |
 | rather | 3 | 0.0030 |
@@ -90,6 +84,7 @@ Total document words: 1013
 | commands | 2 | 0.0020 |
 | concepts | 2 | 0.0020 |
 | developers | 2 | 0.0020 |
+| direct | 2 | 0.0020 |
 | directly | 2 | 0.0020 |
 | directory | 2 | 0.0020 |
 | doesn't | 2 | 0.0020 |
@@ -109,16 +104,12 @@ Total document words: 1013
 | limited | 2 | 0.0020 |
 | maintaining | 2 | 0.0020 |
 | msbuild | 2 | 0.0020 |
-| net | 2 | 0.0020 |
 | no | 2 | 0.0020 |
 | one | 2 | 0.0020 |
-| overhead | 2 | 0.0020 |
 | patterns | 2 | 0.0020 |
-| per | 2 | 0.0020 |
 | persistent | 2 | 0.0020 |
 | powershell | 2 | 0.0020 |
 | prototyping | 2 | 0.0020 |
-| reference | 2 | 0.0020 |
 | require | 2 | 0.0020 |
 | runtime | 2 | 0.0020 |
 | script | 2 | 0.0020 |
@@ -128,7 +119,6 @@ Total document words: 1013
 | simple | 2 | 0.0020 |
 | simplified | 2 | 0.0020 |
 | solution | 2 | 0.0020 |
-| temporary | 2 | 0.0020 |
 | these | 2 | 0.0020 |
 | traditional | 2 | 0.0020 |
 | across | 1 | 0.0010 |
@@ -146,7 +136,6 @@ Total document words: 1013
 | behavior | 1 | 0.0010 |
 | behind | 1 | 0.0010 |
 | benefits | 1 | 0.0010 |
-| best | 1 | 0.0010 |
 | better | 1 | 0.0010 |
 | between | 1 | 0.0010 |
 | bridging | 1 | 0.0010 |
@@ -162,14 +151,12 @@ Total document words: 1013
 | consider | 1 | 0.0010 |
 | consistency | 1 | 0.0010 |
 | consistently | 1 | 0.0010 |
-| conversion | 1 | 0.0010 |
 | cover | 1 | 0.0010 |
 | creation | 1 | 0.0010 |
 | creative | 1 | 0.0010 |
 | csx | 1 | 0.0010 |
 | dependencies | 1 | 0.0010 |
 | design | 1 | 0.0010 |
-| detection | 1 | 0.0010 |
 | different | 1 | 0.0010 |
 | during | 1 | 0.0010 |
 | ecosystem | 1 | 0.0010 |
@@ -190,7 +177,6 @@ Total document words: 1013
 | exploring | 1 | 0.0010 |
 | expressive | 1 | 0.0010 |
 | feature | 1 | 0.0010 |
-| features | 1 | 0.0010 |
 | flexible | 1 | 0.0010 |
 | folder | 1 | 0.0010 |
 | follow | 1 | 0.0010 |
@@ -200,6 +186,7 @@ Total document words: 1013
 | generator | 1 | 0.0010 |
 | gradual | 1 | 0.0010 |
 | growing | 1 | 0.0010 |
+| handle | 1 | 0.0010 |
 | hello | 1 | 0.0010 |
 | highlighting | 1 | 0.0010 |
 | ide | 1 | 0.0010 |
@@ -209,7 +196,6 @@ Total document words: 1013
 | individual | 1 | 0.0010 |
 | instead | 1 | 0.0010 |
 | integrates | 1 | 0.0010 |
-| integration | 1 | 0.0010 |
 | into | 1 | 0.0010 |
 | libraries | 1 | 0.0010 |
 | like | 1 | 0.0010 |
@@ -238,8 +224,6 @@ Total document words: 1013
 | platform-specific | 1 | 0.0010 |
 | platforms | 1 | 0.0010 |
 | positioning | 1 | 0.0010 |
-| practices | 1 | 0.0010 |
-| processing | 1 | 0.0010 |
 | production | 1 | 0.0010 |
 | productivity | 1 | 0.0010 |
 | provides | 1 | 0.0010 |
@@ -255,8 +239,6 @@ Total document words: 1013
 | replace | 1 | 0.0010 |
 | replacing | 1 | 0.0010 |
 | requirements | 1 | 0.0010 |
-| return | 1 | 0.0010 |
-| scenarios | 1 | 0.0010 |
 | scenes | 1 | 0.0010 |
 | sdk | 1 | 0.0010 |
 | seamlessly | 1 | 0.0010 |
@@ -268,7 +250,6 @@ Total document words: 1013
 | single-purpose | 1 | 0.0010 |
 | sit | 1 | 0.0010 |
 | solutions | 1 | 0.0010 |
-| statements | 1 | 0.0010 |
 | strategy | 1 | 0.0010 |
 | streamlines | 1 | 0.0010 |
 | studio | 1 | 0.0010 |
@@ -286,12 +267,9 @@ Total document words: 1013
 | upgrade | 1 | 0.0010 |
 | usage | 1 | 0.0010 |
 | valid | 1 | 0.0010 |
-| validation | 1 | 0.0010 |
 | velocity | 1 | 0.0010 |
 | versions | 1 | 0.0010 |
 | via | 1 | 0.0010 |
 | visual | 1 | 0.0010 |
-| windows | 1 | 0.0010 |
-| work | 1 | 0.0010 |
 | workflows | 1 | 0.0010 |
 | world | 1 | 0.0010 |

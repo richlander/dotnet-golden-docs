@@ -39,3 +39,57 @@ Collections Performance encompasses both runtime-delivered optimizations and cod
 | Priority | 2 (High - important for performance-conscious applications) |
 | Version | Current |
 | Year | N/A |
+
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 3088699778205288848 |
+| technical | simhash | 12713016054776726876 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries/system-collections-generic-ienumerable | 0.7989 |
+| csharp | csharp/collection-initialization | 0.7736 |
+| libraries | libraries/system-collections-generic-iasyncenumerable | 0.7558 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7552 |
+| libraries | libraries/system-buffers-searchvalues | 0.7535 |
+| csharp | csharp/collection-expressions | 0.7510 |
+| csharp | csharp/csharp-14-features | 0.7482 |
+| libraries | libraries | 0.7445 |
+| dotnet | dotnet | 0.7286 |
+| csharp | csharp/async-await | 0.7065 |
+| libraries | libraries/system-text-json | 0.7041 |
+| libraries | libraries/system-threading-tasks-task | 0.6963 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| Console.WriteLine | method | 9 |
+| GetAt | method | 4 |
+| Process | method | 4 |
+| Add | method | 3 |
+| Contains | method | 3 |
+| O | method | 3 |
+| ToArray | method | 3 |
+| Where | method | 3 |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 7
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.687 |
+| 1 | Array Interface Performance Parity | 0.687 | 1.000 |
+| 2 | Relationships & Integration | 0.676 | 0.611 |
+| 3 | Escape Analysis for Struct Fields | 0.629 | 0.725 |
+| 4 | Efficient Updates with Index Caching | 0.648 | 0.595 |
+| 5 | Array Interface Devirtualization | 0.686 | 0.702 |
+| 6 | Leveraging Automatic Optimizations | 0.687 | 0.630 |

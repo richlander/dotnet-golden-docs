@@ -1,0 +1,25 @@
+Title | Task and Task&lt;T&gt;
+API | GetDataAsync
+API | FetchDataAsync
+API | Task.Run
+API | Console.WriteLine
+API | Task.Delay
+API | Task.WhenAll
+API | Task.FromResult
+API | CalculateAsync
+API | GetCachedValueAsync
+API | SaveAsync
+API | TimeSpan.FromSeconds
+API | TryGetValue
+Keyword | task
+Keyword | tasks
+Keyword | use
+Keyword | await
+Keyword | considerations
+Keyword | cpu-bound work
+Keyword | exception handling
+Keyword | don't
+Keyword | run
+Keyword | complete
+Keyword | consider
+Keyword | cpu-bound

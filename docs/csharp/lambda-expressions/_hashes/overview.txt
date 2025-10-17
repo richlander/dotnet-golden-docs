@@ -1,0 +1,2 @@
+Title | Lambda Expressions
+Description | Lambda expressions create anonymous functions using the `=>` operator, with support for expression and statement bodies, natural type inference, parameter modifiers (ref, out, in, params), default parameters, static lambdas, and async operations. Lambdas integrate with LINQ, event handlers, and anywhere delegate or expression tree types are required.

@@ -54,15 +54,15 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | Keyword | Score |
 |---------|-------|
 | cli | 23.00 |
+| package | 11.00 |
 | development | 10.00 |
 | tools | 13.00 |
-| package | 11.00 |
-| global | 8.00 |
-| builds | 7.00 |
 | commands | 9.00 |
+| global | 8.00 |
+| command-line | 5.00 |
+| builds | 7.00 |
 | across | 8.00 |
 | projects | 6.00 |
-| command-line | 5.00 |
 | consistent | 5.00 |
 | sdk | 5.00 |
 
@@ -77,21 +77,21 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 | dotnet | dotnet | 0.7804 |
 | libraries | libraries | 0.7484 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6809 |
+| libraries | libraries/system-threading-tasks-task | 0.6661 |
 | extensions | extensions/microsoft-extensions-ai | 0.6615 |
-| libraries | libraries/system-text-json | 0.6552 |
+| libraries | libraries/system-text-json | 0.6554 |
 | csharp | csharp | 0.6447 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6368 |
-| csharp | csharp/csharp-14-features | 0.6346 |
 
 ### Similarity Metadata
 
 | Category | Threshold | Percentile | Total Pairs |
 |----------|-----------|------------|-------------|
 | cli | 0.7850 | P50 | 5 |
-| csharp | 0.5822 | P50 | 5 |
+| csharp | 0.5530 | P70 | 9 |
 | dotnet | 0.7804 | P50 | 1 |
 | extensions | 0.6142 | P50 | 3 |
-| libraries | 0.5576 | P70 | 13 |
+| libraries | 0.5742 | P70 | 21 |
 
 ## Authority Scores
 
@@ -99,3 +99,22 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 |-------|---------|-------|
 | libraries/system-commandline | command-line | 1.312 |
 
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 9
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 7
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.521 |
+| 1 | Tool and Workload Management | 0.505 | 0.569 |
+| 2 | Solution Management | 0.527 | 0.653 |
+| 3 | Integration Patterns | 0.565 | 0.609 |
+| 4 | Package Restore Optimization | 0.569 | 0.569 |
+| 5 | Version and Compatibility Management | 0.534 | 0.586 |
+| 6 | Security and Trust Considerations | 0.479 | 0.542 |
+| 7 | Package and Dependency Management | 0.521 | 1.000 |
+| 8 | CI/CD Pipeline Integration | 0.600 | 0.573 |

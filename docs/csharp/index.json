@@ -6,7 +6,7 @@
   "complexity": 0.8,
   "priority": 1,
   "depth_below": 1,
-  "topic_count": 6,
+  "topic_count": 10,
   "introduced": {
     "version": "1.0",
     "year": "2000"
@@ -15,12 +15,12 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 3772209114392757042
+      "fingerprint": 13140259840106365750
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 12990971914609426736
+      "fingerprint": 12995581704090288436
     }
   },
   "keywords": [
@@ -30,19 +30,15 @@
     },
     {
       "name": "features",
-      "score": 13
+      "score": 11
     },
     {
-      "name": "net",
-      "score": 13
+      "name": "libraries",
+      "score": 9
     },
     {
       "name": "like",
       "score": 11
-    },
-    {
-      "name": "compiler",
-      "score": 8
     },
     {
       "name": "programming",
@@ -57,20 +53,24 @@
       "score": 6
     },
     {
-      "name": "libraries",
-      "score": 9
-    },
-    {
       "name": "cross-platform",
       "score": 5
     },
     {
-      "name": "data",
-      "score": 8
+      "name": "applications",
+      "score": 6
     },
     {
-      "name": "language features",
-      "score": 3
+      "name": "enables",
+      "score": 6
+    },
+    {
+      "name": "low-level",
+      "score": 4
+    },
+    {
+      "name": "while",
+      "score": 6
     }
   ],
   "apis": null,
@@ -126,12 +126,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.7222,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140261422667071802
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240838009291132
           }
         }
       },
@@ -153,6 +170,23 @@
         }
       },
       {
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.7073,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135792371890684214
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
         "href": "/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.7046,
@@ -160,107 +194,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-commandline/index.json",
-        "title": "System.CommandLine",
-        "similarity": 0.6995,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 4477352130680084748
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13031609950279271226
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603784469680882044
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json/index.json",
-        "title": "System.Text.Json",
-        "similarity": 0.6981,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 16930982311004600425
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12992627727723340090
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 13172382621933396857
-          }
-        }
-      },
-      {
-        "href": "/libraries/string-search-operations/index.json",
-        "title": "String Search Operations",
-        "similarity": 0.6922,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 17752545506692137272
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603926856436679036
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
-        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
-        "similarity": 0.6781,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 614095243011328414
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12974224274836293980
-          }
-        }
-      },
-      {
-        "href": "/cli/file-based-apps/index.json",
-        "title": "File-based apps",
-        "similarity": 0.6755,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 12991672373451620728
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603924657413423484
+            "fingerprint": 12992064916148846972
           }
         }
       }
@@ -268,6 +207,32 @@
   },
   "_embedded": {
     "topics": [
+      {
+        "name": "async-await",
+        "title": "Async and Await",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17748041905982472506
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        },
+        "category": "C# Language",
+        "complexity": 0.4,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/csharp/async-await/index.json",
+            "description": "Language keywords enabling asynchronous programming with non-blocking I/O operations and improved scalability through the Task-based Asynchronous Pattern."
+          }
+        }
+      },
       {
         "name": "collection-initialization",
         "title": "Collection Initialization",
@@ -280,7 +245,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135758833430233394
+            "fingerprint": 13135758833431281974
           },
           "technical": {
             "name": "technical",
@@ -326,6 +291,32 @@
         }
       },
       {
+        "name": "lambda-expressions",
+        "title": "Lambda Expressions",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13789395562491052844
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974085684805370156
+          }
+        },
+        "category": "C# Language",
+        "complexity": 0.4,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/csharp/lambda-expressions/index.json",
+            "description": "Lambda expressions create anonymous functions with expression or statement bodies, supporting natural type inference, parameter modifiers, default parameters, static lambdas, and async operations."
+          }
+        }
+      },
+      {
         "name": "object-initialization",
         "title": "Object Initialization",
         "hashes": {
@@ -337,7 +328,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751804553974055728
+            "fingerprint": 17751945841218224944
           },
           "technical": {
             "name": "technical",
@@ -357,6 +348,32 @@
         }
       },
       {
+        "name": "properties-backing-fields",
+        "title": "Properties and Backing Fields",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 8792651860460152757
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603783919925071324
+          }
+        },
+        "category": "C# Language",
+        "complexity": 0.3,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/csharp/properties-backing-fields/index.json",
+            "description": "Properties provide flexible data access through accessor methods, with support for auto-implementation, field keyword access, init-only setters, and required initialization."
+          }
+        }
+      },
+      {
         "name": "collection-expressions",
         "title": "Collection Expressions",
         "hashes": {
@@ -368,7 +385,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992804884252795250
+            "fingerprint": 12997308483880165746
           },
           "technical": {
             "name": "technical",
@@ -419,6 +436,32 @@
         }
       },
       {
+        "name": "partial-classes",
+        "title": "Partial Classes",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3375945098908056738
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239223101612492
+          }
+        },
+        "category": "C# Language",
+        "complexity": 0.35,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/csharp/partial-classes/index.json",
+            "description": "Partial classes split type and member definitions across multiple source files for code generation, platform-specific implementations, and source generator integration."
+          }
+        }
+      },
+      {
         "name": "inline-arrays",
         "title": "Inline Arrays",
         "hashes": {
@@ -449,10 +492,82 @@
           }
         }
       }
-    ]
+    ],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 6,
+        "baseline_conceptual": 0,
+        "baseline_technical": null,
+        "stripe_order": [
+          5,
+          1,
+          2,
+          3,
+          4
+        ],
+        "stripe_order_technical": null,
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Type System and Object Orientation",
+            "is_code": false,
+            "similarity_conceptual": 0.654,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Asynchronous Programming",
+            "is_code": false,
+            "similarity_conceptual": 0.616,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": ".NET Ecosystem Integration",
+            "is_code": false,
+            "similarity_conceptual": 0.609,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Learning Curve",
+            "is_code": false,
+            "similarity_conceptual": 0.606,
+            "similarity_technical": null,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Core Language Concepts",
+            "is_code": false,
+            "similarity_conceptual": 0.674,
+            "similarity_technical": null,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6428608Z",
+    "generated": "2025-10-17T20:16:12.6426450Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

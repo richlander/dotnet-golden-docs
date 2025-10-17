@@ -1,37 +1,32 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 437
-Total word occurrences: 756
+Total unique words: 407
+Total word occurrences: 666
 Total document words: 1412
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | language | 19 | 0.0135 |
-| features | 13 | 0.0092 |
-| net | 13 | 0.0092 |
-| code | 11 | 0.0078 |
+| features | 11 | 0.0078 |
 | like | 11 | 0.0078 |
 | libraries | 9 | 0.0064 |
-| support | 9 | 0.0064 |
-| compiler | 8 | 0.0057 |
-| data | 8 | 0.0057 |
+| code | 8 | 0.0057 |
 | programming | 8 | 0.0057 |
 | provides | 8 | 0.0057 |
 | applications | 6 | 0.0042 |
 | cross-platform | 6 | 0.0042 |
+| data | 6 | 0.0042 |
 | enables | 6 | 0.0042 |
 | while | 6 | 0.0042 |
-| collections | 5 | 0.0035 |
 | control | 5 | 0.0035 |
 | developers | 5 | 0.0035 |
-| matching | 5 | 0.0035 |
 | object-oriented | 5 | 0.0035 |
 | patterns | 5 | 0.0035 |
-| syntax | 5 | 0.0035 |
-| windows | 5 | 0.0035 |
+| using | 5 | 0.0035 |
 | both | 4 | 0.0028 |
 | capabilities | 4 | 0.0028 |
+| compiler | 4 | 0.0028 |
 | concepts | 4 | 0.0028 |
 | define | 4 | 0.0028 |
 | enable | 4 | 0.0028 |
@@ -39,49 +34,41 @@ Total document words: 1412
 | introduce | 4 | 0.0028 |
 | languages | 4 | 0.0028 |
 | low-level | 4 | 0.0028 |
+| net | 4 | 0.0028 |
 | offers | 4 | 0.0028 |
 | abstraction | 3 | 0.0021 |
-| apis | 3 | 0.0021 |
 | constructs | 3 | 0.0021 |
-| direct | 3 | 0.0021 |
 | extensible | 3 | 0.0021 |
 | frameworks | 3 | 0.0021 |
 | high-level | 3 | 0.0021 |
 | high-performance | 3 | 0.0021 |
-| linq | 3 | 0.0021 |
 | mainstream | 3 | 0.0021 |
 | many | 3 | 0.0021 |
 | modern | 3 | 0.0021 |
-| pattern | 3 | 0.0021 |
 | provide | 3 | 0.0021 |
-| query | 3 | 0.0021 |
 | range | 3 | 0.0021 |
-| reference | 3 | 0.0021 |
 | run | 3 | 0.0021 |
 | runtime | 3 | 0.0021 |
+| support | 3 | 0.0021 |
 | through | 3 | 0.0021 |
 | tools | 3 | 0.0021 |
-| types | 3 | 0.0021 |
 | understanding | 3 | 0.0021 |
 | unsafe | 3 | 0.0021 |
 | use | 3 | 0.0021 |
-| using | 3 | 0.0021 |
 | web | 3 | 0.0021 |
+| windows | 3 | 0.0021 |
 | write | 3 | 0.0021 |
 | additional | 2 | 0.0014 |
 | adopting | 2 | 0.0014 |
 | algorithms | 2 | 0.0014 |
 | android | 2 | 0.0014 |
 | application | 2 | 0.0014 |
-| array | 2 | 0.0014 |
 | asp | 2 | 0.0014 |
 | asynchronous | 2 | 0.0014 |
 | augment | 2 | 0.0014 |
-| automatic | 2 | 0.0014 |
 | baseline | 2 | 0.0014 |
 | built-in | 2 | 0.0014 |
 | characters | 2 | 0.0014 |
-| classes | 2 | 0.0014 |
 | cloud-native | 2 | 0.0014 |
 | common | 2 | 0.0014 |
 | compile-time | 2 | 0.0014 |
@@ -90,7 +77,6 @@ Total document words: 1412
 | desktop | 2 | 0.0014 |
 | diagnostics | 2 | 0.0014 |
 | different | 2 | 0.0014 |
-| efficient | 2 | 0.0014 |
 | either | 2 | 0.0014 |
 | end | 2 | 0.0014 |
 | enterprise | 2 | 0.0014 |
@@ -98,7 +84,6 @@ Total document words: 1412
 | essential | 2 | 0.0014 |
 | example | 2 | 0.0014 |
 | feature | 2 | 0.0014 |
-| first | 2 | 0.0014 |
 | flow | 2 | 0.0014 |
 | forms | 2 | 0.0014 |
 | generics | 2 | 0.0014 |
@@ -129,8 +114,6 @@ Total document words: 1412
 | primary | 2 | 0.0014 |
 | rich | 2 | 0.0014 |
 | services | 2 | 0.0014 |
-| statement | 2 | 0.0014 |
-| statements | 2 | 0.0014 |
 | structures | 2 | 0.0014 |
 | studio | 2 | 0.0014 |
 | supporting | 2 | 0.0014 |
@@ -141,7 +124,6 @@ Total document words: 1412
 | variable | 2 | 0.0014 |
 | via | 2 | 0.0014 |
 | visual | 2 | 0.0014 |
-| without | 2 | 0.0014 |
 | wpf | 2 | 0.0014 |
 | accessing | 1 | 0.0007 |
 | across | 1 | 0.0007 |
@@ -150,18 +132,15 @@ Total document words: 1412
 | advanced | 1 | 0.0007 |
 | allocations | 1 | 0.0007 |
 | allowing | 1 | 0.0007 |
-| analysis | 1 | 0.0007 |
 | approaches | 1 | 0.0007 |
 | appropriately | 1 | 0.0007 |
 | arbitrary | 1 | 0.0007 |
 | architecture | 1 | 0.0007 |
 | assignment | 1 | 0.0007 |
-| async | 1 | 0.0007 |
 | auto-initialized | 1 | 0.0007 |
 | available | 1 | 0.0007 |
 | avx512 | 1 | 0.0007 |
 | await | 1 | 0.0007 |
-| backed | 1 | 0.0007 |
 | been | 1 | 0.0007 |
 | before | 1 | 0.0007 |
 | behavior | 1 | 0.0007 |
@@ -191,7 +170,6 @@ Total document words: 1412
 | concurrent | 1 | 0.0007 |
 | consider | 1 | 0.0007 |
 | considerations | 1 | 0.0007 |
-| constructors | 1 | 0.0007 |
 | containerized | 1 | 0.0007 |
 | contiguous | 1 | 0.0007 |
 | continues | 1 | 0.0007 |
@@ -199,7 +177,6 @@ Total document words: 1412
 | contract | 1 | 0.0007 |
 | convenience | 1 | 0.0007 |
 | copying | 1 | 0.0007 |
-| cpu | 1 | 0.0007 |
 | create | 1 | 0.0007 |
 | creation | 1 | 0.0007 |
 | curve | 1 | 0.0007 |
@@ -210,16 +187,15 @@ Total document words: 1412
 | declare | 1 | 0.0007 |
 | deep | 1 | 0.0007 |
 | deeply | 1 | 0.0007 |
-| default | 1 | 0.0007 |
 | definitions | 1 | 0.0007 |
 | dependencies | 1 | 0.0007 |
 | dereference | 1 | 0.0007 |
 | design | 1 | 0.0007 |
 | designed | 1 | 0.0007 |
-| developer | 1 | 0.0007 |
 | devices | 1 | 0.0007 |
 | devkit | 1 | 0.0007 |
 | devops | 1 | 0.0007 |
+| direct | 1 | 0.0007 |
 | disallow | 1 | 0.0007 |
 | discard | 1 | 0.0007 |
 | easy | 1 | 0.0007 |
@@ -239,7 +215,6 @@ Total document words: 1412
 | evolution | 1 | 0.0007 |
 | evolve | 1 | 0.0007 |
 | excels | 1 | 0.0007 |
-| execution | 1 | 0.0007 |
 | expand | 1 | 0.0007 |
 | experience | 1 | 0.0007 |
 | expose | 1 | 0.0007 |
@@ -276,7 +251,6 @@ Total document words: 1412
 | improves | 1 | 0.0007 |
 | incorporates | 1 | 0.0007 |
 | incorrectly | 1 | 0.0007 |
-| index | 1 | 0.0007 |
 | indexable | 1 | 0.0007 |
 | indexing | 1 | 0.0007 |
 | indices | 1 | 0.0007 |
@@ -353,7 +327,6 @@ Total document words: 1412
 | popular | 1 | 0.0007 |
 | possible | 1 | 0.0007 |
 | powers | 1 | 0.0007 |
-| practices | 1 | 0.0007 |
 | prevents | 1 | 0.0007 |
 | principles | 1 | 0.0007 |
 | processed | 1 | 0.0007 |
@@ -387,7 +360,6 @@ Total document words: 1412
 | see | 1 | 0.0007 |
 | semi-colons | 1 | 0.0007 |
 | sequence-processing | 1 | 0.0007 |
-| sequences | 1 | 0.0007 |
 | shape | 1 | 0.0007 |
 | shared | 1 | 0.0007 |
 | simd | 1 | 0.0007 |
@@ -401,13 +373,12 @@ Total document words: 1412
 | special | 1 | 0.0007 |
 | specialized | 1 | 0.0007 |
 | stack-allocated | 1 | 0.0007 |
-| state | 1 | 0.0007 |
-| static | 1 | 0.0007 |
 | statically | 1 | 0.0007 |
 | strategy | 1 | 0.0007 |
 | structs | 1 | 0.0007 |
 | switch | 1 | 0.0007 |
 | symbiotic | 1 | 0.0007 |
+| syntax | 1 | 0.0007 |
 | synthesizes | 1 | 0.0007 |
 | systems | 1 | 0.0007 |
 | targeting | 1 | 0.0007 |
@@ -423,6 +394,7 @@ Total document words: 1412
 | tuples | 1 | 0.0007 |
 | type- | 1 | 0.0007 |
 | type-safe | 1 | 0.0007 |
+| types | 1 | 0.0007 |
 | typescript | 1 | 0.0007 |
 | typing | 1 | 0.0007 |
 | uis | 1 | 0.0007 |
@@ -438,9 +410,7 @@ Total document words: 1412
 | well-suited | 1 | 0.0007 |
 | were | 1 | 0.0007 |
 | windows-specific | 1 | 0.0007 |
-| work | 1 | 0.0007 |
 | workflows | 1 | 0.0007 |
-| written | 1 | 0.0007 |
 | xml | 1 | 0.0007 |
 | you're | 1 | 0.0007 |
 | zero-cost | 1 | 0.0007 |

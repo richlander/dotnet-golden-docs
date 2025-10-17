@@ -1,14 +1,14 @@
 Title | .NET Platform
 TypeName | .NET Platform
 Keyword | net
-Keyword | cross-platform
 Keyword | libraries
-Keyword | like
 Keyword | while
+Keyword | cross-platform
+Keyword | like
 Keyword | open-source
 Keyword | memory management
-Keyword | code
 Keyword | runtime
 Keyword | languages
 Keyword | modern
+Keyword | code
 Keyword | tools

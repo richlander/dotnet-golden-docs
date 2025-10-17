@@ -32,13 +32,13 @@ Error | NETSDK1212
 ErrorMessage | IsTrimmable and EnableTrimAnalyzer are not supported for the target framework.
 Keyword | trimming
 Keyword | assembly trimming
-Keyword | analysis
+Keyword | deployment
 Keyword | reduced
 Keyword | test
 Keyword | desktop applications
 Keyword | library development
 Keyword | using assembly trimming
-Keyword | code
 Keyword | framework integration
-Keyword | deployment
+Keyword | applications
 Keyword | build-time
+Keyword | disabled

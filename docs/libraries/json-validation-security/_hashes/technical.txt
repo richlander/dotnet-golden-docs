@@ -1,0 +1,9 @@
+Title | JSON Validation and Security
+API | System.Text.Json
+API | System.Text
+API | Console.WriteLine
+API | BadRequest
+API | JsonSerializerOptions
+API | JsonUnmappedMemberHandling
+API | LogWarning
+API | System.Text.Json.Serialization

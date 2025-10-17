@@ -1,44 +1,40 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 215
-Total word occurrences: 404
+Total unique words: 197
+Total word occurrences: 357
 Total document words: 665
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| json | 16 | 0.0241 |
 | writing | 16 | 0.0241 |
 | utf8jsonwriter | 12 | 0.0180 |
 | output | 9 | 0.0135 |
 | write | 9 | 0.0135 |
 | control | 8 | 0.0120 |
 | writer | 8 | 0.0120 |
-| stream | 7 | 0.0105 |
-| streaming | 7 | 0.0105 |
 | use | 6 | 0.0090 |
 | runtime | 5 | 0.0075 |
+| stream | 5 | 0.0075 |
 | system | 5 | 0.0075 |
 | text | 5 | 0.0075 |
 | utf-8 | 5 | 0.0075 |
 | values | 5 | 0.0075 |
-| direct | 4 | 0.0060 |
 | directly | 4 | 0.0060 |
 | formatting | 4 | 0.0060 |
 | generate | 4 | 0.0060 |
+| json | 4 | 0.0060 |
 | logic | 4 | 0.0060 |
-| serialization | 4 | 0.0060 |
 | streams | 4 | 0.0060 |
-| validation | 4 | 0.0060 |
 | complex | 3 | 0.0045 |
 | encoding | 3 | 0.0045 |
 | maximum | 3 | 0.0045 |
 | performance-critical | 3 | 0.0045 |
+| responses | 3 | 0.0045 |
 | valid | 3 | 0.0045 |
 | validates | 3 | 0.0045 |
 | zero-allocation | 3 | 0.0045 |
 | add | 2 | 0.0030 |
-| async | 2 | 0.0030 |
 | automatically | 2 | 0.0030 |
 | buffer | 2 | 0.0030 |
 | buffers | 2 | 0.0030 |
@@ -47,7 +43,7 @@ Total document words: 665
 | characters | 2 | 0.0030 |
 | constant | 2 | 0.0030 |
 | create | 2 | 0.0030 |
-| data | 2 | 0.0030 |
+| direct | 2 | 0.0030 |
 | does | 2 | 0.0030 |
 | during | 2 | 0.0030 |
 | dynamic | 2 | 0.0030 |
@@ -70,30 +66,26 @@ Total document words: 665
 | separately | 2 | 0.0030 |
 | serialize | 2 | 0.0030 |
 | start | 2 | 0.0030 |
+| streaming | 2 | 0.0030 |
 | strings | 2 | 0.0030 |
 | structural | 2 | 0.0030 |
 | structures | 2 | 0.0030 |
-| synchronous | 2 | 0.0030 |
 | type-specific | 2 | 0.0030 |
 | underlying | 2 | 0.0030 |
 | usage | 2 | 0.0030 |
 | uses | 2 | 0.0030 |
 | vs | 2 | 0.0030 |
-| without | 2 | 0.0030 |
 | abstraction | 1 | 0.0015 |
 | achieve | 1 | 0.0015 |
 | already | 1 | 0.0015 |
 | alternative | 1 | 0.0015 |
-| apis | 1 | 0.0015 |
 | arraybufferwriter | 1 | 0.0015 |
 | arrives | 1 | 0.0015 |
 | attempting | 1 | 0.0015 |
 | avoid | 1 | 0.0015 |
 | behavior | 1 | 0.0015 |
 | benefit | 1 | 0.0015 |
-| best | 1 | 0.0015 |
 | better | 1 | 0.0015 |
-| blocking | 1 | 0.0015 |
 | body | 1 | 0.0015 |
 | bottom | 1 | 0.0015 |
 | buffering | 1 | 0.0015 |
@@ -103,7 +95,6 @@ Total document words: 665
 | capabilities | 1 | 0.0015 |
 | casing | 1 | 0.0015 |
 | clients | 1 | 0.0015 |
-| code | 1 | 0.0015 |
 | compact | 1 | 0.0015 |
 | complete | 1 | 0.0015 |
 | concatenation | 1 | 0.0015 |
@@ -121,22 +112,18 @@ Total document words: 665
 | datetimeoffset | 1 | 0.0015 |
 | decimals | 1 | 0.0015 |
 | deeply | 1 | 0.0015 |
-| default | 1 | 0.0015 |
 | design | 1 | 0.0015 |
 | destination | 1 | 0.0015 |
 | different | 1 | 0.0015 |
 | disposal | 1 | 0.0015 |
 | dispose | 1 | 0.0015 |
 | dom-based | 1 | 0.0015 |
-| efficient | 1 | 0.0015 |
 | enabling | 1 | 0.0015 |
 | encoded | 1 | 0.0015 |
 | encoder | 1 | 0.0015 |
 | end | 1 | 0.0015 |
 | escapes | 1 | 0.0015 |
-| exceptions | 1 | 0.0015 |
 | fastest | 1 | 0.0015 |
-| fields | 1 | 0.0015 |
 | fine | 1 | 0.0015 |
 | flexibility | 1 | 0.0015 |
 | floating-point | 1 | 0.0015 |
@@ -167,7 +154,6 @@ Total document words: 665
 | malformed | 1 | 0.0015 |
 | manage | 1 | 0.0015 |
 | manual | 1 | 0.0015 |
-| matching | 1 | 0.0015 |
 | maximize | 1 | 0.0015 |
 | minimized | 1 | 0.0015 |
 | name | 1 | 0.0015 |
@@ -176,7 +162,6 @@ Total document words: 665
 | number | 1 | 0.0015 |
 | numbers | 1 | 0.0015 |
 | operates | 1 | 0.0015 |
-| options | 1 | 0.0015 |
 | over-escape | 1 | 0.0015 |
 | overview | 1 | 0.0015 |
 | ownership | 1 | 0.0015 |
@@ -184,12 +169,10 @@ Total document words: 665
 | pairs | 1 | 0.0015 |
 | pooled | 1 | 0.0015 |
 | pooling | 1 | 0.0015 |
-| practices | 1 | 0.0015 |
 | pre-formatted | 1 | 0.0015 |
 | precise | 1 | 0.0015 |
 | preventing | 1 | 0.0015 |
 | primitive | 1 | 0.0015 |
-| property | 1 | 0.0015 |
 | protocols | 1 | 0.0015 |
 | provide | 1 | 0.0015 |
 | providing | 1 | 0.0015 |
@@ -221,4 +204,3 @@ Total document words: 665
 | while | 1 | 0.0015 |
 | within | 1 | 0.0015 |
 | writes | 1 | 0.0015 |
-| written | 1 | 0.0015 |

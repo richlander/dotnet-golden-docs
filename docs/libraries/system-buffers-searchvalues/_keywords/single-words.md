@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 149
-Total word occurrences: 233
+Total unique words: 137
+Total word occurrences: 218
 Total document words: 412
 
 | Word | Count | Document Concentration |
@@ -22,7 +22,6 @@ Total document words: 412
 | substring | 3 | 0.0073 |
 | used | 3 | 0.0073 |
 | advantages | 2 | 0.0049 |
-| analysis | 2 | 0.0049 |
 | beneficial | 2 | 0.0049 |
 | buffer | 2 | 0.0049 |
 | byte | 2 | 0.0049 |
@@ -37,7 +36,6 @@ Total document words: 412
 | instructions | 2 | 0.0049 |
 | memoryextensions | 2 | 0.0049 |
 | optimized | 2 | 0.0049 |
-| parsing | 2 | 0.0049 |
 | path | 2 | 0.0049 |
 | pre-computed | 2 | 0.0049 |
 | regular | 2 | 0.0049 |
@@ -53,7 +51,6 @@ Total document words: 412
 | special | 2 | 0.0049 |
 | times | 2 | 0.0049 |
 | use | 2 | 0.0049 |
-| validation | 2 | 0.0049 |
 | vector | 2 | 0.0049 |
 | accelerates | 1 | 0.0024 |
 | accept | 1 | 0.0024 |
@@ -64,7 +61,6 @@ Total document words: 412
 | basic | 1 | 0.0024 |
 | behavior | 1 | 0.0024 |
 | being | 1 | 0.0024 |
-| best | 1 | 0.0024 |
 | beyond | 1 | 0.0024 |
 | bytes | 1 | 0.0024 |
 | cases | 1 | 0.0024 |
@@ -81,9 +77,7 @@ Total document words: 412
 | criteria | 1 | 0.0024 |
 | declare | 1 | 0.0024 |
 | delimiters | 1 | 0.0024 |
-| direct | 1 | 0.0024 |
 | during | 1 | 0.0024 |
-| efficient | 1 | 0.0024 |
 | efficiently | 1 | 0.0024 |
 | essential | 1 | 0.0024 |
 | examples | 1 | 0.0024 |
@@ -103,18 +97,15 @@ Total document words: 412
 | leverages | 1 | 0.0024 |
 | like | 1 | 0.0024 |
 | making | 1 | 0.0024 |
-| matching | 1 | 0.0024 |
 | measure | 1 | 0.0024 |
 | migrating | 1 | 0.0024 |
 | migration | 1 | 0.0024 |
 | minimized | 1 | 0.0024 |
 | multi-character | 1 | 0.0024 |
 | need | 1 | 0.0024 |
-| net | 1 | 0.0024 |
 | number | 1 | 0.0024 |
 | one-time | 1 | 0.0024 |
 | operation | 1 | 0.0024 |
-| operations | 1 | 0.0024 |
 | overview | 1 | 0.0024 |
 | particularly | 1 | 0.0024 |
 | paths | 1 | 0.0024 |
@@ -122,7 +113,6 @@ Total document words: 412
 | performance-focused | 1 | 0.0024 |
 | platforms | 1 | 0.0024 |
 | possible | 1 | 0.0024 |
-| practices | 1 | 0.0024 |
 | predictable | 1 | 0.0024 |
 | prefer | 1 | 0.0024 |
 | profile | 1 | 0.0024 |
@@ -141,7 +131,6 @@ Total document words: 412
 | several | 1 | 0.0024 |
 | significant | 1 | 0.0024 |
 | simultaneously | 1 | 0.0024 |
-| static | 1 | 0.0024 |
 | supports | 1 | 0.0024 |
 | threshold | 1 | 0.0024 |
 | topics | 1 | 0.0024 |
@@ -153,6 +142,5 @@ Total document words: 412
 | valuable | 1 | 0.0024 |
 | well | 1 | 0.0024 |
 | within | 1 | 0.0024 |
-| work | 1 | 0.0024 |
 | working | 1 | 0.0024 |
 | works | 1 | 0.0024 |

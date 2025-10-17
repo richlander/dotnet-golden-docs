@@ -1,15 +1,14 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 185
-Total word occurrences: 266
+Total unique words: 169
+Total word occurrences: 240
 Total document words: 428
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | trimming | 8 | 0.0187 |
-| code | 7 | 0.0164 |
-| analysis | 4 | 0.0093 |
+| code | 4 | 0.0093 |
 | deployment | 4 | 0.0093 |
 | reduced | 4 | 0.0093 |
 | test | 4 | 0.0093 |
@@ -21,10 +20,10 @@ Total document words: 428
 | readytorun | 3 | 0.0070 |
 | reduction | 3 | 0.0070 |
 | startup | 3 | 0.0070 |
-| support | 3 | 0.0070 |
 | trimmed | 3 | 0.0070 |
 | unused | 3 | 0.0070 |
 | alternatives | 2 | 0.0047 |
+| analysis | 2 | 0.0047 |
 | assemblies | 2 | 0.0047 |
 | assembly | 2 | 0.0047 |
 | automatically | 2 | 0.0047 |
@@ -36,7 +35,6 @@ Total document words: 428
 | enabled | 2 | 0.0047 |
 | feature | 2 | 0.0047 |
 | footprint | 2 | 0.0047 |
-| issues | 2 | 0.0047 |
 | limitations | 2 | 0.0047 |
 | minimal | 2 | 0.0047 |
 | particularly | 2 | 0.0047 |
@@ -49,12 +47,10 @@ Total document words: 428
 | single-file | 2 | 0.0047 |
 | smaller | 2 | 0.0047 |
 | start | 2 | 0.0047 |
-| static | 2 | 0.0047 |
 | storage | 2 | 0.0047 |
 | strategies | 2 | 0.0047 |
 | thoroughly | 2 | 0.0047 |
 | times | 2 | 0.0047 |
-| trim | 2 | 0.0047 |
 | warning | 2 | 0.0047 |
 | warnings | 2 | 0.0047 |
 | works | 2 | 0.0047 |
@@ -70,7 +66,6 @@ Total document words: 428
 | authoring | 1 | 0.0023 |
 | basic | 1 | 0.0023 |
 | benefits | 1 | 0.0023 |
-| best | 1 | 0.0023 |
 | binary | 1 | 0.0023 |
 | build-time | 1 | 0.0023 |
 | builds | 1 | 0.0023 |
@@ -103,9 +98,7 @@ Total document words: 428
 | essential | 1 | 0.0023 |
 | examples | 1 | 0.0023 |
 | exceptionally | 1 | 0.0023 |
-| execution | 1 | 0.0023 |
 | extensive | 1 | 0.0023 |
-| field | 1 | 0.0023 |
 | final | 1 | 0.0023 |
 | fix | 1 | 0.0023 |
 | following | 1 | 0.0023 |
@@ -139,17 +132,13 @@ Total document words: 428
 | lower | 1 | 0.0023 |
 | marshalling | 1 | 0.0023 |
 | maximum | 1 | 0.0023 |
-| method | 1 | 0.0023 |
 | migration | 1 | 0.0023 |
 | mixed-mode | 1 | 0.0023 |
 | need | 1 | 0.0023 |
 | never | 1 | 0.0023 |
-| options | 1 | 0.0023 |
-| overhead | 1 | 0.0023 |
 | overview | 1 | 0.0023 |
 | paths | 1 | 0.0023 |
 | points | 1 | 0.0023 |
-| practices | 1 | 0.0023 |
 | preparation | 1 | 0.0023 |
 | progressively | 1 | 0.0023 |
 | projects | 1 | 0.0023 |
@@ -160,18 +149,14 @@ Total document words: 428
 | relationships | 1 | 0.0023 |
 | resolve | 1 | 0.0023 |
 | resolving | 1 | 0.0023 |
-| scenarios | 1 | 0.0023 |
 | see | 1 | 0.0023 |
 | serializers | 1 | 0.0023 |
 | serverless | 1 | 0.0023 |
 | setup | 1 | 0.0023 |
 | several | 1 | 0.0023 |
-| size | 1 | 0.0023 |
 | sizes | 1 | 0.0023 |
 | slower | 1 | 0.0023 |
 | starts | 1 | 0.0023 |
-| state | 1 | 0.0023 |
-| status | 1 | 0.0023 |
 | stripping | 1 | 0.0023 |
 | supported | 1 | 0.0023 |
 | switches | 1 | 0.0023 |
@@ -190,5 +175,4 @@ Total document words: 428
 | uses | 1 | 0.0023 |
 | valuable | 1 | 0.0023 |
 | well | 1 | 0.0023 |
-| windows | 1 | 0.0023 |
 | wpf | 1 | 0.0023 |

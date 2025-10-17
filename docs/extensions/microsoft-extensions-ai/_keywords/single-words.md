@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 221
-Total word occurrences: 399
+Total unique words: 209
+Total word occurrences: 371
 Total document words: 634
 
 | Word | Count | Document Concentration |
@@ -10,25 +10,22 @@ Total document words: 634
 | ai | 32 | 0.0505 |
 | services | 10 | 0.0158 |
 | middleware | 9 | 0.0142 |
-| net | 8 | 0.0126 |
 | caching | 6 | 0.0095 |
 | interfaces | 6 | 0.0095 |
 | patterns | 6 | 0.0095 |
 | service | 6 | 0.0095 |
 | like | 5 | 0.0079 |
 | microsoft | 5 | 0.0079 |
-| support | 5 | 0.0079 |
 | familiar | 4 | 0.0063 |
 | functionality | 4 | 0.0063 |
 | observability | 4 | 0.0063 |
 | provider | 4 | 0.0063 |
 | providers | 4 | 0.0063 |
-| without | 4 | 0.0063 |
 | allowing | 3 | 0.0047 |
 | architecture | 3 | 0.0047 |
 | capabilities | 3 | 0.0047 |
 | changes | 3 | 0.0047 |
-| code | 3 | 0.0047 |
+| chat | 3 | 0.0047 |
 | extensions | 3 | 0.0047 |
 | function | 3 | 0.0047 |
 | implement | 3 | 0.0047 |
@@ -42,7 +39,6 @@ Total document words: 634
 | adds | 2 | 0.0032 |
 | application | 2 | 0.0032 |
 | around | 2 | 0.0032 |
-| best | 2 | 0.0032 |
 | between | 2 | 0.0032 |
 | builder | 2 | 0.0032 |
 | built-in | 2 | 0.0032 |
@@ -52,7 +48,6 @@ Total document words: 634
 | cross-provider | 2 | 0.0032 |
 | design | 2 | 0.0032 |
 | different | 2 | 0.0032 |
-| direct | 2 | 0.0032 |
 | ecosystem | 2 | 0.0032 |
 | enables | 2 | 0.0032 |
 | enabling | 2 | 0.0032 |
@@ -67,11 +62,10 @@ Total document words: 634
 | layer | 2 | 0.0032 |
 | libraries | 2 | 0.0032 |
 | limiting | 2 | 0.0032 |
-| method | 2 | 0.0032 |
-| practices | 2 | 0.0032 |
 | preview | 2 | 0.0032 |
 | proper | 2 | 0.0032 |
 | rate | 2 | 0.0032 |
+| responses | 2 | 0.0032 |
 | seamlessly | 2 | 0.0032 |
 | semantic | 2 | 0.0032 |
 | standardized | 2 | 0.0032 |
@@ -84,6 +78,7 @@ Total document words: 634
 | uses | 2 | 0.0032 |
 | utilities | 2 | 0.0032 |
 | while | 2 | 0.0032 |
+| without | 2 | 0.0032 |
 | across | 1 | 0.0016 |
 | adapters | 1 | 0.0016 |
 | add | 1 | 0.0016 |
@@ -97,7 +92,6 @@ Total document words: 634
 | architectural | 1 | 0.0016 |
 | artificial | 1 | 0.0016 |
 | asp | 1 | 0.0016 |
-| automatic | 1 | 0.0016 |
 | basic | 1 | 0.0016 |
 | benefits | 1 | 0.0016 |
 | breaking | 1 | 0.0016 |
@@ -113,7 +107,6 @@ Total document words: 634
 | chatclientbuilder | 1 | 0.0016 |
 | clear | 1 | 0.0016 |
 | client | 1 | 0.0016 |
-| completion | 1 | 0.0016 |
 | components | 1 | 0.0016 |
 | composable | 1 | 0.0016 |
 | compose | 1 | 0.0016 |
@@ -141,7 +134,6 @@ Total document words: 634
 | developing | 1 | 0.0016 |
 | di | 1 | 0.0016 |
 | directly | 1 | 0.0016 |
-| documentation | 1 | 0.0016 |
 | effectiveness | 1 | 0.0016 |
 | ensure | 1 | 0.0016 |
 | essential | 1 | 0.0016 |
@@ -165,7 +157,6 @@ Total document words: 634
 | integrate | 1 | 0.0016 |
 | intelligence | 1 | 0.0016 |
 | interactions | 1 | 0.0016 |
-| interface | 1 | 0.0016 |
 | intersection | 1 | 0.0016 |
 | layered | 1 | 0.0016 |
 | layers | 1 | 0.0016 |
@@ -180,8 +171,6 @@ Total document words: 634
 | multi-turn | 1 | 0.0016 |
 | need | 1 | 0.0016 |
 | needs | 1 | 0.0016 |
-| options | 1 | 0.0016 |
-| order | 1 | 0.0016 |
 | output | 1 | 0.0016 |
 | overview | 1 | 0.0016 |
 | permissions | 1 | 0.0016 |
@@ -202,7 +191,6 @@ Total document words: 634
 | requiring | 1 | 0.0016 |
 | sdks | 1 | 0.0016 |
 | seamless | 1 | 0.0016 |
-| security | 1 | 0.0016 |
 | sensitivity | 1 | 0.0016 |
 | set | 1 | 0.0016 |
 | settings | 1 | 0.0016 |
@@ -211,6 +199,7 @@ Total document words: 634
 | similarity | 1 | 0.0016 |
 | sits | 1 | 0.0016 |
 | standardize | 1 | 0.0016 |
+| structured | 1 | 0.0016 |
 | switching | 1 | 0.0016 |
 | technology | 1 | 0.0016 |
 | test | 1 | 0.0016 |
@@ -226,5 +215,4 @@ Total document words: 634
 | usage | 1 | 0.0016 |
 | variations | 1 | 0.0016 |
 | vendor | 1 | 0.0016 |
-| work | 1 | 0.0016 |
 | write | 1 | 0.0016 |

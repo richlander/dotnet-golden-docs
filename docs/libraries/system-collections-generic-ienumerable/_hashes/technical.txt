@@ -1,0 +1,25 @@
+Title | IEnumerable and IEnumerable&lt;T&gt;
+API | Console.WriteLine
+API | Where
+API | Select
+API | ToList
+API | Count
+API | Sum
+API | Take
+API | Add
+API | Enumerable.Range
+API | GetNumbers
+API | O
+API | ToArray
+Keyword | deferred execution
+Keyword | ienumerable
+Keyword | sequences
+Keyword | use
+Keyword | need
+Keyword | iteration
+Keyword | multiple
+Keyword | enumeration
+Keyword | linq
+Keyword | gt
+Keyword | lt
+Keyword | side effects

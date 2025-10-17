@@ -10,15 +10,14 @@ Combined local and global scoring:
 |------|------|-------|-------------|-----------|-------------|-------|
 | trimming | single | 8 | 1.00x | 1.00x | 2.0x | 16.000 |
 | assembly trimming | compound | 3 | 1.50x | 1.50x | 2.0x | 13.500 |
-| analysis | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| deployment | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | reduced | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | test | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | desktop applications | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | library development | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | using assembly trimming | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
-| code | single | 7 | 1.00x | 1.00x | 1.0x | 7.000 |
 | framework integration | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| deployment | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| applications | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | build-time | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | disabled | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | faster | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -28,9 +27,8 @@ Combined local and global scoring:
 | trimmed | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | unused | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | application | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| applications | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| compile-time | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |
 | self-contained | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |
 | single-file | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |
 | startup | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| compile-time | compound | 2 | 1.00x | 1.50x | 1.0x | 3.000 |
-| support | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
+| code | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |

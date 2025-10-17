@@ -8,29 +8,23 @@ Combined local and global scoring:
 
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
+| command-line | compound | 6 | 1.00x | 1.50x | 2.0x | 18.000 |
 | system.commandline | compound | 4 | 1.50x | 1.50x | 2.0x | 18.000 |
-| command-line | compound | 6 | 1.00x | 1.50x | 1.5x | 13.500 |
-| parsing | single | 9 | 1.00x | 1.00x | 1.5x | 13.500 |
+| parsing | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
 | response files | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
-| options | single | 6 | 1.00x | 1.00x | 1.5x | 9.000 |
-| validation | single | 6 | 1.00x | 1.00x | 1.5x | 9.000 |
-| automatic | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | binding | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | commandline | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| handlers | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | help | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | hierarchies | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | option | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | use | single | 7 | 1.00x | 1.00x | 1.0x | 7.000 |
 | model binding | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | arguments | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| completion | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| commands | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | console | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | conventions | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | errors | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | expensive | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | subcommands | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| commands | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | complex | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | tools | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| support | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |

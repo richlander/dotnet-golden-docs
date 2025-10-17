@@ -15,13 +15,13 @@ Error | CS1729
 ErrorMessage | '{0}' does not contain a constructor that takes '{1}' arguments
 Keyword | collection expressions
 Keyword | collection initialization
-Keyword | syntax
 Keyword | target-typed new
 Keyword | collection types
-Keyword | collection initializer syntax
 Keyword | values
-Keyword | collections
+Keyword | syntax
+Keyword | collection initializer syntax
 Keyword | capacity
 Keyword | dictionaries
 Keyword | dictionary
 Keyword | elements
+Keyword | existing

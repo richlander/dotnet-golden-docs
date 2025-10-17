@@ -1,43 +1,37 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 123
-Total word occurrences: 195
+Total unique words: 106
+Total word occurrences: 163
 Total document words: 453
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | use | 9 | 0.0199 |
 | initializers | 7 | 0.0155 |
-| constructors | 5 | 0.0110 |
-| initialization | 5 | 0.0110 |
-| properties | 5 | 0.0110 |
 | constructor | 4 | 0.0088 |
 | immutable | 4 | 0.0088 |
 | patterns | 4 | 0.0088 |
 | records | 4 | 0.0088 |
-| required | 4 | 0.0088 |
+| constructors | 3 | 0.0066 |
 | during | 3 | 0.0066 |
 | init-only | 3 | 0.0066 |
+| initialization | 3 | 0.0066 |
 | initialize | 3 | 0.0066 |
 | known | 3 | 0.0066 |
 | nested | 3 | 0.0066 |
+| object | 3 | 0.0066 |
 | setting | 3 | 0.0066 |
-| syntax | 3 | 0.0066 |
 | after | 2 | 0.0044 |
 | capacity | 2 | 0.0044 |
-| code | 2 | 0.0044 |
 | combine | 2 | 0.0044 |
 | construction | 2 | 0.0044 |
 | deconstruction | 2 | 0.0044 |
-| handle | 2 | 0.0044 |
 | initialized | 2 | 0.0044 |
-| linq | 2 | 0.0044 |
 | optional | 2 | 0.0044 |
 | pre-size | 2 | 0.0044 |
 | prefer | 2 | 0.0044 |
 | projections | 2 | 0.0044 |
-| property | 2 | 0.0044 |
 | provide | 2 | 0.0044 |
 | set | 2 | 0.0044 |
 | setters | 2 | 0.0044 |
@@ -47,7 +41,6 @@ Total document words: 453
 | automatically | 1 | 0.0022 |
 | avoid | 1 | 0.0022 |
 | basic | 1 | 0.0022 |
-| best | 1 | 0.0022 |
 | builder | 1 | 0.0022 |
 | builders | 1 | 0.0022 |
 | calls | 1 | 0.0022 |
@@ -92,16 +85,13 @@ Total document words: 453
 | makes | 1 | 0.0022 |
 | mark | 1 | 0.0022 |
 | match | 1 | 0.0022 |
-| matching | 1 | 0.0022 |
 | matters | 1 | 0.0022 |
 | modern | 1 | 0.0022 |
 | need | 1 | 0.0022 |
 | once | 1 | 0.0022 |
 | overloads | 1 | 0.0022 |
 | overview | 1 | 0.0022 |
-| parameters | 1 | 0.0022 |
 | pitfalls | 1 | 0.0022 |
-| practices | 1 | 0.0022 |
 | primary | 1 | 0.0022 |
 | problem | 1 | 0.0022 |
 | proliferation | 1 | 0.0022 |
@@ -109,7 +99,6 @@ Total document words: 453
 | rather | 1 | 0.0022 |
 | ready | 1 | 0.0022 |
 | reduced | 1 | 0.0022 |
-| return | 1 | 0.0022 |
 | runs | 1 | 0.0022 |
 | satisfies | 1 | 0.0022 |
 | self-documenting | 1 | 0.0022 |
@@ -119,14 +108,8 @@ Total document words: 453
 | since | 1 | 0.0022 |
 | solves | 1 | 0.0022 |
 | special | 1 | 0.0022 |
-| statements | 1 | 0.0022 |
-| support | 1 | 0.0022 |
-| temporary | 1 | 0.0022 |
 | their | 1 | 0.0022 |
 | them | 1 | 0.0022 |
 | validate | 1 | 0.0022 |
-| validation | 1 | 0.0022 |
 | validity | 1 | 0.0022 |
 | within | 1 | 0.0022 |
-| without | 1 | 0.0022 |
-| work | 1 | 0.0022 |

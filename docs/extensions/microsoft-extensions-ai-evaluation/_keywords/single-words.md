@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 213
-Total word occurrences: 383
+Total unique words: 198
+Total word occurrences: 368
 Total document words: 595
 
 | Word | Count | Document Concentration |
@@ -21,6 +21,7 @@ Total document words: 595
 | caching | 4 | 0.0067 |
 | content | 4 | 0.0067 |
 | llm-based | 4 | 0.0067 |
+| responses | 4 | 0.0067 |
 | vs | 4 | 0.0067 |
 | cd | 3 | 0.0050 |
 | ci | 3 | 0.0050 |
@@ -30,7 +31,6 @@ Total document words: 595
 | evaluations | 3 | 0.0050 |
 | foundry | 3 | 0.0050 |
 | provides | 3 | 0.0050 |
-| safety | 3 | 0.0050 |
 | testing | 3 | 0.0050 |
 | through | 3 | 0.0050 |
 | use | 3 | 0.0050 |
@@ -39,7 +39,6 @@ Total document words: 595
 | across | 2 | 0.0034 |
 | ai-generated | 2 | 0.0034 |
 | allowing | 2 | 0.0034 |
-| analysis | 2 | 0.0034 |
 | architecture | 2 | 0.0034 |
 | assessment | 2 | 0.0034 |
 | audit | 2 | 0.0034 |
@@ -86,7 +85,6 @@ Total document words: 595
 | basic | 1 | 0.0017 |
 | behavior | 1 | 0.0017 |
 | benefits | 1 | 0.0017 |
-| best | 1 | 0.0017 |
 | bleu | 1 | 0.0017 |
 | both | 1 | 0.0017 |
 | builder | 1 | 0.0017 |
@@ -105,10 +103,7 @@ Total document words: 595
 | cover | 1 | 0.0017 |
 | currently | 1 | 0.0017 |
 | detecting | 1 | 0.0017 |
-| detection | 1 | 0.0017 |
-| developer | 1 | 0.0017 |
 | developing | 1 | 0.0017 |
-| direct | 1 | 0.0017 |
 | domain-specific | 1 | 0.0017 |
 | enables | 1 | 0.0017 |
 | enabling | 1 | 0.0017 |
@@ -140,9 +135,7 @@ Total document words: 595
 | individual | 1 | 0.0017 |
 | instantiation | 1 | 0.0017 |
 | integrate | 1 | 0.0017 |
-| integration | 1 | 0.0017 |
 | intelligent | 1 | 0.0017 |
-| interface | 1 | 0.0017 |
 | intersection | 1 | 0.0017 |
 | into | 1 | 0.0017 |
 | key | 1 | 0.0017 |
@@ -158,13 +151,11 @@ Total document words: 595
 | modern | 1 | 0.0017 |
 | multi-dimensional | 1 | 0.0017 |
 | multi-evaluator | 1 | 0.0017 |
-| natural | 1 | 0.0017 |
 | necessary | 1 | 0.0017 |
 | needed | 1 | 0.0017 |
 | nlp-based | 1 | 0.0017 |
 | ones | 1 | 0.0017 |
 | optimize | 1 | 0.0017 |
-| options | 1 | 0.0017 |
 | overview | 1 | 0.0017 |
 | packages | 1 | 0.0017 |
 | parallel | 1 | 0.0017 |
@@ -173,9 +164,7 @@ Total document words: 595
 | planning | 1 | 0.0017 |
 | positioning | 1 | 0.0017 |
 | potential | 1 | 0.0017 |
-| practices | 1 | 0.0017 |
 | process | 1 | 0.0017 |
-| processing | 1 | 0.0017 |
 | production-ready | 1 | 0.0017 |
 | productivity | 1 | 0.0017 |
 | proper | 1 | 0.0017 |
@@ -192,7 +181,6 @@ Total document words: 595
 | robust | 1 | 0.0017 |
 | scoring | 1 | 0.0017 |
 | seamlessly | 1 | 0.0017 |
-| security | 1 | 0.0017 |
 | separate | 1 | 0.0017 |
 | service | 1 | 0.0017 |
 | set | 1 | 0.0017 |
@@ -205,8 +193,6 @@ Total document words: 595
 | strategies | 1 | 0.0017 |
 | strategy | 1 | 0.0017 |
 | strongly-typed | 1 | 0.0017 |
-| support | 1 | 0.0017 |
-| synchronous | 1 | 0.0017 |
 | systematic | 1 | 0.0017 |
 | technology | 1 | 0.0017 |
 | thresholds | 1 | 0.0017 |
@@ -218,5 +204,4 @@ Total document words: 595
 | unit | 1 | 0.0017 |
 | updates | 1 | 0.0017 |
 | vulnerabilities | 1 | 0.0017 |
-| without | 1 | 0.0017 |
 | works | 1 | 0.0017 |

@@ -1,34 +1,31 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 152
-Total word occurrences: 228
+Total unique words: 146
+Total word occurrences: 213
 Total document words: 511
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | runtime | 8 | 0.0157 |
-| code | 6 | 0.0117 |
 | compile-time | 6 | 0.0117 |
 | use | 5 | 0.0098 |
 | attributes | 4 | 0.0078 |
-| serialization | 4 | 0.0078 |
+| responses | 4 | 0.0078 |
 | utf-8 | 4 | 0.0078 |
 | aot-compatible | 3 | 0.0059 |
-| apis | 3 | 0.0059 |
 | asp | 3 | 0.0059 |
+| code | 3 | 0.0059 |
 | mandatory | 3 | 0.0059 |
-| overhead | 3 | 0.0059 |
 | reflection-based | 3 | 0.0059 |
 | startup | 3 | 0.0059 |
 | system | 3 | 0.0059 |
 | text | 3 | 0.0059 |
 | always | 2 | 0.0039 |
 | application | 2 | 0.0039 |
-| automatic | 2 | 0.0039 |
 | avoid | 2 | 0.0039 |
 | cannot | 2 | 0.0039 |
-| compiler | 2 | 0.0039 |
+| chat | 2 | 0.0039 |
 | configure | 2 | 0.0039 |
 | deployments | 2 | 0.0039 |
 | eliminating | 2 | 0.0039 |
@@ -42,12 +39,11 @@ Total document words: 511
 | key | 2 | 0.0039 |
 | libraries | 2 | 0.0039 |
 | microsoft | 2 | 0.0039 |
-| options | 2 | 0.0039 |
 | overloads | 2 | 0.0039 |
-| parameter | 2 | 0.0039 |
 | pass | 2 | 0.0039 |
 | policy | 2 | 0.0039 |
 | publishing | 2 | 0.0039 |
+| structured | 2 | 0.0039 |
 | warnings | 2 | 0.0039 |
 | working | 2 | 0.0039 |
 | works | 2 | 0.0039 |
@@ -57,7 +53,6 @@ Total document words: 511
 | adds | 1 | 0.0020 |
 | ahead-of-time | 1 | 0.0020 |
 | ai | 1 | 0.0020 |
-| analysis | 1 | 0.0020 |
 | applies | 1 | 0.0020 |
 | approach | 1 | 0.0020 |
 | automatically | 1 | 0.0020 |
@@ -111,11 +106,11 @@ Total document words: 511
 | lowering | 1 | 0.0020 |
 | making | 1 | 0.0020 |
 | manual | 1 | 0.0020 |
-| matching | 1 | 0.0020 |
 | need | 1 | 0.0020 |
 | nested | 1 | 0.0020 |
 | no | 1 | 0.0020 |
 | optimized | 1 | 0.0020 |
+| overhead | 1 | 0.0020 |
 | override | 1 | 0.0020 |
 | overview | 1 | 0.0020 |
 | predictable | 1 | 0.0020 |
@@ -158,4 +153,3 @@ Total document words: 511
 | used | 1 | 0.0020 |
 | uses | 1 | 0.0020 |
 | validate | 1 | 0.0020 |
-| without | 1 | 0.0020 |

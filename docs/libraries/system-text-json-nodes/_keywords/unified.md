@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 12 compound terms and 209 single words
-Total unique terms: 217
-Terms with score ≥ 3.0: 45
-Total term occurrences: 427
+Combined 12 compound terms and 200 single words
+Total unique terms: 208
+Terms with score ≥ 3.0: 42
+Total term occurrences: 390
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,14 +14,13 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| json | single | 32 | 1.00x | 1.00x | 32.0 |
+| json | single | 20 | 1.00x | 1.00x | 20.0 |
 | system.text.json.nodes | compound | 6 | 1.50x | 1.50x | 13.5 |
 | strongly-typed | compound | 7 | 1.25x | 1.50x | 13.1 |
 | json documents | compound | 6 | 1.25x | 1.50x | 11.2 |
 | nodes | single | 10 | 1.00x | 1.00x | 10.0 |
 | runtime | single | 10 | 1.00x | 1.00x | 10.0 |
 | read-only | compound | 6 | 1.00x | 1.50x | 9.0 |
-| access | single | 7 | 1.00x | 1.00x | 7.0 |
 | use | single | 7 | 1.00x | 1.00x | 7.0 |
 | type safety | compound | 4 | 1.10x | 1.50x | 6.6 |
 | compile-time | compound | 4 | 1.00x | 1.50x | 6.0 |
@@ -35,20 +34,17 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | parse | single | 5 | 1.00x | 1.00x | 5.0 |
 | provides | single | 5 | 1.00x | 1.00x | 5.0 |
 | values | single | 5 | 1.00x | 1.00x | 5.0 |
-| without | single | 5 | 1.00x | 1.00x | 5.0 |
 | type-safe | compound | 3 | 1.00x | 1.50x | 4.5 |
 | indexer | single | 4 | 1.00x | 1.00x | 4.0 |
 | merging | single | 4 | 1.00x | 1.00x | 4.0 |
 | modify | single | 4 | 1.00x | 1.00x | 4.0 |
 | mutable | single | 4 | 1.00x | 1.00x | 4.0 |
-| property | single | 4 | 1.00x | 1.00x | 4.0 |
 | structure | single | 4 | 1.00x | 1.00x | 4.0 |
 | system | single | 4 | 1.00x | 1.00x | 4.0 |
 | unknown | single | 4 | 1.00x | 1.00x | 4.0 |
 | building json | compound | 2 | 1.25x | 1.50x | 3.8 |
 | json proxy middleware | compound | 2 | 1.25x | 1.50x | 3.8 |
 | reading values | compound | 2 | 1.25x | 1.50x | 3.8 |
-| code | single | 3 | 1.00x | 1.00x | 3.0 |
 | construction | single | 3 | 1.00x | 1.00x | 3.0 |
 | document object model | compound | 2 | 1.00x | 1.50x | 3.0 |
 | dom | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -59,3 +55,4 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | sources | single | 3 | 1.00x | 1.00x | 3.0 |
 | structures | single | 3 | 1.00x | 1.00x | 3.0 |
 | tree | single | 3 | 1.00x | 1.00x | 3.0 |
+| without | single | 3 | 1.00x | 1.00x | 3.0 |

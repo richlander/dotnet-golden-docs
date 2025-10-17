@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 10 compound terms and 213 single words
-Total unique terms: 221
+Combined 10 compound terms and 198 single words
+Total unique terms: 206
 Terms with score ≥ 3.0: 37
-Total term occurrences: 402
+Total term occurrences: 387
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -29,6 +29,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | assurance | single | 4 | 1.00x | 1.00x | 4.0 |
 | caching | single | 4 | 1.00x | 1.00x | 4.0 |
 | content | single | 4 | 1.00x | 1.00x | 4.0 |
+| responses | single | 4 | 1.00x | 1.00x | 4.0 |
 | vs | single | 4 | 1.00x | 1.00x | 4.0 |
 | automated quality | compound | 2 | 1.25x | 1.50x | 3.8 |
 | automated quality gates | compound | 2 | 1.25x | 1.50x | 3.8 |
@@ -46,7 +47,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | evaluations | single | 3 | 1.00x | 1.00x | 3.0 |
 | foundry | single | 3 | 1.00x | 1.00x | 3.0 |
 | provides | single | 3 | 1.00x | 1.00x | 3.0 |
-| safety | single | 3 | 1.00x | 1.00x | 3.0 |
 | testing | single | 3 | 1.00x | 1.00x | 3.0 |
 | through | single | 3 | 1.00x | 1.00x | 3.0 |
 | use | single | 3 | 1.00x | 1.00x | 3.0 |

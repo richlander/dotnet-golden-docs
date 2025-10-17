@@ -92,16 +92,16 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 |----------|----------|------------|
 | extensions | extensions/microsoft-extensions-ai | 0.8279 |
 | dotnet | dotnet | 0.6825 |
-| libraries | libraries/system-text-json | 0.6546 |
+| libraries | libraries/system-text-json | 0.6529 |
 | libraries | libraries | 0.6506 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6445 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6424 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.6371 |
 | csharp | csharp/csharp-14-features | 0.6285 |
 | libraries | libraries/system-text-json-jsonserializer | 0.6204 |
 | libraries | libraries/system-text-json-source-generation | 0.6188 |
 | cli | cli/native-aot | 0.6161 |
 | cli | cli | 0.6142 |
-| cli | cli/file-based-apps | 0.6092 |
 
 ## Critical limitations
 
@@ -131,3 +131,21 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 - Not configuring proper evaluation thresholds for quality gates
 - Missing evaluation data persistence for audit and compliance
 - Evaluating without proper test data management and versioning
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 8
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.689 |
+| 1 | Basic Quality Evaluation Setup | 0.689 | 1.000 |
+| 2 | Batch Evaluation with Reporting | 0.653 | 0.648 |
+| 3 | Custom Evaluator Implementation | 0.630 | 0.608 |
+| 4 | Fluent Builder vs Direct Instantiation | 0.608 | 0.600 |
+| 5 | Performance Optimization | 0.583 | 0.580 |
+| 6 | Configuration Management | 0.576 | 0.572 |
+| 7 | Cost Considerations | 0.629 | 0.616 |

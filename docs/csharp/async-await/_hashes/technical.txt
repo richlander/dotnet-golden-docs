@@ -1,0 +1,25 @@
+Title | Async and Await
+API | FetchDataAsync
+API | Console.WriteLine
+API | HttpClient
+API | Task.Delay
+API | ConfigureAwait
+API | GetDataAsync
+API | GetStringAsync
+API | Task.Run
+API | CalculateAsync
+API | LoadDataAsync
+API | ProcessDataAsync
+API | SaveDataAsync
+Keyword | async
+Keyword | use
+Keyword | async operations
+Keyword | await
+Keyword | operations
+Keyword | task
+Keyword | async methods
+Keyword | considerations
+Keyword | async code
+Keyword | avoid
+Keyword | code
+Keyword | threads

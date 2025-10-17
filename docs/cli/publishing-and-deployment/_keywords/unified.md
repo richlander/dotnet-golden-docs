@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 11 compound terms and 162 single words
-Total unique terms: 165
-Terms with score ≥ 3.0: 35
-Total term occurrences: 342
+Combined 11 compound terms and 152 single words
+Total unique terms: 155
+Terms with score ≥ 3.0: 34
+Total term occurrences: 329
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -25,13 +25,13 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | benefits | single | 6 | 1.00x | 1.00x | 6.0 |
 | case | single | 6 | 1.00x | 1.00x | 6.0 |
 | readytorun | single | 6 | 1.00x | 1.00x | 6.0 |
-| size | single | 6 | 1.00x | 1.00x | 6.0 |
 | use | single | 6 | 1.00x | 1.00x | 6.0 |
 | compilation | single | 5 | 1.00x | 1.00x | 5.0 |
 | container deployment | compound | 3 | 1.10x | 1.50x | 5.0 |
 | single-file | compound | 3 | 1.10x | 1.50x | 5.0 |
 | distribution | single | 4 | 1.00x | 1.00x | 4.0 |
 | no | single | 4 | 1.00x | 1.00x | 4.0 |
+| size | single | 4 | 1.00x | 1.00x | 4.0 |
 | deployment scenarios | compound | 2 | 1.25x | 1.50x | 3.8 |
 | cross-platform | compound | 2 | 1.10x | 1.50x | 3.3 |
 | application | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -45,7 +45,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | larger | single | 3 | 1.00x | 1.00x | 3.0 |
 | minimal | single | 3 | 1.00x | 1.00x | 3.0 |
 | optimized | single | 3 | 1.00x | 1.00x | 3.0 |
-| security | single | 3 | 1.00x | 1.00x | 3.0 |
 | shared | single | 3 | 1.00x | 1.00x | 3.0 |
 | trade-offs | compound | 2 | 1.00x | 1.50x | 3.0 |
 | updates | single | 3 | 1.00x | 1.00x | 3.0 |

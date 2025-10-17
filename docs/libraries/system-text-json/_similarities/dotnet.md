@@ -1,3 +1,3 @@
 | Topic (libraries) | Neighbor (dotnet) | Similarity |
 |-------------|-------------------|------------|
-| libraries/system-text-json | dotnet | 0.7318 |
+| libraries/system-text-json | dotnet | 0.7382 |

@@ -1,13 +1,13 @@
 Title | CLI
 Keyword | cli
+Keyword | package
 Keyword | development
 Keyword | tools
-Keyword | package
-Keyword | global
-Keyword | builds
 Keyword | commands
+Keyword | global
+Keyword | command-line
+Keyword | builds
 Keyword | across
 Keyword | projects
-Keyword | command-line
 Keyword | consistent
 Keyword | sdk

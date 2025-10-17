@@ -60,10 +60,10 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | resilience | 25.00 |
 | http | 9.00 |
 | communication | 7.00 |
+| standard | 7.00 |
 | microsoft.extensions.http.resilience | 3.00 |
 | monitoring | 6.00 |
 | strategies | 6.00 |
-| standard | 7.00 |
 | built | 5.00 |
 | circuit | 5.00 |
 | httpclient | 5.00 |
@@ -92,15 +92,15 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | extensions | extensions/microsoft-extensions-ai | 0.6811 |
 | libraries | libraries | 0.6457 |
 | extensions | extensions/microsoft-extensions-ai-evaluation | 0.6424 |
-| libraries | libraries/system-text-json | 0.6310 |
+| libraries | libraries/system-threading-tasks-task | 0.6273 |
 | dotnet | dotnet | 0.6271 |
+| libraries | libraries/system-text-json | 0.6259 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6244 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.6177 |
 | cli | cli/publishing-and-deployment | 0.6171 |
+| libraries | libraries/json-validation-security | 0.6161 |
 | csharp | csharp/csharp-14-features | 0.6045 |
 | cli | cli/assembly-trimming | 0.6045 |
-| cli | cli/build-and-compilation | 0.5987 |
-| libraries | libraries/system-text-json-jsonserializer | 0.5962 |
-| cli | cli | 0.5916 |
 
 ## Critical limitations
 
@@ -130,3 +130,19 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 - Not monitoring circuit breaker state and resilience metrics
 - Applying same resilience configuration to all HTTP clients regardless of characteristics
 - Ignoring compatibility requirements with other frameworks
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 6
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.727 |
+| 1 | Custom Resilience Pipeline | 0.727 | 1.000 |
+| 2 | Resilience with Custom Logic | 0.634 | 0.709 |
+| 3 | External API Integration with Fallbacks | 0.634 | 0.669 |
+| 4 | Observability and Monitoring | 0.588 | 0.598 |
+| 5 | Circuit Breaker State Management | 0.615 | 0.607 |

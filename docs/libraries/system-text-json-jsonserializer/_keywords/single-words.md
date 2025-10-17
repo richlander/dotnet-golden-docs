@@ -1,44 +1,34 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 308
-Total word occurrences: 557
+Total unique words: 285
+Total word occurrences: 471
 Total document words: 1013
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| json | 24 | 0.0237 |
-| serialization | 16 | 0.0158 |
 | deserialization | 13 | 0.0128 |
+| json | 12 | 0.0118 |
 | use | 11 | 0.0109 |
+| serialization | 10 | 0.0099 |
 | jsonserializer | 9 | 0.0089 |
 | serialize | 8 | 0.0079 |
 | control | 7 | 0.0069 |
 | system | 6 | 0.0059 |
-| code | 5 | 0.0049 |
-| default | 5 | 0.0049 |
 | during | 5 | 0.0049 |
-| net | 5 | 0.0049 |
-| options | 5 | 0.0049 |
 | output | 5 | 0.0049 |
-| property | 5 | 0.0049 |
 | text | 5 | 0.0049 |
-| apis | 4 | 0.0039 |
 | asp | 4 | 0.0039 |
 | compile-time | 4 | 0.0039 |
 | constructor | 4 | 0.0039 |
 | customization | 4 | 0.0039 |
 | deserialize | 4 | 0.0039 |
-| handle | 4 | 0.0039 |
 | logic | 4 | 0.0039 |
 | names | 4 | 0.0039 |
-| operations | 4 | 0.0039 |
-| overhead | 4 | 0.0039 |
 | utf-8 | 4 | 0.0039 |
 | after | 3 | 0.0030 |
 | annotations | 3 | 0.0030 |
 | api | 3 | 0.0030 |
-| async | 3 | 0.0030 |
 | behavior | 3 | 0.0030 |
 | configure | 3 | 0.0030 |
 | deserializing | 3 | 0.0030 |
@@ -48,8 +38,6 @@ Total document words: 1013
 | instead | 3 | 0.0030 |
 | jsonserializeroptions | 3 | 0.0030 |
 | maximum | 3 | 0.0030 |
-| nullable | 3 | 0.0030 |
-| parsing | 3 | 0.0030 |
 | prevent | 3 | 0.0030 |
 | reflection-based | 3 | 0.0030 |
 | runtime | 3 | 0.0030 |
@@ -58,12 +46,11 @@ Total document words: 1013
 | strings | 3 | 0.0030 |
 | values | 3 | 0.0030 |
 | web | 3 | 0.0030 |
-| without | 3 | 0.0030 |
 | adds | 2 | 0.0020 |
 | alternative | 2 | 0.0020 |
 | basic | 2 | 0.0020 |
 | both | 2 | 0.0020 |
-| constructors | 2 | 0.0020 |
+| code | 2 | 0.0020 |
 | contains | 2 | 0.0020 |
 | contracts | 2 | 0.0020 |
 | conventions | 2 | 0.0020 |
@@ -74,12 +61,11 @@ Total document words: 1013
 | dictionaries | 2 | 0.0020 |
 | discovers | 2 | 0.0020 |
 | discriminators | 2 | 0.0020 |
-| duplicate | 2 | 0.0020 |
 | enable | 2 | 0.0020 |
 | enum | 2 | 0.0020 |
 | enums | 2 | 0.0020 |
 | formatted | 2 | 0.0020 |
-| handling | 2 | 0.0020 |
+| handle | 2 | 0.0020 |
 | hierarchies | 2 | 0.0020 |
 | immutable | 2 | 0.0020 |
 | include | 2 | 0.0020 |
@@ -88,15 +74,12 @@ Total document words: 1013
 | instances | 2 | 0.0020 |
 | key | 2 | 0.0020 |
 | lists | 2 | 0.0020 |
-| matching | 2 | 0.0020 |
 | mode | 2 | 0.0020 |
 | modes | 2 | 0.0020 |
 | null | 2 | 0.0020 |
 | number | 2 | 0.0020 |
 | numbers | 2 | 0.0020 |
-| order | 2 | 0.0020 |
-| parameter | 2 | 0.0020 |
-| parameters | 2 | 0.0020 |
+| overhead | 2 | 0.0020 |
 | polymorphic | 2 | 0.0020 |
 | provides | 2 | 0.0020 |
 | records | 2 | 0.0020 |
@@ -104,7 +87,6 @@ Total document words: 1013
 | schema | 2 | 0.0020 |
 | serialized | 2 | 0.0020 |
 | specify | 2 | 0.0020 |
-| support | 2 | 0.0020 |
 | supports | 2 | 0.0020 |
 | accepts | 1 | 0.0010 |
 | accidental | 1 | 0.0010 |
@@ -112,9 +94,9 @@ Total document words: 1013
 | adding | 1 | 0.0010 |
 | advanced | 1 | 0.0010 |
 | allowing | 1 | 0.0010 |
+| apis | 1 | 0.0010 |
 | apply | 1 | 0.0010 |
 | appsettings | 1 | 0.0010 |
-| array | 1 | 0.0010 |
 | asynchronously | 1 | 0.0010 |
 | attributes | 1 | 0.0010 |
 | avoid | 1 | 0.0010 |
@@ -124,7 +106,6 @@ Total document words: 1013
 | benefit | 1 | 0.0010 |
 | better | 1 | 0.0010 |
 | between | 1 | 0.0010 |
-| blocking | 1 | 0.0010 |
 | buffer | 1 | 0.0010 |
 | byte | 1 | 0.0010 |
 | callbacks | 1 | 0.0010 |
@@ -138,7 +119,6 @@ Total document words: 1013
 | characteristics | 1 | 0.0010 |
 | checking | 1 | 0.0010 |
 | combine | 1 | 0.0010 |
-| comments | 1 | 0.0010 |
 | complexity | 1 | 0.0010 |
 | concepts | 1 | 0.0010 |
 | configuration | 1 | 0.0010 |
@@ -153,14 +133,13 @@ Total document words: 1013
 | datetime | 1 | 0.0010 |
 | datetimeoffset | 1 | 0.0010 |
 | deeply | 1 | 0.0010 |
+| default | 1 | 0.0010 |
 | depth | 1 | 0.0010 |
 | different | 1 | 0.0010 |
 | differing | 1 | 0.0010 |
-| direct | 1 | 0.0010 |
 | directly | 1 | 0.0010 |
 | disabling | 1 | 0.0010 |
 | discovery | 1 | 0.0010 |
-| documentation | 1 | 0.0010 |
 | documenting | 1 | 0.0010 |
 | does | 1 | 0.0010 |
 | efficiently | 1 | 0.0010 |
@@ -235,6 +214,7 @@ Total document words: 1013
 | openapi | 1 | 0.0010 |
 | operates | 1 | 0.0010 |
 | operation | 1 | 0.0010 |
+| options | 1 | 0.0010 |
 | ordering | 1 | 0.0010 |
 | out-of-order | 1 | 0.0010 |
 | overflow | 1 | 0.0010 |
@@ -242,9 +222,9 @@ Total document words: 1013
 | overview | 1 | 0.0010 |
 | parameterless | 1 | 0.0010 |
 | parse | 1 | 0.0010 |
+| parsing | 1 | 0.0010 |
 | pass | 1 | 0.0010 |
 | payloads | 1 | 0.0010 |
-| per | 1 | 0.0010 |
 | performance-critical | 1 | 0.0010 |
 | pipelines | 1 | 0.0010 |
 | pipereader | 1 | 0.0010 |
@@ -260,7 +240,6 @@ Total document words: 1013
 | quick | 1 | 0.0010 |
 | read-only | 1 | 0.0010 |
 | readonlymemory | 1 | 0.0010 |
-| reference | 1 | 0.0010 |
 | related | 1 | 0.0010 |
 | relatively | 1 | 0.0010 |
 | relaxed | 1 | 0.0010 |
@@ -287,16 +266,13 @@ Total document words: 1013
 | specialized | 1 | 0.0010 |
 | specifications | 1 | 0.0010 |
 | start | 1 | 0.0010 |
-| static | 1 | 0.0010 |
 | stream-based | 1 | 0.0010 |
 | streams | 1 | 0.0010 |
 | string-based | 1 | 0.0010 |
 | strongly-typed | 1 | 0.0010 |
 | surface | 1 | 0.0010 |
-| synchronous | 1 | 0.0010 |
 | systems | 1 | 0.0010 |
 | them | 1 | 0.0010 |
-| thread | 1 | 0.0010 |
 | threads | 1 | 0.0010 |
 | through | 1 | 0.0010 |
 | top | 1 | 0.0010 |
@@ -312,6 +288,7 @@ Total document words: 1013
 | utf8jsonreader | 1 | 0.0010 |
 | utf8jsonwriter | 1 | 0.0010 |
 | whitespace-separated | 1 | 0.0010 |
+| without | 1 | 0.0010 |
 | working | 1 | 0.0010 |
 | works | 1 | 0.0010 |
 | write | 1 | 0.0010 |

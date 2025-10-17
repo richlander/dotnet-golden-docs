@@ -20,7 +20,7 @@
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 13139692957975577396
+      "fingerprint": 13139693507731391284
     }
   },
   "keywords": [
@@ -33,7 +33,15 @@
       "score": 5
     },
     {
+      "name": "ci",
+      "score": 4
+    },
+    {
       "name": "build acceleration",
+      "score": 2
+    },
+    {
+      "name": "performance optimization",
       "score": 2
     },
     {
@@ -49,15 +57,11 @@
       "score": 2
     },
     {
-      "name": "ci",
-      "score": 4
-    },
-    {
-      "name": "analysis",
+      "name": "builds",
       "score": 3
     },
     {
-      "name": "builds",
+      "name": "commands",
       "score": 3
     },
     {
@@ -67,10 +71,6 @@
     {
       "name": "workflows",
       "score": 3
-    },
-    {
-      "name": "performance optimization",
-      "score": 2
     }
   ],
   "apis": null,
@@ -166,12 +166,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
           }
         }
       },
@@ -188,12 +188,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13031609950279271226
+            "fingerprint": 13027106350651900730
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603784469680882044
+            "fingerprint": 17603786118948323708
           }
         }
       },
@@ -205,12 +205,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
           }
         }
       },
@@ -237,6 +237,23 @@
         }
       },
       {
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.6449,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135792371890684214
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
         "href": "/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.6385,
@@ -244,12 +261,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3772209114392757042
+            "fingerprint": 13140259840106365750
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12990971914609426736
+            "fingerprint": 12995581704090288436
           }
         }
       },
@@ -278,7 +295,7 @@
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.6227,
+        "similarity": 0.6184,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -296,31 +313,92 @@
             "fingerprint": 13172382621933396857
           }
         }
-      },
-      {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
-        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
-        "similarity": 0.6163,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 614095243011328414
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12974224274836293980
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 6,
+        "baseline_conceptual": 0,
+        "baseline_technical": 3,
+        "stripe_order": [
+          4,
+          5,
+          3,
+          2,
+          1
+        ],
+        "stripe_order_technical": [
+          5,
+          2,
+          4,
+          1,
+          0
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.555,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Parallel Build Configuration",
+            "is_code": true,
+            "similarity_conceptual": 0.531,
+            "similarity_technical": 0.606,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Build Artifact Management",
+            "is_code": true,
+            "similarity_conceptual": 0.536,
+            "similarity_technical": 0.647,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Advanced Build Configuration",
+            "is_code": false,
+            "similarity_conceptual": 0.555,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "NuGet Package Management",
+            "is_code": false,
+            "similarity_conceptual": 0.598,
+            "similarity_technical": 0.632,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Build Performance Analysis",
+            "is_code": true,
+            "similarity_conceptual": 0.588,
+            "similarity_technical": 0.68,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.5776467Z",
+    "generated": "2025-10-17T20:16:12.2919370Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

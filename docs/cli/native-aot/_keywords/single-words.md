@@ -1,16 +1,16 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 226
-Total word occurrences: 309
+Total unique words: 210
+Total word occurrences: 280
 Total document words: 611
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | runtime | 11 | 0.0180 |
 | compilation | 9 | 0.0147 |
-| code | 7 | 0.0115 |
 | no | 6 | 0.0098 |
+| code | 4 | 0.0065 |
 | jit | 4 | 0.0065 |
 | reflection-based | 4 | 0.0065 |
 | supported | 4 | 0.0065 |
@@ -18,7 +18,6 @@ Total document words: 611
 | self-contained | 3 | 0.0049 |
 | smaller | 3 | 0.0049 |
 | startup | 3 | 0.0049 |
-| without | 3 | 0.0049 |
 | always | 2 | 0.0033 |
 | arm64 | 2 | 0.0033 |
 | available | 2 | 0.0033 |
@@ -33,29 +32,20 @@ Total document words: 611
 | limitations | 2 | 0.0033 |
 | limited | 2 | 0.0033 |
 | linux | 2 | 0.0033 |
-| machine | 2 | 0.0033 |
-| matching | 2 | 0.0033 |
-| method | 2 | 0.0033 |
 | needs | 2 | 0.0033 |
-| net | 2 | 0.0033 |
 | prohibited | 2 | 0.0033 |
 | publishing | 2 | 0.0033 |
 | reduced | 2 | 0.0033 |
 | requirements | 2 | 0.0033 |
 | see | 2 | 0.0033 |
-| serialization | 2 | 0.0033 |
 | setup | 2 | 0.0033 |
 | single-file | 2 | 0.0033 |
-| support | 2 | 0.0033 |
 | system | 2 | 0.0033 |
 | toolchain | 2 | 0.0033 |
 | usage | 2 | 0.0033 |
 | use | 2 | 0.0033 |
 | warnings | 2 | 0.0033 |
-| windows | 2 | 0.0033 |
-| work | 2 | 0.0033 |
 | ahead-of-time | 1 | 0.0016 |
-| analysis | 1 | 0.0016 |
 | analyzable | 1 | 0.0016 |
 | analyzers | 1 | 0.0016 |
 | android | 1 | 0.0016 |
@@ -72,7 +62,6 @@ Total document words: 611
 | benefits | 1 | 0.0016 |
 | built-in | 1 | 0.0016 |
 | check | 1 | 0.0016 |
-| classes | 1 | 0.0016 |
 | cold | 1 | 0.0016 |
 | com | 1 | 0.0016 |
 | combinations | 1 | 0.0016 |
@@ -111,12 +100,9 @@ Total document words: 611
 | every | 1 | 0.0016 |
 | example | 1 | 0.0016 |
 | examples | 1 | 0.0016 |
-| exception | 1 | 0.0016 |
-| exceptions | 1 | 0.0016 |
 | executables | 1 | 0.0016 |
 | experience | 1 | 0.0016 |
 | failures | 1 | 0.0016 |
-| fast | 1 | 0.0016 |
 | file-based | 1 | 0.0016 |
 | first-run | 1 | 0.0016 |
 | footprint | 1 | 0.0016 |
@@ -146,7 +132,6 @@ Total document words: 611
 | ios | 1 | 0.0016 |
 | iot | 1 | 0.0016 |
 | isaotcompatible | 1 | 0.0016 |
-| issues | 1 | 0.0016 |
 | jsontypeinfo | 1 | 0.0016 |
 | just-in-time | 1 | 0.0016 |
 | key | 1 | 0.0016 |
@@ -168,7 +153,6 @@ Total document words: 611
 | never | 1 | 0.0016 |
 | nuget | 1 | 0.0016 |
 | often | 1 | 0.0016 |
-| overhead | 1 | 0.0016 |
 | overloads | 1 | 0.0016 |
 | overview | 1 | 0.0016 |
 | own | 1 | 0.0016 |
@@ -220,7 +204,6 @@ Total document words: 611
 | times | 1 | 0.0016 |
 | tools | 1 | 0.0016 |
 | transforms | 1 | 0.0016 |
-| trim | 1 | 0.0016 |
 | troubleshooting | 1 | 0.0016 |
 | ultimate | 1 | 0.0016 |
 | unused | 1 | 0.0016 |
@@ -230,6 +213,7 @@ Total document words: 611
 | valuable | 1 | 0.0016 |
 | vs | 1 | 0.0016 |
 | way | 1 | 0.0016 |
+| without | 1 | 0.0016 |
 | works | 1 | 0.0016 |
 | xcode | 1 | 0.0016 |
 | you'll | 1 | 0.0016 |

@@ -20,6 +20,7 @@ Combined local and global scoring:
 | nlp | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | reporting | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | assurance | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| caching | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | content | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | extensions | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | automated quality | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
@@ -28,20 +29,19 @@ Combined local and global scoring:
 | custom evaluator implementation | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | llm-based | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | llm-based evaluators | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| caching | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| responses | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | vs | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | ai-generated | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | cd | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| ci | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | compliance | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | comprehensive | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | design | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | evaluations | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | foundry | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| safety | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | testing | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | workflows | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | error handling | compound | 2 | 1.10x | 1.50x | 1.5x | 4.950 |
-| ci | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | through | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | provides | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
 | use | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

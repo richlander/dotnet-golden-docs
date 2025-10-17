@@ -1,15 +1,14 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 151
-Total word occurrences: 206
+Total unique words: 135
+Total word occurrences: 178
 Total document words: 431
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| syntax | 10 | 0.0232 |
+| syntax | 6 | 0.0139 |
 | spread | 5 | 0.0116 |
-| collections | 4 | 0.0093 |
 | familiar | 4 | 0.0093 |
 | use | 4 | 0.0093 |
 | combine | 3 | 0.0070 |
@@ -21,13 +20,10 @@ Total document words: 431
 | alternative | 2 | 0.0046 |
 | cannot | 2 | 0.0046 |
 | clear | 2 | 0.0046 |
-| code | 2 | 0.0046 |
 | compile-time | 2 | 0.0046 |
-| compiler | 2 | 0.0046 |
 | developers | 2 | 0.0046 |
 | elements | 2 | 0.0046 |
 | existing | 2 | 0.0046 |
-| inference | 2 | 0.0046 |
 | languages | 2 | 0.0046 |
 | mechanics | 2 | 0.0046 |
 | operator | 2 | 0.0046 |
@@ -35,22 +31,18 @@ Total document words: 431
 | rather | 2 | 0.0046 |
 | readable | 2 | 0.0046 |
 | rust | 2 | 0.0046 |
-| small | 2 | 0.0046 |
 | users | 2 | 0.0046 |
-| work | 2 | 0.0046 |
 | working | 2 | 0.0046 |
 | actual | 1 | 0.0023 |
 | aligns | 1 | 0.0023 |
 | allows | 1 | 0.0023 |
 | apparent | 1 | 0.0023 |
 | approachable | 1 | 0.0023 |
-| array | 1 | 0.0023 |
 | assignments | 1 | 0.0023 |
 | avoid | 1 | 0.0023 |
 | awareness | 1 | 0.0023 |
 | basic | 1 | 0.0023 |
 | beneficial | 1 | 0.0023 |
-| best | 1 | 0.0023 |
 | boilerplate | 1 | 0.0023 |
 | bracket | 1 | 0.0023 |
 | calls | 1 | 0.0023 |
@@ -64,7 +56,6 @@ Total document words: 431
 | complex | 1 | 0.0023 |
 | considerations | 1 | 0.0023 |
 | construction | 1 | 0.0023 |
-| conversions | 1 | 0.0023 |
 | copying | 1 | 0.0023 |
 | create | 1 | 0.0023 |
 | creation | 1 | 0.0023 |
@@ -103,7 +94,6 @@ Total document words: 431
 | initialize | 1 | 0.0023 |
 | inlining | 1 | 0.0023 |
 | intent | 1 | 0.0023 |
-| interface | 1 | 0.0023 |
 | introduced | 1 | 0.0023 |
 | intuitive | 1 | 0.0023 |
 | involve | 1 | 0.0023 |
@@ -114,26 +104,21 @@ Total document words: 431
 | letting | 1 | 0.0023 |
 | like | 1 | 0.0023 |
 | limitations | 1 | 0.0023 |
-| linq | 1 | 0.0023 |
 | listing | 1 | 0.0023 |
 | lists | 1 | 0.0023 |
 | make | 1 | 0.0023 |
 | makes | 1 | 0.0023 |
 | making | 1 | 0.0023 |
-| matching | 1 | 0.0023 |
 | matter | 1 | 0.0023 |
 | medium-sized | 1 | 0.0023 |
-| method | 1 | 0.0023 |
 | minimal | 1 | 0.0023 |
 | modern | 1 | 0.0023 |
 | nested | 1 | 0.0023 |
 | notation | 1 | 0.0023 |
 | optimizations | 1 | 0.0023 |
 | optimized | 1 | 0.0023 |
-| options | 1 | 0.0023 |
 | overview | 1 | 0.0023 |
 | popular | 1 | 0.0023 |
-| practices | 1 | 0.0023 |
 | prefer | 1 | 0.0023 |
 | provides | 1 | 0.0023 |
 | readability | 1 | 0.0023 |
@@ -148,7 +133,6 @@ Total document words: 431
 | spans | 1 | 0.0023 |
 | square | 1 | 0.0023 |
 | step | 1 | 0.0023 |
-| support | 1 | 0.0023 |
 | swift | 1 | 0.0023 |
 | toward | 1 | 0.0023 |
 | understand | 1 | 0.0023 |

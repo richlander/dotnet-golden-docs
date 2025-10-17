@@ -40,8 +40,8 @@
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13140259290350363000 |
-| technical | simhash | 12992097901497688444 |
+| overview | simhash | 12997272201204597112 |
+| technical | simhash | 12992100100520943996 |
 
 ## Relationships
 
@@ -60,15 +60,15 @@
 | file-based apps | 14.00 |
 | object initialization | 10.00 |
 | anonymous types | 8.00 |
+| async operations | 8.00 |
 | collection properties | 8.00 |
+| pattern matching | 8.00 |
+| async linq | 7.00 |
 | framework-dependent | 7.00 |
+| stack allocation | 7.00 |
+| array interface devirtualization | 6.00 |
 | collection initialization | 6.00 |
 | file-based-programs | 6.00 |
-| file-level | 6.00 |
-| init properties | 6.00 |
-| json documents | 6.00 |
-| system.text.json.nodes | 6.00 |
-| microsoft.extensions.ai | 5.00 |
 
 ## APIs
 

@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 12 compound terms and 308 single words
-Total unique terms: 319
-Terms with score ≥ 3.0: 63
-Total term occurrences: 592
+Combined 12 compound terms and 285 single words
+Total unique terms: 296
+Terms with score ≥ 3.0: 50
+Total term occurrences: 506
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -14,12 +14,12 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
-| json | single | 24 | 1.00x | 1.00x | 24.0 |
-| serialization | single | 16 | 1.00x | 1.00x | 16.0 |
 | source generation | compound | 7 | 1.25x | 1.50x | 13.1 |
 | deserialization | single | 13 | 1.00x | 1.00x | 13.0 |
+| json | single | 12 | 1.00x | 1.00x | 12.0 |
 | system.text.json.jsonserializer | compound | 5 | 1.50x | 1.50x | 11.2 |
 | use | single | 11 | 1.00x | 1.00x | 11.0 |
+| serialization | single | 10 | 1.00x | 1.00x | 10.0 |
 | compile-time | compound | 6 | 1.00x | 1.50x | 9.0 |
 | jsonserializer | single | 9 | 1.00x | 1.00x | 9.0 |
 | serialize | single | 8 | 1.00x | 1.00x | 8.0 |
@@ -27,25 +27,16 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | system | single | 6 | 1.00x | 1.00x | 6.0 |
 | constructor parameters | compound | 3 | 1.25x | 1.50x | 5.6 |
 | utf-8 operations | compound | 3 | 1.25x | 1.50x | 5.6 |
-| code | single | 5 | 1.00x | 1.00x | 5.0 |
-| default | single | 5 | 1.00x | 1.00x | 5.0 |
 | during | single | 5 | 1.00x | 1.00x | 5.0 |
-| net | single | 5 | 1.00x | 1.00x | 5.0 |
-| options | single | 5 | 1.00x | 1.00x | 5.0 |
 | output | single | 5 | 1.00x | 1.00x | 5.0 |
-| property | single | 5 | 1.00x | 1.00x | 5.0 |
 | text | single | 5 | 1.00x | 1.00x | 5.0 |
 | circular references | compound | 3 | 1.10x | 1.50x | 5.0 |
-| apis | single | 4 | 1.00x | 1.00x | 4.0 |
 | asp | single | 4 | 1.00x | 1.00x | 4.0 |
 | constructor | single | 4 | 1.00x | 1.00x | 4.0 |
 | customization | single | 4 | 1.00x | 1.00x | 4.0 |
 | deserialize | single | 4 | 1.00x | 1.00x | 4.0 |
-| handle | single | 4 | 1.00x | 1.00x | 4.0 |
 | logic | single | 4 | 1.00x | 1.00x | 4.0 |
 | names | single | 4 | 1.00x | 1.00x | 4.0 |
-| operations | single | 4 | 1.00x | 1.00x | 4.0 |
-| overhead | single | 4 | 1.00x | 1.00x | 4.0 |
 | utf-8 | single | 4 | 1.00x | 1.00x | 4.0 |
 | custom converters | compound | 2 | 1.25x | 1.50x | 3.8 |
 | json schema | compound | 2 | 1.25x | 1.50x | 3.8 |
@@ -56,7 +47,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | after | single | 3 | 1.00x | 1.00x | 3.0 |
 | annotations | single | 3 | 1.00x | 1.00x | 3.0 |
 | api | single | 3 | 1.00x | 1.00x | 3.0 |
-| async | single | 3 | 1.00x | 1.00x | 3.0 |
 | behavior | single | 3 | 1.00x | 1.00x | 3.0 |
 | configure | single | 3 | 1.00x | 1.00x | 3.0 |
 | deserializing | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -66,8 +56,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | instead | single | 3 | 1.00x | 1.00x | 3.0 |
 | jsonserializeroptions | single | 3 | 1.00x | 1.00x | 3.0 |
 | maximum | single | 3 | 1.00x | 1.00x | 3.0 |
-| nullable | single | 3 | 1.00x | 1.00x | 3.0 |
-| parsing | single | 3 | 1.00x | 1.00x | 3.0 |
 | prevent | single | 3 | 1.00x | 1.00x | 3.0 |
 | reflection-based | single | 3 | 1.00x | 1.00x | 3.0 |
 | runtime | single | 3 | 1.00x | 1.00x | 3.0 |
@@ -76,4 +64,3 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | strings | single | 3 | 1.00x | 1.00x | 3.0 |
 | values | single | 3 | 1.00x | 1.00x | 3.0 |
 | web | single | 3 | 1.00x | 1.00x | 3.0 |
-| without | single | 3 | 1.00x | 1.00x | 3.0 |

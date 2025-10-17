@@ -1,0 +1,375 @@
+{
+  "id": "libraries/system-text-json-dotnet-10",
+  "title": "System.Text.Json - What\u0027s New in .NET 10",
+  "description": "System.Text.Json improvements in .NET 10 including strict options, duplicate property detection, and PipeReader support. Version-specific topic for .NET 10 distribution.",
+  "category": ".NET Libraries",
+  "complexity": 0.6,
+  "priority": 2,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "10.0",
+    "year": "2025"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 13444401641859923858
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 13280328320399320536
+    }
+  },
+  "keywords": null,
+  "apis": [
+    {
+      "name": "System.Text.Json",
+      "type": "type",
+      "count": 11
+    },
+    {
+      "name": "System.Text",
+      "type": "namespace",
+      "count": 9
+    },
+    {
+      "name": "System.IO",
+      "type": "namespace",
+      "count": 4
+    },
+    {
+      "name": "System.IO.Pipelines",
+      "type": "type",
+      "count": 4
+    },
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 3
+    }
+  ],
+  "diagnostic_codes": null,
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/libraries/system-text-json-dotnet-10/index.json",
+      "description": "System.Text.Json improvements in .NET 10 including strict options, duplicate property detection, and PipeReader support. Version-specific topic for .NET 10 distribution."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/libraries/index.json",
+      "description": "Libraries category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/system-text-json-dotnet-10/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/system-text-json-dotnet-10/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "related": [
+      {
+        "href": "/libraries/json-validation-security/index.json",
+        "title": "JSON Validation and Security",
+        "similarity": 0.883,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4220134623093668640
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12694860369024133596
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.8743,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.8727,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
+          }
+        }
+      },
+      {
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.8676,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751806565084889904
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
+        "similarity": 0.7999,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 614095243011328414
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974224274836293980
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-nodes/index.json",
+        "title": "System.Text.Json.Nodes",
+        "similarity": 0.7972,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 9860979202420835664
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703869732690724188
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsondocument/index.json",
+        "title": "System.Text.Json.JsonDocument",
+        "similarity": 0.7826,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13460983673022227226
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12703867533935911260
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-source-generation/index.json",
+        "title": "System.Text.Json Source Generation",
+        "similarity": 0.7817,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 11224889504112485232
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17747863716396172082
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13154369194086507384
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+        "title": "System.Text.Json.Utf8JsonWriter",
+        "similarity": 0.7766,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 469786640745173528
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603924666003358076
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "title": "System.Text.Json.Utf8JsonReader",
+        "similarity": 0.7666,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 2796080149753443096
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704010495948890620
+          }
+        }
+      },
+      {
+        "href": "/csharp/csharp-14-features/index.json",
+        "title": "C# 14 Language Features",
+        "similarity": 0.7483,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7262411006152912613
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991679535167439672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008812590162300
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-streaming-io/index.json",
+        "title": "JSON Streaming and I/O",
+        "similarity": 0.7437,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 5373223288336521872
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713018245211120108
+          }
+        }
+      }
+    ]
+  },
+  "_embedded": {
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 5,
+        "baseline_conceptual": 0,
+        "baseline_technical": 2,
+        "stripe_order": [
+          1,
+          3,
+          2,
+          4
+        ],
+        "stripe_order_technical": [
+          4,
+          1,
+          0,
+          3
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.635,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "PipeReader Performance",
+            "is_code": true,
+            "similarity_conceptual": 0.685,
+            "similarity_technical": 0.644,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Duplicate Property Detection",
+            "is_code": true,
+            "similarity_conceptual": 0.635,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Combining New Features",
+            "is_code": true,
+            "similarity_conceptual": 0.637,
+            "similarity_technical": 0.607,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Using PipeReader",
+            "is_code": false,
+            "similarity_conceptual": 0.625,
+            "similarity_technical": 0.683,
+            "keywords": null
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generated": "2025-10-17T20:16:12.5372030Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

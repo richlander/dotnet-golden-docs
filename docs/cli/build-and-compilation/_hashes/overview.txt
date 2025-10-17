@@ -1,14 +1,14 @@
 Title | Build and Compilation
 Keyword | build
 Keyword | compilation
+Keyword | ci
 Keyword | build acceleration
+Keyword | performance optimization
 Keyword | custom build configurations
 Keyword | dependency resolution
 Keyword | msbuild integration
-Keyword | ci
-Keyword | analysis
 Keyword | builds
+Keyword | commands
 Keyword | parallel
 Keyword | workflows
-Keyword | performance optimization
 Description | Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment. This includes the core commands `dotnet build`, `dotnet restore`, `dotnet clean`, along with MSBuild integration, multi-targeting, and build optimization strategies.

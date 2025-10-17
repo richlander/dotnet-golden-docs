@@ -44,10 +44,11 @@
     }
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": null
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.5962332Z",
+    "generated": "2025-10-17T20:16:12.3509480Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

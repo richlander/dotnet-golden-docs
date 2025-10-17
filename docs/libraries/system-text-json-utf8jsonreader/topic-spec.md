@@ -35,6 +35,7 @@ System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-o
 | Priority | 3 (Medium) |
 | Version | 3.0 |
 | Year | 2019 |
+
 ## Hashes
 
 | Name | Kind | Fingerprint |
@@ -46,18 +47,18 @@ System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-o
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
-| libraries | libraries/system-text-json | 0.8663 |
+| libraries | libraries/system-text-json | 0.8694 |
 | libraries | libraries/system-text-json-utf8jsonwriter | 0.8631 |
 | libraries | libraries/system-text-json-jsonserializer | 0.8423 |
 | libraries | libraries/system-text-json-jsondocument | 0.8127 |
+| libraries | libraries/span-based-string-processing | 0.8072 |
 | libraries | libraries/system-text-json-nodes | 0.7954 |
+| libraries | libraries/json-streaming-io | 0.7854 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.7666 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7430 |
 | libraries | libraries/system-buffers-searchvalues | 0.7235 |
+| libraries | libraries/json-validation-security | 0.7223 |
 | libraries | libraries/system-text-json-source-generation | 0.7151 |
-| libraries | libraries/dotnet-10-library-improvements | 0.6946 |
-| csharp | csharp/csharp-14-features | 0.6653 |
-| csharp | csharp | 0.6395 |
-| dotnet | dotnet | 0.6195 |
 
 ## APIs
 
@@ -75,3 +76,19 @@ System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-o
 | ReadAsync | method | 3 |
 | Skip | method | 3 |
 
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 7
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.637 |
+| 1 | Extracting Specific Values | 0.637 | 1.000 |
+| 2 | Reading Nested Objects | 0.616 | 0.755 |
+| 3 | Reading with Options | 0.656 | 0.747 |
+| 4 | Using for Custom Deserialization | 0.638 | 0.711 |
+| 5 | Using for Streaming Array Processing | 0.633 | 0.714 |
+| 6 | Ref Struct Constraints | 0.658 | 0.668 |

@@ -74,17 +74,17 @@
 
 | Keyword | Score |
 |---------|-------|
-| net | 38.00 |
-| cross-platform | 7.00 |
+| net | 29.00 |
 | libraries | 11.00 |
-| like | 10.00 |
 | while | 10.00 |
+| cross-platform | 7.00 |
+| like | 10.00 |
 | open-source | 5.00 |
 | memory management | 6.00 |
-| code | 14.00 |
 | runtime | 12.00 |
 | languages | 6.00 |
 | modern | 6.00 |
+| code | 11.00 |
 | tools | 7.00 |
 
 ## Similarity Scores
@@ -98,20 +98,20 @@
 | libraries | libraries/dotnet-10-library-improvements | 0.7626 |
 | cli | cli/build-and-compilation | 0.7617 |
 | cli | cli/file-based-apps | 0.7610 |
-| libraries | libraries/system-text-json | 0.7318 |
+| libraries | libraries/system-threading-tasks-task | 0.7386 |
+| libraries | libraries/system-text-json | 0.7382 |
+| libraries | libraries/collections-performance | 0.7286 |
 | csharp | csharp/csharp-14-features | 0.7274 |
 | extensions | extensions/microsoft-extensions-ai | 0.7043 |
-| libraries | libraries/system-commandline | 0.7004 |
-| libraries | libraries/system-text-json-jsonserializer | 0.6924 |
 
 ### Similarity Metadata
 
 | Category | Threshold | Percentile | Total Pairs |
 |----------|-----------|------------|-------------|
 | cli | 0.7610 | P50 | 6 |
-| csharp | 0.6188 | P50 | 5 |
+| csharp | 0.6081 | P70 | 9 |
 | extensions | 0.6825 | P50 | 3 |
-| libraries | 0.6507 | P70 | 13 |
+| libraries | 0.6507 | P70 | 21 |
 
 ## Authority Scores
 
@@ -120,3 +120,17 @@
 | csharp | low-level | 1.356 |
 | csharp | object-oriented | 1.356 |
 
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 5
+**Baseline (Conceptual)**: 0
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | - |
+| 1 | The Three Pillars of .NET | 0.613 | - |
+| 2 | .NET Ecosystem and Variants | 0.633 | - |
+| 3 | Development Ecosystem | 0.658 | - |
+| 4 | Core Concepts | 0.679 | - |

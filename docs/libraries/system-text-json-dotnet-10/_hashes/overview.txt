@@ -1,0 +1,5 @@
+Title | System.Text.Json - What's New in .NET 10
+TypeName | System.Text.Json - What's New in .NET 10
+TypeName | System.Text.Json - What's New in 
+TypeName | NET 10
+Description | This version-specific topic describes the System.Text.Json improvements added in .NET 10. The key enhancements focus on security, validation, and I/O performance: JsonSerializerOptions.Strict provides a secure-by-default preset configuration, AllowDuplicateProperties prevents duplicate property attacks, and PipeReader support enables high-performance streaming with System.IO.Pipelines. This topic is intended for distribution in .NET 10 NuGet packages and related materials. It will be deprecated when .NET 11 releases, with the features also documented in permanent thematic topics like JSON Validation and Security and JSON Streaming and I/O.

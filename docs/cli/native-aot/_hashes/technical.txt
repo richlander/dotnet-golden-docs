@@ -25,6 +25,6 @@ Keyword | reflection-based
 Keyword | jit
 Keyword | supported
 Keyword | using native aot
-Keyword | code
 Keyword | self-contained
+Keyword | generic methods
 Keyword | system.text.json source generation

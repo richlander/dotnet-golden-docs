@@ -2,18 +2,18 @@ Title | System.Text.Json
 TypeName | System.Text.Json
 TypeName | System.Text
 TypeName | Json
-API | JsonSerializable
 API | JsonSerializer.Serialize
+API | JsonSerializable
 API | GetString
-API | File.OpenRead
 API | JsonNode.Parse
-API | System.Text
-API | System.Text.Json
+API | File.OpenRead
 API | GetUser
+API | RootElement.GetProperty
 API | JsonDocument.Parse
-API | Console.WriteLine
-API | GetFromJsonAsync
-API | GetProperty
+API | JsonSerializer.Deserialize
+API | Read
+API | JsonDerivedType
+API | JsonSerializer.SerializeAsync
 Error | IL2026
 ErrorMessage | Using member `System.Text.Json.JsonSerializer.Serialize<TValue>(TValue, JsonSerializerOptions)` which has 'RequiresUnreferencedCodeAttribute' can break functionality when trimming application code. JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.
 Error | IL2026
@@ -45,14 +45,14 @@ ErrorMessage | JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore nul
 Error | SYSLIB0049
 ErrorMessage | JsonSerializerOptions.AddContext is obsolete. To register a JsonSerializerContext, use either the TypeInfoResolver or TypeInfoResolverChain properties.
 Keyword | source generation
-Keyword | json
 Keyword | system.text.json
-Keyword | apis
-Keyword | read-only
-Keyword | serialization
-Keyword | use
-Keyword | api
-Keyword | scenarios
+Keyword | json
 Keyword | minimal
-Keyword | configuration
-Keyword | asp.net core
+Keyword | api
+Keyword | apis
+Keyword | compile-time
+Keyword | read-only
+Keyword | dynamic
+Keyword | use
+Keyword | newtonsoft.json
+Keyword | text

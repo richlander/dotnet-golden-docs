@@ -60,35 +60,35 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 | Keyword | Score |
 |---------|-------|
-| source generation | 27.00 |
-| json | 70.00 |
-| system.text.json | 20.00 |
-| apis | 22.00 |
-| read-only | 14.00 |
-| serialization | 21.00 |
-| use | 31.00 |
+| source generation | 23.00 |
+| system.text.json | 14.00 |
+| json | 29.00 |
+| minimal | 19.00 |
 | api | 14.00 |
-| scenarios | 14.00 |
-| minimal | 17.00 |
-| configuration | 12.00 |
-| asp.net core | 6.00 |
+| apis | 14.00 |
+| compile-time | 11.00 |
+| read-only | 10.00 |
+| dynamic | 11.00 |
+| use | 19.00 |
+| newtonsoft.json | 5.00 |
+| text | 12.00 |
 
 ## APIs
 
 | API | Type | Count |
 |-----|------|-------|
-| JsonSerializable | attribute | 20 |
-| JsonSerializer.Serialize | method | 18 |
-| GetString | method | 9 |
-| File.OpenRead | method | 6 |
+| JsonSerializer.Serialize | method | 16 |
+| JsonSerializable | attribute | 15 |
+| GetString | method | 7 |
 | JsonNode.Parse | method | 6 |
-| System.Text | namespace | 6 |
-| System.Text.Json | type | 6 |
+| File.OpenRead | method | 5 |
 | GetUser | method | 5 |
-| JsonDocument.Parse | method | 5 |
-| Console.WriteLine | method | 4 |
-| GetFromJsonAsync | method | 4 |
-| GetProperty | method | 4 |
+| RootElement.GetProperty | method | 5 |
+| JsonDocument.Parse | method | 4 |
+| JsonSerializer.Deserialize | method | 4 |
+| Read | method | 4 |
+| JsonDerivedType | attribute | 3 |
+| JsonSerializer.SerializeAsync | method | 3 |
 
 ## Diagnostic Codes
 
@@ -113,18 +113,18 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
-| libraries | libraries/system-text-json-jsonserializer | 0.9334 |
-| libraries | libraries/system-text-json-nodes | 0.8730 |
-| libraries | libraries/system-text-json-utf8jsonreader | 0.8663 |
-| libraries | libraries/system-text-json-jsondocument | 0.8591 |
-| libraries | libraries/system-text-json-source-generation | 0.8429 |
-| libraries | libraries/system-text-json-utf8jsonwriter | 0.8391 |
-| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.8378 |
-| libraries | libraries/dotnet-10-library-improvements | 0.7844 |
-| libraries | libraries | 0.7366 |
-| csharp | csharp/csharp-14-features | 0.7342 |
-| dotnet | dotnet | 0.7318 |
-| csharp | csharp | 0.6981 |
+| libraries | libraries/system-text-json-jsonserializer | 0.9393 |
+| libraries | libraries/system-text-json-nodes | 0.8745 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.8743 |
+| libraries | libraries/system-text-json-utf8jsonreader | 0.8694 |
+| libraries | libraries/system-text-json-jsondocument | 0.8594 |
+| libraries | libraries/system-text-json-source-generation | 0.8434 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.8408 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.8369 |
+| libraries | libraries/json-streaming-io | 0.7999 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7881 |
+| libraries | libraries/json-validation-security | 0.7859 |
+| dotnet | dotnet | 0.7382 |
 
 ## Authority Scores
 
@@ -139,19 +139,19 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 **Source**: `golden-reference.md`
 **Count**: 11
-**Baseline (Conceptual)**: Chunk 0
-**Baseline (Technical)**: Chunk 1
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 3
 
-| Index | Title | Code | Similarity (Conceptual) | Similarity (Technical) |
-|-------|-------|------|-------------------------|------------------------|
-| 0 | Overview |  | 1.000 | 0.657 |
-| 1 | Quick Reference | ✓ | 0.657 | 1.000 |
-| 2 | API comparison |  | 0.668 | 0.597 |
-| 3 | Scenario recommendations | ✓ | 0.648 | 0.680 |
-| 4 | Performance hierarchy (fastest to slowest) |  | 0.654 | 0.619 |
-| 5 | HttpClient Extensions | ✓ | 0.647 | 0.707 |
-| 6 | Large File Streaming | ✓ | 0.581 | 0.618 |
-| 7 | Performance Optimization | ✓ | 0.668 | 0.674 |
-| 8 | Security Considerations | ✓ | 0.603 | 0.599 |
-| 9 | Installation and Setup | ✓ | 0.584 | 0.630 |
-| 10 | Migration from Newtonsoft.Json | ✓ | 0.597 | 0.660 |
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.657 |
+| 1 | API comparison | 0.668 | 0.597 |
+| 2 | Performance hierarchy (fastest to slowest) | 0.654 | 0.618 |
+| 3 | Quick Reference | 0.657 | 1.000 |
+| 4 | Scenario recommendations | 0.648 | 0.681 |
+| 5 | HttpClient Extensions | 0.647 | 0.706 |
+| 6 | Large File Streaming | 0.581 | 0.618 |
+| 7 | Performance Optimization | 0.668 | 0.674 |
+| 8 | Security Considerations | 0.604 | 0.600 |
+| 9 | Installation and Setup | 0.584 | 0.630 |
+| 10 | Migration from Newtonsoft.Json | 0.597 | 0.660 |

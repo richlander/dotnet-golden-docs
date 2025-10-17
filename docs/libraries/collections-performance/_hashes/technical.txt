@@ -1,0 +1,9 @@
+Title | Collections Performance
+API | Console.WriteLine
+API | GetAt
+API | Process
+API | Add
+API | Contains
+API | O
+API | ToArray
+API | Where

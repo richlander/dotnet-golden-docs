@@ -1,166 +1,22 @@
 {
-  "id": ".",
-  "title": ".NET",
-  "description": "Comprehensive developer platform encompassing runtime, libraries, tools, languages, and deployment models for building modern applications across all scenarios.",
-  "category": "Platform",
-  "complexity": 0.8,
+  "id": "",
+  "title": ".NET Knowledge Graph",
+  "description": "Root index of .NET documentation topics and categories",
+  "category": "Root",
+  "complexity": 0.5,
   "priority": 1,
   "depth_below": 2,
   "topic_count": 5,
-  "introduced": {
-    "version": "1.0",
-    "year": "2016"
-  },
-  "hashes": {
-    "overview": {
-      "name": "overview",
-      "kind": "simhash",
-      "fingerprint": 13140259290350363000
-    },
-    "technical": {
-      "name": "technical",
-      "kind": "simhash",
-      "fingerprint": 12992097901497688444
-    }
-  },
-  "keywords": [
-    {
-      "name": "file-based apps",
-      "score": 14
-    },
-    {
-      "name": "object initialization",
-      "score": 10
-    },
-    {
-      "name": "anonymous types",
-      "score": 8
-    },
-    {
-      "name": "collection properties",
-      "score": 8
-    },
-    {
-      "name": "framework-dependent",
-      "score": 7
-    },
-    {
-      "name": "collection initialization",
-      "score": 6
-    },
-    {
-      "name": "file-based-programs",
-      "score": 6
-    },
-    {
-      "name": "file-level",
-      "score": 6
-    },
-    {
-      "name": "init properties",
-      "score": 6
-    },
-    {
-      "name": "json documents",
-      "score": 6
-    },
-    {
-      "name": "system.text.json.nodes",
-      "score": 6
-    },
-    {
-      "name": "microsoft.extensions.ai",
-      "score": 5
-    }
-  ],
-  "apis": [
-    {
-      "name": "Console.WriteLine",
-      "type": "method",
-      "count": 63
-    },
-    {
-      "name": "JsonSerializable",
-      "type": "attribute",
-      "count": 38
-    },
-    {
-      "name": "JsonSerializer.Serialize",
-      "type": "method",
-      "count": 29
-    },
-    {
-      "name": "Build",
-      "type": "method",
-      "count": 25
-    },
-    {
-      "name": "Add",
-      "type": "method",
-      "count": 21
-    },
-    {
-      "name": "GetResponseAsync",
-      "type": "method",
-      "count": 21
-    },
-    {
-      "name": "JsonSourceGenerationOptions",
-      "type": "attribute",
-      "count": 21
-    },
-    {
-      "name": "EvaluateAsync",
-      "type": "method",
-      "count": 17
-    },
-    {
-      "name": "AddOption",
-      "type": "method",
-      "count": 14
-    },
-    {
-      "name": "ChatClientBuilder",
-      "type": "method",
-      "count": 14
-    },
-    {
-      "name": "Microsoft.Extensions",
-      "type": "namespace",
-      "count": 14
-    },
-    {
-      "name": "System.Text.Json",
-      "type": "namespace",
-      "count": 13
-    }
-  ],
+  "introduced": null,
+  "hashes": null,
+  "keywords": null,
+  "apis": null,
   "diagnostic_codes": null,
   "_links": {
     "self": {
       "name": "self",
-      "href": "/./index.json",
-      "description": "Comprehensive developer platform encompassing runtime, libraries, tools, languages, and deployment models for building modern applications across all scenarios."
-    },
-    "parent": {
-      "name": "parent",
       "href": "/index.json",
       "description": "Root knowledge graph"
-    },
-    "topic-spec": {
-      "name": "Topic Specification",
-      "href": "/./topic-spec.md",
-      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
-    },
-    "repos": {
-      "name": "repos",
-      "href": "/./repos.md",
-      "description": "repos"
-    },
-    "readme": {
-      "name": "README",
-      "href": "/./README.md",
-      "description": "README"
     }
   },
   "_embedded": {
@@ -198,12 +54,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3772209114392757042
+            "fingerprint": 13140259840106365750
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12990971914609426736
+            "fingerprint": 12995581704090288436
           }
         },
         "category": "C# Language",
@@ -276,12 +132,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
           }
         },
         "category": ".NET Libraries",
@@ -295,10 +151,11 @@
           }
         }
       }
-    ]
+    ],
+    "chunks": null
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6388508Z",
+    "generated": "2025-10-17T20:16:12.6889270Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

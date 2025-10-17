@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 8 compound terms and 226 single words
-Total unique terms: 231
-Terms with score ≥ 3.0: 18
-Total term occurrences: 329
+Combined 8 compound terms and 210 single words
+Total unique terms: 215
+Terms with score ≥ 3.0: 17
+Total term occurrences: 300
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -17,11 +17,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | native aot | compound | 10 | 1.50x | 1.50x | 22.5 |
 | runtime | single | 11 | 1.00x | 1.00x | 11.0 |
 | compilation | single | 9 | 1.00x | 1.00x | 9.0 |
-| code | single | 7 | 1.00x | 1.00x | 7.0 |
 | source generation | compound | 4 | 1.10x | 1.50x | 6.6 |
 | no | single | 6 | 1.00x | 1.00x | 6.0 |
 | reflection-based | compound | 4 | 1.00x | 1.50x | 6.0 |
 | self-contained | compound | 3 | 1.00x | 1.50x | 4.5 |
+| code | single | 4 | 1.00x | 1.00x | 4.0 |
 | jit | single | 4 | 1.00x | 1.00x | 4.0 |
 | supported | single | 4 | 1.00x | 1.00x | 4.0 |
 | using native aot | compound | 2 | 1.25x | 1.50x | 3.8 |
@@ -31,4 +31,3 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | single-file | compound | 2 | 1.00x | 1.50x | 3.0 |
 | smaller | single | 3 | 1.00x | 1.00x | 3.0 |
 | startup | single | 3 | 1.00x | 1.00x | 3.0 |
-| without | single | 3 | 1.00x | 1.00x | 3.0 |

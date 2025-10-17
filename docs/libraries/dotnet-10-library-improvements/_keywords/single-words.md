@@ -1,48 +1,35 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 132
-Total word occurrences: 195
+Total unique words: 107
+Total word occurrences: 148
 Total document words: 303
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| security | 9 | 0.0297 |
+| security | 7 | 0.0231 |
 | improvements | 4 | 0.0132 |
 | patterns | 4 | 0.0132 |
-| support | 4 | 0.0132 |
 | algorithms | 3 | 0.0099 |
-| apis | 3 | 0.0099 |
 | comparison | 3 | 0.0099 |
 | cryptography | 3 | 0.0099 |
-| duplicate | 3 | 0.0099 |
-| hex | 3 | 0.0099 |
 | high-performance | 3 | 0.0099 |
 | numericordering | 3 | 0.0099 |
-| options | 3 | 0.0099 |
 | post-quantum | 3 | 0.0099 |
-| processing | 3 | 0.0099 |
 | span-based | 3 | 0.0099 |
 | utf-8 | 3 | 0.0099 |
 | allocations | 2 | 0.0066 |
-| conversion | 2 | 0.0066 |
 | cross-platform | 2 | 0.0066 |
-| detection | 2 | 0.0066 |
 | existing | 2 | 0.0066 |
 | key | 2 | 0.0066 |
-| natural | 2 | 0.0066 |
-| normalization | 2 | 0.0066 |
 | numbers | 2 | 0.0066 |
 | ordereddictionary | 2 | 0.0066 |
-| overhead | 2 | 0.0066 |
 | quantum-resistant | 2 | 0.0066 |
 | stable | 2 | 0.0066 |
-| strict | 2 | 0.0066 |
 | tensor | 2 | 0.0066 |
 | these | 2 | 0.0066 |
 | untrusted | 2 | 0.0066 |
 | websocket | 2 | 0.0066 |
-| without | 2 | 0.0066 |
 | works | 2 | 0.0066 |
 | abstraction | 1 | 0.0033 |
 | across | 1 | 0.0033 |
@@ -53,7 +40,6 @@ Total document words: 303
 | areas | 1 | 0.0033 |
 | avoid | 1 | 0.0033 |
 | benefit | 1 | 0.0033 |
-| best | 1 | 0.0033 |
 | better | 1 | 0.0033 |
 | careful | 1 | 0.0033 |
 | cng | 1 | 0.0033 |
@@ -62,9 +48,6 @@ Total document words: 303
 | complement | 1 | 0.0033 |
 | content | 1 | 0.0033 |
 | dangling | 1 | 0.0033 |
-| developer | 1 | 0.0033 |
-| direct | 1 | 0.0033 |
-| efficient | 1 | 0.0033 |
 | endswith | 1 | 0.0033 |
 | enhanced | 1 | 0.0033 |
 | enhancements | 1 | 0.0033 |
@@ -72,7 +55,6 @@ Total document words: 303
 | established | 1 | 0.0033 |
 | examples | 1 | 0.0033 |
 | experimental | 1 | 0.0033 |
-| features | 1 | 0.0033 |
 | filenames | 1 | 0.0033 |
 | focus | 1 | 0.0033 |
 | follow | 1 | 0.0033 |
@@ -81,9 +63,9 @@ Total document words: 303
 | gotchas | 1 | 0.0033 |
 | graduated | 1 | 0.0033 |
 | hardening | 1 | 0.0033 |
+| hex | 1 | 0.0033 |
 | import | 1 | 0.0033 |
 | include | 1 | 0.0033 |
-| index | 1 | 0.0033 |
 | indexof | 1 | 0.0033 |
 | input | 1 | 0.0033 |
 | inputs | 1 | 0.0033 |
@@ -94,7 +76,6 @@ Total document words: 303
 | libraries | 1 | 0.0033 |
 | lifetime | 1 | 0.0033 |
 | limitations | 1 | 0.0033 |
-| linq | 1 | 0.0033 |
 | long-term | 1 | 0.0033 |
 | mixed | 1 | 0.0033 |
 | ml-dsa | 1 | 0.0033 |
@@ -108,9 +89,7 @@ Total document words: 303
 | ordering | 1 | 0.0033 |
 | overloads | 1 | 0.0033 |
 | overview | 1 | 0.0033 |
-| parsing | 1 | 0.0033 |
 | pqc | 1 | 0.0033 |
-| practices | 1 | 0.0033 |
 | preset | 1 | 0.0033 |
 | prevent | 1 | 0.0033 |
 | productivity | 1 | 0.0033 |
@@ -121,11 +100,9 @@ Total document words: 303
 | require | 1 | 0.0033 |
 | requirements | 1 | 0.0033 |
 | requires | 1 | 0.0033 |
-| return | 1 | 0.0033 |
 | secure | 1 | 0.0033 |
 | security-first | 1 | 0.0033 |
 | see | 1 | 0.0033 |
-| serialization | 1 | 0.0033 |
 | simplifies | 1 | 0.0033 |
 | slh-dsa | 1 | 0.0033 |
 | sorting | 1 | 0.0033 |
@@ -135,7 +112,5 @@ Total document words: 303
 | subsequent | 1 | 0.0033 |
 | themes | 1 | 0.0033 |
 | usage | 1 | 0.0033 |
-| validation | 1 | 0.0033 |
 | vulnerabilities | 1 | 0.0033 |
 | websocketstream | 1 | 0.0033 |
-| windows | 1 | 0.0033 |

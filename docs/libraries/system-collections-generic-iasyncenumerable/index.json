@@ -1,0 +1,547 @@
+{
+  "id": "libraries/system-collections-generic-iasyncenumerable",
+  "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
+  "description": "Interface for asynchronous enumeration using await foreach, enabling non-blocking iteration over async data sources with streaming and deferred execution.",
+  "category": "Libraries",
+  "complexity": 0.35,
+  "priority": 2,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "Core 3.0, C# 8.0",
+    "year": "2019"
+  },
+  "hashes": {
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 12991642545835409712
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 17603926856436687228
+    }
+  },
+  "keywords": [
+    {
+      "name": "async linq",
+      "score": 7
+    },
+    {
+      "name": "use",
+      "score": 17
+    },
+    {
+      "name": "data",
+      "score": 11
+    },
+    {
+      "name": "iteration",
+      "score": 11
+    },
+    {
+      "name": "iasyncenumerable",
+      "score": 7
+    },
+    {
+      "name": "deferred execution",
+      "score": 4
+    },
+    {
+      "name": "async",
+      "score": 6
+    },
+    {
+      "name": "consider",
+      "score": 6
+    },
+    {
+      "name": "each",
+      "score": 6
+    },
+    {
+      "name": "enumeration",
+      "score": 6
+    },
+    {
+      "name": "considerations",
+      "score": 7
+    },
+    {
+      "name": "loading",
+      "score": 5
+    }
+  ],
+  "apis": [
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 37
+    },
+    {
+      "name": "GetNumbersAsync",
+      "type": "method",
+      "count": 25
+    },
+    {
+      "name": "Where",
+      "type": "method",
+      "count": 19
+    },
+    {
+      "name": "Task.Delay",
+      "type": "method",
+      "count": 16
+    },
+    {
+      "name": "EnumeratorCancellation",
+      "type": "attribute",
+      "count": 14
+    },
+    {
+      "name": "System.Linq",
+      "type": "namespace",
+      "count": 12
+    },
+    {
+      "name": "ToListAsync",
+      "type": "method",
+      "count": 10
+    },
+    {
+      "name": "System.Linq.Async",
+      "type": "type",
+      "count": 9
+    },
+    {
+      "name": "ConfigureAwait",
+      "type": "method",
+      "count": 8
+    },
+    {
+      "name": "CountAsync",
+      "type": "method",
+      "count": 8
+    },
+    {
+      "name": "FetchCustomerAsync",
+      "type": "method",
+      "count": 6
+    },
+    {
+      "name": "GetItemsAsync",
+      "type": "method",
+      "count": 6
+    }
+  ],
+  "diagnostic_codes": null,
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+      "description": "Interface for asynchronous enumeration using await foreach, enabling non-blocking iteration over async data sources with streaming and deferred execution."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/libraries/index.json",
+      "description": "Libraries category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/libraries/system-collections-generic-iasyncenumerable/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/libraries/system-collections-generic-iasyncenumerable/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/libraries/system-collections-generic-iasyncenumerable/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    },
+    "related": [
+      {
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
+        "similarity": 0.8851,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140261422667071802
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240838009291132
+          }
+        }
+      },
+      {
+        "href": "/csharp/async-await/index.json",
+        "title": "Async and Await",
+        "similarity": 0.8273,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17748041905982472506
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.7964,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13135792371890684214
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992239188741849468
+          }
+        }
+      },
+      {
+        "href": "/libraries/collections-performance/index.json",
+        "title": "Collections Performance",
+        "similarity": 0.7558,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3088699778205288848
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713016054776726876
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-streaming-io/index.json",
+        "title": "JSON Streaming and I/O",
+        "similarity": 0.7473,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 5373223288336521872
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713018245211120108
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.7206,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 3087081535174783256
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992240880958973404
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.7161,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/csharp/csharp-14-features/index.json",
+        "title": "C# 14 Language Features",
+        "similarity": 0.7129,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 7262411006152912613
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991679535167439672
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008812590162300
+          }
+        }
+      },
+      {
+        "href": "/csharp/lambda-expressions/index.json",
+        "title": "Lambda Expressions",
+        "similarity": 0.7111,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13789395562491052844
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12974085684805370156
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "title": "System.Buffers.SearchValues",
+        "similarity": 0.7026,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13140681365376533304
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992238638986035580
+          }
+        }
+      },
+      {
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "title": ".NET 10 Libraries Features",
+        "similarity": 0.6924,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17751806565084889904
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/dotnet/index.json",
+        "title": ".NET Platform",
+        "similarity": 0.6785,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12995440279407100792
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12995475601218077040
+          }
+        }
+      }
+    ]
+  },
+  "_embedded": {
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 13,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          1,
+          12,
+          11,
+          7,
+          9,
+          3,
+          2,
+          4,
+          10,
+          8,
+          5,
+          6
+        ],
+        "stripe_order_technical": [
+          9,
+          10,
+          12,
+          3,
+          0,
+          2,
+          11,
+          4,
+          5,
+          8,
+          7,
+          6
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Main Approaches",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.728,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Async LINQ Operations",
+            "is_code": true,
+            "similarity_conceptual": 0.728,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "ConfigureAwait Support",
+            "is_code": true,
+            "similarity_conceptual": 0.685,
+            "similarity_technical": 0.704,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "JSON Serialization with System.Text.Json",
+            "is_code": true,
+            "similarity_conceptual": 0.698,
+            "similarity_technical": 0.684,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Channels Integration",
+            "is_code": true,
+            "similarity_conceptual": 0.665,
+            "similarity_technical": 0.674,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Database Streaming",
+            "is_code": true,
+            "similarity_conceptual": 0.68,
+            "similarity_technical": 0.712,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "Async Data Transformation Pipeline",
+            "is_code": true,
+            "similarity_conceptual": 0.62,
+            "similarity_technical": 0.632,
+            "keywords": null
+          },
+          {
+            "index": 7,
+            "href": "_chunks/golden-reference-7.md",
+            "title": "Multiple Ways to Create IAsyncEnumerable",
+            "is_code": true,
+            "similarity_conceptual": 0.671,
+            "similarity_technical": 0.687,
+            "keywords": null
+          },
+          {
+            "index": 8,
+            "href": "_chunks/golden-reference-8.md",
+            "title": "Dispose Resources Properly",
+            "is_code": true,
+            "similarity_conceptual": 0.693,
+            "similarity_technical": 0.703,
+            "keywords": null
+          },
+          {
+            "index": 9,
+            "href": "_chunks/golden-reference-9.md",
+            "title": "Handle Exceptions at the Right Level",
+            "is_code": true,
+            "similarity_conceptual": 0.706,
+            "similarity_technical": 0.747,
+            "keywords": null
+          },
+          {
+            "index": 10,
+            "href": "_chunks/golden-reference-10.md",
+            "title": "Multiple Enumeration Can Be Expensive",
+            "is_code": true,
+            "similarity_conceptual": 0.702,
+            "similarity_technical": 0.706,
+            "keywords": null
+          },
+          {
+            "index": 11,
+            "href": "_chunks/golden-reference-11.md",
+            "title": "Deferred Execution Can Cause Unexpected Behavior",
+            "is_code": true,
+            "similarity_conceptual": 0.691,
+            "similarity_technical": 0.688,
+            "keywords": null
+          },
+          {
+            "index": 12,
+            "href": "_chunks/golden-reference-12.md",
+            "title": "Thread Safety Concerns",
+            "is_code": true,
+            "similarity_conceptual": 0.7,
+            "similarity_technical": 0.7,
+            "keywords": null
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generated": "2025-10-17T20:16:12.5007690Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

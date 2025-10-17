@@ -1,16 +1,15 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 121
-Total word occurrences: 187
+Total unique words: 105
+Total word occurrences: 160
 Total document words: 392
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| syntax | 8 | 0.0204 |
 | values | 6 | 0.0153 |
-| collections | 4 | 0.0102 |
 | patterns | 4 | 0.0102 |
+| syntax | 4 | 0.0102 |
 | use | 4 | 0.0102 |
 | capacity | 3 | 0.0077 |
 | dictionaries | 3 | 0.0077 |
@@ -19,7 +18,6 @@ Total document words: 392
 | existing | 3 | 0.0077 |
 | know | 3 | 0.0077 |
 | known | 3 | 0.0077 |
-| method | 3 | 0.0077 |
 | offer | 3 | 0.0077 |
 | provide | 3 | 0.0077 |
 | target-typed | 3 | 0.0077 |
@@ -37,13 +35,11 @@ Total document words: 392
 | nested | 2 | 0.0051 |
 | one | 2 | 0.0051 |
 | operator | 2 | 0.0051 |
-| options | 2 | 0.0051 |
 | redundant | 2 | 0.0051 |
 | returns | 2 | 0.0051 |
 | set | 2 | 0.0051 |
 | sources | 2 | 0.0051 |
 | spans | 2 | 0.0051 |
-| support | 2 | 0.0051 |
 | their | 2 | 0.0051 |
 | added | 1 | 0.0026 |
 | adding | 1 | 0.0026 |
@@ -53,12 +49,9 @@ Total document words: 392
 | appropriate | 1 | 0.0026 |
 | approximate | 1 | 0.0026 |
 | aren't | 1 | 0.0026 |
-| array | 1 | 0.0026 |
-| best | 1 | 0.0026 |
 | calls | 1 | 0.0026 |
 | characteristics | 1 | 0.0026 |
 | cleanly | 1 | 0.0026 |
-| code | 1 | 0.0026 |
 | combine | 1 | 0.0026 |
 | combining | 1 | 0.0026 |
 | common | 1 | 0.0026 |
@@ -71,31 +64,26 @@ Total document words: 392
 | coverage | 1 | 0.0026 |
 | created | 1 | 0.0026 |
 | declare | 1 | 0.0026 |
-| direct | 1 | 0.0026 |
-| documentation | 1 | 0.0026 |
 | eliminate | 1 | 0.0026 |
 | eliminates | 1 | 0.0026 |
 | empty | 1 | 0.0026 |
 | enables | 1 | 0.0026 |
 | express | 1 | 0.0026 |
-| fixed | 1 | 0.0026 |
 | flexibility | 1 | 0.0026 |
 | fundamental | 1 | 0.0026 |
 | imperatively | 1 | 0.0026 |
 | improves | 1 | 0.0026 |
 | including | 1 | 0.0026 |
-| inference | 1 | 0.0026 |
 | initialized | 1 | 0.0026 |
 | instances | 1 | 0.0026 |
 | intent | 1 | 0.0026 |
-| issues | 1 | 0.0026 |
 | later | 1 | 0.0026 |
 | leverage | 1 | 0.0026 |
 | limitations | 1 | 0.0026 |
-| linq | 1 | 0.0026 |
 | lists | 1 | 0.0026 |
 | match | 1 | 0.0026 |
 | matches | 1 | 0.0026 |
+| method | 1 | 0.0026 |
 | naturally | 1 | 0.0026 |
 | once | 1 | 0.0026 |
 | ones | 1 | 0.0026 |
@@ -103,7 +91,6 @@ Total document words: 392
 | pitfalls | 1 | 0.0026 |
 | planning | 1 | 0.0026 |
 | populate | 1 | 0.0026 |
-| practices | 1 | 0.0026 |
 | pre-size | 1 | 0.0026 |
 | pre-sizing | 1 | 0.0026 |
 | preferred | 1 | 0.0026 |
@@ -119,12 +106,9 @@ Total document words: 392
 | specify | 1 | 0.0026 |
 | specifying | 1 | 0.0026 |
 | start | 1 | 0.0026 |
-| statement | 1 | 0.0026 |
 | statically | 1 | 0.0026 |
 | structures | 1 | 0.0026 |
-| task | 1 | 0.0026 |
 | usage | 1 | 0.0026 |
 | way | 1 | 0.0026 |
-| work | 1 | 0.0026 |
 | works | 1 | 0.0026 |
 | write | 1 | 0.0026 |

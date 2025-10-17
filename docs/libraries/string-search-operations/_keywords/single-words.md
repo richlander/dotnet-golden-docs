@@ -1,30 +1,27 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 117
-Total word occurrences: 209
+Total unique words: 108
+Total word occurrences: 180
 Total document words: 326
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| string | 13 | 0.0399 |
 | searchvalues | 7 | 0.0215 |
 | contains | 6 | 0.0184 |
 | indexof | 6 | 0.0184 |
 | searching | 6 | 0.0184 |
 | repeated | 5 | 0.0153 |
 | searches | 5 | 0.0153 |
-| best | 4 | 0.0123 |
 | character | 4 | 0.0123 |
 | complex | 4 | 0.0123 |
-| matching | 4 | 0.0123 |
 | use | 4 | 0.0123 |
 | allocation-free | 3 | 0.0092 |
-| code | 3 | 0.0092 |
 | regular | 3 | 0.0092 |
 | search | 3 | 0.0092 |
 | substring | 3 | 0.0092 |
 | vs | 3 | 0.0092 |
+| best | 2 | 0.0061 |
 | check | 2 | 0.0061 |
 | culture | 2 | 0.0061 |
 | culture-aware | 2 | 0.0061 |
@@ -35,7 +32,6 @@ Total document words: 326
 | indexofany | 2 | 0.0061 |
 | instead | 2 | 0.0061 |
 | lastindexof | 2 | 0.0061 |
-| lookups | 2 | 0.0061 |
 | multi-value | 2 | 0.0061 |
 | occurrence | 2 | 0.0061 |
 | optimized | 2 | 0.0061 |
@@ -67,7 +63,6 @@ Total document words: 326
 | divides | 1 | 0.0031 |
 | dividing | 1 | 0.0031 |
 | each | 1 | 0.0031 |
-| efficient | 1 | 0.0031 |
 | essential | 1 | 0.0031 |
 | examples | 1 | 0.0031 |
 | filtering | 1 | 0.0031 |
@@ -85,7 +80,6 @@ Total document words: 326
 | maintainable | 1 | 0.0031 |
 | manipulation | 1 | 0.0031 |
 | match | 1 | 0.0031 |
-| method | 1 | 0.0031 |
 | migration | 1 | 0.0031 |
 | multi-format | 1 | 0.0031 |
 | needs | 1 | 0.0031 |
@@ -94,12 +88,10 @@ Total document words: 326
 | optimal | 1 | 0.0031 |
 | optimize | 1 | 0.0031 |
 | overview | 1 | 0.0031 |
-| parsing | 1 | 0.0031 |
 | path | 1 | 0.0031 |
 | patterns | 1 | 0.0031 |
 | position | 1 | 0.0031 |
 | practice | 1 | 0.0031 |
-| practices | 1 | 0.0031 |
 | pre-optimized | 1 | 0.0031 |
 | prefer | 1 | 0.0031 |
 | provide | 1 | 0.0031 |
@@ -108,11 +100,11 @@ Total document words: 326
 | relationships | 1 | 0.0031 |
 | replace | 1 | 0.0031 |
 | requirements | 1 | 0.0031 |
-| security | 1 | 0.0031 |
 | simplest | 1 | 0.0031 |
 | solutions | 1 | 0.0031 |
 | specify | 1 | 0.0031 |
 | spectrum | 1 | 0.0031 |
+| structured | 1 | 0.0031 |
 | substitutes | 1 | 0.0031 |
 | text | 1 | 0.0031 |
 | these | 1 | 0.0031 |
@@ -120,7 +112,6 @@ Total document words: 326
 | topics | 1 | 0.0031 |
 | understanding | 1 | 0.0031 |
 | user-facing | 1 | 0.0031 |
-| validation | 1 | 0.0031 |
 | various | 1 | 0.0031 |
 | way | 1 | 0.0031 |
 | within | 1 | 0.0031 |

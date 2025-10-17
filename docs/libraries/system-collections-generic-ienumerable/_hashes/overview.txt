@@ -1,0 +1,14 @@
+Title | IEnumerable and IEnumerable&lt;T&gt;
+Keyword | deferred execution
+Keyword | ienumerable
+Keyword | sequences
+Keyword | use
+Keyword | need
+Keyword | iteration
+Keyword | multiple
+Keyword | enumeration
+Keyword | linq
+Keyword | gt
+Keyword | lt
+Keyword | side effects
+Description | `IEnumerable<T>` and `IEnumerable` are fundamental interfaces in .NET representing sequences that can be enumerated one element at a time. `IEnumerable<T>` is the generic version providing type safety and is the foundation for LINQ and foreach iteration. These interfaces enable deferred execution, composition of queries, and abstraction over different data sources including collections, computed sequences, and database queries.

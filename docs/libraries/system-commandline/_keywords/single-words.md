@@ -1,28 +1,22 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 199
-Total word occurrences: 302
+Total unique words: 182
+Total word occurrences: 262
 Total document words: 498
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| parsing | 9 | 0.0181 |
+| parsing | 7 | 0.0141 |
 | use | 7 | 0.0141 |
 | command-line | 6 | 0.0120 |
-| options | 6 | 0.0120 |
-| validation | 6 | 0.0120 |
-| automatic | 4 | 0.0080 |
 | binding | 4 | 0.0080 |
 | commandline | 4 | 0.0080 |
-| handlers | 4 | 0.0080 |
 | help | 4 | 0.0080 |
 | hierarchies | 4 | 0.0080 |
 | option | 4 | 0.0080 |
-| support | 4 | 0.0080 |
 | arguments | 3 | 0.0060 |
 | commands | 3 | 0.0060 |
-| completion | 3 | 0.0060 |
 | complex | 3 | 0.0060 |
 | console | 3 | 0.0060 |
 | conventions | 3 | 0.0060 |
@@ -30,6 +24,7 @@ Total document words: 498
 | expensive | 3 | 0.0060 |
 | subcommands | 3 | 0.0060 |
 | tools | 3 | 0.0060 |
+| automatic | 2 | 0.0040 |
 | basic | 2 | 0.0040 |
 | built-in | 2 | 0.0040 |
 | cache | 2 | 0.0040 |
@@ -37,14 +32,14 @@ Total document words: 498
 | consider | 2 | 0.0040 |
 | considerations | 2 | 0.0040 |
 | creation | 2 | 0.0040 |
-| direct | 2 | 0.0040 |
 | focus | 2 | 0.0040 |
 | functionality | 2 | 0.0040 |
 | handler | 2 | 0.0040 |
+| handlers | 2 | 0.0040 |
 | helpful | 2 | 0.0040 |
 | inputs | 2 | 0.0040 |
-| lambda | 2 | 0.0040 |
 | logic | 2 | 0.0040 |
+| options | 2 | 0.0040 |
 | parse | 2 | 0.0040 |
 | parser | 2 | 0.0040 |
 | patterns | 2 | 0.0040 |
@@ -59,7 +54,6 @@ Total document words: 498
 | tab | 2 | 0.0040 |
 | validators | 2 | 0.0040 |
 | vs | 2 | 0.0040 |
-| windows | 2 | 0.0040 |
 | according | 1 | 0.0020 |
 | advanced | 1 | 0.0020 |
 | advantages | 1 | 0.0020 |
@@ -73,9 +67,7 @@ Total document words: 498
 | approaches | 1 | 0.0020 |
 | appropriate | 1 | 0.0020 |
 | argument | 1 | 0.0020 |
-| async | 1 | 0.0020 |
 | before | 1 | 0.0020 |
-| best | 1 | 0.0020 |
 | better | 1 | 0.0020 |
 | between | 1 | 0.0020 |
 | building | 1 | 0.0020 |
@@ -84,16 +76,15 @@ Total document words: 498
 | case | 1 | 0.0020 |
 | cause | 1 | 0.0020 |
 | causes | 1 | 0.0020 |
-| classes | 1 | 0.0020 |
 | clear | 1 | 0.0020 |
 | commandlinebuilder | 1 | 0.0020 |
 | common | 1 | 0.0020 |
 | commonly | 1 | 0.0020 |
 | compared | 1 | 0.0020 |
+| completion | 1 | 0.0020 |
 | configuration | 1 | 0.0020 |
 | constraints | 1 | 0.0020 |
 | construction | 1 | 0.0020 |
-| conversion | 1 | 0.0020 |
 | corrections | 1 | 0.0020 |
 | debugging | 1 | 0.0020 |
 | definition | 1 | 0.0020 |
@@ -115,7 +106,6 @@ Total document words: 498
 | especially | 1 | 0.0020 |
 | essential | 1 | 0.0020 |
 | examples | 1 | 0.0020 |
-| execution | 1 | 0.0020 |
 | exist | 1 | 0.0020 |
 | failures | 1 | 0.0020 |
 | flexible | 1 | 0.0020 |
@@ -126,7 +116,6 @@ Total document words: 498
 | global | 1 | 0.0020 |
 | group | 1 | 0.0020 |
 | guidance | 1 | 0.0020 |
-| handle | 1 | 0.0020 |
 | handles | 1 | 0.0020 |
 | hosting | 1 | 0.0020 |
 | impact | 1 | 0.0020 |
@@ -148,9 +137,7 @@ Total document words: 498
 | main | 1 | 0.0020 |
 | manipulation | 1 | 0.0020 |
 | many | 1 | 0.0020 |
-| matching | 1 | 0.0020 |
 | messages | 1 | 0.0020 |
-| method | 1 | 0.0020 |
 | microsoft | 1 | 0.0020 |
 | minimal | 1 | 0.0020 |
 | minimize | 1 | 0.0020 |
@@ -165,13 +152,11 @@ Total document words: 498
 | npm | 1 | 0.0020 |
 | o-bound | 1 | 0.0020 |
 | overflow | 1 | 0.0020 |
-| overhead | 1 | 0.0020 |
 | overview | 1 | 0.0020 |
 | perform | 1 | 0.0020 |
 | pitfalls | 1 | 0.0020 |
 | plan | 1 | 0.0020 |
 | possible | 1 | 0.0020 |
-| practices | 1 | 0.0020 |
 | prefer | 1 | 0.0020 |
 | programmatic | 1 | 0.0020 |
 | prompts | 1 | 0.0020 |
@@ -183,7 +168,6 @@ Total document words: 498
 | related | 1 | 0.0020 |
 | resources | 1 | 0.0020 |
 | results | 1 | 0.0020 |
-| return | 1 | 0.0020 |
 | rich | 1 | 0.0020 |
 | robust | 1 | 0.0020 |
 | runs | 1 | 0.0020 |
@@ -193,9 +177,9 @@ Total document words: 498
 | sparingly | 1 | 0.0020 |
 | startup | 1 | 0.0020 |
 | strongly-typed | 1 | 0.0020 |
+| structured | 1 | 0.0020 |
 | success | 1 | 0.0020 |
 | suggest | 1 | 0.0020 |
-| syntax | 1 | 0.0020 |
 | technical | 1 | 0.0020 |
 | terminal | 1 | 0.0020 |
 | testable | 1 | 0.0020 |
@@ -203,6 +187,5 @@ Total document words: 498
 | three | 1 | 0.0020 |
 | trimmed | 1 | 0.0020 |
 | want | 1 | 0.0020 |
-| work | 1 | 0.0020 |
 | works | 1 | 0.0020 |
 | wrong | 1 | 0.0020 |

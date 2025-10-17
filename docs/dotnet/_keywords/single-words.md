@@ -1,36 +1,33 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 380
-Total word occurrences: 696
+Total unique words: 364
+Total word occurrences: 654
 Total document words: 1219
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| net | 38 | 0.0312 |
-| code | 14 | 0.0115 |
+| net | 29 | 0.0238 |
 | runtime | 12 | 0.0098 |
+| code | 11 | 0.0090 |
 | libraries | 11 | 0.0090 |
 | like | 10 | 0.0082 |
 | while | 10 | 0.0082 |
 | cross-platform | 8 | 0.0066 |
 | tools | 7 | 0.0057 |
-| windows | 7 | 0.0057 |
 | languages | 6 | 0.0049 |
 | modern | 6 | 0.0049 |
 | provides | 6 | 0.0049 |
-| apis | 5 | 0.0041 |
 | community | 5 | 0.0041 |
 | enables | 5 | 0.0041 |
 | functionality | 5 | 0.0041 |
 | multiple | 5 | 0.0041 |
 | supported | 5 | 0.0041 |
 | via | 5 | 0.0041 |
+| windows | 5 | 0.0041 |
 | across | 4 | 0.0033 |
-| automatic | 4 | 0.0033 |
 | components | 4 | 0.0033 |
 | developers | 4 | 0.0033 |
-| features | 4 | 0.0033 |
 | linux | 4 | 0.0033 |
 | many | 4 | 0.0033 |
 | pillars | 4 | 0.0033 |
@@ -43,7 +40,6 @@ Total document words: 1219
 | been | 3 | 0.0025 |
 | building | 3 | 0.0025 |
 | chip | 3 | 0.0025 |
-| developer | 3 | 0.0025 |
 | enable | 3 | 0.0025 |
 | extensive | 3 | 0.0025 |
 | gc | 3 | 0.0025 |
@@ -67,9 +63,11 @@ Total document words: 1219
 | used | 3 | 0.0025 |
 | visual | 3 | 0.0025 |
 | abstraction | 2 | 0.0016 |
+| apis | 2 | 0.0016 |
 | app | 2 | 0.0016 |
 | application | 2 | 0.0016 |
 | architectures | 2 | 0.0016 |
+| automatic | 2 | 0.0016 |
 | being | 2 | 0.0016 |
 | bespoke | 2 | 0.0016 |
 | both | 2 | 0.0016 |
@@ -89,6 +87,7 @@ Total document words: 1219
 | executes | 2 | 0.0016 |
 | experience | 2 | 0.0016 |
 | favored | 2 | 0.0016 |
+| features | 2 | 0.0016 |
 | following | 2 | 0.0016 |
 | forms | 2 | 0.0016 |
 | garbage | 2 | 0.0016 |
@@ -129,9 +128,7 @@ Total document words: 1219
 | several | 2 | 0.0016 |
 | specialization | 2 | 0.0016 |
 | stacks | 2 | 0.0016 |
-| static | 2 | 0.0016 |
 | studio | 2 | 0.0016 |
-| support | 2 | 0.0016 |
 | supports | 2 | 0.0016 |
 | these | 2 | 0.0016 |
 | top | 2 | 0.0016 |
@@ -140,7 +137,6 @@ Total document words: 1219
 | variants | 2 | 0.0016 |
 | web | 2 | 0.0016 |
 | webassembly | 2 | 0.0016 |
-| written | 2 | 0.0016 |
 | adaptability | 1 | 0.0008 |
 | additional | 1 | 0.0008 |
 | advanced | 1 | 0.0008 |
@@ -153,7 +149,6 @@ Total document words: 1219
 | arm64 | 1 | 0.0008 |
 | assemblies | 1 | 0.0008 |
 | assistant | 1 | 0.0008 |
-| async | 1 | 0.0008 |
 | avalonia | 1 | 0.0008 |
 | await | 1 | 0.0008 |
 | aware | 1 | 0.0008 |
@@ -175,7 +170,6 @@ Total document words: 1219
 | command-line | 1 | 0.0008 |
 | commonly | 1 | 0.0008 |
 | companies | 1 | 0.0008 |
-| compiler | 1 | 0.0008 |
 | compiles | 1 | 0.0008 |
 | compression | 1 | 0.0008 |
 | compute | 1 | 0.0008 |
@@ -190,11 +184,11 @@ Total document words: 1219
 | curve | 1 | 0.0008 |
 | data-oriented | 1 | 0.0008 |
 | database | 1 | 0.0008 |
-| default | 1 | 0.0008 |
 | delegates | 1 | 0.0008 |
 | deliver | 1 | 0.0008 |
 | delivers | 1 | 0.0008 |
 | deploy | 1 | 0.0008 |
+| developer | 1 | 0.0008 |
 | differences | 1 | 0.0008 |
 | different | 1 | 0.0008 |
 | dispatch | 1 | 0.0008 |
@@ -205,7 +199,6 @@ Total document words: 1219
 | easy | 1 | 0.0008 |
 | editor | 1 | 0.0008 |
 | effective | 1 | 0.0008 |
-| efficient | 1 | 0.0008 |
 | enabled | 1 | 0.0008 |
 | enabling | 1 | 0.0008 |
 | ensure | 1 | 0.0008 |
@@ -215,7 +208,6 @@ Total document words: 1219
 | examples | 1 | 0.0008 |
 | excels | 1 | 0.0008 |
 | executable | 1 | 0.0008 |
-| execution | 1 | 0.0008 |
 | exists | 1 | 0.0008 |
 | expansive | 1 | 0.0008 |
 | explicitly | 1 | 0.0008 |
@@ -247,7 +239,6 @@ Total document words: 1219
 | instruction | 1 | 0.0008 |
 | integrate | 1 | 0.0008 |
 | interactive | 1 | 0.0008 |
-| interface | 1 | 0.0008 |
 | interfaces | 1 | 0.0008 |
 | interoperability | 1 | 0.0008 |
 | introduce | 1 | 0.0008 |
@@ -263,7 +254,6 @@ Total document words: 1219
 | limitations | 1 | 0.0008 |
 | low-cost | 1 | 0.0008 |
 | lowest | 1 | 0.0008 |
-| machine | 1 | 0.0008 |
 | maintained | 1 | 0.0008 |
 | maintaining | 1 | 0.0008 |
 | maintenance | 1 | 0.0008 |
@@ -272,7 +262,6 @@ Total document words: 1219
 | mapping | 1 | 0.0008 |
 | means | 1 | 0.0008 |
 | memory-safe | 1 | 0.0008 |
-| method | 1 | 0.0008 |
 | mit | 1 | 0.0008 |
 | ml | 1 | 0.0008 |
 | mode | 1 | 0.0008 |
@@ -296,7 +285,6 @@ Total document words: 1219
 | overwhelming | 1 | 0.0008 |
 | paradigm | 1 | 0.0008 |
 | parallel | 1 | 0.0008 |
-| parsing | 1 | 0.0008 |
 | patch | 1 | 0.0008 |
 | paths | 1 | 0.0008 |
 | patterns | 1 | 0.0008 |
@@ -333,7 +321,6 @@ Total document words: 1219
 | scalable | 1 | 0.0008 |
 | seamlessly | 1 | 0.0008 |
 | secure | 1 | 0.0008 |
-| security | 1 | 0.0008 |
 | see | 1 | 0.0008 |
 | services | 1 | 0.0008 |
 | significant | 1 | 0.0008 |
@@ -345,17 +332,14 @@ Total document words: 1219
 | spectrum | 1 | 0.0008 |
 | stackoverflow | 1 | 0.0008 |
 | standard | 1 | 0.0008 |
-| statement | 1 | 0.0008 |
 | suitable | 1 | 0.0008 |
 | supporting | 1 | 0.0008 |
 | system | 1 | 0.0008 |
 | systems | 1 | 0.0008 |
 | tap | 1 | 0.0008 |
-| task | 1 | 0.0008 |
 | technical | 1 | 0.0008 |
 | technologies | 1 | 0.0008 |
 | test | 1 | 0.0008 |
-| thread | 1 | 0.0008 |
 | threadpool | 1 | 0.0008 |
 | three | 1 | 0.0008 |
 | tight | 1 | 0.0008 |

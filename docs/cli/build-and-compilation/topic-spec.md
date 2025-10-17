@@ -42,7 +42,7 @@ Build and compilation encompasses the development-time workflow of transforming 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | overview | simhash | 17751379938475704630 |
-| technical | simhash | 13139692957975577396 |
+| technical | simhash | 13139693507731391284 |
 
 ## Relationships
 
@@ -60,16 +60,16 @@ Build and compilation encompasses the development-time workflow of transforming 
 |---------|-------|
 | build | 15.00 |
 | compilation | 5.00 |
+| ci | 4.00 |
 | build acceleration | 2.00 |
+| performance optimization | 2.00 |
 | custom build configurations | 2.00 |
 | dependency resolution | 2.00 |
 | msbuild integration | 2.00 |
-| ci | 4.00 |
-| analysis | 3.00 |
 | builds | 3.00 |
+| commands | 3.00 |
 | parallel | 3.00 |
 | workflows | 3.00 |
-| performance optimization | 2.00 |
 
 ## Similarity Scores
 
@@ -83,8 +83,23 @@ Build and compilation encompasses the development-time workflow of transforming 
 | libraries | libraries/system-commandline | 0.6689 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6622 |
 | csharp | csharp/csharp-14-features | 0.6456 |
+| libraries | libraries/system-threading-tasks-task | 0.6449 |
 | csharp | csharp | 0.6385 |
 | libraries | libraries/system-text-json-source-generation | 0.6282 |
-| libraries | libraries/system-text-json | 0.6227 |
-| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6163 |
+| libraries | libraries/system-text-json | 0.6184 |
 
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 6
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 3
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.555 |
+| 1 | Parallel Build Configuration | 0.531 | 0.606 |
+| 2 | Build Artifact Management | 0.536 | 0.647 |
+| 3 | Advanced Build Configuration | 0.555 | 1.000 |
+| 4 | NuGet Package Management | 0.598 | 0.632 |
+| 5 | Build Performance Analysis | 0.588 | 0.680 |

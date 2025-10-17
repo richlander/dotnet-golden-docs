@@ -1,0 +1,9 @@
+Title | System.Text.Json - What's New in .NET 10
+TypeName | System.Text.Json - What's New in .NET 10
+TypeName | System.Text.Json - What's New in 
+TypeName | NET 10
+API | System.Text.Json
+API | System.Text
+API | System.IO
+API | System.IO.Pipelines
+API | Console.WriteLine

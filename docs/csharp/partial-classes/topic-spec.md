@@ -41,3 +41,51 @@ Partial classes split the definition of a type (class, struct, or interface) and
 | Priority | 2 (Common usage - code generation scenarios) |
 | Version | Multiple (2.0 for partial types, 13.0+ for all partial members) |
 | Year | 2024 |
+
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 3375945098908056738 |
+| technical | simhash | 12992239223101612492 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| csharp | csharp/csharp-14-features | 0.7079 |
+| csharp | csharp/object-initialization | 0.6913 |
+| csharp | csharp/properties-backing-fields | 0.6888 |
+| csharp | csharp | 0.6820 |
+| csharp | csharp/collection-initialization | 0.6496 |
+| libraries | libraries | 0.6426 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6267 |
+| csharp | csharp/collection-expressions | 0.6253 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6243 |
+| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6174 |
+| libraries | libraries/system-text-json-nodes | 0.6117 |
+| dotnet | dotnet | 0.6081 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| ArgumentNullException | method | 3 |
+| DatabaseConnection | method | 3 |
+| GetPathSeparator | method | 3 |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 6
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.620 |
+| 1 | Considerations | 0.600 | 0.594 |
+| 2 | Partial Interfaces | 0.620 | 1.000 |
+| 3 | Partial Methods | 0.599 | 0.613 |
+| 4 | Partial Indexers | 0.582 | 0.634 |
+| 5 | Partial Constructors | 0.601 | 0.616 |

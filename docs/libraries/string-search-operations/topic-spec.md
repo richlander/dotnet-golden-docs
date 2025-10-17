@@ -43,7 +43,7 @@ String search operations provide a comprehensive set of methods for locating sub
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 17752545506692137272 |
+| overview | simhash | 13140859488264749368 |
 | technical | simhash | 17603926856436679036 |
 
 ## Relationships
@@ -61,7 +61,6 @@ String search operations provide a comprehensive set of methods for locating sub
 
 | Keyword | Score |
 |---------|-------|
-| string | 13.00 |
 | string search | 4.00 |
 | searchvalues | 7.00 |
 | string search operations | 3.00 |
@@ -71,25 +70,26 @@ String search operations provide a comprehensive set of methods for locating sub
 | repeated | 5.00 |
 | searches | 5.00 |
 | allocation-free | 3.00 |
-| best | 4.00 |
 | character | 4.00 |
+| string.contains | 2.00 |
+| complex | 4.00 |
 
 ## Similarity Scores
 
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
+| libraries | libraries/span-based-string-processing | 0.7976 |
 | libraries | libraries/system-buffers-searchvalues | 0.7956 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7306 |
 | csharp | csharp/csharp-14-features | 0.7160 |
+| libraries | libraries/system-collections-generic-ienumerable | 0.7019 |
 | csharp | csharp/collection-expressions | 0.7014 |
+| libraries | libraries/system-text-json | 0.7004 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.6953 |
 | csharp | csharp | 0.6922 |
-| libraries | libraries/system-text-json | 0.6920 |
 | libraries | libraries/system-text-json-utf8jsonreader | 0.6903 |
+| libraries | libraries/collections-performance | 0.6896 |
 | libraries | libraries/system-text-json-jsonserializer | 0.6886 |
-| libraries | libraries/system-text-json-nodes | 0.6731 |
-| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6665 |
-| libraries | libraries | 0.6619 |
-| libraries | libraries/system-commandline | 0.6562 |
 
 ## APIs
 
@@ -133,3 +133,19 @@ String search operations provide a comprehensive set of methods for locating sub
 | Empty string search | IndexOf("") returns 0, not -1 | Check for empty strings before searching if needed |
 | Unicode normalization | Composed vs decomposed characters may not match | Use culture-aware comparison or normalize strings first |
 | Return value -1 | Indicates not found, using as index will throw | Always check for >= 0 before using result |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 6
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.612 |
+| 1 | String.LastIndexOf | 0.612 | 1.000 |
+| 2 | Method Interoperability | 0.621 | 0.664 |
+| 3 | Security Filtering | 0.584 | 0.631 |
+| 4 | SearchValues Optimization | 0.593 | 0.649 |
+| 5 | 5. Consider Culture for User-Facing Text | 0.641 | 0.672 |

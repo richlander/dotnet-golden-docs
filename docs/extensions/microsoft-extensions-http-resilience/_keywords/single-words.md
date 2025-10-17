@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 170
-Total word occurrences: 331
+Total unique words: 157
+Total word occurrences: 316
 Total document words: 494
 
 | Word | Count | Document Concentration |
@@ -45,7 +45,6 @@ Total document words: 494
 | breakers | 2 | 0.0040 |
 | built-in | 2 | 0.0040 |
 | declarative | 2 | 0.0040 |
-| events | 2 | 0.0040 |
 | external | 2 | 0.0040 |
 | flexible | 2 | 0.0040 |
 | foundation | 2 | 0.0040 |
@@ -65,7 +64,6 @@ Total document words: 494
 | request | 2 | 0.0040 |
 | requirements | 2 | 0.0040 |
 | seamlessly | 2 | 0.0040 |
-| state | 2 | 0.0040 |
 | strategy | 2 | 0.0040 |
 | systems | 2 | 0.0040 |
 | telemetry | 2 | 0.0040 |
@@ -82,7 +80,6 @@ Total document words: 494
 | battle-tested | 1 | 0.0020 |
 | behavior | 1 | 0.0020 |
 | benefits | 1 | 0.0020 |
-| best | 1 | 0.0020 |
 | breaking | 1 | 0.0020 |
 | capabilities | 1 | 0.0020 |
 | careful | 1 | 0.0020 |
@@ -94,7 +91,6 @@ Total document words: 494
 | combination | 1 | 0.0020 |
 | combine | 1 | 0.0020 |
 | common | 1 | 0.0020 |
-| component | 1 | 0.0020 |
 | configurable | 1 | 0.0020 |
 | considerations | 1 | 0.0020 |
 | considered | 1 | 0.0020 |
@@ -110,23 +106,19 @@ Total document words: 494
 | ensure | 1 | 0.0020 |
 | environment-specific | 1 | 0.0020 |
 | examples | 1 | 0.0020 |
-| execution | 1 | 0.0020 |
 | fallbacks | 1 | 0.0020 |
 | fine-grained | 1 | 0.0020 |
 | fluent | 1 | 0.0020 |
 | gateway | 1 | 0.0020 |
 | gracefully | 1 | 0.0020 |
-| handle | 1 | 0.0020 |
 | http-based | 1 | 0.0020 |
 | http's | 1 | 0.0020 |
 | impact | 1 | 0.0020 |
 | including | 1 | 0.0020 |
 | infrastructure | 1 | 0.0020 |
-| integration | 1 | 0.0020 |
 | intelligent | 1 | 0.0020 |
 | inter-service | 1 | 0.0020 |
 | intersection | 1 | 0.0020 |
-| issues | 1 | 0.0020 |
 | key | 1 | 0.0020 |
 | known | 1 | 0.0020 |
 | layer | 1 | 0.0020 |
@@ -143,15 +135,12 @@ Total document words: 494
 | network | 1 | 0.0020 |
 | operational | 1 | 0.0020 |
 | opinionated | 1 | 0.0020 |
-| options | 1 | 0.0020 |
-| overhead | 1 | 0.0020 |
 | overview | 1 | 0.0020 |
 | parallel | 1 | 0.0020 |
 | pipelines | 1 | 0.0020 |
 | policy | 1 | 0.0020 |
 | pools | 1 | 0.0020 |
 | positioning | 1 | 0.0020 |
-| practices | 1 | 0.0020 |
 | production-ready | 1 | 0.0020 |
 | proper | 1 | 0.0020 |
 | protection | 1 | 0.0020 |
@@ -167,7 +156,6 @@ Total document words: 494
 | setup | 1 | 0.0020 |
 | simplified | 1 | 0.0020 |
 | sits | 1 | 0.0020 |
-| strict | 1 | 0.0020 |
 | supports | 1 | 0.0020 |
 | thresholds | 1 | 0.0020 |
 | timeouts | 1 | 0.0020 |
@@ -175,5 +163,4 @@ Total document words: 494
 | transient | 1 | 0.0020 |
 | visibility | 1 | 0.0020 |
 | while | 1 | 0.0020 |
-| work | 1 | 0.0020 |
 | works | 1 | 0.0020 |

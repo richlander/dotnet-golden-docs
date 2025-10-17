@@ -1,14 +1,14 @@
 Title | CLI
 Keyword | cli
+Keyword | package
 Keyword | development
 Keyword | tools
-Keyword | package
-Keyword | global
-Keyword | builds
 Keyword | commands
+Keyword | global
+Keyword | command-line
+Keyword | builds
 Keyword | across
 Keyword | projects
-Keyword | command-line
 Keyword | consistent
 Keyword | sdk
 Description | The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications. It provides a unified command-line experience across Windows, macOS, and Linux for all stages of the application development lifecycle.

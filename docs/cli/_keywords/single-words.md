@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 310
-Total word occurrences: 554
+Total unique words: 295
+Total word occurrences: 521
 Total document words: 860
 
 | Word | Count | Document Concentration |
@@ -21,11 +21,8 @@ Total document words: 860
 | consistent | 5 | 0.0058 |
 | provides | 5 | 0.0058 |
 | sdk | 5 | 0.0058 |
-| support | 5 | 0.0058 |
 | cache | 4 | 0.0047 |
-| code | 4 | 0.0047 |
 | cross-platform | 4 | 0.0047 |
-| integration | 4 | 0.0047 |
 | limitations | 4 | 0.0047 |
 | path | 4 | 0.0047 |
 | solution | 4 | 0.0047 |
@@ -33,17 +30,14 @@ Total document words: 860
 | team | 4 | 0.0047 |
 | tool | 4 | 0.0047 |
 | visual | 4 | 0.0047 |
-| windows | 4 | 0.0047 |
 | application | 3 | 0.0035 |
 | caching | 3 | 0.0035 |
 | ci | 3 | 0.0035 |
 | command-line | 3 | 0.0035 |
 | considerations | 3 | 0.0035 |
 | downloads | 3 | 0.0035 |
-| efficient | 3 | 0.0035 |
 | experience | 3 | 0.0035 |
 | ide | 3 | 0.0035 |
-| issues | 3 | 0.0035 |
 | like | 3 | 0.0035 |
 | operating | 3 | 0.0035 |
 | organization | 3 | 0.0035 |
@@ -64,7 +58,6 @@ Total document words: 860
 | cause | 2 | 0.0023 |
 | cd | 2 | 0.0023 |
 | customization | 2 | 0.0023 |
-| default | 2 | 0.0023 |
 | dependencies | 2 | 0.0023 |
 | deployment | 2 | 0.0023 |
 | differences | 2 | 0.0023 |
@@ -77,9 +70,9 @@ Total document words: 860
 | hosting | 2 | 0.0023 |
 | incremental | 2 | 0.0023 |
 | installation | 2 | 0.0023 |
+| integration | 2 | 0.0023 |
 | length | 2 | 0.0023 |
 | linux | 2 | 0.0023 |
-| lock | 2 | 0.0023 |
 | macos | 2 | 0.0023 |
 | manifests | 2 | 0.0023 |
 | models | 2 | 0.0023 |
@@ -103,7 +96,7 @@ Total document words: 860
 | verification | 2 | 0.0023 |
 | verify | 2 | 0.0023 |
 | while | 2 | 0.0023 |
-| without | 2 | 0.0023 |
+| windows | 2 | 0.0023 |
 | workloads | 2 | 0.0023 |
 | actions | 1 | 0.0012 |
 | additional | 1 | 0.0012 |
@@ -132,6 +125,7 @@ Total document words: 860
 | changed | 1 | 0.0012 |
 | changes | 1 | 0.0012 |
 | cli-based | 1 | 0.0012 |
+| code | 1 | 0.0012 |
 | coexist | 1 | 0.0012 |
 | cold | 1 | 0.0012 |
 | collaboration | 1 | 0.0012 |
@@ -155,26 +149,24 @@ Total document words: 860
 | deploying | 1 | 0.0012 |
 | design | 1 | 0.0012 |
 | designed | 1 | 0.0012 |
-| developer | 1 | 0.0012 |
 | developers | 1 | 0.0012 |
 | developing | 1 | 0.0012 |
 | devops | 1 | 0.0012 |
 | different | 1 | 0.0012 |
 | differently | 1 | 0.0012 |
-| direct | 1 | 0.0012 |
 | disabled | 1 | 0.0012 |
 | docker | 1 | 0.0012 |
 | driver | 1 | 0.0012 |
 | due | 1 | 0.0012 |
 | editors | 1 | 0.0012 |
 | efficiency | 1 | 0.0012 |
+| efficient | 1 | 0.0012 |
 | enable | 1 | 0.0012 |
 | engineers | 1 | 0.0012 |
 | ensure | 1 | 0.0012 |
 | environments | 1 | 0.0012 |
 | essential | 1 | 0.0012 |
 | established | 1 | 0.0012 |
-| execution | 1 | 0.0012 |
 | exist | 1 | 0.0012 |
 | explicit | 1 | 0.0012 |
 | extensible | 1 | 0.0012 |
@@ -205,7 +197,7 @@ Total document words: 860
 | installing | 1 | 0.0012 |
 | integrates | 1 | 0.0012 |
 | intellisense | 1 | 0.0012 |
-| interface | 1 | 0.0012 |
+| issues | 1 | 0.0012 |
 | jetbrains | 1 | 0.0012 |
 | key | 1 | 0.0012 |
 | large | 1 | 0.0012 |
@@ -214,7 +206,6 @@ Total document words: 860
 | lifecycle | 1 | 0.0012 |
 | lightweight | 1 | 0.0012 |
 | local | 1 | 0.0012 |
-| long | 1 | 0.0012 |
 | machines | 1 | 0.0012 |
 | main | 1 | 0.0012 |
 | maintaining | 1 | 0.0012 |
@@ -226,7 +217,6 @@ Total document words: 860
 | modern | 1 | 0.0012 |
 | multi-level | 1 | 0.0012 |
 | multi-platform | 1 | 0.0012 |
-| net | 1 | 0.0012 |
 | noun | 1 | 0.0012 |
 | nuget | 1 | 0.0012 |
 | object-focused | 1 | 0.0012 |
@@ -234,9 +224,7 @@ Total document words: 860
 | optimize | 1 | 0.0012 |
 | optimized | 1 | 0.0012 |
 | optional | 1 | 0.0012 |
-| options | 1 | 0.0012 |
 | outputs | 1 | 0.0012 |
-| overhead | 1 | 0.0012 |
 | overview | 1 | 0.0012 |
 | overwhelm | 1 | 0.0012 |
 | parallelism | 1 | 0.0012 |
@@ -267,11 +255,9 @@ Total document words: 860
 | run | 1 | 0.0012 |
 | runtimes | 1 | 0.0012 |
 | scaffolding | 1 | 0.0012 |
-| scenarios | 1 | 0.0012 |
 | sdk-based | 1 | 0.0012 |
 | sdk-style | 1 | 0.0012 |
 | seamlessly | 1 | 0.0012 |
-| security | 1 | 0.0012 |
 | security-critical | 1 | 0.0012 |
 | see | 1 | 0.0012 |
 | self-contained | 1 | 0.0012 |
@@ -313,7 +299,6 @@ Total document words: 860
 | very | 1 | 0.0012 |
 | vs | 1 | 0.0012 |
 | watch-driven | 1 | 0.0012 |
-| work | 1 | 0.0012 |
 | workflow | 1 | 0.0012 |
 | workload | 1 | 0.0012 |
 | works | 1 | 0.0012 |

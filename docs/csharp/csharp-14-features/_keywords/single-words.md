@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 133
-Total word occurrences: 192
+Total unique words: 111
+Total word occurrences: 149
 Total document words: 360
 
 | Word | Count | Document Concentration |
@@ -10,25 +10,14 @@ Total document words: 360
 | assignment | 6 | 0.0167 |
 | patterns | 6 | 0.0167 |
 | extension | 5 | 0.0139 |
-| support | 5 | 0.0139 |
-| code | 4 | 0.0111 |
 | enhanced | 4 | 0.0111 |
 | keyword | 4 | 0.0111 |
 | zero-allocation | 4 | 0.0111 |
 | compile-time | 3 | 0.0083 |
 | first-class | 3 | 0.0083 |
-| lambda | 3 | 0.0083 |
-| partial | 3 | 0.0083 |
-| syntax | 3 | 0.0083 |
-| async | 2 | 0.0056 |
 | boilerplate | 2 | 0.0056 |
 | compound | 2 | 0.0056 |
-| constructors | 2 | 0.0056 |
 | enables | 2 | 0.0056 |
-| events | 2 | 0.0056 |
-| features | 2 | 0.0056 |
-| field | 2 | 0.0056 |
-| modifiers | 2 | 0.0056 |
 | null-conditional | 2 | 0.0056 |
 | operators | 2 | 0.0056 |
 | optional | 2 | 0.0056 |
@@ -37,8 +26,6 @@ Total document words: 360
 | rules | 2 | 0.0056 |
 | stack-only | 2 | 0.0056 |
 | unsafe | 2 | 0.0056 |
-| validation | 2 | 0.0056 |
-| without | 2 | 0.0056 |
 | accessors | 1 | 0.0028 |
 | additional | 1 | 0.0028 |
 | alternatives | 1 | 0.0028 |
@@ -48,7 +35,6 @@ Total document words: 360
 | augmenting | 1 | 0.0028 |
 | auto-implemented | 1 | 0.0028 |
 | available | 1 | 0.0028 |
-| backing | 1 | 0.0028 |
 | better | 1 | 0.0028 |
 | boundaries | 1 | 0.0028 |
 | calls | 1 | 0.0028 |
@@ -56,6 +42,7 @@ Total document words: 360
 | capabilities | 1 | 0.0028 |
 | careful | 1 | 0.0028 |
 | change | 1 | 0.0028 |
+| code | 1 | 0.0028 |
 | common | 1 | 0.0028 |
 | compiler-generated | 1 | 0.0028 |
 | complex | 1 | 0.0028 |
@@ -63,12 +50,10 @@ Total document words: 360
 | declarations | 1 | 0.0028 |
 | define | 1 | 0.0028 |
 | definitions | 1 | 0.0028 |
-| developer | 1 | 0.0028 |
 | diagnostics | 1 | 0.0028 |
 | directly | 1 | 0.0028 |
 | doesn't | 1 | 0.0028 |
 | don't | 1 | 0.0028 |
-| efficient | 1 | 0.0028 |
 | enable | 1 | 0.0028 |
 | enabling | 1 | 0.0028 |
 | enforced | 1 | 0.0028 |
@@ -95,22 +80,16 @@ Total document words: 360
 | lifetime | 1 | 0.0028 |
 | limitations | 1 | 0.0028 |
 | limited | 1 | 0.0028 |
-| linq | 1 | 0.0028 |
 | logic | 1 | 0.0028 |
 | low-level | 1 | 0.0028 |
-| matching | 1 | 0.0028 |
 | member | 1 | 0.0028 |
-| method | 1 | 0.0028 |
 | name | 1 | 0.0028 |
-| natural | 1 | 0.0028 |
 | null-safe | 1 | 0.0028 |
 | optimizations | 1 | 0.0028 |
 | overload | 1 | 0.0028 |
 | overview | 1 | 0.0028 |
-| parameter | 1 | 0.0028 |
 | priority | 1 | 0.0028 |
 | productivity | 1 | 0.0028 |
-| property | 1 | 0.0028 |
 | provide | 1 | 0.0028 |
 | records | 1 | 0.0028 |
 | reducing | 1 | 0.0028 |
@@ -139,4 +118,3 @@ Total document words: 360
 | user-defined | 1 | 0.0028 |
 | versions | 1 | 0.0028 |
 | ways | 1 | 0.0028 |
-| work | 1 | 0.0028 |

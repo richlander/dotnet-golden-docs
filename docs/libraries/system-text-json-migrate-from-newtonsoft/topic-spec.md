@@ -33,6 +33,7 @@ This topic provides technical mapping between Newtonsoft.Json and System.Text.Js
 | Priority | 2 (High) |
 | Version | 3.0 |
 | Year | 2019 |
+
 ## Hashes
 
 | Name | Kind | Fingerprint |
@@ -45,17 +46,17 @@ This topic provides technical mapping between Newtonsoft.Json and System.Text.Js
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | libraries | libraries/system-text-json-jsonserializer | 0.8428 |
-| libraries | libraries/system-text-json | 0.8378 |
+| libraries | libraries/system-text-json | 0.8369 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.7999 |
 | libraries | libraries/system-text-json-nodes | 0.7949 |
 | libraries | libraries/system-text-json-source-generation | 0.7575 |
 | libraries | libraries/system-text-json-jsondocument | 0.7494 |
+| libraries | libraries/json-validation-security | 0.7453 |
 | libraries | libraries/system-text-json-utf8jsonreader | 0.7430 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7378 |
 | csharp | csharp/csharp-14-features | 0.7255 |
 | libraries | libraries/system-text-json-utf8jsonwriter | 0.7239 |
 | libraries | libraries | 0.6928 |
-| csharp | csharp/object-initialization | 0.6899 |
-| csharp | csharp | 0.6781 |
 
 ## APIs
 
@@ -74,3 +75,20 @@ This topic provides technical mapping between Newtonsoft.Json and System.Text.Js
 | JsonPropertyName | attribute | 3 |
 | Select | method | 3 |
 
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 8
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.645 |
+| 1 | DateFormatString | 0.583 | 0.640 |
+| 2 | JsonSerializerSettings to JsonSerializerOptions | 0.645 | 1.000 |
+| 3 | Numbers in Quotes | 0.628 | 0.728 |
+| 4 | Dictionary with Non-String Keys | 0.623 | 0.716 |
+| 5 | Callbacks | 0.601 | 0.711 |
+| 6 | JToken to JsonElement (Read-Only) | 0.635 | 0.687 |
+| 7 | System.Runtime.Serialization Attributes | 0.626 | 0.678 |

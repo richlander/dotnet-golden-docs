@@ -39,3 +39,49 @@ Lambda expressions create anonymous functions using the `=>` operator, with supp
 | Priority | 1 (Critical - fundamental language feature) |
 | Version | Multiple (3.0 base, 9.0 static, 10.0 natural type, 12.0 defaults, 14.0 modifiers) |
 | Year | 2024 |
+
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 13789395562491052844 |
+| technical | simhash | 12974085684805370156 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| csharp | csharp/csharp-14-features | 0.7600 |
+| csharp | csharp | 0.7522 |
+| libraries | libraries/system-collections-generic-ienumerable | 0.7338 |
+| csharp | csharp/async-await | 0.7270 |
+| csharp | csharp/collection-expressions | 0.7270 |
+| libraries | libraries/system-threading-tasks-task | 0.7124 |
+| libraries | libraries/system-collections-generic-iasyncenumerable | 0.7111 |
+| csharp | csharp/properties-backing-fields | 0.6840 |
+| libraries | libraries/string-search-operations | 0.6821 |
+| libraries | libraries/system-text-json-jsonserializer | 0.6768 |
+| csharp | csharp/collection-initialization | 0.6759 |
+| libraries | libraries/dotnet-10-library-improvements | 0.6750 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| Console.WriteLine | method | 12 |
+| Parse | method | 4 |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 5
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.713 |
+| 1 | Expression Lambdas | 0.713 | 1.000 |
+| 2 | Parameter Modifiers | 0.698 | 0.717 |
+| 3 | Async Lambdas | 0.645 | 0.695 |
+| 4 | Type Inference | 0.697 | 0.731 |

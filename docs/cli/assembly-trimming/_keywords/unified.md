@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 9 compound terms and 185 single words
-Total unique terms: 190
-Terms with score ≥ 3.0: 26
-Total term occurrences: 279
+Combined 9 compound terms and 169 single words
+Total unique terms: 174
+Terms with score ≥ 3.0: 24
+Total term occurrences: 253
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,9 +15,8 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
 | trimming | single | 8 | 1.00x | 1.00x | 8.0 |
-| code | single | 7 | 1.00x | 1.00x | 7.0 |
 | assembly trimming | compound | 3 | 1.50x | 1.50x | 6.8 |
-| analysis | single | 4 | 1.00x | 1.00x | 4.0 |
+| code | single | 4 | 1.00x | 1.00x | 4.0 |
 | deployment | single | 4 | 1.00x | 1.00x | 4.0 |
 | reduced | single | 4 | 1.00x | 1.00x | 4.0 |
 | test | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -37,6 +36,5 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | self-contained | compound | 2 | 1.00x | 1.50x | 3.0 |
 | single-file | compound | 2 | 1.00x | 1.50x | 3.0 |
 | startup | single | 3 | 1.00x | 1.00x | 3.0 |
-| support | single | 3 | 1.00x | 1.00x | 3.0 |
 | trimmed | single | 3 | 1.00x | 1.00x | 3.0 |
 | unused | single | 3 | 1.00x | 1.00x | 3.0 |

@@ -67,9 +67,9 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | benefits | 6.00 |
 | case | 6.00 |
 | readytorun | 6.00 |
-| size | 6.00 |
 | startup | 7.00 |
 | runtime | 10.00 |
+| compilation | 5.00 |
 
 ## Diagnostic Codes
 
@@ -105,9 +105,9 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | libraries | libraries/system-commandline | 0.6301 |
 | extensions | extensions/microsoft-extensions-http-resilience | 0.6171 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6169 |
-| libraries | libraries/system-text-json | 0.6106 |
+| libraries | libraries/system-text-json | 0.6075 |
+| libraries | libraries/system-threading-tasks-task | 0.5939 |
 | extensions | extensions/microsoft-extensions-ai | 0.5931 |
-| csharp | csharp/csharp-14-features | 0.5899 |
 
 ## Authority Scores
 
@@ -116,3 +116,19 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | cli/native-aot | native aot | 1.322 |
 | libraries/system-text-json-source-generation | native aot | 1.322 |
 
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 6
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 3
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.588 |
+| 1 | ReadyToRun Compilation | 0.623 | 0.633 |
+| 2 | By Performance Requirements | 0.634 | 0.600 |
+| 3 | Runtime Configuration | 0.588 | 1.000 |
+| 4 | Microservice Deployment | 0.587 | 0.650 |
+| 5 | Publishing Profile Management | 0.600 | 0.617 |

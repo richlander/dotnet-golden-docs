@@ -1,52 +1,46 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 216
-Total word occurrences: 447
+Total unique words: 196
+Total word occurrences: 390
 Total document words: 780
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | jsondocument | 20 | 0.0256 |
-| json | 15 | 0.0192 |
 | jsonelement | 8 | 0.0103 |
-| without | 8 | 0.0103 |
-| access | 7 | 0.0090 |
 | deserialization | 7 | 0.0090 |
 | read-only | 6 | 0.0077 |
 | strongly-typed | 6 | 0.0077 |
 | use | 6 | 0.0077 |
 | value | 6 | 0.0077 |
+| without | 6 | 0.0077 |
+| document | 5 | 0.0064 |
 | extract | 5 | 0.0064 |
 | into | 5 | 0.0064 |
 | jsonnode | 5 | 0.0064 |
 | modification | 5 | 0.0064 |
-| parsing | 5 | 0.0064 |
 | pooled | 5 | 0.0064 |
-| property | 5 | 0.0064 |
 | provides | 5 | 0.0064 |
 | text | 5 | 0.0064 |
-| validation | 5 | 0.0064 |
 | values | 5 | 0.0064 |
 | checking | 4 | 0.0051 |
 | dom | 4 | 0.0051 |
 | minimal | 4 | 0.0051 |
 | mutable | 4 | 0.0051 |
 | process | 4 | 0.0051 |
-| array | 3 | 0.0038 |
 | before | 3 | 0.0038 |
 | better | 3 | 0.0038 |
 | check | 3 | 0.0038 |
 | disposal | 3 | 0.0038 |
 | disposed | 3 | 0.0038 |
-| event | 3 | 0.0038 |
 | faster | 3 | 0.0038 |
-| field | 3 | 0.0038 |
 | forward-only | 3 | 0.0038 |
 | full | 3 | 0.0038 |
 | instead | 3 | 0.0038 |
 | iterate | 3 | 0.0038 |
 | iteration | 3 | 0.0038 |
+| json | 3 | 0.0038 |
 | large | 3 | 0.0038 |
 | lifetime | 3 | 0.0038 |
 | metadata | 3 | 0.0038 |
@@ -54,6 +48,7 @@ Total document words: 780
 | need | 3 | 0.0038 |
 | nested | 3 | 0.0038 |
 | offers | 3 | 0.0038 |
+| parsing | 3 | 0.0038 |
 | requires | 3 | 0.0038 |
 | routing | 3 | 0.0038 |
 | runtime | 3 | 0.0038 |
@@ -68,13 +63,11 @@ Total document words: 780
 | deserialize | 2 | 0.0026 |
 | determine | 2 | 0.0026 |
 | different | 2 | 0.0026 |
-| document | 2 | 0.0026 |
 | dynamically | 2 | 0.0026 |
 | elements | 2 | 0.0026 |
 | entire | 2 | 0.0026 |
 | enumeration | 2 | 0.0026 |
 | extraction | 2 | 0.0026 |
-| fields | 2 | 0.0026 |
 | filtering | 2 | 0.0026 |
 | key | 2 | 0.0026 |
 | lowest | 2 | 0.0026 |
@@ -87,20 +80,17 @@ Total document words: 780
 | parses | 2 | 0.0026 |
 | payload | 2 | 0.0026 |
 | portions | 2 | 0.0026 |
-| processing | 2 | 0.0026 |
-| random | 2 | 0.0026 |
 | raw | 2 | 0.0026 |
 | request | 2 | 0.0026 |
 | route | 2 | 0.0026 |
-| scenarios | 2 | 0.0026 |
 | schema-less | 2 | 0.0026 |
 | selective | 2 | 0.0026 |
 | sequential | 2 | 0.0026 |
-| streaming | 2 | 0.0026 |
 | them | 2 | 0.0026 |
 | underlying | 2 | 0.0026 |
+| using | 2 | 0.0026 |
 | validate | 2 | 0.0026 |
-| allocates | 1 | 0.0013 |
+| access | 1 | 0.0013 |
 | alternative | 1 | 0.0013 |
 | always | 1 | 0.0013 |
 | api | 1 | 0.0013 |
@@ -108,7 +98,6 @@ Total document words: 780
 | approaches | 1 | 0.0013 |
 | attempting | 1 | 0.0013 |
 | avoid | 1 | 0.0013 |
-| backed | 1 | 0.0013 |
 | because | 1 | 0.0013 |
 | become | 1 | 0.0013 |
 | benefit | 1 | 0.0013 |
@@ -137,10 +126,9 @@ Total document words: 780
 | deserializing | 1 | 0.0013 |
 | dispose | 1 | 0.0013 |
 | efficiency | 1 | 0.0013 |
-| efficient | 1 | 0.0013 |
 | enumerate | 1 | 0.0013 |
 | enumerating | 1 | 0.0013 |
-| events | 1 | 0.0013 |
+| event | 1 | 0.0013 |
 | everything | 1 | 0.0013 |
 | exist | 1 | 0.0013 |
 | existence | 1 | 0.0013 |
@@ -149,7 +137,6 @@ Total document words: 780
 | extracting | 1 | 0.0013 |
 | extractors | 1 | 0.0013 |
 | failure | 1 | 0.0013 |
-| fast | 1 | 0.0013 |
 | fills | 1 | 0.0013 |
 | filter | 1 | 0.0013 |
 | filters | 1 | 0.0013 |
@@ -179,7 +166,6 @@ Total document words: 780
 | navigation | 1 | 0.0013 |
 | object-based | 1 | 0.0013 |
 | optimized | 1 | 0.0013 |
-| overhead | 1 | 0.0013 |
 | overview | 1 | 0.0013 |
 | patterns | 1 | 0.0013 |
 | pooling | 1 | 0.0013 |
@@ -194,8 +180,8 @@ Total document words: 780
 | requirement | 1 | 0.0013 |
 | requirements | 1 | 0.0013 |
 | requiring | 1 | 0.0013 |
+| responses | 1 | 0.0013 |
 | retain | 1 | 0.0013 |
-| return | 1 | 0.0013 |
 | returns | 1 | 0.0013 |
 | routers | 1 | 0.0013 |
 | scanning | 1 | 0.0013 |
@@ -204,15 +190,10 @@ Total document words: 780
 | slower | 1 | 0.0013 |
 | solution | 1 | 0.0013 |
 | start | 1 | 0.0013 |
-| statements | 1 | 0.0013 |
-| stream | 1 | 0.0013 |
 | streams | 1 | 0.0013 |
-| struct | 1 | 0.0013 |
 | structures | 1 | 0.0013 |
 | suit | 1 | 0.0013 |
-| support | 1 | 0.0013 |
 | systems | 1 | 0.0013 |
-| temporary | 1 | 0.0013 |
 | through | 1 | 0.0013 |
 | unnecessary | 1 | 0.0013 |
 | usage | 1 | 0.0013 |
@@ -221,5 +202,4 @@ Total document words: 780
 | webhook | 1 | 0.0013 |
 | whether | 1 | 0.0013 |
 | while | 1 | 0.0013 |
-| work | 1 | 0.0013 |
 | write | 1 | 0.0013 |

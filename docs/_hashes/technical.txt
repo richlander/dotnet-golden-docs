@@ -15,12 +15,12 @@ API | System.Text.Json
 Keyword | file-based apps
 Keyword | object initialization
 Keyword | anonymous types
+Keyword | async operations
 Keyword | collection properties
+Keyword | pattern matching
+Keyword | async linq
 Keyword | framework-dependent
+Keyword | stack allocation
+Keyword | array interface devirtualization
 Keyword | collection initialization
 Keyword | file-based-programs
-Keyword | file-level
-Keyword | init properties
-Keyword | json documents
-Keyword | system.text.json.nodes
-Keyword | microsoft.extensions.ai

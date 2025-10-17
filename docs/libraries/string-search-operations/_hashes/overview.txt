@@ -1,5 +1,4 @@
 Title | String Search
-Keyword | string
 Keyword | string search
 Keyword | searchvalues
 Keyword | string search operations
@@ -9,6 +8,7 @@ Keyword | searching
 Keyword | repeated
 Keyword | searches
 Keyword | allocation-free
-Keyword | best
 Keyword | character
+Keyword | string.contains
+Keyword | complex
 Description | String search operations provide a comprehensive set of methods for locating substrings, characters, and patterns within text. These operations include Contains, IndexOf, LastIndexOf, StartsWith, EndsWith, and IndexOfAny, offering solutions ranging from simple existence checks to position-based extraction with both ordinal and culture-aware comparison modes.

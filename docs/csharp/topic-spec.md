@@ -49,8 +49,8 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 3772209114392757042 |
-| technical | simhash | 12990971914609426736 |
+| overview | simhash | 13140259840106365750 |
+| technical | simhash | 12995581704090288436 |
 
 ## Relationships
 
@@ -62,17 +62,17 @@ C# is a modern, safe, and general purpose language that makes developers product
 | Keyword | Score |
 |---------|-------|
 | language | 19.00 |
-| features | 13.00 |
-| net | 13.00 |
+| features | 11.00 |
+| libraries | 9.00 |
 | like | 11.00 |
-| compiler | 8.00 |
 | programming | 8.00 |
 | object-oriented | 5.00 |
 | memory management | 6.00 |
-| libraries | 9.00 |
 | cross-platform | 5.00 |
-| data | 8.00 |
-| language features | 3.00 |
+| applications | 6.00 |
+| enables | 6.00 |
+| low-level | 4.00 |
+| while | 6.00 |
 
 ## Similarity Scores
 
@@ -80,26 +80,26 @@ C# is a modern, safe, and general purpose language that makes developers product
 |----------|----------|------------|
 | csharp | csharp/csharp-14-features | 0.8373 |
 | dotnet | dotnet | 0.7851 |
+| csharp | csharp/lambda-expressions | 0.7522 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7352 |
 | csharp | csharp/collection-expressions | 0.7324 |
+| csharp | csharp/async-await | 0.7305 |
+| libraries | libraries/system-collections-generic-ienumerable | 0.7222 |
 | csharp | csharp/object-initialization | 0.7142 |
+| csharp | csharp/properties-backing-fields | 0.7118 |
 | libraries | libraries/system-text-json-jsonserializer | 0.7075 |
+| libraries | libraries/system-threading-tasks-task | 0.7073 |
 | libraries | libraries | 0.7046 |
-| libraries | libraries/system-commandline | 0.6995 |
-| libraries | libraries/system-text-json | 0.6981 |
-| libraries | libraries/string-search-operations | 0.6922 |
-| libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6781 |
-| cli | cli/file-based-apps | 0.6755 |
 
 ### Similarity Metadata
 
 | Category | Threshold | Percentile | Total Pairs |
 |----------|-----------|------------|-------------|
 | cli | 0.6385 | P50 | 6 |
-| csharp | 0.7142 | P50 | 4 |
+| csharp | 0.7118 | P70 | 8 |
 | dotnet | 0.7851 | P50 | 1 |
 | extensions | 0.5845 | P50 | 3 |
-| libraries | 0.6403 | P70 | 13 |
+| libraries | 0.6614 | P70 | 21 |
 
 ## Authority Scores
 
@@ -144,3 +144,18 @@ That issue has links to many documents, such as https://github.com/dotnet/csharp
 | Avoid | Compiler implementation, Complex edge cases, Advanced generic scenarios |
 | Cross-reference discover from | Related language features, Syntax alternatives, Prerequisite concepts |
 | Cross-reference surface to | Complementary features, Common usage patterns, Framework integrations |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 6
+**Baseline (Conceptual)**: 0
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | - |
+| 1 | Type System and Object Orientation | 0.654 | - |
+| 2 | Asynchronous Programming | 0.616 | - |
+| 3 | .NET Ecosystem Integration | 0.609 | - |
+| 4 | Learning Curve | 0.606 | - |
+| 5 | Core Language Concepts | 0.674 | - |

@@ -57,13 +57,13 @@ Error | SYSLIB1225
 ErrorMessage | JSON source generation does not support the specified configuration.
 Keyword | source generation
 Keyword | system.text.json source generation
-Keyword | naming policies
 Keyword | compile-time
+Keyword | naming policies
+Keyword | generic methods
 Keyword | aot compatibility
+Keyword | native aot
 Keyword | native aot applications
 Keyword | aot-compatible
-Keyword | generic methods
 Keyword | runtime
 Keyword | asp.net core web apis
 Keyword | multiple contexts
-Keyword | native aot

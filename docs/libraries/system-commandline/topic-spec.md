@@ -43,8 +43,8 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 4477352130680084748 |
-| overview | simhash | 13031609950279271226 |
-| technical | simhash | 17603784469680882044 |
+| overview | simhash | 13027106350651900730 |
+| technical | simhash | 17603786118948323708 |
 
 ## Relationships
 
@@ -60,18 +60,18 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 
 | Keyword | Score |
 |---------|-------|
-| system.commandline | 4.00 |
 | command-line | 6.00 |
-| parsing | 9.00 |
+| system.commandline | 4.00 |
+| parsing | 7.00 |
 | response files | 3.00 |
-| options | 6.00 |
-| validation | 6.00 |
-| automatic | 4.00 |
 | binding | 4.00 |
 | commandline | 4.00 |
-| handlers | 4.00 |
 | help | 4.00 |
 | hierarchies | 4.00 |
+| option | 4.00 |
+| use | 7.00 |
+| model binding | 2.00 |
+| arguments | 3.00 |
 
 ## APIs
 
@@ -90,17 +90,17 @@ System.CommandLine is a command-line parsing library for .NET that provides func
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | cli | cli | 0.7970 |
+| libraries | libraries/system-text-json | 0.7253 |
 | cli | cli/file-based-apps | 0.7239 |
-| libraries | libraries/system-text-json | 0.7216 |
 | libraries | libraries/system-text-json-jsonserializer | 0.7107 |
 | dotnet | dotnet | 0.7004 |
 | csharp | csharp | 0.6995 |
 | csharp | csharp/csharp-14-features | 0.6990 |
 | libraries | libraries | 0.6963 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6932 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.6925 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6901 |
-| cli | cli/native-aot | 0.6697 |
-| cli | cli/build-and-compilation | 0.6689 |
+| libraries | libraries/system-threading-tasks-task | 0.6846 |
 
 ## Authority Scores
 
@@ -125,3 +125,17 @@ System.CommandLine produces runtime parse error messages (not compile-time diagn
 | File does not exist: '{0}'. | Specified file path does not exist (when using file validation) |
 | Directory does not exist: '{0}'. | Specified directory path does not exist (when using directory validation) |
 | Response file not found '{0}'. | Referenced response file (@file) could not be located |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 4
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.569 |
+| 1 | Advanced Validation | 0.569 | 1.000 |
+| 2 | Complex Type Binding | 0.569 | 0.701 |
+| 3 | Error Handling Guidance | 0.600 | 0.670 |

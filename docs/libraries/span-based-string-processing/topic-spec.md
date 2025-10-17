@@ -39,3 +39,61 @@ Span-based string processing enables high-performance text operations without he
 | Priority | 2 (High - important for performance-critical applications) |
 | Version | Current |
 | Year | N/A |
+
+## Hashes
+
+| Name | Kind | Fingerprint |
+|------|------|-------------|
+| overview | simhash | 3500403042930203010 |
+| technical | simhash | 13001107333850221004 |
+
+## Similarity Scores
+
+| Category | Neighbor | Similarity |
+|----------|----------|------------|
+| libraries | libraries/system-text-json-utf8jsonreader | 0.8072 |
+| libraries | libraries/string-search-operations | 0.7976 |
+| libraries | libraries/system-buffers-searchvalues | 0.7916 |
+| csharp | csharp/csharp-14-features | 0.7413 |
+| libraries | libraries/system-text-json | 0.7374 |
+| libraries | libraries/system-text-json-utf8jsonwriter | 0.7134 |
+| libraries | libraries/system-text-json-jsonserializer | 0.7116 |
+| libraries | libraries/dotnet-10-library-improvements | 0.7018 |
+| libraries | libraries/system-text-json-nodes | 0.6924 |
+| libraries | libraries/collections-performance | 0.6919 |
+| libraries | libraries/system-text-json-jsondocument | 0.6896 |
+| libraries | libraries/json-streaming-io | 0.6894 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| Slice | method | 16 |
+| AsSpan | method | 10 |
+| Console.WriteLine | method | 7 |
+| System.Text | namespace | 6 |
+| IsNormalized | method | 4 |
+| StartsWith | method | 4 |
+| Encoding.UTF8.GetBytes | method | 3 |
+| File.ReadAllBytes | method | 3 |
+| GetFileExtension | method | 3 |
+| IndexOf | method | 3 |
+| IsValidCommand | method | 3 |
+| LastIndexOf | method | 3 |
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 7
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.654 |
+| 1 | Pattern Matching on `ReadOnlySpan<char>` | 0.654 | 1.000 |
+| 2 | Relationships & Integration | 0.685 | 0.699 |
+| 3 | Finding PEM Data in UTF-8 Files | 0.614 | 0.689 |
+| 4 | String Normalization Patterns | 0.653 | 0.699 |
+| 5 | Processing Speed | 0.625 | 0.623 |
+| 6 | Adopting Span-Based String Processing | 0.681 | 0.653 |

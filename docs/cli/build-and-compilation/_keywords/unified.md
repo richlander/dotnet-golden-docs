@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 5 compound terms and 102 single words
-Total unique terms: 107
-Terms with score ≥ 3.0: 15
-Total term occurrences: 163
+Combined 5 compound terms and 96 single words
+Total unique terms: 101
+Terms with score ≥ 3.0: 13
+Total term occurrences: 151
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -22,9 +22,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | custom build configurations | compound | 2 | 1.10x | 1.50x | 3.3 |
 | dependency resolution | compound | 2 | 1.10x | 1.50x | 3.3 |
 | msbuild integration | compound | 2 | 1.10x | 1.50x | 3.3 |
-| analysis | single | 3 | 1.00x | 1.00x | 3.0 |
 | builds | single | 3 | 1.00x | 1.00x | 3.0 |
-| code | single | 3 | 1.00x | 1.00x | 3.0 |
 | commands | single | 3 | 1.00x | 1.00x | 3.0 |
 | nuget | single | 3 | 1.00x | 1.00x | 3.0 |
 | parallel | single | 3 | 1.00x | 1.00x | 3.0 |

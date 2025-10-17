@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 9 compound terms and 221 single words
-Total unique terms: 229
-Terms with score ≥ 3.0: 39
-Total term occurrences: 426
+Combined 9 compound terms and 209 single words
+Total unique terms: 217
+Terms with score ≥ 3.0: 36
+Total term occurrences: 398
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -20,7 +20,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | middleware | single | 9 | 1.00x | 1.00x | 9.0 |
 | dependency injection | compound | 5 | 1.10x | 1.50x | 8.2 |
 | middleware composition | compound | 5 | 1.10x | 1.50x | 8.2 |
-| net | single | 8 | 1.00x | 1.00x | 8.0 |
 | function calling | compound | 4 | 1.25x | 1.50x | 7.5 |
 | caching | single | 6 | 1.00x | 1.00x | 6.0 |
 | interfaces | single | 6 | 1.00x | 1.00x | 6.0 |
@@ -28,13 +27,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | service | single | 6 | 1.00x | 1.00x | 6.0 |
 | like | single | 5 | 1.00x | 1.00x | 5.0 |
 | microsoft | single | 5 | 1.00x | 1.00x | 5.0 |
-| support | single | 5 | 1.00x | 1.00x | 5.0 |
 | familiar | single | 4 | 1.00x | 1.00x | 4.0 |
 | functionality | single | 4 | 1.00x | 1.00x | 4.0 |
 | observability | single | 4 | 1.00x | 1.00x | 4.0 |
 | provider | single | 4 | 1.00x | 1.00x | 4.0 |
 | providers | single | 4 | 1.00x | 1.00x | 4.0 |
-| without | single | 4 | 1.00x | 1.00x | 4.0 |
 | embedding generation | compound | 2 | 1.10x | 1.50x | 3.3 |
 | error handling | compound | 2 | 1.10x | 1.50x | 3.3 |
 | memory management | compound | 2 | 1.10x | 1.50x | 3.3 |
@@ -43,7 +40,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | architecture | single | 3 | 1.00x | 1.00x | 3.0 |
 | capabilities | single | 3 | 1.00x | 1.00x | 3.0 |
 | changes | single | 3 | 1.00x | 1.00x | 3.0 |
-| code | single | 3 | 1.00x | 1.00x | 3.0 |
+| chat | single | 3 | 1.00x | 1.00x | 3.0 |
 | extensions | single | 3 | 1.00x | 1.00x | 3.0 |
 | function | single | 3 | 1.00x | 1.00x | 3.0 |
 | implement | single | 3 | 1.00x | 1.00x | 3.0 |

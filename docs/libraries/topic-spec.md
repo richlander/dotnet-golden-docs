@@ -41,8 +41,8 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 17752933634430959930 |
-| technical | simhash | 12992064916140458364 |
+| overview | simhash | 13141247616004096314 |
+| technical | simhash | 12992064916148846972 |
 
 ## Relationships
 
@@ -54,14 +54,14 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | data access | 3.00 |
 | library ecosystem | 3.00 |
 | frameworks | 5.00 |
-| asp.net core | 3.00 |
 | dependency injection | 3.00 |
 | patterns | 8.00 |
 | system | 8.00 |
+| asp.net core | 3.00 |
 | azure sdk | 2.00 |
-| entity framework core | 2.00 |
 | high-performance collections | 2.00 |
 | third-party | 2.00 |
+| application | 4.00 |
 
 ## APIs
 
@@ -79,25 +79,25 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | dotnet | dotnet | 0.8198 |
 | libraries | libraries/dotnet-10-library-improvements | 0.7945 |
 | cli | cli | 0.7484 |
+| libraries | libraries/collections-performance | 0.7445 |
 | cli | cli/file-based-apps | 0.7375 |
-| libraries | libraries/system-text-json | 0.7366 |
+| libraries | libraries/system-text-json | 0.7336 |
 | csharp | csharp/csharp-14-features | 0.7280 |
 | cli | cli/build-and-compilation | 0.7280 |
 | extensions | extensions/microsoft-extensions-ai | 0.7133 |
+| libraries | libraries/system-threading-tasks-task | 0.7082 |
 | csharp | csharp | 0.7046 |
 | cli | cli/publishing-and-deployment | 0.6974 |
-| libraries | libraries/system-text-json-jsonserializer | 0.6972 |
-| libraries | libraries/system-commandline | 0.6963 |
 
 ### Similarity Metadata
 
 | Category | Threshold | Percentile | Total Pairs |
 |----------|-----------|------------|-------------|
 | cli | 0.6974 | P50 | 6 |
-| csharp | 0.6305 | P50 | 5 |
+| csharp | 0.6246 | P70 | 9 |
 | dotnet | 0.8198 | P50 | 1 |
 | extensions | 0.6506 | P50 | 3 |
-| libraries | 0.6472 | P70 | 12 |
+| libraries | 0.6472 | P70 | 20 |
 
 ## Authority Scores
 
@@ -105,3 +105,20 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 |-------|---------|-------|
 | extensions/microsoft-extensions-ai | dependency injection | 1.357 |
 
+
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 7
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 1
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.554 |
+| 1 | Asynchronous Programming | 0.554 | 1.000 |
+| 2 | Entity Framework Core (Data Access) | 0.583 | 0.630 |
+| 3 | Unit Testing with xUnit and MSTest | 0.549 | 0.606 |
+| 4 | NuGet Package Discovery and Management | 0.575 | 0.586 |
+| 5 | CQRS and MediatR Integration | 0.549 | 0.588 |
+| 6 | Data Protection and Encryption | 0.563 | 0.633 |

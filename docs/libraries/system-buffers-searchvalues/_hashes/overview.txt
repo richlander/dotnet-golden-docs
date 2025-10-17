@@ -6,6 +6,7 @@ Keyword | searchvalues
 Keyword | searches
 Keyword | allocation-free
 Keyword | characters
+Keyword | values
 Keyword | creating searchvalues
 Keyword | character
 Keyword | once
@@ -13,5 +14,4 @@ Keyword | pre-computed
 Keyword | searching
 Keyword | set
 Keyword | span-based
-Keyword | substring
 Description | SearchValues<T> is a performance-focused type that provides optimized searching for specific sets of values within spans. It creates an immutable, pre-computed data structure that accelerates repeated searches for the same set of values using SIMD acceleration when possible, making it ideal for high-performance scenarios.

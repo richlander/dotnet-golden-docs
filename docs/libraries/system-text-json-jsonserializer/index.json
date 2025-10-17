@@ -112,7 +112,7 @@
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.9334,
+        "similarity": 0.9393,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -128,6 +128,23 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.8727,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
           }
         }
       },
@@ -239,6 +256,40 @@
         }
       },
       {
+        "href": "/libraries/json-validation-security/index.json",
+        "title": "JSON Validation and Security",
+        "similarity": 0.8098,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4220134623093668640
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12694860369024133596
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-streaming-io/index.json",
+        "title": "JSON Streaming and I/O",
+        "similarity": 0.7811,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 5373223288336521872
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12713018245211120108
+          }
+        }
+      },
+      {
         "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7658,
@@ -246,12 +297,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
           }
         }
       },
@@ -276,75 +327,257 @@
             "fingerprint": 12704008812590162300
           }
         }
-      },
-      {
-        "href": "/libraries/system-commandline/index.json",
-        "title": "System.CommandLine",
-        "similarity": 0.7107,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 4477352130680084748
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13031609950279271226
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603784469680882044
-          }
-        }
-      },
-      {
-        "href": "/csharp/index.json",
-        "title": "C# Language",
-        "similarity": 0.7075,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 3772209114392757042
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12990971914609426736
-          }
-        }
-      },
-      {
-        "href": "/csharp/object-initialization/index.json",
-        "title": "Object Initialization",
-        "similarity": 0.7033,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7058325005360841626
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 17751804553974055728
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603925754777575800
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 21,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          7,
+          9,
+          5,
+          20,
+          1,
+          10,
+          8,
+          6,
+          4,
+          14,
+          12,
+          18,
+          11,
+          19,
+          13,
+          3,
+          2,
+          17,
+          15,
+          16
+        ],
+        "stripe_order_technical": [
+          4,
+          3,
+          18,
+          2,
+          10,
+          9,
+          11,
+          8,
+          7,
+          20,
+          6,
+          5,
+          13,
+          14,
+          17,
+          19,
+          16,
+          12,
+          15,
+          0
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.59,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Deserializing Objects",
+            "is_code": true,
+            "similarity_conceptual": 0.59,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Configuring Naming Policies",
+            "is_code": true,
+            "similarity_conceptual": 0.615,
+            "similarity_technical": 0.655,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Custom Property Names",
+            "is_code": true,
+            "similarity_conceptual": 0.635,
+            "similarity_technical": 0.678,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Working with Records",
+            "is_code": true,
+            "similarity_conceptual": 0.601,
+            "similarity_technical": 0.716,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Deserializing with Constructors",
+            "is_code": true,
+            "similarity_conceptual": 0.615,
+            "similarity_technical": 0.677,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "UTF-8 Operations",
+            "is_code": true,
+            "similarity_conceptual": 0.609,
+            "similarity_technical": 0.681,
+            "keywords": null
+          },
+          {
+            "index": 7,
+            "href": "_chunks/golden-reference-7.md",
+            "title": "Custom Converters",
+            "is_code": true,
+            "similarity_conceptual": 0.648,
+            "similarity_technical": 0.653,
+            "keywords": null
+          },
+          {
+            "index": 8,
+            "href": "_chunks/golden-reference-8.md",
+            "title": "Handling Large Numbers",
+            "is_code": true,
+            "similarity_conceptual": 0.628,
+            "similarity_technical": 0.668,
+            "keywords": null
+          },
+          {
+            "index": 9,
+            "href": "_chunks/golden-reference-9.md",
+            "title": "Reusing JsonSerializerOptions",
+            "is_code": true,
+            "similarity_conceptual": 0.633,
+            "similarity_technical": 0.683,
+            "keywords": null
+          },
+          {
+            "index": 10,
+            "href": "_chunks/golden-reference-10.md",
+            "title": "Circular References",
+            "is_code": true,
+            "similarity_conceptual": 0.648,
+            "similarity_technical": 0.642,
+            "keywords": null
+          },
+          {
+            "index": 11,
+            "href": "_chunks/golden-reference-11.md",
+            "title": "Thread Safety",
+            "is_code": true,
+            "similarity_conceptual": 0.608,
+            "similarity_technical": 0.678,
+            "keywords": null
+          },
+          {
+            "index": 12,
+            "href": "_chunks/golden-reference-12.md",
+            "title": "Indentation Customization",
+            "is_code": true,
+            "similarity_conceptual": 0.638,
+            "similarity_technical": 0.656,
+            "keywords": null
+          },
+          {
+            "index": 13,
+            "href": "_chunks/golden-reference-13.md",
+            "title": "Freezing JsonSerializerOptions",
+            "is_code": true,
+            "similarity_conceptual": 0.589,
+            "similarity_technical": 0.668,
+            "keywords": null
+          },
+          {
+            "index": 14,
+            "href": "_chunks/golden-reference-14.md",
+            "title": "Generating JSON Schema",
+            "is_code": true,
+            "similarity_conceptual": 0.59,
+            "similarity_technical": 0.645,
+            "keywords": null
+          },
+          {
+            "index": 15,
+            "href": "_chunks/golden-reference-15.md",
+            "title": "Adding Documentation to JSON Schema",
+            "is_code": true,
+            "similarity_conceptual": 0.593,
+            "similarity_technical": 0.643,
+            "keywords": null
+          },
+          {
+            "index": 16,
+            "href": "_chunks/golden-reference-16.md",
+            "title": "Documenting Constructor Parameters in Schema",
+            "is_code": true,
+            "similarity_conceptual": 0.578,
+            "similarity_technical": 0.672,
+            "keywords": null
+          },
+          {
+            "index": 17,
+            "href": "_chunks/golden-reference-17.md",
+            "title": "Out-of-Order Metadata Deserialization",
+            "is_code": true,
+            "similarity_conceptual": 0.607,
+            "similarity_technical": 0.627,
+            "keywords": null
+          },
+          {
+            "index": 18,
+            "href": "_chunks/golden-reference-18.md",
+            "title": "Required Constructor Parameters",
+            "is_code": true,
+            "similarity_conceptual": 0.618,
+            "similarity_technical": 0.672,
+            "keywords": null
+          },
+          {
+            "index": 19,
+            "href": "_chunks/golden-reference-19.md",
+            "title": "Using with PipeReader and PipeWriter",
+            "is_code": true,
+            "similarity_conceptual": 0.6,
+            "similarity_technical": 0.679,
+            "keywords": null
+          },
+          {
+            "index": 20,
+            "href": "_chunks/golden-reference-20.md",
+            "title": "Chaining Type Resolvers",
+            "is_code": true,
+            "similarity_conceptual": 0.606,
+            "similarity_technical": 0.64,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6237552Z",
+    "generated": "2025-10-17T20:16:12.5535490Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

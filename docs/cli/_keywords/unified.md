@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 8 compound terms and 310 single words
-Total unique terms: 316
-Terms with score ≥ 3.0: 56
-Total term occurrences: 568
+Combined 8 compound terms and 295 single words
+Total unique terms: 301
+Terms with score ≥ 3.0: 50
+Total term occurrences: 535
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -29,13 +29,10 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | consistent | single | 5 | 1.00x | 1.00x | 5.0 |
 | provides | single | 5 | 1.00x | 1.00x | 5.0 |
 | sdk | single | 5 | 1.00x | 1.00x | 5.0 |
-| support | single | 5 | 1.00x | 1.00x | 5.0 |
 | cross-platform | compound | 3 | 1.10x | 1.50x | 5.0 |
 | development workflow | compound | 3 | 1.10x | 1.50x | 5.0 |
 | net cli | compound | 2 | 1.50x | 1.50x | 4.5 |
 | cache | single | 4 | 1.00x | 1.00x | 4.0 |
-| code | single | 4 | 1.00x | 1.00x | 4.0 |
-| integration | single | 4 | 1.00x | 1.00x | 4.0 |
 | limitations | single | 4 | 1.00x | 1.00x | 4.0 |
 | path | single | 4 | 1.00x | 1.00x | 4.0 |
 | solution | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -43,7 +40,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | team | single | 4 | 1.00x | 1.00x | 4.0 |
 | tool | single | 4 | 1.00x | 1.00x | 4.0 |
 | visual | single | 4 | 1.00x | 1.00x | 4.0 |
-| windows | single | 4 | 1.00x | 1.00x | 4.0 |
 | build performance | compound | 2 | 1.10x | 1.50x | 3.3 |
 | command structure | compound | 2 | 1.10x | 1.50x | 3.3 |
 | development environments | compound | 2 | 1.10x | 1.50x | 3.3 |
@@ -53,10 +49,8 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | ci | single | 3 | 1.00x | 1.00x | 3.0 |
 | considerations | single | 3 | 1.00x | 1.00x | 3.0 |
 | downloads | single | 3 | 1.00x | 1.00x | 3.0 |
-| efficient | single | 3 | 1.00x | 1.00x | 3.0 |
 | experience | single | 3 | 1.00x | 1.00x | 3.0 |
 | ide | single | 3 | 1.00x | 1.00x | 3.0 |
-| issues | single | 3 | 1.00x | 1.00x | 3.0 |
 | like | single | 3 | 1.00x | 1.00x | 3.0 |
 | operating | single | 3 | 1.00x | 1.00x | 3.0 |
 | organization | single | 3 | 1.00x | 1.00x | 3.0 |

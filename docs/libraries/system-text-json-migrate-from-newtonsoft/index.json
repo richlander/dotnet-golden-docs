@@ -129,7 +129,7 @@
       {
         "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
-        "similarity": 0.8378,
+        "similarity": 0.8369,
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -145,6 +145,23 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.7999,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
           }
         }
       },
@@ -205,6 +222,23 @@
         }
       },
       {
+        "href": "/libraries/json-validation-security/index.json",
+        "title": "JSON Validation and Security",
+        "similarity": 0.7453,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4220134623093668640
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12694860369024133596
+          }
+        }
+      },
+      {
         "href": "/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
         "similarity": 0.743,
@@ -229,12 +263,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
           }
         }
       },
@@ -276,53 +310,114 @@
             "fingerprint": 17603924666003358076
           }
         }
-      },
-      {
-        "href": "/csharp/object-initialization/index.json",
-        "title": "Object Initialization",
-        "similarity": 0.6899,
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 7058325005360841626
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 17751804553974055728
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 17603925754777575800
-          }
-        }
-      },
-      {
-        "href": "/csharp/index.json",
-        "title": "C# Language",
-        "similarity": 0.6781,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 3772209114392757042
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12990971914609426736
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 8,
+        "baseline_conceptual": 0,
+        "baseline_technical": 2,
+        "stripe_order": [
+          2,
+          6,
+          3,
+          7,
+          4,
+          5,
+          1
+        ],
+        "stripe_order_technical": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          0,
+          1
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.645,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "DateFormatString",
+            "is_code": true,
+            "similarity_conceptual": 0.583,
+            "similarity_technical": 0.64,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "JsonSerializerSettings to JsonSerializerOptions",
+            "is_code": true,
+            "similarity_conceptual": 0.645,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "Numbers in Quotes",
+            "is_code": true,
+            "similarity_conceptual": 0.628,
+            "similarity_technical": 0.728,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Dictionary with Non-String Keys",
+            "is_code": true,
+            "similarity_conceptual": 0.623,
+            "similarity_technical": 0.716,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Callbacks",
+            "is_code": true,
+            "similarity_conceptual": 0.601,
+            "similarity_technical": 0.711,
+            "keywords": null
+          },
+          {
+            "index": 6,
+            "href": "_chunks/golden-reference-6.md",
+            "title": "JToken to JsonElement (Read-Only)",
+            "is_code": true,
+            "similarity_conceptual": 0.635,
+            "similarity_technical": 0.687,
+            "keywords": null
+          },
+          {
+            "index": 7,
+            "href": "_chunks/golden-reference-7.md",
+            "title": "System.Runtime.Serialization Attributes",
+            "is_code": false,
+            "similarity_conceptual": 0.626,
+            "similarity_technical": 0.678,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6264891Z",
+    "generated": "2025-10-17T20:16:12.5668020Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

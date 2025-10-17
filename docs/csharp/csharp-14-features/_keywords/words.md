@@ -10,6 +10,7 @@ Combined local and global scoring:
 |------|------|-------|-------------|-----------|-------------|-------|
 | assignment | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | extension | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
+| compile-time | compound | 4 | 1.00x | 1.50x | 1.5x | 9.000 |
 | zero-allocation | compound | 3 | 1.25x | 1.50x | 1.5x | 8.438 |
 | enhanced | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | keyword | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -17,12 +18,6 @@ Combined local and global scoring:
 | expression trees | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | first-class span | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | named arguments | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| compile-time | compound | 4 | 1.00x | 1.50x | 1.0x | 6.000 |
 | patterns | single | 6 | 1.00x | 1.00x | 1.0x | 6.000 |
 | first-class | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| lambda | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| partial | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | stack-only | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
-| support | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
-| syntax | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| code | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |

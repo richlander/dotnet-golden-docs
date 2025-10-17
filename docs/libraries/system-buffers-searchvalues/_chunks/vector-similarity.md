@@ -1,0 +1,14 @@
+## Chunk Similarities (Embedding)
+
+**Source**: `golden-reference.md`
+**Count**: 4
+**Baseline (Conceptual)**: Chunk 0
+**Baseline (Technical)**: Chunk 1
+
+| Index | Title | Code | Similarity (Conceptual) | Similarity (Technical) |
+|-------|-------|------|-------------------------|------------------------|
+| 0 | Overview |  | 1.000 | 0.785 |
+| 1 | Path Validation | ✓ | 0.785 | 1.000 |
+| 2 | Protocol Parsing with SearchValues | ✓ | 0.852 | 0.872 |
+| 3 | Migration & Compatibility | ✓ | 0.870 | 0.879 |
+

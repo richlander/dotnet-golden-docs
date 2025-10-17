@@ -35,6 +35,7 @@ System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) f
 | Priority | 2 (High) |
 | Version | 3.0 |
 | Year | 2019 |
+
 ## Hashes
 
 | Name | Kind | Fingerprint |
@@ -47,17 +48,17 @@ System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) f
 | Category | Neighbor | Similarity |
 |----------|----------|------------|
 | libraries | libraries/system-text-json-nodes | 0.9017 |
-| libraries | libraries/system-text-json | 0.8591 |
+| libraries | libraries/system-text-json | 0.8594 |
 | libraries | libraries/system-text-json-jsonserializer | 0.8164 |
 | libraries | libraries/system-text-json-utf8jsonreader | 0.8127 |
+| libraries | libraries/system-text-json-dotnet-10 | 0.7826 |
 | libraries | libraries/system-text-json-utf8jsonwriter | 0.7693 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.7494 |
+| libraries | libraries/json-streaming-io | 0.7461 |
+| libraries | libraries/json-validation-security | 0.7441 |
 | libraries | libraries/system-text-json-source-generation | 0.7278 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6973 |
-| csharp | csharp/csharp-14-features | 0.6811 |
-| libraries | libraries/system-buffers-searchvalues | 0.6724 |
-| dotnet | dotnet | 0.6507 |
-| csharp | csharp/object-initialization | 0.6371 |
+| libraries | libraries/span-based-string-processing | 0.6896 |
 
 ## APIs
 
@@ -76,3 +77,21 @@ System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) f
 | GetBoolean | method | 4 |
 | Select | method | 4 |
 
+## Chunks
+
+**Source**: `golden-reference.md`
+**Count**: 9
+**Baseline (Conceptual)**: 0
+**Baseline (Technical)**: 2
+
+| Index | Title | Conceptual Similarity | Technical Similarity |
+|-------|-------|----------------------|---------------------|
+| 0 | Overview | 1.000 | 0.623 |
+| 1 | Comparison with JsonNode | 0.739 | 0.674 |
+| 2 | Reading Property Values | 0.623 | 1.000 |
+| 3 | Iterating JSON Arrays | 0.569 | 0.703 |
+| 4 | Processing Arrays of Objects | 0.599 | 0.692 |
+| 5 | Using with Webhook Routing | 0.627 | 0.720 |
+| 6 | Using with Metadata Extraction | 0.597 | 0.679 |
+| 7 | Writing JSON from JsonElement | 0.592 | 0.633 |
+| 8 | Memory Management | 0.685 | 0.668 |

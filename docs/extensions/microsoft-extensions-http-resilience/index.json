@@ -37,6 +37,10 @@
       "score": 7
     },
     {
+      "name": "standard",
+      "score": 7
+    },
+    {
       "name": "microsoft.extensions.http.resilience",
       "score": 3
     },
@@ -47,10 +51,6 @@
     {
       "name": "strategies",
       "score": 6
-    },
-    {
-      "name": "standard",
-      "score": 7
     },
     {
       "name": "built",
@@ -173,12 +173,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17752933634430959930
+            "fingerprint": 13141247616004096314
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916140458364
+            "fingerprint": 12992064916148846972
           }
         }
       },
@@ -200,24 +200,19 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
-        "title": "System.Text.Json",
-        "similarity": 0.631,
+        "href": "/libraries/system-threading-tasks-task/index.json",
+        "title": "Task and Task\u0026lt;T\u0026gt;",
+        "similarity": 0.6273,
         "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 16930982311004600425
-          },
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992627727723340090
+            "fingerprint": 13135792371890684214
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13172382621933396857
+            "fingerprint": 12992239188741849468
           }
         }
       },
@@ -239,6 +234,28 @@
         }
       },
       {
+        "href": "/libraries/system-text-json/index.json",
+        "title": "System.Text.Json",
+        "similarity": 0.6259,
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 16930982311004600425
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992627727723340090
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13172382621933396857
+          }
+        }
+      },
+      {
         "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6244,
@@ -246,12 +263,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751806634878108464
+            "fingerprint": 17751806565084889904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17602622835646144888
+            "fingerprint": 17602625034669392248
+          }
+        }
+      },
+      {
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "similarity": 0.6177,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13444401641859923858
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13280328320399320536
           }
         }
       },
@@ -274,6 +308,23 @@
             "name": "technical",
             "kind": "simhash",
             "fingerprint": 3913545822483915576
+          }
+        }
+      },
+      {
+        "href": "/libraries/json-validation-security/index.json",
+        "title": "JSON Validation and Security",
+        "similarity": 0.6161,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 4220134623093668640
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12694860369024133596
           }
         }
       },
@@ -312,7 +363,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13139697424741966193
+            "fingerprint": 13139699555045745009
           },
           "technical": {
             "name": "technical",
@@ -320,65 +371,92 @@
             "fingerprint": 3773366901076271484
           }
         }
-      },
-      {
-        "href": "/cli/build-and-compilation/index.json",
-        "title": "Build and Compilation",
-        "similarity": 0.5987,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 17751379938475704630
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 13139692957975577396
-          }
-        }
-      },
-      {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
-        "title": "System.Text.Json.JsonSerializer",
-        "similarity": 0.5962,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 3087081535174783256
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12992240880958973404
-          }
-        }
-      },
-      {
-        "href": "/cli/index.json",
-        "title": "CLI",
-        "similarity": 0.5916,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13139554503262208824
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 13139588021186986364
-          }
-        }
       }
     ]
   },
   "_embedded": {
-    "topics": []
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 6,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        "stripe_order_technical": [
+          0,
+          2,
+          3,
+          5,
+          4
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.727,
+            "keywords": null
+          },
+          {
+            "index": 1,
+            "href": "_chunks/golden-reference-1.md",
+            "title": "Custom Resilience Pipeline",
+            "is_code": true,
+            "similarity_conceptual": 0.727,
+            "similarity_technical": 1,
+            "keywords": null
+          },
+          {
+            "index": 2,
+            "href": "_chunks/golden-reference-2.md",
+            "title": "Resilience with Custom Logic",
+            "is_code": true,
+            "similarity_conceptual": 0.634,
+            "similarity_technical": 0.709,
+            "keywords": null
+          },
+          {
+            "index": 3,
+            "href": "_chunks/golden-reference-3.md",
+            "title": "External API Integration with Fallbacks",
+            "is_code": true,
+            "similarity_conceptual": 0.634,
+            "similarity_technical": 0.669,
+            "keywords": null
+          },
+          {
+            "index": 4,
+            "href": "_chunks/golden-reference-4.md",
+            "title": "Observability and Monitoring",
+            "is_code": true,
+            "similarity_conceptual": 0.588,
+            "similarity_technical": 0.598,
+            "keywords": null
+          },
+          {
+            "index": 5,
+            "href": "_chunks/golden-reference-5.md",
+            "title": "Circuit Breaker State Management",
+            "is_code": true,
+            "similarity_conceptual": 0.615,
+            "similarity_technical": 0.607,
+            "keywords": null
+          }
+        ]
+      }
+    }
   },
   "metadata": {
-    "generated": "2025-10-14T05:30:35.6074206Z",
+    "generated": "2025-10-17T20:16:12.4209120Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

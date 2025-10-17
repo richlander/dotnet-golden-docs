@@ -11,37 +11,34 @@ Combined local and global scoring:
 | writing | single | 16 | 1.00x | 1.00x | 2.0x | 32.000 |
 | utf8jsonwriter | single | 12 | 1.00x | 1.00x | 2.0x | 24.000 |
 | system.text.json.utf8jsonwriter | compound | 5 | 1.50x | 1.50x | 2.0x | 22.500 |
+| output | single | 9 | 1.00x | 1.00x | 2.0x | 18.000 |
 | write | single | 9 | 1.00x | 1.00x | 2.0x | 18.000 |
-| json | single | 16 | 1.00x | 1.00x | 1.0x | 16.000 |
 | writer | single | 8 | 1.00x | 1.00x | 2.0x | 16.000 |
-| stream | single | 7 | 1.00x | 1.00x | 2.0x | 14.000 |
-| output | single | 9 | 1.00x | 1.00x | 1.5x | 13.500 |
 | control | single | 8 | 1.00x | 1.00x | 1.5x | 12.000 |
-| streaming | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
-| directly | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| stream | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
+| performance-critical | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | formatting | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | generate | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| streams | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| text | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | utf-8 | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
+| values | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | custom serialization | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | pooled buffers | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | simple objects | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | writing arrays | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
-| performance-critical | compound | 3 | 1.00x | 1.50x | 1.5x | 6.750 |
 | zero-allocation | compound | 3 | 1.00x | 1.50x | 1.5x | 6.750 |
 | use | single | 6 | 1.00x | 1.00x | 1.0x | 6.000 |
-| direct | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| directly | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| json | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | logic | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
-| serialization | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
-| validation | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| streams | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | encoding | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| maximum | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | real-time | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | type-specific | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | valid | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | validates | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | runtime | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
 | system | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
-| text | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
-| values | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
 | complex | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| maximum | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
+| responses | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
