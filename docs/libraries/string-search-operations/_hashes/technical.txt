@@ -19,5 +19,5 @@ Keyword | repeated
 Keyword | searches
 Keyword | allocation-free
 Keyword | character
-Keyword | string.contains
 Keyword | complex
+Keyword | string.contains

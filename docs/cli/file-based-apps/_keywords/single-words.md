@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 266
-Total word occurrences: 630
+Total word occurrences: 627
 Total document words: 1013
 
 | Word | Count | Document Concentration |
@@ -23,7 +23,6 @@ Total document words: 1013
 | title | 9 | 0.0089 |
 | full | 8 | 0.0079 |
 | language | 8 | 0.0079 |
-| code | 7 | 0.0069 |
 | fundamentals | 7 | 0.0069 |
 | package | 7 | 0.0069 |
 | projects | 7 | 0.0069 |
@@ -41,6 +40,7 @@ Total document words: 1013
 | nuget | 5 | 0.0049 |
 | setup | 5 | 0.0049 |
 | basic | 4 | 0.0039 |
+| code | 4 | 0.0039 |
 | complexity | 4 | 0.0039 |
 | migration | 4 | 0.0039 |
 | run | 4 | 0.0039 |

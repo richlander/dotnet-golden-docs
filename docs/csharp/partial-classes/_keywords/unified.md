@@ -3,7 +3,7 @@
 Combined 13 compound terms and 187 single words
 Total unique terms: 196
 Terms with score ≥ 3.0: 53
-Total term occurrences: 436
+Total term occurrences: 433
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -23,7 +23,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | keyword | single | 8 | 1.00x | 1.00x | 8.0 |
 | parts | single | 8 | 1.00x | 1.00x | 8.0 |
 | partial members | compound | 4 | 1.25x | 1.50x | 7.5 |
-| code | single | 7 | 1.00x | 1.00x | 7.0 |
 | declaring | single | 7 | 1.00x | 1.00x | 7.0 |
 | generators | single | 6 | 1.00x | 1.00x | 6.0 |
 | implementations | single | 6 | 1.00x | 1.00x | 6.0 |
@@ -35,6 +34,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | accessibility | single | 4 | 1.00x | 1.00x | 4.0 |
 | cannot | single | 4 | 1.00x | 1.00x | 4.0 |
 | class | single | 4 | 1.00x | 1.00x | 4.0 |
+| code | single | 4 | 1.00x | 1.00x | 4.0 |
 | implementation | single | 4 | 1.00x | 1.00x | 4.0 |
 | interfaces | single | 4 | 1.00x | 1.00x | 4.0 |
 | match | single | 4 | 1.00x | 1.00x | 4.0 |

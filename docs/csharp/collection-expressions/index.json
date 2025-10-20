@@ -78,6 +78,7 @@
       "score": 3
     }
   ],
+  "keyword_hash": 12615043614855135759,
   "apis": [
     {
       "name": "ProcessItems",
@@ -102,32 +103,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/csharp/collection-expressions/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
       "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation, including basic expressions and params collection support."
     },
     "parent": {
       "name": "parent",
-      "href": "/csharp/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/csharp/collection-expressions/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/csharp/collection-expressions/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/csharp/collection-expressions/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/csharp/collection-initialization/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
         "title": "Collection Initialization",
         "similarity": 0.8797,
         "authority": {
@@ -153,7 +154,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7522,
         "hashes": {
@@ -165,17 +166,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 12991679535167439664
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 12704008262834348412
           }
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.751,
         "hashes": {
@@ -192,7 +193,7 @@
         }
       },
       {
-        "href": "/csharp/lambda-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
         "title": "Lambda Expressions",
         "similarity": 0.727,
         "hashes": {
@@ -209,7 +210,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7215,
         "hashes": {
@@ -226,7 +227,7 @@
         }
       },
       {
-        "href": "/csharp/object-initialization/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/index.json",
         "title": "Object Initialization",
         "similarity": 0.7142,
         "hashes": {
@@ -248,7 +249,7 @@
         }
       },
       {
-        "href": "/libraries/string-search-operations/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/string-search-operations/index.json",
         "title": "String Search Operations",
         "similarity": 0.7014,
         "hashes": {
@@ -265,7 +266,7 @@
         }
       },
       {
-        "href": "/csharp/properties-backing-fields/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
         "title": "Properties and Backing Fields",
         "similarity": 0.6825,
         "hashes": {
@@ -282,7 +283,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6799,
         "hashes": {
@@ -299,7 +300,7 @@
         }
       },
       {
-        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.679,
         "hashes": {
@@ -316,7 +317,7 @@
         }
       },
       {
-        "href": "/libraries/span-based-string-processing/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/index.json",
         "title": "Span-Based String Processing",
         "similarity": 0.6514,
         "hashes": {
@@ -359,64 +360,64 @@
         "items": [
           {
             "index": 0,
-            "href": "_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
-            "similarity_technical": 0.747,
-            "keywords": null
+            "similarity_technical": 0.7474000000000001,
+            "keyword_hash": 10169220046216250439
           },
           {
             "index": 1,
-            "href": "_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/_chunks/golden-reference-1.md",
             "title": "Array Creation",
             "is_code": true,
-            "similarity_conceptual": 0.747,
+            "similarity_conceptual": 0.7474000000000001,
             "similarity_technical": 1,
-            "keywords": null
+            "keyword_hash": 369967798912308291
           },
           {
             "index": 2,
-            "href": "_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/_chunks/golden-reference-2.md",
             "title": "Spread with Different Collection Types",
             "is_code": true,
-            "similarity_conceptual": 0.68,
-            "similarity_technical": 0.661,
-            "keywords": null
+            "similarity_conceptual": 0.6803999999999999,
+            "similarity_technical": 0.6609,
+            "keyword_hash": 10321106177816915565
           },
           {
             "index": 3,
-            "href": "_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/_chunks/golden-reference-3.md",
             "title": "Compiler Optimizations",
             "is_code": true,
-            "similarity_conceptual": 0.686,
-            "similarity_technical": 0.659,
-            "keywords": null
+            "similarity_conceptual": 0.6858,
+            "similarity_technical": 0.6593999999999999,
+            "keyword_hash": 10318181055974088708
           },
           {
             "index": 4,
-            "href": "_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/_chunks/golden-reference-4.md",
             "title": "Memory Efficiency",
             "is_code": true,
-            "similarity_conceptual": 0.679,
-            "similarity_technical": 0.672,
-            "keywords": null
+            "similarity_conceptual": 0.6787,
+            "similarity_technical": 0.6717,
+            "keyword_hash": 1095889032401061063
           },
           {
             "index": 5,
-            "href": "_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/_chunks/golden-reference-5.md",
             "title": "Type Requirements",
             "is_code": true,
-            "similarity_conceptual": 0.639,
-            "similarity_technical": 0.652,
-            "keywords": null
+            "similarity_conceptual": 0.6393,
+            "similarity_technical": 0.6522999999999999,
+            "keyword_hash": 10356497920618129135
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.3359730Z",
+    "generated": "2025-10-20T23:14:33.0558459Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

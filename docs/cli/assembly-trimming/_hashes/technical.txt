@@ -39,6 +39,6 @@ Keyword | desktop applications
 Keyword | library development
 Keyword | using assembly trimming
 Keyword | framework integration
+Keyword | application
 Keyword | applications
 Keyword | build-time
-Keyword | disabled

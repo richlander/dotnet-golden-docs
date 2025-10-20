@@ -1,8 +1,0 @@
-golden-reference-1.md
-golden-reference-0.md
-golden-reference-2.md
-golden-reference-3.md
-golden-reference-4.md
-golden-reference-5.md
-golden-reference-6.md
-golden-reference-7.md

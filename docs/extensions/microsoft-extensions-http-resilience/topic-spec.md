@@ -39,7 +39,7 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13140852822484190074 |
+| overview | simhash | 12996737634408334202 |
 | technical | simhash | 12992238638986035580 |
 
 ## Relationships
@@ -67,8 +67,8 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | built | 5.00 |
 | circuit | 5.00 |
 | httpclient | 5.00 |
+| microsoft | 5.00 |
 | polly | 5.00 |
-| reliability | 5.00 |
 
 ## APIs
 

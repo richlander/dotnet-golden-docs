@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 210
-Total word occurrences: 280
+Total word occurrences: 277
 Total document words: 611
 
 | Word | Count | Document Concentration |
@@ -10,7 +10,6 @@ Total document words: 611
 | runtime | 11 | 0.0180 |
 | compilation | 9 | 0.0147 |
 | no | 6 | 0.0098 |
-| code | 4 | 0.0065 |
 | jit | 4 | 0.0065 |
 | reflection-based | 4 | 0.0065 |
 | supported | 4 | 0.0065 |
@@ -62,6 +61,7 @@ Total document words: 611
 | benefits | 1 | 0.0016 |
 | built-in | 1 | 0.0016 |
 | check | 1 | 0.0016 |
+| code | 1 | 0.0016 |
 | cold | 1 | 0.0016 |
 | com | 1 | 0.0016 |
 | combinations | 1 | 0.0016 |

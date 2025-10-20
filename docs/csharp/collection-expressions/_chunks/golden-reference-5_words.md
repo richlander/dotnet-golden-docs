@@ -1,0 +1,14 @@
+# Keywords for golden-reference-5
+
+Keywords extracted from topic-level _keywords/words.md that appear in this chunk.
+Scores are from the topic-level authority analysis.
+
+| Term | Type | Score |
+|------|------|-------|
+| collection expressions | compound | 72.000 |
+| target type | compound | 13.200 |
+| spread | single | 10.000 |
+| using collection expressions | compound | 7.500 |
+| compile-time constants | compound | 6.600 |
+| combine | single | 6.000 |
+| concise | single | 6.000 |

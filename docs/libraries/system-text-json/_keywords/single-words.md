@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 411
-Total word occurrences: 868
+Total unique words: 410
+Total word occurrences: 863
 Total document words: 1617
 
 | Word | Count | Document Concentration |
@@ -30,7 +30,6 @@ Total document words: 1617
 | packagereference | 6 | 0.0037 |
 | responses | 6 | 0.0037 |
 | add | 5 | 0.0031 |
-| code | 5 | 0.0031 |
 | compile-time | 5 | 0.0031 |
 | fastest | 5 | 0.0031 |
 | large | 5 | 0.0031 |
@@ -98,6 +97,7 @@ Total document words: 1617
 | chat | 2 | 0.0012 |
 | choose | 2 | 0.0012 |
 | client | 2 | 0.0012 |
+| code | 2 | 0.0012 |
 | comparison | 2 | 0.0012 |
 | compilation | 2 | 0.0012 |
 | component-specific | 2 | 0.0012 |
@@ -132,7 +132,6 @@ Total document words: 1617
 | optimized | 2 | 0.0012 |
 | output | 2 | 0.0012 |
 | overflow | 2 | 0.0012 |
-| overhead | 2 | 0.0012 |
 | package | 2 | 0.0012 |
 | pipelines | 2 | 0.0012 |
 | pooled | 2 | 0.0012 |

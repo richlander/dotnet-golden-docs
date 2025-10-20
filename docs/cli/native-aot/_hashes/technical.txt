@@ -18,13 +18,13 @@ Error | IL2091
 ErrorMessage | 'target parameter' argument does not satisfy 'DynamicallyAccessedMembersAttribute' in call to 'target method'. The generic parameter does not have matching annotations.
 Keyword | native aot
 Keyword | compilation
+Keyword | reflection-based
 Keyword | runtime
 Keyword | source generation
 Keyword | no
-Keyword | reflection-based
+Keyword | self-contained
 Keyword | jit
 Keyword | supported
 Keyword | using native aot
-Keyword | self-contained
 Keyword | generic methods
 Keyword | system.text.json source generation

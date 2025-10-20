@@ -24,6 +24,7 @@
     }
   },
   "keywords": null,
+  "keyword_hash": null,
   "apis": [
     {
       "name": "Slice",
@@ -90,27 +91,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/span-based-string-processing/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/index.json",
       "description": "High-performance text operations using \u0060Span\u003Cchar\u003E\u0060 and \u0060ReadOnlySpan\u003Cchar\u003E\u0060 including UTF-8 processing, string normalization, hex conversion, and pattern matching without allocations."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/span-based-string-processing/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/span-based-string-processing/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
         "similarity": 0.8072,
         "hashes": {
@@ -127,7 +128,7 @@
         }
       },
       {
-        "href": "/libraries/string-search-operations/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/string-search-operations/index.json",
         "title": "String Search Operations",
         "similarity": 0.7976,
         "hashes": {
@@ -144,7 +145,7 @@
         }
       },
       {
-        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.7916,
         "hashes": {
@@ -161,7 +162,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7413,
         "hashes": {
@@ -173,17 +174,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 12991679535167439664
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 12704008262834348412
           }
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7374,
         "hashes": {
@@ -205,7 +206,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonwriter/index.json",
         "title": "System.Text.Json.Utf8JsonWriter",
         "similarity": 0.7134,
         "hashes": {
@@ -222,7 +223,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.7116,
         "hashes": {
@@ -239,7 +240,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7018,
         "hashes": {
@@ -256,7 +257,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-nodes/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.6924,
         "hashes": {
@@ -273,7 +274,7 @@
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.6919,
         "hashes": {
@@ -290,7 +291,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsondocument/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/index.json",
         "title": "System.Text.Json.JsonDocument",
         "similarity": 0.6896,
         "hashes": {
@@ -307,7 +308,7 @@
         }
       },
       {
-        "href": "/libraries/json-streaming-io/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
         "title": "JSON Streaming and I/O",
         "similarity": 0.6894,
         "hashes": {
@@ -333,92 +334,78 @@
         "count": 7,
         "baseline_conceptual": 0,
         "baseline_technical": 1,
-        "stripe_order": [
-          2,
-          6,
-          1,
-          4,
-          5,
-          3
-        ],
-        "stripe_order_technical": [
-          2,
-          4,
-          3,
-          0,
-          6,
-          5
-        ],
+        "stripe_order": [],
+        "stripe_order_technical": [],
         "items": [
           {
             "index": 0,
-            "href": "_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
-            "similarity_conceptual": 1,
-            "similarity_technical": 0.654,
-            "keywords": null
+            "similarity_conceptual": 0,
+            "similarity_technical": null,
+            "keyword_hash": 4617274866303072448
           },
           {
             "index": 1,
-            "href": "_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/_chunks/golden-reference-1.md",
             "title": "Pattern Matching on \u0060ReadOnlySpan\u003Cchar\u003E\u0060",
             "is_code": true,
-            "similarity_conceptual": 0.654,
-            "similarity_technical": 1,
-            "keywords": null
+            "similarity_conceptual": 0,
+            "similarity_technical": null,
+            "keyword_hash": 6925018170843831008
           },
           {
             "index": 2,
-            "href": "_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/_chunks/golden-reference-2.md",
             "title": "Relationships \u0026 Integration",
             "is_code": true,
-            "similarity_conceptual": 0.685,
-            "similarity_technical": 0.699,
-            "keywords": null
+            "similarity_conceptual": 0,
+            "similarity_technical": null,
+            "keyword_hash": 16181674270786919179
           },
           {
             "index": 3,
-            "href": "_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/_chunks/golden-reference-3.md",
             "title": "Finding PEM Data in UTF-8 Files",
             "is_code": true,
-            "similarity_conceptual": 0.614,
-            "similarity_technical": 0.689,
-            "keywords": null
+            "similarity_conceptual": 0,
+            "similarity_technical": null,
+            "keyword_hash": 17298848469171386817
           },
           {
             "index": 4,
-            "href": "_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/_chunks/golden-reference-4.md",
             "title": "String Normalization Patterns",
             "is_code": true,
-            "similarity_conceptual": 0.653,
-            "similarity_technical": 0.699,
-            "keywords": null
+            "similarity_conceptual": 0,
+            "similarity_technical": null,
+            "keyword_hash": 17612280187394754
           },
           {
             "index": 5,
-            "href": "_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/_chunks/golden-reference-5.md",
             "title": "Processing Speed",
             "is_code": true,
-            "similarity_conceptual": 0.625,
-            "similarity_technical": 0.623,
-            "keywords": null
+            "similarity_conceptual": 0,
+            "similarity_technical": null,
+            "keyword_hash": 4727190877927201601
           },
           {
             "index": 6,
-            "href": "_chunks/golden-reference-6.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/_chunks/golden-reference-6.md",
             "title": "Adopting Span-Based String Processing",
             "is_code": true,
-            "similarity_conceptual": 0.681,
-            "similarity_technical": 0.653,
-            "keywords": null
+            "similarity_conceptual": 0,
+            "similarity_technical": null,
+            "keyword_hash": 14140171489526219232
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.4763590Z",
+    "generated": "2025-10-20T23:14:33.1003148Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

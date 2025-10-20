@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 187
-Total word occurrences: 413
+Total word occurrences: 410
 Total document words: 851
 
 | Word | Count | Document Concentration |
@@ -14,7 +14,6 @@ Total document words: 851
 | use | 10 | 0.0118 |
 | keyword | 8 | 0.0094 |
 | parts | 8 | 0.0094 |
-| code | 7 | 0.0082 |
 | declaring | 7 | 0.0082 |
 | generators | 6 | 0.0071 |
 | implementations | 6 | 0.0071 |
@@ -25,6 +24,7 @@ Total document words: 851
 | accessibility | 4 | 0.0047 |
 | cannot | 4 | 0.0047 |
 | class | 4 | 0.0047 |
+| code | 4 | 0.0047 |
 | implementation | 4 | 0.0047 |
 | interfaces | 4 | 0.0047 |
 | match | 4 | 0.0047 |

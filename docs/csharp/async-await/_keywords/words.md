@@ -6,10 +6,13 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | async | single | 26 | 1.00x | 1.00x | 2.0x | 52.000 |
-| use | single | 29 | 1.00x | 1.00x | 1.0x | 29.000 |
 | async operations | compound | 8 | 1.10x | 1.50x | 2.0x | 26.400 |
 | await | single | 11 | 1.00x | 1.00x | 2.0x | 22.000 |
 | operations | single | 11 | 1.00x | 1.00x | 2.0x | 22.000 |
@@ -18,14 +21,15 @@ Combined local and global scoring:
 | considerations | single | 8 | 1.00x | 1.00x | 1.5x | 12.000 |
 | async code | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
 | avoid | single | 6 | 1.00x | 1.00x | 1.5x | 9.000 |
-| code | single | 8 | 1.00x | 1.00x | 1.0x | 8.000 |
 | threads | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| code | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | error handling | compound | 3 | 1.10x | 1.50x | 1.5x | 7.425 |
 | system.text.json | compound | 3 | 1.10x | 1.50x | 1.5x | 7.425 |
 | async initialization | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | async void | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | cancellation support | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | cpu-bound work | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
+| entity framework core | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | event handlers | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | high-performance scenarios | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | json serialization | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
@@ -54,7 +58,4 @@ Combined local and global scoring:
 | timeouts | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | write | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | asp.net core | compound | 2 | 1.10x | 1.50x | 1.5x | 4.950 |
-| entity framework core | compound | 2 | 1.10x | 1.50x | 1.5x | 4.950 |
-| asp | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
-| high-performance | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
-| provides | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
+| asp | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |

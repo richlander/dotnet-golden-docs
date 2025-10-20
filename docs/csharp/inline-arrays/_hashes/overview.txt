@@ -1,2 +1,14 @@
 Title | Inline Arrays
+Keyword | inline arrays
+Keyword | buffers
+Keyword | inline array
+Keyword | fixed-size
+Keyword | use
+Keyword | buffer
+Keyword | unsafe
+Keyword | element access
+Keyword | considerations
+Keyword | heap
+Keyword | bounds
+Keyword | create
 Description | Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the `InlineArrayAttribute`. This C# 12 feature enables developers to create custom buffer types with compile-time known sizes, offering a safe alternative to unsafe fixed-size buffers while maintaining performance characteristics similar to arrays with full GC tracking and bounds checking.

@@ -77,15 +77,15 @@
 | net | 29.00 |
 | libraries | 11.00 |
 | while | 10.00 |
+| memory management | 6.00 |
 | cross-platform | 7.00 |
 | like | 10.00 |
 | open-source | 5.00 |
-| memory management | 6.00 |
+| tools | 7.00 |
 | runtime | 12.00 |
+| code | 8.00 |
 | languages | 6.00 |
 | modern | 6.00 |
-| code | 11.00 |
-| tools | 7.00 |
 
 ## Similarity Scores
 

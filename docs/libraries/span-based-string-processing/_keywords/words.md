@@ -6,6 +6,10 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | span-based | compound | 8 | 1.50x | 1.50x | 2.0x | 36.000 |
@@ -18,12 +22,10 @@ Combined local and global scoring:
 | spans | single | 9 | 1.00x | 1.00x | 2.0x | 18.000 |
 | text | single | 11 | 1.00x | 1.00x | 1.5x | 16.500 |
 | span-based string processing | compound | 3 | 1.50x | 1.50x | 2.0x | 13.500 |
-| use | single | 12 | 1.00x | 1.00x | 1.0x | 12.000 |
-| buffers | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | string | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | utf-8 string literals | compound | 3 | 1.25x | 1.50x | 2.0x | 11.250 |
-| conversion | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | unicode | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
+| buffers | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | conversions | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | encoding | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | many | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -37,16 +39,14 @@ Combined local and global scoring:
 | memory overhead | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | data | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | character | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| conversion | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | converting | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | first-class | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | heap | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | hex | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| instead | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | normalize | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| overhead | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | searching | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | utf-16 | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | working | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | avoid | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| instead | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| high-performance | compound | 2 | 1.25x | 1.50x | 1.0x | 3.750 |
-| patterns | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

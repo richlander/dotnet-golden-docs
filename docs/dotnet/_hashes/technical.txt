@@ -3,12 +3,12 @@ TypeName | .NET Platform
 Keyword | net
 Keyword | libraries
 Keyword | while
+Keyword | memory management
 Keyword | cross-platform
 Keyword | like
 Keyword | open-source
-Keyword | memory management
+Keyword | tools
 Keyword | runtime
+Keyword | code
 Keyword | languages
 Keyword | modern
-Keyword | code
-Keyword | tools

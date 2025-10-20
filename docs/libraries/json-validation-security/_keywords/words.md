@@ -6,17 +6,21 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | validation | single | 17 | 1.00x | 1.00x | 2.0x | 34.000 |
+| security | single | 10 | 1.00x | 1.00x | 2.0x | 20.000 |
 | json validation | compound | 4 | 1.50x | 1.50x | 2.0x | 18.000 |
-| security | single | 10 | 1.00x | 1.00x | 1.5x | 15.000 |
 | contracts | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | nullable reference | compound | 3 | 1.25x | 1.50x | 2.0x | 11.250 |
+| deserialization | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | unmapped | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | strict validation | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
 | ensure | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| deserialization | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | during | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | best practices | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | duplicate properties | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
@@ -24,6 +28,7 @@ Combined local and global scoring:
 | required properties | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | security issues | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | validation features | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
+| asp | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | data | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | annotations | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | business | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -40,5 +45,3 @@ Combined local and global scoring:
 | vulnerabilities | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | works | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | attributes | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| asp | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
-| use | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

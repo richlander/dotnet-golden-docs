@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 17 compound terms and 407 single words
-Total unique terms: 414
-Terms with score ≥ 3.0: 63
-Total term occurrences: 689
+Combined 17 compound terms and 406 single words
+Total unique terms: 413
+Terms with score ≥ 3.0: 62
+Total term occurrences: 683
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -20,7 +20,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | memory management | compound | 6 | 1.10x | 1.50x | 9.9 |
 | libraries | single | 9 | 1.00x | 1.00x | 9.0 |
 | cross-platform | compound | 5 | 1.10x | 1.50x | 8.2 |
-| code | single | 8 | 1.00x | 1.00x | 8.0 |
 | programming | single | 8 | 1.00x | 1.00x | 8.0 |
 | provides | single | 8 | 1.00x | 1.00x | 8.0 |
 | object-oriented | compound | 5 | 1.00x | 1.50x | 7.5 |
@@ -30,6 +29,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | low-level | compound | 4 | 1.00x | 1.50x | 6.0 |
 | while | single | 6 | 1.00x | 1.00x | 6.0 |
 | language features | compound | 3 | 1.25x | 1.50x | 5.6 |
+| code | single | 5 | 1.00x | 1.00x | 5.0 |
 | control | single | 5 | 1.00x | 1.00x | 5.0 |
 | developers | single | 5 | 1.00x | 1.00x | 5.0 |
 | patterns | single | 5 | 1.00x | 1.00x | 5.0 |
@@ -72,7 +72,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | through | single | 3 | 1.00x | 1.00x | 3.0 |
 | tools | single | 3 | 1.00x | 1.00x | 3.0 |
 | understanding | single | 3 | 1.00x | 1.00x | 3.0 |
-| unsafe | single | 3 | 1.00x | 1.00x | 3.0 |
 | use | single | 3 | 1.00x | 1.00x | 3.0 |
 | web | single | 3 | 1.00x | 1.00x | 3.0 |
 | windows | single | 3 | 1.00x | 1.00x | 3.0 |

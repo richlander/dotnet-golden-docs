@@ -73,8 +73,8 @@ The `async` and `await` keywords enable asynchronous programming in C#, allowing
 | considerations | 8.00 |
 | async code | 3.00 |
 | avoid | 6.00 |
-| code | 8.00 |
 | threads | 4.00 |
+| code | 5.00 |
 
 ## APIs
 

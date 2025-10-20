@@ -2,8 +2,8 @@
 
 Combined 8 compound terms and 210 single words
 Total unique terms: 215
-Terms with score ≥ 3.0: 17
-Total term occurrences: 300
+Terms with score ≥ 3.0: 16
+Total term occurrences: 297
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -21,7 +21,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | no | single | 6 | 1.00x | 1.00x | 6.0 |
 | reflection-based | compound | 4 | 1.00x | 1.50x | 6.0 |
 | self-contained | compound | 3 | 1.00x | 1.50x | 4.5 |
-| code | single | 4 | 1.00x | 1.00x | 4.0 |
 | jit | single | 4 | 1.00x | 1.00x | 4.0 |
 | supported | single | 4 | 1.00x | 1.00x | 4.0 |
 | using native aot | compound | 2 | 1.25x | 1.50x | 3.8 |

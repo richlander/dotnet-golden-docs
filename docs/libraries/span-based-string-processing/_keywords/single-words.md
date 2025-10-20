@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 156
-Total word occurrences: 338
+Total word occurrences: 332
 Total document words: 622
 
 | Word | Count | Document Concentration |
@@ -15,11 +15,10 @@ Total document words: 622
 | text | 11 | 0.0177 |
 | strings | 10 | 0.0161 |
 | spans | 9 | 0.0145 |
-| buffers | 6 | 0.0096 |
 | string | 6 | 0.0096 |
-| conversion | 5 | 0.0080 |
 | directly | 5 | 0.0080 |
 | unicode | 5 | 0.0080 |
+| buffers | 4 | 0.0064 |
 | conversions | 4 | 0.0064 |
 | data | 4 | 0.0064 |
 | encoding | 4 | 0.0064 |
@@ -29,13 +28,13 @@ Total document words: 622
 | processing | 4 | 0.0064 |
 | avoid | 3 | 0.0048 |
 | character | 3 | 0.0048 |
+| conversion | 3 | 0.0048 |
 | converting | 3 | 0.0048 |
 | first-class | 3 | 0.0048 |
 | heap | 3 | 0.0048 |
 | hex | 3 | 0.0048 |
 | instead | 3 | 0.0048 |
 | normalize | 3 | 0.0048 |
-| overhead | 3 | 0.0048 |
 | patterns | 3 | 0.0048 |
 | searching | 3 | 0.0048 |
 | utf-16 | 3 | 0.0048 |
@@ -116,6 +115,7 @@ Total document words: 622
 | need | 1 | 0.0016 |
 | no | 1 | 0.0016 |
 | normalizing | 1 | 0.0016 |
+| overhead | 1 | 0.0016 |
 | overview | 1 | 0.0016 |
 | parsing | 1 | 0.0016 |
 | particularly | 1 | 0.0016 |

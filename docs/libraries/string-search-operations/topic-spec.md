@@ -71,8 +71,8 @@ String search operations provide a comprehensive set of methods for locating sub
 | searches | 5.00 |
 | allocation-free | 3.00 |
 | character | 4.00 |
-| string.contains | 2.00 |
 | complex | 4.00 |
+| string.contains | 2.00 |
 
 ## Similarity Scores
 

@@ -9,6 +9,6 @@ Keyword | async methods
 Keyword | considerations
 Keyword | async code
 Keyword | avoid
-Keyword | code
 Keyword | threads
+Keyword | code
 Description | The `async` and `await` keywords enable asynchronous programming in C#, allowing developers to write non-blocking code that appears synchronous. This programming model makes it straightforward to handle I/O-bound operations without blocking threads, improving application responsiveness and scalability. The compiler transforms async methods into state machines that enable efficient cooperative multitasking.

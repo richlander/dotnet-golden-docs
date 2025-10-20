@@ -73,6 +73,7 @@
       "score": 2
     }
   ],
+  "keyword_hash": 13495050140200781856,
   "apis": [
     {
       "name": "SearchValues.Create",
@@ -114,27 +115,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/system-buffers-searchvalues/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
       "description": "SearchValues provides an immutable, read-only set of values optimized for efficient searching within spans using SIMD acceleration."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/system-buffers-searchvalues/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/system-buffers-searchvalues/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/libraries/string-search-operations/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/string-search-operations/index.json",
         "title": "String Search Operations",
         "similarity": 0.7956,
         "hashes": {
@@ -151,7 +152,7 @@
         }
       },
       {
-        "href": "/libraries/span-based-string-processing/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/index.json",
         "title": "Span-Based String Processing",
         "similarity": 0.7916,
         "hashes": {
@@ -168,7 +169,7 @@
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.7535,
         "hashes": {
@@ -185,7 +186,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7328,
         "hashes": {
@@ -197,17 +198,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 12991679535167439664
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 12704008262834348412
           }
         }
       },
       {
-        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
         "similarity": 0.7235,
         "hashes": {
@@ -224,7 +225,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7137,
         "hashes": {
@@ -241,7 +242,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7075,
         "hashes": {
@@ -258,7 +259,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
         "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7026,
         "hashes": {
@@ -275,7 +276,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6987,
         "hashes": {
@@ -297,7 +298,7 @@
         }
       },
       {
-        "href": "/csharp/collection-initialization/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
         "title": "Collection Initialization",
         "similarity": 0.6978,
         "hashes": {
@@ -319,7 +320,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.6797,
         "hashes": {
@@ -336,7 +337,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-nodes/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.6792,
         "hashes": {
@@ -375,46 +376,46 @@
         "items": [
           {
             "index": 0,
-            "href": "_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
-            "similarity_technical": 0.573,
-            "keywords": null
+            "similarity_technical": 0.5729,
+            "keyword_hash": 9205442088081017256
           },
           {
             "index": 1,
-            "href": "_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/_chunks/golden-reference-1.md",
             "title": "Path Validation",
             "is_code": true,
-            "similarity_conceptual": 0.573,
+            "similarity_conceptual": 0.5729,
             "similarity_technical": 1,
-            "keywords": null
+            "keyword_hash": 4323557742914361737
           },
           {
             "index": 2,
-            "href": "_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/_chunks/golden-reference-2.md",
             "title": "Protocol Parsing with SearchValues",
             "is_code": true,
-            "similarity_conceptual": 0.622,
-            "similarity_technical": 0.678,
-            "keywords": null
+            "similarity_conceptual": 0.6222,
+            "similarity_technical": 0.6784999999999999,
+            "keyword_hash": 17998646490848512809
           },
           {
             "index": 3,
-            "href": "_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/_chunks/golden-reference-3.md",
             "title": "Migration \u0026 Compatibility",
             "is_code": true,
-            "similarity_conceptual": 0.665,
-            "similarity_technical": 0.674,
-            "keywords": null
+            "similarity_conceptual": 0.6654,
+            "similarity_technical": 0.6738,
+            "keyword_hash": 18142833061816555944
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.4933860Z",
+    "generated": "2025-10-20T23:14:33.1067650Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

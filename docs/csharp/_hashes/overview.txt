@@ -1,11 +1,11 @@
 Title | C# Language
 Keyword | language
 Keyword | features
+Keyword | memory management
 Keyword | libraries
 Keyword | like
 Keyword | programming
 Keyword | object-oriented
-Keyword | memory management
 Keyword | cross-platform
 Keyword | applications
 Keyword | enables

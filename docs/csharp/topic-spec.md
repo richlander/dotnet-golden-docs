@@ -63,11 +63,11 @@ C# is a modern, safe, and general purpose language that makes developers product
 |---------|-------|
 | language | 19.00 |
 | features | 11.00 |
+| memory management | 6.00 |
 | libraries | 9.00 |
 | like | 11.00 |
 | programming | 8.00 |
 | object-oriented | 5.00 |
-| memory management | 6.00 |
 | cross-platform | 5.00 |
 | applications | 6.00 |
 | enables | 6.00 |

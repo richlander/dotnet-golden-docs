@@ -36,12 +36,12 @@ ErrorMessage | Native compilation is not supported when invoking the Publish tar
 Keyword | deployment
 Keyword | native aot
 Keyword | framework-dependent
-Keyword | publishing
 Keyword | self-contained
+Keyword | publishing
 Keyword | deployments
+Keyword | startup
 Keyword | benefits
 Keyword | case
 Keyword | readytorun
-Keyword | startup
 Keyword | runtime
 Keyword | compilation

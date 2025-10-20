@@ -73,6 +73,7 @@
       "score": 5
     }
   ],
+  "keyword_hash": 6163151969766495746,
   "apis": [
     {
       "name": "Console.WriteLine",
@@ -139,32 +140,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
       "description": "Interface for asynchronous enumeration using await foreach, enabling non-blocking iteration over async data sources with streaming and deferred execution."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/system-collections-generic-iasyncenumerable/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/system-collections-generic-iasyncenumerable/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/libraries/system-collections-generic-iasyncenumerable/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.8851,
         "hashes": {
@@ -181,7 +182,7 @@
         }
       },
       {
-        "href": "/csharp/async-await/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/async-await/index.json",
         "title": "Async and Await",
         "similarity": 0.8273,
         "hashes": {
@@ -198,7 +199,7 @@
         }
       },
       {
-        "href": "/libraries/system-threading-tasks-task/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.7964,
         "hashes": {
@@ -215,7 +216,7 @@
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.7558,
         "hashes": {
@@ -232,7 +233,7 @@
         }
       },
       {
-        "href": "/libraries/json-streaming-io/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
         "title": "JSON Streaming and I/O",
         "similarity": 0.7473,
         "hashes": {
@@ -249,7 +250,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.7206,
         "hashes": {
@@ -266,7 +267,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7161,
         "hashes": {
@@ -288,7 +289,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7129,
         "hashes": {
@@ -300,17 +301,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 12991679535167439664
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 12704008262834348412
           }
         }
       },
       {
-        "href": "/csharp/lambda-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
         "title": "Lambda Expressions",
         "similarity": 0.7111,
         "hashes": {
@@ -327,7 +328,7 @@
         }
       },
       {
-        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.7026,
         "hashes": {
@@ -344,7 +345,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6924,
         "hashes": {
@@ -361,7 +362,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.6785,
         "hashes": {
@@ -418,127 +419,127 @@
         "items": [
           {
             "index": 0,
-            "href": "_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-0.md",
             "title": "Main Approaches",
             "is_code": false,
             "similarity_conceptual": 1,
-            "similarity_technical": 0.728,
-            "keywords": null
+            "similarity_technical": 0.7278999999999999,
+            "keyword_hash": 16552891027152654380
           },
           {
             "index": 1,
-            "href": "_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-1.md",
             "title": "Async LINQ Operations",
             "is_code": true,
-            "similarity_conceptual": 0.728,
+            "similarity_conceptual": 0.7278999999999999,
             "similarity_technical": 1,
-            "keywords": null
+            "keyword_hash": 17712532557664163979
           },
           {
             "index": 2,
-            "href": "_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-2.md",
             "title": "ConfigureAwait Support",
             "is_code": true,
-            "similarity_conceptual": 0.685,
-            "similarity_technical": 0.704,
-            "keywords": null
+            "similarity_conceptual": 0.6847999999999999,
+            "similarity_technical": 0.7042999999999999,
+            "keyword_hash": 14238828411916979889
           },
           {
             "index": 3,
-            "href": "_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-3.md",
             "title": "JSON Serialization with System.Text.Json",
             "is_code": true,
-            "similarity_conceptual": 0.698,
-            "similarity_technical": 0.684,
-            "keywords": null
+            "similarity_conceptual": 0.6982,
+            "similarity_technical": 0.6842,
+            "keyword_hash": 5035357013634139140
           },
           {
             "index": 4,
-            "href": "_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-4.md",
             "title": "Channels Integration",
             "is_code": true,
-            "similarity_conceptual": 0.665,
-            "similarity_technical": 0.674,
-            "keywords": null
+            "similarity_conceptual": 0.6655,
+            "similarity_technical": 0.6745,
+            "keyword_hash": 17683170915421867008
           },
           {
             "index": 5,
-            "href": "_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-5.md",
             "title": "Database Streaming",
             "is_code": true,
-            "similarity_conceptual": 0.68,
-            "similarity_technical": 0.712,
-            "keywords": null
+            "similarity_conceptual": 0.6798000000000001,
+            "similarity_technical": 0.7124,
+            "keyword_hash": 17694588441601203716
           },
           {
             "index": 6,
-            "href": "_chunks/golden-reference-6.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-6.md",
             "title": "Async Data Transformation Pipeline",
             "is_code": true,
-            "similarity_conceptual": 0.62,
-            "similarity_technical": 0.632,
-            "keywords": null
+            "similarity_conceptual": 0.6204999999999999,
+            "similarity_technical": 0.6323,
+            "keyword_hash": 14162424723292226688
           },
           {
             "index": 7,
-            "href": "_chunks/golden-reference-7.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-7.md",
             "title": "Multiple Ways to Create IAsyncEnumerable",
             "is_code": true,
-            "similarity_conceptual": 0.671,
-            "similarity_technical": 0.687,
-            "keywords": null
+            "similarity_conceptual": 0.6714,
+            "similarity_technical": 0.6869999999999999,
+            "keyword_hash": 15331003093661079956
           },
           {
             "index": 8,
-            "href": "_chunks/golden-reference-8.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-8.md",
             "title": "Dispose Resources Properly",
             "is_code": true,
-            "similarity_conceptual": 0.693,
-            "similarity_technical": 0.703,
-            "keywords": null
+            "similarity_conceptual": 0.6931,
+            "similarity_technical": 0.7025,
+            "keyword_hash": 15401236021723399428
           },
           {
             "index": 9,
-            "href": "_chunks/golden-reference-9.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-9.md",
             "title": "Handle Exceptions at the Right Level",
             "is_code": true,
-            "similarity_conceptual": 0.706,
-            "similarity_technical": 0.747,
-            "keywords": null
+            "similarity_conceptual": 0.7059,
+            "similarity_technical": 0.7469,
+            "keyword_hash": 8452775484312848456
           },
           {
             "index": 10,
-            "href": "_chunks/golden-reference-10.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-10.md",
             "title": "Multiple Enumeration Can Be Expensive",
             "is_code": true,
-            "similarity_conceptual": 0.702,
-            "similarity_technical": 0.706,
-            "keywords": null
+            "similarity_conceptual": 0.7023,
+            "similarity_technical": 0.7062999999999999,
+            "keyword_hash": 9629517098614988033
           },
           {
             "index": 11,
-            "href": "_chunks/golden-reference-11.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-11.md",
             "title": "Deferred Execution Can Cause Unexpected Behavior",
             "is_code": true,
-            "similarity_conceptual": 0.691,
-            "similarity_technical": 0.688,
-            "keywords": null
+            "similarity_conceptual": 0.6909,
+            "similarity_technical": 0.6882,
+            "keyword_hash": 17647336425141456132
           },
           {
             "index": 12,
-            "href": "_chunks/golden-reference-12.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/_chunks/golden-reference-12.md",
             "title": "Thread Safety Concerns",
             "is_code": true,
-            "similarity_conceptual": 0.7,
-            "similarity_technical": 0.7,
-            "keywords": null
+            "similarity_conceptual": 0.6997,
+            "similarity_technical": 0.6996,
+            "keyword_hash": 16538038721013833252
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.5007690Z",
+    "generated": "2025-10-20T23:14:33.1102423Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

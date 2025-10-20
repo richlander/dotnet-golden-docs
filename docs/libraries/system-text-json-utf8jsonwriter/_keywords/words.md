@@ -6,6 +6,10 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | writing | single | 16 | 1.00x | 1.00x | 2.0x | 32.000 |
@@ -19,6 +23,7 @@ Combined local and global scoring:
 | performance-critical | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | formatting | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | generate | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| streams | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | text | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | utf-8 | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | values | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
@@ -27,18 +32,14 @@ Combined local and global scoring:
 | simple objects | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | writing arrays | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | zero-allocation | compound | 3 | 1.00x | 1.50x | 1.5x | 6.750 |
-| use | single | 6 | 1.00x | 1.00x | 1.0x | 6.000 |
 | directly | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | json | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | logic | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
-| streams | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| complex | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | encoding | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | maximum | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | real-time | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
+| responses | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | type-specific | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | valid | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | validates | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| runtime | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
-| system | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
-| complex | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| responses | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |

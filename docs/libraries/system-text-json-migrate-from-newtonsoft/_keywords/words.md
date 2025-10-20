@@ -6,6 +6,10 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | newtonsoft.json | compound | 16 | 1.50x | 1.50x | 2.0x | 72.000 |

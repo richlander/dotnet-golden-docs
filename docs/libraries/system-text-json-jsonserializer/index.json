@@ -24,6 +24,7 @@
     }
   },
   "keywords": null,
+  "keyword_hash": null,
   "apis": [
     {
       "name": "JsonSerializer.Serialize",
@@ -90,27 +91,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/system-text-json-jsonserializer/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
       "description": "System.Text.Json.JsonSerializer provides high-level APIs for converting between .NET objects and JSON text with support for serialization, deserialization, and advanced customization."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/system-text-json-jsonserializer/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/system-text-json-jsonserializer/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.9393,
         "hashes": {
@@ -132,7 +133,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.8727,
         "hashes": {
@@ -149,7 +150,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-source-generation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
         "similarity": 0.8652,
         "hashes": {
@@ -161,17 +162,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17747863716396172082
+            "fingerprint": 17748004591323480882
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13154369194086507384
+            "fingerprint": 13154369331525460856
           }
         }
       },
       {
-        "href": "/libraries/system-text-json-nodes/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.843,
         "hashes": {
@@ -188,7 +189,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.8428,
         "hashes": {
@@ -205,7 +206,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
         "similarity": 0.8423,
         "hashes": {
@@ -222,7 +223,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonwriter/index.json",
         "title": "System.Text.Json.Utf8JsonWriter",
         "similarity": 0.8289,
         "hashes": {
@@ -239,7 +240,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsondocument/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/index.json",
         "title": "System.Text.Json.JsonDocument",
         "similarity": 0.8164,
         "hashes": {
@@ -256,7 +257,7 @@
         }
       },
       {
-        "href": "/libraries/json-validation-security/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
         "title": "JSON Validation and Security",
         "similarity": 0.8098,
         "hashes": {
@@ -273,7 +274,7 @@
         }
       },
       {
-        "href": "/libraries/json-streaming-io/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
         "title": "JSON Streaming and I/O",
         "similarity": 0.7811,
         "hashes": {
@@ -290,7 +291,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7658,
         "hashes": {
@@ -307,7 +308,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7259,
         "hashes": {
@@ -319,12 +320,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 12991679535167439664
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 12704008262834348412
           }
         }
       }
@@ -339,12 +340,12 @@
         "baseline_conceptual": 0,
         "baseline_technical": 1,
         "stripe_order": [
-          7,
+          10,
           9,
-          5,
+          2,
           20,
           1,
-          10,
+          7,
           8,
           6,
           4,
@@ -355,7 +356,7 @@
           19,
           13,
           3,
-          2,
+          5,
           17,
           15,
           16
@@ -363,7 +364,7 @@
         "stripe_order_technical": [
           4,
           3,
-          18,
+          16,
           2,
           10,
           9,
@@ -377,7 +378,7 @@
           14,
           17,
           19,
-          16,
+          18,
           12,
           15,
           0
@@ -385,199 +386,199 @@
         "items": [
           {
             "index": 0,
-            "href": "_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
-            "similarity_technical": 0.59,
-            "keywords": null
+            "similarity_technical": 0.5897999999999999,
+            "keyword_hash": 6769590898034325871
           },
           {
             "index": 1,
-            "href": "_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-1.md",
             "title": "Deserializing Objects",
             "is_code": true,
-            "similarity_conceptual": 0.59,
+            "similarity_conceptual": 0.5897999999999999,
             "similarity_technical": 1,
-            "keywords": null
+            "keyword_hash": 24360273093693075
           },
           {
             "index": 2,
-            "href": "_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-2.md",
             "title": "Configuring Naming Policies",
             "is_code": true,
-            "similarity_conceptual": 0.615,
-            "similarity_technical": 0.655,
-            "keywords": null
+            "similarity_conceptual": 0.6145999999999999,
+            "similarity_technical": 0.6548999999999999,
+            "keyword_hash": 5896950867201924866
           },
           {
             "index": 3,
-            "href": "_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-3.md",
             "title": "Custom Property Names",
             "is_code": true,
-            "similarity_conceptual": 0.635,
-            "similarity_technical": 0.678,
-            "keywords": null
+            "similarity_conceptual": 0.6354,
+            "similarity_technical": 0.6784999999999999,
+            "keyword_hash": 8346904597717122818
           },
           {
             "index": 4,
-            "href": "_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-4.md",
             "title": "Working with Records",
             "is_code": true,
-            "similarity_conceptual": 0.601,
-            "similarity_technical": 0.716,
-            "keywords": null
+            "similarity_conceptual": 0.6006999999999999,
+            "similarity_technical": 0.7159,
+            "keyword_hash": 1825804521970904983
           },
           {
             "index": 5,
-            "href": "_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-5.md",
             "title": "Deserializing with Constructors",
             "is_code": true,
-            "similarity_conceptual": 0.615,
-            "similarity_technical": 0.677,
-            "keywords": null
+            "similarity_conceptual": 0.6148999999999999,
+            "similarity_technical": 0.6769,
+            "keyword_hash": 4680446804312104730
           },
           {
             "index": 6,
-            "href": "_chunks/golden-reference-6.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-6.md",
             "title": "UTF-8 Operations",
             "is_code": true,
-            "similarity_conceptual": 0.609,
-            "similarity_technical": 0.681,
-            "keywords": null
+            "similarity_conceptual": 0.6085999999999999,
+            "similarity_technical": 0.6805999999999999,
+            "keyword_hash": 5793488987935058832
           },
           {
             "index": 7,
-            "href": "_chunks/golden-reference-7.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-7.md",
             "title": "Custom Converters",
             "is_code": true,
-            "similarity_conceptual": 0.648,
-            "similarity_technical": 0.653,
-            "keywords": null
+            "similarity_conceptual": 0.6477999999999999,
+            "similarity_technical": 0.6525999999999998,
+            "keyword_hash": 13939920156827892679
           },
           {
             "index": 8,
-            "href": "_chunks/golden-reference-8.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-8.md",
             "title": "Handling Large Numbers",
             "is_code": true,
-            "similarity_conceptual": 0.628,
-            "similarity_technical": 0.668,
-            "keywords": null
+            "similarity_conceptual": 0.6283,
+            "similarity_technical": 0.6682,
+            "keyword_hash": 23830445804269074
           },
           {
             "index": 9,
-            "href": "_chunks/golden-reference-9.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-9.md",
             "title": "Reusing JsonSerializerOptions",
             "is_code": true,
-            "similarity_conceptual": 0.633,
-            "similarity_technical": 0.683,
-            "keywords": null
+            "similarity_conceptual": 0.6325999999999999,
+            "similarity_technical": 0.6834,
+            "keyword_hash": 15849908260835598083
           },
           {
             "index": 10,
-            "href": "_chunks/golden-reference-10.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-10.md",
             "title": "Circular References",
             "is_code": true,
-            "similarity_conceptual": 0.648,
-            "similarity_technical": 0.642,
-            "keywords": null
+            "similarity_conceptual": 0.6483,
+            "similarity_technical": 0.6421,
+            "keyword_hash": 49543487164884815
           },
           {
             "index": 11,
-            "href": "_chunks/golden-reference-11.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-11.md",
             "title": "Thread Safety",
             "is_code": true,
-            "similarity_conceptual": 0.608,
-            "similarity_technical": 0.678,
-            "keywords": null
+            "similarity_conceptual": 0.6077999999999999,
+            "similarity_technical": 0.6782999999999999,
+            "keyword_hash": 1239786814737456003
           },
           {
             "index": 12,
-            "href": "_chunks/golden-reference-12.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-12.md",
             "title": "Indentation Customization",
             "is_code": true,
-            "similarity_conceptual": 0.638,
+            "similarity_conceptual": 0.6385,
             "similarity_technical": 0.656,
-            "keywords": null
+            "keyword_hash": 6985834581199007490
           },
           {
             "index": 13,
-            "href": "_chunks/golden-reference-13.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-13.md",
             "title": "Freezing JsonSerializerOptions",
             "is_code": true,
-            "similarity_conceptual": 0.589,
-            "similarity_technical": 0.668,
-            "keywords": null
+            "similarity_conceptual": 0.5888,
+            "similarity_technical": 0.6678,
+            "keyword_hash": 15092912113668505543
           },
           {
             "index": 14,
-            "href": "_chunks/golden-reference-14.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-14.md",
             "title": "Generating JSON Schema",
             "is_code": true,
-            "similarity_conceptual": 0.59,
-            "similarity_technical": 0.645,
-            "keywords": null
+            "similarity_conceptual": 0.5897,
+            "similarity_technical": 0.6449,
+            "keyword_hash": 1176578072804174338
           },
           {
             "index": 15,
-            "href": "_chunks/golden-reference-15.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-15.md",
             "title": "Adding Documentation to JSON Schema",
             "is_code": true,
-            "similarity_conceptual": 0.593,
-            "similarity_technical": 0.643,
-            "keywords": null
+            "similarity_conceptual": 0.5926,
+            "similarity_technical": 0.6427999999999998,
+            "keyword_hash": 15011640560654592962
           },
           {
             "index": 16,
-            "href": "_chunks/golden-reference-16.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-16.md",
             "title": "Documenting Constructor Parameters in Schema",
             "is_code": true,
             "similarity_conceptual": 0.578,
-            "similarity_technical": 0.672,
-            "keywords": null
+            "similarity_technical": 0.6724,
+            "keyword_hash": 1185585255164254722
           },
           {
             "index": 17,
-            "href": "_chunks/golden-reference-17.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-17.md",
             "title": "Out-of-Order Metadata Deserialization",
             "is_code": true,
-            "similarity_conceptual": 0.607,
-            "similarity_technical": 0.627,
-            "keywords": null
+            "similarity_conceptual": 0.6068,
+            "similarity_technical": 0.6268999999999999,
+            "keyword_hash": 1221664663945789219
           },
           {
             "index": 18,
-            "href": "_chunks/golden-reference-18.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-18.md",
             "title": "Required Constructor Parameters",
             "is_code": true,
-            "similarity_conceptual": 0.618,
-            "similarity_technical": 0.672,
-            "keywords": null
+            "similarity_conceptual": 0.6183,
+            "similarity_technical": 0.6725,
+            "keyword_hash": 1508751651148697366
           },
           {
             "index": 19,
-            "href": "_chunks/golden-reference-19.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-19.md",
             "title": "Using with PipeReader and PipeWriter",
             "is_code": true,
-            "similarity_conceptual": 0.6,
-            "similarity_technical": 0.679,
-            "keywords": null
+            "similarity_conceptual": 0.6002,
+            "similarity_technical": 0.6788,
+            "keyword_hash": 1258346571153706679
           },
           {
             "index": 20,
-            "href": "_chunks/golden-reference-20.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/_chunks/golden-reference-20.md",
             "title": "Chaining Type Resolvers",
             "is_code": true,
-            "similarity_conceptual": 0.606,
-            "similarity_technical": 0.64,
-            "keywords": null
+            "similarity_conceptual": 0.6063,
+            "similarity_technical": 0.6401999999999999,
+            "keyword_hash": 5712538704591507
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.5535490Z",
+    "generated": "2025-10-20T23:14:33.1305300Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

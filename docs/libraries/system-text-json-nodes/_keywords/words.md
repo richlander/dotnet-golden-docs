@@ -6,13 +6,17 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | json | single | 20 | 1.00x | 1.00x | 1.5x | 30.000 |
 | system.text.json.nodes | compound | 6 | 1.50x | 1.50x | 2.0x | 27.000 |
+| strongly-typed | compound | 7 | 1.25x | 1.50x | 2.0x | 26.250 |
 | json documents | compound | 6 | 1.25x | 1.50x | 2.0x | 22.500 |
 | nodes | single | 10 | 1.00x | 1.00x | 2.0x | 20.000 |
-| strongly-typed | compound | 7 | 1.25x | 1.50x | 1.5x | 19.688 |
 | read-only | compound | 6 | 1.00x | 1.50x | 1.5x | 13.500 |
 | type safety | compound | 4 | 1.10x | 1.50x | 2.0x | 13.200 |
 | strongly-typed objects | compound | 3 | 1.25x | 1.50x | 2.0x | 11.250 |
@@ -36,17 +40,14 @@ Combined local and global scoring:
 | building json | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | json proxy middleware | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | reading values | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
-| use | single | 7 | 1.00x | 1.00x | 1.0x | 7.000 |
 | construction | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | document object model | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
+| modification | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| offers | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | sources | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | structures | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | tree | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| provides | single | 5 | 1.00x | 1.00x | 1.0x | 5.000 |
 | dom | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | known | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| modification | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | multiple | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| offers | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | without | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| system | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |

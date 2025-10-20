@@ -1,4 +1,16 @@
 Title | Inline Arrays
+API | InlineArray
+API | Console.WriteLine
+API | CopyTo
+API | System.Runtime
+API | AsSpan
+API | System.Runtime.CompilerServices
+API | Enqueue
+API | ProcessData
+API | Fill
+API | Math.Min
+API | Reverse
+API | StructLayout
 Error | CS9167
 ErrorMessage | Inline array length must be greater than 0.
 Error | CS9169
@@ -27,3 +39,15 @@ Error | CS9182
 ErrorMessage | Inline array 'Slice' method will not be used for element access expression.
 Error | CS9183
 ErrorMessage | Inline array conversion operator will not be used for conversion from expression of the declaring type.
+Keyword | inline arrays
+Keyword | buffers
+Keyword | inline array
+Keyword | fixed-size
+Keyword | use
+Keyword | buffer
+Keyword | unsafe
+Keyword | element access
+Keyword | considerations
+Keyword | heap
+Keyword | bounds
+Keyword | create

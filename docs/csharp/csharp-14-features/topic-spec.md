@@ -40,8 +40,8 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 7262411006152912613 |
-| overview | simhash | 12991679535167439672 |
-| technical | simhash | 12704008812590162300 |
+| overview | simhash | 12991679535167439664 |
+| technical | simhash | 12704008262834348412 |
 
 ## Relationships
 
@@ -68,8 +68,8 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | expression trees | 2.00 |
 | first-class span | 2.00 |
 | named arguments | 2.00 |
-| patterns | 6.00 |
 | first-class | 3.00 |
+| stack-only | 2.00 |
 
 ## APIs
 

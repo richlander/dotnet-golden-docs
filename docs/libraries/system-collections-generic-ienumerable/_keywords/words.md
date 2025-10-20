@@ -6,12 +6,15 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | deferred execution | compound | 8 | 1.10x | 1.50x | 2.0x | 26.400 |
 | ienumerable | single | 13 | 1.00x | 1.00x | 2.0x | 26.000 |
 | sequences | single | 13 | 1.00x | 1.00x | 2.0x | 26.000 |
-| use | single | 22 | 1.00x | 1.00x | 1.0x | 22.000 |
 | need | single | 12 | 1.00x | 1.00x | 1.5x | 18.000 |
 | iteration | single | 11 | 1.00x | 1.00x | 1.5x | 16.500 |
 | multiple | single | 11 | 1.00x | 1.00x | 1.5x | 16.500 |
@@ -22,13 +25,14 @@ Combined local and global scoring:
 | side effects | compound | 4 | 1.10x | 1.50x | 2.0x | 13.200 |
 | consider | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | iterator | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
+| modification | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | considerations | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
+| large | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | materialize | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | operators | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | queries | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | sequence | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | yield return | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
-| modification | single | 6 | 1.00x | 1.00x | 1.5x | 9.000 |
 | concrete | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | count | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | each | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -38,7 +42,6 @@ Combined local and global scoring:
 | times | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | want | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | into | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
-| large | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | entity framework | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | infinite sequences | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | large sequences | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
@@ -50,6 +53,7 @@ Combined local and global scoring:
 | random access | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | no | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | aggregation | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| capabilities | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | chain | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | creates | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | doesn't | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -72,6 +76,5 @@ Combined local and global scoring:
 | thread-safety | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | transformation | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | avoid | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| capabilities | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | data | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | read-only | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |

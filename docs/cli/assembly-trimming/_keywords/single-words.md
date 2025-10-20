@@ -2,13 +2,12 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 169
-Total word occurrences: 240
+Total word occurrences: 237
 Total document words: 428
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
 | trimming | 8 | 0.0187 |
-| code | 4 | 0.0093 |
 | deployment | 4 | 0.0093 |
 | reduced | 4 | 0.0093 |
 | test | 4 | 0.0093 |
@@ -73,6 +72,7 @@ Total document words: 428
 | calls | 1 | 0.0023 |
 | clearly | 1 | 0.0023 |
 | cloud-native | 1 | 0.0023 |
+| code | 1 | 0.0023 |
 | combined | 1 | 0.0023 |
 | combines | 1 | 0.0023 |
 | compilation | 1 | 0.0023 |

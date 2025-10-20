@@ -1,15 +1,13 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 181
-Total word occurrences: 365
+Total unique words: 175
+Total word occurrences: 337
 Total document words: 734
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| arrays | 12 | 0.0163 |
 | runtime | 9 | 0.0123 |
-| array | 7 | 0.0095 |
 | both | 7 | 0.0095 |
 | don't | 7 | 0.0095 |
 | through | 7 | 0.0095 |
@@ -21,7 +19,6 @@ Total document words: 734
 | iteration | 5 | 0.0068 |
 | patterns | 5 | 0.0068 |
 | automatic | 4 | 0.0054 |
-| code | 4 | 0.0054 |
 | devirtualization | 4 | 0.0054 |
 | index | 4 | 0.0054 |
 | no | 4 | 0.0054 |
@@ -48,7 +45,6 @@ Total document words: 734
 | semantics | 3 | 0.0041 |
 | these | 3 | 0.0041 |
 | versions | 3 | 0.0041 |
-| allocated | 2 | 0.0027 |
 | allocations | 2 | 0.0027 |
 | automatically | 2 | 0.0027 |
 | available | 2 | 0.0027 |
@@ -75,7 +71,6 @@ Total document words: 734
 | like | 2 | 0.0027 |
 | need | 2 | 0.0027 |
 | ordered | 2 | 0.0027 |
-| overhead | 2 | 0.0027 |
 | parity | 2 | 0.0027 |
 | paths | 2 | 0.0027 |
 | perform | 2 | 0.0027 |
@@ -111,6 +106,7 @@ Total document words: 734
 | candidates | 1 | 0.0014 |
 | capabilities | 1 | 0.0014 |
 | characteristics | 1 | 0.0014 |
+| code | 1 | 0.0014 |
 | comparable | 1 | 0.0014 |
 | concrete | 1 | 0.0014 |
 | continuously | 1 | 0.0014 |
@@ -142,7 +138,6 @@ Total document words: 734
 | leveraging | 1 | 0.0014 |
 | linear | 1 | 0.0014 |
 | lists | 1 | 0.0014 |
-| lookup | 1 | 0.0014 |
 | maintaining | 1 | 0.0014 |
 | make | 1 | 0.0014 |
 | matters | 1 | 0.0014 |
@@ -172,7 +167,6 @@ Total document words: 734
 | several | 1 | 0.0014 |
 | simd | 1 | 0.0014 |
 | span-based | 1 | 0.0014 |
-| stack | 1 | 0.0014 |
 | stack-allocate | 1 | 0.0014 |
 | store | 1 | 0.0014 |
 | subsequent | 1 | 0.0014 |

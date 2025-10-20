@@ -2,8 +2,8 @@
 
 Combined 11 compound terms and 156 single words
 Total unique terms: 165
-Terms with score ≥ 3.0: 42
-Total term occurrences: 360
+Terms with score ≥ 3.0: 41
+Total term occurrences: 354
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -25,12 +25,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | string normalization | compound | 5 | 1.25x | 1.50x | 9.4 |
 | spans | single | 9 | 1.00x | 1.00x | 9.0 |
 | span-based string processing | compound | 3 | 1.50x | 1.50x | 6.8 |
-| buffers | single | 6 | 1.00x | 1.00x | 6.0 |
 | string | single | 6 | 1.00x | 1.00x | 6.0 |
 | utf-8 string literals | compound | 3 | 1.25x | 1.50x | 5.6 |
-| conversion | single | 5 | 1.00x | 1.00x | 5.0 |
 | directly | single | 5 | 1.00x | 1.00x | 5.0 |
 | unicode | single | 5 | 1.00x | 1.00x | 5.0 |
+| buffers | single | 4 | 1.00x | 1.00x | 4.0 |
 | conversions | single | 4 | 1.00x | 1.00x | 4.0 |
 | data | single | 4 | 1.00x | 1.00x | 4.0 |
 | encoding | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -45,13 +44,13 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | memory overhead | compound | 2 | 1.10x | 1.50x | 3.3 |
 | avoid | single | 3 | 1.00x | 1.00x | 3.0 |
 | character | single | 3 | 1.00x | 1.00x | 3.0 |
+| conversion | single | 3 | 1.00x | 1.00x | 3.0 |
 | converting | single | 3 | 1.00x | 1.00x | 3.0 |
 | first-class | single | 3 | 1.00x | 1.00x | 3.0 |
 | heap | single | 3 | 1.00x | 1.00x | 3.0 |
 | hex | single | 3 | 1.00x | 1.00x | 3.0 |
 | instead | single | 3 | 1.00x | 1.00x | 3.0 |
 | normalize | single | 3 | 1.00x | 1.00x | 3.0 |
-| overhead | single | 3 | 1.00x | 1.00x | 3.0 |
 | patterns | single | 3 | 1.00x | 1.00x | 3.0 |
 | searching | single | 3 | 1.00x | 1.00x | 3.0 |
 | utf-16 | single | 3 | 1.00x | 1.00x | 3.0 |

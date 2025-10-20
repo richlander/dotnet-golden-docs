@@ -6,6 +6,10 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | string search | compound | 4 | 1.50x | 1.50x | 2.0x | 18.000 |
@@ -18,12 +22,11 @@ Combined local and global scoring:
 | searches | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | allocation-free | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | character | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| complex | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | string.contains | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| complex | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | multi-value | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | pattern-based | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | regular | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | search | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | substring | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| vs | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| use | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
+| vs | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

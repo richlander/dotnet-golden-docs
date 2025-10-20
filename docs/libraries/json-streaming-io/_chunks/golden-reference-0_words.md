@@ -1,0 +1,26 @@
+# Keywords for golden-reference-0
+
+Keywords extracted from topic-level _keywords/words.md that appear in this chunk.
+Scores are from the topic-level authority analysis.
+
+| Term | Type | Score |
+|------|------|-------|
+| json streaming | compound | 18.000 |
+| streaming | single | 18.000 |
+| large | single | 16.000 |
+| streams | single | 16.000 |
+| utf-8 | single | 10.500 |
+| pipeline | single | 10.000 |
+| streaming apis | compound | 9.900 |
+| memory-efficient parsing | compound | 7.500 |
+| stream-based serialization | compound | 7.500 |
+| utf-8 direct processing | compound | 7.500 |
+| high-throughput | compound | 6.000 |
+| incrementally | single | 6.000 |
+| memory-efficient | single | 6.000 |
+| non-blocking | compound | 6.000 |
+| pipelines | single | 6.000 |
+| pipes | single | 6.000 |
+| processing | single | 6.000 |
+| real-time | compound | 6.000 |
+| directly | single | 4.500 |

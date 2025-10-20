@@ -3,7 +3,7 @@
 Combined 18 compound terms and 224 single words
 Total unique terms: 240
 Terms with score ≥ 3.0: 50
-Total term occurrences: 456
+Total term occurrences: 453
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -19,11 +19,11 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | async operations | compound | 8 | 1.10x | 1.50x | 13.2 |
 | await | single | 11 | 1.00x | 1.00x | 11.0 |
 | operations | single | 11 | 1.00x | 1.00x | 11.0 |
-| code | single | 8 | 1.00x | 1.00x | 8.0 |
 | considerations | single | 8 | 1.00x | 1.00x | 8.0 |
 | task | single | 7 | 1.00x | 1.00x | 7.0 |
 | async methods | compound | 4 | 1.10x | 1.50x | 6.6 |
 | avoid | single | 6 | 1.00x | 1.00x | 6.0 |
+| code | single | 5 | 1.00x | 1.00x | 5.0 |
 | async code | compound | 3 | 1.10x | 1.50x | 5.0 |
 | error handling | compound | 3 | 1.10x | 1.50x | 5.0 |
 | system.text.json | compound | 3 | 1.10x | 1.50x | 5.0 |

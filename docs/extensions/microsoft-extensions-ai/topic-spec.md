@@ -69,8 +69,8 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 | caching | 6.00 |
 | interfaces | 6.00 |
 | service | 6.00 |
+| microsoft | 5.00 |
 | familiar | 4.00 |
-| functionality | 4.00 |
 
 ## APIs
 

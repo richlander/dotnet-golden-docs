@@ -6,9 +6,13 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
-| security | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
+| security | single | 7 | 1.00x | 1.00x | 2.0x | 14.000 |
 | net 10 | compound | 2 | 1.50x | 1.50x | 2.0x | 9.000 |
 | span-based | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | improvements | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -22,5 +26,3 @@ Combined local and global scoring:
 | quantum-resistant | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | cross-platform | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |
 | utf-8 | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| patterns | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |
-| high-performance | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

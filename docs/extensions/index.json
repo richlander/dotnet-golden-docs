@@ -24,22 +24,23 @@
     }
   },
   "keywords": null,
+  "keyword_hash": null,
   "apis": null,
   "diagnostic_codes": null,
   "_links": {
     "self": {
       "name": "self",
-      "href": "/extensions/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/index.json",
       "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components."
     },
     "parent": {
       "name": "parent",
-      "href": "/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/index.json",
       "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/extensions/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     }
   },
@@ -66,7 +67,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/extensions/microsoft-extensions-ai/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
             "description": "Unified approach for .NET developers to integrate and interact with AI services through standardized interfaces and middleware patterns."
           }
         }
@@ -78,7 +79,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997129247378506040
+            "fingerprint": 12997269984866861368
           },
           "technical": {
             "name": "technical",
@@ -92,7 +93,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/extensions/microsoft-extensions-ai-evaluation/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai-evaluation/index.json",
             "description": "Comprehensive set of libraries for evaluating AI software quality and safety through metrics, safety checks, and reporting tools."
           }
         }
@@ -104,7 +105,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13140852822484190074
+            "fingerprint": 12996737634408334202
           },
           "technical": {
             "name": "technical",
@@ -118,7 +119,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/extensions/microsoft-extensions-http-resilience/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/index.json",
             "description": "Resilience mechanisms for HttpClient built on Polly framework with pre-configured patterns for retry, circuit breaking, hedging, and rate limiting."
           }
         }
@@ -127,7 +128,7 @@
     "chunks": null
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.6591600Z",
+    "generated": "2025-10-20T23:14:33.1676152Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

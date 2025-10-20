@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 111
-Total word occurrences: 149
+Total unique words: 109
+Total word occurrences: 146
 Total document words: 360
 
 | Word | Count | Document Concentration |
@@ -25,7 +25,6 @@ Total document words: 360
 | restrictions | 2 | 0.0056 |
 | rules | 2 | 0.0056 |
 | stack-only | 2 | 0.0056 |
-| unsafe | 2 | 0.0056 |
 | accessors | 1 | 0.0028 |
 | additional | 1 | 0.0028 |
 | alternatives | 1 | 0.0028 |
@@ -42,7 +41,6 @@ Total document words: 360
 | capabilities | 1 | 0.0028 |
 | careful | 1 | 0.0028 |
 | change | 1 | 0.0028 |
-| code | 1 | 0.0028 |
 | common | 1 | 0.0028 |
 | compiler-generated | 1 | 0.0028 |
 | complex | 1 | 0.0028 |

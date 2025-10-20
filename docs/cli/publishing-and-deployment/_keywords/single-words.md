@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 152
-Total word occurrences: 315
+Total unique words: 151
+Total word occurrences: 311
 Total document words: 504
 
 | Word | Count | Document Concentration |
@@ -22,7 +22,6 @@ Total document words: 504
 | distribution | 4 | 0.0079 |
 | no | 4 | 0.0079 |
 | single-file | 4 | 0.0079 |
-| size | 4 | 0.0079 |
 | application | 3 | 0.0060 |
 | container | 3 | 0.0060 |
 | cross-platform | 3 | 0.0060 |

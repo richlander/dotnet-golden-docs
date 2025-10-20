@@ -46,8 +46,8 @@ Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 17923769528747046492 |
-| overview | simhash | 957545229853003589 |
-| technical | simhash | 18041338146198546232 |
+| overview | simhash | 12991110520862344052 |
+| technical | simhash | 17748602795442725756 |
 
 ## Relationships
 
@@ -61,15 +61,37 @@ Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size
 
 ## Keywords
 
-- inline arrays
-- InlineArrayAttribute
-- fixed-size buffers
-- type-safe buffers
-- sequential layout
-- high-performance arrays
-- stack allocation
-- span integration
-- bounds checking
+| Keyword | Score |
+|---------|-------|
+| inline arrays | 33.00 |
+| buffers | 20.00 |
+| inline array | 8.00 |
+| fixed-size | 10.00 |
+| use | 20.00 |
+| buffer | 9.00 |
+| unsafe | 7.00 |
+| element access | 4.00 |
+| considerations | 8.00 |
+| heap | 6.00 |
+| bounds | 5.00 |
+| create | 5.00 |
+
+## APIs
+
+| API | Type | Count |
+|-----|------|-------|
+| InlineArray | attribute | 48 |
+| Console.WriteLine | method | 12 |
+| CopyTo | method | 6 |
+| System.Runtime | namespace | 6 |
+| AsSpan | method | 5 |
+| System.Runtime.CompilerServices | type | 5 |
+| Enqueue | method | 4 |
+| ProcessData | method | 4 |
+| Fill | method | 3 |
+| Math.Min | method | 3 |
+| Reverse | method | 3 |
+| StructLayout | attribute | 3 |
 
 ## Diagnostic Codes
 

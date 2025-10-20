@@ -42,7 +42,7 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 15867871635841552429 |
-| overview | simhash | 13139699555045745009 |
+| overview | simhash | 13139699623765221747 |
 | technical | simhash | 3773366901076271484 |
 
 ## Relationships
@@ -68,9 +68,9 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | library development | 2.00 |
 | using assembly trimming | 2.00 |
 | framework integration | 2.00 |
+| application | 3.00 |
 | applications | 3.00 |
 | build-time | 2.00 |
-| disabled | 3.00 |
 
 ## APIs
 

@@ -20,7 +20,7 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 13139699555045745009
+      "fingerprint": 13139699623765221747
     },
     "technical": {
       "name": "technical",
@@ -66,18 +66,19 @@
       "score": 2
     },
     {
+      "name": "application",
+      "score": 3
+    },
+    {
       "name": "applications",
       "score": 3
     },
     {
       "name": "build-time",
       "score": 2
-    },
-    {
-      "name": "disabled",
-      "score": 3
     }
   ],
+  "keyword_hash": 3248364602728128759,
   "apis": [
     {
       "name": "RequiresUnreferencedCode",
@@ -109,32 +110,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/cli/assembly-trimming/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/index.json",
       "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies."
     },
     "parent": {
       "name": "parent",
-      "href": "/cli/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
       "description": "Cli category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/cli/assembly-trimming/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/cli/assembly-trimming/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/cli/assembly-trimming/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/cli/build-and-compilation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
         "title": "Build and Compilation",
         "similarity": 0.7217,
         "hashes": {
@@ -151,7 +152,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.719,
         "hashes": {
@@ -168,7 +169,7 @@
         }
       },
       {
-        "href": "/cli/native-aot/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
         "title": "Native AOT",
         "similarity": 0.7073,
         "hashes": {
@@ -190,7 +191,7 @@
         }
       },
       {
-        "href": "/cli/publishing-and-deployment/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
         "title": "Publishing and Deployment",
         "similarity": 0.7,
         "hashes": {
@@ -212,7 +213,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.6853,
         "hashes": {
@@ -224,34 +225,34 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 12991679535167439664
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 12704008262834348412
           }
         }
       },
       {
-        "href": "/libraries/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.6762,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13141247616004096314
+            "fingerprint": 12997132427928207738
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916148846972
+            "fingerprint": 12992066015660474748
           }
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6727,
         "hashes": {
@@ -268,7 +269,7 @@
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.6662,
         "hashes": {
@@ -285,7 +286,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-source-generation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
         "similarity": 0.6463,
         "hashes": {
@@ -297,17 +298,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17747863716396172082
+            "fingerprint": 17748004591323480882
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13154369194086507384
+            "fingerprint": 13154369331525460856
           }
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6397,
         "hashes": {
@@ -329,7 +330,7 @@
         }
       },
       {
-        "href": "/libraries/span-based-string-processing/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/index.json",
         "title": "Span-Based String Processing",
         "similarity": 0.6391,
         "hashes": {
@@ -346,7 +347,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.6362,
         "hashes": {
@@ -371,60 +372,60 @@
         "source": "golden-reference.md",
         "count": 4,
         "baseline_conceptual": 0,
-        "baseline_technical": 2,
+        "baseline_technical": 1,
         "stripe_order": [
           3,
           1,
           2
         ],
         "stripe_order_technical": [
-          1,
+          2,
           3,
           0
         ],
         "items": [
           {
             "index": 0,
-            "href": "_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
-            "similarity_technical": 0.514,
-            "keywords": null
+            "similarity_technical": 0.5137999999999999,
+            "keyword_hash": 2310507834524316891
           },
           {
             "index": 1,
-            "href": "_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/_chunks/golden-reference-1.md",
             "title": "Library Migration Strategies",
             "is_code": true,
-            "similarity_conceptual": 0.558,
-            "similarity_technical": 0.596,
-            "keywords": null
+            "similarity_conceptual": 0.5577,
+            "similarity_technical": 0.5958,
+            "keyword_hash": 9224658621199454415
           },
           {
             "index": 2,
-            "href": "_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/_chunks/golden-reference-2.md",
             "title": "Framework Integration",
             "is_code": true,
-            "similarity_conceptual": 0.514,
+            "similarity_conceptual": 0.5137999999999999,
             "similarity_technical": 1,
-            "keywords": null
+            "keyword_hash": 11349810361857478853
           },
           {
             "index": 3,
-            "href": "_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/_chunks/golden-reference-3.md",
             "title": "Critical Incompatibilities",
             "is_code": false,
-            "similarity_conceptual": 0.566,
-            "similarity_technical": 0.584,
-            "keywords": null
+            "similarity_conceptual": 0.5658,
+            "similarity_technical": 0.5841,
+            "keyword_hash": 18212704707869054173
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.2786690Z",
+    "generated": "2025-10-20T23:14:33.0239629Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

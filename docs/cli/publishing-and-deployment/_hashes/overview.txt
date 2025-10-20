@@ -2,13 +2,13 @@ Title | Publishing and Deployment
 Keyword | deployment
 Keyword | native aot
 Keyword | framework-dependent
-Keyword | publishing
 Keyword | self-contained
+Keyword | publishing
 Keyword | deployments
+Keyword | startup
 Keyword | benefits
 Keyword | case
 Keyword | readytorun
-Keyword | startup
 Keyword | runtime
 Keyword | compilation
 Description | Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies. This covers all publishing modes from framework-dependent to self-contained, single-file, Native AOT, and container deployment, along with the decision matrix for choosing appropriate deployment strategies.

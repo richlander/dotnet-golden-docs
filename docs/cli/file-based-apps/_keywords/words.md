@@ -6,6 +6,10 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | file-based apps | compound | 14 | 1.50x | 1.50x | 2.0x | 63.000 |
@@ -36,16 +40,17 @@ Combined local and global scoring:
 | debugging | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | packages | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | scripting | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
+| single-file | compound | 4 | 1.00x | 1.50x | 2.0x | 12.000 |
 | tutorials | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | create | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | setup | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | traditional project | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
-| single-file | compound | 4 | 1.00x | 1.50x | 1.5x | 9.000 |
 | command-line | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | whats-new | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | basic | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | complexity | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | migration | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| run | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | structures | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | team | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | utilities | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -53,16 +58,17 @@ Combined local and global scoring:
 | works | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | nuget | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | ascii art | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
-| code | single | 7 | 1.00x | 1.00x | 1.0x | 7.000 |
-| use | single | 7 | 1.00x | 1.00x | 1.0x | 7.000 |
 | exit codes | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | project structure | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | single file constraint | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | traditional project structure | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| run | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
+| code | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | without | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | arguments | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | artifacts | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| both | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| capabilities | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| complex | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | directive | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | dotnet-10 | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | experimentation | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -74,6 +80,7 @@ Combined local and global scoring:
 | path | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | proper | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | rather | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| self-contained | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | shebang | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | shell | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | standalone | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -81,8 +88,4 @@ Combined local and global scoring:
 | transform | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | unix | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | error handling | compound | 2 | 1.10x | 1.50x | 1.5x | 4.950 |
-| both | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| capabilities | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| complex | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | considerations | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| self-contained | compound | 2 | 1.00x | 1.50x | 1.5x | 4.500 |

@@ -61,13 +61,13 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 | deployment | 23.00 |
 | native aot | 13.00 |
 | framework-dependent | 7.00 |
-| publishing | 11.00 |
 | self-contained | 7.00 |
+| publishing | 11.00 |
 | deployments | 7.00 |
+| startup | 7.00 |
 | benefits | 6.00 |
 | case | 6.00 |
 | readytorun | 6.00 |
-| startup | 7.00 |
 | runtime | 10.00 |
 | compilation | 5.00 |
 

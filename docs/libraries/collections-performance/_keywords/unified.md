@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 15 compound terms and 181 single words
-Total unique terms: 191
-Terms with score ≥ 3.0: 56
-Total term occurrences: 401
+Combined 15 compound terms and 175 single words
+Total unique terms: 185
+Terms with score ≥ 3.0: 53
+Total term occurrences: 373
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -15,12 +15,10 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | Term | Type | Count | Header Mult | Type Mult | Local Score |
 |------|------|-------|-------------|-----------|-------------|
 | stack allocation | compound | 7 | 1.25x | 1.50x | 13.1 |
-| arrays | single | 12 | 1.00x | 1.00x | 12.0 |
 | array interface devirtualization | compound | 6 | 1.10x | 1.50x | 9.9 |
 | small arrays | compound | 5 | 1.25x | 1.50x | 9.4 |
 | collections performance | compound | 4 | 1.50x | 1.50x | 9.0 |
 | runtime | single | 9 | 1.00x | 1.00x | 9.0 |
-| array | single | 7 | 1.00x | 1.00x | 7.0 |
 | both | single | 7 | 1.00x | 1.00x | 7.0 |
 | don't | single | 7 | 1.00x | 1.00x | 7.0 |
 | through | single | 7 | 1.00x | 1.00x | 7.0 |
@@ -33,7 +31,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | patterns | single | 5 | 1.00x | 1.00x | 5.0 |
 | insertion-order | compound | 3 | 1.00x | 1.50x | 4.5 |
 | automatic | single | 4 | 1.00x | 1.00x | 4.0 |
-| code | single | 4 | 1.00x | 1.00x | 4.0 |
 | devirtualization | single | 4 | 1.00x | 1.00x | 4.0 |
 | index | single | 4 | 1.00x | 1.00x | 4.0 |
 | no | single | 4 | 1.00x | 1.00x | 4.0 |

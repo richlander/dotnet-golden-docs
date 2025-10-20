@@ -4,10 +4,10 @@ Keyword | tasks
 Keyword | use
 Keyword | await
 Keyword | considerations
+Keyword | run
 Keyword | cpu-bound work
 Keyword | exception handling
 Keyword | don't
-Keyword | run
 Keyword | complete
 Keyword | consider
 Keyword | cpu-bound

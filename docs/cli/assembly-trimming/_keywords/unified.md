@@ -2,8 +2,8 @@
 
 Combined 9 compound terms and 169 single words
 Total unique terms: 174
-Terms with score ≥ 3.0: 24
-Total term occurrences: 253
+Terms with score ≥ 3.0: 23
+Total term occurrences: 250
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -16,7 +16,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 |------|------|-------|-------------|-----------|-------------|
 | trimming | single | 8 | 1.00x | 1.00x | 8.0 |
 | assembly trimming | compound | 3 | 1.50x | 1.50x | 6.8 |
-| code | single | 4 | 1.00x | 1.00x | 4.0 |
 | deployment | single | 4 | 1.00x | 1.00x | 4.0 |
 | reduced | single | 4 | 1.00x | 1.00x | 4.0 |
 | test | single | 4 | 1.00x | 1.00x | 4.0 |

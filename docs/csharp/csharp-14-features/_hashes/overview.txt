@@ -9,6 +9,6 @@ Keyword | params collections
 Keyword | expression trees
 Keyword | first-class span
 Keyword | named arguments
-Keyword | patterns
 Keyword | first-class
+Keyword | stack-only
 Description | Collection topic covering key C# 14 language features including the `field` keyword in properties, first-class Span types, unbound generic types in `nameof`, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements. Each feature enhances developer productivity and safety with modern syntax.

@@ -22,5 +22,5 @@ Keyword | strategies
 Keyword | built
 Keyword | circuit
 Keyword | httpclient
+Keyword | microsoft
 Keyword | polly
-Keyword | reliability

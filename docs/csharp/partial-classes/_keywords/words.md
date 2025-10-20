@@ -6,6 +6,10 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | partial | single | 20 | 1.00x | 1.00x | 2.0x | 40.000 |
@@ -22,7 +26,6 @@ Combined local and global scoring:
 | optional | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | separate | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | split | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| use | single | 10 | 1.00x | 1.00x | 1.0x | 10.000 |
 | auto-property | compound | 3 | 1.00x | 1.50x | 2.0x | 9.000 |
 | accessibility | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | cannot | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -37,15 +40,17 @@ Combined local and global scoring:
 | attributes | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | documentation comments | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | partial types | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
-| code | single | 7 | 1.00x | 1.00x | 1.0x | 7.000 |
 | partial constructors | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | partial events | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | partial indexers | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | partial methods | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | partial properties | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
+| code | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | no | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | accessors | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| across | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | base | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| both | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | calls | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | classes | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | comments | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -58,6 +63,3 @@ Combined local and global scoring:
 | part | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | platform-specific | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | windows-specific | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
-| across | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| both | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| provides | single | 4 | 1.00x | 1.00x | 1.0x | 4.000 |

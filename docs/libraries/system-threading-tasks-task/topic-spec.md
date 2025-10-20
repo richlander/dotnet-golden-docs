@@ -66,10 +66,10 @@
 | use | 18.00 |
 | await | 7.00 |
 | considerations | 8.00 |
+| run | 6.00 |
 | cpu-bound work | 3.00 |
 | exception handling | 3.00 |
 | don't | 6.00 |
-| run | 6.00 |
 | complete | 4.00 |
 | consider | 4.00 |
 | cpu-bound | 4.00 |
@@ -107,8 +107,8 @@
 | csharp | csharp/lambda-expressions | 0.7124 |
 | libraries | libraries | 0.7082 |
 | csharp | csharp | 0.7073 |
-| csharp | csharp/csharp-14-features | 0.7029 |
 | libraries | libraries/system-text-json-jsonserializer | 0.7029 |
+| csharp | csharp/csharp-14-features | 0.7029 |
 | libraries | libraries/json-streaming-io | 0.6994 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6971 |
 

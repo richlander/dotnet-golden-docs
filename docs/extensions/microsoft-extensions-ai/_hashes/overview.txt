@@ -12,6 +12,6 @@ Keyword | function calling
 Keyword | caching
 Keyword | interfaces
 Keyword | service
+Keyword | microsoft
 Keyword | familiar
-Keyword | functionality
 Description | Microsoft.Extensions.AI provides a unified approach for .NET developers to integrate and interact with artificial intelligence (AI) services in their applications. It offers standardized interfaces and higher-level utilities for working with generative AI components, enabling seamless integration and interoperability with various AI services through familiar dependency injection and middleware patterns.

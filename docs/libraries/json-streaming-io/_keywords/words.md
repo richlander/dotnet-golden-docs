@@ -6,12 +6,16 @@ Combined local and global scoring:
 - type_mult: 1.5x (compound), 1.0x (single)
 - global_mult: 2.0x (<10% of topics), 1.5x (10-25%), 1.0x (≥25%)
 
+Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears in < 50% of topics)
+- Distinctive terms (1.5x+) always included
+- Common terms (1.0x) included only if substantive (≥10 occurrences) and not overly common (<50% of topics)
+
 | Term | Type | Count | Header Mult | Type Mult | Global Mult | Score |
 |------|------|-------|-------------|-----------|-------------|-------|
 | json streaming | compound | 4 | 1.50x | 1.50x | 2.0x | 18.000 |
 | streaming | single | 9 | 1.00x | 1.00x | 2.0x | 18.000 |
-| large | single | 8 | 1.00x | 1.00x | 1.5x | 12.000 |
-| streams | single | 8 | 1.00x | 1.00x | 1.5x | 12.000 |
+| large | single | 8 | 1.00x | 1.00x | 2.0x | 16.000 |
+| streams | single | 8 | 1.00x | 1.00x | 2.0x | 16.000 |
 | utf-8 | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
 | pipeline | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | streaming apis | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
@@ -19,7 +23,6 @@ Combined local and global scoring:
 | memory-efficient parsing | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | stream-based serialization | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | utf-8 direct processing | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
-| patterns | single | 6 | 1.00x | 1.00x | 1.0x | 6.000 |
 | high-throughput | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | http | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | incrementally | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -30,7 +33,5 @@ Combined local and global scoring:
 | processing | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | real-time | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | stream | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| high-performance | compound | 3 | 1.00x | 1.50x | 1.0x | 4.500 |
+| asp | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
 | directly | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |
-| asp | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |
-| use | single | 3 | 1.00x | 1.00x | 1.0x | 3.000 |

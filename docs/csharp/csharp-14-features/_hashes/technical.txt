@@ -50,5 +50,5 @@ Keyword | params collections
 Keyword | expression trees
 Keyword | first-class span
 Keyword | named arguments
-Keyword | patterns
 Keyword | first-class
+Keyword | stack-only

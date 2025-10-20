@@ -38,6 +38,10 @@
       "score": 9
     },
     {
+      "name": "reflection-based",
+      "score": 4
+    },
+    {
       "name": "runtime",
       "score": 11
     },
@@ -50,8 +54,8 @@
       "score": 6
     },
     {
-      "name": "reflection-based",
-      "score": 4
+      "name": "self-contained",
+      "score": 3
     },
     {
       "name": "jit",
@@ -66,10 +70,6 @@
       "score": 2
     },
     {
-      "name": "self-contained",
-      "score": 3
-    },
-    {
       "name": "generic methods",
       "score": 2
     },
@@ -78,6 +78,7 @@
       "score": 2
     }
   ],
+  "keyword_hash": 13526913673743094084,
   "apis": [
     {
       "name": "JsonSerializable",
@@ -106,32 +107,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/cli/native-aot/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
       "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime."
     },
     "parent": {
       "name": "parent",
-      "href": "/cli/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
       "description": "Cli category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/cli/native-aot/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/cli/native-aot/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/cli/native-aot/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/cli/publishing-and-deployment/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
         "title": "Publishing and Deployment",
         "similarity": 0.8261,
         "authority": {
@@ -156,7 +157,7 @@
         }
       },
       {
-        "href": "/cli/file-based-apps/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/file-based-apps/index.json",
         "title": "File-based apps",
         "similarity": 0.7976,
         "hashes": {
@@ -173,7 +174,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7752,
         "hashes": {
@@ -190,7 +191,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-source-generation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
         "similarity": 0.772,
         "authority": {
@@ -208,17 +209,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17747863716396172082
+            "fingerprint": 17748004591323480882
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13154369194086507384
+            "fingerprint": 13154369331525460856
           }
         }
       },
       {
-        "href": "/cli/build-and-compilation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
         "title": "Build and Compilation",
         "similarity": 0.745,
         "hashes": {
@@ -235,24 +236,24 @@
         }
       },
       {
-        "href": "/libraries/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.6828,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13141247616004096314
+            "fingerprint": 12997132427928207738
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916148846972
+            "fingerprint": 12992066015660474748
           }
         }
       },
       {
-        "href": "/libraries/system-commandline/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/index.json",
         "title": "System.CommandLine",
         "similarity": 0.6697,
         "hashes": {
@@ -274,7 +275,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6683,
         "authority": {
@@ -299,7 +300,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.6593,
         "hashes": {
@@ -311,17 +312,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 12991679535167439664
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 12704008262834348412
           }
         }
       },
       {
-        "href": "/csharp/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.6473,
         "hashes": {
@@ -338,7 +339,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6411,
         "hashes": {
@@ -355,7 +356,7 @@
         }
       },
       {
-        "href": "/extensions/microsoft-extensions-ai/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
         "title": "Microsoft.Extensions.AI",
         "similarity": 0.6401,
         "hashes": {
@@ -396,55 +397,55 @@
         "items": [
           {
             "index": 0,
-            "href": "_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
-            "similarity_technical": 0.543,
-            "keywords": null
+            "similarity_technical": 0.5428999999999999,
+            "keyword_hash": 13257401682026101703
           },
           {
             "index": 1,
-            "href": "_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-1.md",
             "title": "Complementary Technologies",
             "is_code": true,
-            "similarity_conceptual": 0.543,
+            "similarity_conceptual": 0.5428999999999999,
             "similarity_technical": 1,
-            "keywords": null
+            "keyword_hash": 12981837171024105665
           },
           {
             "index": 2,
-            "href": "_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-2.md",
             "title": "Setting Up Source Generation",
             "is_code": true,
-            "similarity_conceptual": 0.548,
-            "similarity_technical": 0.605,
-            "keywords": null
+            "similarity_conceptual": 0.5478,
+            "similarity_technical": 0.6048,
+            "keyword_hash": 18138336924461357124
           },
           {
             "index": 3,
-            "href": "_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-3.md",
             "title": "Common AOT Errors",
             "is_code": true,
-            "similarity_conceptual": 0.515,
-            "similarity_technical": 0.521,
-            "keywords": null
+            "similarity_conceptual": 0.5146999999999999,
+            "similarity_technical": 0.5208999999999999,
+            "keyword_hash": 18156613830835081412
           },
           {
             "index": 4,
-            "href": "_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-4.md",
             "title": "Common Troubleshooting",
             "is_code": true,
-            "similarity_conceptual": 0.614,
-            "similarity_technical": 0.637,
-            "keywords": null
+            "similarity_conceptual": 0.6143999999999998,
+            "similarity_technical": 0.6371,
+            "keyword_hash": 12808594956660003137
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.3095400Z",
+    "generated": "2025-10-20T23:14:33.0434781Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

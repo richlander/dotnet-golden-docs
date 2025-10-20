@@ -48,8 +48,8 @@ System.Text.Json source generation provides compile-time generation of serializa
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 11224889504112485232 |
-| overview | simhash | 17747863716396172082 |
-| technical | simhash | 13154369194086507384 |
+| overview | simhash | 17748004591323480882 |
+| technical | simhash | 13154369331525460856 |
 
 ## Relationships
 
@@ -74,9 +74,9 @@ System.Text.Json source generation provides compile-time generation of serializa
 | native aot | 3.00 |
 | native aot applications | 3.00 |
 | aot-compatible | 3.00 |
+| reflection-based | 3.00 |
 | runtime | 8.00 |
-| asp.net core web apis | 2.00 |
-| multiple contexts | 2.00 |
+| responses | 4.00 |
 
 ## APIs
 

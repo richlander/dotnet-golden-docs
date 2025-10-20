@@ -2,7 +2,7 @@
 
 Generated from: `golden-reference.md`
 Total unique words: 224
-Total word occurrences: 413
+Total word occurrences: 410
 Total document words: 798
 
 | Word | Count | Document Concentration |
@@ -11,10 +11,10 @@ Total document words: 798
 | async | 26 | 0.0326 |
 | await | 11 | 0.0138 |
 | operations | 11 | 0.0138 |
-| code | 8 | 0.0100 |
 | considerations | 8 | 0.0100 |
 | task | 7 | 0.0088 |
 | avoid | 6 | 0.0075 |
+| code | 5 | 0.0063 |
 | don't | 4 | 0.0050 |
 | gt | 4 | 0.0050 |
 | lt | 4 | 0.0050 |

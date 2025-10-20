@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 407
-Total word occurrences: 666
+Total unique words: 406
+Total word occurrences: 660
 Total document words: 1412
 
 | Word | Count | Document Concentration |
@@ -11,7 +11,6 @@ Total document words: 1412
 | features | 11 | 0.0078 |
 | like | 11 | 0.0078 |
 | libraries | 9 | 0.0064 |
-| code | 8 | 0.0057 |
 | programming | 8 | 0.0057 |
 | provides | 8 | 0.0057 |
 | applications | 6 | 0.0042 |
@@ -19,6 +18,7 @@ Total document words: 1412
 | data | 6 | 0.0042 |
 | enables | 6 | 0.0042 |
 | while | 6 | 0.0042 |
+| code | 5 | 0.0035 |
 | control | 5 | 0.0035 |
 | developers | 5 | 0.0035 |
 | object-oriented | 5 | 0.0035 |
@@ -53,7 +53,6 @@ Total document words: 1412
 | through | 3 | 0.0021 |
 | tools | 3 | 0.0021 |
 | understanding | 3 | 0.0021 |
-| unsafe | 3 | 0.0021 |
 | use | 3 | 0.0021 |
 | web | 3 | 0.0021 |
 | windows | 3 | 0.0021 |

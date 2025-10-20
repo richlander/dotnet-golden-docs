@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 233
-Total word occurrences: 425
+Total unique words: 232
+Total word occurrences: 424
 Total document words: 774
 
 | Word | Count | Document Concentration |
@@ -102,7 +102,6 @@ Total document words: 774
 | carefully | 1 | 0.0013 |
 | certain | 1 | 0.0013 |
 | chain | 1 | 0.0013 |
-| code | 1 | 0.0013 |
 | cold | 1 | 0.0013 |
 | combine | 1 | 0.0013 |
 | common | 1 | 0.0013 |

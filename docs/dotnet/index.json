@@ -37,6 +37,10 @@
       "score": 10
     },
     {
+      "name": "memory management",
+      "score": 6
+    },
+    {
       "name": "cross-platform",
       "score": 7
     },
@@ -49,12 +53,16 @@
       "score": 5
     },
     {
-      "name": "memory management",
-      "score": 6
+      "name": "tools",
+      "score": 7
     },
     {
       "name": "runtime",
       "score": 12
+    },
+    {
+      "name": "code",
+      "score": 8
     },
     {
       "name": "languages",
@@ -63,59 +71,52 @@
     {
       "name": "modern",
       "score": 6
-    },
-    {
-      "name": "code",
-      "score": 11
-    },
-    {
-      "name": "tools",
-      "score": 7
     }
   ],
+  "keyword_hash": 6994380590164232337,
   "apis": null,
   "diagnostic_codes": null,
   "_links": {
     "self": {
       "name": "self",
-      "href": "/dotnet/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
       "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications."
     },
     "parent": {
       "name": "parent",
-      "href": "/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/index.json",
       "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/dotnet/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/dotnet/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/libraries/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.8198,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13141247616004096314
+            "fingerprint": 12997132427928207738
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992064916148846972
+            "fingerprint": 12992066015660474748
           }
         }
       },
       {
-        "href": "/csharp/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.7851,
         "authority": {
@@ -136,7 +137,7 @@
         }
       },
       {
-        "href": "/cli/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
         "title": "CLI",
         "similarity": 0.7804,
         "hashes": {
@@ -153,7 +154,7 @@
         }
       },
       {
-        "href": "/cli/native-aot/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
         "title": "Native AOT",
         "similarity": 0.7752,
         "hashes": {
@@ -175,7 +176,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7626,
         "hashes": {
@@ -192,7 +193,7 @@
         }
       },
       {
-        "href": "/cli/build-and-compilation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
         "title": "Build and Compilation",
         "similarity": 0.7617,
         "hashes": {
@@ -209,7 +210,7 @@
         }
       },
       {
-        "href": "/cli/file-based-apps/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/file-based-apps/index.json",
         "title": "File-based apps",
         "similarity": 0.761,
         "hashes": {
@@ -226,7 +227,7 @@
         }
       },
       {
-        "href": "/libraries/system-threading-tasks-task/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.7386,
         "hashes": {
@@ -243,7 +244,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7382,
         "hashes": {
@@ -265,7 +266,7 @@
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.7286,
         "hashes": {
@@ -282,7 +283,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7274,
         "hashes": {
@@ -294,17 +295,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991679535167439672
+            "fingerprint": 12991679535167439664
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704008812590162300
+            "fingerprint": 12704008262834348412
           }
         }
       },
       {
-        "href": "/extensions/microsoft-extensions-ai/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
         "title": "Microsoft.Extensions.AI",
         "similarity": 0.7043,
         "hashes": {
@@ -340,55 +341,55 @@
         "items": [
           {
             "index": 0,
-            "href": "_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
             "similarity_technical": null,
-            "keywords": null
+            "keyword_hash": 6976432162311006251
           },
           {
             "index": 1,
-            "href": "_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/_chunks/golden-reference-1.md",
             "title": "The Three Pillars of .NET",
             "is_code": false,
-            "similarity_conceptual": 0.613,
+            "similarity_conceptual": 0.6134999999999999,
             "similarity_technical": null,
-            "keywords": null
+            "keyword_hash": 16778840248227424546
           },
           {
             "index": 2,
-            "href": "_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/_chunks/golden-reference-2.md",
             "title": ".NET Ecosystem and Variants",
             "is_code": false,
-            "similarity_conceptual": 0.633,
+            "similarity_conceptual": 0.6328,
             "similarity_technical": null,
-            "keywords": null
+            "keyword_hash": 14310777252587300865
           },
           {
             "index": 3,
-            "href": "_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/_chunks/golden-reference-3.md",
             "title": "Development Ecosystem",
             "is_code": false,
-            "similarity_conceptual": 0.658,
+            "similarity_conceptual": 0.6585,
             "similarity_technical": null,
-            "keywords": null
+            "keyword_hash": 13519294072446794795
           },
           {
             "index": 4,
-            "href": "_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/_chunks/golden-reference-4.md",
             "title": "Core Concepts",
             "is_code": false,
-            "similarity_conceptual": 0.679,
+            "similarity_conceptual": 0.6786,
             "similarity_technical": null,
-            "keywords": null
+            "keyword_hash": 7375229968883397099
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-17T20:16:12.6513840Z",
+    "generated": "2025-10-20T23:14:33.1643635Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

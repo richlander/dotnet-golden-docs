@@ -7,9 +7,9 @@ Keyword | frameworks
 Keyword | dependency injection
 Keyword | patterns
 Keyword | system
+Keyword | application
+Keyword | memory management
 Keyword | asp.net core
 Keyword | azure sdk
-Keyword | high-performance collections
-Keyword | third-party
-Keyword | application
+Keyword | entity framework core
 Description | The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios. This includes the Base Class Library (BCL), runtime libraries, application frameworks, and the broader NuGet ecosystem of third-party packages.
