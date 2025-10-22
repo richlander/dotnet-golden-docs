@@ -44,8 +44,8 @@ Collections Performance encompasses both runtime-delivered optimizations and cod
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 3088699778205288848 |
-| technical | simhash | 12713016054776726876 |
+| overview | simhash | 2764390160376595248 |
+| technical | simhash | 17603927406192492924 |
 
 ## Similarity Scores
 
@@ -64,6 +64,14 @@ Collections Performance encompasses both runtime-delivered optimizations and cod
 | libraries | libraries/system-text-json | 0.7041 |
 | libraries | libraries/system-threading-tasks-task | 0.6963 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/system-collections-generic-iasyncenumerable | enumeration | 1.500 |
+| libraries/system-collections-generic-ienumerable | enumeration | 1.500 |
+| libraries/system-threading-tasks-task | don't | 1.700 |
+
 ## APIs
 
 | API | Type | Count |
@@ -76,6 +84,23 @@ Collections Performance encompasses both runtime-delivered optimizations and cod
 | O | method | 3 |
 | ToArray | method | 3 |
 | Where | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| stack allocation | 7.00 |
+| array interface devirtualization | 6.00 |
+| small arrays | 5.00 |
+| collections performance | 4.00 |
+| both | 7.00 |
+| escape | 6.00 |
+| optimizations | 6.00 |
+| don't | 7.00 |
+| through | 7.00 |
+| benefit | 5.00 |
+| enumeration | 5.00 |
+| interfaces | 5.00 |
 
 ## Chunks
 

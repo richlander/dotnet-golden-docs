@@ -68,7 +68,6 @@ Collection expressions provide a concise syntax to create common collection valu
 | collection expressions | 16.00 |
 | collection types | 4.00 |
 | target type | 4.00 |
-| syntax | 6.00 |
 | spread | 5.00 |
 | familiar | 4.00 |
 | spread element | 2.00 |
@@ -77,6 +76,7 @@ Collection expressions provide a concise syntax to create common collection valu
 | inline arrays | 2.00 |
 | combine | 3.00 |
 | concise | 3.00 |
+| javascript | 3.00 |
 
 ## APIs
 
@@ -117,8 +117,9 @@ Collection expressions provide a concise syntax to create common collection valu
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| csharp/collection-initialization | collection expressions | 1.375 |
-| csharp/collection-initialization | collection types | 1.356 |
+| csharp/collection-initialization | collection expressions | 2.600 |
+| csharp/collection-initialization | collection types | 1.400 |
+| csharp/object-initialization | collection expressions | 2.600 |
 
 ## Chunks
 

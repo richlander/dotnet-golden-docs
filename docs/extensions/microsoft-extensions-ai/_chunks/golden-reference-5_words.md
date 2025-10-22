@@ -15,7 +15,6 @@ Scores are from the topic-level authority analysis.
 | service | single | 12.000 |
 | microsoft | single | 10.000 |
 | provider | single | 8.000 |
-| extensions | single | 6.000 |
 | function | single | 6.000 |
 | implement | single | 6.000 |
 | strongly-typed | compound | 6.000 |

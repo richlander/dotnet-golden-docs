@@ -40,8 +40,8 @@ System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) f
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13460983673022227226 |
-| technical | simhash | 12703867533935911260 |
+| overview | simhash | 13136741817361277754 |
+| technical | simhash | 12992100100520943996 |
 
 ## Similarity Scores
 
@@ -60,6 +60,16 @@ System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) f
 | libraries | libraries/dotnet-10-library-improvements | 0.6973 |
 | libraries | libraries/span-based-string-processing | 0.6896 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/json-validation-security | deserialization | 1.700 |
+| libraries/system-text-json | read-only | 1.500 |
+| libraries/system-text-json-jsonserializer | deserialization | 1.700 |
+| libraries/system-text-json-nodes | read-only | 1.500 |
+| libraries/system-text-json-nodes | strongly-typed objects | 1.400 |
+
 ## APIs
 
 | API | Type | Count |
@@ -76,6 +86,23 @@ System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) f
 | JsonDocument.ParseAsync | method | 5 |
 | GetBoolean | method | 4 |
 | Select | method | 4 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| jsondocument | 20.00 |
+| system.text.json.jsondocument | 5.00 |
+| jsonelement | 8.00 |
+| metadata extraction | 4.00 |
+| strongly-typed objects | 4.00 |
+| deserialization | 7.00 |
+| read-only | 5.00 |
+| value | 6.00 |
+| conditional deserialization | 3.00 |
+| json arrays | 3.00 |
+| webhook routing | 3.00 |
+| document | 5.00 |
 
 ## Chunks
 

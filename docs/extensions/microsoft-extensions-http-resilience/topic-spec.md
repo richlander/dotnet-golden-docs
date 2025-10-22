@@ -102,6 +102,13 @@ Microsoft.Extensions.Http.Resilience provides resilience mechanisms for HttpClie
 | csharp | csharp/csharp-14-features | 0.6045 |
 | cli | cli/assembly-trimming | 0.6045 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| extensions/microsoft-extensions-ai | microsoft | 1.500 |
+| extensions/microsoft-extensions-ai-evaluation | microsoft | 1.500 |
+
 ## Critical limitations
 
 - Adds latency overhead due to resilience mechanisms

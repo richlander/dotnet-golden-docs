@@ -84,36 +84,39 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
+      "href": "/cli/publishing-and-deployment/index.json",
       "description": "Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
+      "href": "/cli/index.json",
       "description": "Cli category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/topic-spec.md",
+      "href": "/cli/publishing-and-deployment/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/golden-reference.md",
+      "href": "/cli/publishing-and-deployment/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/qa-pairs.md",
+      "href": "/cli/publishing-and-deployment/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
+        "href": "/cli/native-aot/index.json",
         "title": "Native AOT",
         "similarity": 0.8261,
         "authority": {
-          "native aot": 1.322
+          "native aot": 2.3,
+          "runtime": 2,
+          "self-contained": 1.7,
+          "compilation": 1.5
         },
         "hashes": {
           "error-codes": {
@@ -134,9 +137,12 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
+        "href": "/cli/build-and-compilation/index.json",
         "title": "Build and Compilation",
         "similarity": 0.812,
+        "authority": {
+          "compilation": 1.5
+        },
         "hashes": {
           "overview": {
             "name": "overview",
@@ -151,45 +157,48 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
+        "href": "/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7094,
+        "authority": {
+          "runtime": 2
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12995440279407100792
+            "fingerprint": 12995440278333358968
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995475601218077040
+            "fingerprint": 12995475601218076976
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
+        "href": "/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.6974,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997132427928207738
+            "fingerprint": 12996006510841495866
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992066015660474748
+            "fingerprint": 12997132565241266556
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
+        "href": "/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
         "similarity": 0.6462,
         "authority": {
-          "native aot": 1.322
+          "native aot": 2.3
         },
         "hashes": {
           "error-codes": {
@@ -200,17 +209,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748004591323480882
+            "fingerprint": 17752508190950851378
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13154369331525460856
+            "fingerprint": 13154369194086507384
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/index.json",
+        "href": "/libraries/system-commandline/index.json",
         "title": "System.CommandLine",
         "similarity": 0.6301,
         "hashes": {
@@ -222,17 +231,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13027106350651900730
+            "fingerprint": 12991077554706678586
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603786118948323708
+            "fingerprint": 17603784469680882044
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/index.json",
+        "href": "/extensions/microsoft-extensions-http-resilience/index.json",
         "title": "Microsoft.Extensions.Http.Resilience",
         "similarity": 0.6171,
         "hashes": {
@@ -249,7 +258,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6169,
         "hashes": {
@@ -266,7 +275,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
+        "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6075,
         "hashes": {
@@ -278,7 +287,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992627727723340090
+            "fingerprint": 12992064777769918778
           },
           "technical": {
             "name": "technical",
@@ -288,14 +297,14 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
+        "href": "/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.5939,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135792371890684214
+            "fingerprint": 13135792371891208502
           },
           "technical": {
             "name": "technical",
@@ -305,7 +314,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
+        "href": "/extensions/microsoft-extensions-ai/index.json",
         "title": "Microsoft.Extensions.AI",
         "similarity": 0.5931,
         "hashes": {
@@ -348,7 +357,7 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/_chunks/golden-reference-0.md",
+            "href": "/cli/publishing-and-deployment/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -357,7 +366,7 @@
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/_chunks/golden-reference-1.md",
+            "href": "/cli/publishing-and-deployment/_chunks/golden-reference-1.md",
             "title": "ReadyToRun Compilation",
             "is_code": false,
             "similarity_conceptual": 0.6227999999999999,
@@ -366,7 +375,7 @@
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/_chunks/golden-reference-2.md",
+            "href": "/cli/publishing-and-deployment/_chunks/golden-reference-2.md",
             "title": "By Performance Requirements",
             "is_code": false,
             "similarity_conceptual": 0.6338999999999999,
@@ -375,7 +384,7 @@
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/_chunks/golden-reference-3.md",
+            "href": "/cli/publishing-and-deployment/_chunks/golden-reference-3.md",
             "title": "Runtime Configuration",
             "is_code": true,
             "similarity_conceptual": 0.5882,
@@ -384,7 +393,7 @@
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/_chunks/golden-reference-4.md",
+            "href": "/cli/publishing-and-deployment/_chunks/golden-reference-4.md",
             "title": "Microservice Deployment",
             "is_code": true,
             "similarity_conceptual": 0.5868,
@@ -393,7 +402,7 @@
           },
           {
             "index": 5,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/_chunks/golden-reference-5.md",
+            "href": "/cli/publishing-and-deployment/_chunks/golden-reference-5.md",
             "title": "Publishing Profile Management",
             "is_code": true,
             "similarity_conceptual": 0.5997999999999999,
@@ -405,7 +414,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.0490684Z",
+    "generated": "2025-10-22T17:59:54.5165062Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

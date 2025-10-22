@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 363
-Total word occurrences: 648
+Total unique words: 360
+Total word occurrences: 640
 Total document words: 1219
 
 | Word | Count | Document Concentration |
@@ -12,11 +12,10 @@ Total document words: 1219
 | libraries | 11 | 0.0090 |
 | like | 10 | 0.0082 |
 | while | 10 | 0.0082 |
-| code | 8 | 0.0066 |
 | cross-platform | 8 | 0.0066 |
 | tools | 7 | 0.0057 |
+| code | 6 | 0.0049 |
 | languages | 6 | 0.0049 |
-| modern | 6 | 0.0049 |
 | provides | 6 | 0.0049 |
 | community | 5 | 0.0041 |
 | enables | 5 | 0.0041 |
@@ -30,6 +29,7 @@ Total document words: 1219
 | developers | 4 | 0.0033 |
 | linux | 4 | 0.0033 |
 | many | 4 | 0.0033 |
+| modern | 4 | 0.0033 |
 | pillars | 4 | 0.0033 |
 | programming | 4 | 0.0033 |
 | set | 4 | 0.0033 |
@@ -78,7 +78,6 @@ Total document words: 1219
 | design | 2 | 0.0016 |
 | designed | 2 | 0.0016 |
 | distributions | 2 | 0.0016 |
-| domain | 2 | 0.0016 |
 | dynamic | 2 | 0.0016 |
 | ecosystem | 2 | 0.0016 |
 | eliminates | 2 | 0.0016 |
@@ -154,7 +153,6 @@ Total document words: 1219
 | basic | 1 | 0.0008 |
 | bcl | 1 | 0.0008 |
 | between | 1 | 0.0008 |
-| binary | 1 | 0.0008 |
 | blazor | 1 | 0.0008 |
 | boiled | 1 | 0.0008 |
 | breadth | 1 | 0.0008 |
@@ -303,7 +301,6 @@ Total document words: 1219
 | raw | 1 | 0.0008 |
 | records | 1 | 0.0008 |
 | regular | 1 | 0.0008 |
-| related | 1 | 0.0008 |
 | relationships | 1 | 0.0008 |
 | releases | 1 | 0.0008 |
 | reliability | 1 | 0.0008 |

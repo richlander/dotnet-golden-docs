@@ -11,7 +11,7 @@ Keyword | safety evaluators
 Keyword | azure
 Keyword | evaluators
 Keyword | metrics
-Keyword | extensions
 Keyword | nlp
 Keyword | reporting
+Keyword | assurance
 Description | Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries designed to support building evaluation processes for AI software quality and safety. It provides abstractions, evaluators, and reporting tools to assess AI responses across multiple dimensions including quality metrics (relevance, fluency, coherence), safety evaluations (harmful content detection), and NLP metrics (BLEU, F1 scores).

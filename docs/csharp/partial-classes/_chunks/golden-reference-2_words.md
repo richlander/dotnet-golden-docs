@@ -25,4 +25,3 @@ Scores are from the topic-level authority analysis.
 | both | single | 6.000 |
 | calls | single | 6.000 |
 | classes | single | 6.000 |
-| method | single | 6.000 |

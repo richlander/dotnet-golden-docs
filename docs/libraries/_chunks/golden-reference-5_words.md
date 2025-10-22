@@ -7,5 +7,4 @@ Scores are from the topic-level authority analysis.
 |------|------|-------|
 | libraries | single | 24.000 |
 | dependency injection | compound | 9.900 |
-| patterns | single | 8.000 |
 | third-party | compound | 6.600 |

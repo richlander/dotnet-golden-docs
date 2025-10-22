@@ -36,8 +36,6 @@ Scores are from the topic-level authority analysis.
 | while | single | 8.000 |
 | nuget | single | 7.500 |
 | ascii art | compound | 7.500 |
-| use | single | 7.000 |
-| code | single | 6.000 |
 | arguments | single | 6.000 |
 | both | single | 6.000 |
 | directive | single | 6.000 |

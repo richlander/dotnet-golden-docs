@@ -14,3 +14,15 @@ API | EnumerateObject
 API | JsonDocument.ParseAsync
 API | GetBoolean
 API | Select
+Keyword | jsondocument
+Keyword | system.text.json.jsondocument
+Keyword | jsonelement
+Keyword | metadata extraction
+Keyword | strongly-typed objects
+Keyword | deserialization
+Keyword | read-only
+Keyword | value
+Keyword | conditional deserialization
+Keyword | json arrays
+Keyword | webhook routing
+Keyword | document

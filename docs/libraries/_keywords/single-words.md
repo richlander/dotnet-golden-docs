@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 102
-Total word occurrences: 161
+Total unique words: 101
+Total word occurrences: 159
 Total document words: 353
 
 | Word | Count | Document Concentration |
@@ -24,7 +24,6 @@ Total document words: 353
 | foundation | 2 | 0.0057 |
 | fundamental | 2 | 0.0057 |
 | logging | 2 | 0.0057 |
-| modern | 2 | 0.0057 |
 | networking | 2 | 0.0057 |
 | packages | 2 | 0.0057 |
 | runtime | 2 | 0.0057 |

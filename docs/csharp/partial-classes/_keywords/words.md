@@ -45,7 +45,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | partial indexers | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | partial methods | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | partial properties | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| code | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | no | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | accessors | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | across | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
@@ -59,7 +58,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | developer-written | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | different | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | include | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| method | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | part | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | platform-specific | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | windows-specific | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |

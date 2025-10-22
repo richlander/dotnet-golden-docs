@@ -62,8 +62,8 @@
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 12995440279407100792 |
-| technical | simhash | 12995475601218077040 |
+| overview | simhash | 12995440278333358968 |
+| technical | simhash | 12995475601218076976 |
 
 ## Relationships
 
@@ -83,9 +83,9 @@
 | open-source | 5.00 |
 | tools | 7.00 |
 | runtime | 12.00 |
-| code | 8.00 |
+| code | 6.00 |
 | languages | 6.00 |
-| modern | 6.00 |
+| community | 5.00 |
 
 ## Similarity Scores
 
@@ -117,9 +117,14 @@
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| csharp | low-level | 1.356 |
-| csharp | object-oriented | 1.356 |
-
+| cli | tools | 1.700 |
+| cli/native-aot | runtime | 2.200 |
+| csharp | libraries | 2.100 |
+| csharp | while | 2.000 |
+| csharp | like | 2.000 |
+| csharp | cross-platform | 1.700 |
+| csharp | memory management | 1.600 |
+| libraries | libraries | 2.100 |
 
 ## Chunks
 

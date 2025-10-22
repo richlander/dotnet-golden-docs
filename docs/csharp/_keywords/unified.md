@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 17 compound terms and 406 single words
-Total unique terms: 413
-Terms with score ≥ 3.0: 62
-Total term occurrences: 683
+Combined 17 compound terms and 403 single words
+Total unique terms: 410
+Terms with score ≥ 3.0: 61
+Total term occurrences: 676
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -29,7 +29,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | low-level | compound | 4 | 1.00x | 1.50x | 6.0 |
 | while | single | 6 | 1.00x | 1.00x | 6.0 |
 | language features | compound | 3 | 1.25x | 1.50x | 5.6 |
-| code | single | 5 | 1.00x | 1.00x | 5.0 |
 | control | single | 5 | 1.00x | 1.00x | 5.0 |
 | developers | single | 5 | 1.00x | 1.00x | 5.0 |
 | patterns | single | 5 | 1.00x | 1.00x | 5.0 |
@@ -55,13 +54,13 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | type system | compound | 2 | 1.10x | 1.50x | 3.3 |
 | version compatibility | compound | 2 | 1.10x | 1.50x | 3.3 |
 | abstraction | single | 3 | 1.00x | 1.00x | 3.0 |
+| code | single | 3 | 1.00x | 1.00x | 3.0 |
 | constructs | single | 3 | 1.00x | 1.00x | 3.0 |
 | extensible | single | 3 | 1.00x | 1.00x | 3.0 |
 | frameworks | single | 3 | 1.00x | 1.00x | 3.0 |
 | language-integrated | compound | 2 | 1.00x | 1.50x | 3.0 |
 | mainstream | single | 3 | 1.00x | 1.00x | 3.0 |
 | many | single | 3 | 1.00x | 1.00x | 3.0 |
-| modern | single | 3 | 1.00x | 1.00x | 3.0 |
 | pattern-based | compound | 2 | 1.00x | 1.50x | 3.0 |
 | platform-specific | compound | 2 | 1.00x | 1.50x | 3.0 |
 | provide | single | 3 | 1.00x | 1.00x | 3.0 |

@@ -40,8 +40,8 @@ System.Text.Json.Utf8JsonWriter is a high-performance, low-allocation writer for
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 469786640745173528 |
-| technical | simhash | 17603924666003358076 |
+| overview | simhash | 13140683703851615032 |
+| technical | simhash | 17603926856436679036 |
 
 ## Similarity Scores
 
@@ -60,6 +60,14 @@ System.Text.Json.Utf8JsonWriter is a high-performance, low-allocation writer for
 | libraries | libraries/span-based-string-processing | 0.7134 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6736 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/json-streaming-io | streams | 1.400 |
+| libraries/system-text-json-jsonserializer | output | 1.900 |
+| libraries/system-text-json-jsonserializer | control | 1.800 |
+
 ## APIs
 
 | API | Type | Count |
@@ -76,6 +84,23 @@ System.Text.Json.Utf8JsonWriter is a high-performance, low-allocation writer for
 | WriteEndArray | method | 9 |
 | WriteStartArray | method | 9 |
 | WriteStringValue | method | 7 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| writing | 16.00 |
+| utf8jsonwriter | 12.00 |
+| system.text.json.utf8jsonwriter | 5.00 |
+| output | 9.00 |
+| write | 9.00 |
+| writer | 8.00 |
+| control | 8.00 |
+| stream | 5.00 |
+| performance-critical | 3.00 |
+| formatting | 4.00 |
+| generate | 4.00 |
+| streams | 4.00 |
 
 ## Chunks
 

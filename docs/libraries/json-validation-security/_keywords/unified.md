@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 10 compound terms and 166 single words
-Total unique terms: 175
+Combined 10 compound terms and 165 single words
+Total unique terms: 174
 Terms with score ≥ 3.0: 34
-Total term occurrences: 299
+Total term occurrences: 298
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier

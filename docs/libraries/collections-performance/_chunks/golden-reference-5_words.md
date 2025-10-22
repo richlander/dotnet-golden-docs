@@ -16,7 +16,6 @@ Scores are from the topic-level authority analysis.
 | benefit | single | 10.000 |
 | enumeration | single | 10.000 |
 | interfaces | single | 10.000 |
-| runtime | single | 9.000 |
 | automatic | single | 8.000 |
 | devirtualization | single | 8.000 |
 | small | single | 8.000 |

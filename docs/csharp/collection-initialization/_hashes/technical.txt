@@ -18,10 +18,10 @@ Keyword | collection initialization
 Keyword | target-typed new
 Keyword | collection types
 Keyword | values
-Keyword | syntax
 Keyword | collection initializer syntax
 Keyword | capacity
 Keyword | dictionaries
 Keyword | dictionary
 Keyword | elements
 Keyword | existing
+Keyword | know

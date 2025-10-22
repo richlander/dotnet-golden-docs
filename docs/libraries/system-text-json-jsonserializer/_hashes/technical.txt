@@ -14,3 +14,15 @@ API | JsonDerivedType
 API | JsonSerializable
 API | JsonSerializerOptions
 API | JsonStringEnumMemberName
+Keyword | deserialization
+Keyword | system.text.json.jsonserializer
+Keyword | serialization
+Keyword | source generation
+Keyword | json
+Keyword | jsonserializer
+Keyword | serialize
+Keyword | compile-time
+Keyword | constructor parameters
+Keyword | utf-8 operations
+Keyword | control
+Keyword | output

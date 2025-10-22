@@ -1,33 +1,30 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 109
-Total word occurrences: 146
-Total document words: 360
+Total unique words: 104
+Total word occurrences: 137
+Total document words: 362
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| assignment | 6 | 0.0167 |
-| patterns | 6 | 0.0167 |
-| extension | 5 | 0.0139 |
-| enhanced | 4 | 0.0111 |
-| keyword | 4 | 0.0111 |
-| zero-allocation | 4 | 0.0111 |
+| patterns | 7 | 0.0193 |
+| assignment | 6 | 0.0166 |
+| enhanced | 4 | 0.0110 |
+| keyword | 4 | 0.0110 |
+| zero-allocation | 4 | 0.0110 |
 | compile-time | 3 | 0.0083 |
 | first-class | 3 | 0.0083 |
-| boilerplate | 2 | 0.0056 |
-| compound | 2 | 0.0056 |
-| enables | 2 | 0.0056 |
-| null-conditional | 2 | 0.0056 |
-| operators | 2 | 0.0056 |
-| optional | 2 | 0.0056 |
-| preview | 2 | 0.0056 |
-| restrictions | 2 | 0.0056 |
-| rules | 2 | 0.0056 |
-| stack-only | 2 | 0.0056 |
+| boilerplate | 2 | 0.0055 |
+| compound | 2 | 0.0055 |
+| enables | 2 | 0.0055 |
+| null-conditional | 2 | 0.0055 |
+| optional | 2 | 0.0055 |
+| preview | 2 | 0.0055 |
+| restrictions | 2 | 0.0055 |
+| rules | 2 | 0.0055 |
+| stack-only | 2 | 0.0055 |
 | accessors | 1 | 0.0028 |
 | additional | 1 | 0.0028 |
-| alternatives | 1 | 0.0028 |
 | analyzers | 1 | 0.0028 |
 | apply | 1 | 0.0028 |
 | arguments | 1 | 0.0028 |
@@ -39,9 +36,11 @@ Total document words: 360
 | calls | 1 | 0.0028 |
 | cannot | 1 | 0.0028 |
 | capabilities | 1 | 0.0028 |
+| capable | 1 | 0.0028 |
 | careful | 1 | 0.0028 |
 | change | 1 | 0.0028 |
 | common | 1 | 0.0028 |
+| compared | 1 | 0.0028 |
 | compiler-generated | 1 | 0.0028 |
 | complex | 1 | 0.0028 |
 | currently | 1 | 0.0028 |
@@ -61,7 +60,6 @@ Total document words: 360
 | expected | 1 | 0.0028 |
 | expression-bodied | 1 | 0.0028 |
 | extending | 1 | 0.0028 |
-| extensions | 1 | 0.0028 |
 | feature | 1 | 0.0028 |
 | follows | 1 | 0.0028 |
 | generators | 1 | 0.0028 |
@@ -92,9 +90,7 @@ Total document words: 360
 | records | 1 | 0.0028 |
 | reducing | 1 | 0.0028 |
 | ref | 1 | 0.0028 |
-| related | 1 | 0.0028 |
 | safely | 1 | 0.0028 |
-| safer | 1 | 0.0028 |
 | scope | 1 | 0.0028 |
 | see | 1 | 0.0028 |
 | semantics | 1 | 0.0028 |
@@ -110,7 +106,6 @@ Total document words: 360
 | themes | 1 | 0.0028 |
 | these | 1 | 0.0028 |
 | tools | 1 | 0.0028 |
-| type-safe | 1 | 0.0028 |
 | unbound | 1 | 0.0028 |
 | used | 1 | 0.0028 |
 | user-defined | 1 | 0.0028 |

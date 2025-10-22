@@ -11,7 +11,6 @@ Scores are from the topic-level authority analysis.
 | native aot | compound | 9.900 |
 | native aot applications | compound | 9.900 |
 | reflection-based | compound | 9.000 |
-| runtime | single | 8.000 |
 | performance optimization | compound | 6.600 |
 | attributes | single | 6.000 |
 | utf-8 | single | 6.000 |

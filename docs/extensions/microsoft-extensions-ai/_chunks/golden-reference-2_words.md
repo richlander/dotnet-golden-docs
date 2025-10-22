@@ -17,5 +17,4 @@ Scores are from the topic-level authority analysis.
 | embedding generation | compound | 6.600 |
 | tool invocation | compound | 6.600 |
 | chat | single | 6.000 |
-| extensions | single | 6.000 |
 | function | single | 6.000 |

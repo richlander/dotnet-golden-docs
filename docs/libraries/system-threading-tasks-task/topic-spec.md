@@ -44,7 +44,7 @@
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13135792371890684214 |
+| overview | simhash | 13135792371891208502 |
 | technical | simhash | 12992239188741849468 |
 
 ## Relationships
@@ -63,7 +63,6 @@
 |---------|-------|
 | task | 33.00 |
 | tasks | 28.00 |
-| use | 18.00 |
 | await | 7.00 |
 | considerations | 8.00 |
 | run | 6.00 |
@@ -73,6 +72,7 @@
 | complete | 4.00 |
 | consider | 4.00 |
 | cpu-bound | 4.00 |
+| vs | 4.00 |
 
 ## APIs
 
@@ -114,7 +114,14 @@
 
 ## Authority Scores
 
-(Authority scores will be computed based on keyword analysis)
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp/async-await | task | 4.300 |
+| csharp/async-await | considerations | 1.800 |
+| csharp/async-await | await | 1.700 |
+| libraries/system-collections-generic-iasyncenumerable | considerations | 1.800 |
+| libraries/system-collections-generic-iasyncenumerable | consider | 1.400 |
+| libraries/system-collections-generic-ienumerable | consider | 1.400 |
 
 ## Chunks
 

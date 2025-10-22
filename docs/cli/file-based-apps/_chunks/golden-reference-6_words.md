@@ -19,9 +19,7 @@ Scores are from the topic-level authority analysis.
 | single-file | compound | 12.000 |
 | create | single | 10.000 |
 | works | single | 8.000 |
-| use | single | 7.000 |
 | single file constraint | compound | 6.600 |
-| code | single | 6.000 |
 | artifacts | single | 6.000 |
 | both | single | 6.000 |
 | directive | single | 6.000 |

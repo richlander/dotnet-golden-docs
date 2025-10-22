@@ -15,7 +15,6 @@ Scores are from the topic-level authority analysis.
 | declaring | single | 14.000 |
 | implementations | single | 12.000 |
 | split | single | 12.000 |
-| use | single | 10.000 |
 | auto-property | compound | 9.000 |
 | cannot | single | 8.000 |
 | class | single | 8.000 |

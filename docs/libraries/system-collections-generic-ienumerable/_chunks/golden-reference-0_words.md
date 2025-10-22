@@ -15,7 +15,6 @@ Scores are from the topic-level authority analysis.
 | lt | single | 13.500 |
 | iterator | single | 12.000 |
 | materialize | single | 10.000 |
-| operators | single | 10.000 |
 | queries | single | 10.000 |
 | sequence | single | 10.000 |
 | yield return | compound | 9.900 |
@@ -34,7 +33,6 @@ Scores are from the topic-level authority analysis.
 | flexibility | single | 6.000 |
 | foreach | single | 6.000 |
 | implement | single | 6.000 |
-| modern | single | 6.000 |
 | query | single | 6.000 |
 | results | single | 6.000 |
 | supports | single | 6.000 |

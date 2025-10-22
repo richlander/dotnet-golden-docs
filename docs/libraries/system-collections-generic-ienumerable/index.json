@@ -15,12 +15,12 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 13140261422667071802
+      "fingerprint": 13140261422667596090
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 12992240838009291132
+      "fingerprint": 12992241387765105020
     }
   },
   "keywords": [
@@ -35,10 +35,6 @@
     {
       "name": "sequences",
       "score": 13
-    },
-    {
-      "name": "use",
-      "score": 22
     },
     {
       "name": "need",
@@ -71,9 +67,13 @@
     {
       "name": "side effects",
       "score": 4
+    },
+    {
+      "name": "consider",
+      "score": 6
     }
   ],
-  "keyword_hash": 14173665883718568066,
+  "keyword_hash": 5224996379555678338,
   "apis": [
     {
       "name": "Console.WriteLine",
@@ -140,66 +140,76 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
+      "href": "/libraries/system-collections-generic-ienumerable/index.json",
       "description": "Fundamental interfaces representing enumerable sequences, enabling LINQ, foreach iteration, and deferred execution patterns."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
+      "href": "/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/topic-spec.md",
+      "href": "/libraries/system-collections-generic-ienumerable/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/golden-reference.md",
+      "href": "/libraries/system-collections-generic-ienumerable/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/qa-pairs.md",
+      "href": "/libraries/system-collections-generic-ienumerable/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
         "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.8851,
+        "authority": {
+          "iteration": 2.1,
+          "gt": 1.9,
+          "deferred execution": 1.8,
+          "enumeration": 1.7,
+          "consider": 1.6
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991642545835409712
+            "fingerprint": 12991642545835417904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603926856436687228
+            "fingerprint": 17603927406192501116
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
+        "href": "/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.7989,
+        "authority": {
+          "enumeration": 1.7
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3088699778205288848
+            "fingerprint": 2764390160376595248
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12713016054776726876
+            "fingerprint": 17603927406192492924
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+        "href": "/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7485,
         "hashes": {
@@ -221,31 +231,34 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
+        "href": "/csharp/lambda-expressions/index.json",
         "title": "Lambda Expressions",
         "similarity": 0.7338,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13789395562491052844
+            "fingerprint": 17753109691456815932
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12974085684805370156
+            "fingerprint": 17603784879850267516
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
+        "href": "/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.7312,
+        "authority": {
+          "consider": 1.6
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135792371890684214
+            "fingerprint": 13135792371891208502
           },
           "technical": {
             "name": "technical",
@@ -255,7 +268,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
+        "href": "/csharp/collection-initialization/index.json",
         "title": "Collection Initialization",
         "similarity": 0.7294,
         "hashes": {
@@ -267,7 +280,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135758833431281974
+            "fingerprint": 13135758833431281970
           },
           "technical": {
             "name": "technical",
@@ -277,14 +290,14 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/async-await/index.json",
+        "href": "/csharp/async-await/index.json",
         "title": "Async and Await",
         "similarity": 0.7291,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748041905982472506
+            "fingerprint": 17748041905982997306
           },
           "technical": {
             "name": "technical",
@@ -294,7 +307,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
+        "href": "/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.7222,
         "hashes": {
@@ -311,7 +324,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
+        "href": "/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.7215,
         "hashes": {
@@ -333,7 +346,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7206,
         "hashes": {
@@ -350,24 +363,24 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.7116,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3087081535174783256
+            "fingerprint": 13176850832237699898
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240880958973404
+            "fingerprint": 12992100100520943996
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
+        "href": "/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.7075,
         "hashes": {
@@ -424,127 +437,127 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-0.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-0.md",
             "title": "Main Approaches",
             "is_code": false,
             "similarity_conceptual": 1,
             "similarity_technical": 0.7182999999999999,
-            "keyword_hash": 2607858908277660159
+            "keyword_hash": 2459240120574417375
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-1.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-1.md",
             "title": "LINQ Query Operations",
             "is_code": false,
             "similarity_conceptual": 0.708,
             "similarity_technical": 0.7543,
-            "keyword_hash": 15287604755536959960
+            "keyword_hash": 15278595391627086040
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-2.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-2.md",
             "title": "Infinite Sequences",
             "is_code": true,
             "similarity_conceptual": 0.7182999999999999,
             "similarity_technical": 1,
-            "keyword_hash": 4733564520830228959
+            "keyword_hash": 4661504452891134287
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-3.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-3.md",
             "title": "JSON Serialization Integration",
             "is_code": true,
             "similarity_conceptual": 0.6890000000000001,
             "similarity_technical": 0.6408999999999999,
-            "keyword_hash": 14592067501145819309
+            "keyword_hash": 14612344694585526445
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-4.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-4.md",
             "title": "Filtering and Transformation Pipeline",
             "is_code": true,
             "similarity_conceptual": 0.6662999999999999,
             "similarity_technical": 0.7081999999999999,
-            "keyword_hash": 4656995037338814863
+            "keyword_hash": 4656996171277814159
           },
           {
             "index": 5,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-5.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-5.md",
             "title": "Chaining API Results",
             "is_code": true,
             "similarity_conceptual": 0.6665,
             "similarity_technical": 0.7009000000000001,
-            "keyword_hash": 9620475891400268235
+            "keyword_hash": 9548416089749085579
           },
           {
             "index": 6,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-6.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-6.md",
             "title": "Multiple Ways to Create IEnumerable",
             "is_code": true,
             "similarity_conceptual": 0.6366999999999999,
             "similarity_technical": 0.6671999999999999,
-            "keyword_hash": 9259623828594509959
+            "keyword_hash": 9692027701507803279
           },
           {
             "index": 7,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-7.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-7.md",
             "title": "Non-Generic IEnumerable",
             "is_code": true,
             "similarity_conceptual": 0.6765,
             "similarity_technical": 0.6611,
-            "keyword_hash": 12979408503001766367
+            "keyword_hash": 13125810713918103515
           },
           {
             "index": 8,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-8.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-8.md",
             "title": "Prefer Streaming Over Materialization",
             "is_code": true,
             "similarity_conceptual": 0.6818,
             "similarity_technical": 0.707,
-            "keyword_hash": 4900190832440265879
+            "keyword_hash": 5638781188576005271
           },
           {
             "index": 9,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-9.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-9.md",
             "title": "Avoid IEnumerable for Large Result Sets in APIs",
             "is_code": true,
             "similarity_conceptual": 0.6792,
             "similarity_technical": 0.6761999999999999,
-            "keyword_hash": 14169638907412372879
+            "keyword_hash": 14168510808461303179
           },
           {
             "index": 10,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-10.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-10.md",
             "title": "No Random Access",
             "is_code": true,
             "similarity_conceptual": 0.6908,
             "similarity_technical": 0.7474000000000001,
-            "keyword_hash": 9522557706905280167
+            "keyword_hash": 298059770143596195
           },
           {
             "index": 11,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-11.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-11.md",
             "title": "Lazy Evaluation and Side Effects",
             "is_code": true,
             "similarity_conceptual": 0.6861999999999999,
             "similarity_technical": 0.7121,
-            "keyword_hash": 9603080514051197615
+            "keyword_hash": 9601945818030361275
           },
           {
             "index": 12,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-12.md",
+            "href": "/libraries/system-collections-generic-ienumerable/_chunks/golden-reference-12.md",
             "title": "IEnumerable Doesn\u0027t Support Modification",
             "is_code": true,
             "similarity_conceptual": 0.701,
             "similarity_technical": 0.7343999999999999,
-            "keyword_hash": 15611160494684723389
+            "keyword_hash": 15034697272776161469
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.1137020Z",
+    "generated": "2025-10-22T17:59:54.5752055Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

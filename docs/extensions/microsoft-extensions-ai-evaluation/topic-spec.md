@@ -40,7 +40,7 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 12997269984866861368 |
+| overview | simhash | 12997129247378506040 |
 | technical | simhash | 12992239188741857660 |
 
 ## Relationships
@@ -67,9 +67,9 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 | azure | 6.00 |
 | evaluators | 6.00 |
 | metrics | 6.00 |
-| extensions | 5.00 |
 | nlp | 5.00 |
 | reporting | 5.00 |
+| assurance | 4.00 |
 
 ## APIs
 
@@ -102,6 +102,14 @@ Microsoft.Extensions.AI.Evaluation is a comprehensive set of .NET libraries desi
 | libraries | libraries/system-text-json-source-generation | 0.6188 |
 | cli | cli/native-aot | 0.6161 |
 | cli | cli | 0.6142 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| extensions/microsoft-extensions-ai | ai | 3.200 |
+| extensions/microsoft-extensions-ai | microsoft | 1.700 |
+| extensions/microsoft-extensions-http-resilience | microsoft | 1.700 |
 
 ## Critical limitations
 

@@ -14,7 +14,6 @@ Scores are from the topic-level authority analysis.
 | serialize | single | 16.000 |
 | compile-time | compound | 13.500 |
 | utf-8 operations | compound | 11.250 |
-| use | single | 11.000 |
 | control | single | 10.500 |
 | customization | single | 8.000 |
 | deserialize | single | 8.000 |

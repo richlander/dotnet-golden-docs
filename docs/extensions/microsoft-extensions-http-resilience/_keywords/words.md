@@ -39,7 +39,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | resource management | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | comprehensive | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | essential | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| extensions | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | factory | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | failures | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | providing | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

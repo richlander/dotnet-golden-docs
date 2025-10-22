@@ -8,6 +8,5 @@ Scores are from the topic-level authority analysis.
 | collection expressions | compound | 72.000 |
 | collection types | compound | 13.200 |
 | target type | compound | 13.200 |
-| syntax | single | 12.000 |
 | spread | single | 10.000 |
 | combine | single | 6.000 |

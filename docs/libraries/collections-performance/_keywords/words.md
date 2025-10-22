@@ -51,7 +51,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | heap | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | interface | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | jit | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| method | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | order | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | ordereddictionary | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | overloads | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

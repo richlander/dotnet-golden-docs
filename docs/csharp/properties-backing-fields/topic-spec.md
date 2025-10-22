@@ -46,8 +46,8 @@ Properties provide a flexible mechanism to read, write, or compute values using 
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 8792651860460152757 |
-| technical | simhash | 17603783919925071324 |
+| overview | simhash | 8524071852922209080 |
+| technical | simhash | 17748004640716161848 |
 
 ## Similarity Scores
 
@@ -66,6 +66,15 @@ Properties provide a flexible mechanism to read, write, or compute values using 
 | libraries | libraries/system-buffers-searchvalues | 0.6741 |
 | libraries | libraries/system-collections-generic-ienumerable | 0.6740 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp/csharp-14-features | keyword | 1.800 |
+| csharp/object-initialization | records | 1.600 |
+| csharp/object-initialization | init-only properties | 1.400 |
+| csharp/partial-classes | keyword | 1.800 |
+
 ## APIs
 
 | API | Type | Count |
@@ -73,6 +82,23 @@ Properties provide a flexible mechanism to read, write, or compute values using 
 | Customer | method | 5 |
 | ArgumentException | method | 3 |
 | Product | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| accessor | 9.00 |
+| backing | 8.00 |
+| keyword | 8.00 |
+| auto-implemented properties | 4.00 |
+| computed properties | 4.00 |
+| init-only properties | 4.00 |
+| read-only | 5.00 |
+| field | 7.00 |
+| backing fields | 3.00 |
+| primary | 6.00 |
+| records | 6.00 |
+| field-backed properties | 3.00 |
 
 ## Chunks
 

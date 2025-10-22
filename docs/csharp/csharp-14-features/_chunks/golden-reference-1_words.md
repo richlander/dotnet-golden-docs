@@ -5,7 +5,6 @@ Scores are from the topic-level authority analysis.
 
 | Term | Type | Score |
 |------|------|-------|
-| extension | single | 10.000 |
 | zero-allocation | compound | 8.438 |
 | enhanced | single | 8.000 |
 | keyword | single | 8.000 |

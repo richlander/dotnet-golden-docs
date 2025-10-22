@@ -11,7 +11,6 @@ Scores are from the topic-level authority analysis.
 | global | single | 16.000 |
 | builds | single | 14.000 |
 | projects | single | 12.000 |
-| runtime | single | 8.000 |
 | cache | single | 8.000 |
 | limitations | single | 8.000 |
 | path | single | 8.000 |

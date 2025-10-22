@@ -21,7 +21,7 @@ Keyword | required members
 Keyword | collection expressions
 Keyword | initializers
 Keyword | init-only properties
-Keyword | use
 Keyword | constructor
 Keyword | immutable
 Keyword | records
+Keyword | factory methods

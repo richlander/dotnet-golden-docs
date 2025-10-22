@@ -13,7 +13,6 @@ Scores are from the topic-level authority analysis.
 | microsoft | single | 10.000 |
 | provider | single | 8.000 |
 | chat | single | 6.000 |
-| extensions | single | 6.000 |
 | implement | single | 6.000 |
 | standard | single | 6.000 |
 | vs | single | 6.000 |

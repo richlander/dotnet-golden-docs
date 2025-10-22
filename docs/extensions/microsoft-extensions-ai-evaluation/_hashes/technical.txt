@@ -21,6 +21,6 @@ Keyword | safety evaluators
 Keyword | azure
 Keyword | evaluators
 Keyword | metrics
-Keyword | extensions
 Keyword | nlp
 Keyword | reporting
+Keyword | assurance

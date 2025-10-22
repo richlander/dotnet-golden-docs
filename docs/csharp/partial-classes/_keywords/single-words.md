@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 187
-Total word occurrences: 410
+Total unique words: 185
+Total word occurrences: 404
 Total document words: 851
 
 | Word | Count | Document Concentration |
@@ -24,7 +24,6 @@ Total document words: 851
 | accessibility | 4 | 0.0047 |
 | cannot | 4 | 0.0047 |
 | class | 4 | 0.0047 |
-| code | 4 | 0.0047 |
 | implementation | 4 | 0.0047 |
 | interfaces | 4 | 0.0047 |
 | match | 4 | 0.0047 |
@@ -46,13 +45,13 @@ Total document words: 851
 | definition | 3 | 0.0035 |
 | different | 3 | 0.0035 |
 | include | 3 | 0.0035 |
-| method | 3 | 0.0035 |
 | part | 3 | 0.0035 |
 | abstract | 2 | 0.0024 |
 | accessor | 2 | 0.0024 |
 | attribute | 2 | 0.0024 |
 | attributed | 2 | 0.0024 |
 | caller | 2 | 0.0024 |
+| code | 2 | 0.0024 |
 | compilation | 2 | 0.0024 |
 | constraints | 2 | 0.0024 |
 | contain | 2 | 0.0024 |
@@ -132,7 +131,6 @@ Total document words: 851
 | every | 1 | 0.0012 |
 | exactly | 1 | 0.0012 |
 | exe | 1 | 0.0012 |
-| extension | 1 | 0.0012 |
 | field-like | 1 | 0.0012 |
 | files | 1 | 0.0012 |
 | finalizers | 1 | 0.0012 |

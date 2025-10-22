@@ -43,8 +43,8 @@ JSON streaming and I/O capabilities in System.Text.Json enable efficient process
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 5373223288336521872 |
-| technical | simhash | 12713018245211120108 |
+| overview | simhash | 17751384421473682354 |
+| technical | simhash | 17603786118948331900 |
 
 ## Similarity Scores
 
@@ -63,6 +63,13 @@ JSON streaming and I/O capabilities in System.Text.Json enable efficient process
 | libraries | libraries/json-validation-security | 0.6982 |
 | libraries | libraries/system-text-json-migrate-from-newtonsoft | 0.6909 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/system-text-json-utf8jsonreader | utf-8 | 1.700 |
+| libraries/system-text-json-utf8jsonwriter | streams | 1.800 |
+
 ## APIs
 
 | API | Type | Count |
@@ -78,6 +85,23 @@ JSON streaming and I/O capabilities in System.Text.Json enable efficient process
 | File.OpenRead | method | 3 |
 | JsonSerializer.SerializeAsync | method | 3 |
 | Message | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| json streaming | 4.00 |
+| streaming | 9.00 |
+| large | 8.00 |
+| streams | 8.00 |
+| utf-8 | 7.00 |
+| pipeline | 5.00 |
+| streaming apis | 3.00 |
+| buffer | 4.00 |
+| memory-efficient parsing | 2.00 |
+| stream-based serialization | 2.00 |
+| utf-8 direct processing | 2.00 |
+| high-throughput | 2.00 |
 
 ## Chunks
 

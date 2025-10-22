@@ -46,7 +46,7 @@ The `async` and `await` keywords enable asynchronous programming in C#, allowing
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 17748041905982472506 |
+| overview | simhash | 17748041905982997306 |
 | technical | simhash | 12992239188741849468 |
 
 ## Relationships
@@ -64,7 +64,6 @@ The `async` and `await` keywords enable asynchronous programming in C#, allowing
 | Keyword | Score |
 |---------|-------|
 | async | 26.00 |
-| use | 29.00 |
 | async operations | 8.00 |
 | await | 11.00 |
 | operations | 11.00 |
@@ -74,7 +73,8 @@ The `async` and `await` keywords enable asynchronous programming in C#, allowing
 | async code | 3.00 |
 | avoid | 6.00 |
 | threads | 4.00 |
-| code | 5.00 |
+| error handling | 3.00 |
+| system.text.json | 3.00 |
 
 ## APIs
 
@@ -116,7 +116,14 @@ The `async` and `await` keywords enable asynchronous programming in C#, allowing
 
 ## Authority Scores
 
-(Authority scores will be computed based on keyword analysis)
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/system-collections-generic-iasyncenumerable | async | 3.600 |
+| libraries/system-collections-generic-iasyncenumerable | considerations | 1.800 |
+| libraries/system-text-json | system.text.json | 1.300 |
+| libraries/system-threading-tasks-task | await | 2.100 |
+| libraries/system-threading-tasks-task | considerations | 1.800 |
+| libraries/system-threading-tasks-task | task | 1.700 |
 
 ## Chunks
 

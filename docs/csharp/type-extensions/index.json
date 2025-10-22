@@ -1,0 +1,307 @@
+{
+  "id": "csharp/type-extensions",
+  "title": "Type Extensions",
+  "description": "Language feature enabling developers to add methods, properties, and operators to existing types using extension blocks (C# 14) or traditional extension methods (C# 3.0\u002B). Works across all .NET versions when using appropriate C# language version.",
+  "category": "C# Language",
+  "complexity": 0.45,
+  "priority": 1,
+  "depth_below": 0,
+  "topic_count": 0,
+  "introduced": {
+    "version": "3.0 (extension methods), 14.0 (extension blocks)",
+    "year": "2007 (extension methods), 2025 (extension blocks)"
+  },
+  "hashes": {
+    "error-codes": {
+      "name": "error-codes",
+      "kind": "bloom",
+      "fingerprint": 9554870716459120207
+    },
+    "overview": {
+      "name": "overview",
+      "kind": "simhash",
+      "fingerprint": 12991676237840548218
+    },
+    "technical": {
+      "name": "technical",
+      "kind": "simhash",
+      "fingerprint": 12704008262834332024
+    }
+  },
+  "keywords": [
+    {
+      "name": "extension",
+      "score": 16
+    },
+    {
+      "name": "extension members",
+      "score": 8
+    },
+    {
+      "name": "extensions",
+      "score": 10
+    },
+    {
+      "name": "extension methods",
+      "score": 5
+    },
+    {
+      "name": "operators",
+      "score": 7
+    },
+    {
+      "name": "extension method",
+      "score": 3
+    },
+    {
+      "name": "extension operators",
+      "score": 3
+    },
+    {
+      "name": "type extensions",
+      "score": 2
+    },
+    {
+      "name": "blocks",
+      "score": 4
+    },
+    {
+      "name": "operator",
+      "score": 4
+    },
+    {
+      "name": "static",
+      "score": 4
+    },
+    {
+      "name": "modern syntax",
+      "score": 2
+    }
+  ],
+  "keyword_hash": 17335169421611802656,
+  "apis": [
+    {
+      "name": "Point",
+      "type": "method",
+      "count": 20
+    },
+    {
+      "name": "Console.WriteLine",
+      "type": "method",
+      "count": 10
+    },
+    {
+      "name": "WordCount",
+      "type": "method",
+      "count": 10
+    },
+    {
+      "name": "IsNumeric",
+      "type": "method",
+      "count": 8
+    },
+    {
+      "name": "Split",
+      "type": "method",
+      "count": 7
+    },
+    {
+      "name": "Add",
+      "type": "method",
+      "count": 6
+    },
+    {
+      "name": "IsNullOrEmpty",
+      "type": "method",
+      "count": 6
+    },
+    {
+      "name": "Reset",
+      "type": "method",
+      "count": 6
+    },
+    {
+      "name": "IsEmpty",
+      "type": "method",
+      "count": 5
+    },
+    {
+      "name": "Length",
+      "type": "method",
+      "count": 5
+    },
+    {
+      "name": "Batch",
+      "type": "method",
+      "count": 4
+    },
+    {
+      "name": "Process",
+      "type": "method",
+      "count": 4
+    }
+  ],
+  "diagnostic_codes": [
+    "CS1061",
+    "CS1501",
+    "CS1503",
+    "CS1928",
+    "CS1929",
+    "CS8652",
+    "CS9273",
+    "CS9281",
+    "CS9282",
+    "CS9283",
+    "CS9286",
+    "CS9327",
+    "CS9329"
+  ],
+  "_links": {
+    "self": {
+      "name": "self",
+      "href": "/csharp/type-extensions/index.json",
+      "description": "Language feature enabling developers to add methods, properties, and operators to existing types using extension blocks (C# 14) or traditional extension methods (C# 3.0\u002B). Works across all .NET versions when using appropriate C# language version."
+    },
+    "parent": {
+      "name": "parent",
+      "href": "/csharp/index.json",
+      "description": "Csharp category containing this topic"
+    },
+    "topic-spec": {
+      "name": "Topic Specification",
+      "href": "/csharp/type-extensions/topic-spec.md",
+      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
+    },
+    "golden-reference": {
+      "name": "Golden Reference Document",
+      "href": "/csharp/type-extensions/golden-reference.md",
+      "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
+    },
+    "qa-pairs": {
+      "name": "Question \u0026 Answer Pairs",
+      "href": "/csharp/type-extensions/qa-pairs.md",
+      "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
+    }
+  },
+  "_embedded": {
+    "topics": [],
+    "chunks": {
+      "golden-reference": {
+        "source": "golden-reference.md",
+        "count": 9,
+        "baseline_conceptual": 0,
+        "baseline_technical": 1,
+        "stripe_order": [
+          2,
+          1,
+          7,
+          8,
+          4,
+          5,
+          3,
+          6
+        ],
+        "stripe_order_technical": [
+          2,
+          0,
+          8,
+          3,
+          4,
+          5,
+          7,
+          6
+        ],
+        "items": [
+          {
+            "index": 0,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-0.md",
+            "title": "Overview",
+            "is_code": false,
+            "similarity_conceptual": 1,
+            "similarity_technical": 0.6682999999999999,
+            "keyword_hash": 17911579440949887232
+          },
+          {
+            "index": 1,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-1.md",
+            "title": "Performance Considerations",
+            "is_code": true,
+            "similarity_conceptual": 0.6259,
+            "similarity_technical": 0.654,
+            "keyword_hash": 10058438728390713888
+          },
+          {
+            "index": 2,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-2.md",
+            "title": "Extension Operators",
+            "is_code": true,
+            "similarity_conceptual": 0.6682999999999999,
+            "similarity_technical": 1,
+            "keyword_hash": 17916151372707922369
+          },
+          {
+            "index": 3,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-3.md",
+            "title": "Generic Extensions",
+            "is_code": true,
+            "similarity_conceptual": 0.6292,
+            "similarity_technical": 0.7022999999999999,
+            "keyword_hash": 9297647510162014352
+          },
+          {
+            "index": 4,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-4.md",
+            "title": "Migration Benefits",
+            "is_code": true,
+            "similarity_conceptual": 0.6235999999999999,
+            "similarity_technical": 0.6556,
+            "keyword_hash": 17335328815374684816
+          },
+          {
+            "index": 5,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-5.md",
+            "title": "Adapter Pattern Implementation",
+            "is_code": true,
+            "similarity_conceptual": 0.5859,
+            "similarity_technical": 0.5987,
+            "keyword_hash": 10377389455723627584
+          },
+          {
+            "index": 6,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-6.md",
+            "title": "Generic Type Inference",
+            "is_code": true,
+            "similarity_conceptual": 0.6112,
+            "similarity_technical": 0.6542,
+            "keyword_hash": 10417917458023153760
+          },
+          {
+            "index": 7,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-7.md",
+            "title": "Binary Compatibility",
+            "is_code": true,
+            "similarity_conceptual": 0.6015999999999999,
+            "similarity_technical": 0.6937,
+            "keyword_hash": 9923215130852758448
+          },
+          {
+            "index": 8,
+            "href": "/csharp/type-extensions/_chunks/golden-reference-8.md",
+            "title": "Group Related Extensions",
+            "is_code": false,
+            "similarity_conceptual": 0.6674,
+            "similarity_technical": 0.6347999999999999,
+            "keyword_hash": 17911569699718740673
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generated": "2025-10-22T17:59:54.5413542Z",
+    "generator": "IndexTool/1.0",
+    "embedding_model": "Ollama/nomic-embed-text:latest",
+    "embedding_dimensions": 768,
+    "similarity_metric": "cosine"
+  }
+}

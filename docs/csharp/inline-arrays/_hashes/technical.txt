@@ -43,7 +43,6 @@ Keyword | inline arrays
 Keyword | buffers
 Keyword | inline array
 Keyword | fixed-size
-Keyword | use
 Keyword | buffer
 Keyword | unsafe
 Keyword | element access
@@ -51,3 +50,4 @@ Keyword | considerations
 Keyword | heap
 Keyword | bounds
 Keyword | create
+Keyword | interop

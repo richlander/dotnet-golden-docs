@@ -43,8 +43,8 @@ JSON validation and security features in System.Text.Json help ensure that deser
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 4220134623093668640 |
-| technical | simhash | 12694860369024133596 |
+| overview | simhash | 17751841818310779706 |
+| technical | simhash | 12992097901497688444 |
 
 ## Similarity Scores
 
@@ -63,6 +63,15 @@ JSON validation and security features in System.Text.Json help ensure that deser
 | libraries | libraries/json-streaming-io | 0.6982 |
 | csharp | csharp/properties-backing-fields | 0.6862 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/dotnet-10-library-improvements | security | 2.000 |
+| libraries/system-text-json-jsondocument | deserialization | 1.500 |
+| libraries/system-text-json-jsonserializer | deserialization | 1.500 |
+| libraries/system-text-json-utf8jsonreader | during | 1.500 |
+
 ## APIs
 
 | API | Type | Count |
@@ -75,6 +84,23 @@ JSON validation and security features in System.Text.Json help ensure that deser
 | JsonUnmappedMemberHandling | attribute | 3 |
 | LogWarning | method | 3 |
 | System.Text.Json.Serialization | type | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| validation | 17.00 |
+| security | 10.00 |
+| json validation | 4.00 |
+| contracts | 6.00 |
+| nullable reference | 3.00 |
+| deserialization | 5.00 |
+| unmapped | 5.00 |
+| strict validation | 3.00 |
+| ensure | 4.00 |
+| during | 5.00 |
+| best practices | 2.00 |
+| duplicate properties | 2.00 |
 
 ## Chunks
 

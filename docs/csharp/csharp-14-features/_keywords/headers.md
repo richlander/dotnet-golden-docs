@@ -27,7 +27,7 @@ Total headers: 24
 | H3 | Optional and Named Arguments in Expression Trees | 1.1x |
 | H2 | Property Validation Patterns with Field Keyword | 1.25x |
 | H2 | Zero-Allocation String Processing with Params Collections | 1.25x |
-| H2 | Type-Safe Extension Patterns | 1.25x |
+| H2 | Type Extension Patterns | 1.25x |
 | H2 | Gotchas & Limitations | 1.25x |
 | H3 | Keyword Restrictions | 1.1x |
 | H3 | Span Lifetime Management | 1.1x |

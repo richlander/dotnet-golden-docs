@@ -110,10 +110,11 @@ String search operations provide a comprehensive set of methods for locating sub
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| libraries | string.contains | 2.234 |
-| libraries | string.indexof | 2.156 |
-| libraries | stringcomparison | 1.845 |
-| libraries | ordinal comparison | 1.623 |
+| libraries/system-buffers-searchvalues | searchvalues | 1.700 |
+| libraries/system-buffers-searchvalues | searching | 1.600 |
+| libraries/system-buffers-searchvalues | searches | 1.500 |
+| libraries/system-buffers-searchvalues | character | 1.400 |
+| libraries/system-buffers-searchvalues | allocation-free | 1.300 |
 
 ## Code Analysis Rules
 

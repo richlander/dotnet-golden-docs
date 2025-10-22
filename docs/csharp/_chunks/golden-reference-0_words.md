@@ -24,11 +24,10 @@ Scores are from the topic-level authority analysis.
 | languages | single | 8.000 |
 | net | single | 8.000 |
 | offers | single | 8.000 |
-| code | single | 7.500 |
 | compile-time | compound | 6.750 |
+| code | single | 6.000 |
 | extensible | single | 6.000 |
 | mainstream | single | 6.000 |
 | many | single | 6.000 |
-| modern | single | 6.000 |
 | range | single | 6.000 |
 | run | single | 6.000 |

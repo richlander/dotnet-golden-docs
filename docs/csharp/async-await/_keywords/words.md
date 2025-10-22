@@ -22,7 +22,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | async code | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
 | avoid | single | 6 | 1.00x | 1.00x | 1.5x | 9.000 |
 | threads | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| code | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | error handling | compound | 3 | 1.10x | 1.50x | 1.5x | 7.425 |
 | system.text.json | compound | 3 | 1.10x | 1.50x | 1.5x | 7.425 |
 | async initialization | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
@@ -40,6 +39,7 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | lt | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | asynchronous | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | can't | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| code | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | concurrent | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | cpu-bound | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | database | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

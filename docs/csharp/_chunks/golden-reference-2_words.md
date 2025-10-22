@@ -17,7 +17,6 @@ Scores are from the topic-level authority analysis.
 | asynchronous programming | compound | 9.900 |
 | data | single | 9.000 |
 | high-level | compound | 9.000 |
-| provides | single | 8.000 |
 | both | single | 8.000 |
 | enable | single | 8.000 |
 | introduce | single | 8.000 |
@@ -27,7 +26,6 @@ Scores are from the topic-level authority analysis.
 | abstraction | single | 6.000 |
 | constructs | single | 6.000 |
 | mainstream | single | 6.000 |
-| modern | single | 6.000 |
 | pattern-based | compound | 6.000 |
 | provide | single | 6.000 |
 | range | single | 6.000 |

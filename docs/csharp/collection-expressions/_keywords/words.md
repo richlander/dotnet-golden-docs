@@ -15,7 +15,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | collection expressions | compound | 16 | 1.50x | 1.50x | 2.0x | 72.000 |
 | collection types | compound | 4 | 1.10x | 1.50x | 2.0x | 13.200 |
 | target type | compound | 4 | 1.10x | 1.50x | 2.0x | 13.200 |
-| syntax | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | spread | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | familiar | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | spread element | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |

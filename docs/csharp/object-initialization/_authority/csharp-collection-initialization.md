@@ -1,6 +1,6 @@
 # Authority Analysis: csharp/collection-initialization
 
-**Generated**: 2025-10-02T17:32:34Z
+**Generated**: 2025-10-22T17:59:54Z
 **Similarity Score**: 0.8118
 **Keyword Score Threshold**: 3
 
@@ -8,39 +8,37 @@
 
 | Keyword | Current Score | Target Score | Authority |
 |---------|---------------|--------------|-----------|
-| collection expressions | 3.75 | 3.33 | 1.375 |
+| collection expressions | 5.00 | 12.00 | 1.500 |
 
 ## Current Topic Keywords
 
 | Keyword | Score |
 |---------|-------|
-| object initialization | 4.63 |
-| anonymous types | 4.61 |
-| collection properties | 4.61 |
-| init properties | 4.58 |
-| required members | 4.57 |
-| init-only properties | 4.54 |
-| factory methods | 4.52 |
-| pre-size | 4.52 |
-| collection expressions | 3.75 |
-| objects | 3.08 |
-| constructor | 3.07 |
-| initializers | 3.07 |
+| object initialization | 10.00 |
+| anonymous types | 8.00 |
+| collection properties | 8.00 |
+| initializers | 7.00 |
+| init properties | 6.00 |
+| required members | 5.00 |
+| collection expressions | 5.00 |
+| constructor | 4.00 |
+| immutable | 4.00 |
+| records | 4.00 |
+| init-only properties | 3.00 |
 
 ## Target Topic Keywords
 
 | Keyword | Score |
 |---------|-------|
-| collection initialization | 4.54 |
-| target-typed new | 4.54 |
-| collection initializer syntax | 4.52 |
-| collection types | 3.56 |
-| collection expressions | 3.33 |
-| capacity | 3.03 |
-| dictionaries | 3.03 |
-| dictionary | 3.03 |
-| elements | 3.03 |
-| existing | 3.03 |
-| know | 3.03 |
-| method | 3.03 |
+| collection expressions | 12.00 |
+| collection initialization | 6.00 |
+| values | 6.00 |
+| target-typed new | 3.00 |
+| collection types | 3.00 |
+| capacity | 3.00 |
+| dictionaries | 3.00 |
+| dictionary | 3.00 |
+| elements | 3.00 |
+| existing | 3.00 |
+| know | 3.00 |
 

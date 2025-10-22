@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 244
-Total word occurrences: 437
+Total unique words: 243
+Total word occurrences: 433
 Total document words: 836
 
 | Word | Count | Document Concentration |
@@ -26,7 +26,6 @@ Total document words: 836
 | database | 4 | 0.0048 |
 | linq | 4 | 0.0048 |
 | materialize | 4 | 0.0048 |
-| operators | 4 | 0.0048 |
 | paginated | 4 | 0.0048 |
 | sources | 4 | 0.0048 |
 | streams | 4 | 0.0048 |
@@ -155,7 +154,6 @@ Total document words: 836
 | existing | 1 | 0.0012 |
 | expected | 1 | 0.0012 |
 | expensive | 1 | 0.0012 |
-| extension | 1 | 0.0012 |
 | false | 1 | 0.0012 |
 | fetching | 1 | 0.0012 |
 | flow | 1 | 0.0012 |
@@ -192,6 +190,7 @@ Total document words: 836
 | o-bound | 1 | 0.0012 |
 | occur | 1 | 0.0012 |
 | on-demand | 1 | 0.0012 |
+| operators | 1 | 0.0012 |
 | overview | 1 | 0.0012 |
 | package | 1 | 0.0012 |
 | page | 1 | 0.0012 |

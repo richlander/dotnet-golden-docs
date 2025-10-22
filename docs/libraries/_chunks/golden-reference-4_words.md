@@ -7,7 +7,6 @@ Scores are from the topic-level authority analysis.
 |------|------|-------|
 | libraries | single | 24.000 |
 | library ecosystem | compound | 11.250 |
-| system | single | 8.000 |
 | application | single | 8.000 |
 | asp.net core | compound | 7.425 |
 | azure sdk | compound | 6.600 |

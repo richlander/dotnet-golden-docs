@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 207
-Total word occurrences: 405
+Total unique words: 205
+Total word occurrences: 403
 Total document words: 890
 
 | Word | Count | Document Concentration |
@@ -148,12 +148,10 @@ Total document words: 890
 | matters | 1 | 0.0011 |
 | maximize | 1 | 0.0011 |
 | mechanism | 1 | 0.0011 |
-| modern | 1 | 0.0011 |
 | network | 1 | 0.0011 |
 | offering | 1 | 0.0011 |
 | once | 1 | 0.0011 |
 | one | 1 | 0.0011 |
-| operators | 1 | 0.0011 |
 | overruns | 1 | 0.0011 |
 | overview | 1 | 0.0011 |
 | pass | 1 | 0.0011 |

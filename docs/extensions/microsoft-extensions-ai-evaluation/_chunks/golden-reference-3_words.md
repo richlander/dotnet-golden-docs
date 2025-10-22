@@ -10,7 +10,6 @@ Scores are from the topic-level authority analysis.
 | quality | single | 24.000 |
 | microsoft.extensions.ai.evaluation | compound | 22.500 |
 | microsoft | single | 14.000 |
-| extensions | single | 10.000 |
 | automated quality | compound | 7.500 |
 | automated quality gates | compound | 7.500 |
 | regression testing | compound | 7.500 |

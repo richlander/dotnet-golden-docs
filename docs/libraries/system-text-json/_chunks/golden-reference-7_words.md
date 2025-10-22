@@ -13,7 +13,6 @@ Scores are from the topic-level authority analysis.
 | apis | single | 28.000 |
 | read-only | compound | 22.500 |
 | dynamic | single | 22.000 |
-| use | single | 19.000 |
 | text | single | 18.000 |
 | known | single | 16.500 |
 | mutable | single | 16.000 |
@@ -25,7 +24,6 @@ Scores are from the topic-level authority analysis.
 | large | single | 10.000 |
 | maximum | single | 10.000 |
 | scenarios | single | 10.000 |
-| provides | single | 8.000 |
 | default | single | 8.000 |
 | different | single | 8.000 |
 | each | single | 8.000 |

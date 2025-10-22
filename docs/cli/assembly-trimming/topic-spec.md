@@ -115,6 +115,13 @@ Assembly trimming is a size-reduction optimization for self-contained .NET appli
 | libraries | libraries/span-based-string-processing | 0.6391 |
 | libraries | libraries/system-text-json-dotnet-10 | 0.6362 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| cli/publishing-and-deployment | deployment | 1.400 |
+| libraries | application | 1.300 |
+
 ## Chunks
 
 **Source**: `golden-reference.md`

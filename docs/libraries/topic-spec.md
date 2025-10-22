@@ -41,8 +41,8 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 12997132427928207738 |
-| technical | simhash | 12992066015660474748 |
+| overview | simhash | 12996006510841495866 |
+| technical | simhash | 12997132565241266556 |
 
 ## Relationships
 
@@ -55,13 +55,13 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 | library ecosystem | 3.00 |
 | frameworks | 5.00 |
 | dependency injection | 3.00 |
-| patterns | 8.00 |
-| system | 8.00 |
 | application | 4.00 |
 | memory management | 2.00 |
 | asp.net core | 3.00 |
 | azure sdk | 2.00 |
 | entity framework core | 2.00 |
+| high-performance collections | 2.00 |
+| third-party | 2.00 |
 
 ## APIs
 
@@ -103,8 +103,9 @@ The .NET library ecosystem provides a comprehensive foundation of APIs, framewor
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| extensions/microsoft-extensions-ai | dependency injection | 1.357 |
-
+| csharp | libraries | 2.200 |
+| dotnet | libraries | 2.200 |
+| extensions/microsoft-extensions-ai | dependency injection | 1.300 |
 
 ## Chunks
 

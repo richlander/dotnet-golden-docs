@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 175
-Total word occurrences: 337
+Total unique words: 171
+Total word occurrences: 330
 Total document words: 734
 
 | Word | Count | Document Concentration |
@@ -37,7 +37,6 @@ Total document words: 734
 | heap | 3 | 0.0041 |
 | interface | 3 | 0.0041 |
 | jit | 3 | 0.0041 |
-| method | 3 | 0.0041 |
 | order | 3 | 0.0041 |
 | ordereddictionary | 3 | 0.0041 |
 | overloads | 3 | 0.0041 |
@@ -77,7 +76,6 @@ Total document words: 734
 | prefer | 2 | 0.0027 |
 | pressure | 2 | 0.0027 |
 | queries | 2 | 0.0027 |
-| related | 2 | 0.0027 |
 | repeated | 2 | 0.0027 |
 | scope | 2 | 0.0027 |
 | stack-allocates | 2 | 0.0027 |
@@ -106,7 +104,6 @@ Total document words: 734
 | candidates | 1 | 0.0014 |
 | capabilities | 1 | 0.0014 |
 | characteristics | 1 | 0.0014 |
-| code | 1 | 0.0014 |
 | comparable | 1 | 0.0014 |
 | concrete | 1 | 0.0014 |
 | continuously | 1 | 0.0014 |
@@ -147,7 +144,6 @@ Total document words: 734
 | needed | 1 | 0.0014 |
 | needing | 1 | 0.0014 |
 | note | 1 | 0.0014 |
-| operators | 1 | 0.0014 |
 | optimize | 1 | 0.0014 |
 | ordering | 1 | 0.0014 |
 | overview | 1 | 0.0014 |

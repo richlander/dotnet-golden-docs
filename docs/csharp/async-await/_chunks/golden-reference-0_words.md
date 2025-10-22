@@ -6,7 +6,6 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | async | single | 52.000 |
-| use | single | 29.000 |
 | async operations | compound | 26.400 |
 | await | single | 22.000 |
 | operations | single | 22.000 |
@@ -15,12 +14,12 @@ Scores are from the topic-level authority analysis.
 | async code | compound | 9.900 |
 | avoid | single | 9.000 |
 | threads | single | 8.000 |
-| code | single | 7.500 |
 | async void | compound | 6.600 |
 | event handlers | compound | 6.600 |
 | high-performance scenarios | compound | 6.600 |
 | state machine | compound | 6.600 |
 | asynchronous | single | 6.000 |
+| code | single | 6.000 |
 | concurrent | single | 6.000 |
 | database | single | 6.000 |
 | long-running | compound | 6.000 |

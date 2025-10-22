@@ -14,7 +14,6 @@ Scores are from the topic-level authority analysis.
 | runtime | single | 12.000 |
 | code | single | 12.000 |
 | languages | single | 12.000 |
-| modern | single | 12.000 |
 | community | single | 10.000 |
 | functionality | single | 10.000 |
 | via | single | 10.000 |
@@ -24,6 +23,7 @@ Scores are from the topic-level authority analysis.
 | low-level | compound | 9.000 |
 | components | single | 8.000 |
 | many | single | 8.000 |
+| modern | single | 8.000 |
 | pillars | single | 8.000 |
 | programming | single | 8.000 |
 | multiple | single | 7.500 |

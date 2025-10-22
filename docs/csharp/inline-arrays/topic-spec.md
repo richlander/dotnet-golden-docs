@@ -46,7 +46,7 @@ Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 17923769528747046492 |
-| overview | simhash | 12991110520862344052 |
+| overview | simhash | 12991110520728126324 |
 | technical | simhash | 17748602795442725756 |
 
 ## Relationships
@@ -67,7 +67,6 @@ Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size
 | buffers | 20.00 |
 | inline array | 8.00 |
 | fixed-size | 10.00 |
-| use | 20.00 |
 | buffer | 9.00 |
 | unsafe | 7.00 |
 | element access | 4.00 |
@@ -75,6 +74,7 @@ Inline arrays provide a type-safe and ref-safe mechanism for creating fixed-size
 | heap | 6.00 |
 | bounds | 5.00 |
 | create | 5.00 |
+| interop | 5.00 |
 
 ## APIs
 

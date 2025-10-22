@@ -15,7 +15,6 @@ Scores are from the topic-level authority analysis.
 | spans | single | 18.000 |
 | text | single | 16.500 |
 | span-based string processing | compound | 13.500 |
-| use | single | 12.000 |
 | string | single | 12.000 |
 | unicode | single | 10.000 |
 | conversions | single | 8.000 |

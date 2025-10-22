@@ -14,7 +14,6 @@ API | ToArray
 Keyword | deferred execution
 Keyword | ienumerable
 Keyword | sequences
-Keyword | use
 Keyword | need
 Keyword | iteration
 Keyword | multiple
@@ -23,3 +22,4 @@ Keyword | linq
 Keyword | gt
 Keyword | lt
 Keyword | side effects
+Keyword | consider

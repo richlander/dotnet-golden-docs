@@ -43,8 +43,8 @@
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13140261422667071802 |
-| technical | simhash | 12992240838009291132 |
+| overview | simhash | 13140261422667596090 |
+| technical | simhash | 12992241387765105020 |
 
 ## Relationships
 
@@ -63,7 +63,6 @@
 | deferred execution | 8.00 |
 | ienumerable | 13.00 |
 | sequences | 13.00 |
-| use | 22.00 |
 | need | 12.00 |
 | iteration | 11.00 |
 | multiple | 11.00 |
@@ -72,6 +71,7 @@
 | gt | 9.00 |
 | lt | 9.00 |
 | side effects | 4.00 |
+| consider | 6.00 |
 
 ## APIs
 
@@ -113,7 +113,15 @@
 
 ## Authority Scores
 
-(Authority scores will be computed based on keyword analysis)
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/collections-performance | enumeration | 1.700 |
+| libraries/system-collections-generic-iasyncenumerable | iteration | 2.100 |
+| libraries/system-collections-generic-iasyncenumerable | gt | 1.900 |
+| libraries/system-collections-generic-iasyncenumerable | deferred execution | 1.800 |
+| libraries/system-collections-generic-iasyncenumerable | enumeration | 1.700 |
+| libraries/system-collections-generic-iasyncenumerable | consider | 1.600 |
+| libraries/system-threading-tasks-task | consider | 1.600 |
 
 ## Chunks
 

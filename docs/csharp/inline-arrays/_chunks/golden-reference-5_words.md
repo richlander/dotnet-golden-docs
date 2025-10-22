@@ -9,7 +9,6 @@ Scores are from the topic-level authority analysis.
 | buffers | single | 40.000 |
 | inline array | compound | 36.000 |
 | fixed-size | compound | 33.000 |
-| use | single | 20.000 |
 | buffer | single | 18.000 |
 | considerations | single | 12.000 |
 | heap | single | 12.000 |

@@ -7,3 +7,15 @@ API | Contains
 API | O
 API | ToArray
 API | Where
+Keyword | stack allocation
+Keyword | array interface devirtualization
+Keyword | small arrays
+Keyword | collections performance
+Keyword | both
+Keyword | escape
+Keyword | optimizations
+Keyword | don't
+Keyword | through
+Keyword | benefit
+Keyword | enumeration
+Keyword | interfaces

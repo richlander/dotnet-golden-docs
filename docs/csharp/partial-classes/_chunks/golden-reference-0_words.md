@@ -15,13 +15,11 @@ Scores are from the topic-level authority analysis.
 | implementations | single | 12.000 |
 | separate | single | 12.000 |
 | split | single | 12.000 |
-| use | single | 10.000 |
 | class | single | 8.000 |
 | implementation | single | 8.000 |
 | one | single | 8.000 |
 | signature | single | 8.000 |
 | partial types | compound | 7.500 |
-| code | single | 6.000 |
 | across | single | 6.000 |
 | classes | single | 6.000 |
 | definition | single | 6.000 |

@@ -10,7 +10,6 @@ Scores are from the topic-level authority analysis.
 | response files | compound | 9.900 |
 | commandline | single | 8.000 |
 | option | single | 8.000 |
-| use | single | 7.000 |
 | arguments | single | 6.000 |
 | commands | single | 6.000 |
 | conventions | single | 6.000 |

@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 15 compound terms and 262 single words
-Total unique terms: 273
-Terms with score ≥ 3.0: 67
-Total term occurrences: 557
+Combined 15 compound terms and 259 single words
+Total unique terms: 270
+Terms with score ≥ 3.0: 63
+Total term occurrences: 545
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -33,7 +33,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | into | single | 5 | 1.00x | 1.00x | 5.0 |
 | large | single | 5 | 1.00x | 1.00x | 5.0 |
 | materialize | single | 5 | 1.00x | 1.00x | 5.0 |
-| operators | single | 5 | 1.00x | 1.00x | 5.0 |
 | queries | single | 5 | 1.00x | 1.00x | 5.0 |
 | sequence | single | 5 | 1.00x | 1.00x | 5.0 |
 | yield return | compound | 3 | 1.10x | 1.50x | 5.0 |
@@ -72,12 +71,9 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | implement | single | 3 | 1.00x | 1.00x | 3.0 |
 | iterate | single | 3 | 1.00x | 1.00x | 3.0 |
 | materialization | single | 3 | 1.00x | 1.00x | 3.0 |
-| method | single | 3 | 1.00x | 1.00x | 3.0 |
-| modern | single | 3 | 1.00x | 1.00x | 3.0 |
 | query | single | 3 | 1.00x | 1.00x | 3.0 |
 | read-only | compound | 2 | 1.00x | 1.50x | 3.0 |
 | results | single | 3 | 1.00x | 1.00x | 3.0 |
 | supports | single | 3 | 1.00x | 1.00x | 3.0 |
-| syntax | single | 3 | 1.00x | 1.00x | 3.0 |
 | thread-safety | compound | 2 | 1.00x | 1.50x | 3.0 |
 | transformation | single | 3 | 1.00x | 1.00x | 3.0 |

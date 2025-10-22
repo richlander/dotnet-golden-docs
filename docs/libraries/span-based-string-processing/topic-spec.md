@@ -44,8 +44,8 @@ Span-based string processing enables high-performance text operations without he
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 3500403042930203010 |
-| technical | simhash | 13001107333850221004 |
+| overview | simhash | 12978237250685174064 |
+| technical | simhash | 17603926856436679036 |
 
 ## Similarity Scores
 
@@ -64,6 +64,15 @@ Span-based string processing enables high-performance text operations without he
 | libraries | libraries/system-text-json-jsondocument | 0.6896 |
 | libraries | libraries/json-streaming-io | 0.6894 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/dotnet-10-library-improvements | span-based | 1.800 |
+| libraries/json-streaming-io | utf-8 | 3.000 |
+| libraries/system-text-json | text | 2.100 |
+| libraries/system-text-json-utf8jsonreader | utf-8 | 3.000 |
+
 ## APIs
 
 | API | Type | Count |
@@ -80,6 +89,23 @@ Span-based string processing enables high-performance text operations without he
 | IndexOf | method | 3 |
 | IsValidCommand | method | 3 |
 | LastIndexOf | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| span-based | 8.00 |
+| utf-8 | 20.00 |
+| pattern matching | 8.00 |
+| allocations | 11.00 |
+| strings | 10.00 |
+| string normalization | 5.00 |
+| without | 12.00 |
+| spans | 9.00 |
+| text | 11.00 |
+| span-based string processing | 3.00 |
+| string | 6.00 |
+| utf-8 string literals | 3.00 |
 
 ## Chunks
 

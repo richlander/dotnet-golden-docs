@@ -34,7 +34,6 @@ Scores are from the topic-level authority analysis.
 | while | single | 8.000 |
 | works | single | 8.000 |
 | nuget | single | 7.500 |
-| use | single | 7.000 |
 | project structure | compound | 6.600 |
 | single file constraint | compound | 6.600 |
 | traditional project structure | compound | 6.600 |

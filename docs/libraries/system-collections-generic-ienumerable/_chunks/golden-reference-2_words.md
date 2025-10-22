@@ -27,4 +27,3 @@ Scores are from the topic-level authority analysis.
 | foreach | single | 6.000 |
 | materialization | single | 6.000 |
 | query | single | 6.000 |
-| syntax | single | 6.000 |

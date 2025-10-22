@@ -24,7 +24,6 @@ Scores are from the topic-level authority analysis.
 | common | single | 8.000 |
 | default | single | 8.000 |
 | different | single | 8.000 |
-| extensions | single | 8.000 |
 | config | single | 6.000 |
 | jsonserializer | single | 6.000 |
 | microsoft | single | 6.000 |

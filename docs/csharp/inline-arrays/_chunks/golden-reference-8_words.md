@@ -7,7 +7,6 @@ Scores are from the topic-level authority analysis.
 |------|------|-------|
 | inline arrays | compound | 148.500 |
 | inline array | compound | 36.000 |
-| use | single | 20.000 |
 | buffer | single | 18.000 |
 | bounds | single | 10.000 |
 | avoid | single | 9.000 |

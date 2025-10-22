@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 21 compound terms and 410 single words
-Total unique terms: 418
-Terms with score ≥ 3.0: 93
-Total term occurrences: 928
+Combined 21 compound terms and 406 single words
+Total unique terms: 414
+Terms with score ≥ 3.0: 91
+Total term occurrences: 918
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -64,7 +64,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | depth | single | 4 | 1.00x | 1.00x | 4.0 |
 | different | single | 4 | 1.00x | 1.00x | 4.0 |
 | each | single | 4 | 1.00x | 1.00x | 4.0 |
-| extensions | single | 4 | 1.00x | 1.00x | 4.0 |
 | gen | single | 4 | 1.00x | 1.00x | 4.0 |
 | loading | single | 4 | 1.00x | 1.00x | 4.0 |
 | loose | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -83,7 +82,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | early | single | 3 | 1.00x | 1.00x | 3.0 |
 | enables | single | 3 | 1.00x | 1.00x | 3.0 |
 | errors | single | 3 | 1.00x | 1.00x | 3.0 |
-| extension | single | 3 | 1.00x | 1.00x | 3.0 |
 | forward-only | compound | 2 | 1.00x | 1.50x | 3.0 |
 | high-throughput | compound | 2 | 1.00x | 1.50x | 3.0 |
 | http | single | 3 | 1.00x | 1.00x | 3.0 |

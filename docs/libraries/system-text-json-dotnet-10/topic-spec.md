@@ -42,8 +42,8 @@ This version-specific topic describes the System.Text.Json improvements added in
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13444401641859923858 |
-| technical | simhash | 13280328320399320536 |
+| overview | simhash | 17788396251557667634 |
+| technical | simhash | 13136213089573544312 |
 
 ## Similarity Scores
 
@@ -62,6 +62,14 @@ This version-specific topic describes the System.Text.Json improvements added in
 | csharp | csharp/csharp-14-features | 0.7483 |
 | libraries | libraries/json-streaming-io | 0.7437 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/system-text-json | source generation | 1.900 |
+| libraries/system-text-json-jsonserializer | source generation | 1.900 |
+| libraries/system-text-json-source-generation | source generation | 1.900 |
+
 ## APIs
 
 | API | Type | Count |
@@ -71,6 +79,23 @@ This version-specific topic describes the System.Text.Json improvements added in
 | System.IO | namespace | 4 |
 | System.IO.Pipelines | type | 4 |
 | Console.WriteLine | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| net 10 | 7.00 |
+| source generation | 9.00 |
+| duplicate detection | 4.00 |
+| strict options | 4.00 |
+| zero-copy | 3.00 |
+| options | 4.00 |
+| strict | 4.00 |
+| duplicate property detection | 2.00 |
+| system.text.json | 2.00 |
+| high-throughput | 2.00 |
+| pipereader | 3.00 |
+| preset | 3.00 |
 
 ## Chunks
 

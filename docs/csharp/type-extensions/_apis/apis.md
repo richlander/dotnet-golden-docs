@@ -1,0 +1,83 @@
+# API Analysis
+
+Generated from: `golden-reference.md`, `qa-pairs.md`
+Total unique APIs: 75
+Total API references: 189
+
+| API | Type | Count |
+|-----|------|-------|
+| Point | method | 20 |
+| Console.WriteLine | method | 10 |
+| WordCount | method | 10 |
+| IsNumeric | method | 8 |
+| Split | method | 7 |
+| Add | method | 6 |
+| IsNullOrEmpty | method | 6 |
+| Reset | method | 6 |
+| IsEmpty | method | 5 |
+| Length | method | 5 |
+| Batch | method | 4 |
+| Process | method | 4 |
+| Scale | method | 4 |
+| TryParse | method | 4 |
+| WhereNot | method | 4 |
+| AddDays | method | 3 |
+| Any | method | 3 |
+| DoSomething | method | 3 |
+| Test | method | 3 |
+| ToArray | method | 3 |
+| Where | method | 3 |
+| CompareTo | method | 2 |
+| Contains | method | 2 |
+| DistinctBy | method | 2 |
+| EndOfMonth | method | 2 |
+| GetBalance | method | 2 |
+| GetPeople | method | 2 |
+| IsBetween | method | 2 |
+| Math.Abs | method | 2 |
+| MyClass | method | 2 |
+| NextBusinessDay | method | 2 |
+| Normalize | method | 2 |
+| ToDictionary | method | 2 |
+| ToList | method | 2 |
+| Truncate | method | 2 |
+| AddRange | method | 1 |
+| Capitalize | method | 1 |
+| Clear | method | 1 |
+| CopyTo | method | 1 |
+| CopyToFile | method | 1 |
+| DateTime | method | 1 |
+| DateTime.DaysInMonth | method | 1 |
+| Extensions.WordCount | method | 1 |
+| Extensions1.MyExtensions.Length | method | 1 |
+| Extensions2.MyExtensions.Length | method | 1 |
+| File.Create | method | 1 |
+| File.ReadAllText | method | 1 |
+| FirstOrDefault | method | 1 |
+| FlushAsync | method | 1 |
+| ForEach | method | 1 |
+| IL | method | 1 |
+| IsToday | method | 1 |
+| IsValidEmail | method | 1 |
+| IsValidUrl | method | 1 |
+| Math.Max | method | 1 |
+| Method | method | 1 |
+| MyExtensions1.Method | method | 1 |
+| OrderBy | method | 1 |
+| OrderByDescending | method | 1 |
+| PrintBalance | method | 1 |
+| ReadAllText | method | 1 |
+| ReadAllTextAsync | method | 1 |
+| ReadToEndAsync | method | 1 |
+| Select | method | 1 |
+| StartOfWeek | method | 1 |
+| StreamReader | method | 1 |
+| StreamWriter | method | 1 |
+| Test1 | method | 1 |
+| Test2 | method | 1 |
+| ToShortString | method | 1 |
+| ToString | method | 1 |
+| ToUpper | method | 1 |
+| Uri.TryCreate | method | 1 |
+| WriteAllTextAsync | method | 1 |
+| WriteAsync | method | 1 |

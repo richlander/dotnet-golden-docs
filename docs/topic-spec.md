@@ -40,7 +40,7 @@
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 12996709251251175800 |
+| overview | simhash | 13141387389280452984 |
 | technical | simhash | 12992100100520943996 |
 
 ## Relationships
@@ -62,13 +62,13 @@
 | anonymous types | 8.00 |
 | async operations | 8.00 |
 | collection properties | 8.00 |
+| extension members | 8.00 |
 | inline array | 8.00 |
 | pattern matching | 8.00 |
 | async linq | 7.00 |
 | framework-dependent | 7.00 |
 | stack allocation | 7.00 |
 | array interface devirtualization | 6.00 |
-| collection initialization | 6.00 |
 
 ## APIs
 

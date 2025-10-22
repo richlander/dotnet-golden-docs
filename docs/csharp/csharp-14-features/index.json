@@ -34,10 +34,6 @@
       "score": 6
     },
     {
-      "name": "extension",
-      "score": 5
-    },
-    {
       "name": "compile-time",
       "score": 4
     },
@@ -78,7 +74,7 @@
       "score": 2
     }
   ],
-  "keyword_hash": 1193758617559253128,
+  "keyword_hash": 1481988993710965384,
   "apis": [
     {
       "name": "Console.WriteLine",
@@ -147,49 +143,52 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+      "href": "/csharp/csharp-14-features/index.json",
       "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
+      "href": "/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/topic-spec.md",
+      "href": "/csharp/csharp-14-features/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/golden-reference.md",
+      "href": "/csharp/csharp-14-features/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/qa-pairs.md",
+      "href": "/csharp/csharp-14-features/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
+        "href": "/csharp/properties-backing-fields/index.json",
         "title": "Properties and Backing Fields",
         "similarity": 0.8054,
+        "authority": {
+          "keyword": 1.4
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 8792651860460152757
+            "fingerprint": 8524071852922209080
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603783919925071324
+            "fingerprint": 17748004640716161848
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7967,
         "hashes": {
@@ -206,24 +205,24 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
+        "href": "/csharp/lambda-expressions/index.json",
         "title": "Lambda Expressions",
         "similarity": 0.76,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13789395562491052844
+            "fingerprint": 17753109691456815932
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12974085684805370156
+            "fingerprint": 17603784879850267516
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/index.json",
+        "href": "/csharp/object-initialization/index.json",
         "title": "Object Initialization",
         "similarity": 0.7591,
         "hashes": {
@@ -235,17 +234,17 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751945841218224944
+            "fingerprint": 17751945858399142706
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603925754777575800
+            "fingerprint": 17748040942853431672
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
+        "href": "/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.7522,
         "hashes": {
@@ -267,77 +266,80 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7485,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13140261422667071802
+            "fingerprint": 13140261422667596090
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240838009291132
+            "fingerprint": 12992241387765105020
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.7483,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13444401641859923858
+            "fingerprint": 17788396251557667634
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13280328320399320536
+            "fingerprint": 13136213089573544312
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
+        "href": "/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.7482,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3088699778205288848
+            "fingerprint": 2764390160376595248
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12713016054776726876
+            "fingerprint": 17603927406192492924
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/index.json",
+        "href": "/libraries/span-based-string-processing/index.json",
         "title": "Span-Based String Processing",
         "similarity": 0.7413,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3500403042930203010
+            "fingerprint": 12978237250685174064
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13001107333850221004
+            "fingerprint": 17603926856436679036
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
+        "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7329,
+        "authority": {
+          "compile-time": 1.4
+        },
         "hashes": {
           "error-codes": {
             "name": "error-codes",
@@ -347,7 +349,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992627727723340090
+            "fingerprint": 12992064777769918778
           },
           "technical": {
             "name": "technical",
@@ -357,7 +359,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
+        "href": "/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.7328,
         "hashes": {
@@ -384,69 +386,69 @@
         "baseline_conceptual": 0,
         "baseline_technical": 1,
         "stripe_order": [
-          3,
           2,
-          4,
-          1
+          1,
+          3,
+          4
         ],
         "stripe_order_technical": [
+          3,
           2,
           4,
-          3,
           0
         ],
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/_chunks/golden-reference-0.md",
+            "href": "/csharp/csharp-14-features/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
             "similarity_technical": 0.564,
-            "keyword_hash": 11962299207083016370
+            "keyword_hash": 288260140377751552
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/_chunks/golden-reference-1.md",
-            "title": "Null-Conditional Assignment Scope",
-            "is_code": true,
-            "similarity_conceptual": 0.5387,
-            "similarity_technical": 0.6196999999999999,
-            "keyword_hash": 4559893798240408
-          },
-          {
-            "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/_chunks/golden-reference-2.md",
+            "href": "/csharp/csharp-14-features/_chunks/golden-reference-1.md",
             "title": "Unbound Generic Types in \u0060nameof\u0060",
             "is_code": true,
             "similarity_conceptual": 0.564,
             "similarity_technical": 1,
-            "keyword_hash": 11673336414351572994
+            "keyword_hash": 355849460899627672
+          },
+          {
+            "index": 2,
+            "href": "/csharp/csharp-14-features/_chunks/golden-reference-2.md",
+            "title": "Extensions",
+            "is_code": true,
+            "similarity_conceptual": 0.5888,
+            "similarity_technical": 0.6582,
+            "keyword_hash": 17785875596004221506
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/_chunks/golden-reference-3.md",
-            "title": "Extensions",
+            "href": "/csharp/csharp-14-features/_chunks/golden-reference-3.md",
+            "title": "Optional and Named Arguments in Expression Trees",
             "is_code": true,
-            "similarity_conceptual": 0.5846,
-            "similarity_technical": 0.6526,
+            "similarity_conceptual": 0.5422999999999999,
+            "similarity_technical": 0.6771,
             "keyword_hash": 1191219703426138665
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/_chunks/golden-reference-4.md",
-            "title": "Optional and Named Arguments in Expression Trees",
-            "is_code": false,
-            "similarity_conceptual": 0.5422999999999999,
-            "similarity_technical": 0.6771,
-            "keyword_hash": 2342893404069691528
+            "href": "/csharp/csharp-14-features/_chunks/golden-reference-4.md",
+            "title": "Null-Conditional Assignment Scope",
+            "is_code": true,
+            "similarity_conceptual": 0.5414999999999999,
+            "similarity_technical": 0.6207999999999999,
+            "keyword_hash": 2374436193685143944
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.0617752Z",
+    "generated": "2025-10-22T17:59:54.5274372Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

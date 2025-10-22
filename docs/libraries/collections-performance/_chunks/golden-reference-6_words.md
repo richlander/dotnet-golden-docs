@@ -15,7 +15,6 @@ Scores are from the topic-level authority analysis.
 | don't | single | 10.500 |
 | benefit | single | 10.000 |
 | interfaces | single | 10.000 |
-| runtime | single | 9.000 |
 | automatic | single | 8.000 |
 | devirtualization | single | 8.000 |
 | index | single | 8.000 |
@@ -30,7 +29,6 @@ Scores are from the topic-level authority analysis.
 | direct | single | 6.000 |
 | eliminates | single | 6.000 |
 | interface | single | 6.000 |
-| method | single | 6.000 |
 | order | single | 6.000 |
 | ordereddictionary | single | 6.000 |
 | overloads | single | 6.000 |

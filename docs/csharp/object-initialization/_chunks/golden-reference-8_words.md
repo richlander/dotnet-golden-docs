@@ -12,7 +12,6 @@ Scores are from the topic-level authority analysis.
 | required members | compound | 18.750 |
 | collection expressions | compound | 16.500 |
 | initializers | single | 14.000 |
-| use | single | 9.000 |
 | immutable | single | 8.000 |
 | records | single | 8.000 |
 | constructors | single | 6.000 |

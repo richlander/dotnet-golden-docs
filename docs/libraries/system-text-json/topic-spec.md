@@ -43,7 +43,7 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 16930982311004600425 |
-| overview | simhash | 12992627727723340090 |
+| overview | simhash | 12992064777769918778 |
 | technical | simhash | 13172382621933396857 |
 
 ## Relationships
@@ -69,9 +69,9 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 | compile-time | 11.00 |
 | read-only | 10.00 |
 | dynamic | 11.00 |
-| use | 19.00 |
 | newtonsoft.json | 5.00 |
 | text | 12.00 |
+| configuration | 9.00 |
 
 ## APIs
 
@@ -130,10 +130,20 @@ System.Text.Json is a high-performance JSON serialization library built into .NE
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| cli/native-aot | source generation | 1.324 |
-| libraries/system-text-json-source-generation | newtonsoft.json | 1.356 |
-| libraries/system-text-json-source-generation | source generation | 1.324 |
-
+| libraries/system-text-json-dotnet-10 | source generation | 3.300 |
+| libraries/system-text-json-jsondocument | read-only | 2.000 |
+| libraries/system-text-json-jsonserializer | json | 3.900 |
+| libraries/system-text-json-jsonserializer | source generation | 3.300 |
+| libraries/system-text-json-jsonserializer | compile-time | 2.100 |
+| libraries/system-text-json-migrate-from-newtonsoft | json | 3.900 |
+| libraries/system-text-json-migrate-from-newtonsoft | system.text.json | 2.400 |
+| libraries/system-text-json-migrate-from-newtonsoft | text | 2.200 |
+| libraries/system-text-json-migrate-from-newtonsoft | newtonsoft.json | 1.500 |
+| libraries/system-text-json-nodes | json | 3.900 |
+| libraries/system-text-json-nodes | dynamic | 2.100 |
+| libraries/system-text-json-nodes | read-only | 2.000 |
+| libraries/system-text-json-source-generation | source generation | 3.300 |
+| libraries/system-text-json-source-generation | compile-time | 2.100 |
 
 ## Chunks
 

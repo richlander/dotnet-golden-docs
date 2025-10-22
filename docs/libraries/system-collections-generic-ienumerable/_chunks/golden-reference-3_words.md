@@ -10,7 +10,6 @@ Scores are from the topic-level authority analysis.
 | linq | single | 14.000 |
 | gt | single | 13.500 |
 | lt | single | 13.500 |
-| operators | single | 10.000 |
 | linq integration | compound | 6.600 |
 | creates | single | 6.000 |
 | filtering | single | 6.000 |

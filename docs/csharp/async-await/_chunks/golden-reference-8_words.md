@@ -6,13 +6,12 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | async | single | 52.000 |
-| use | single | 29.000 |
 | await | single | 22.000 |
 | task | single | 14.000 |
 | avoid | single | 9.000 |
-| code | single | 7.500 |
 | async void | compound | 6.600 |
 | event handlers | compound | 6.600 |
 | can't | single | 6.000 |
+| code | single | 6.000 |
 | synchronization | single | 6.000 |
 | throughout | single | 6.000 |

@@ -10,7 +10,6 @@ Scores are from the topic-level authority analysis.
 | commands | single | 18.000 |
 | global | single | 16.000 |
 | builds | single | 14.000 |
-| runtime | single | 8.000 |
 | path | single | 8.000 |
 | solution | single | 8.000 |
 | tool | single | 8.000 |

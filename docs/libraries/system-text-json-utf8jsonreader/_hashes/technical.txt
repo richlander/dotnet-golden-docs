@@ -13,3 +13,15 @@ API | TestSequenceSegment
 API | GetBoolean
 API | ReadAsync
 API | Skip
+Keyword | parsing
+Keyword | utf8jsonreader
+Keyword | system.text.json.utf8jsonreader
+Keyword | reading
+Keyword | utf-8
+Keyword | values
+Keyword | forward-only
+Keyword | process
+Keyword | reader
+Keyword | token
+Keyword | during
+Keyword | multi-segment

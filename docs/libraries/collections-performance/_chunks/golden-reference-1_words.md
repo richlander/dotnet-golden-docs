@@ -14,7 +14,6 @@ Scores are from the topic-level authority analysis.
 | don't | single | 10.500 |
 | through | single | 10.500 |
 | interfaces | single | 10.000 |
-| runtime | single | 9.000 |
 | automatic | single | 8.000 |
 | devirtualization | single | 8.000 |
 | small | single | 8.000 |
@@ -26,7 +25,6 @@ Scores are from the topic-level authority analysis.
 | heap | single | 6.000 |
 | interface | single | 6.000 |
 | jit | single | 6.000 |
-| method | single | 6.000 |
 | stack-allocates | compound | 6.000 |
 | these | single | 6.000 |
 | versions | single | 6.000 |

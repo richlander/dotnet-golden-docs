@@ -48,8 +48,8 @@ System.Text.Json source generation provides compile-time generation of serializa
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 11224889504112485232 |
-| overview | simhash | 17748004591323480882 |
-| technical | simhash | 13154369331525460856 |
+| overview | simhash | 17752508190950851378 |
+| technical | simhash | 13154369194086507384 |
 
 ## Relationships
 
@@ -75,8 +75,8 @@ System.Text.Json source generation provides compile-time generation of serializa
 | native aot applications | 3.00 |
 | aot-compatible | 3.00 |
 | reflection-based | 3.00 |
-| runtime | 8.00 |
 | responses | 4.00 |
+| asp.net core web apis | 2.00 |
 
 ## APIs
 
@@ -138,14 +138,14 @@ System.Text.Json source generation provides compile-time generation of serializa
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| cli/native-aot | reflection-based | 1.359 |
-| cli/native-aot | system.text.json source generation | 1.351 |
-| cli/native-aot | source generation | 1.324 |
-| cli/native-aot | native aot | 1.322 |
-| cli/publishing-and-deployment | native aot | 1.322 |
-| libraries/system-text-json | newtonsoft.json | 1.356 |
-| libraries/system-text-json | source generation | 1.324 |
-
+| cli/native-aot | source generation | 1.700 |
+| cli/native-aot | native aot | 1.300 |
+| cli/native-aot | reflection-based | 1.300 |
+| libraries/system-text-json | compile-time | 1.900 |
+| libraries/system-text-json | source generation | 1.700 |
+| libraries/system-text-json-dotnet-10 | source generation | 1.700 |
+| libraries/system-text-json-jsonserializer | compile-time | 1.900 |
+| libraries/system-text-json-jsonserializer | source generation | 1.700 |
 
 ## Chunks
 

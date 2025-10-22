@@ -17,17 +17,15 @@ Scores are from the topic-level authority analysis.
 | using | single | 10.000 |
 | data | single | 9.000 |
 | high-level | compound | 9.000 |
-| provides | single | 8.000 |
 | both | single | 8.000 |
 | net | single | 8.000 |
 | offers | single | 8.000 |
-| code | single | 7.500 |
 | control | single | 7.500 |
 | cloud-native development | compound | 7.500 |
 | mobile applications | compound | 7.500 |
 | abstraction | single | 6.000 |
+| code | single | 6.000 |
 | frameworks | single | 6.000 |
-| modern | single | 6.000 |
 | platform-specific | compound | 6.000 |
 | run | single | 6.000 |
 | support | single | 6.000 |

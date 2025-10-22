@@ -97,8 +97,11 @@ The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain fo
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| libraries/system-commandline | command-line | 1.312 |
-
+| cli/build-and-compilation | commands | 1.900 |
+| cli/build-and-compilation | builds | 1.700 |
+| dotnet | tools | 2.300 |
+| libraries/system-commandline | commands | 1.900 |
+| libraries/system-commandline | command-line | 1.500 |
 
 ## Chunks
 

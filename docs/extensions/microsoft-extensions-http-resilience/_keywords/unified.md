@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 5 compound terms and 157 single words
-Total unique terms: 161
-Terms with score ≥ 3.0: 35
-Total term occurrences: 326
+Combined 5 compound terms and 156 single words
+Total unique terms: 160
+Terms with score ≥ 3.0: 34
+Total term occurrences: 323
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -42,7 +42,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | resource management | compound | 2 | 1.10x | 1.50x | 3.3 |
 | comprehensive | single | 3 | 1.00x | 1.00x | 3.0 |
 | essential | single | 3 | 1.00x | 1.00x | 3.0 |
-| extensions | single | 3 | 1.00x | 1.00x | 3.0 |
 | factory | single | 3 | 1.00x | 1.00x | 3.0 |
 | failures | single | 3 | 1.00x | 1.00x | 3.0 |
 | providing | single | 3 | 1.00x | 1.00x | 3.0 |

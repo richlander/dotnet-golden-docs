@@ -13,7 +13,6 @@ Scores are from the topic-level authority analysis.
 | commandline | single | 8.000 |
 | help | single | 8.000 |
 | hierarchies | single | 8.000 |
-| use | single | 7.000 |
 | model binding | compound | 6.600 |
 | arguments | single | 6.000 |
 | commands | single | 6.000 |

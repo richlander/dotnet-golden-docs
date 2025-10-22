@@ -1,2 +1,14 @@
 Title | Collections Performance
+Keyword | stack allocation
+Keyword | array interface devirtualization
+Keyword | small arrays
+Keyword | collections performance
+Keyword | both
+Keyword | escape
+Keyword | optimizations
+Keyword | don't
+Keyword | through
+Keyword | benefit
+Keyword | enumeration
+Keyword | interfaces
 Description | Collections Performance encompasses both runtime-delivered optimizations and code patterns that enable efficient use of arrays, lists, and other collection types in .NET. The runtime has continuously evolved to optimize collection operations through techniques like stack allocation, devirtualization, and improved code generation. Recent improvements include stack allocation for small arrays of reference types, array interface devirtualization that eliminates abstraction overhead, and OrderedDictionary<TKey, TValue> for insertion-order collections with fast indexed access. These optimizations work together to reduce memory allocations, eliminate virtual call overhead, and provide predictable high performance for common collection scenarios, with many improvements applied automatically by the runtime.

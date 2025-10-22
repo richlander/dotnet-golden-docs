@@ -44,8 +44,8 @@ Lambda expressions create anonymous functions using the `=>` operator, with supp
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 13789395562491052844 |
-| technical | simhash | 12974085684805370156 |
+| overview | simhash | 17753109691456815932 |
+| technical | simhash | 17603784879850267516 |
 
 ## Similarity Scores
 
@@ -70,6 +70,23 @@ Lambda expressions create anonymous functions using the `=>` operator, with supp
 |-----|------|-------|
 | Console.WriteLine | method | 12 |
 | Parse | method | 4 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| lambda | 13.00 |
+| delegate | 12.00 |
+| lambdas | 11.00 |
+| expression lambdas | 5.00 |
+| expression trees | 5.00 |
+| default parameters | 4.00 |
+| natural type | 4.00 |
+| statement lambdas | 4.00 |
+| parameter | 7.00 |
+| parameters | 7.00 |
+| lambda expressions | 3.00 |
+| explicit | 6.00 |
 
 ## Chunks
 

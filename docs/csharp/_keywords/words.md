@@ -42,7 +42,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | languages | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | net | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | offers | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| code | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | control | single | 5 | 1.00x | 1.00x | 1.5x | 7.500 |
 | cloud-native development | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | mobile applications | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
@@ -50,13 +49,13 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | type system | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | version compatibility | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | abstraction | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
+| code | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | constructs | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | extensible | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | frameworks | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | language-integrated | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | mainstream | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | many | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| modern | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | pattern-based | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | platform-specific | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | provide | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

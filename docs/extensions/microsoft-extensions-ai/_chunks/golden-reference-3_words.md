@@ -13,6 +13,5 @@ Scores are from the topic-level authority analysis.
 | microsoft | single | 10.000 |
 | observability | single | 8.000 |
 | provider | single | 8.000 |
-| extensions | single | 6.000 |
 | function | single | 6.000 |
 | telemetry | single | 6.000 |

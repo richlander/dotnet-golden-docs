@@ -2,3 +2,15 @@ Title | Partial Classes
 API | ArgumentNullException
 API | DatabaseConnection
 API | GetPathSeparator
+Keyword | partial
+Keyword | declaration
+Keyword | declarations
+Keyword | implementing
+Keyword | partial classes
+Keyword | keyword
+Keyword | parts
+Keyword | partial members
+Keyword | declaring
+Keyword | generators
+Keyword | implementations
+Keyword | optional

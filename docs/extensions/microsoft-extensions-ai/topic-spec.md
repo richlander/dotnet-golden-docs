@@ -110,7 +110,10 @@ Microsoft.Extensions.AI provides a unified approach for .NET developers to integ
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| libraries | dependency injection | 1.357 |
+| extensions/microsoft-extensions-ai-evaluation | ai | 4.200 |
+| extensions/microsoft-extensions-ai-evaluation | microsoft | 1.500 |
+| extensions/microsoft-extensions-http-resilience | microsoft | 1.500 |
+| libraries | dependency injection | 1.500 |
 
 ## Critical limitations
 

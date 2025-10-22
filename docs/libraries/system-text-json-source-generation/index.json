@@ -20,12 +20,12 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 17748004591323480882
+      "fingerprint": 17752508190950851378
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 13154369331525460856
+      "fingerprint": 13154369194086507384
     }
   },
   "keywords": [
@@ -70,15 +70,15 @@
       "score": 3
     },
     {
-      "name": "runtime",
-      "score": 8
-    },
-    {
       "name": "responses",
       "score": 4
+    },
+    {
+      "name": "asp.net core web apis",
+      "score": 2
     }
   ],
-  "keyword_hash": 5564409901034148548,
+  "keyword_hash": 7871378578087776964,
   "apis": [
     {
       "name": "JsonSerializable",
@@ -144,54 +144,58 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
+      "href": "/libraries/system-text-json-source-generation/index.json",
       "description": "Compile-time generation of JSON serialization code for high-performance, AOT-compatible operations with automatic property naming and type-safe generic support."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
+      "href": "/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/topic-spec.md",
+      "href": "/libraries/system-text-json-source-generation/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/golden-reference.md",
+      "href": "/libraries/system-text-json-source-generation/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/qa-pairs.md",
+      "href": "/libraries/system-text-json-source-generation/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.8652,
+        "authority": {
+          "compile-time": 1.9,
+          "source generation": 1.7
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3087081535174783256
+            "fingerprint": 13176850832237699898
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240880958973404
+            "fingerprint": 12992100100520943996
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
+        "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.8434,
         "authority": {
-          "newtonsoft.json": 1.356,
-          "source generation": 1.324
+          "compile-time": 1.9,
+          "source generation": 1.7
         },
         "hashes": {
           "error-codes": {
@@ -202,7 +206,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992627727723340090
+            "fingerprint": 12992064777769918778
           },
           "technical": {
             "name": "technical",
@@ -212,31 +216,33 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.7817,
+        "authority": {
+          "source generation": 1.7
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13444401641859923858
+            "fingerprint": 17788396251557667634
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13280328320399320536
+            "fingerprint": 13136213089573544312
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
+        "href": "/cli/native-aot/index.json",
         "title": "Native AOT",
         "similarity": 0.772,
         "authority": {
-          "reflection-based": 1.359,
-          "system.text.json source generation": 1.351,
-          "source generation": 1.324,
-          "native aot": 1.322
+          "source generation": 1.7,
+          "native aot": 1.3,
+          "reflection-based": 1.3
         },
         "hashes": {
           "error-codes": {
@@ -257,163 +263,138 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonwriter/index.json",
+        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
         "title": "System.Text.Json.Utf8JsonWriter",
         "similarity": 0.7696,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 469786640745173528
+            "fingerprint": 13140683703851615032
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603924666003358076
+            "fingerprint": 17603926856436679036
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.7575,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 614095243011328414
+            "fingerprint": 12992058180565895482
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12974224274836293980
+            "fingerprint": 12992238638986035580
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
+        "href": "/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.7529,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 9860979202420835664
+            "fingerprint": 12995440279541449072
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12703869732690724188
+            "fingerprint": 17603786118948323708
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/index.json",
+        "href": "/libraries/system-text-json-jsondocument/index.json",
         "title": "System.Text.Json.JsonDocument",
         "similarity": 0.7278,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13460983673022227226
+            "fingerprint": 13136741817361277754
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12703867533935911260
+            "fingerprint": 12992100100520943996
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonreader/index.json",
+        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
         "similarity": 0.7151,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 2796080149753443096
+            "fingerprint": 13136881455338070840
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704010495948890620
+            "fingerprint": 12992240838009299324
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
+        "href": "/libraries/json-streaming-io/index.json",
         "title": "JSON Streaming and I/O",
         "similarity": 0.6908,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 5373223288336521872
+            "fingerprint": 17751384421473682354
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12713018245211120108
+            "fingerprint": 17603786118948331900
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
+        "href": "/libraries/json-validation-security/index.json",
         "title": "JSON Validation and Security",
         "similarity": 0.6843,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 4220134623093668640
+            "fingerprint": 17751841818310779706
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12694860369024133596
+            "fingerprint": 12992097901497688444
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
+        "href": "/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.6816,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12995440279407100792
+            "fingerprint": 12995440278333358968
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995475601218077040
-          }
-        }
-      },
-      {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
-        "title": "Publishing and Deployment",
-        "similarity": 0,
-        "authority": {
-          "native aot": 1.322
-        },
-        "hashes": {
-          "error-codes": {
-            "name": "error-codes",
-            "kind": "bloom",
-            "fingerprint": 12199180378432432472
-          },
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13140261422801224498
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 3913545822483915576
+            "fingerprint": 12995475601218076976
           }
         }
       }
@@ -440,16 +421,16 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/_chunks/golden-reference-0.md",
+            "href": "/libraries/system-text-json-source-generation/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
             "similarity_technical": 0.6181,
-            "keyword_hash": 15397526847396551620
+            "keyword_hash": 15974128342557105094
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/_chunks/golden-reference-1.md",
+            "href": "/libraries/system-text-json-source-generation/_chunks/golden-reference-1.md",
             "title": "Generic Methods with JsonTypeInfo",
             "is_code": true,
             "similarity_conceptual": 0.6181,
@@ -458,7 +439,7 @@
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/_chunks/golden-reference-2.md",
+            "href": "/libraries/system-text-json-source-generation/_chunks/golden-reference-2.md",
             "title": "AI Structured Responses",
             "is_code": true,
             "similarity_conceptual": 0.5652999999999999,
@@ -467,19 +448,19 @@
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/_chunks/golden-reference-3.md",
+            "href": "/libraries/system-text-json-source-generation/_chunks/golden-reference-3.md",
             "title": "Performance Optimization",
             "is_code": true,
             "similarity_conceptual": 0.6866,
             "similarity_technical": 0.607,
-            "keyword_hash": 14385501165957584964
+            "keyword_hash": 15538431466657528004
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.1414683Z",
+    "generated": "2025-10-22T17:59:54.6007321Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

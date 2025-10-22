@@ -1,2 +1,14 @@
 Title | Lambda Expressions
+Keyword | lambda
+Keyword | delegate
+Keyword | lambdas
+Keyword | expression lambdas
+Keyword | expression trees
+Keyword | default parameters
+Keyword | natural type
+Keyword | statement lambdas
+Keyword | parameter
+Keyword | parameters
+Keyword | lambda expressions
+Keyword | explicit
 Description | Lambda expressions create anonymous functions using the `=>` operator, with support for expression and statement bodies, natural type inference, parameter modifiers (ref, out, in, params), default parameters, static lambdas, and async operations. Lambdas integrate with LINQ, event handlers, and anywhere delegate or expression tree types are required.

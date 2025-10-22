@@ -8,7 +8,6 @@ Scores are from the topic-level authority analysis.
 | deferred execution | compound | 26.400 |
 | ienumerable | single | 26.000 |
 | sequences | single | 26.000 |
-| use | single | 22.000 |
 | need | single | 18.000 |
 | iteration | single | 16.500 |
 | linq | single | 14.000 |
@@ -35,8 +34,6 @@ Scores are from the topic-level authority analysis.
 | etc | single | 6.000 |
 | iasyncenumerable | single | 6.000 |
 | materialization | single | 6.000 |
-| modern | single | 6.000 |
 | query | single | 6.000 |
 | results | single | 6.000 |
-| syntax | single | 6.000 |
 | read-only | compound | 4.500 |

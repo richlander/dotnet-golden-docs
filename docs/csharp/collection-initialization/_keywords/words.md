@@ -17,7 +17,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | target-typed new | compound | 3 | 1.25x | 1.50x | 2.0x | 11.250 |
 | collection types | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
 | values | single | 6 | 1.00x | 1.00x | 1.5x | 9.000 |
-| syntax | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | collection initializer syntax | compound | 2 | 1.25x | 1.50x | 2.0x | 7.500 |
 | capacity | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | dictionaries | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

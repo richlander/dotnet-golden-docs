@@ -15,6 +15,5 @@ Scores are from the topic-level authority analysis.
 | providers | single | 8.000 |
 | capabilities | single | 6.000 |
 | changes | single | 6.000 |
-| extensions | single | 6.000 |
 | function | single | 6.000 |
 | telemetry | single | 6.000 |

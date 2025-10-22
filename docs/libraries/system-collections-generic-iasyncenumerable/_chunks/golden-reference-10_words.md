@@ -5,7 +5,6 @@ Scores are from the topic-level authority analysis.
 
 | Term | Type | Score |
 |------|------|-------|
-| use | single | 17.000 |
 | data | single | 16.500 |
 | iasyncenumerable | single | 14.000 |
 | async | single | 12.000 |

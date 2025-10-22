@@ -9,7 +9,6 @@ Scores are from the topic-level authority analysis.
 | system.text.json | compound | 47.250 |
 | json | single | 43.500 |
 | apis | single | 28.000 |
-| use | single | 19.000 |
 | text | single | 18.000 |
 | dom | single | 16.500 |
 | known | single | 16.500 |
@@ -20,7 +19,6 @@ Scores are from the topic-level authority analysis.
 | limits | single | 10.000 |
 | maximum | single | 10.000 |
 | reflection-based | compound | 9.000 |
-| provides | single | 8.000 |
 | default | single | 8.000 |
 | depth | single | 8.000 |
 | loading | single | 8.000 |

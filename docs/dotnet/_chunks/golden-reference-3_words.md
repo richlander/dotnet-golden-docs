@@ -12,7 +12,6 @@ Scores are from the topic-level authority analysis.
 | like | single | 15.000 |
 | tools | single | 14.000 |
 | code | single | 12.000 |
-| modern | single | 12.000 |
 | community | single | 10.000 |
 | enables | single | 10.000 |
 | supported | single | 10.000 |
@@ -21,6 +20,7 @@ Scores are from the topic-level authority analysis.
 | across | single | 8.000 |
 | components | single | 8.000 |
 | linux | single | 8.000 |
+| modern | single | 8.000 |
 | pillars | single | 8.000 |
 | android | single | 6.000 |
 | architecture | single | 6.000 |

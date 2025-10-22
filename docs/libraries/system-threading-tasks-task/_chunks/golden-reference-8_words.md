@@ -7,7 +7,6 @@ Scores are from the topic-level authority analysis.
 |------|------|-------|
 | task | single | 66.000 |
 | tasks | single | 56.000 |
-| use | single | 18.000 |
 | await | single | 14.000 |
 | run | single | 12.000 |
 | exception handling | compound | 9.900 |

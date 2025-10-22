@@ -14,3 +14,15 @@ API | FlushAsync
 API | WriteEndArray
 API | WriteStartArray
 API | WriteStringValue
+Keyword | writing
+Keyword | utf8jsonwriter
+Keyword | system.text.json.utf8jsonwriter
+Keyword | output
+Keyword | write
+Keyword | writer
+Keyword | control
+Keyword | stream
+Keyword | performance-critical
+Keyword | formatting
+Keyword | generate
+Keyword | streams

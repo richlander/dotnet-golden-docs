@@ -6,7 +6,6 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | collection expressions | compound | 72.000 |
-| syntax | single | 12.000 |
 | spread | single | 10.000 |
 | using collection expressions | compound | 7.500 |
 | concise | single | 6.000 |

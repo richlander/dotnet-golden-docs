@@ -40,8 +40,8 @@ System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 9860979202420835664 |
-| technical | simhash | 12703869732690724188 |
+| overview | simhash | 12995440279541449072 |
+| technical | simhash | 17603786118948323708 |
 
 ## Similarity Scores
 
@@ -60,6 +60,18 @@ System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing
 | libraries | libraries/dotnet-10-library-improvements | 0.7183 |
 | csharp | csharp/csharp-14-features | 0.7090 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/system-text-json | json | 3.000 |
+| libraries/system-text-json | read-only | 1.600 |
+| libraries/system-text-json | dynamic | 1.500 |
+| libraries/system-text-json-jsondocument | read-only | 1.600 |
+| libraries/system-text-json-jsondocument | strongly-typed objects | 1.300 |
+| libraries/system-text-json-jsonserializer | json | 3.000 |
+| libraries/system-text-json-migrate-from-newtonsoft | json | 3.000 |
+
 ## APIs
 
 | API | Type | Count |
@@ -72,6 +84,23 @@ System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing
 | DeepClone | method | 4 |
 | Console.WriteLine | method | 3 |
 | JsonArray | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| json | 20.00 |
+| system.text.json.nodes | 6.00 |
+| strongly-typed | 7.00 |
+| json documents | 6.00 |
+| nodes | 10.00 |
+| read-only | 6.00 |
+| type safety | 4.00 |
+| strongly-typed objects | 3.00 |
+| runtime | 10.00 |
+| better | 5.00 |
+| between | 5.00 |
+| dynamic | 5.00 |
 
 ## Chunks
 

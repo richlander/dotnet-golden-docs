@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 262
-Total word occurrences: 526
+Total unique words: 259
+Total word occurrences: 514
 Total document words: 1044
 
 | Word | Count | Document Concentration |
@@ -24,7 +24,6 @@ Total document words: 1044
 | into | 5 | 0.0048 |
 | large | 5 | 0.0048 |
 | materialize | 5 | 0.0048 |
-| operators | 5 | 0.0048 |
 | queries | 5 | 0.0048 |
 | sequence | 5 | 0.0048 |
 | concrete | 4 | 0.0038 |
@@ -53,13 +52,10 @@ Total document words: 1044
 | implement | 3 | 0.0029 |
 | iterate | 3 | 0.0029 |
 | materialization | 3 | 0.0029 |
-| method | 3 | 0.0029 |
-| modern | 3 | 0.0029 |
 | non-generic | 3 | 0.0029 |
 | query | 3 | 0.0029 |
 | results | 3 | 0.0029 |
 | supports | 3 | 0.0029 |
-| syntax | 3 | 0.0029 |
 | transformation | 3 | 0.0029 |
 | approaches | 2 | 0.0019 |
 | aware | 2 | 0.0019 |
@@ -85,6 +81,7 @@ Total document words: 1044
 | materializing | 2 | 0.0019 |
 | once | 2 | 0.0019 |
 | one | 2 | 0.0019 |
+| operators | 2 | 0.0019 |
 | provides | 2 | 0.0019 |
 | read-only | 2 | 0.0019 |
 | resets | 2 | 0.0019 |
@@ -156,7 +153,6 @@ Total document words: 1044
 | explicitly | 1 | 0.0010 |
 | expression-based | 1 | 0.0010 |
 | extend | 1 | 0.0010 |
-| extension | 1 | 0.0010 |
 | filter | 1 | 0.0010 |
 | filtered | 1 | 0.0010 |
 | generate | 1 | 0.0010 |
@@ -199,6 +195,7 @@ Total document words: 1044
 | materialized | 1 | 0.0010 |
 | maximum | 1 | 0.0010 |
 | memory-efficient | 1 | 0.0010 |
+| modern | 1 | 0.0010 |
 | modify | 1 | 0.0010 |
 | needs | 1 | 0.0010 |
 | note | 1 | 0.0010 |

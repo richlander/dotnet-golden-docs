@@ -1,3 +1,15 @@
 Title | Lambda Expressions
 API | Console.WriteLine
 API | Parse
+Keyword | lambda
+Keyword | delegate
+Keyword | lambdas
+Keyword | expression lambdas
+Keyword | expression trees
+Keyword | default parameters
+Keyword | natural type
+Keyword | statement lambdas
+Keyword | parameter
+Keyword | parameters
+Keyword | lambda expressions
+Keyword | explicit

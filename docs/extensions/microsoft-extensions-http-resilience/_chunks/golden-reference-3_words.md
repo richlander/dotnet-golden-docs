@@ -13,6 +13,5 @@ Scores are from the topic-level authority analysis.
 | microsoft | single | 10.000 |
 | reliability | single | 10.000 |
 | microservices | single | 8.000 |
-| extensions | single | 6.000 |
 | factory | single | 6.000 |
 | failures | single | 6.000 |

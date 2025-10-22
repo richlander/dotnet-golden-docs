@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 13 compound terms and 244 single words
-Total unique terms: 255
-Terms with score ≥ 3.0: 50
-Total term occurrences: 467
+Combined 13 compound terms and 243 single words
+Total unique terms: 254
+Terms with score ≥ 3.0: 49
+Total term occurrences: 463
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -37,7 +37,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | database | single | 4 | 1.00x | 1.00x | 4.0 |
 | linq | single | 4 | 1.00x | 1.00x | 4.0 |
 | materialize | single | 4 | 1.00x | 1.00x | 4.0 |
-| operators | single | 4 | 1.00x | 1.00x | 4.0 |
 | paginated | single | 4 | 1.00x | 1.00x | 4.0 |
 | sources | single | 4 | 1.00x | 1.00x | 4.0 |
 | streams | single | 4 | 1.00x | 1.00x | 4.0 |

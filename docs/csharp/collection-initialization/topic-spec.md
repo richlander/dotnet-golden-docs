@@ -48,7 +48,7 @@ Collection initialization encompasses the traditional and modern approaches to c
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 13507085838896505194 |
-| overview | simhash | 13135758833431281974 |
+| overview | simhash | 13135758833431281970 |
 | technical | simhash | 17604488704731014524 |
 
 ## Relationships
@@ -70,13 +70,13 @@ Collection initialization encompasses the traditional and modern approaches to c
 | target-typed new | 3.00 |
 | collection types | 3.00 |
 | values | 6.00 |
-| syntax | 4.00 |
 | collection initializer syntax | 2.00 |
 | capacity | 3.00 |
 | dictionaries | 3.00 |
 | dictionary | 3.00 |
 | elements | 3.00 |
 | existing | 3.00 |
+| know | 3.00 |
 
 ## APIs
 
@@ -116,7 +116,8 @@ Collection initialization encompasses the traditional and modern approaches to c
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| csharp/collection-expressions | collection types | 1.356 |
-| csharp/collection-expressions | collection expressions | 1.333 |
-| csharp/object-initialization | collection expressions | 1.333 |
+| csharp/collection-expressions | collection expressions | 2.200 |
+| csharp/collection-expressions | collection types | 1.300 |
+| csharp/object-initialization | collection expressions | 2.200 |
+| libraries/system-buffers-searchvalues | values | 1.600 |
 

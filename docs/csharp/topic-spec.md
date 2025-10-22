@@ -105,8 +105,12 @@ C# is a modern, safe, and general purpose language that makes developers product
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| dotnet | low-level | 1.356 |
-| dotnet | object-oriented | 1.356 |
+| dotnet | like | 2.100 |
+| dotnet | libraries | 1.900 |
+| dotnet | memory management | 1.600 |
+| dotnet | while | 1.600 |
+| dotnet | cross-platform | 1.500 |
+| libraries | libraries | 1.900 |
 
 ## Source Discovery Workflow
 

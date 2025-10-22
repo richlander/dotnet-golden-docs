@@ -13,7 +13,6 @@ Scores are from the topic-level authority analysis.
 | safety evaluators | compound | 13.200 |
 | azure | single | 12.000 |
 | evaluators | single | 12.000 |
-| extensions | single | 10.000 |
 | llm-based | compound | 6.600 |
 | llm-based evaluators | compound | 6.600 |
 | evaluations | single | 6.000 |

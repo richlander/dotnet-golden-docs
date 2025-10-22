@@ -29,7 +29,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | considerations | single | 7 | 1.00x | 1.00x | 1.5x | 10.500 |
 | large | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | materialize | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
-| operators | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | queries | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | sequence | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | yield return | compound | 3 | 1.10x | 1.50x | 2.0x | 9.900 |
@@ -67,12 +66,9 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | implement | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | iterate | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | materialization | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| method | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| modern | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | query | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | results | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | supports | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| syntax | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | thread-safety | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | transformation | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | avoid | single | 3 | 1.00x | 1.00x | 1.5x | 4.500 |

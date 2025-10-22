@@ -7,7 +7,6 @@ Scores are from the topic-level authority analysis.
 |------|------|-------|
 | system.text.json | compound | 47.250 |
 | json | single | 43.500 |
-| use | single | 19.000 |
 | text | single | 18.000 |
 | serialization | single | 18.000 |
 | system | single | 14.000 |
@@ -15,7 +14,6 @@ Scores are from the topic-level authority analysis.
 | no | single | 10.500 |
 | add | single | 10.000 |
 | see | single | 10.000 |
-| provides | single | 8.000 |
 | common | single | 8.000 |
 | default | single | 8.000 |
 | needed | single | 8.000 |

@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 182
-Total word occurrences: 262
+Total unique words: 180
+Total word occurrences: 260
 Total document words: 498
 
 | Word | Count | Document Concentration |
@@ -114,7 +114,6 @@ Total document words: 498
 | functions | 1 | 0.0020 |
 | git | 1 | 0.0020 |
 | global | 1 | 0.0020 |
-| group | 1 | 0.0020 |
 | guidance | 1 | 0.0020 |
 | handles | 1 | 0.0020 |
 | hosting | 1 | 0.0020 |
@@ -165,7 +164,6 @@ Total document words: 498
 | rather | 1 | 0.0020 |
 | recommendations | 1 | 0.0020 |
 | reflection-based | 1 | 0.0020 |
-| related | 1 | 0.0020 |
 | resources | 1 | 0.0020 |
 | results | 1 | 0.0020 |
 | rich | 1 | 0.0020 |

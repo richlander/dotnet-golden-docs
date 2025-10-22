@@ -8,7 +8,6 @@ Scores are from the topic-level authority analysis.
 | object initialization | compound | 45.000 |
 | collection properties | compound | 30.000 |
 | collection expressions | compound | 16.500 |
-| use | single | 9.000 |
 | initialization | single | 6.000 |
 | nested | single | 6.000 |
 | object | single | 6.000 |

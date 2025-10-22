@@ -52,8 +52,8 @@ Object initialization encompasses the various approaches for creating and initia
 | Name | Kind | Fingerprint |
 |------|------|-------------|
 | error-codes | bloom | 7058325005360841626 |
-| overview | simhash | 17751945841218224944 |
-| technical | simhash | 17603925754777575800 |
+| overview | simhash | 17751945858399142706 |
+| technical | simhash | 17748040942853431672 |
 
 ## Relationships
 
@@ -77,10 +77,10 @@ Object initialization encompasses the various approaches for creating and initia
 | collection expressions | 5.00 |
 | initializers | 7.00 |
 | init-only properties | 3.00 |
-| use | 9.00 |
 | constructor | 4.00 |
 | immutable | 4.00 |
 | records | 4.00 |
+| factory methods | 2.00 |
 
 ## APIs
 
@@ -120,6 +120,8 @@ Object initialization encompasses the various approaches for creating and initia
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| csharp/collection-expressions | collection expressions | 1.375 |
-| csharp/collection-initialization | collection expressions | 1.375 |
+| csharp/collection-expressions | collection expressions | 1.500 |
+| csharp/collection-initialization | collection expressions | 1.500 |
+| csharp/properties-backing-fields | records | 1.400 |
+| csharp/properties-backing-fields | init-only properties | 1.300 |
 

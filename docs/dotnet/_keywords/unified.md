@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 12 compound terms and 363 single words
-Total unique terms: 366
+Combined 12 compound terms and 360 single words
+Total unique terms: 363
 Terms with score ≥ 3.0: 61
-Total term occurrences: 662
+Total term occurrences: 654
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -21,11 +21,10 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | like | single | 10 | 1.00x | 1.00x | 10.0 |
 | while | single | 10 | 1.00x | 1.00x | 10.0 |
 | memory management | compound | 6 | 1.10x | 1.50x | 9.9 |
-| code | single | 8 | 1.00x | 1.00x | 8.0 |
 | open-source | compound | 5 | 1.00x | 1.50x | 7.5 |
 | tools | single | 7 | 1.00x | 1.00x | 7.0 |
+| code | single | 6 | 1.00x | 1.00x | 6.0 |
 | languages | single | 6 | 1.00x | 1.00x | 6.0 |
-| modern | single | 6 | 1.00x | 1.00x | 6.0 |
 | provides | single | 6 | 1.00x | 1.00x | 6.0 |
 | community | single | 5 | 1.00x | 1.00x | 5.0 |
 | enables | single | 5 | 1.00x | 1.00x | 5.0 |
@@ -43,6 +42,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | developers | single | 4 | 1.00x | 1.00x | 4.0 |
 | linux | single | 4 | 1.00x | 1.00x | 4.0 |
 | many | single | 4 | 1.00x | 1.00x | 4.0 |
+| modern | single | 4 | 1.00x | 1.00x | 4.0 |
 | pillars | single | 4 | 1.00x | 1.00x | 4.0 |
 | programming | single | 4 | 1.00x | 1.00x | 4.0 |
 | set | single | 4 | 1.00x | 1.00x | 4.0 |

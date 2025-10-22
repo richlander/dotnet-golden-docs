@@ -10,7 +10,6 @@ Scores are from the topic-level authority analysis.
 | microsoft.extensions.ai.evaluation | compound | 22.500 |
 | microsoft | single | 14.000 |
 | evaluators | single | 12.000 |
-| extensions | single | 10.000 |
 | caching | single | 8.000 |
 | content | single | 8.000 |
 | vs | single | 8.000 |

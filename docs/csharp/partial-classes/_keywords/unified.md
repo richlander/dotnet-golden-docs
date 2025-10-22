@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 13 compound terms and 187 single words
-Total unique terms: 196
-Terms with score ≥ 3.0: 53
-Total term occurrences: 433
+Combined 13 compound terms and 185 single words
+Total unique terms: 194
+Terms with score ≥ 3.0: 51
+Total term occurrences: 427
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -34,7 +34,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | accessibility | single | 4 | 1.00x | 1.00x | 4.0 |
 | cannot | single | 4 | 1.00x | 1.00x | 4.0 |
 | class | single | 4 | 1.00x | 1.00x | 4.0 |
-| code | single | 4 | 1.00x | 1.00x | 4.0 |
 | implementation | single | 4 | 1.00x | 1.00x | 4.0 |
 | interfaces | single | 4 | 1.00x | 1.00x | 4.0 |
 | match | single | 4 | 1.00x | 1.00x | 4.0 |
@@ -63,7 +62,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | developer-written | compound | 2 | 1.00x | 1.50x | 3.0 |
 | different | single | 3 | 1.00x | 1.00x | 3.0 |
 | include | single | 3 | 1.00x | 1.00x | 3.0 |
-| method | single | 3 | 1.00x | 1.00x | 3.0 |
 | part | single | 3 | 1.00x | 1.00x | 3.0 |
 | platform-specific | compound | 2 | 1.00x | 1.50x | 3.0 |
 | windows-specific | compound | 2 | 1.00x | 1.50x | 3.0 |

@@ -38,8 +38,8 @@ This topic provides technical mapping between Newtonsoft.Json and System.Text.Js
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 614095243011328414 |
-| technical | simhash | 12974224274836293980 |
+| overview | simhash | 12992058180565895482 |
+| technical | simhash | 12992238638986035580 |
 
 ## Similarity Scores
 
@@ -58,6 +58,17 @@ This topic provides technical mapping between Newtonsoft.Json and System.Text.Js
 | libraries | libraries/system-text-json-utf8jsonwriter | 0.7239 |
 | libraries | libraries | 0.6928 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/system-text-json | system.text.json | 2.700 |
+| libraries/system-text-json | newtonsoft.json | 2.600 |
+| libraries/system-text-json | text | 2.500 |
+| libraries/system-text-json | json | 2.200 |
+| libraries/system-text-json-jsonserializer | json | 2.200 |
+| libraries/system-text-json-nodes | json | 2.200 |
+
 ## APIs
 
 | API | Type | Count |
@@ -74,6 +85,23 @@ This topic provides technical mapping between Newtonsoft.Json and System.Text.Js
 | JsonDerivedType | attribute | 3 |
 | JsonPropertyName | attribute | 3 |
 | Select | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| newtonsoft.json | 16.00 |
+| system.text.json | 17.00 |
+| newtonsoft | 16.00 |
+| text | 15.00 |
+| custom converters | 5.00 |
+| json | 12.00 |
+| system | 16.00 |
+| configurable | 6.00 |
+| different | 4.00 |
+| jsonnode | 4.00 |
+| mappings | 4.00 |
+| rejected | 4.00 |
 
 ## Chunks
 

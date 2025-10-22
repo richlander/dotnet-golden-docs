@@ -20,18 +20,21 @@ public static class StringUtils
 }
 ```
 
-## Type-Safe Extension Patterns
+## Type Extension Patterns
 
-Extensions provide safer alternatives to traditional extension methods.
+Extensions provide more capable patterns compared to traditional extension methods.
 
 ```csharp
-public extension CollectionExtensions for ICollection<T>
+public static class CollectionExtensions
 {
-    public bool IsEmpty => Count == 0;
-    public bool IsNotEmpty => Count > 0;
-    public void AddRange(IEnumerable<T> items)
+    extension<T> (ICollection<T> collection)
     {
-        foreach (var item in items) Add(item);
+        public bool IsEmpty => collection.Count == 0;
+        public bool IsNotEmpty => collection.Count > 0;
+        public void AddRange(IEnumerable<T> items)
+        {
+            foreach (var item in items) collection.Add(item);
+        }
     }
 }
 ```

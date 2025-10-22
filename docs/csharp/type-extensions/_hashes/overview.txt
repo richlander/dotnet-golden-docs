@@ -1,0 +1,14 @@
+Title | Type Extensions
+Keyword | extension
+Keyword | extension members
+Keyword | extensions
+Keyword | extension methods
+Keyword | operators
+Keyword | extension method
+Keyword | extension operators
+Keyword | type extensions
+Keyword | blocks
+Keyword | operator
+Keyword | static
+Keyword | modern syntax
+Description | Type extensions in C# enable developers to add methods, properties, and operators to existing types without modifying source code or creating derived types. C# 14 introduces modern extension block syntax that supports both instance and static members, expanding upon the traditional extension method pattern from C# 3.0. Both syntaxes remain fully supported and binary compatible.

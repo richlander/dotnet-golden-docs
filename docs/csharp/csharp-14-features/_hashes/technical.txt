@@ -41,7 +41,6 @@ ErrorMessage | Operator '{0}' is not valid for compound assignment with operands
 Error | CS9329
 ErrorMessage | Extension block collision with type '{0}'.
 Keyword | assignment
-Keyword | extension
 Keyword | compile-time
 Keyword | zero-allocation
 Keyword | enhanced

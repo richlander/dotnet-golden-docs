@@ -21,7 +21,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | azure | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | evaluators | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | metrics | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| extensions | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | nlp | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | reporting | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | assurance | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |

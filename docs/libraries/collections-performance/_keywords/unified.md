@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 15 compound terms and 175 single words
-Total unique terms: 185
-Terms with score ≥ 3.0: 53
-Total term occurrences: 373
+Combined 15 compound terms and 171 single words
+Total unique terms: 181
+Terms with score ≥ 3.0: 52
+Total term occurrences: 366
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -57,7 +57,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | heap | single | 3 | 1.00x | 1.00x | 3.0 |
 | interface | single | 3 | 1.00x | 1.00x | 3.0 |
 | jit | single | 3 | 1.00x | 1.00x | 3.0 |
-| method | single | 3 | 1.00x | 1.00x | 3.0 |
 | order | single | 3 | 1.00x | 1.00x | 3.0 |
 | ordereddictionary | single | 3 | 1.00x | 1.00x | 3.0 |
 | overloads | single | 3 | 1.00x | 1.00x | 3.0 |

@@ -29,7 +29,6 @@ Scores are from the topic-level authority analysis.
 | capabilities | single | 6.000 |
 | changes | single | 6.000 |
 | chat | single | 6.000 |
-| extensions | single | 6.000 |
 | function | single | 6.000 |
 | implement | single | 6.000 |
 | opentelemetry | single | 6.000 |

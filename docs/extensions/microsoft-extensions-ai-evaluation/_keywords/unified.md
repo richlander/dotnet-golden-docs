@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 10 compound terms and 198 single words
-Total unique terms: 206
-Terms with score ≥ 3.0: 37
-Total term occurrences: 387
+Combined 10 compound terms and 197 single words
+Total unique terms: 205
+Terms with score ≥ 3.0: 36
+Total term occurrences: 382
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -23,7 +23,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | azure | single | 6 | 1.00x | 1.00x | 6.0 |
 | evaluators | single | 6 | 1.00x | 1.00x | 6.0 |
 | metrics | single | 6 | 1.00x | 1.00x | 6.0 |
-| extensions | single | 5 | 1.00x | 1.00x | 5.0 |
 | nlp | single | 5 | 1.00x | 1.00x | 5.0 |
 | reporting | single | 5 | 1.00x | 1.00x | 5.0 |
 | assurance | single | 4 | 1.00x | 1.00x | 4.0 |

@@ -11,3 +11,15 @@ API | GetFileExtension
 API | IndexOf
 API | IsValidCommand
 API | LastIndexOf
+Keyword | span-based
+Keyword | utf-8
+Keyword | pattern matching
+Keyword | allocations
+Keyword | strings
+Keyword | string normalization
+Keyword | without
+Keyword | spans
+Keyword | text
+Keyword | span-based string processing
+Keyword | string
+Keyword | utf-8 string literals

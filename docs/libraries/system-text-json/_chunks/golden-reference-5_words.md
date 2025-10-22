@@ -12,7 +12,6 @@ Scores are from the topic-level authority analysis.
 | api | single | 28.000 |
 | apis | single | 28.000 |
 | compile-time | compound | 24.750 |
-| use | single | 19.000 |
 | text | single | 18.000 |
 | configuration | single | 18.000 |
 | serialization | single | 18.000 |
@@ -23,15 +22,12 @@ Scores are from the topic-level authority analysis.
 | system | single | 14.000 |
 | asp | single | 12.000 |
 | responses | single | 12.000 |
-| provides | single | 8.000 |
 | changes | single | 8.000 |
 | default | single | 8.000 |
-| extensions | single | 8.000 |
 | serializer | single | 8.000 |
 | asp.net core integration | compound | 7.500 |
 | httpclient extensions | compound | 7.500 |
 | context | single | 6.000 |
-| extension | single | 6.000 |
 | http | single | 6.000 |
 | jsonserializer | single | 6.000 |
 | uses | single | 6.000 |

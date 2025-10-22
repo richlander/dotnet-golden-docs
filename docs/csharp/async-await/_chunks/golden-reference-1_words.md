@@ -6,15 +6,14 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | async | single | 52.000 |
-| use | single | 29.000 |
 | async operations | compound | 26.400 |
 | await | single | 22.000 |
 | operations | single | 22.000 |
 | task | single | 14.000 |
 | avoid | single | 9.000 |
 | threads | single | 8.000 |
-| code | single | 7.500 |
 | don't | single | 6.000 |
+| code | single | 6.000 |
 | concurrent | single | 6.000 |
 | cpu-bound | single | 6.000 |
 | database | single | 6.000 |

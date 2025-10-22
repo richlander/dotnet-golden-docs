@@ -2,4 +2,16 @@ Title | System.Text.Json.Nodes
 TypeName | System.Text.Json.Nodes
 TypeName | System.Text.Json
 TypeName | Nodes
+Keyword | json
+Keyword | system.text.json.nodes
+Keyword | strongly-typed
+Keyword | json documents
+Keyword | nodes
+Keyword | read-only
+Keyword | type safety
+Keyword | strongly-typed objects
+Keyword | runtime
+Keyword | better
+Keyword | between
+Keyword | dynamic
 Description | System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing developers to navigate, query, and modify JSON structures dynamically without needing to define concrete types. It includes JsonNode, JsonObject, JsonArray, and JsonValue classes that represent JSON structures in memory.

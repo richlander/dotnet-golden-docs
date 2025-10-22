@@ -8,7 +8,6 @@ Scores are from the topic-level authority analysis.
 | libraries | single | 24.000 |
 | data access | compound | 11.250 |
 | dependency injection | compound | 9.900 |
-| system | single | 8.000 |
 | application | single | 8.000 |
 | asp.net core | compound | 7.425 |
 | entity framework core | compound | 6.600 |

@@ -20,7 +20,7 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 12991110520862344052
+      "fingerprint": 12991110520728126324
     },
     "technical": {
       "name": "technical",
@@ -44,10 +44,6 @@
     {
       "name": "fixed-size",
       "score": 10
-    },
-    {
-      "name": "use",
-      "score": 20
     },
     {
       "name": "buffer",
@@ -76,9 +72,13 @@
     {
       "name": "create",
       "score": 5
+    },
+    {
+      "name": "interop",
+      "score": 5
     }
   ],
-  "keyword_hash": 14201787451681621568,
+  "keyword_hash": 14341680514972272194,
   "apis": [
     {
       "name": "InlineArray",
@@ -160,22 +160,22 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/index.json",
+      "href": "/csharp/inline-arrays/index.json",
       "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
+      "href": "/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/topic-spec.md",
+      "href": "/csharp/inline-arrays/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/golden-reference.md",
+      "href": "/csharp/inline-arrays/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     }
   },
@@ -216,34 +216,34 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-0.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-0.md",
             "title": "When to Use",
             "is_code": true,
             "similarity_conceptual": 1,
             "similarity_technical": 0.7001999999999999,
-            "keyword_hash": 14211357601338580723
+            "keyword_hash": 14229372549603876603
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-1.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-1.md",
             "title": "Key Advantages",
             "is_code": false,
             "similarity_conceptual": 0.7001999999999999,
             "similarity_technical": 1,
-            "keyword_hash": 14789366745799546579
+            "keyword_hash": 14779233575636784722
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-2.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-2.md",
             "title": "Iteration",
             "is_code": true,
             "similarity_conceptual": 0.5997,
             "similarity_technical": 0.6987999999999999,
-            "keyword_hash": 16807117231659697912
+            "keyword_hash": 16794099005361243896
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-3.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-3.md",
             "title": "Range and Index Operators",
             "is_code": true,
             "similarity_conceptual": 0.6275,
@@ -252,82 +252,82 @@
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-4.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-4.md",
             "title": "Fixed-Size String Buffers",
             "is_code": true,
             "similarity_conceptual": 0.6521999999999999,
             "similarity_technical": 0.6830999999999999,
-            "keyword_hash": 10754303649108809283
+            "keyword_hash": 10754303649108809331
           },
           {
             "index": 5,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-5.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-5.md",
             "title": "Ring Buffers",
             "is_code": true,
             "similarity_conceptual": 0.6075999999999999,
             "similarity_technical": 0.6373,
-            "keyword_hash": 14210794646900133569
+            "keyword_hash": 14210795802247384771
           },
           {
             "index": 6,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-6.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-6.md",
             "title": "Network Protocol Buffers",
             "is_code": true,
             "similarity_conceptual": 0.5909,
             "similarity_technical": 0.6316999999999999,
-            "keyword_hash": 411773978722503746
+            "keyword_hash": 1564978059160915010
           },
           {
             "index": 7,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-7.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-7.md",
             "title": "Use Span for Iteration",
             "is_code": true,
             "similarity_conceptual": 0.6465,
             "similarity_technical": 0.6723,
-            "keyword_hash": 14211920549252255338
+            "keyword_hash": 16517763593909390954
           },
           {
             "index": 8,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-8.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-8.md",
             "title": "Bounds Check Once",
             "is_code": true,
             "similarity_conceptual": 0.6577999999999999,
             "similarity_technical": 0.6877,
-            "keyword_hash": 14372369676179097163
+            "keyword_hash": 16678212685401310795
           },
           {
             "index": 9,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-9.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-9.md",
             "title": "Length Must Be Constant",
             "is_code": true,
             "similarity_conceptual": 0.6283,
             "similarity_technical": 0.6677,
-            "keyword_hash": 15524719873406344707
+            "keyword_hash": 10610729727806217731
           },
           {
             "index": 10,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-10.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-10.md",
             "title": "Type Argument Constraints",
             "is_code": true,
             "similarity_conceptual": 0.6008999999999999,
             "similarity_technical": 0.6626,
-            "keyword_hash": 15994365130483131969
+            "keyword_hash": 10976228970773833281
           },
           {
             "index": 11,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/_chunks/golden-reference-11.md",
+            "href": "/csharp/inline-arrays/_chunks/golden-reference-11.md",
             "title": "No Dynamic Sizing",
             "is_code": true,
             "similarity_conceptual": 0.6415,
             "similarity_technical": 0.6609,
-            "keyword_hash": 15346286695076142631
+            "keyword_hash": 15055786652025822758
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.0655036Z",
+    "generated": "2025-10-22T17:59:54.5306335Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

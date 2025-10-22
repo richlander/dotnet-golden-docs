@@ -14,7 +14,6 @@ Scores are from the topic-level authority analysis.
 | azure | single | 12.000 |
 | evaluators | single | 12.000 |
 | metrics | single | 12.000 |
-| extensions | single | 10.000 |
 | nlp | single | 10.000 |
 | reporting | single | 10.000 |
 | assurance | single | 8.000 |

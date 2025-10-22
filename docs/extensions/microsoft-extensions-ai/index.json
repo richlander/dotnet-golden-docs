@@ -140,44 +140,48 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
+      "href": "/extensions/microsoft-extensions-ai/index.json",
       "description": "Unified approach for .NET developers to integrate and interact with AI services through standardized interfaces and middleware patterns."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/index.json",
+      "href": "/extensions/index.json",
       "description": "Extensions category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/topic-spec.md",
+      "href": "/extensions/microsoft-extensions-ai/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/golden-reference.md",
+      "href": "/extensions/microsoft-extensions-ai/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/qa-pairs.md",
+      "href": "/extensions/microsoft-extensions-ai/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "validation": {
       "name": "Validation Requirements",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/validation.md",
+      "href": "/extensions/microsoft-extensions-ai/validation.md",
       "description": "Testing requirements and validation rules for content accuracy and code example verification"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai-evaluation/index.json",
+        "href": "/extensions/microsoft-extensions-ai-evaluation/index.json",
         "title": "Microsoft.Extensions.AI.Evaluation",
         "similarity": 0.8279,
+        "authority": {
+          "ai": 4.2,
+          "microsoft": 1.5
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997269984866861368
+            "fingerprint": 12997129247378506040
           },
           "technical": {
             "name": "technical",
@@ -187,46 +191,49 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
+        "href": "/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.7133,
         "authority": {
-          "dependency injection": 1.357
+          "dependency injection": 1.5
         },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997132427928207738
+            "fingerprint": 12996006510841495866
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992066015660474748
+            "fingerprint": 12997132565241266556
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
+        "href": "/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7043,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12995440279407100792
+            "fingerprint": 12995440278333358968
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995475601218077040
+            "fingerprint": 12995475601218076976
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/index.json",
+        "href": "/extensions/microsoft-extensions-http-resilience/index.json",
         "title": "Microsoft.Extensions.Http.Resilience",
         "similarity": 0.6811,
+        "authority": {
+          "microsoft": 1.5
+        },
         "hashes": {
           "overview": {
             "name": "overview",
@@ -241,7 +248,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.665,
         "hashes": {
@@ -258,7 +265,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
+        "href": "/cli/index.json",
         "title": "CLI",
         "similarity": 0.6615,
         "hashes": {
@@ -275,7 +282,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
+        "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6575,
         "hashes": {
@@ -287,7 +294,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992627727723340090
+            "fingerprint": 12992064777769918778
           },
           "technical": {
             "name": "technical",
@@ -297,7 +304,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+        "href": "/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.6469,
         "hashes": {
@@ -319,7 +326,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/file-based-apps/index.json",
+        "href": "/cli/file-based-apps/index.json",
         "title": "File-based apps",
         "similarity": 0.644,
         "hashes": {
@@ -336,7 +343,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
+        "href": "/cli/native-aot/index.json",
         "title": "Native AOT",
         "similarity": 0.6401,
         "hashes": {
@@ -358,7 +365,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/index.json",
+        "href": "/libraries/system-commandline/index.json",
         "title": "System.CommandLine",
         "similarity": 0.6293,
         "hashes": {
@@ -370,29 +377,29 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13027106350651900730
+            "fingerprint": 12991077554706678586
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603786118948323708
+            "fingerprint": 17603784469680882044
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.6258,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3087081535174783256
+            "fingerprint": 13176850832237699898
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240880958973404
+            "fingerprint": 12992100100520943996
           }
         }
       }
@@ -425,73 +432,73 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/_chunks/golden-reference-0.md",
+            "href": "/extensions/microsoft-extensions-ai/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
             "similarity_technical": 0.5852,
-            "keyword_hash": 14449511978263259701
+            "keyword_hash": 14449511952493447733
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/_chunks/golden-reference-1.md",
+            "href": "/extensions/microsoft-extensions-ai/_chunks/golden-reference-1.md",
             "title": "Streaming Chat Responses",
             "is_code": false,
             "similarity_conceptual": 0.7175999999999999,
             "similarity_technical": 0.597,
-            "keyword_hash": 14412902278327501361
+            "keyword_hash": 14466950421725512249
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/_chunks/golden-reference-2.md",
+            "href": "/extensions/microsoft-extensions-ai/_chunks/golden-reference-2.md",
             "title": "Custom Middleware Development",
             "is_code": true,
             "similarity_conceptual": 0.5852,
             "similarity_technical": 1,
-            "keyword_hash": 14421832273481632613
+            "keyword_hash": 17015908407626107775
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/_chunks/golden-reference-3.md",
+            "href": "/extensions/microsoft-extensions-ai/_chunks/golden-reference-3.md",
             "title": "Telemetry and Observability",
             "is_code": true,
             "similarity_conceptual": 0.5674999999999999,
             "similarity_technical": 0.733,
-            "keyword_hash": 14052498704848490337
+            "keyword_hash": 144257043952373536
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/_chunks/golden-reference-4.md",
+            "href": "/extensions/microsoft-extensions-ai/_chunks/golden-reference-4.md",
             "title": "Interface Implementation Guidelines",
             "is_code": true,
             "similarity_conceptual": 0.6315,
             "similarity_technical": 0.6441,
-            "keyword_hash": 9585428307044803168
+            "keyword_hash": 12035389802869239416
           },
           {
             "index": 5,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/_chunks/golden-reference-5.md",
+            "href": "/extensions/microsoft-extensions-ai/_chunks/golden-reference-5.md",
             "title": "Configuration Management",
             "is_code": true,
             "similarity_conceptual": 0.5705,
             "similarity_technical": 0.63,
-            "keyword_hash": 14498925680301116729
+            "keyword_hash": 14501177480114801981
           },
           {
             "index": 6,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/_chunks/golden-reference-6.md",
+            "href": "/extensions/microsoft-extensions-ai/_chunks/golden-reference-6.md",
             "title": "Performance Considerations",
             "is_code": true,
             "similarity_conceptual": 0.5401999999999999,
             "similarity_technical": 0.6638,
-            "keyword_hash": 14424059420266809193
+            "keyword_hash": 579853376567723880
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.0774819Z",
+    "generated": "2025-10-22T17:59:54.5421292Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

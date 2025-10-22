@@ -2,4 +2,16 @@ Title | System.Text.Json.Utf8JsonReader
 TypeName | System.Text.Json.Utf8JsonReader
 TypeName | System.Text.Json
 TypeName | Utf8JsonReader
+Keyword | parsing
+Keyword | utf8jsonreader
+Keyword | system.text.json.utf8jsonreader
+Keyword | reading
+Keyword | utf-8
+Keyword | values
+Keyword | forward-only
+Keyword | process
+Keyword | reader
+Keyword | token
+Keyword | during
+Keyword | multi-segment
 Description | System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-only reader for UTF-8 encoded JSON text. It provides the lowest-level API for reading JSON, operating directly on UTF-8 bytes without allocation and offering maximum control over parsing. Utf8JsonReader is designed for performance-critical scenarios where streaming, minimal allocation, and complete parsing control are essential.

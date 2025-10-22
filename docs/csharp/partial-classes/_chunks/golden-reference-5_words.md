@@ -17,7 +17,6 @@ Scores are from the topic-level authority analysis.
 | implementations | single | 12.000 |
 | optional | single | 12.000 |
 | separate | single | 12.000 |
-| use | single | 10.000 |
 | auto-property | compound | 9.000 |
 | accessibility | single | 8.000 |
 | cannot | single | 8.000 |
@@ -30,7 +29,6 @@ Scores are from the topic-level authority analysis.
 | specify | single | 8.000 |
 | attributes | single | 7.500 |
 | documentation comments | compound | 7.500 |
-| code | single | 6.000 |
 | no | single | 6.000 |
 | accessors | single | 6.000 |
 | base | single | 6.000 |
@@ -42,6 +40,5 @@ Scores are from the topic-level authority analysis.
 | developer-written | compound | 6.000 |
 | different | single | 6.000 |
 | include | single | 6.000 |
-| method | single | 6.000 |
 | platform-specific | compound | 6.000 |
 | windows-specific | compound | 6.000 |

@@ -1,0 +1,51 @@
+Title | Type Extensions
+API | Point
+API | Console.WriteLine
+API | WordCount
+API | IsNumeric
+API | Split
+API | Add
+API | IsNullOrEmpty
+API | Reset
+API | IsEmpty
+API | Length
+API | Batch
+API | Process
+Error | CS1061
+ErrorMessage | Type does not contain a definition for method and no accessible extension method accepting a first argument of type could be found
+Error | CS1501
+ErrorMessage | No overload for method takes N arguments
+Error | CS1503
+ErrorMessage | Argument type cannot convert from source to target type
+Error | CS1928
+ErrorMessage | Type does not contain a definition for method and the best extension method overload has some invalid arguments
+Error | CS1929
+ErrorMessage | Instance argument: cannot convert from source to target
+Error | CS8652
+ErrorMessage | The feature 'extension' is currently in Preview and unsupported. To use Preview features, use the 'preview' language version.
+Error | CS9273
+ErrorMessage | In language version 14.0, 'field' is a keyword within a property accessor
+Error | CS9281
+ErrorMessage | Extension declarations may not have a name
+Error | CS9282
+ErrorMessage | This member is not allowed in an extension block
+Error | CS9283
+ErrorMessage | Extensions must be declared in a static class
+Error | CS9286
+ErrorMessage | Extension resolution failed
+Error | CS9327
+ErrorMessage | Feature 'extension' is not available in C# 14.0. Please use language version preview or greater
+Error | CS9329
+ErrorMessage | Extension block collision with type
+Keyword | extension
+Keyword | extension members
+Keyword | extensions
+Keyword | extension methods
+Keyword | operators
+Keyword | extension method
+Keyword | extension operators
+Keyword | type extensions
+Keyword | blocks
+Keyword | operator
+Keyword | static
+Keyword | modern syntax

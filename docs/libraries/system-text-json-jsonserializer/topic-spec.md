@@ -40,8 +40,8 @@ System.Text.Json.JsonSerializer provides high-level APIs for converting between 
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 3087081535174783256 |
-| technical | simhash | 12992240880958973404 |
+| overview | simhash | 13176850832237699898 |
+| technical | simhash | 12992100100520943996 |
 
 ## Similarity Scores
 
@@ -60,6 +60,24 @@ System.Text.Json.JsonSerializer provides high-level APIs for converting between 
 | libraries | libraries/dotnet-10-library-improvements | 0.7658 |
 | csharp | csharp/csharp-14-features | 0.7259 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp/csharp-14-features | compile-time | 1.600 |
+| libraries/json-validation-security | deserialization | 2.300 |
+| libraries/system-text-json | json | 2.200 |
+| libraries/system-text-json | source generation | 1.700 |
+| libraries/system-text-json | compile-time | 1.600 |
+| libraries/system-text-json-dotnet-10 | source generation | 1.700 |
+| libraries/system-text-json-jsondocument | deserialization | 2.300 |
+| libraries/system-text-json-migrate-from-newtonsoft | json | 2.200 |
+| libraries/system-text-json-nodes | json | 2.200 |
+| libraries/system-text-json-source-generation | source generation | 1.700 |
+| libraries/system-text-json-source-generation | compile-time | 1.600 |
+| libraries/system-text-json-utf8jsonwriter | control | 1.700 |
+| libraries/system-text-json-utf8jsonwriter | output | 1.500 |
+
 ## APIs
 
 | API | Type | Count |
@@ -76,6 +94,23 @@ System.Text.Json.JsonSerializer provides high-level APIs for converting between 
 | JsonSerializable | attribute | 4 |
 | JsonSerializerOptions | method | 4 |
 | JsonStringEnumMemberName | attribute | 4 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| deserialization | 13.00 |
+| system.text.json.jsonserializer | 5.00 |
+| serialization | 10.00 |
+| source generation | 7.00 |
+| json | 12.00 |
+| jsonserializer | 9.00 |
+| serialize | 8.00 |
+| compile-time | 6.00 |
+| constructor parameters | 3.00 |
+| utf-8 operations | 3.00 |
+| control | 7.00 |
+| output | 5.00 |
 
 ## Chunks
 

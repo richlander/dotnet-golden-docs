@@ -11,7 +11,6 @@ Scores are from the topic-level authority analysis.
 | json | single | 18.000 |
 | jsonserializer | single | 18.000 |
 | serialize | single | 16.000 |
-| use | single | 11.000 |
 | deserialize | single | 8.000 |
 | names | single | 8.000 |
 | text | single | 7.500 |

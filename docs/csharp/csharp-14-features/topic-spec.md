@@ -59,7 +59,6 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | Keyword | Score |
 |---------|-------|
 | assignment | 6.00 |
-| extension | 5.00 |
 | compile-time | 4.00 |
 | zero-allocation | 3.00 |
 | enhanced | 4.00 |
@@ -149,6 +148,13 @@ Collection topic covering key C# 14 language features including the `field` keyw
 | libraries | libraries/span-based-string-processing | 0.7413 |
 | libraries | libraries/system-text-json | 0.7329 |
 | libraries | libraries/system-buffers-searchvalues | 0.7328 |
+
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp/properties-backing-fields | keyword | 1.400 |
+| libraries/system-text-json | compile-time | 1.400 |
 
 ## Chunks
 

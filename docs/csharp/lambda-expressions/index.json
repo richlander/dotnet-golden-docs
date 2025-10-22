@@ -15,16 +15,65 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 13789395562491052844
+      "fingerprint": 17753109691456815932
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 12974085684805370156
+      "fingerprint": 17603784879850267516
     }
   },
-  "keywords": null,
-  "keyword_hash": null,
+  "keywords": [
+    {
+      "name": "lambda",
+      "score": 13
+    },
+    {
+      "name": "delegate",
+      "score": 12
+    },
+    {
+      "name": "lambdas",
+      "score": 11
+    },
+    {
+      "name": "expression lambdas",
+      "score": 5
+    },
+    {
+      "name": "expression trees",
+      "score": 5
+    },
+    {
+      "name": "default parameters",
+      "score": 4
+    },
+    {
+      "name": "natural type",
+      "score": 4
+    },
+    {
+      "name": "statement lambdas",
+      "score": 4
+    },
+    {
+      "name": "parameter",
+      "score": 7
+    },
+    {
+      "name": "parameters",
+      "score": 7
+    },
+    {
+      "name": "lambda expressions",
+      "score": 3
+    },
+    {
+      "name": "explicit",
+      "score": 6
+    }
+  ],
+  "keyword_hash": 3537306058345706258,
   "apis": [
     {
       "name": "Console.WriteLine",
@@ -41,27 +90,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
+      "href": "/csharp/lambda-expressions/index.json",
       "description": "Lambda expressions create anonymous functions with expression or statement bodies, supporting natural type inference, parameter modifiers, default parameters, static lambdas, and async operations."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
+      "href": "/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/topic-spec.md",
+      "href": "/csharp/lambda-expressions/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/golden-reference.md",
+      "href": "/csharp/lambda-expressions/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+        "href": "/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.76,
         "hashes": {
@@ -83,31 +132,31 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7338,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13140261422667071802
+            "fingerprint": 13140261422667596090
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240838009291132
+            "fingerprint": 12992241387765105020
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/async-await/index.json",
+        "href": "/csharp/async-await/index.json",
         "title": "Async and Await",
         "similarity": 0.727,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748041905982472506
+            "fingerprint": 17748041905982997306
           },
           "technical": {
             "name": "technical",
@@ -117,7 +166,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
+        "href": "/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.727,
         "hashes": {
@@ -139,14 +188,14 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
+        "href": "/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.7124,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135792371890684214
+            "fingerprint": 13135792371891208502
           },
           "technical": {
             "name": "technical",
@@ -156,41 +205,41 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
         "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7111,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991642545835409712
+            "fingerprint": 12991642545835417904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603926856436687228
+            "fingerprint": 17603927406192501116
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
+        "href": "/csharp/properties-backing-fields/index.json",
         "title": "Properties and Backing Fields",
         "similarity": 0.684,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 8792651860460152757
+            "fingerprint": 8524071852922209080
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603783919925071324
+            "fingerprint": 17748004640716161848
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/string-search-operations/index.json",
+        "href": "/libraries/string-search-operations/index.json",
         "title": "String Search Operations",
         "similarity": 0.6821,
         "hashes": {
@@ -207,24 +256,24 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.6768,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3087081535174783256
+            "fingerprint": 13176850832237699898
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240880958973404
+            "fingerprint": 12992100100520943996
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
+        "href": "/csharp/collection-initialization/index.json",
         "title": "Collection Initialization",
         "similarity": 0.6759,
         "hashes": {
@@ -236,7 +285,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135758833431281974
+            "fingerprint": 13135758833431281970
           },
           "technical": {
             "name": "technical",
@@ -246,7 +295,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.675,
         "hashes": {
@@ -287,7 +336,7 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/_chunks/golden-reference-0.md",
+            "href": "/csharp/lambda-expressions/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -296,7 +345,7 @@
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/_chunks/golden-reference-1.md",
+            "href": "/csharp/lambda-expressions/_chunks/golden-reference-1.md",
             "title": "Expression Lambdas",
             "is_code": true,
             "similarity_conceptual": 0.7132999999999999,
@@ -305,7 +354,7 @@
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/_chunks/golden-reference-2.md",
+            "href": "/csharp/lambda-expressions/_chunks/golden-reference-2.md",
             "title": "Parameter Modifiers",
             "is_code": true,
             "similarity_conceptual": 0.6984,
@@ -314,7 +363,7 @@
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/_chunks/golden-reference-3.md",
+            "href": "/csharp/lambda-expressions/_chunks/golden-reference-3.md",
             "title": "Async Lambdas",
             "is_code": true,
             "similarity_conceptual": 0.6446999999999999,
@@ -323,7 +372,7 @@
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/_chunks/golden-reference-4.md",
+            "href": "/csharp/lambda-expressions/_chunks/golden-reference-4.md",
             "title": "Type Inference",
             "is_code": true,
             "similarity_conceptual": 0.6973999999999999,
@@ -335,7 +384,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.0661824Z",
+    "generated": "2025-10-22T17:59:54.5312345Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

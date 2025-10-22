@@ -40,8 +40,8 @@ System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-o
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 2796080149753443096 |
-| technical | simhash | 12704010495948890620 |
+| overview | simhash | 13136881455338070840 |
+| technical | simhash | 12992240838009299324 |
 
 ## Similarity Scores
 
@@ -60,6 +60,15 @@ System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-o
 | libraries | libraries/json-validation-security | 0.7223 |
 | libraries | libraries/system-text-json-source-generation | 0.7151 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/json-streaming-io | utf-8 | 1.900 |
+| libraries/json-validation-security | during | 1.600 |
+| libraries/span-based-string-processing | utf-8 | 1.900 |
+| libraries/system-buffers-searchvalues | values | 1.900 |
+
 ## APIs
 
 | API | Type | Count |
@@ -75,6 +84,23 @@ System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-o
 | GetBoolean | method | 3 |
 | ReadAsync | method | 3 |
 | Skip | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| parsing | 17.00 |
+| utf8jsonreader | 12.00 |
+| system.text.json.utf8jsonreader | 5.00 |
+| reading | 7.00 |
+| utf-8 | 9.00 |
+| values | 9.00 |
+| forward-only | 4.00 |
+| process | 6.00 |
+| reader | 6.00 |
+| token | 5.00 |
+| during | 6.00 |
+| multi-segment | 3.00 |
 
 ## Chunks
 

@@ -44,8 +44,8 @@
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 12991642545835409712 |
-| technical | simhash | 17603926856436687228 |
+| overview | simhash | 12991642545835417904 |
+| technical | simhash | 17603927406192501116 |
 
 ## Relationships
 
@@ -62,7 +62,6 @@
 | Keyword | Score |
 |---------|-------|
 | async linq | 7.00 |
-| use | 17.00 |
 | data | 11.00 |
 | iteration | 11.00 |
 | iasyncenumerable | 7.00 |
@@ -73,6 +72,7 @@
 | enumeration | 6.00 |
 | considerations | 7.00 |
 | loading | 5.00 |
+| gt | 6.00 |
 
 ## APIs
 
@@ -114,7 +114,18 @@
 
 ## Authority Scores
 
-(Authority scores will be computed based on keyword analysis)
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp/async-await | considerations | 1.700 |
+| csharp/async-await | async | 1.600 |
+| libraries/collections-performance | enumeration | 1.600 |
+| libraries/system-collections-generic-ienumerable | iteration | 2.100 |
+| libraries/system-collections-generic-ienumerable | consider | 1.600 |
+| libraries/system-collections-generic-ienumerable | enumeration | 1.600 |
+| libraries/system-collections-generic-ienumerable | gt | 1.600 |
+| libraries/system-collections-generic-ienumerable | deferred execution | 1.400 |
+| libraries/system-threading-tasks-task | considerations | 1.700 |
+| libraries/system-threading-tasks-task | consider | 1.600 |
 
 ## Chunks
 

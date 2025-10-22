@@ -37,7 +37,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | capabilities | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | changes | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | chat | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| extensions | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | function | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | implement | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | opentelemetry | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

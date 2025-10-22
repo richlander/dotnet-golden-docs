@@ -17,7 +17,6 @@ Scores are from the topic-level authority analysis.
 | microservices | single | 8.000 |
 | pipeline | single | 8.000 |
 | through | single | 7.500 |
-| extensions | single | 6.000 |
 | factory | single | 6.000 |
 | failures | single | 6.000 |
 | retry | single | 6.000 |

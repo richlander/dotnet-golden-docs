@@ -8,7 +8,6 @@ Scores are from the topic-level authority analysis.
 | collection expressions | compound | 45.000 |
 | collection initialization | compound | 27.000 |
 | values | single | 9.000 |
-| syntax | single | 8.000 |
 | collection initializer syntax | compound | 7.500 |
 | capacity | single | 6.000 |
 | dictionaries | single | 6.000 |

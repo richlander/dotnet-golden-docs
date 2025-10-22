@@ -130,29 +130,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/index.json",
+      "href": "/extensions/microsoft-extensions-http-resilience/index.json",
       "description": "Resilience mechanisms for HttpClient built on Polly framework with pre-configured patterns for retry, circuit breaking, hedging, and rate limiting."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/index.json",
+      "href": "/extensions/index.json",
       "description": "Extensions category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/topic-spec.md",
+      "href": "/extensions/microsoft-extensions-http-resilience/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/golden-reference.md",
+      "href": "/extensions/microsoft-extensions-http-resilience/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
+        "href": "/extensions/microsoft-extensions-ai/index.json",
         "title": "Microsoft.Extensions.AI",
         "similarity": 0.6811,
+        "authority": {
+          "microsoft": 1.5
+        },
         "hashes": {
           "overview": {
             "name": "overview",
@@ -167,31 +170,34 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
+        "href": "/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.6457,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997132427928207738
+            "fingerprint": 12996006510841495866
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992066015660474748
+            "fingerprint": 12997132565241266556
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai-evaluation/index.json",
+        "href": "/extensions/microsoft-extensions-ai-evaluation/index.json",
         "title": "Microsoft.Extensions.AI.Evaluation",
         "similarity": 0.6424,
+        "authority": {
+          "microsoft": 1.5
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997269984866861368
+            "fingerprint": 12997129247378506040
           },
           "technical": {
             "name": "technical",
@@ -201,14 +207,14 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
+        "href": "/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.6273,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135792371890684214
+            "fingerprint": 13135792371891208502
           },
           "technical": {
             "name": "technical",
@@ -218,24 +224,24 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
+        "href": "/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.6271,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12995440279407100792
+            "fingerprint": 12995440278333358968
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995475601218077040
+            "fingerprint": 12995475601218076976
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
+        "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6259,
         "hashes": {
@@ -247,7 +253,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992627727723340090
+            "fingerprint": 12992064777769918778
           },
           "technical": {
             "name": "technical",
@@ -257,7 +263,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6244,
         "hashes": {
@@ -274,24 +280,24 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.6177,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13444401641859923858
+            "fingerprint": 17788396251557667634
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13280328320399320536
+            "fingerprint": 13136213089573544312
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
+        "href": "/cli/publishing-and-deployment/index.json",
         "title": "Publishing and Deployment",
         "similarity": 0.6171,
         "hashes": {
@@ -313,24 +319,24 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
+        "href": "/libraries/json-validation-security/index.json",
         "title": "JSON Validation and Security",
         "similarity": 0.6161,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 4220134623093668640
+            "fingerprint": 17751841818310779706
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12694860369024133596
+            "fingerprint": 12992097901497688444
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+        "href": "/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.6045,
         "hashes": {
@@ -352,7 +358,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/index.json",
+        "href": "/cli/assembly-trimming/index.json",
         "title": "Assembly Trimming",
         "similarity": 0.6045,
         "hashes": {
@@ -400,64 +406,64 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-0.md",
+            "href": "/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
             "similarity_technical": 0.7272,
-            "keyword_hash": 14993785322868400124
+            "keyword_hash": 13840863813966585852
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-1.md",
+            "href": "/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-1.md",
             "title": "Custom Resilience Pipeline",
             "is_code": true,
             "similarity_conceptual": 0.7272,
             "similarity_technical": 1,
-            "keyword_hash": 15752652616028413756
+            "keyword_hash": 14598569957349416764
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-2.md",
+            "href": "/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-2.md",
             "title": "Resilience with Custom Logic",
             "is_code": true,
             "similarity_conceptual": 0.6336999999999999,
             "similarity_technical": 0.7089,
-            "keyword_hash": 15568943944166821177
+            "keyword_hash": 15713080297849966399
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-3.md",
+            "href": "/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-3.md",
             "title": "External API Integration with Fallbacks",
             "is_code": true,
             "similarity_conceptual": 0.6336999999999999,
             "similarity_technical": 0.6689999999999999,
-            "keyword_hash": 15569683899996458475
+            "keyword_hash": 6346276669508570410
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-4.md",
+            "href": "/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-4.md",
             "title": "Observability and Monitoring",
             "is_code": true,
             "similarity_conceptual": 0.5884999999999999,
             "similarity_technical": 0.5982999999999999,
-            "keyword_hash": 13872714196499123832
+            "keyword_hash": 9259409669034167864
           },
           {
             "index": 5,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-5.md",
+            "href": "/extensions/microsoft-extensions-http-resilience/_chunks/golden-reference-5.md",
             "title": "Circuit Breaker State Management",
             "is_code": true,
             "similarity_conceptual": 0.6150999999999999,
             "similarity_technical": 0.6074999999999999,
-            "keyword_hash": 17295968856607051257
+            "keyword_hash": 17440092840785371133
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.0846480Z",
+    "generated": "2025-10-22T17:59:54.5481139Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -13,7 +13,6 @@ Scores are from the topic-level authority analysis.
 | open-source | compound | 15.000 |
 | tools | single | 14.000 |
 | runtime | single | 12.000 |
-| modern | single | 12.000 |
 | community | single | 10.000 |
 | enables | single | 10.000 |
 | supported | single | 10.000 |
@@ -22,6 +21,7 @@ Scores are from the topic-level authority analysis.
 | garbage collector | compound | 9.000 |
 | high-level | compound | 9.000 |
 | linux | single | 8.000 |
+| modern | single | 8.000 |
 | programming | single | 8.000 |
 | multiple | single | 7.500 |
 | actively | single | 6.000 |

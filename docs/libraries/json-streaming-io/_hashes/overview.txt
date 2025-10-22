@@ -1,2 +1,14 @@
 Title | JSON Streaming and I/O
+Keyword | json streaming
+Keyword | streaming
+Keyword | large
+Keyword | streams
+Keyword | utf-8
+Keyword | pipeline
+Keyword | streaming apis
+Keyword | buffer
+Keyword | memory-efficient parsing
+Keyword | stream-based serialization
+Keyword | utf-8 direct processing
+Keyword | high-throughput
 Description | JSON streaming and I/O capabilities in System.Text.Json enable efficient processing of JSON data from various sources including streams, pipes, and asynchronous operations. These features allow developers to work with large JSON documents, real-time data streams, and high-throughput scenarios without loading entire documents into memory. PipeReader support enables direct deserialization from System.IO.Pipelines for high-performance pipeline scenarios, while stream-based serialization provides incremental reading and writing. Async patterns support non-blocking I/O operations, and UTF-8 direct processing eliminates string conversion overhead. These capabilities are essential for building memory-efficient, high-performance applications that process JSON at scale.

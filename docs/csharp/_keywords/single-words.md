@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 406
-Total word occurrences: 660
+Total unique words: 403
+Total word occurrences: 653
 Total document words: 1412
 
 | Word | Count | Document Concentration |
@@ -18,7 +18,6 @@ Total document words: 1412
 | data | 6 | 0.0042 |
 | enables | 6 | 0.0042 |
 | while | 6 | 0.0042 |
-| code | 5 | 0.0035 |
 | control | 5 | 0.0035 |
 | developers | 5 | 0.0035 |
 | object-oriented | 5 | 0.0035 |
@@ -37,6 +36,7 @@ Total document words: 1412
 | net | 4 | 0.0028 |
 | offers | 4 | 0.0028 |
 | abstraction | 3 | 0.0021 |
+| code | 3 | 0.0021 |
 | constructs | 3 | 0.0021 |
 | extensible | 3 | 0.0021 |
 | frameworks | 3 | 0.0021 |
@@ -44,7 +44,6 @@ Total document words: 1412
 | high-performance | 3 | 0.0021 |
 | mainstream | 3 | 0.0021 |
 | many | 3 | 0.0021 |
-| modern | 3 | 0.0021 |
 | provide | 3 | 0.0021 |
 | range | 3 | 0.0021 |
 | run | 3 | 0.0021 |
@@ -236,7 +235,6 @@ Total document words: 1412
 | general | 1 | 0.0007 |
 | gotchas | 1 | 0.0007 |
 | great | 1 | 0.0007 |
-| group | 1 | 0.0007 |
 | having | 1 | 0.0007 |
 | http | 1 | 0.0007 |
 | hundreds | 1 | 0.0007 |
@@ -299,6 +297,7 @@ Total document words: 1412
 | mobile | 1 | 0.0007 |
 | modeling | 1 | 0.0007 |
 | models | 1 | 0.0007 |
+| modern | 1 | 0.0007 |
 | modifier | 1 | 0.0007 |
 | much | 1 | 0.0007 |
 | multi-dimensional | 1 | 0.0007 |
@@ -341,7 +340,6 @@ Total document words: 1412
 | recognition | 1 | 0.0007 |
 | records | 1 | 0.0007 |
 | regular | 1 | 0.0007 |
-| related | 1 | 0.0007 |
 | relationship | 1 | 0.0007 |
 | relationships | 1 | 0.0007 |
 | remote | 1 | 0.0007 |
@@ -377,7 +375,6 @@ Total document words: 1412
 | structs | 1 | 0.0007 |
 | switch | 1 | 0.0007 |
 | symbiotic | 1 | 0.0007 |
-| syntax | 1 | 0.0007 |
 | synthesizes | 1 | 0.0007 |
 | systems | 1 | 0.0007 |
 | targeting | 1 | 0.0007 |

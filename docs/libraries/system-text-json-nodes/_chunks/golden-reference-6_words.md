@@ -24,7 +24,6 @@ Scores are from the topic-level authority analysis.
 | unknown | single | 8.000 |
 | into | single | 7.500 |
 | json proxy middleware | compound | 7.500 |
-| use | single | 7.000 |
 | construction | single | 6.000 |
 | modification | single | 6.000 |
 | offers | single | 6.000 |

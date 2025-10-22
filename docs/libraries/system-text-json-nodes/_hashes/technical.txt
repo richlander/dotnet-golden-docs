@@ -10,3 +10,15 @@ API | DateTime.UtcNow.ToString
 API | DeepClone
 API | Console.WriteLine
 API | JsonArray
+Keyword | json
+Keyword | system.text.json.nodes
+Keyword | strongly-typed
+Keyword | json documents
+Keyword | nodes
+Keyword | read-only
+Keyword | type safety
+Keyword | strongly-typed objects
+Keyword | runtime
+Keyword | better
+Keyword | between
+Keyword | dynamic

@@ -7,7 +7,6 @@ Scores are from the topic-level authority analysis.
 |------|------|-------|
 | ienumerable | single | 26.000 |
 | sequences | single | 26.000 |
-| use | single | 22.000 |
 | need | single | 18.000 |
 | iteration | single | 16.500 |
 | multiple | single | 16.500 |
@@ -18,7 +17,6 @@ Scores are from the topic-level authority analysis.
 | iterator | single | 12.000 |
 | considerations | single | 10.500 |
 | large | single | 10.000 |
-| operators | single | 10.000 |
 | sequence | single | 10.000 |
 | yield return | compound | 9.900 |
 | each | single | 8.000 |
@@ -29,6 +27,5 @@ Scores are from the topic-level authority analysis.
 | expensive | single | 6.000 |
 | foreach | single | 6.000 |
 | iterate | single | 6.000 |
-| method | single | 6.000 |
 | results | single | 6.000 |
 | data | single | 4.500 |

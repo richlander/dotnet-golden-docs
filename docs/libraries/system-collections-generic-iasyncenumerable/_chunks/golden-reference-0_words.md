@@ -6,7 +6,6 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | async linq | compound | 23.100 |
-| use | single | 17.000 |
 | data | single | 16.500 |
 | iteration | single | 16.500 |
 | iasyncenumerable | single | 14.000 |
@@ -21,7 +20,6 @@ Scores are from the topic-level authority analysis.
 | database | single | 8.000 |
 | linq | single | 8.000 |
 | materialize | single | 8.000 |
-| operators | single | 8.000 |
 | paginated | single | 8.000 |
 | sources | single | 8.000 |
 | streams | single | 8.000 |

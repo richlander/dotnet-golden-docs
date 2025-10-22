@@ -2,8 +2,8 @@
 
 Combined 17 compound terms and 266 single words
 Total unique terms: 274
-Terms with score ≥ 3.0: 78
-Total term occurrences: 659
+Terms with score ≥ 3.0: 77
+Total term occurrences: 657
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -52,7 +52,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | command-line | compound | 3 | 1.00x | 1.50x | 4.5 |
 | whats-new | compound | 3 | 1.00x | 1.50x | 4.5 |
 | basic | single | 4 | 1.00x | 1.00x | 4.0 |
-| code | single | 4 | 1.00x | 1.00x | 4.0 |
 | complexity | single | 4 | 1.00x | 1.00x | 4.0 |
 | migration | single | 4 | 1.00x | 1.00x | 4.0 |
 | run | single | 4 | 1.00x | 1.00x | 4.0 |

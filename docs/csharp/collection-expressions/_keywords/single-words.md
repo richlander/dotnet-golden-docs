@@ -1,13 +1,12 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 135
-Total word occurrences: 178
+Total unique words: 134
+Total word occurrences: 173
 Total document words: 431
 
 | Word | Count | Document Concentration |
 |------|-------|------------------------|
-| syntax | 6 | 0.0139 |
 | spread | 5 | 0.0116 |
 | familiar | 4 | 0.0093 |
 | use | 4 | 0.0093 |
@@ -31,6 +30,7 @@ Total document words: 431
 | rather | 2 | 0.0046 |
 | readable | 2 | 0.0046 |
 | rust | 2 | 0.0046 |
+| syntax | 2 | 0.0046 |
 | users | 2 | 0.0046 |
 | working | 2 | 0.0046 |
 | actual | 1 | 0.0023 |
@@ -112,7 +112,6 @@ Total document words: 431
 | matter | 1 | 0.0023 |
 | medium-sized | 1 | 0.0023 |
 | minimal | 1 | 0.0023 |
-| modern | 1 | 0.0023 |
 | nested | 1 | 0.0023 |
 | notation | 1 | 0.0023 |
 | optimizations | 1 | 0.0023 |

@@ -16,14 +16,12 @@ Scores are from the topic-level authority analysis.
 | implementations | single | 12.000 |
 | separate | single | 12.000 |
 | split | single | 12.000 |
-| use | single | 10.000 |
 | class | single | 8.000 |
 | one | single | 8.000 |
 | primary | single | 8.000 |
 | attributes | single | 7.500 |
 | partial constructors | compound | 6.600 |
 | partial events | compound | 6.600 |
-| code | single | 6.000 |
 | accessors | single | 6.000 |
 | base | single | 6.000 |
 | classes | single | 6.000 |

@@ -16,7 +16,6 @@ Scores are from the topic-level authority analysis.
 | projects | single | 12.000 |
 | consistent | single | 10.000 |
 | sdk | single | 10.000 |
-| runtime | single | 8.000 |
 | limitations | single | 8.000 |
 | path | single | 8.000 |
 | solution | single | 8.000 |

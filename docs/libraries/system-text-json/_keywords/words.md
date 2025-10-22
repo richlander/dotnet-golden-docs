@@ -57,7 +57,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | depth | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | different | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | each | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| extensions | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | gen | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | loading | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | loose | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
@@ -75,7 +74,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | early | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | enables | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | errors | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
-| extension | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | forward-only | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | high-throughput | compound | 2 | 1.00x | 1.50x | 2.0x | 6.000 |
 | http | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

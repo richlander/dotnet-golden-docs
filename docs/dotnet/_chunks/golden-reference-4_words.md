@@ -14,7 +14,6 @@ Scores are from the topic-level authority analysis.
 | tools | single | 14.000 |
 | runtime | single | 12.000 |
 | code | single | 12.000 |
-| modern | single | 12.000 |
 | functionality | single | 10.000 |
 | windows | single | 10.000 |
 | high-level | compound | 9.000 |
@@ -23,6 +22,7 @@ Scores are from the topic-level authority analysis.
 | developers | single | 8.000 |
 | linux | single | 8.000 |
 | many | single | 8.000 |
+| modern | single | 8.000 |
 | programming | single | 8.000 |
 | set | single | 8.000 |
 | multiple | single | 7.500 |

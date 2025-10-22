@@ -13,7 +13,6 @@ Scores are from the topic-level authority analysis.
 | jsonserializer | single | 18.000 |
 | serialize | single | 16.000 |
 | constructor parameters | compound | 11.250 |
-| use | single | 11.000 |
 | output | single | 10.000 |
 | circular references | compound | 9.900 |
 | constructor | single | 8.000 |

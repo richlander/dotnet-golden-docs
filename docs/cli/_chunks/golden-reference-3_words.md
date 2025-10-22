@@ -10,7 +10,6 @@ Scores are from the topic-level authority analysis.
 | commands | single | 18.000 |
 | projects | single | 12.000 |
 | sdk | single | 10.000 |
-| runtime | single | 8.000 |
 | solution | single | 8.000 |
 | tool | single | 8.000 |
 | organization | single | 6.000 |

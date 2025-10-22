@@ -30,7 +30,6 @@ Scores are from the topic-level authority analysis.
 | through | single | 7.500 |
 | custom resilience | compound | 6.600 |
 | comprehensive | single | 6.000 |
-| extensions | single | 6.000 |
 | factory | single | 6.000 |
 | failures | single | 6.000 |
 | reliable | single | 6.000 |

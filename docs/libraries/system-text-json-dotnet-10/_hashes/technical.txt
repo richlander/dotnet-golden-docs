@@ -7,3 +7,15 @@ API | System.Text
 API | System.IO
 API | System.IO.Pipelines
 API | Console.WriteLine
+Keyword | net 10
+Keyword | source generation
+Keyword | duplicate detection
+Keyword | strict options
+Keyword | zero-copy
+Keyword | options
+Keyword | strict
+Keyword | duplicate property detection
+Keyword | system.text.json
+Keyword | high-throughput
+Keyword | pipereader
+Keyword | preset

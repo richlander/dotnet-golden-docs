@@ -113,9 +113,13 @@ Publishing and deployment encompasses the distribution-time workflow of preparin
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| cli/native-aot | native aot | 1.322 |
-| libraries/system-text-json-source-generation | native aot | 1.322 |
-
+| cli/build-and-compilation | compilation | 1.500 |
+| cli/native-aot | native aot | 2.300 |
+| cli/native-aot | runtime | 2.000 |
+| cli/native-aot | self-contained | 1.700 |
+| cli/native-aot | compilation | 1.500 |
+| dotnet | runtime | 2.000 |
+| libraries/system-text-json-source-generation | native aot | 2.300 |
 
 ## Chunks
 

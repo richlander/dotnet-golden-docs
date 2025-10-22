@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 410
-Total word occurrences: 863
+Total unique words: 406
+Total word occurrences: 853
 Total document words: 1617
 
 | Word | Count | Document Concentration |
@@ -49,7 +49,6 @@ Total document words: 1617
 | depth | 4 | 0.0025 |
 | different | 4 | 0.0025 |
 | each | 4 | 0.0025 |
-| extensions | 4 | 0.0025 |
 | gen | 4 | 0.0025 |
 | high-performance | 4 | 0.0025 |
 | loading | 4 | 0.0025 |
@@ -65,7 +64,6 @@ Total document words: 1617
 | early | 3 | 0.0019 |
 | enables | 3 | 0.0019 |
 | errors | 3 | 0.0019 |
-| extension | 3 | 0.0019 |
 | high-level | 3 | 0.0019 |
 | http | 3 | 0.0019 |
 | in-box | 3 | 0.0019 |
@@ -97,7 +95,6 @@ Total document words: 1617
 | chat | 2 | 0.0012 |
 | choose | 2 | 0.0012 |
 | client | 2 | 0.0012 |
-| code | 2 | 0.0012 |
 | comparison | 2 | 0.0012 |
 | compilation | 2 | 0.0012 |
 | component-specific | 2 | 0.0012 |
@@ -359,7 +356,6 @@ Total document words: 1617
 | registrations | 1 | 0.0006 |
 | reject | 1 | 0.0006 |
 | rejects | 1 | 0.0006 |
-| related | 1 | 0.0006 |
 | req | 1 | 0.0006 |
 | requests | 1 | 0.0006 |
 | requiring | 1 | 0.0006 |

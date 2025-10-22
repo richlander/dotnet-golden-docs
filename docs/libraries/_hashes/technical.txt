@@ -9,10 +9,10 @@ Keyword | data access
 Keyword | library ecosystem
 Keyword | frameworks
 Keyword | dependency injection
-Keyword | patterns
-Keyword | system
 Keyword | application
 Keyword | memory management
 Keyword | asp.net core
 Keyword | azure sdk
 Keyword | entity framework core
+Keyword | high-performance collections
+Keyword | third-party

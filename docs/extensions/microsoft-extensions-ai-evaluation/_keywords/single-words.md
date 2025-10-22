@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 198
-Total word occurrences: 368
+Total unique words: 197
+Total word occurrences: 363
 Total document words: 595
 
 | Word | Count | Document Concentration |
@@ -14,7 +14,6 @@ Total document words: 595
 | azure | 6 | 0.0101 |
 | evaluators | 6 | 0.0101 |
 | metrics | 6 | 0.0101 |
-| extensions | 5 | 0.0084 |
 | nlp | 5 | 0.0084 |
 | reporting | 5 | 0.0084 |
 | assurance | 4 | 0.0067 |
@@ -113,6 +112,7 @@ Total document words: 595
 | essential | 1 | 0.0017 |
 | evaluate | 1 | 0.0017 |
 | examples | 1 | 0.0017 |
+| extensions | 1 | 0.0017 |
 | f1 | 1 | 0.0017 |
 | failures | 1 | 0.0017 |
 | fluency | 1 | 0.0017 |
@@ -148,7 +148,6 @@ Total document words: 595
 | manual | 1 | 0.0017 |
 | material | 1 | 0.0017 |
 | metric | 1 | 0.0017 |
-| modern | 1 | 0.0017 |
 | multi-dimensional | 1 | 0.0017 |
 | multi-evaluator | 1 | 0.0017 |
 | necessary | 1 | 0.0017 |

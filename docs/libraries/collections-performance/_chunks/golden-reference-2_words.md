@@ -11,7 +11,6 @@ Scores are from the topic-level authority analysis.
 | collections performance | compound | 18.000 |
 | optimizations | single | 12.000 |
 | enumeration | single | 10.000 |
-| runtime | single | 9.000 |
 | devirtualization | single | 8.000 |
 | index | single | 8.000 |
 | small | single | 8.000 |

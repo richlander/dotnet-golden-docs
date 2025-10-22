@@ -7,7 +7,6 @@ Scores are from the topic-level authority analysis.
 |------|------|-------|
 | deferred execution | compound | 26.400 |
 | ienumerable | single | 26.000 |
-| use | single | 22.000 |
 | need | single | 18.000 |
 | iteration | single | 16.500 |
 | enumeration | single | 14.000 |

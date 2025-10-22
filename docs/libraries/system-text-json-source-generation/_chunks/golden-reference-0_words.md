@@ -14,7 +14,6 @@ Scores are from the topic-level authority analysis.
 | native aot | compound | 9.900 |
 | native aot applications | compound | 9.900 |
 | aot-compatible | compound | 9.000 |
-| runtime | single | 8.000 |
 | attributes | single | 6.000 |
 | utf-8 | single | 6.000 |
 | mandatory | single | 6.000 |

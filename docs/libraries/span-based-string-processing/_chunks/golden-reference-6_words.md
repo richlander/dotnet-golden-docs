@@ -11,7 +11,6 @@ Scores are from the topic-level authority analysis.
 | strings | single | 20.000 |
 | without | single | 18.000 |
 | span-based string processing | compound | 13.500 |
-| use | single | 12.000 |
 | string | single | 12.000 |
 | buffers | single | 8.000 |
 | many | single | 8.000 |

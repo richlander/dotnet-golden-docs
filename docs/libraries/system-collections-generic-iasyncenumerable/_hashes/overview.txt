@@ -1,6 +1,5 @@
 Title | IAsyncEnumerable&lt;T&gt;
 Keyword | async linq
-Keyword | use
 Keyword | data
 Keyword | iteration
 Keyword | iasyncenumerable
@@ -11,4 +10,5 @@ Keyword | each
 Keyword | enumeration
 Keyword | considerations
 Keyword | loading
+Keyword | gt
 Description | `IAsyncEnumerable<T>` is an interface representing an asynchronous sequence of elements that can be enumerated using `await foreach`. Introduced in C# 8.0 and .NET Core 3.0, it enables non-blocking iteration over async data sources like network streams, database queries, and paginated APIs. It brings the composability and deferred execution benefits of `IEnumerable<T>` to asynchronous scenarios, allowing streaming data processing without blocking threads or loading entire datasets into memory.

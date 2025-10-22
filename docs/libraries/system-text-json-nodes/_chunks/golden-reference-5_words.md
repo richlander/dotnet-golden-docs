@@ -20,7 +20,6 @@ Scores are from the topic-level authority analysis.
 | structure | single | 8.000 |
 | building json | compound | 7.500 |
 | json proxy middleware | compound | 7.500 |
-| use | single | 7.000 |
 | offers | single | 6.000 |
 | known | single | 4.500 |
 | multiple | single | 4.500 |

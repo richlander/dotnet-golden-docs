@@ -10,8 +10,6 @@ Scores are from the topic-level authority analysis.
 | library ecosystem | compound | 11.250 |
 | frameworks | single | 10.000 |
 | dependency injection | compound | 9.900 |
-| patterns | single | 8.000 |
-| system | single | 8.000 |
 | application | single | 8.000 |
 | asp.net core | compound | 7.425 |
 | high-performance collections | compound | 6.600 |

@@ -18,6 +18,6 @@ Keyword | commandline
 Keyword | help
 Keyword | hierarchies
 Keyword | option
-Keyword | use
 Keyword | model binding
 Keyword | arguments
+Keyword | commands

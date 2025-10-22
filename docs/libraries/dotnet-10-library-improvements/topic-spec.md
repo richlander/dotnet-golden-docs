@@ -95,6 +95,12 @@ Collection topic covering key .NET 10 library improvements including numeric str
 | libraries | libraries/string-search-operations | 0.7306 |
 | libraries | libraries/system-collections-generic-ienumerable | 0.7206 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| libraries/json-validation-security | security | 1.700 |
+
 ## Critical limitations
 
 - NumericOrdering: Only works with comparison operations, not IndexOf/StartsWith/EndsWith

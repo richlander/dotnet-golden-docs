@@ -18,5 +18,4 @@ Scores are from the topic-level authority analysis.
 | pipeline | single | 8.000 |
 | through | single | 7.500 |
 | comprehensive | single | 6.000 |
-| extensions | single | 6.000 |
 | retry | single | 6.000 |

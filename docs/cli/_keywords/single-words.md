@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 294
-Total word occurrences: 520
+Total unique words: 290
+Total word occurrences: 515
 Total document words: 860
 
 | Word | Count | Document Concentration |
@@ -83,7 +83,6 @@ Total document words: 860
 | platform-specific | 2 | 0.0023 |
 | platforms | 2 | 0.0023 |
 | publishing | 2 | 0.0023 |
-| related | 2 | 0.0023 |
 | sensitivity | 2 | 0.0023 |
 | slow | 2 | 0.0023 |
 | targeting | 2 | 0.0023 |
@@ -169,7 +168,6 @@ Total document words: 860
 | exist | 1 | 0.0012 |
 | explicit | 1 | 0.0012 |
 | extensible | 1 | 0.0012 |
-| extension | 1 | 0.0012 |
 | fallback | 1 | 0.0012 |
 | faster | 1 | 0.0012 |
 | file-based | 1 | 0.0012 |
@@ -183,7 +181,6 @@ Total document words: 860
 | functions | 1 | 0.0012 |
 | generally | 1 | 0.0012 |
 | gotchas | 1 | 0.0012 |
-| group | 1 | 0.0012 |
 | grow | 1 | 0.0012 |
 | hierarchical | 1 | 0.0012 |
 | hierarchies | 1 | 0.0012 |
@@ -213,7 +210,6 @@ Total document words: 860
 | maui | 1 | 0.0012 |
 | mechanisms | 1 | 0.0012 |
 | migration | 1 | 0.0012 |
-| modern | 1 | 0.0012 |
 | multi-level | 1 | 0.0012 |
 | multi-platform | 1 | 0.0012 |
 | noun | 1 | 0.0012 |

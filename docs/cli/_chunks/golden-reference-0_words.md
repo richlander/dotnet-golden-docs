@@ -16,7 +16,6 @@ Scores are from the topic-level authority analysis.
 | sdk | single | 10.000 |
 | development workflow | compound | 9.900 |
 | net cli | compound | 9.000 |
-| runtime | single | 8.000 |
 | tool | single | 8.000 |
 | cross-platform | compound | 7.425 |
 | application | single | 6.000 |

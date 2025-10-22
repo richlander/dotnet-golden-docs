@@ -14,3 +14,15 @@ API | JsonConverter
 API | JsonDerivedType
 API | JsonPropertyName
 API | Select
+Keyword | newtonsoft.json
+Keyword | system.text.json
+Keyword | newtonsoft
+Keyword | text
+Keyword | custom converters
+Keyword | json
+Keyword | system
+Keyword | configurable
+Keyword | different
+Keyword | jsonnode
+Keyword | mappings
+Keyword | rejected

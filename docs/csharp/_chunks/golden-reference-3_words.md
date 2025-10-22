@@ -15,7 +15,6 @@ Scores are from the topic-level authority analysis.
 | developers | single | 10.000 |
 | using | single | 10.000 |
 | data | single | 9.000 |
-| provides | single | 8.000 |
 | both | single | 8.000 |
 | capabilities | single | 8.000 |
 | compiler | single | 8.000 |
@@ -23,8 +22,8 @@ Scores are from the topic-level authority analysis.
 | enable | single | 8.000 |
 | languages | single | 8.000 |
 | net | single | 8.000 |
-| code | single | 7.500 |
 | control | single | 7.500 |
+| code | single | 6.000 |
 | extensible | single | 6.000 |
 | language-integrated | compound | 6.000 |
 | many | single | 6.000 |

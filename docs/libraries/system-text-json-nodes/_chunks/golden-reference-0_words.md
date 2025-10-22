@@ -29,7 +29,6 @@ Scores are from the topic-level authority analysis.
 | into | single | 7.500 |
 | values | single | 7.500 |
 | building json | compound | 7.500 |
-| use | single | 7.000 |
 | construction | single | 6.000 |
 | document object model | compound | 6.000 |
 | modification | single | 6.000 |

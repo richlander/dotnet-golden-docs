@@ -46,8 +46,8 @@ Partial classes split the definition of a type (class, struct, or interface) and
 
 | Name | Kind | Fingerprint |
 |------|------|-------------|
-| overview | simhash | 3375945098908056738 |
-| technical | simhash | 12992239223101612492 |
+| overview | simhash | 17751417474476581170 |
+| technical | simhash | 17607302904742289788 |
 
 ## Similarity Scores
 
@@ -66,6 +66,13 @@ Partial classes split the definition of a type (class, struct, or interface) and
 | libraries | libraries/system-text-json-nodes | 0.6117 |
 | dotnet | dotnet | 0.6081 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| csharp/csharp-14-features | keyword | 1.800 |
+| csharp/properties-backing-fields | keyword | 1.800 |
+
 ## APIs
 
 | API | Type | Count |
@@ -73,6 +80,23 @@ Partial classes split the definition of a type (class, struct, or interface) and
 | ArgumentNullException | method | 3 |
 | DatabaseConnection | method | 3 |
 | GetPathSeparator | method | 3 |
+
+## Keywords
+
+| Keyword | Score |
+|---------|-------|
+| partial | 20.00 |
+| declaration | 18.00 |
+| declarations | 14.00 |
+| implementing | 12.00 |
+| partial classes | 5.00 |
+| keyword | 8.00 |
+| parts | 8.00 |
+| partial members | 4.00 |
+| declaring | 7.00 |
+| generators | 6.00 |
+| implementations | 6.00 |
+| optional | 6.00 |
 
 ## Chunks
 

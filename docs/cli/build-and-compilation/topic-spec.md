@@ -88,6 +88,15 @@ Build and compilation encompasses the development-time workflow of transforming 
 | libraries | libraries/system-text-json-source-generation | 0.6282 |
 | libraries | libraries/system-text-json | 0.6184 |
 
+## Authority Scores
+
+| Topic | Keyword | Score |
+|-------|---------|-------|
+| cli | builds | 1.300 |
+| cli | commands | 1.300 |
+| cli/publishing-and-deployment | compilation | 1.500 |
+| libraries/system-commandline | commands | 1.300 |
+
 ## Chunks
 
 **Source**: `golden-reference.md`

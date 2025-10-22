@@ -10,3 +10,15 @@ API | CompleteAsync
 API | File.OpenRead
 API | JsonSerializer.SerializeAsync
 API | Message
+Keyword | json streaming
+Keyword | streaming
+Keyword | large
+Keyword | streams
+Keyword | utf-8
+Keyword | pipeline
+Keyword | streaming apis
+Keyword | buffer
+Keyword | memory-efficient parsing
+Keyword | stream-based serialization
+Keyword | utf-8 direct processing
+Keyword | high-throughput

@@ -15,12 +15,12 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 12997132427928207738
+      "fingerprint": 12996006510841495866
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 12992066015660474748
+      "fingerprint": 12997132565241266556
     }
   },
   "keywords": [
@@ -45,14 +45,6 @@
       "score": 3
     },
     {
-      "name": "patterns",
-      "score": 8
-    },
-    {
-      "name": "system",
-      "score": 8
-    },
-    {
       "name": "application",
       "score": 4
     },
@@ -71,9 +63,17 @@
     {
       "name": "entity framework core",
       "score": 2
+    },
+    {
+      "name": "high-performance collections",
+      "score": 2
+    },
+    {
+      "name": "third-party",
+      "score": 2
     }
   ],
-  "keyword_hash": 16746233431027434113,
+  "keyword_hash": 14440388497584638337,
   "apis": [
     {
       "name": "Equals",
@@ -100,44 +100,47 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
+      "href": "/libraries/index.json",
       "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/index.json",
+      "href": "/index.json",
       "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/topic-spec.md",
+      "href": "/libraries/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/golden-reference.md",
+      "href": "/libraries/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
+        "href": "/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.8198,
+        "authority": {
+          "libraries": 2.2
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12995440279407100792
+            "fingerprint": 12995440278333358968
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995475601218077040
+            "fingerprint": 12995475601218076976
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
+        "href": "/cli/index.json",
         "title": "CLI",
         "similarity": 0.7484,
         "hashes": {
@@ -154,7 +157,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/file-based-apps/index.json",
+        "href": "/cli/file-based-apps/index.json",
         "title": "File-based apps",
         "similarity": 0.7375,
         "hashes": {
@@ -171,7 +174,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+        "href": "/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.728,
         "hashes": {
@@ -193,7 +196,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
+        "href": "/cli/build-and-compilation/index.json",
         "title": "Build and Compilation",
         "similarity": 0.728,
         "hashes": {
@@ -210,11 +213,11 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
+        "href": "/extensions/microsoft-extensions-ai/index.json",
         "title": "Microsoft.Extensions.AI",
         "similarity": 0.7133,
         "authority": {
-          "dependency injection": 1.357
+          "dependency injection": 1.3
         },
         "hashes": {
           "overview": {
@@ -230,9 +233,12 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
+        "href": "/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.7046,
+        "authority": {
+          "libraries": 2.2
+        },
         "hashes": {
           "overview": {
             "name": "overview",
@@ -247,7 +253,7 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
+        "href": "/cli/publishing-and-deployment/index.json",
         "title": "Publishing and Deployment",
         "similarity": 0.6974,
         "hashes": {
@@ -293,7 +299,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/string-search-operations/index.json",
+            "href": "/libraries/string-search-operations/index.json",
             "description": "Comprehensive set of methods for locating and checking text within strings, including Contains, IndexOf, StartsWith, EndsWith, and IndexOfAny with ordinal and culture-aware comparison support."
           }
         }
@@ -305,12 +311,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13140261422667071802
+            "fingerprint": 13140261422667596090
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240838009291132
+            "fingerprint": 12992241387765105020
           }
         },
         "category": "Libraries",
@@ -319,7 +325,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
+            "href": "/libraries/system-collections-generic-ienumerable/index.json",
             "description": "Fundamental interfaces representing enumerable sequences, enabling LINQ, foreach iteration, and deferred execution patterns."
           }
         }
@@ -336,7 +342,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992627727723340090
+            "fingerprint": 12992064777769918778
           },
           "technical": {
             "name": "technical",
@@ -350,7 +356,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
+            "href": "/libraries/system-text-json/index.json",
             "description": "System.Text.Json is a high-performance JSON serialization library built into .NET Core 3.0\u002B that provides functionality for serializing to and deserializing from JavaScript Object Notation (JSON)."
           }
         }
@@ -362,12 +368,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3087081535174783256
+            "fingerprint": 13176850832237699898
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240880958973404
+            "fingerprint": 12992100100520943996
           }
         },
         "category": "Libraries",
@@ -376,7 +382,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+            "href": "/libraries/system-text-json-jsonserializer/index.json",
             "description": "System.Text.Json.JsonSerializer provides high-level APIs for converting between .NET objects and JSON text with support for serialization, deserialization, and advanced customization."
           }
         }
@@ -388,7 +394,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135792371890684214
+            "fingerprint": 13135792371891208502
           },
           "technical": {
             "name": "technical",
@@ -402,7 +408,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
+            "href": "/libraries/system-threading-tasks-task/index.json",
             "description": "Types representing asynchronous operations that form the foundation of the Task-based Asynchronous Pattern, working with async/await for composable non-blocking code."
           }
         }
@@ -414,12 +420,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3088699778205288848
+            "fingerprint": 2764390160376595248
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12713016054776726876
+            "fingerprint": 17603927406192492924
           }
         },
         "category": ".NET Libraries",
@@ -428,7 +434,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
+            "href": "/libraries/collections-performance/index.json",
             "description": "Runtime optimizations and code patterns for efficient use of arrays, lists, and collection types, including automatic stack allocation, array interface devirtualization, and OrderedDictionary with indexed access."
           }
         }
@@ -454,7 +460,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+            "href": "/libraries/dotnet-10-library-improvements/index.json",
             "description": "Collection topic covering key .NET 10 library improvements including numeric string comparison, WebSocket streaming APIs, JSON security enhancements, post-quantum cryptography, performance optimizations, span-based APIs, and stable tensor operations."
           }
         }
@@ -466,12 +472,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 5373223288336521872
+            "fingerprint": 17751384421473682354
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12713018245211120108
+            "fingerprint": 17603786118948331900
           }
         },
         "category": ".NET Libraries",
@@ -480,7 +486,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
+            "href": "/libraries/json-streaming-io/index.json",
             "description": "Efficient JSON processing with streams, pipes, and async operations including PipeReader support, large document handling, and memory-efficient parsing."
           }
         }
@@ -492,12 +498,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 4220134623093668640
+            "fingerprint": 17751841818310779706
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12694860369024133596
+            "fingerprint": 12992097901497688444
           }
         },
         "category": ".NET Libraries",
@@ -506,7 +512,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
+            "href": "/libraries/json-validation-security/index.json",
             "description": "Validation and security features for JSON deserialization including strict options, duplicate property detection, unmapped member handling, and nullable/required property validation."
           }
         }
@@ -518,12 +524,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3500403042930203010
+            "fingerprint": 12978237250685174064
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13001107333850221004
+            "fingerprint": 17603926856436679036
           }
         },
         "category": ".NET Libraries",
@@ -532,7 +538,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/index.json",
+            "href": "/libraries/span-based-string-processing/index.json",
             "description": "High-performance text operations using \u0060Span\u003Cchar\u003E\u0060 and \u0060ReadOnlySpan\u003Cchar\u003E\u0060 including UTF-8 processing, string normalization, hex conversion, and pattern matching without allocations."
           }
         }
@@ -558,7 +564,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
+            "href": "/libraries/system-buffers-searchvalues/index.json",
             "description": "SearchValues provides an immutable, read-only set of values optimized for efficient searching within spans using SIMD acceleration."
           }
         }
@@ -570,12 +576,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991642545835409712
+            "fingerprint": 12991642545835417904
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603926856436687228
+            "fingerprint": 17603927406192501116
           }
         },
         "category": "Libraries",
@@ -584,7 +590,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
+            "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
             "description": "Interface for asynchronous enumeration using await foreach, enabling non-blocking iteration over async data sources with streaming and deferred execution."
           }
         }
@@ -601,7 +607,111 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13027106350651900730
+            "fingerprint": 12991077554706678586
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 17603784469680882044
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.6,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-commandline/index.json",
+            "description": "Command-line parsing library for .NET that provides strongly-typed argument and option parsing, automatic help generation, and tab completion."
+          }
+        }
+      },
+      {
+        "name": "system-text-json-dotnet-10",
+        "title": "System.Text.Json - What\u0027s New in .NET 10",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 17788396251557667634
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 13136213089573544312
+          }
+        },
+        "category": ".NET Libraries",
+        "complexity": 0.6,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-dotnet-10/index.json",
+            "description": "System.Text.Json improvements in .NET 10 including strict options, duplicate property detection, and PipeReader support. Version-specific topic for .NET 10 distribution."
+          }
+        }
+      },
+      {
+        "name": "system-text-json-jsondocument",
+        "title": "System.Text.Json.JsonDocument",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13136741817361277754
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992100100520943996
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.5,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-jsondocument/index.json",
+            "description": "System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) for JSON with minimal memory allocation, enabling high-performance JSON querying without defining concrete types."
+          }
+        }
+      },
+      {
+        "name": "system-text-json-migrate-from-newtonsoft",
+        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12992058180565895482
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992238638986035580
+          }
+        },
+        "category": "Libraries",
+        "complexity": 0.6,
+        "priority": 2,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+            "description": "Technical mapping between Newtonsoft.Json and System.Text.Json APIs for migration purposes."
+          }
+        }
+      },
+      {
+        "name": "system-text-json-nodes",
+        "title": "System.Text.Json.Nodes",
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12995440279541449072
           },
           "technical": {
             "name": "technical",
@@ -615,111 +725,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/index.json",
-            "description": "Command-line parsing library for .NET that provides strongly-typed argument and option parsing, automatic help generation, and tab completion."
-          }
-        }
-      },
-      {
-        "name": "system-text-json-dotnet-10",
-        "title": "System.Text.Json - What\u0027s New in .NET 10",
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13444401641859923858
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 13280328320399320536
-          }
-        },
-        "category": ".NET Libraries",
-        "complexity": 0.6,
-        "priority": 2,
-        "_links": {
-          "self": {
-            "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
-            "description": "System.Text.Json improvements in .NET 10 including strict options, duplicate property detection, and PipeReader support. Version-specific topic for .NET 10 distribution."
-          }
-        }
-      },
-      {
-        "name": "system-text-json-jsondocument",
-        "title": "System.Text.Json.JsonDocument",
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13460983673022227226
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12703867533935911260
-          }
-        },
-        "category": "Libraries",
-        "complexity": 0.5,
-        "priority": 2,
-        "_links": {
-          "self": {
-            "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/index.json",
-            "description": "System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) for JSON with minimal memory allocation, enabling high-performance JSON querying without defining concrete types."
-          }
-        }
-      },
-      {
-        "name": "system-text-json-migrate-from-newtonsoft",
-        "title": "Migrating from Newtonsoft.Json to System.Text.Json",
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 614095243011328414
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12974224274836293980
-          }
-        },
-        "category": "Libraries",
-        "complexity": 0.6,
-        "priority": 2,
-        "_links": {
-          "self": {
-            "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
-            "description": "Technical mapping between Newtonsoft.Json and System.Text.Json APIs for migration purposes."
-          }
-        }
-      },
-      {
-        "name": "system-text-json-nodes",
-        "title": "System.Text.Json.Nodes",
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 9860979202420835664
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12703869732690724188
-          }
-        },
-        "category": "Libraries",
-        "complexity": 0.6,
-        "priority": 2,
-        "_links": {
-          "self": {
-            "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
+            "href": "/libraries/system-text-json-nodes/index.json",
             "description": "System.Text.Json.Nodes provides a Document Object Model (DOM) for JSON, allowing developers to navigate, query, and modify JSON structures dynamically without needing to define concrete types."
           }
         }
@@ -736,12 +742,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748004591323480882
+            "fingerprint": 17752508190950851378
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13154369331525460856
+            "fingerprint": 13154369194086507384
           }
         },
         "category": "Libraries",
@@ -750,7 +756,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
+            "href": "/libraries/system-text-json-source-generation/index.json",
             "description": "Compile-time generation of JSON serialization code for high-performance, AOT-compatible operations with automatic property naming and type-safe generic support."
           }
         }
@@ -762,12 +768,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 2796080149753443096
+            "fingerprint": 13136881455338070840
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704010495948890620
+            "fingerprint": 12992240838009299324
           }
         },
         "category": "Libraries",
@@ -776,7 +782,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonreader/index.json",
+            "href": "/libraries/system-text-json-utf8jsonreader/index.json",
             "description": "System.Text.Json.Utf8JsonReader is a high-performance, low-allocation, forward-only reader for UTF-8 encoded JSON text, providing the lowest-level API for reading JSON with maximum control over parsing."
           }
         }
@@ -788,12 +794,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 469786640745173528
+            "fingerprint": 13140683703851615032
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603924666003358076
+            "fingerprint": 17603926856436679036
           }
         },
         "category": "Libraries",
@@ -802,7 +808,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonwriter/index.json",
+            "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
             "description": "System.Text.Json.Utf8JsonWriter is a high-performance, low-allocation writer for UTF-8 encoded JSON text, providing direct control over JSON generation with minimal allocation."
           }
         }
@@ -833,73 +839,73 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/_chunks/golden-reference-0.md",
+            "href": "/libraries/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
             "similarity_technical": 0.5537,
-            "keyword_hash": 14836777833181303179
+            "keyword_hash": 15656430766339670283
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/_chunks/golden-reference-1.md",
+            "href": "/libraries/_chunks/golden-reference-1.md",
             "title": "Asynchronous Programming",
             "is_code": true,
             "similarity_conceptual": 0.5537,
             "similarity_technical": 1,
-            "keyword_hash": 2604218117546574473
+            "keyword_hash": 2306979975146244107
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/_chunks/golden-reference-2.md",
+            "href": "/libraries/_chunks/golden-reference-2.md",
             "title": "Entity Framework Core (Data Access)",
             "is_code": true,
             "similarity_conceptual": 0.5832,
             "similarity_technical": 0.6296999999999999,
-            "keyword_hash": 17972793631956683715
+            "keyword_hash": 17970524218146441987
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/_chunks/golden-reference-3.md",
+            "href": "/libraries/_chunks/golden-reference-3.md",
             "title": "Unit Testing with xUnit and MSTest",
             "is_code": true,
             "similarity_conceptual": 0.5490999999999999,
             "similarity_technical": 0.6055999999999999,
-            "keyword_hash": 7923114696451021481
+            "keyword_hash": 8743046939872512425
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/_chunks/golden-reference-4.md",
+            "href": "/libraries/_chunks/golden-reference-4.md",
             "title": "NuGet Package Discovery and Management",
             "is_code": true,
             "similarity_conceptual": 0.5746,
             "similarity_technical": 0.5857999999999999,
-            "keyword_hash": 14432929342063921419
+            "keyword_hash": 14650122539687758123
           },
           {
             "index": 5,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/_chunks/golden-reference-5.md",
+            "href": "/libraries/_chunks/golden-reference-5.md",
             "title": "CQRS and MediatR Integration",
             "is_code": true,
             "similarity_conceptual": 0.5495,
             "similarity_technical": 0.5884999999999999,
-            "keyword_hash": 316523645618883212
+            "keyword_hash": 316805397629504398
           },
           {
             "index": 6,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/_chunks/golden-reference-6.md",
+            "href": "/libraries/_chunks/golden-reference-6.md",
             "title": "Data Protection and Encryption",
             "is_code": true,
             "similarity_conceptual": 0.5634,
             "similarity_technical": 0.6328,
-            "keyword_hash": 15953553442780826537
+            "keyword_hash": 15583651342380976417
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.1688829Z",
+    "generated": "2025-10-22T17:59:54.6254980Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

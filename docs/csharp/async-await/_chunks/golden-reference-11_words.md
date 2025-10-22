@@ -6,13 +6,11 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | async | single | 52.000 |
-| use | single | 29.000 |
 | async operations | compound | 26.400 |
 | await | single | 22.000 |
 | operations | single | 22.000 |
 | task | single | 14.000 |
 | async methods | compound | 13.200 |
-| code | single | 7.500 |
 | system.text.json | compound | 7.425 |
 | cancellation support | compound | 6.600 |
 | cpu-bound work | compound | 6.600 |
@@ -22,6 +20,7 @@ Scores are from the topic-level authority analysis.
 | gt | single | 6.000 |
 | lt | single | 6.000 |
 | asynchronous | single | 6.000 |
+| code | single | 6.000 |
 | cpu-bound | single | 6.000 |
 | database | single | 6.000 |
 | doesn't | single | 6.000 |

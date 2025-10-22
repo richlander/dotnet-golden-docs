@@ -20,12 +20,12 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 17751945841218224944
+      "fingerprint": 17751945858399142706
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 17603925754777575800
+      "fingerprint": 17748040942853431672
     }
   },
   "keywords": [
@@ -62,10 +62,6 @@
       "score": 3
     },
     {
-      "name": "use",
-      "score": 9
-    },
-    {
       "name": "constructor",
       "score": 4
     },
@@ -76,9 +72,13 @@
     {
       "name": "records",
       "score": 4
+    },
+    {
+      "name": "factory methods",
+      "score": 2
     }
   ],
-  "keyword_hash": 3795629787419050498,
+  "keyword_hash": 3507680885540980226,
   "apis": [
     {
       "name": "Person",
@@ -102,36 +102,36 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/index.json",
+      "href": "/csharp/object-initialization/index.json",
       "description": "Comprehensive approaches for creating and initializing objects, properties, and collections within objects using various syntax patterns and modern language features."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
+      "href": "/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/topic-spec.md",
+      "href": "/csharp/object-initialization/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/golden-reference.md",
+      "href": "/csharp/object-initialization/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/qa-pairs.md",
+      "href": "/csharp/object-initialization/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
+        "href": "/csharp/collection-initialization/index.json",
         "title": "Collection Initialization",
         "similarity": 0.8118,
         "authority": {
-          "collection expressions": 1.375
+          "collection expressions": 1.5
         },
         "hashes": {
           "error-codes": {
@@ -142,7 +142,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135758833431281974
+            "fingerprint": 13135758833431281970
           },
           "technical": {
             "name": "technical",
@@ -152,24 +152,28 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
+        "href": "/csharp/properties-backing-fields/index.json",
         "title": "Properties and Backing Fields",
         "similarity": 0.7891,
+        "authority": {
+          "records": 1.4,
+          "init-only properties": 1.3
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 8792651860460152757
+            "fingerprint": 8524071852922209080
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603783919925071324
+            "fingerprint": 17748004640716161848
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+        "href": "/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7591,
         "hashes": {
@@ -191,11 +195,11 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
+        "href": "/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.7142,
         "authority": {
-          "collection expressions": 1.375
+          "collection expressions": 1.5
         },
         "hashes": {
           "error-codes": {
@@ -216,75 +220,75 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.7033,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3087081535174783256
+            "fingerprint": 13176850832237699898
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240880958973404
+            "fingerprint": 12992100100520943996
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/partial-classes/index.json",
+        "href": "/csharp/partial-classes/index.json",
         "title": "Partial Classes",
         "similarity": 0.6913,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3375945098908056738
+            "fingerprint": 17751417474476581170
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992239223101612492
+            "fingerprint": 17607302904742289788
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.6899,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 614095243011328414
+            "fingerprint": 12992058180565895482
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12974224274836293980
+            "fingerprint": 12992238638986035580
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.6883,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13444401641859923858
+            "fingerprint": 17788396251557667634
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13280328320399320536
+            "fingerprint": 13136213089573544312
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6824,
         "hashes": {
@@ -301,36 +305,36 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
+        "href": "/libraries/json-validation-security/index.json",
         "title": "JSON Validation and Security",
         "similarity": 0.6788,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 4220134623093668640
+            "fingerprint": 17751841818310779706
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12694860369024133596
+            "fingerprint": 12992097901497688444
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
+        "href": "/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.6729,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 9860979202420835664
+            "fingerprint": 12995440279541449072
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12703869732690724188
+            "fingerprint": 17603786118948323708
           }
         }
       }
@@ -341,7 +345,7 @@
     "chunks": null
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.0691729Z",
+    "generated": "2025-10-22T17:59:54.5339362Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

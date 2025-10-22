@@ -8,7 +8,6 @@ Scores are from the topic-level authority analysis.
 | source generation | compound | 64.688 |
 | system.text.json | compound | 47.250 |
 | json | single | 43.500 |
-| use | single | 19.000 |
 | text | single | 18.000 |
 | configuration | single | 18.000 |
 | deserialization | single | 16.000 |
@@ -18,7 +17,6 @@ Scores are from the topic-level authority analysis.
 | maximum | single | 10.000 |
 | migration | single | 10.000 |
 | scenarios | single | 10.000 |
-| provides | single | 8.000 |
 | common | single | 8.000 |
 | each | single | 8.000 |
 | loading | single | 8.000 |

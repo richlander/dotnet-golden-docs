@@ -1,7 +1,6 @@
 Title | Task and Task&lt;T&gt;
 Keyword | task
 Keyword | tasks
-Keyword | use
 Keyword | await
 Keyword | considerations
 Keyword | run
@@ -11,4 +10,5 @@ Keyword | don't
 Keyword | complete
 Keyword | consider
 Keyword | cpu-bound
+Keyword | vs
 Description | `Task` and `Task<T>` are types that represent asynchronous operations in .NET, forming the foundation of the Task-based Asynchronous Pattern (TAP). `Task` represents an operation with no return value, while `Task<T>` represents an operation that produces a value of type `T`. These types work seamlessly with async/await keywords, provide state tracking and exception handling, and enable composable asynchronous programming across the .NET ecosystem.

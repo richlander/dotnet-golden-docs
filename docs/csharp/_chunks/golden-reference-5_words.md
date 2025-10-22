@@ -20,17 +20,16 @@ Scores are from the topic-level authority analysis.
 | using | single | 10.000 |
 | asynchronous programming | compound | 9.900 |
 | data | single | 9.000 |
-| provides | single | 8.000 |
 | capabilities | single | 8.000 |
 | compiler | single | 8.000 |
 | concepts | single | 8.000 |
 | functional | single | 8.000 |
 | introduce | single | 8.000 |
 | net | single | 8.000 |
-| code | single | 7.500 |
 | compile-time | compound | 6.750 |
 | type system | compound | 6.600 |
 | version compatibility | compound | 6.600 |
+| code | single | 6.000 |
 | extensible | single | 6.000 |
 | mainstream | single | 6.000 |
 | platform-specific | compound | 6.000 |

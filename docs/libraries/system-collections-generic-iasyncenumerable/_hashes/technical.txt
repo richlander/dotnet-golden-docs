@@ -12,7 +12,6 @@ API | CountAsync
 API | FetchCustomerAsync
 API | GetItemsAsync
 Keyword | async linq
-Keyword | use
 Keyword | data
 Keyword | iteration
 Keyword | iasyncenumerable
@@ -23,3 +22,4 @@ Keyword | each
 Keyword | enumeration
 Keyword | considerations
 Keyword | loading
+Keyword | gt

@@ -113,13 +113,16 @@ Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET 
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| cli/publishing-and-deployment | native aot | 1.322 |
-| libraries/system-text-json | source generation | 1.324 |
-| libraries/system-text-json-source-generation | reflection-based | 1.359 |
-| libraries/system-text-json-source-generation | system.text.json source generation | 1.351 |
-| libraries/system-text-json-source-generation | source generation | 1.324 |
-| libraries/system-text-json-source-generation | native aot | 1.322 |
-
+| cli/build-and-compilation | compilation | 1.900 |
+| cli/publishing-and-deployment | runtime | 2.100 |
+| cli/publishing-and-deployment | native aot | 2.000 |
+| cli/publishing-and-deployment | compilation | 1.900 |
+| cli/publishing-and-deployment | self-contained | 1.300 |
+| dotnet | runtime | 2.100 |
+| libraries/system-text-json | source generation | 1.400 |
+| libraries/system-text-json-source-generation | native aot | 2.000 |
+| libraries/system-text-json-source-generation | reflection-based | 1.400 |
+| libraries/system-text-json-source-generation | source generation | 1.400 |
 
 ## Chunks
 

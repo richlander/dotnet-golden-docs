@@ -6,7 +6,7 @@
   "complexity": 0.8,
   "priority": 1,
   "depth_below": 1,
-  "topic_count": 9,
+  "topic_count": 10,
   "introduced": {
     "version": "1.0",
     "year": "2000"
@@ -79,48 +79,51 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
+      "href": "/csharp/index.json",
       "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/index.json",
+      "href": "/index.json",
       "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/topic-spec.md",
+      "href": "/csharp/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/golden-reference.md",
+      "href": "/csharp/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
+        "href": "/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7851,
         "authority": {
-          "low-level": 1.356,
-          "object-oriented": 1.356
+          "like": 2.1,
+          "libraries": 1.9,
+          "memory management": 1.6,
+          "while": 1.6,
+          "cross-platform": 1.5
         },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12995440279407100792
+            "fingerprint": 12995440278333358968
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12995475601218077040
+            "fingerprint": 12995475601218076976
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7352,
         "hashes": {
@@ -137,48 +140,48 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7222,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13140261422667071802
+            "fingerprint": 13140261422667596090
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240838009291132
+            "fingerprint": 12992241387765105020
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.7075,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3087081535174783256
+            "fingerprint": 13176850832237699898
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240880958973404
+            "fingerprint": 12992100100520943996
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
+        "href": "/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.7073,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135792371890684214
+            "fingerprint": 13135792371891208502
           },
           "technical": {
             "name": "technical",
@@ -188,19 +191,22 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
+        "href": "/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.7046,
+        "authority": {
+          "libraries": 1.9
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12997132427928207738
+            "fingerprint": 12996006510841495866
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992066015660474748
+            "fingerprint": 12997132565241266556
           }
         }
       }
@@ -215,7 +221,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17748041905982472506
+            "fingerprint": 17748041905982997306
           },
           "technical": {
             "name": "technical",
@@ -229,7 +235,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/async-await/index.json",
+            "href": "/csharp/async-await/index.json",
             "description": "Language keywords enabling asynchronous programming with non-blocking I/O operations and improved scalability through the Task-based Asynchronous Pattern."
           }
         }
@@ -246,7 +252,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13135758833431281974
+            "fingerprint": 13135758833431281970
           },
           "technical": {
             "name": "technical",
@@ -260,7 +266,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
+            "href": "/csharp/collection-initialization/index.json",
             "description": "Traditional and modern approaches to creating and initializing collections using constructors, target-typed new expressions, and collection initializer syntax."
           }
         }
@@ -272,12 +278,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13789395562491052844
+            "fingerprint": 17753109691456815932
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12974085684805370156
+            "fingerprint": 17603784879850267516
           }
         },
         "category": "C# Language",
@@ -286,7 +292,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
+            "href": "/csharp/lambda-expressions/index.json",
             "description": "Lambda expressions create anonymous functions with expression or statement bodies, supporting natural type inference, parameter modifiers, default parameters, static lambdas, and async operations."
           }
         }
@@ -303,12 +309,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 17751945841218224944
+            "fingerprint": 17751945858399142706
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603925754777575800
+            "fingerprint": 17748040942853431672
           }
         },
         "category": "C# Language",
@@ -317,7 +323,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/index.json",
+            "href": "/csharp/object-initialization/index.json",
             "description": "Comprehensive approaches for creating and initializing objects, properties, and collections within objects using various syntax patterns and modern language features."
           }
         }
@@ -329,12 +335,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 8792651860460152757
+            "fingerprint": 8524071852922209080
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603783919925071324
+            "fingerprint": 17748004640716161848
           }
         },
         "category": "C# Language",
@@ -343,8 +349,39 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
+            "href": "/csharp/properties-backing-fields/index.json",
             "description": "Properties provide flexible data access through accessor methods, with support for auto-implementation, field keyword access, init-only setters, and required initialization."
+          }
+        }
+      },
+      {
+        "name": "type-extensions",
+        "title": "Type Extensions",
+        "hashes": {
+          "error-codes": {
+            "name": "error-codes",
+            "kind": "bloom",
+            "fingerprint": 9554870716459120207
+          },
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 12991676237840548218
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12704008262834332024
+          }
+        },
+        "category": "C# Language",
+        "complexity": 0.45,
+        "priority": 1,
+        "_links": {
+          "self": {
+            "name": "self",
+            "href": "/csharp/type-extensions/index.json",
+            "description": "Language feature enabling developers to add methods, properties, and operators to existing types using extension blocks (C# 14) or traditional extension methods (C# 3.0\u002B). Works across all .NET versions when using appropriate C# language version."
           }
         }
       },
@@ -374,7 +411,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
+            "href": "/csharp/collection-expressions/index.json",
             "description": "Collection expressions provide a concise syntax to create common collection values using square bracket notation, including basic expressions and params collection support."
           }
         }
@@ -405,7 +442,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+            "href": "/csharp/csharp-14-features/index.json",
             "description": "Collection topic covering key C# 14 language features including the \u0060field\u0060 keyword in properties, first-class Span types, unbound generic types in \u0060nameof\u0060, enhanced lambda parameters, partial events and constructors, Extensions, null-conditional assignment, user-defined compound assignment operators, and expression tree improvements."
           }
         }
@@ -417,12 +454,12 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3375945098908056738
+            "fingerprint": 17751417474476581170
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992239223101612492
+            "fingerprint": 17607302904742289788
           }
         },
         "category": "C# Language",
@@ -431,7 +468,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/partial-classes/index.json",
+            "href": "/csharp/partial-classes/index.json",
             "description": "Partial classes split type and member definitions across multiple source files for code generation, platform-specific implementations, and source generator integration."
           }
         }
@@ -448,7 +485,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12991110520862344052
+            "fingerprint": 12991110520728126324
           },
           "technical": {
             "name": "technical",
@@ -462,7 +499,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/inline-arrays/index.json",
+            "href": "/csharp/inline-arrays/index.json",
             "description": "Type-safe and ref-safe mechanism for creating fixed-size sequential data structures using the InlineArrayAttribute, providing a safe alternative to unsafe fixed-size buffers."
           }
         }
@@ -485,16 +522,16 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/_chunks/golden-reference-0.md",
+            "href": "/csharp/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
             "similarity_technical": null,
-            "keyword_hash": 5375299226820795233
+            "keyword_hash": 5375299089381823329
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/_chunks/golden-reference-1.md",
+            "href": "/csharp/_chunks/golden-reference-1.md",
             "title": "Type System and Object Orientation",
             "is_code": false,
             "similarity_conceptual": 0.6539,
@@ -503,46 +540,46 @@
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/_chunks/golden-reference-2.md",
+            "href": "/csharp/_chunks/golden-reference-2.md",
             "title": "Asynchronous Programming",
             "is_code": false,
             "similarity_conceptual": 0.6157999999999999,
             "similarity_technical": null,
-            "keyword_hash": 7715374540308558633
+            "keyword_hash": 7643313100394935073
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/_chunks/golden-reference-3.md",
+            "href": "/csharp/_chunks/golden-reference-3.md",
             "title": ".NET Ecosystem Integration",
             "is_code": false,
             "similarity_conceptual": 0.6085999999999999,
             "similarity_technical": null,
-            "keyword_hash": 7588572564044843809
+            "keyword_hash": 7732863692234758945
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/_chunks/golden-reference-4.md",
+            "href": "/csharp/_chunks/golden-reference-4.md",
             "title": "Learning Curve",
             "is_code": false,
             "similarity_conceptual": 0.6059999999999999,
             "similarity_technical": null,
-            "keyword_hash": 14668239672657643555
+            "keyword_hash": 5445003985981605925
           },
           {
             "index": 5,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/_chunks/golden-reference-5.md",
+            "href": "/csharp/_chunks/golden-reference-5.md",
             "title": "Core Language Concepts",
             "is_code": false,
             "similarity_conceptual": 0.6737,
             "similarity_technical": null,
-            "keyword_hash": 5337203898152950649
+            "keyword_hash": 725236404747770745
           }
         ]
       }
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.1606258Z",
+    "generated": "2025-10-22T17:59:54.6181199Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -11,7 +11,6 @@ Scores are from the topic-level authority analysis.
 | api | single | 28.000 |
 | read-only | compound | 22.500 |
 | dynamic | single | 22.000 |
-| use | single | 19.000 |
 | text | single | 18.000 |
 | serialization | single | 18.000 |
 | dom | single | 16.500 |
@@ -21,7 +20,6 @@ Scores are from the topic-level authority analysis.
 | fastest | single | 10.000 |
 | parsing | single | 10.000 |
 | scenarios | single | 10.000 |
-| provides | single | 8.000 |
 | different | single | 8.000 |
 | gen | single | 8.000 |
 | loose | single | 8.000 |

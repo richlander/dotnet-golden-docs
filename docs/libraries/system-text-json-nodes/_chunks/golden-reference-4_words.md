@@ -16,6 +16,5 @@ Scores are from the topic-level authority analysis.
 | merging | single | 8.000 |
 | modify | single | 8.000 |
 | into | single | 7.500 |
-| use | single | 7.000 |
 | sources | single | 6.000 |
 | multiple | single | 4.500 |

@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 134
-Total word occurrences: 225
+Total unique words: 132
+Total word occurrences: 223
 Total document words: 494
 
 | Word | Count | Document Concentration |
@@ -103,7 +103,6 @@ Total document words: 494
 | memory-constrained | 1 | 0.0020 |
 | migration | 1 | 0.0020 |
 | minimize | 1 | 0.0020 |
-| modern | 1 | 0.0020 |
 | multi-gigabyte | 1 | 0.0020 |
 | network | 1 | 0.0020 |
 | no | 1 | 0.0020 |
@@ -117,7 +116,6 @@ Total document words: 494
 | pipelining | 1 | 0.0020 |
 | prefer | 1 | 0.0020 |
 | provides | 1 | 0.0020 |
-| related | 1 | 0.0020 |
 | relationships | 1 | 0.0020 |
 | request | 1 | 0.0020 |
 | requirements | 1 | 0.0020 |

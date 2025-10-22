@@ -62,7 +62,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | project structure | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | single file constraint | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
 | traditional project structure | compound | 2 | 1.10x | 1.50x | 2.0x | 6.600 |
-| code | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | without | single | 4 | 1.00x | 1.00x | 1.5x | 6.000 |
 | arguments | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |
 | artifacts | single | 3 | 1.00x | 1.00x | 2.0x | 6.000 |

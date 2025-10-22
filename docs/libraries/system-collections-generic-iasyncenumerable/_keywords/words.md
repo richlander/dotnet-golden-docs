@@ -29,7 +29,6 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | database | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | linq | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | materialize | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
-| operators | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | paginated | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | sources | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | streams | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |

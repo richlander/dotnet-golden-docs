@@ -6,7 +6,6 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | async linq | compound | 23.100 |
-| use | single | 17.000 |
 | iteration | single | 16.500 |
 | iasyncenumerable | single | 14.000 |
 | async | single | 12.000 |

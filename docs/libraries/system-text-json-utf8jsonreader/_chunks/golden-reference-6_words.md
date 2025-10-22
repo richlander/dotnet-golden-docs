@@ -16,7 +16,6 @@ Scores are from the topic-level authority analysis.
 | multi-segment | compound | 9.000 |
 | tokens | single | 8.000 |
 | text | single | 7.500 |
-| use | single | 7.000 |
 | ref struct | compound | 6.600 |
 | cannot | single | 6.000 |
 | parse | single | 6.000 |

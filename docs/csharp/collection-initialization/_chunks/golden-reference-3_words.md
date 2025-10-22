@@ -9,7 +9,6 @@ Scores are from the topic-level authority analysis.
 | collection initialization | compound | 27.000 |
 | target-typed new | compound | 11.250 |
 | values | single | 9.000 |
-| syntax | single | 8.000 |
 | collection initializer syntax | compound | 7.500 |
 | capacity | single | 6.000 |
 | dictionary | single | 6.000 |

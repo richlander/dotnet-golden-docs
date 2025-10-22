@@ -56,11 +56,14 @@ New extension syntax for augmenting types with additional members safely.
 
 ```csharp
 // Extensions provide type-safe augmentation
-public extension PersonExtensions for Person
+public static class PersonExtensions
 {
-    public string FullName => $"{FirstName} {LastName}";
-    public bool IsAdult => Age >= 18;
-    public void CelebrateBirthday() => Age++;
+    extension (Person person)
+    {
+        public string FullName => $"{person.FirstName} {person.LastName}";
+        public bool IsAdult => person.Age >= 18;
+        public void CelebrateBirthday() => person.Age++;
+    }
 }
 
 // Usage feels natural

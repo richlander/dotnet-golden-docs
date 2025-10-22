@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 209
-Total word occurrences: 371
+Total unique words: 207
+Total word occurrences: 367
 Total document words: 634
 
 | Word | Count | Document Concentration |
@@ -26,7 +26,6 @@ Total document words: 634
 | capabilities | 3 | 0.0047 |
 | changes | 3 | 0.0047 |
 | chat | 3 | 0.0047 |
-| extensions | 3 | 0.0047 |
 | function | 3 | 0.0047 |
 | implement | 3 | 0.0047 |
 | opentelemetry | 3 | 0.0047 |
@@ -142,7 +141,6 @@ Total document words: 634
 | existing | 1 | 0.0016 |
 | explicit | 1 | 0.0016 |
 | exposing | 1 | 0.0016 |
-| extension | 1 | 0.0016 |
 | flexibility | 1 | 0.0016 |
 | flow | 1 | 0.0016 |
 | follows | 1 | 0.0016 |

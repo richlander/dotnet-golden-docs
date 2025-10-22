@@ -6,7 +6,6 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | ienumerable | single | 26.000 |
-| use | single | 22.000 |
 | need | single | 18.000 |
 | multiple | single | 16.500 |
 | enumeration | single | 14.000 |
@@ -25,6 +24,5 @@ Scores are from the topic-level authority analysis.
 | no | single | 6.000 |
 | doesn't | single | 6.000 |
 | foreach | single | 6.000 |
-| method | single | 6.000 |
 | thread-safety | compound | 6.000 |
 | avoid | single | 4.500 |

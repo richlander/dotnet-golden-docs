@@ -8,7 +8,6 @@ Scores are from the topic-level authority analysis.
 | inline arrays | compound | 148.500 |
 | buffers | single | 40.000 |
 | inline array | compound | 36.000 |
-| use | single | 20.000 |
 | buffer | single | 18.000 |
 | unsafe | single | 14.000 |
 | considerations | single | 12.000 |

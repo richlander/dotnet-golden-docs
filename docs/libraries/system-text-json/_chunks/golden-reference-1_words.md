@@ -12,7 +12,6 @@ Scores are from the topic-level authority analysis.
 | api | single | 28.000 |
 | read-only | compound | 22.500 |
 | dynamic | single | 22.000 |
-| use | single | 19.000 |
 | text | single | 18.000 |
 | configuration | single | 18.000 |
 | serialization | single | 18.000 |
@@ -29,7 +28,6 @@ Scores are from the topic-level authority analysis.
 | see | single | 10.000 |
 | common | single | 8.000 |
 | default | single | 8.000 |
-| extensions | single | 8.000 |
 | component-specific | compound | 6.000 |
 | config | single | 6.000 |
 | documentation | single | 6.000 |

@@ -15,16 +15,65 @@
     "overview": {
       "name": "overview",
       "kind": "simhash",
-      "fingerprint": 4220134623093668640
+      "fingerprint": 17751841818310779706
     },
     "technical": {
       "name": "technical",
       "kind": "simhash",
-      "fingerprint": 12694860369024133596
+      "fingerprint": 12992097901497688444
     }
   },
-  "keywords": null,
-  "keyword_hash": null,
+  "keywords": [
+    {
+      "name": "validation",
+      "score": 17
+    },
+    {
+      "name": "security",
+      "score": 10
+    },
+    {
+      "name": "json validation",
+      "score": 4
+    },
+    {
+      "name": "contracts",
+      "score": 6
+    },
+    {
+      "name": "nullable reference",
+      "score": 3
+    },
+    {
+      "name": "deserialization",
+      "score": 5
+    },
+    {
+      "name": "unmapped",
+      "score": 5
+    },
+    {
+      "name": "strict validation",
+      "score": 3
+    },
+    {
+      "name": "ensure",
+      "score": 4
+    },
+    {
+      "name": "during",
+      "score": 5
+    },
+    {
+      "name": "best practices",
+      "score": 2
+    },
+    {
+      "name": "duplicate properties",
+      "score": 2
+    }
+  ],
+  "keyword_hash": 5157223750978166785,
   "apis": [
     {
       "name": "System.Text.Json",
@@ -71,61 +120,64 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
+      "href": "/libraries/json-validation-security/index.json",
       "description": "Validation and security features for JSON deserialization including strict options, duplicate property detection, unmapped member handling, and nullable/required property validation."
     },
     "parent": {
       "name": "parent",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
+      "href": "/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/topic-spec.md",
+      "href": "/libraries/json-validation-security/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/golden-reference.md",
+      "href": "/libraries/json-validation-security/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
+        "href": "/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.883,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13444401641859923858
+            "fingerprint": 17788396251557667634
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 13280328320399320536
+            "fingerprint": 13136213089573544312
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+        "href": "/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.8098,
+        "authority": {
+          "deserialization": 1.5
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 3087081535174783256
+            "fingerprint": 13176850832237699898
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12992240880958973404
+            "fingerprint": 12992100100520943996
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
+        "href": "/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7859,
         "hashes": {
@@ -137,7 +189,7 @@
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 12992627727723340090
+            "fingerprint": 12992064777769918778
           },
           "technical": {
             "name": "technical",
@@ -147,9 +199,12 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
+        "href": "/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7661,
+        "authority": {
+          "security": 2
+        },
         "hashes": {
           "overview": {
             "name": "overview",
@@ -164,92 +219,98 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
+        "href": "/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.7507,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 9860979202420835664
+            "fingerprint": 12995440279541449072
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12703869732690724188
+            "fingerprint": 17603786118948323708
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.7453,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 614095243011328414
+            "fingerprint": 12992058180565895482
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12974224274836293980
+            "fingerprint": 12992238638986035580
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/index.json",
+        "href": "/libraries/system-text-json-jsondocument/index.json",
         "title": "System.Text.Json.JsonDocument",
         "similarity": 0.7441,
+        "authority": {
+          "deserialization": 1.5
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 13460983673022227226
+            "fingerprint": 13136741817361277754
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12703867533935911260
+            "fingerprint": 12992100100520943996
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonwriter/index.json",
+        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
         "title": "System.Text.Json.Utf8JsonWriter",
         "similarity": 0.7324,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 469786640745173528
+            "fingerprint": 13140683703851615032
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603924666003358076
+            "fingerprint": 17603926856436679036
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonreader/index.json",
+        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
         "similarity": 0.7223,
+        "authority": {
+          "during": 1.5
+        },
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 2796080149753443096
+            "fingerprint": 13136881455338070840
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12704010495948890620
+            "fingerprint": 12992240838009299324
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
+        "href": "/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7125,
         "hashes": {
@@ -271,36 +332,36 @@
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
+        "href": "/libraries/json-streaming-io/index.json",
         "title": "JSON Streaming and I/O",
         "similarity": 0.6982,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 5373223288336521872
+            "fingerprint": 17751384421473682354
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 12713018245211120108
+            "fingerprint": 17603786118948331900
           }
         }
       },
       {
-        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
+        "href": "/csharp/properties-backing-fields/index.json",
         "title": "Properties and Backing Fields",
         "similarity": 0.6862,
         "hashes": {
           "overview": {
             "name": "overview",
             "kind": "simhash",
-            "fingerprint": 8792651860460152757
+            "fingerprint": 8524071852922209080
           },
           "technical": {
             "name": "technical",
             "kind": "simhash",
-            "fingerprint": 17603783919925071324
+            "fingerprint": 17748004640716161848
           }
         }
       }
@@ -329,7 +390,7 @@
         "items": [
           {
             "index": 0,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/_chunks/golden-reference-0.md",
+            "href": "/libraries/json-validation-security/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -338,7 +399,7 @@
           },
           {
             "index": 1,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/_chunks/golden-reference-1.md",
+            "href": "/libraries/json-validation-security/_chunks/golden-reference-1.md",
             "title": "Handling Unmapped Properties",
             "is_code": true,
             "similarity_conceptual": 0.6595,
@@ -347,7 +408,7 @@
           },
           {
             "index": 2,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/_chunks/golden-reference-2.md",
+            "href": "/libraries/json-validation-security/_chunks/golden-reference-2.md",
             "title": "Combining Validation Features",
             "is_code": true,
             "similarity_conceptual": 0.6640999999999999,
@@ -356,7 +417,7 @@
           },
           {
             "index": 3,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/_chunks/golden-reference-3.md",
+            "href": "/libraries/json-validation-security/_chunks/golden-reference-3.md",
             "title": "API Security Best Practices",
             "is_code": true,
             "similarity_conceptual": 0.6324,
@@ -365,7 +426,7 @@
           },
           {
             "index": 4,
-            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/_chunks/golden-reference-4.md",
+            "href": "/libraries/json-validation-security/_chunks/golden-reference-4.md",
             "title": "Best Practices",
             "is_code": true,
             "similarity_conceptual": 0.6929,
@@ -377,7 +438,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-20T23:14:33.0973022Z",
+    "generated": "2025-10-22T17:59:54.5599373Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

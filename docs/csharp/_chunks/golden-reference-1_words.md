@@ -20,10 +20,10 @@ Scores are from the topic-level authority analysis.
 | languages | single | 8.000 |
 | net | single | 8.000 |
 | offers | single | 8.000 |
-| code | single | 7.500 |
 | control | single | 7.500 |
 | type system | compound | 6.600 |
 | abstraction | single | 6.000 |
+| code | single | 6.000 |
 | constructs | single | 6.000 |
 | provide | single | 6.000 |
 | run | single | 6.000 |

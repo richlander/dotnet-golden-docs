@@ -12,7 +12,6 @@ Scores are from the topic-level authority analysis.
 | apis | single | 28.000 |
 | compile-time | compound | 24.750 |
 | read-only | compound | 22.500 |
-| use | single | 19.000 |
 | newtonsoft.json | compound | 18.750 |
 | text | single | 18.000 |
 | serialization | single | 18.000 |

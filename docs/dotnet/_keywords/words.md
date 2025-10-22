@@ -21,9 +21,8 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | open-source | compound | 5 | 1.00x | 1.50x | 2.0x | 15.000 |
 | tools | single | 7 | 1.00x | 1.00x | 2.0x | 14.000 |
 | runtime | single | 12 | 1.00x | 1.00x | 1.0x | 12.000 |
-| code | single | 8 | 1.00x | 1.00x | 1.5x | 12.000 |
+| code | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | languages | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
-| modern | single | 6 | 1.00x | 1.00x | 2.0x | 12.000 |
 | community | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | enables | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
 | functionality | single | 5 | 1.00x | 1.00x | 2.0x | 10.000 |
@@ -39,6 +38,7 @@ Filtering: Includes terms with global_mult ≥ 1.5x OR (count ≥ 10 AND appears
 | developers | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | linux | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | many | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
+| modern | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | pillars | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | programming | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |
 | set | single | 4 | 1.00x | 1.00x | 2.0x | 8.000 |

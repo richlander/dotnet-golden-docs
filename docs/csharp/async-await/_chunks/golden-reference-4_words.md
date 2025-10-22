@@ -6,7 +6,6 @@ Scores are from the topic-level authority analysis.
 | Term | Type | Score |
 |------|------|-------|
 | async | single | 52.000 |
-| use | single | 29.000 |
 | async operations | compound | 26.400 |
 | await | single | 22.000 |
 | operations | single | 22.000 |

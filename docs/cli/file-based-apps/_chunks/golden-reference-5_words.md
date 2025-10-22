@@ -19,9 +19,7 @@ Scores are from the topic-level authority analysis.
 | migration | single | 8.000 |
 | run | single | 8.000 |
 | while | single | 8.000 |
-| use | single | 7.000 |
 | exit codes | compound | 6.600 |
-| code | single | 6.000 |
 | arguments | single | 6.000 |
 | both | single | 6.000 |
 | experimentation | single | 6.000 |

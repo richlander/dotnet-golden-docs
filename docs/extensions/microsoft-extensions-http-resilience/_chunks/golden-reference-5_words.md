@@ -14,6 +14,5 @@ Scores are from the topic-level authority analysis.
 | microsoft | single | 10.000 |
 | circuit breaker | compound | 9.900 |
 | configuration | single | 8.000 |
-| extensions | single | 6.000 |
 | require | single | 6.000 |
 | retry | single | 6.000 |

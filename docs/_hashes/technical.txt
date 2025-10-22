@@ -17,10 +17,10 @@ Keyword | object initialization
 Keyword | anonymous types
 Keyword | async operations
 Keyword | collection properties
+Keyword | extension members
 Keyword | inline array
 Keyword | pattern matching
 Keyword | async linq
 Keyword | framework-dependent
 Keyword | stack allocation
 Keyword | array interface devirtualization
-Keyword | collection initialization

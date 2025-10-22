@@ -13,7 +13,6 @@ Scores are from the topic-level authority analysis.
 | compile-time | compound | 24.750 |
 | read-only | compound | 22.500 |
 | dynamic | single | 22.000 |
-| use | single | 19.000 |
 | text | single | 18.000 |
 | configuration | single | 18.000 |
 | serialization | single | 18.000 |
@@ -34,16 +33,13 @@ Scores are from the topic-level authority analysis.
 | scenarios | single | 10.000 |
 | high-level | compound | 9.000 |
 | reflection-based | compound | 9.000 |
-| provides | single | 8.000 |
 | default | single | 8.000 |
 | depth | single | 8.000 |
 | different | single | 8.000 |
 | each | single | 8.000 |
-| extensions | single | 8.000 |
 | serializer | single | 8.000 |
 | logic | single | 7.500 |
 | httpclient extensions | compound | 7.500 |
-| extension | single | 6.000 |
 | forward-only | compound | 6.000 |
 | jsonserializer | single | 6.000 |
 | microsoft | single | 6.000 |

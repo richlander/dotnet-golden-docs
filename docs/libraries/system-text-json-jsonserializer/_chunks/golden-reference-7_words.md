@@ -12,7 +12,6 @@ Scores are from the topic-level authority analysis.
 | jsonserializer | single | 18.000 |
 | serialize | single | 16.000 |
 | compile-time | compound | 13.500 |
-| use | single | 11.000 |
 | deserialize | single | 8.000 |
 | text | single | 7.500 |
 | custom converters | compound | 7.500 |

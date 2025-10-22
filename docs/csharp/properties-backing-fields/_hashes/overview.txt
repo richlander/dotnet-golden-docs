@@ -1,2 +1,14 @@
 Title | Properties and Backing Fields
+Keyword | accessor
+Keyword | backing
+Keyword | keyword
+Keyword | auto-implemented properties
+Keyword | computed properties
+Keyword | init-only properties
+Keyword | read-only
+Keyword | field
+Keyword | backing fields
+Keyword | primary
+Keyword | records
+Keyword | field-backed properties
 Description | Properties provide a flexible mechanism to read, write, or compute values using accessor methods while appearing as public data members. The compiler can auto-generate backing fields, or developers can use the `field` keyword to access compiler-synthesized backing fields for custom logic. Properties support auto-implementation, init-only accessors, required initialization, read-only patterns, and computed values.

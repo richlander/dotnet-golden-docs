@@ -18,7 +18,6 @@ ErrorMessage | An expression tree may not contain a collection expression.
 Keyword | collection expressions
 Keyword | collection types
 Keyword | target type
-Keyword | syntax
 Keyword | spread
 Keyword | familiar
 Keyword | spread element
@@ -27,3 +26,4 @@ Keyword | compile-time constants
 Keyword | inline arrays
 Keyword | combine
 Keyword | concise
+Keyword | javascript

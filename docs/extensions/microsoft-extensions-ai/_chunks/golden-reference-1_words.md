@@ -24,6 +24,5 @@ Scores are from the topic-level authority analysis.
 | architecture | single | 6.000 |
 | capabilities | single | 6.000 |
 | chat | single | 6.000 |
-| extensions | single | 6.000 |
 | function | single | 6.000 |
 | opentelemetry | single | 6.000 |

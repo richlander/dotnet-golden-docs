@@ -2,7 +2,6 @@ Title | Collection Expressions
 Keyword | collection expressions
 Keyword | collection types
 Keyword | target type
-Keyword | syntax
 Keyword | spread
 Keyword | familiar
 Keyword | spread element
@@ -11,4 +10,5 @@ Keyword | compile-time constants
 Keyword | inline arrays
 Keyword | combine
 Keyword | concise
+Keyword | javascript
 Description | Collection expressions provide a concise syntax to create common collection values using square bracket notation. This feature combines collection expressions (introduced in C# 12) and params collection expressions (introduced in C# 13) to offer a unified, simplified approach to collection initialization and manipulation, replacing more verbose traditional syntax.

@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 18 compound terms and 224 single words
-Total unique terms: 240
+Combined 18 compound terms and 223 single words
+Total unique terms: 239
 Terms with score ≥ 3.0: 50
-Total term occurrences: 453
+Total term occurrences: 450
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -23,7 +23,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | task | single | 7 | 1.00x | 1.00x | 7.0 |
 | async methods | compound | 4 | 1.10x | 1.50x | 6.6 |
 | avoid | single | 6 | 1.00x | 1.00x | 6.0 |
-| code | single | 5 | 1.00x | 1.00x | 5.0 |
 | async code | compound | 3 | 1.10x | 1.50x | 5.0 |
 | error handling | compound | 3 | 1.10x | 1.50x | 5.0 |
 | system.text.json | compound | 3 | 1.10x | 1.50x | 5.0 |
@@ -45,6 +44,7 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | asp | single | 3 | 1.00x | 1.00x | 3.0 |
 | asynchronous | single | 3 | 1.00x | 1.00x | 3.0 |
 | can't | single | 3 | 1.00x | 1.00x | 3.0 |
+| code | single | 3 | 1.00x | 1.00x | 3.0 |
 | concurrent | single | 3 | 1.00x | 1.00x | 3.0 |
 | cpu-bound | single | 3 | 1.00x | 1.00x | 3.0 |
 | database | single | 3 | 1.00x | 1.00x | 3.0 |

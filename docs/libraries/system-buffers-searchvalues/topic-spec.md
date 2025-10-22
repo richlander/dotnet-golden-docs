@@ -105,9 +105,13 @@ SearchValues<T> is a performance-focused type that provides optimized searching 
 
 | Topic | Keyword | Score |
 |-------|---------|-------|
-| libraries | searchvalues | 2.145 |
-| libraries | simd acceleration | 1.523 |
-| libraries | pre-computed optimization | 1.412 |
+| csharp/collection-initialization | values | 1.500 |
+| libraries/string-search-operations | searchvalues | 2.600 |
+| libraries/string-search-operations | searches | 1.700 |
+| libraries/string-search-operations | allocation-free | 1.400 |
+| libraries/string-search-operations | character | 1.300 |
+| libraries/string-search-operations | searching | 1.300 |
+| libraries/system-text-json-utf8jsonreader | values | 1.500 |
 
 ## Chunks
 

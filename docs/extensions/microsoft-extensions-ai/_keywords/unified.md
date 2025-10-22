@@ -1,9 +1,9 @@
 # Unified Local Analysis
 
-Combined 9 compound terms and 209 single words
-Total unique terms: 217
-Terms with score ≥ 3.0: 36
-Total term occurrences: 398
+Combined 9 compound terms and 207 single words
+Total unique terms: 215
+Terms with score ≥ 3.0: 35
+Total term occurrences: 394
 Header-based scoring: enabled
 
 Scoring formula: LocalScore = count × header_multiplier × type_multiplier
@@ -41,7 +41,6 @@ Scoring formula: LocalScore = count × header_multiplier × type_multiplier
 | capabilities | single | 3 | 1.00x | 1.00x | 3.0 |
 | changes | single | 3 | 1.00x | 1.00x | 3.0 |
 | chat | single | 3 | 1.00x | 1.00x | 3.0 |
-| extensions | single | 3 | 1.00x | 1.00x | 3.0 |
 | function | single | 3 | 1.00x | 1.00x | 3.0 |
 | implement | single | 3 | 1.00x | 1.00x | 3.0 |
 | opentelemetry | single | 3 | 1.00x | 1.00x | 3.0 |

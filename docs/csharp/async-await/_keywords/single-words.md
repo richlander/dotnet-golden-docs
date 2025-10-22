@@ -1,8 +1,8 @@
 # Single Word Frequency Analysis
 
 Generated from: `golden-reference.md`
-Total unique words: 224
-Total word occurrences: 410
+Total unique words: 223
+Total word occurrences: 407
 Total document words: 798
 
 | Word | Count | Document Concentration |
@@ -14,7 +14,6 @@ Total document words: 798
 | considerations | 8 | 0.0100 |
 | task | 7 | 0.0088 |
 | avoid | 6 | 0.0075 |
-| code | 5 | 0.0063 |
 | don't | 4 | 0.0050 |
 | gt | 4 | 0.0050 |
 | lt | 4 | 0.0050 |
@@ -22,6 +21,7 @@ Total document words: 798
 | asp | 3 | 0.0038 |
 | asynchronous | 3 | 0.0038 |
 | can't | 3 | 0.0038 |
+| code | 3 | 0.0038 |
 | concurrent | 3 | 0.0038 |
 | cpu-bound | 3 | 0.0038 |
 | database | 3 | 0.0038 |
@@ -163,7 +163,6 @@ Total document words: 798
 | make | 1 | 0.0013 |
 | makes | 1 | 0.0013 |
 | making | 1 | 0.0013 |
-| method | 1 | 0.0013 |
 | mindful | 1 | 0.0013 |
 | much | 1 | 0.0013 |
 | multitasking | 1 | 0.0013 |
