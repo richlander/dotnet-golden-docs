@@ -107,8 +107,8 @@
 | csharp | csharp/lambda-expressions | 0.7124 |
 | libraries | libraries | 0.7082 |
 | csharp | csharp | 0.7073 |
-| libraries | libraries/system-text-json-jsonserializer | 0.7029 |
 | csharp | csharp/csharp-14-features | 0.7029 |
+| libraries | libraries/system-text-json-jsonserializer | 0.7029 |
 | libraries | libraries/json-streaming-io | 0.6994 |
 | libraries | libraries/dotnet-10-library-improvements | 0.6971 |
 

@@ -1,6 +1,6 @@
 # Authority Analysis: cli/native-aot
 
-**Generated**: 2025-10-22T17:59:54Z
+**Generated**: 2025-10-22T19:02:24Z
 **Similarity Score**: 0.7720
 **Keyword Score Threshold**: 3
 

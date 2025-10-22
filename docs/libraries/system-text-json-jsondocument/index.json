@@ -140,27 +140,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/system-text-json-jsondocument/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/index.json",
       "description": "System.Text.Json.JsonDocument provides a read-only Document Object Model (DOM) for JSON with minimal memory allocation, enabling high-performance JSON querying without defining concrete types."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/system-text-json-jsondocument/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/system-text-json-jsondocument/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/libraries/system-text-json-nodes/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.9017,
         "authority": {
@@ -181,7 +181,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.8594,
         "authority": {
@@ -206,7 +206,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.8164,
         "authority": {
@@ -226,7 +226,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
         "similarity": 0.8127,
         "hashes": {
@@ -243,7 +243,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.7826,
         "hashes": {
@@ -260,7 +260,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonwriter/index.json",
         "title": "System.Text.Json.Utf8JsonWriter",
         "similarity": 0.7693,
         "hashes": {
@@ -277,7 +277,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.7494,
         "hashes": {
@@ -294,7 +294,7 @@
         }
       },
       {
-        "href": "/libraries/json-streaming-io/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
         "title": "JSON Streaming and I/O",
         "similarity": 0.7461,
         "hashes": {
@@ -311,7 +311,7 @@
         }
       },
       {
-        "href": "/libraries/json-validation-security/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
         "title": "JSON Validation and Security",
         "similarity": 0.7441,
         "authority": {
@@ -331,7 +331,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-source-generation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
         "similarity": 0.7278,
         "hashes": {
@@ -353,7 +353,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6973,
         "hashes": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "href": "/libraries/span-based-string-processing/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/index.json",
         "title": "Span-Based String Processing",
         "similarity": 0.6896,
         "hashes": {
@@ -419,7 +419,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -428,7 +428,7 @@
           },
           {
             "index": 1,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-1.md",
             "title": "Comparison with JsonNode",
             "is_code": true,
             "similarity_conceptual": 0.7392,
@@ -437,7 +437,7 @@
           },
           {
             "index": 2,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-2.md",
             "title": "Reading Property Values",
             "is_code": true,
             "similarity_conceptual": 0.6233,
@@ -446,7 +446,7 @@
           },
           {
             "index": 3,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-3.md",
             "title": "Iterating JSON Arrays",
             "is_code": true,
             "similarity_conceptual": 0.5693,
@@ -455,7 +455,7 @@
           },
           {
             "index": 4,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-4.md",
             "title": "Processing Arrays of Objects",
             "is_code": true,
             "similarity_conceptual": 0.599,
@@ -464,7 +464,7 @@
           },
           {
             "index": 5,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-5.md",
             "title": "Using with Webhook Routing",
             "is_code": true,
             "similarity_conceptual": 0.6272,
@@ -473,7 +473,7 @@
           },
           {
             "index": 6,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-6.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-6.md",
             "title": "Using with Metadata Extraction",
             "is_code": true,
             "similarity_conceptual": 0.5969,
@@ -482,7 +482,7 @@
           },
           {
             "index": 7,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-7.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-7.md",
             "title": "Writing JSON from JsonElement",
             "is_code": true,
             "similarity_conceptual": 0.5918,
@@ -491,7 +491,7 @@
           },
           {
             "index": 8,
-            "href": "/libraries/system-text-json-jsondocument/_chunks/golden-reference-8.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/_chunks/golden-reference-8.md",
             "title": "Memory Management",
             "is_code": false,
             "similarity_conceptual": 0.6852999999999999,
@@ -503,7 +503,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5876424Z",
+    "generated": "2025-10-22T19:02:26.1986440Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

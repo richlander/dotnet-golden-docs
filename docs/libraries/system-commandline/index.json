@@ -120,27 +120,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/system-commandline/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/index.json",
       "description": "Command-line parsing library for .NET that provides strongly-typed argument and option parsing, automatic help generation, and tab completion."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/system-commandline/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/system-commandline/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/cli/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
         "title": "CLI",
         "similarity": 0.797,
         "authority": {
@@ -161,7 +161,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7253,
         "hashes": {
@@ -183,7 +183,7 @@
         }
       },
       {
-        "href": "/cli/file-based-apps/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/file-based-apps/index.json",
         "title": "File-based apps",
         "similarity": 0.7239,
         "hashes": {
@@ -200,7 +200,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.7107,
         "hashes": {
@@ -217,7 +217,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7004,
         "hashes": {
@@ -234,7 +234,7 @@
         }
       },
       {
-        "href": "/csharp/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.6995,
         "hashes": {
@@ -251,7 +251,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.699,
         "hashes": {
@@ -273,7 +273,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6932,
         "hashes": {
@@ -290,7 +290,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.6925,
         "hashes": {
@@ -307,7 +307,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.6901,
         "hashes": {
@@ -324,7 +324,7 @@
         }
       },
       {
-        "href": "/libraries/system-threading-tasks-task/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.6846,
         "hashes": {
@@ -363,7 +363,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/libraries/system-commandline/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -372,7 +372,7 @@
           },
           {
             "index": 1,
-            "href": "/libraries/system-commandline/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/_chunks/golden-reference-1.md",
             "title": "Advanced Validation",
             "is_code": true,
             "similarity_conceptual": 0.5690000000000001,
@@ -381,7 +381,7 @@
           },
           {
             "index": 2,
-            "href": "/libraries/system-commandline/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/_chunks/golden-reference-2.md",
             "title": "Complex Type Binding",
             "is_code": true,
             "similarity_conceptual": 0.5693999999999999,
@@ -390,7 +390,7 @@
           },
           {
             "index": 3,
-            "href": "/libraries/system-commandline/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/_chunks/golden-reference-3.md",
             "title": "Error Handling Guidance",
             "is_code": true,
             "similarity_conceptual": 0.6002,
@@ -402,7 +402,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5781949Z",
+    "generated": "2025-10-22T19:02:26.1617300Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

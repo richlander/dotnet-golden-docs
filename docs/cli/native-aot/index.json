@@ -107,32 +107,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/cli/native-aot/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
       "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime."
     },
     "parent": {
       "name": "parent",
-      "href": "/cli/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
       "description": "Cli category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/cli/native-aot/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/cli/native-aot/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/cli/native-aot/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/cli/publishing-and-deployment/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
         "title": "Publishing and Deployment",
         "similarity": 0.8261,
         "authority": {
@@ -160,7 +160,7 @@
         }
       },
       {
-        "href": "/cli/file-based-apps/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/file-based-apps/index.json",
         "title": "File-based apps",
         "similarity": 0.7976,
         "hashes": {
@@ -177,7 +177,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7752,
         "authority": {
@@ -197,7 +197,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-source-generation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
         "similarity": 0.772,
         "authority": {
@@ -224,7 +224,7 @@
         }
       },
       {
-        "href": "/cli/build-and-compilation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
         "title": "Build and Compilation",
         "similarity": 0.745,
         "authority": {
@@ -244,7 +244,7 @@
         }
       },
       {
-        "href": "/libraries/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.6828,
         "hashes": {
@@ -261,7 +261,7 @@
         }
       },
       {
-        "href": "/libraries/system-commandline/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/index.json",
         "title": "System.CommandLine",
         "similarity": 0.6697,
         "hashes": {
@@ -283,7 +283,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6683,
         "authority": {
@@ -308,7 +308,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.6593,
         "hashes": {
@@ -330,7 +330,7 @@
         }
       },
       {
-        "href": "/csharp/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.6473,
         "hashes": {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6411,
         "hashes": {
@@ -364,7 +364,7 @@
         }
       },
       {
-        "href": "/extensions/microsoft-extensions-ai/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
         "title": "Microsoft.Extensions.AI",
         "similarity": 0.6401,
         "hashes": {
@@ -405,7 +405,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/cli/native-aot/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -414,7 +414,7 @@
           },
           {
             "index": 1,
-            "href": "/cli/native-aot/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-1.md",
             "title": "Complementary Technologies",
             "is_code": true,
             "similarity_conceptual": 0.5428999999999999,
@@ -423,7 +423,7 @@
           },
           {
             "index": 2,
-            "href": "/cli/native-aot/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-2.md",
             "title": "Setting Up Source Generation",
             "is_code": true,
             "similarity_conceptual": 0.5478,
@@ -432,7 +432,7 @@
           },
           {
             "index": 3,
-            "href": "/cli/native-aot/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-3.md",
             "title": "Common AOT Errors",
             "is_code": true,
             "similarity_conceptual": 0.5146999999999999,
@@ -441,7 +441,7 @@
           },
           {
             "index": 4,
-            "href": "/cli/native-aot/_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/_chunks/golden-reference-4.md",
             "title": "Common Troubleshooting",
             "is_code": true,
             "similarity_conceptual": 0.6143999999999998,
@@ -453,7 +453,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5122647Z",
+    "generated": "2025-10-22T19:02:25.7771140Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

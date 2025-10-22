@@ -292,7 +292,6 @@ Uniqueness Multipliers:
 | naming policies | compound | 6 | 2 | system-text-json-jsonserializer, system-text-json-source-generation | 4.657 | 2.0x | 9.314 |
 | cpu-bound work | compound | 5 | 2 | async-await, system-threading-tasks-task | 4.642 | 2.0x | 9.284 |
 | generic methods | compound | 5 | 2 | native-aot, system-text-json-source-generation | 4.642 | 2.0x | 9.284 |
-| init-only | compound | 5 | 2 | object-initialization, properties-backing-fields | 4.642 | 2.0x | 9.284 |
 | required properties | compound | 5 | 2 | json-validation-security, properties-backing-fields | 4.642 | 2.0x | 9.284 |
 | cancellation support | compound | 4 | 2 | async-await, system-collections-generic-iasyncenumerable | 4.627 | 2.0x | 9.254 |
 | higher-level | compound | 4 | 2 | dotnet, system-text-json-utf8jsonreader | 4.627 | 2.0x | 9.254 |
@@ -845,6 +844,7 @@ Uniqueness Multipliers:
 | uses | single | 6 | 2 | system-text-json, system-text-json-jsondocument | 3.105 | 2.0x | 6.209 |
 | versions | single | 6 | 2 | cli, collections-performance | 3.105 | 2.0x | 6.209 |
 | workflows | single | 6 | 2 | build-and-compilation, microsoft-extensions-ai-evaluation | 3.105 | 2.0x | 6.209 |
+| init-only | single | 5 | 2 | object-initialization, properties-backing-fields | 3.095 | 2.0x | 6.189 |
 | libraries | single | 32 | 3 | csharp, dotnet, libraries | 2.959 | 2.0x | 5.918 |
 | source generation | compound | 50 | 5 | native-aot, system-text-json, system-text-json-dotnet-10, system-text-json-jsonserializer, system-text-json-source-generation | 3.942 | 1.5x | 5.914 |
 | deployment | single | 30 | 3 | assembly-trimming, native-aot, publishing-and-deployment | 2.939 | 2.0x | 5.878 |

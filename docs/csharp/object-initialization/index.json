@@ -102,32 +102,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/csharp/object-initialization/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/index.json",
       "description": "Comprehensive approaches for creating and initializing objects, properties, and collections within objects using various syntax patterns and modern language features."
     },
     "parent": {
       "name": "parent",
-      "href": "/csharp/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/csharp/object-initialization/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/csharp/object-initialization/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/csharp/object-initialization/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/csharp/collection-initialization/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
         "title": "Collection Initialization",
         "similarity": 0.8118,
         "authority": {
@@ -152,7 +152,7 @@
         }
       },
       {
-        "href": "/csharp/properties-backing-fields/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
         "title": "Properties and Backing Fields",
         "similarity": 0.7891,
         "authority": {
@@ -173,7 +173,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7591,
         "hashes": {
@@ -195,7 +195,7 @@
         }
       },
       {
-        "href": "/csharp/collection-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.7142,
         "authority": {
@@ -220,7 +220,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.7033,
         "hashes": {
@@ -237,7 +237,7 @@
         }
       },
       {
-        "href": "/csharp/partial-classes/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/partial-classes/index.json",
         "title": "Partial Classes",
         "similarity": 0.6913,
         "hashes": {
@@ -254,7 +254,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.6899,
         "hashes": {
@@ -271,7 +271,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.6883,
         "hashes": {
@@ -288,7 +288,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6824,
         "hashes": {
@@ -305,7 +305,7 @@
         }
       },
       {
-        "href": "/libraries/json-validation-security/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
         "title": "JSON Validation and Security",
         "similarity": 0.6788,
         "hashes": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-nodes/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.6729,
         "hashes": {
@@ -345,7 +345,7 @@
     "chunks": null
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5339362Z",
+    "generated": "2025-10-22T19:02:25.9059440Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

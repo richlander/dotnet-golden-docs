@@ -95,27 +95,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/csharp/properties-backing-fields/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
       "description": "Properties provide flexible data access through accessor methods, with support for auto-implementation, field keyword access, init-only setters, and required initialization."
     },
     "parent": {
       "name": "parent",
-      "href": "/csharp/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/csharp/properties-backing-fields/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/csharp/properties-backing-fields/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.8054,
         "authority": {
@@ -140,7 +140,7 @@
         }
       },
       {
-        "href": "/csharp/object-initialization/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/index.json",
         "title": "Object Initialization",
         "similarity": 0.7891,
         "authority": {
@@ -166,7 +166,7 @@
         }
       },
       {
-        "href": "/csharp/partial-classes/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/partial-classes/index.json",
         "title": "Partial Classes",
         "similarity": 0.6888,
         "authority": {
@@ -186,7 +186,7 @@
         }
       },
       {
-        "href": "/libraries/json-validation-security/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
         "title": "JSON Validation and Security",
         "similarity": 0.6862,
         "hashes": {
@@ -203,7 +203,7 @@
         }
       },
       {
-        "href": "/csharp/lambda-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
         "title": "Lambda Expressions",
         "similarity": 0.684,
         "hashes": {
@@ -220,7 +220,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.6837,
         "hashes": {
@@ -237,7 +237,7 @@
         }
       },
       {
-        "href": "/csharp/collection-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.6825,
         "hashes": {
@@ -259,7 +259,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6796,
         "hashes": {
@@ -276,7 +276,7 @@
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.6777,
         "hashes": {
@@ -293,7 +293,7 @@
         }
       },
       {
-        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.6741,
         "hashes": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.674,
         "hashes": {
@@ -353,7 +353,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/csharp/properties-backing-fields/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -362,7 +362,7 @@
           },
           {
             "index": 1,
-            "href": "/csharp/properties-backing-fields/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/_chunks/golden-reference-1.md",
             "title": "Auto-Implemented Properties",
             "is_code": true,
             "similarity_conceptual": 0.6316999999999999,
@@ -371,7 +371,7 @@
           },
           {
             "index": 2,
-            "href": "/csharp/properties-backing-fields/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/_chunks/golden-reference-2.md",
             "title": "Init-Only Properties",
             "is_code": true,
             "similarity_conceptual": 0.6243,
@@ -380,7 +380,7 @@
           },
           {
             "index": 3,
-            "href": "/csharp/properties-backing-fields/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/_chunks/golden-reference-3.md",
             "title": "Required Properties",
             "is_code": true,
             "similarity_conceptual": 0.5364,
@@ -389,7 +389,7 @@
           },
           {
             "index": 4,
-            "href": "/csharp/properties-backing-fields/_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/_chunks/golden-reference-4.md",
             "title": "Computed Properties",
             "is_code": true,
             "similarity_conceptual": 0.6166,
@@ -398,7 +398,7 @@
           },
           {
             "index": 5,
-            "href": "/csharp/properties-backing-fields/_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/_chunks/golden-reference-5.md",
             "title": "Considerations",
             "is_code": true,
             "similarity_conceptual": 0.6459999999999999,
@@ -410,7 +410,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5389097Z",
+    "generated": "2025-10-22T19:02:25.9213850Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

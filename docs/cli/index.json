@@ -79,32 +79,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/cli/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
       "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications."
     },
     "parent": {
       "name": "parent",
-      "href": "/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/index.json",
       "description": "Root knowledge graph"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/cli/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/cli/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "validation": {
       "name": "Validation Requirements",
-      "href": "/cli/validation.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/validation.md",
       "description": "Testing requirements and validation rules for content accuracy and code example verification"
     },
     "related": [
       {
-        "href": "/libraries/system-commandline/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/index.json",
         "title": "System.CommandLine",
         "similarity": 0.797,
         "authority": {
@@ -130,7 +130,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7804,
         "authority": {
@@ -150,7 +150,7 @@
         }
       },
       {
-        "href": "/libraries/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.7484,
         "hashes": {
@@ -167,7 +167,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6809,
         "hashes": {
@@ -184,7 +184,7 @@
         }
       },
       {
-        "href": "/libraries/system-threading-tasks-task/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.6661,
         "hashes": {
@@ -201,7 +201,7 @@
         }
       },
       {
-        "href": "/extensions/microsoft-extensions-ai/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/microsoft-extensions-ai/index.json",
         "title": "Microsoft.Extensions.AI",
         "similarity": 0.6615,
         "hashes": {
@@ -218,7 +218,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6554,
         "hashes": {
@@ -240,7 +240,7 @@
         }
       },
       {
-        "href": "/csharp/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.6447,
         "hashes": {
@@ -257,7 +257,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.6368,
         "hashes": {
@@ -298,7 +298,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/cli/build-and-compilation/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
             "description": "Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment."
           }
         }
@@ -329,7 +329,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/cli/publishing-and-deployment/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
             "description": "Publishing and deployment encompasses the distribution-time workflow of preparing .NET applications for production use, including packaging, optimization, and deployment strategies."
           }
         }
@@ -360,7 +360,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/cli/assembly-trimming/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/index.json",
             "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies."
           }
         }
@@ -386,7 +386,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/cli/file-based-apps/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/file-based-apps/index.json",
             "description": "File-based apps allow developers to run and publish single .cs files directly without creating a traditional project structure."
           }
         }
@@ -417,7 +417,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/cli/native-aot/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
             "description": "Native AOT (Ahead-of-Time) compilation is a publishing model that compiles .NET applications directly to native code at build time, eliminating the need for a just-in-time (JIT) compiler at runtime."
           }
         }
@@ -452,7 +452,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/cli/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -461,7 +461,7 @@
           },
           {
             "index": 1,
-            "href": "/cli/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-1.md",
             "title": "Tool and Workload Management",
             "is_code": true,
             "similarity_conceptual": 0.5046999999999999,
@@ -470,7 +470,7 @@
           },
           {
             "index": 2,
-            "href": "/cli/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-2.md",
             "title": "Solution Management",
             "is_code": false,
             "similarity_conceptual": 0.5274,
@@ -479,7 +479,7 @@
           },
           {
             "index": 3,
-            "href": "/cli/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-3.md",
             "title": "Integration Patterns",
             "is_code": false,
             "similarity_conceptual": 0.5645999999999999,
@@ -488,7 +488,7 @@
           },
           {
             "index": 4,
-            "href": "/cli/_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-4.md",
             "title": "Package Restore Optimization",
             "is_code": false,
             "similarity_conceptual": 0.5694999999999999,
@@ -497,7 +497,7 @@
           },
           {
             "index": 5,
-            "href": "/cli/_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-5.md",
             "title": "Version and Compatibility Management",
             "is_code": true,
             "similarity_conceptual": 0.5344,
@@ -506,7 +506,7 @@
           },
           {
             "index": 6,
-            "href": "/cli/_chunks/golden-reference-6.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-6.md",
             "title": "Security and Trust Considerations",
             "is_code": false,
             "similarity_conceptual": 0.4792,
@@ -515,7 +515,7 @@
           },
           {
             "index": 7,
-            "href": "/cli/_chunks/golden-reference-7.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-7.md",
             "title": "Package and Dependency Management",
             "is_code": false,
             "similarity_conceptual": 0.5209999999999999,
@@ -524,7 +524,7 @@
           },
           {
             "index": 8,
-            "href": "/cli/_chunks/golden-reference-8.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/_chunks/golden-reference-8.md",
             "title": "CI/CD Pipeline Integration",
             "is_code": false,
             "similarity_conceptual": 0.6004999999999999,
@@ -536,7 +536,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.6149257Z",
+    "generated": "2025-10-22T19:02:26.3192000Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

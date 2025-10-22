@@ -135,27 +135,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/json-streaming-io/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
       "description": "Efficient JSON processing with streams, pipes, and async operations including PipeReader support, large document handling, and memory-efficient parsing."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/json-streaming-io/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/json-streaming-io/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7999,
         "hashes": {
@@ -177,7 +177,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-utf8jsonreader/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonreader/index.json",
         "title": "System.Text.Json.Utf8JsonReader",
         "similarity": 0.7854,
         "authority": {
@@ -197,7 +197,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
         "title": "System.Text.Json.JsonSerializer",
         "similarity": 0.7811,
         "hashes": {
@@ -214,7 +214,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-utf8jsonwriter/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-utf8jsonwriter/index.json",
         "title": "System.Text.Json.Utf8JsonWriter",
         "similarity": 0.7638,
         "authority": {
@@ -234,7 +234,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
         "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7473,
         "hashes": {
@@ -251,7 +251,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsondocument/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsondocument/index.json",
         "title": "System.Text.Json.JsonDocument",
         "similarity": 0.7461,
         "hashes": {
@@ -268,7 +268,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.7437,
         "hashes": {
@@ -285,7 +285,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-nodes/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-nodes/index.json",
         "title": "System.Text.Json.Nodes",
         "similarity": 0.72,
         "hashes": {
@@ -302,7 +302,7 @@
         }
       },
       {
-        "href": "/csharp/async-await/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/async-await/index.json",
         "title": "Async and Await",
         "similarity": 0.7119,
         "hashes": {
@@ -319,7 +319,7 @@
         }
       },
       {
-        "href": "/libraries/system-threading-tasks-task/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.6994,
         "hashes": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "href": "/libraries/json-validation-security/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-validation-security/index.json",
         "title": "JSON Validation and Security",
         "similarity": 0.6982,
         "hashes": {
@@ -353,7 +353,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-migrate-from-newtonsoft/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-migrate-from-newtonsoft/index.json",
         "title": "Migrating from Newtonsoft.Json to System.Text.Json",
         "similarity": 0.6909,
         "hashes": {
@@ -396,7 +396,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/libraries/json-streaming-io/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -405,7 +405,7 @@
           },
           {
             "index": 1,
-            "href": "/libraries/json-streaming-io/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/_chunks/golden-reference-1.md",
             "title": "Adopting Streaming APIs",
             "is_code": true,
             "similarity_conceptual": 0.7185,
@@ -414,7 +414,7 @@
           },
           {
             "index": 2,
-            "href": "/libraries/json-streaming-io/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/_chunks/golden-reference-2.md",
             "title": "Producer-Consumer Pipeline",
             "is_code": true,
             "similarity_conceptual": 0.6527,
@@ -423,7 +423,7 @@
           },
           {
             "index": 3,
-            "href": "/libraries/json-streaming-io/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/_chunks/golden-reference-3.md",
             "title": "HTTP Response Streaming",
             "is_code": true,
             "similarity_conceptual": 0.6419,
@@ -432,7 +432,7 @@
           },
           {
             "index": 4,
-            "href": "/libraries/json-streaming-io/_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/_chunks/golden-reference-4.md",
             "title": "Memory-Efficient Parsing",
             "is_code": true,
             "similarity_conceptual": 0.6154000000000001,
@@ -441,7 +441,7 @@
           },
           {
             "index": 5,
-            "href": "/libraries/json-streaming-io/_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/_chunks/golden-reference-5.md",
             "title": "Large File Processing",
             "is_code": false,
             "similarity_conceptual": 0.6533,
@@ -453,7 +453,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5569395Z",
+    "generated": "2025-10-22T19:02:26.0681750Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

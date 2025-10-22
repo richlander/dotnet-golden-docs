@@ -140,32 +140,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/system-threading-tasks-task/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
       "description": "Types representing asynchronous operations that form the foundation of the Task-based Asynchronous Pattern, working with async/await for composable non-blocking code."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/system-threading-tasks-task/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/system-threading-tasks-task/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/libraries/system-threading-tasks-task/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/csharp/async-await/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/async-await/index.json",
         "title": "Async and Await",
         "similarity": 0.8707,
         "authority": {
@@ -187,7 +187,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
         "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7964,
         "authority": {
@@ -208,7 +208,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7386,
         "hashes": {
@@ -225,7 +225,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7312,
         "authority": {
@@ -245,7 +245,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7184,
         "hashes": {
@@ -267,7 +267,7 @@
         }
       },
       {
-        "href": "/csharp/lambda-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
         "title": "Lambda Expressions",
         "similarity": 0.7124,
         "hashes": {
@@ -284,7 +284,7 @@
         }
       },
       {
-        "href": "/csharp/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.7073,
         "hashes": {
@@ -301,24 +301,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-jsonserializer/index.json",
-        "title": "System.Text.Json.JsonSerializer",
-        "similarity": 0.7029,
-        "hashes": {
-          "overview": {
-            "name": "overview",
-            "kind": "simhash",
-            "fingerprint": 13176850832237699898
-          },
-          "technical": {
-            "name": "technical",
-            "kind": "simhash",
-            "fingerprint": 12992100100520943996
-          }
-        }
-      },
-      {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7029,
         "hashes": {
@@ -340,7 +323,24 @@
         }
       },
       {
-        "href": "/libraries/json-streaming-io/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-jsonserializer/index.json",
+        "title": "System.Text.Json.JsonSerializer",
+        "similarity": 0.7029,
+        "hashes": {
+          "overview": {
+            "name": "overview",
+            "kind": "simhash",
+            "fingerprint": 13176850832237699898
+          },
+          "technical": {
+            "name": "technical",
+            "kind": "simhash",
+            "fingerprint": 12992100100520943996
+          }
+        }
+      },
+      {
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/json-streaming-io/index.json",
         "title": "JSON Streaming and I/O",
         "similarity": 0.6994,
         "hashes": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6971,
         "hashes": {
@@ -410,7 +410,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-0.md",
             "title": "Main Approaches",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -419,7 +419,7 @@
           },
           {
             "index": 1,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-1.md",
             "title": "Task.WhenAll for Concurrent Operations",
             "is_code": true,
             "similarity_conceptual": 0.7094,
@@ -428,7 +428,7 @@
           },
           {
             "index": 2,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-2.md",
             "title": "Task Status and Properties",
             "is_code": true,
             "similarity_conceptual": 0.6821,
@@ -437,7 +437,7 @@
           },
           {
             "index": 3,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-3.md",
             "title": "JSON Serialization",
             "is_code": true,
             "similarity_conceptual": 0.6859999999999999,
@@ -446,7 +446,7 @@
           },
           {
             "index": 4,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-4.md",
             "title": "Parallel Processing",
             "is_code": true,
             "similarity_conceptual": 0.6045,
@@ -455,7 +455,7 @@
           },
           {
             "index": 5,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-5.md",
             "title": "Retry with Exponential Backoff",
             "is_code": true,
             "similarity_conceptual": 0.6403999999999999,
@@ -464,7 +464,7 @@
           },
           {
             "index": 6,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-6.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-6.md",
             "title": "Lazy Task Initialization",
             "is_code": true,
             "similarity_conceptual": 0.6351,
@@ -473,7 +473,7 @@
           },
           {
             "index": 7,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-7.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-7.md",
             "title": "ValueTask for Performance",
             "is_code": true,
             "similarity_conceptual": 0.6577999999999999,
@@ -482,7 +482,7 @@
           },
           {
             "index": 8,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-8.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-8.md",
             "title": "Always Handle Task Exceptions",
             "is_code": true,
             "similarity_conceptual": 0.6359999999999999,
@@ -491,7 +491,7 @@
           },
           {
             "index": 9,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-9.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-9.md",
             "title": "Tasks Always Complete Asynchronously",
             "is_code": true,
             "similarity_conceptual": 0.6410999999999999,
@@ -500,7 +500,7 @@
           },
           {
             "index": 10,
-            "href": "/libraries/system-threading-tasks-task/_chunks/golden-reference-10.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/_chunks/golden-reference-10.md",
             "title": "Memory Overhead",
             "is_code": true,
             "similarity_conceptual": 0.6176999999999999,
@@ -512,7 +512,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.6103621Z",
+    "generated": "2025-10-22T19:02:26.2898950Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -1,167 +1,23 @@
 {
-  "id": ".",
-  "title": ".NET",
-  "description": "Comprehensive developer platform encompassing runtime, libraries, tools, languages, and deployment models for building modern applications across all scenarios.",
-  "category": "Platform",
-  "complexity": 0.8,
+  "id": "",
+  "title": ".NET Knowledge Graph",
+  "description": "Root index of .NET documentation topics and categories",
+  "category": "Root",
+  "complexity": 0.5,
   "priority": 1,
   "depth_below": 2,
   "topic_count": 5,
-  "introduced": {
-    "version": "1.0",
-    "year": "2016"
-  },
-  "hashes": {
-    "overview": {
-      "name": "overview",
-      "kind": "simhash",
-      "fingerprint": 13141387389280452984
-    },
-    "technical": {
-      "name": "technical",
-      "kind": "simhash",
-      "fingerprint": 12992100100520943996
-    }
-  },
-  "keywords": [
-    {
-      "name": "file-based apps",
-      "score": 14
-    },
-    {
-      "name": "object initialization",
-      "score": 10
-    },
-    {
-      "name": "anonymous types",
-      "score": 8
-    },
-    {
-      "name": "async operations",
-      "score": 8
-    },
-    {
-      "name": "collection properties",
-      "score": 8
-    },
-    {
-      "name": "extension members",
-      "score": 8
-    },
-    {
-      "name": "inline array",
-      "score": 8
-    },
-    {
-      "name": "pattern matching",
-      "score": 8
-    },
-    {
-      "name": "async linq",
-      "score": 7
-    },
-    {
-      "name": "framework-dependent",
-      "score": 7
-    },
-    {
-      "name": "stack allocation",
-      "score": 7
-    },
-    {
-      "name": "array interface devirtualization",
-      "score": 6
-    }
-  ],
-  "keyword_hash": 12314095325298238276,
-  "apis": [
-    {
-      "name": "Console.WriteLine",
-      "type": "method",
-      "count": 63
-    },
-    {
-      "name": "JsonSerializable",
-      "type": "attribute",
-      "count": 38
-    },
-    {
-      "name": "JsonSerializer.Serialize",
-      "type": "method",
-      "count": 29
-    },
-    {
-      "name": "Build",
-      "type": "method",
-      "count": 25
-    },
-    {
-      "name": "Add",
-      "type": "method",
-      "count": 21
-    },
-    {
-      "name": "GetResponseAsync",
-      "type": "method",
-      "count": 21
-    },
-    {
-      "name": "JsonSourceGenerationOptions",
-      "type": "attribute",
-      "count": 21
-    },
-    {
-      "name": "EvaluateAsync",
-      "type": "method",
-      "count": 17
-    },
-    {
-      "name": "AddOption",
-      "type": "method",
-      "count": 14
-    },
-    {
-      "name": "ChatClientBuilder",
-      "type": "method",
-      "count": 14
-    },
-    {
-      "name": "Microsoft.Extensions",
-      "type": "namespace",
-      "count": 14
-    },
-    {
-      "name": "System.Text.Json",
-      "type": "namespace",
-      "count": 13
-    }
-  ],
+  "introduced": null,
+  "hashes": null,
+  "keywords": null,
+  "keyword_hash": null,
+  "apis": null,
   "diagnostic_codes": null,
   "_links": {
     "self": {
       "name": "self",
-      "href": "/./index.json",
-      "description": "Comprehensive developer platform encompassing runtime, libraries, tools, languages, and deployment models for building modern applications across all scenarios."
-    },
-    "parent": {
-      "name": "parent",
-      "href": "/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/index.json",
       "description": "Root knowledge graph"
-    },
-    "topic-spec": {
-      "name": "Topic Specification",
-      "href": "/./topic-spec.md",
-      "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
-    },
-    "repos": {
-      "name": "repos",
-      "href": "/./repos.md",
-      "description": "repos"
-    },
-    "readme": {
-      "name": "README",
-      "href": "/./README.md",
-      "description": "README"
     }
   },
   "_embedded": {
@@ -187,7 +43,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/cli/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
             "description": "The .NET CLI (Command-Line Interface) is the primary cross-platform toolchain for developing, building, testing, and deploying .NET applications."
           }
         }
@@ -213,7 +69,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/csharp/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
             "description": "C# is a modern, safe, and general purpose language that makes developers productive while writing high-performance code."
           }
         }
@@ -239,7 +95,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/dotnet/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
             "description": ".NET is a free, cross-platform, open-source developer platform for building many kinds of applications."
           }
         }
@@ -265,7 +121,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/extensions/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/extensions/index.json",
             "description": ".NET extensions provide additional functionality beyond the core platform through specialized libraries, abstractions, and middleware components."
           }
         }
@@ -291,7 +147,7 @@
         "_links": {
           "self": {
             "name": "self",
-            "href": "/libraries/index.json",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
             "description": "The .NET library ecosystem provides a comprehensive foundation of APIs, frameworks, and components that enable developers to build applications across multiple platforms and scenarios."
           }
         }
@@ -300,7 +156,7 @@
     "chunks": null
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.6138351Z",
+    "generated": "2025-10-22T19:02:26.3940860Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

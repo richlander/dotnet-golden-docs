@@ -102,37 +102,37 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/csharp/collection-initialization/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
       "description": "Traditional and modern approaches to creating and initializing collections using constructors, target-typed new expressions, and collection initializer syntax."
     },
     "parent": {
       "name": "parent",
-      "href": "/csharp/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
       "description": "Csharp category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/csharp/collection-initialization/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/csharp/collection-initialization/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/csharp/collection-initialization/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "golden-reference.prose-only": {
       "name": "golden reference.prose only",
-      "href": "/csharp/collection-initialization/golden-reference.prose-only.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/golden-reference.prose-only.md",
       "description": "golden reference.prose only"
     },
     "related": [
       {
-        "href": "/csharp/collection-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.8797,
         "authority": {
@@ -158,7 +158,7 @@
         }
       },
       {
-        "href": "/csharp/object-initialization/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/object-initialization/index.json",
         "title": "Object Initialization",
         "similarity": 0.8118,
         "authority": {
@@ -183,7 +183,7 @@
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.7736,
         "hashes": {
@@ -200,7 +200,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7294,
         "hashes": {
@@ -217,7 +217,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.718,
         "hashes": {
@@ -239,7 +239,7 @@
         }
       },
       {
-        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.6978,
         "authority": {
@@ -259,7 +259,7 @@
         }
       },
       {
-        "href": "/csharp/properties-backing-fields/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/properties-backing-fields/index.json",
         "title": "Properties and Backing Fields",
         "similarity": 0.6805,
         "hashes": {
@@ -276,7 +276,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6777,
         "hashes": {
@@ -293,7 +293,7 @@
         }
       },
       {
-        "href": "/csharp/lambda-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/lambda-expressions/index.json",
         "title": "Lambda Expressions",
         "similarity": 0.6759,
         "hashes": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "href": "/libraries/string-search-operations/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/string-search-operations/index.json",
         "title": "String Search Operations",
         "similarity": 0.6635,
         "hashes": {
@@ -327,7 +327,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
         "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.6623,
         "hashes": {
@@ -350,7 +350,7 @@
     "chunks": null
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5248947Z",
+    "generated": "2025-10-22T19:02:25.8183690Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

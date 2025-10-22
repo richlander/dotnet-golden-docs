@@ -120,27 +120,27 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/libraries/collections-performance/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
       "description": "Runtime optimizations and code patterns for efficient use of arrays, lists, and collection types, including automatic stack allocation, array interface devirtualization, and OrderedDictionary with indexed access."
     },
     "parent": {
       "name": "parent",
-      "href": "/libraries/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
       "description": "Libraries category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/libraries/collections-performance/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/libraries/collections-performance/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "related": [
       {
-        "href": "/libraries/system-collections-generic-ienumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-ienumerable/index.json",
         "title": "IEnumerable and IEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7989,
         "authority": {
@@ -160,7 +160,7 @@
         }
       },
       {
-        "href": "/csharp/collection-initialization/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-initialization/index.json",
         "title": "Collection Initialization",
         "similarity": 0.7736,
         "hashes": {
@@ -182,7 +182,7 @@
         }
       },
       {
-        "href": "/libraries/system-collections-generic-iasyncenumerable/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-collections-generic-iasyncenumerable/index.json",
         "title": "IAsyncEnumerable\u0026lt;T\u0026gt;",
         "similarity": 0.7558,
         "authority": {
@@ -202,7 +202,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.7552,
         "hashes": {
@@ -219,7 +219,7 @@
         }
       },
       {
-        "href": "/libraries/system-buffers-searchvalues/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-buffers-searchvalues/index.json",
         "title": "System.Buffers.SearchValues",
         "similarity": 0.7535,
         "hashes": {
@@ -236,7 +236,7 @@
         }
       },
       {
-        "href": "/csharp/collection-expressions/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/collection-expressions/index.json",
         "title": "Collection Expressions",
         "similarity": 0.751,
         "hashes": {
@@ -258,7 +258,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.7482,
         "hashes": {
@@ -280,7 +280,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7286,
         "hashes": {
@@ -297,7 +297,7 @@
         }
       },
       {
-        "href": "/csharp/async-await/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/async-await/index.json",
         "title": "Async and Await",
         "similarity": 0.7065,
         "hashes": {
@@ -314,7 +314,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.7041,
         "hashes": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "href": "/libraries/system-threading-tasks-task/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.6963,
         "authority": {
@@ -384,7 +384,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/libraries/collections-performance/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -393,7 +393,7 @@
           },
           {
             "index": 1,
-            "href": "/libraries/collections-performance/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/_chunks/golden-reference-1.md",
             "title": "Array Interface Performance Parity",
             "is_code": true,
             "similarity_conceptual": 0.6871999999999999,
@@ -402,7 +402,7 @@
           },
           {
             "index": 2,
-            "href": "/libraries/collections-performance/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/_chunks/golden-reference-2.md",
             "title": "Relationships \u0026 Integration",
             "is_code": true,
             "similarity_conceptual": 0.6755999999999999,
@@ -411,7 +411,7 @@
           },
           {
             "index": 3,
-            "href": "/libraries/collections-performance/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/_chunks/golden-reference-3.md",
             "title": "Escape Analysis for Struct Fields",
             "is_code": true,
             "similarity_conceptual": 0.6286999999999999,
@@ -420,7 +420,7 @@
           },
           {
             "index": 4,
-            "href": "/libraries/collections-performance/_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/_chunks/golden-reference-4.md",
             "title": "Efficient Updates with Index Caching",
             "is_code": true,
             "similarity_conceptual": 0.6476999999999999,
@@ -429,7 +429,7 @@
           },
           {
             "index": 5,
-            "href": "/libraries/collections-performance/_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/_chunks/golden-reference-5.md",
             "title": "Array Interface Devirtualization",
             "is_code": true,
             "similarity_conceptual": 0.6862,
@@ -438,7 +438,7 @@
           },
           {
             "index": 6,
-            "href": "/libraries/collections-performance/_chunks/golden-reference-6.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/_chunks/golden-reference-6.md",
             "title": "Leveraging Automatic Optimizations",
             "is_code": true,
             "similarity_conceptual": 0.6868,
@@ -450,7 +450,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5511167Z",
+    "generated": "2025-10-22T19:02:26.0498590Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

@@ -79,32 +79,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/cli/build-and-compilation/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
       "description": "Build and compilation encompasses the development-time workflow of transforming source code into executable binaries, managing dependencies, and preparing projects for testing and deployment."
     },
     "parent": {
       "name": "parent",
-      "href": "/cli/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
       "description": "Cli category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/cli/build-and-compilation/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/cli/build-and-compilation/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/cli/build-and-compilation/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/cli/publishing-and-deployment/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
         "title": "Publishing and Deployment",
         "similarity": 0.812,
         "authority": {
@@ -129,7 +129,7 @@
         }
       },
       {
-        "href": "/cli/file-based-apps/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/file-based-apps/index.json",
         "title": "File-based apps",
         "similarity": 0.7631,
         "hashes": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.7617,
         "hashes": {
@@ -163,7 +163,7 @@
         }
       },
       {
-        "href": "/libraries/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.728,
         "hashes": {
@@ -180,7 +180,7 @@
         }
       },
       {
-        "href": "/libraries/system-commandline/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-commandline/index.json",
         "title": "System.CommandLine",
         "similarity": 0.6689,
         "authority": {
@@ -205,7 +205,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6622,
         "hashes": {
@@ -222,7 +222,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.6456,
         "hashes": {
@@ -244,7 +244,7 @@
         }
       },
       {
-        "href": "/libraries/system-threading-tasks-task/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-threading-tasks-task/index.json",
         "title": "Task and Task\u0026lt;T\u0026gt;",
         "similarity": 0.6449,
         "hashes": {
@@ -261,7 +261,7 @@
         }
       },
       {
-        "href": "/csharp/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/index.json",
         "title": "C# Language",
         "similarity": 0.6385,
         "hashes": {
@@ -278,7 +278,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-source-generation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
         "similarity": 0.6282,
         "hashes": {
@@ -300,7 +300,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6184,
         "hashes": {
@@ -348,7 +348,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/cli/build-and-compilation/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -357,7 +357,7 @@
           },
           {
             "index": 1,
-            "href": "/cli/build-and-compilation/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/_chunks/golden-reference-1.md",
             "title": "Parallel Build Configuration",
             "is_code": true,
             "similarity_conceptual": 0.5307999999999999,
@@ -366,7 +366,7 @@
           },
           {
             "index": 2,
-            "href": "/cli/build-and-compilation/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/_chunks/golden-reference-2.md",
             "title": "Build Artifact Management",
             "is_code": true,
             "similarity_conceptual": 0.5359999999999999,
@@ -375,7 +375,7 @@
           },
           {
             "index": 3,
-            "href": "/cli/build-and-compilation/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/_chunks/golden-reference-3.md",
             "title": "Advanced Build Configuration",
             "is_code": false,
             "similarity_conceptual": 0.5551,
@@ -384,7 +384,7 @@
           },
           {
             "index": 4,
-            "href": "/cli/build-and-compilation/_chunks/golden-reference-4.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/_chunks/golden-reference-4.md",
             "title": "NuGet Package Management",
             "is_code": false,
             "similarity_conceptual": 0.5976999999999999,
@@ -393,7 +393,7 @@
           },
           {
             "index": 5,
-            "href": "/cli/build-and-compilation/_chunks/golden-reference-5.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/_chunks/golden-reference-5.md",
             "title": "Build Performance Analysis",
             "is_code": true,
             "similarity_conceptual": 0.5883999999999999,
@@ -405,7 +405,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.5049495Z",
+    "generated": "2025-10-22T19:02:25.7522220Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,

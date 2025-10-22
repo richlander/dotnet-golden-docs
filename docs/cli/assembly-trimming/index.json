@@ -110,32 +110,32 @@
   "_links": {
     "self": {
       "name": "self",
-      "href": "/cli/assembly-trimming/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/index.json",
       "description": "Assembly trimming is a size-reduction optimization for self-contained .NET applications that removes unused code from the application and its dependencies."
     },
     "parent": {
       "name": "parent",
-      "href": "/cli/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/index.json",
       "description": "Cli category containing this topic"
     },
     "topic-spec": {
       "name": "Topic Specification",
-      "href": "/cli/assembly-trimming/topic-spec.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/topic-spec.md",
       "description": "Feature relationship definition including hierarchy, generation hints, and critical limitations"
     },
     "golden-reference": {
       "name": "Golden Reference Document",
-      "href": "/cli/assembly-trimming/golden-reference.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/golden-reference.md",
       "description": "Comprehensive reference document serving as validation baseline with complete conceptual explanation, syntax examples, and ecosystem integration"
     },
     "qa-pairs": {
       "name": "Question \u0026 Answer Pairs",
-      "href": "/cli/assembly-trimming/qa-pairs.md",
+      "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/qa-pairs.md",
       "description": "Structured Q\u0026A content with JSON frontmatter for programmatic access, difficulty levels, and validation methods"
     },
     "related": [
       {
-        "href": "/cli/build-and-compilation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/build-and-compilation/index.json",
         "title": "Build and Compilation",
         "similarity": 0.7217,
         "hashes": {
@@ -152,7 +152,7 @@
         }
       },
       {
-        "href": "/dotnet/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/dotnet/index.json",
         "title": ".NET Platform",
         "similarity": 0.719,
         "hashes": {
@@ -169,7 +169,7 @@
         }
       },
       {
-        "href": "/cli/native-aot/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/native-aot/index.json",
         "title": "Native AOT",
         "similarity": 0.7073,
         "hashes": {
@@ -191,7 +191,7 @@
         }
       },
       {
-        "href": "/cli/publishing-and-deployment/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/publishing-and-deployment/index.json",
         "title": "Publishing and Deployment",
         "similarity": 0.7,
         "authority": {
@@ -216,7 +216,7 @@
         }
       },
       {
-        "href": "/csharp/csharp-14-features/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/csharp/csharp-14-features/index.json",
         "title": "C# 14 Language Features",
         "similarity": 0.6853,
         "hashes": {
@@ -238,7 +238,7 @@
         }
       },
       {
-        "href": "/libraries/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/index.json",
         "title": ".NET Libraries",
         "similarity": 0.6762,
         "authority": {
@@ -258,7 +258,7 @@
         }
       },
       {
-        "href": "/libraries/dotnet-10-library-improvements/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/dotnet-10-library-improvements/index.json",
         "title": ".NET 10 Libraries Features",
         "similarity": 0.6727,
         "hashes": {
@@ -275,7 +275,7 @@
         }
       },
       {
-        "href": "/libraries/collections-performance/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/collections-performance/index.json",
         "title": "Collections Performance",
         "similarity": 0.6662,
         "hashes": {
@@ -292,7 +292,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-source-generation/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-source-generation/index.json",
         "title": "System.Text.Json Source Generation",
         "similarity": 0.6463,
         "hashes": {
@@ -314,7 +314,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json/index.json",
         "title": "System.Text.Json",
         "similarity": 0.6397,
         "hashes": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "href": "/libraries/span-based-string-processing/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/span-based-string-processing/index.json",
         "title": "Span-Based String Processing",
         "similarity": 0.6391,
         "hashes": {
@@ -353,7 +353,7 @@
         }
       },
       {
-        "href": "/libraries/system-text-json-dotnet-10/index.json",
+        "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/libraries/system-text-json-dotnet-10/index.json",
         "title": "System.Text.Json - What\u0027s New in .NET 10",
         "similarity": 0.6362,
         "hashes": {
@@ -392,7 +392,7 @@
         "items": [
           {
             "index": 0,
-            "href": "/cli/assembly-trimming/_chunks/golden-reference-0.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/_chunks/golden-reference-0.md",
             "title": "Overview",
             "is_code": false,
             "similarity_conceptual": 1,
@@ -401,7 +401,7 @@
           },
           {
             "index": 1,
-            "href": "/cli/assembly-trimming/_chunks/golden-reference-1.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/_chunks/golden-reference-1.md",
             "title": "Library Migration Strategies",
             "is_code": true,
             "similarity_conceptual": 0.5577,
@@ -410,7 +410,7 @@
           },
           {
             "index": 2,
-            "href": "/cli/assembly-trimming/_chunks/golden-reference-2.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/_chunks/golden-reference-2.md",
             "title": "Framework Integration",
             "is_code": true,
             "similarity_conceptual": 0.5137999999999999,
@@ -419,7 +419,7 @@
           },
           {
             "index": 3,
-            "href": "/cli/assembly-trimming/_chunks/golden-reference-3.md",
+            "href": "https://raw.githubusercontent.com/richlander/dotnet-golden-docs/main/docs/cli/assembly-trimming/_chunks/golden-reference-3.md",
             "title": "Critical Incompatibilities",
             "is_code": false,
             "similarity_conceptual": 0.5658,
@@ -431,7 +431,7 @@
     }
   },
   "metadata": {
-    "generated": "2025-10-22T17:59:54.4953440Z",
+    "generated": "2025-10-22T19:02:25.7347160Z",
     "generator": "IndexTool/1.0",
     "embedding_model": "Ollama/nomic-embed-text:latest",
     "embedding_dimensions": 768,
